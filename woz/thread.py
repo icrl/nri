@@ -20,7 +20,7 @@ dialog = {
           '8': "How do we do that?", \
           '13': "Nevermind. Please go on.", \
           ######## response to specific solutions #########
-          '3': "Okay now we multiply?",\
+          '3': "Okay now we mul tip ly?",\
           '4': "Okay now we add?", \
           '17': "Green paint?", \
           '19': "Okay so we divide?", \
@@ -103,9 +103,9 @@ if __name__ == '__main__':
     p = subprocess.call(['gnome-terminal', '-x', 'bash', '-c','python adialog.py'])
     while (True): 
         print 'Input choice' 
-        inp = raw_input(u"enter choice: ")
-        if inp == 'Stop': 
-            break
+        inp = raw_input(u"enter choice or \'Stop\' to exit: ")
+        if inp.lower() == 'stop': 
+            exit()
         elif inp == '9' or inp == '16':
             fistYay(inp)
         elif inp == '0':
