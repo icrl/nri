@@ -1,13 +1,25 @@
 import argparse
 import time
 import random
+import sys
 from naoqi import ALProxy
 
 robotIP = 'nico.d.mtholyoke.edu'
 PORT = 9559
 count = 0
-motionProxy  = ALProxy("ALMotion", robotIP, PORT)
-postureProxy = ALProxy("ALRobotPosture", robotIP, PORT)
+try:
+	motionProxy  = ALProxy("ALMotion", robotIP, PORT)
+except Exception,e:
+	print "Could not create proxy to ALMotion"
+	print "Error was: ",e
+	sys.exit(1)
+try:
+	postureProxy = ALProxy("ALRobotPosture", robotIP, PORT)
+except Exception, e:
+	print "Could not create proxy to ALRobotPosture"
+	print "Error was: ", e
+
+
 
 #Stiffens joints, allows for movement when autonomous life is off
 pNames = "Body"
