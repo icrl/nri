@@ -1,5 +1,6 @@
 # wizard GUI
 import nicoController as control
+import time
 
 from Tkinter import *
 
@@ -12,18 +13,39 @@ root.title("Wizard GUI")
 root.geometry("500x465")
 
 def main():
+	# Set up the current time to be able to create the file
+	currtime = time.asctime( time.localtime(time.time()) )[4:16]
+	currtime = currtime.replace(" ", "-")
+	currtime = currtime.replace(":", "")
+	
+	# Create the filename using the date and time
+	filename = "log{}.txt".format(currtime)
 
+	# If the key has dialog associated with it, log it to the file
+	def writeFile(key):
+		if key != "22" and key != "23" and key != "0":
+			currtime = time.asctime( time.localtime(time.time()) )
+			f = open(filename, "a")
+			f.write(currtime + " ")
+			if key.isdigit():
+				f.write(control.dialog[key] + "\n")
+			else:
+				f.write(key + "\n")
+			f.close()
+	
+	# Call the movement/dialog option and then write any dialog to the file
 	def call(code):
 		cmd = str(code)
-		control.sendCmd(cmd) 
-
+		control.sendCmd(cmd)
+		writeFile(cmd)
+	
 	#Buttons for every built-in dialog option
 
 	# greetings
 	greetings = Label(root, text = "Greetings")
 	greetings.grid(row = 0, column = 1)
 
-	b1 = Button(root, text = 'Hi!', command = lambda: call(1), width = 17)
+	b1 = Button(root, text = 'Hello!', command = lambda: call(1), width = 17)
 	b1.grid(row = 1,column = 0)
 
 	b16 = Button(root, text = 'I\'m excited!', command = lambda: call(16), width = 17)

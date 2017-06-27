@@ -12,7 +12,7 @@ except Exception,e:
 
 dialog = {
 	  ########## casual response ##############
-	  '1': "Hi" , \
+	  '1': "Hello!" , \
 	  '16': "Yes I'm very excited.", \
 	  '18': "Okay!", \
 	  ######## prompting the user to go on ############
