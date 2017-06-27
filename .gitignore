@@ -3,3 +3,6 @@
 
 # ignore all .pyc files 
 *.pyc
+
+# ignore any log files that have .txt extensions
+log*.txt
