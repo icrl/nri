@@ -104,12 +104,19 @@ def main():
 	other = Label(root, text = "Other")
 	other.grid(row = 14,column = 1)
 
-	b17 = Button(root, text = 'Green paint?', command = lambda: call(17), width = 17)
-	b17.grid(row = 15,column = 1)
+	#b17 = Button(root, text = 'Green paint?', command = lambda: call(17), width = 17)
+	#b17.grid(row = 15,column = 2)
 
-	# Make Nico turn his head to face forward
+	# Make Nico turn his head 
 	b0 = Button(root, text = "Face forward", command = lambda: call(0), width = 17)
 	b0.grid(row = 15)
+	
+	b22 = Button(root, text = "Turn Head Left", command = lambda: call(22), width = 17)
+	b22.grid(row = 15, column = 1) 
+
+	b23 = Button(root, text = "Turn Head Right", command = lambda: call(23), width = 17)
+	b23.grid(row = 15, column = 2)
+
 
 	# Enter anything for Nico to say
 	eLabel =  Label(root,text = "Enter text:")

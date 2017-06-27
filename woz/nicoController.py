@@ -113,6 +113,10 @@ def sendCmd(inp):
 		shakeHead(inp)
 	elif inp == '10':
 		peace(inp)
+	elif inp == '22':
+		gesture.turnHeadLeft()
+	elif inp == '23':
+		gesture.turnHeadRight()
 	else:
 		other(inp)
 

@@ -2,6 +2,7 @@ import argparse
 import time
 import random
 import sys
+import almath
 from naoqi import ALProxy
 
 robotIP = 'nico.d.mtholyoke.edu'
@@ -55,9 +56,21 @@ def crouch():
 
 #Add YouTube link (this method may become obsolete when autonomous life is off)
 def faceForward():
-	motionProxy.post.angleInterpolationWithSpeed(head, [-0.07674193382263184, -0.2915019989013672], 0.45)
+	motionProxy.post.angleInterpolationWithSpeed(head, [-0.07674193382263184, -0.2915019989013672], 0.15)
 	crouch()
 
+# Turn Nico's head in increments of 15 degrees. Has a failsafe so head doesn't get over-turned. Can be called repeatedly for further rotation.
+def turnHeadLeft():
+	existingAngle = float(str(motionProxy.getAngles("HeadYaw", True))[1:5])
+	if existingAngle < 0.75:
+		newAngle = existingAngle + 15.0*almath.TO_RAD
+		motionProxy.post.angleInterpolationWithSpeed(head, [newAngle, 0.0], 0.15)
+
+def turnHeadRight():
+	existingAngle = float(str(motionProxy.getAngles("HeadYaw", True))[1:5])
+	if existingAngle > -0.75:
+		newAngle = existingAngle - 15.0*almath.TO_RAD
+		motionProxy.post.angleInterpolationWithSpeed(head, [newAngle, 0.0], 0.15)
 
 #shrug and shake head - https://www.youtube.com/watch?v=IkmGZBAMzMA&edit=vd
 def shrug_and_shakehead():
