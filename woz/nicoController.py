@@ -46,50 +46,40 @@ def hello(command_dialog):
     tts.say("Hello")
 
 def yay(command_dialog):
-    #tts = ALProxy("ALTextToSpeech", "nico.d.mtholyoke.edu", 9559)
     gesture.yay()
     tts.say(dialog[command_dialog])
 
 def peace(command_dialog):
-    #tts = ALProxy("ALTextToSpeech", "nico.d.mtholyoke.edu", 9559)
     gesture.peace()
     tts.say(dialog[command_dialog])
 	    
 #I M LOST
 def shrugAndShakeHead(command_dialog):
-    #tts = ALProxy("ALTextToSpeech", "nico.d.mtholyoke.edu", 9559)
-    #tts.say(dialog[command_dialog])
     gesture.shrug_and_shakehead()
     tts.say(dialog[command_dialog])
 
 def oneHandUp(command_dialog):
-    #tts = ALProxy("ALTextToSpeech", "nico.d.mtholyoke.edu", 9559)
-    gesture.one_hand_up()
+    gesture.oneHandUp()
     tts.say(dialog[command_dialog])
 
-#nodding
+#nodding yes
 def nod(command_dialog):
-    #tts = ALProxy("ALTextToSpeech", "nico.d.mtholyoke.edu", 9559)
     gesture.head_yaw()
     tts.say(dialog[command_dialog])
 
 def fistYay(command_dialog):
-    #tts = ALProxy("ALTextToSpeech", "nico.d.mtholyoke.edu", 9559)
     gesture.fistYay()
     tts.say(dialog[command_dialog])
 
-#nodding
+#nodding no
 def shakeHead(command_dialog):
-    #tts = ALProxy("ALTextToSpeech", "nico.d.mtholyoke.edu", 9559)
     gesture.head_pitch()
     tts.say(dialog[command_dialog])
 
 def other(command_dialog):
-    #tts = ALProxy("ALTextToSpeech", "nico.d.mtholyoke.edu", 9559)
     tts.say(command_dialog)
 
 def shrug(command_dialog):
-    #tts = ALProxy("ALTextToSpeech", "nico.d.mtholyoke.edu", 9559)
     gesture.shrug()
     tts.say(dialog[command_dialog])
 
@@ -121,6 +111,5 @@ def sendCmd(inp):
 		other(inp)
 
 '''TODO:
-	Add logging to text file feature.
 	incorporate adialog_new.py
 '''

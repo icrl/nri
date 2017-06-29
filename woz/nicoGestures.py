@@ -54,18 +54,19 @@ head = ["HeadYaw", "HeadPitch"]
 def crouch():
 	postureProxy.post.goToPosture("Crouch", 0.15) 
 
-#Add YouTube link (this method may become obsolete when autonomous life is off)
+#this method may become obsolete when autonomous life is off
 def faceForward():
 	motionProxy.post.angleInterpolationWithSpeed(head, [-0.07674193382263184, -0.2915019989013672], 0.15)
 	crouch()
 
 # Turn Nico's head in increments of 15 degrees. Has a failsafe so head doesn't get over-turned. Can be called repeatedly for further rotation.
+# video (including Face Forward) - https://youtu.be/vwiHzgLqZcY
 def turnHeadLeft():
 	existingAngle = float(str(motionProxy.getAngles("HeadYaw", True))[1:5])
 	if existingAngle < 0.75:
 		newAngle = existingAngle + 15.0*almath.TO_RAD
 		motionProxy.post.angleInterpolationWithSpeed(head, [newAngle, 0.0], 0.15)
-
+# video (including Face Forward) - https://youtu.be/TGJX9x7fodI
 def turnHeadRight():
 	existingAngle = float(str(motionProxy.getAngles("HeadYaw", True))[1:5])
 	if existingAngle > -0.75:
@@ -88,6 +89,7 @@ Old yay - not necessary?
 #def yay():
 #	motionProxy.angleInterpolationWithSpeed(bodyParts, [-0.40041589736938477, -0.6258301734924316, -1.2042322158813477, 0.6841220855712891, 0.3220980167388916, 0.7516000270843506, -0.05373191833496094, 0.8115279674530029, -1.3468101024627686, -0.7793140411376953, 0.1779019832611084, 0.7747999429702759], 0.45)
 
+# https://youtu.be/6yQybFUNlPc
 def fistYay():
 	motionProxy.post.angleInterpolationWithSpeed(fullBody, [0.16256213, -0.3359880447, -1.033957, -1.1013700962, 0.725540161132, -0.3141592741012, -0.845275, 0.7480000257, 1.3544800281, 0.49552392, 1.544779777526, -0.001575946807, 0.187106132, 0.7719999551773071], 0.45)
 	crouch()
@@ -120,18 +122,15 @@ def head_pitch():
 	motionProxy.post.angleInterpolation(head, [0.0, 0.0], times, True)
 	crouch()
 
-#Raises hand (will add YouTube link once filmed)
-def one_hand_up():
+#Raises hand - https://youtu.be/Xb228W3l3C4
+def oneHandUp():
 	motionProxy.post.angleInterpolationWithSpeed(bodyParts, [-1.2901358604, -0.627364158, 0.547595977, 0.13648414, -1.638353, 0.8051999807, 1.3284020, 0.4955239295, 1.4711480140, 0.0014920234, 0.187106132, 0.7919999957084656], 0.45)
 	crouch()
 
-#Will add YouTube link once filmed
+# https://youtu.be/BcgxWY9eHYk
 def peace():
 	motionProxy.post.angleInterpolationWithSpeed(bodyParts, [-1.75033, -1.33914005756, -0.220937, 0.010695934, 1.0890979, 0.805199, 1.357548117637, 0.55995202, 1.543245792, 0.013764142990, 0.187106132, 0.7919999957084656], 0.45)
 	crouch()
-
-
-
 
 #Below are notes and maximum values (I think), as well as respective videos 
 '''
