@@ -52,12 +52,11 @@ head = ["HeadYaw", "HeadPitch"]
 
 #Crouch - called to return Nico to a neutral stance
 def crouch():
-	postureProxy.post.goToPosture("Crouch", 0.15) 
+	postureProxy.post.goToPosture("Crouch", 0.5) 
 
 #this method may become obsolete when autonomous life is off
 def faceForward():
 	motionProxy.post.angleInterpolationWithSpeed(head, [-0.07674193382263184, -0.2915019989013672], 0.15)
-	crouch()
 
 # Turn Nico's head in increments of 15 degrees. Has a failsafe so head doesn't get over-turned. Can be called repeatedly for further rotation.
 # video (including Face Forward) - https://youtu.be/vwiHzgLqZcY
@@ -130,6 +129,241 @@ def oneHandUp():
 # https://youtu.be/BcgxWY9eHYk
 def peace():
 	motionProxy.post.angleInterpolationWithSpeed(bodyParts, [-1.75033, -1.33914005756, -0.220937, 0.010695934, 1.0890979, 0.805199, 1.357548117637, 0.55995202, 1.543245792, 0.013764142990, 0.187106132, 0.7919999957084656], 0.45)
+	crouch()
+
+
+# These gestures are from Sam's fluid motions code.
+
+def waveRight2():
+	names = ["HeadYaw", "HeadPitch",
+	       "LShoulderPitch", "LShoulderRoll", "LElbowYaw", "LElbowRoll","LWristYaw", "LHand",
+	       "RShoulderPitch", "RShoulderRoll", "RElbowYaw", "RElbowRoll", "RWristYaw", "RHand"]
+	angleLists  = [[0.0*almath.TO_RAD],
+	             [0.0*almath.TO_RAD],
+	             
+	             [80.0*almath.TO_RAD],
+	             [6.5*almath.TO_RAD],
+	             [-46.8*almath.TO_RAD],
+	             [-57.8*almath.TO_RAD],
+	             [7.6*almath.TO_RAD],
+	             [0],
+	             
+	             [2.3*almath.TO_RAD],
+	             [-18.9*almath.TO_RAD],
+	             [73.5*almath.TO_RAD, 112.5*almath.TO_RAD, 73.5*almath.TO_RAD, 112.5*almath.TO_RAD],
+	             [86.2*almath.TO_RAD],
+	             [-66.8*almath.TO_RAD],
+	             [1]]
+
+
+	timeLists   = [[0.5],
+	             [0.5],
+	             
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             
+	             [0.5],
+	             [0.5],
+	             [0.5, 1.0, 1.5, 2.0],
+	             [0.5],
+	             [0.5],
+	             [0.5]]
+
+	isAbsolute  = True
+	# the post is so it happens at the same time as the speech
+	motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
+	## tts.say("Hello! Nice to meet you.")
+	time.sleep(1.0)
+	crouch()
+
+def handsOnHips():
+	names = ["HeadYaw", "HeadPitch",
+	       "LShoulderPitch", "LShoulderRoll", "LElbowYaw", "LElbowRoll","LWristYaw", "LHand",
+	       "RShoulderPitch", "RShoulderRoll", "RElbowYaw", "RElbowRoll", "RWristYaw", "RHand"]
+	angleLists  = [[0.0*almath.TO_RAD],
+	             [0.0*almath.TO_RAD],
+	             
+	             [75.0*almath.TO_RAD],
+	             [27.0*almath.TO_RAD],
+	             [-5.8*almath.TO_RAD],
+	             [-86.8*almath.TO_RAD],
+	             [0.6*almath.TO_RAD],
+	             [0],
+	             
+	             [84.0*almath.TO_RAD],
+	             [-29.9*almath.TO_RAD],
+	             [18.5*almath.TO_RAD],
+	             [79.2*almath.TO_RAD],
+	             [1.8*almath.TO_RAD],
+	             [0]]
+
+	              
+
+	#*almath.TO_RAD
+	timeLists   = [[0.5],
+	             [0.5],
+	             
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5]]
+	isAbsolute  = True
+	# the post is so it happens at the same time as the speech
+	motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
+	## tts.say("I think I know what to do!")
+	time.sleep(1.0)
+	crouch()
+
+def largeShrug():
+	names = ["HeadYaw", "HeadPitch",
+	       "LShoulderPitch", "LShoulderRoll", "LElbowYaw", "LElbowRoll","LWristYaw", "LHand",
+	       "RShoulderPitch", "RShoulderRoll", "RElbowYaw", "RElbowRoll", "RWristYaw", "RHand"]
+	angleLists  = [[0.0*almath.TO_RAD],
+	             [0.0*almath.TO_RAD],
+	             
+	             [65.0*almath.TO_RAD, 65.0*almath.TO_RAD],
+	             [-4.0*almath.TO_RAD, -4.0*almath.TO_RAD],
+	             [-119.8*almath.TO_RAD, -119.8*almath.TO_RAD],
+	             [-79.8*almath.TO_RAD, -79.8*almath.TO_RAD],
+	             [-49.6*almath.TO_RAD, -49.6*almath.TO_RAD],
+	             [1],
+	             
+	             [65.0*almath.TO_RAD, 65.0*almath.TO_RAD],
+	             [4.0*almath.TO_RAD, 4.0*almath.TO_RAD],
+	             [119.8*almath.TO_RAD, 119.8*almath.TO_RAD],
+	             [79.8*almath.TO_RAD, 79.8*almath.TO_RAD],
+	             [49.6*almath.TO_RAD, 49.6*almath.TO_RAD],
+	             [1]]
+
+	              
+
+	#*almath.TO_RAD
+	timeLists   = [[0.5],
+	             [0.5],
+	             
+	             [0.5, 1.5],
+	             [0.5, 1.5],
+	             [0.5, 1.5],
+	             [0.5, 1.5],
+	             [0.5, 1.5],
+	             [0.5],
+
+	             [0.5, 1.5],
+	             [0.5, 1.5],
+	             [0.5, 1.5],
+	             [0.5, 1.5],
+	             [0.5, 1.5],
+	             [0.5]]
+
+	isAbsolute  = True
+	# the post is so it happens at the same time as the speech
+	motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
+	## tts.say("I don't know how to solve it")
+	time.sleep(1.0)
+	crouch()
+
+def handOutLeft():
+	names = ["HeadYaw", "HeadPitch",
+	       "LShoulderPitch", "LShoulderRoll", "LElbowYaw", "LElbowRoll","LWristYaw", "LHand",
+	       "RShoulderPitch", "RShoulderRoll", "RElbowYaw", "RElbowRoll", "RWristYaw", "RHand"]
+	angleLists  = [[0.0*almath.TO_RAD],
+	             [0.0*almath.TO_RAD],
+	             
+	             [62.1*almath.TO_RAD],
+	             [-1.2*almath.TO_RAD],
+	             [-110.7*almath.TO_RAD],
+	             [-49.2*almath.TO_RAD],
+	             [-69.8*almath.TO_RAD],
+	             [1],
+	             
+	             [80.7*almath.TO_RAD],
+	             [0.2*almath.TO_RAD],
+	             [54.8*almath.TO_RAD],
+	             [49.6*almath.TO_RAD],
+	             [4.3*almath.TO_RAD],
+	             [0]]
+
+	timeLists   = [[0.5],
+	             [0.5],
+	             
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [1.5],
+	             
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5]]
+
+	isAbsolute  = True
+	# the post is so it happens at the same time as the speech
+	motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
+	## tts.say("She ran three kilometers")
+	time.sleep(1.0)
+	crouch()
+
+def handOutRight():
+	names = ["HeadYaw", "HeadPitch",
+	       "LShoulderPitch", "LShoulderRoll", "LElbowYaw", "LElbowRoll","LWristYaw", "LHand",
+	       "RShoulderPitch", "RShoulderRoll", "RElbowYaw", "RElbowRoll", "RWristYaw", "RHand"]
+	angleLists  = [[0.0*almath.TO_RAD],
+	             [0.0*almath.TO_RAD],
+	             
+	             [79.8*almath.TO_RAD],
+	             [5.1*almath.TO_RAD],
+	             [-52.5*almath.TO_RAD],
+	             [-46.8*almath.TO_RAD],
+	             [-26.6*almath.TO_RAD],
+	             [0],
+	             
+	             [66.5*almath.TO_RAD],
+	             [4.5*almath.TO_RAD],
+	             [109.5*almath.TO_RAD],
+	             [66.1*almath.TO_RAD],
+	             [71.8*almath.TO_RAD],
+	             [1]]
+
+	#*almath.TO_RAD
+	timeLists   = [[0.5],
+	             [0.5],
+	             
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [1.5],
+	             
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5]]
+
+	isAbsolute  = True
+	# the post is so it happens at the same time as the speech
+	motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
+	## tts.say("So in 18 minutes she will be 6 kilometers away.")
+	time.sleep(1.0)
 	crouch()
 
 #Below are notes and maximum values (I think), as well as respective videos 
