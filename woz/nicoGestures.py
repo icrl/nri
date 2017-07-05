@@ -366,6 +366,51 @@ def handOutRight():
 	time.sleep(1.0)
 	crouch()
 
+def handOutRight2():
+	names = ["HeadYaw", "HeadPitch",
+	       "LShoulderPitch", "LShoulderRoll", "LElbowYaw", "LElbowRoll","LWristYaw", "LHand",
+	       "RShoulderPitch", "RShoulderRoll", "RElbowYaw", "RElbowRoll", "RWristYaw", "RHand"]
+	angleLists  = [[0.0*almath.TO_RAD],
+	             [0.0*almath.TO_RAD],
+	             
+	             [80.0*almath.TO_RAD],
+	             [6.5*almath.TO_RAD],
+	             [-46.8*almath.TO_RAD],
+	             [-57.8*almath.TO_RAD],
+	             [7.6*almath.TO_RAD],
+	             [0],
+	             
+	             [32.5*almath.TO_RAD, 62.1*almath.TO_RAD],
+	             [-8.3*almath.TO_RAD, 1.2*almath.TO_RAD],
+	             [95.5*almath.TO_RAD, 110.7*almath.TO_RAD],
+	             [76.6*almath.TO_RAD, 69.2*almath.TO_RAD],
+	             [79.4*almath.TO_RAD, 69.8*almath.TO_RAD],
+	             [0, 1]]
+
+	timeLists   = [[0.5],
+	             [0.5],
+	             
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+	             [0.5],
+
+	             [0.5, 1.5],
+	             [0.5, 1.5],
+	             [0.5, 1.5],
+	             [0.5, 1.5],
+	             [0.5, 1.5],
+	             [0.5, 1.5]]
+
+	isAbsolute  = True
+	# the post is so it happens at the same time as the speech
+	motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
+	## tts.say("So in 18 minutes she will be 6 kilometers away.")
+	time.sleep(1.0)
+	crouch()
+
 
 def handOnChestLeft():
       names = ["HeadYaw", "HeadPitch",
@@ -462,49 +507,49 @@ def handOnChestRight():
       crouch()
 
 def cheering():
-      names = ["HeadYaw", "HeadPitch",
-               "LShoulderPitch", "LShoulderRoll", "LElbowYaw", "LElbowRoll","LWristYaw", "LHand",
-               "RShoulderPitch", "RShoulderRoll", "RElbowYaw", "RElbowRoll", "RWristYaw", "RHand"]
-      angleLists  = [[0.0*almath.TO_RAD],
-                     [0.0*almath.TO_RAD],
+	names = ["HeadYaw", "HeadPitch",
+	       "LShoulderPitch", "LShoulderRoll", "LElbowYaw", "LElbowRoll","LWristYaw", "LHand",
+	       "RShoulderPitch", "RShoulderRoll", "RElbowYaw", "RElbowRoll", "RWristYaw", "RHand"]
+	angleLists  = [[0.0*almath.TO_RAD],
+	             [-11.5*almath.TO_RAD],
 
-                     [56.2*almath.TO_RAD],
-                     [-9.9*almath.TO_RAD, -18.0*almath.TO_RAD],
-                     [-60.9*almath.TO_RAD, -65.9*almath.TO_RAD],
-                     [-88.5*almath.TO_RAD],
-                     [5.7*almath.TO_RAD],
-                     [0, 1],
-                     
-                     [60.7*almath.TO_RAD],
-                     [18.0*almath.TO_RAD, 11.9*almath.TO_RAD],
-                     [66.7*almath.TO_RAD, 62.7*almath.TO_RAD],
-                     [88.5*almath.TO_RAD],
-                     [-21.8*almath.TO_RAD],
-                     [0, 1]]
+	             [-40.5*almath.TO_RAD, -62.3*almath.TO_RAD, -40.5*almath.TO_RAD, -62.3*almath.TO_RAD],
+	             [47.9*almath.TO_RAD, 14.7*almath.TO_RAD, 47.9*almath.TO_RAD, 14.7*almath.TO_RAD],
+	             [-54.4*almath.TO_RAD, -60.4*almath.TO_RAD, -54.4*almath.TO_RAD, -60.4*almath.TO_RAD],
+	             [-83.7*almath.TO_RAD, -54.9*almath.TO_RAD, -83.7*almath.TO_RAD, -54.9*almath.TO_RAD],
+	             [-37.7*almath.TO_RAD, -37.1*almath.TO_RAD, -37.7*almath.TO_RAD, -37.1*almath.TO_RAD],
+	             [0],
+	             
+	             [-22.0*almath.TO_RAD, -62.3*almath.TO_RAD, -22.0*almath.TO_RAD, -62.3*almath.TO_RAD],
+	             [-48.5*almath.TO_RAD, -14.7*almath.TO_RAD, -48.5*almath.TO_RAD, -14.7*almath.TO_RAD],
+	             [64.5*almath.TO_RAD, 60.4*almath.TO_RAD, 64.5*almath.TO_RAD, 60.4*almath.TO_RAD],
+	             [88.7*almath.TO_RAD, 54.9*almath.TO_RAD, 88.7*almath.TO_RAD, 54.9*almath.TO_RAD],
+	             [37.9*almath.TO_RAD, 37.1*almath.TO_RAD, 37.9*almath.TO_RAD, 37.1*almath.TO_RAD],
+	             [0]]
 
-      timeLists   = [[0.5],
-                     [0.5],
-                     
-                     [0.5],
-                     [0.5, 1.5],
-                     [0.5, 1.5],
-                     [0.5],
-                     [0.5],
-                     [0.5, 1.0],
-                     
-                     [0.5],
-                     [0.5, 1.5],
-                     [0.5, 1.5],
-                     [0.5],
-                     [0.5],
-                     [0.5, 1.0]]
-      
-      isAbsolute  = True
-      # the post is so it happens at the same time as the speech
-      motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
-      ## tts.say("We did it!")
-      time.sleep(1.0)
-      crouch()
+	timeLists   = [[0.5],
+	             [0.5],
+	             
+	             [1.0, 1.5, 2.0, 2.5],
+	             [1.0, 1.5, 2.0, 2.5],
+	             [1.0, 1.5, 2.0, 2.5],
+	             [1.0, 1.5, 2.0, 2.5],
+	             [1.0, 1.5, 2.0, 2.5],
+	             [0.5],
+	             
+	             [1.0, 1.5, 2.0, 2.5],
+	             [1.0, 1.5, 2.0, 2.5],
+	             [1.0, 1.5, 2.0, 2.5],
+	             [1.0, 1.5, 2.0, 2.5],
+	             [1.0, 1.5, 2.0, 2.5],
+	             [0.5]]
+
+	isAbsolute  = True
+	# the post is so it happens at the same time as the speech
+	motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
+	## tts.say("We did it!")
+	time.sleep(1.0)
+	crouch()
 
 def lookAtNailsLeft():
       names = ["HeadYaw", "HeadPitch",
