@@ -77,7 +77,7 @@ def shrug_and_shakehead():
 	motionProxy.post.angleInterpolationWithSpeed(headAndBody, [-0.5, -2.0856685638427734, -1.0139319896697998, 1.0660879611968994, 0.5874800682067871,-1.6828398704528809, 0.8079999685287476, 2.0856685638427734, 0.9158401489257812, 0.8744220733642578,-0.2055978775024414, 1.5109480619430542,0.795199990272522], 0.45)
 	motionProxy.post.angleInterpolationWithSpeed(headAndBody, [0.5, -2.0856685638427734, -1.0139319896697998, 1.0660879611968994, 0.5874800682067871,-1.6828398704528809, 0.8079999685287476, 2.0856685638427734, 0.9158401489257812, 0.8744220733642578,-0.2055978775024414, 1.5109480619430542,0.795199990272522], 0.45)
 	motionProxy.post.angleInterpolationWithSpeed(headAndBody, [0.0, -1.1965618133544922, -0.650373935, 1.520152091, 0.193242073059, 0.08279395103454, 0.8047999739646, 1.34374213218688, 0.536942005157, 1.47728395462, -0.158043861389, 0.156425952911376, 0.7919999957084656], 0.45)
-	crouch()
+	# crouch()
 
 
 
@@ -91,27 +91,27 @@ Old yay - not necessary?
 # https://youtu.be/6yQybFUNlPc
 def fistYay():
 	motionProxy.post.angleInterpolationWithSpeed(fullBody, [0.16256213, -0.3359880447, -1.033957, -1.1013700962, 0.725540161132, -0.3141592741012, -0.845275, 0.7480000257, 1.3544800281, 0.49552392, 1.544779777526, -0.001575946807, 0.187106132, 0.7719999551773071], 0.45)
-	crouch()
+	# crouch()
 
 
 #Shrugging - https://www.youtube.com/watch?v=NzedmtWZlUs
 def shrug():
 	motionProxy.post.angleInterpolationWithSpeed(bodyParts, [-2.0856685638427734, -1.0139319896697998, 1.0660879611968994, 0.5874800682067871,-1.6828398704528809, 0.8079999685287476, 2.0856685638427734, 0.9158401489257812, 0.8744220733642578,-0.2055978775024414, 1.5109480619430542,0.795199990272522], 0.45)
-	crouch()
+	# crouch()
 
 #Waving hands - https://www.youtube.com/watch?v=WZByH9MK6k0
 def wave_hand(): 
 	for i in range(2):
 		motionProxy.post.angleInterpolationWithSpeed(bodyParts, [-2.0856685638427734, -0.817579984664917, 1.7395141124725342, -0.010779857635498047, -1.5831298828125, 0.8079999685287476, 0.7117340564727783, 1.4005842208862305, -0.6948599815368652, -0.7210218906402588, -0.257753849029541, 0.795199990272522], 0.45)
 		motionProxy.post.angleInterpolationWithSpeed(bodyParts, [-2.0856685638427734, -0.817579984664917, 1.7379801273345947, -0.01077985763549, -1.5831298828, 0.80799996852, 0.7055981159, 0.7624399662017, -0.67952013015747, -1.09071588516, -0.2608220577, 0.795199990272522], 0.45)
-	crouch()
+	# crouch()
 
 #Head Yaw (Nodding - up and down) https://www.youtube.com/watch?v=omMlTgr6xJY
 def head_yaw(): 
 	for i in range(2):
 		motionProxy.post.angleInterpolation(head, [0.0, -0.3], times, True)
 		motionProxy.post.angleInterpolation(head, [0.0, 0.2], times, True)
-	crouch()
+	# crouch()
 
 #Head Pitch (Shaking - left and right) https://www.youtube.com/watch?v=s54Vg4sfawE
 def head_pitch(): 
@@ -119,17 +119,17 @@ def head_pitch():
 		motionProxy.post.angleInterpolation(head, [-0.6, 0.0], times, True)
 		motionProxy.post.angleInterpolation(head, [0.6, 0.0], times, True)
 	motionProxy.post.angleInterpolation(head, [0.0, 0.0], times, True)
-	crouch()
+	# crouch()
 
 #Raises hand - https://youtu.be/Xb228W3l3C4
 def oneHandUp():
 	motionProxy.post.angleInterpolationWithSpeed(bodyParts, [-1.2901358604, -0.627364158, 0.547595977, 0.13648414, -1.638353, 0.8051999807, 1.3284020, 0.4955239295, 1.4711480140, 0.0014920234, 0.187106132, 0.7919999957084656], 0.45)
-	crouch()
+	# crouch()
 
 # https://youtu.be/BcgxWY9eHYk
 def peace():
 	motionProxy.post.angleInterpolationWithSpeed(bodyParts, [-1.75033, -1.33914005756, -0.220937, 0.010695934, 1.0890979, 0.805199, 1.357548117637, 0.55995202, 1.543245792, 0.013764142990, 0.187106132, 0.7919999957084656], 0.45)
-	crouch()
+	# crouch()
 
 
 # These gestures are from Sam's fluid motions code.
@@ -178,7 +178,7 @@ def waveRight2():
 	motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
 	## tts.say("Hello! Nice to meet you.")
 	time.sleep(1.0)
-	crouch()
+	# crouch()
 
 def handsOnHips():
 	names = ["HeadYaw", "HeadPitch",
@@ -225,7 +225,7 @@ def handsOnHips():
 	motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
 	## tts.say("I think I know what to do!")
 	time.sleep(1.0)
-	crouch()
+	# crouch()
 
 def largeShrug():
 	names = ["HeadYaw", "HeadPitch",
@@ -273,7 +273,7 @@ def largeShrug():
 	motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
 	## tts.say("I don't know how to solve it")
 	time.sleep(1.0)
-	crouch()
+	# crouch()
 
 def handOutLeft():
 	names = ["HeadYaw", "HeadPitch",
@@ -318,7 +318,7 @@ def handOutLeft():
 	motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
 	## tts.say("She ran three kilometers")
 	time.sleep(1.0)
-	crouch()
+	# crouch()
 
 def handOutRight():
 	names = ["HeadYaw", "HeadPitch",
@@ -364,7 +364,7 @@ def handOutRight():
 	motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
 	## tts.say("So in 18 minutes she will be 6 kilometers away.")
 	time.sleep(1.0)
-	crouch()
+	# crouch()
 
 def handOutRight2():
 	names = ["HeadYaw", "HeadPitch",
@@ -409,7 +409,7 @@ def handOutRight2():
 	motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
 	## tts.say("So in 18 minutes she will be 6 kilometers away.")
 	time.sleep(1.0)
-	crouch()
+	# crouch()
 
 
 def handOnChestLeft():
@@ -457,7 +457,7 @@ def handOnChestLeft():
       motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
       ## tts.say("I think I know the answer!")
       time.sleep(1.0)
-      crouch()
+      # crouch()
 
 def handOnChestRight():
       names = ["HeadYaw", "HeadPitch",
@@ -504,7 +504,7 @@ def handOnChestRight():
       motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
       ## tts.say("I think I know the answer!")
       time.sleep(1.0)
-      crouch()
+      # crouch()
 
 def cheering():
 	names = ["HeadYaw", "HeadPitch",
@@ -549,7 +549,7 @@ def cheering():
 	motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
 	## tts.say("We did it!")
 	time.sleep(1.0)
-	crouch()
+	# crouch()
 
 def lookAtNailsLeft():
       names = ["HeadYaw", "HeadPitch",
@@ -594,7 +594,7 @@ def lookAtNailsLeft():
       motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
       ## tts.say("hum")
       time.sleep(1.0)
-      crouch()
+      # crouch()
 
 
 
@@ -640,7 +640,7 @@ def lookAtNailsRight():
       motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
       ## tts.say("hum")
       time.sleep(1.0)
-      crouch()
+      # crouch()
 
 def nodYes():
       names = ["HeadYaw", "HeadPitch",
