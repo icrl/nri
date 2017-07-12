@@ -10,7 +10,7 @@ root = Tk()
 #modify root window
 root.title("Wizard GUI")
 #sets the width/height of window
-root.geometry("655x600")
+root.geometry("500x600")
 
 def main():
 	#-------------Logging Setup-------------
@@ -44,92 +44,68 @@ def main():
 		control.sendCmd(cmd)
 		writeFile(cmd)
 	
-	#------------- Button Entry Options-------------
+	menubar = Menu(root)
+
+	#-------------Menu Bar Controls-------------
+
+	# Introduction
+	intromenu = Menu(menubar, tearoff = 0)
+	intromenu.add_command(label = 'Hello!', command = lambda: call(1))
+	intromenu.add_command(label = 'I\'m ready to learn!', command = lambda: call(2))
+	intromenu.add_command(label = 'What are we solving?', command = lambda: call(3))
+	intromenu.add_command(label = 'I want to solve this.', command = lambda: call(4))
+	menubar.add_cascade(label = "Introduction", menu = intromenu)
+
+	# Confirmation
+	confmenu = Menu(menubar)
+	confmenu.add_command(label = 'Okay!', command = lambda: call(5))
+	confmenu.add_command(label = 'Yes.', command = lambda: call(6))
+	confmenu.add_command(label = 'Yes, I agree.', command = lambda: call(7))
+	menubar.add_cascade(label = "Confirmation", menu = confmenu)
+
+	# Asking Questions
+	qmenu = Menu(menubar)
+	qmenu.add_command(label = 'How do we solve this?', command = lambda: call(8))
+	qmenu.add_command(label = 'What\'s next?', command = lambda: call(9))
+	qmenu.add_command(label = 'How do we do that?', command = lambda: call(10))
+	qmenu.add_command(label = 'More information?', command = lambda: call(11))
+	qmenu.add_command(label = 'Is this correct?', command = lambda: call(15))
+	qmenu.add_separator()
+	qmenu.add_command(label ='Now we add?', command = lambda: call(13))
+	qmenu.add_command(label = 'Now we multiply?', command = lambda: call(12))
+	qmenu.add_command(label = 'Now we divide?', command = lambda: call(14))
+	menubar.add_cascade(label = "Questions", menu = qmenu)
+
+	# Confusion
+	confusemenu = Menu(menubar, tearoff = 0)
+	confusemenu.add_command(label = 'How\'d we get that?', command = lambda: call(16))
+	confusemenu.add_command(label = 'Break that down?', command = lambda: call(17))
+	confusemenu.add_command(label = 'Seems complicated.', command = lambda: call(18))
+	confusemenu.add_command(label = 'Don\'t know. Hints?', command = lambda: call(19))
+	menubar.add_cascade(label = 'Confusion', menu = confusemenu)
+
+	# Ending/Understanding
+	endmenu = Menu(menubar, tearoff = 0)
+	endmenu.add_command(label = 'I understand now.', command = lambda: call(20))
+	endmenu.add_command(label = 'Think it\'s correct.', command = lambda: call(21))
+	qmenu.add_separator()
+	endmenu.add_command(label = 'Solved the problem!', command = lambda: call(22))
+	endmenu.add_command(label = 'Thank you!', command = lambda: call(23))
+	endmenu.add_command(label = 'Getting tired. Later?', command = lambda: call(24))
+	menubar.add_cascade(label = "Ending", menu = endmenu)
+
+	# What We Know
+	knowmenu = Menu(menubar, tearoff = 0)
+	knowmenu.add_command(label = 'I know running.', command = lambda: call(25))
+	knowmenu.add_command(label = 'I know painting.', command = lambda: call(26))
+	menubar.add_cascade(label = "I know...", menu = knowmenu)
+
+	root.config(menu=menubar)
+
+	#------------- Button Control Options-------------
 
 	buttons = Frame(root, width = 655, height = 365, pady = 3)
 	buttons.grid(row =0, sticky = "nsew")
-
-	# Introduction
-	intro = Label(buttons, text = "Introduction")
-	b1 = Button(buttons, text = 'Hello!', command = lambda: call(1), width = 17, bg = "lavender")
-	b2 = Button(buttons, text = 'I\'m ready to learn!', command = lambda: call(2), width = 17, bg = "lavender")
-	b3 = Button(buttons, text = 'What are we solving?', command = lambda: call(3), width = 17, bg = "lavender")
-	b4 = Button(buttons, text = 'I want to solve this.', command = lambda: call(4), width = 17, bg = "lavender")
-	
-	intro.grid(row = 0, columnspan = 4)
-	b1.grid(row = 1)
-	b2.grid(row = 1, column = 1)
-	b3.grid(row = 1, column = 2)
-	b4.grid(row = 1, column = 3)
-
-	# Confirmation
-	confirm = Label(buttons, text = "Confirmation")
-	b5 = Button(buttons, text = 'Okay!', command = lambda: call(5), width = 17, bg = "misty rose")
-	b6 = Button(buttons, text = 'Yes.', command = lambda: call(6), width = 17, bg = "misty rose")
-	b7 = Button(buttons, text = 'Yes, I agree.', command = lambda: call(7), width = 17, bg = "misty rose")
-
-	confirm.grid(row = 2, columnspan = 4)
-	b5.grid(row = 3)
-	b6.grid(row = 3, column = 1)
-	b7.grid(row = 3, column = 2)
-
-	# Asking Questions
-	question = Label(buttons, text = "Asking Questions")
-	b8 = Button(buttons, text = 'How do we solve this?', command = lambda: call(8), width = 17, bg = "mint cream")
-	b9 = Button(buttons, text = 'What\'s next?', command = lambda: call(9), width = 17, bg = "mint cream")
-	b10 = Button(buttons, text = 'How do we do that?', command = lambda: call(10), width = 17, bg = "mint cream")
-	b11 = Button(buttons, text = 'More information?', command = lambda: call(11), width = 17, bg = "mint cream")
-	b12 = Button(buttons, text = 'Now we multiply?', command = lambda: call(12), width = 17, bg = "mint cream")
-	b13 = Button(buttons, text = 'Now we add?', command = lambda: call(13), width = 17, bg = "mint cream")
-	b14 = Button(buttons, text = 'Now we divide?', command = lambda: call(14), width = 17, bg = "mint cream")
-	b15 = Button(buttons, text = 'Is this correct?', command = lambda: call(15), width = 17, bg = "mint cream")
-
-	question.grid(row = 4, columnspan = 4)
-	b8.grid(row = 5)
-	b9.grid(row = 5, column = 1)
-	b10.grid(row = 5, column = 2)
-	b11.grid(row = 5, column = 3)
-	b12.grid(row = 6)
-	b13.grid(row = 6, column = 1)
-	b14.grid(row = 6, column = 2)
-	b15.grid(row = 6, column = 3)
-
-	# Confusion
-	confuse = Label(buttons, text = "Confusion")
-	b16 = Button(buttons, text = 'How\'d we get that?', command = lambda: call(16), width = 17, bg = "light yellow")
-	b17 = Button(buttons, text = 'Break that down?', command = lambda: call(17), width = 17, bg = "light yellow")
-	b18 = Button(buttons, text = 'Seems complicated.', command = lambda: call(18), width = 17, bg = "light yellow")
-	b19 = Button(buttons, text = 'Don\'t know. Hints?', command = lambda: call(19), width = 17, bg = "light yellow")
-
-	confuse.grid(row = 7, columnspan = 4)
-	b16.grid(row = 8)
-	b17.grid(row = 8, column = 1)
-	b18.grid(row = 8, column = 2)
-	b19.grid(row = 8, column = 3)
-
-	# Ending/Understanding
-	ending = Label(buttons, text = "End/Understand")
-	b20 = Button(buttons, text = 'I understand now.', command = lambda: call(20), width = 17, bg = "light cyan")
-	b21 = Button(buttons, text = 'Think it\'s correct.', command = lambda: call(21), width = 17, bg = "light cyan")
-	b22 = Button(buttons, text = 'Solved the problem!', command = lambda: call(22), width = 17, bg = "light cyan")
-	b23 = Button(buttons, text = 'Thank you!', command = lambda: call(23), width = 17, bg = "light cyan")
-	b24 = Button(buttons, text = 'Getting tired. Later?', command = lambda: call(24), width = 17, bg = "light cyan")
-
-	ending.grid(row = 9, columnspan = 4)
-	b20.grid(row = 10)
-	b21.grid(row = 10, column = 1)
-	b22.grid(row = 10, column = 2)
-	b23.grid(row = 10, column = 3)
-	b24.grid(row = 11)
-
-	# What We Know
-	know = Label(buttons, text = "What We Know")
-	b25 = Button(buttons, text = 'I know running.', command = lambda: call(25), width = 17, bg = "wheat")
-	b26 = Button(buttons, text = 'I know painting.', command = lambda: call(26), width = 17, bg = "wheat")
-
-	know.grid(row = 11, column = 1)
-	b25.grid(row = 11, column = 2)
-	b26.grid(row = 11, column = 3)
 
 	# Make Nico turn his head 
 	turns = Label(buttons, text = "Turn Head")
@@ -137,10 +113,10 @@ def main():
 	left = Button(buttons, text = "Turn Head Left", command = lambda: call(27), width = 17, bg = "peach puff")
 	right = Button(buttons, text = "Turn Head Right", command = lambda: call(28), width = 17, bg = "peach puff")
 
-	turns.grid(row = 12)
-	forward.grid(row = 12, column = 1)
-	left.grid(row = 12, column = 2)
-	right.grid(row = 12, column = 3)
+	turns.grid(row = 0, columnspan = 3)
+	forward.grid(row = 1)
+	left.grid(row = 1, column = 1)
+	right.grid(row = 1, column = 2)
 
 	#------------- Text entry options -------------
 	textop = Frame(root, width = 655, height = 100, pady = 3)
