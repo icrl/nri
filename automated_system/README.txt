@@ -22,15 +22,10 @@ Step 3. Update web.config with name of local SQL server and user
 
 Trouble-shooting for SQL user access: 
 * Make sure Default DB set to NicoDB
-* 
-Under security in properties of the server, set to allow SQL Server Authentication and Windows Authentication
-* 
-Add port 1433 allowable through the Windows Firewall (advanced settings)
-* 
-Make sure SQL database is allowed through the Windows firewall
-* Search for and open SQLServerManager13.msc (this is the configuration manager). 
-From the configuration manager restart the server after each of the following changes: (a) From the configuration manager enable all protocols for SQLExpress under SQL server network configuration
-. (b) From the configuration manager under TCP/IP protocol change tcp ip port for IPAll to 1433. (c) From the configuration manager under TCP/IP protocol remove number of tcpip dynamic ports.
+* Under security in properties of the server, set to allow SQL Server Authentication and Windows Authentication
+* Add port 1433 allowable through the Windows Firewall (advanced settings)
+* Make sure SQL database is allowed through the Windows firewall
+* Search for and open SQLServerManager13.msc (this is the configuration manager). From the configuration manager restart the server after each of the following changes: (a) From the configuration manager enable all protocols for SQLExpress under SQL server network configuration. (b) From the configuration manager under TCP/IP protocol change tcp ip port for IPAll to 1433. (c) From the configuration manager under TCP/IP protocol remove number of tcpip dynamic ports.
 * In the web.config, set the server name to local 127.0.0.1
 
 -------------------------------------------------
