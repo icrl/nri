@@ -1,0 +1,5 @@
+This code contains the UI for the wizard of oz. The 'wizard' can use it to update Nico's 'answers'.
+
+This code is currently available on the site dragontech.software. Once logged in, the wizard can access the UpdateNicoAnswer.aspx page to trigger Nico's answers.
+
+To run this code, you will need Visual Studio (Community Express edition is fine). 
