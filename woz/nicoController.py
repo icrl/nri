@@ -20,10 +20,12 @@ dialog = {
 	'5': "Okay!",
 	'6': "Yes!",
 	'7': "Yes, I agree.",
+	'29': "Please tap the, next, button for me so we can go on to the next step.",
 	######## Asking Questions #######
 	'8': "How do you solve this problem?",
 	'9': "What do we do next?",
 	'10': "How do we do that?",
+	'28': "How should we start?",
 	'11': "Could you give me more information?",
 	'12': "Okay now we mul tip ly?",
 	'13': "Okay now we add?",
@@ -41,13 +43,14 @@ dialog = {
 	'23': "Thank you! You're awesome. You made me feel smarter.",
 	'24': "I'm getting tired now, but I think I understand the problem better. Maybe we can continue this another time.",
 	######## What We Know #######
-	'25': "I know that Luna runs one kilometer in 6 minutes and she runs at a constant speed.",
-	'26': "I know that you need 2 liters of blue paint, and 3 liters of yellow paint, to make 5 liters of green paint."
+	'25': "I know that 1 fluid ounce of paint will cover 3 square inches of my body.",
+	'26': "I know that I can drive 60 miles in 1 hour.",
+	'27': "I know that I can swim 5 feet per second and that the tide is coming in at 2 feet per second." 
 }
 
 # If the 
 def speak(command_dialog):
-	if command_dialog.isdigit() and (int(command_dialog) <= 26):
+	if command_dialog.isdigit() and (int(command_dialog) <= 29):
 		tts.post.say(dialog[command_dialog])
 	else:
 		tts.say(command_dialog)
@@ -118,9 +121,9 @@ def sendCmd(inp):
 		nod(inp)
 	elif inp in {'8', '9'}:
 		bigShrug(inp)
-	elif inp in {'10', '16', '20', '21'} or inp[0:9].lower() == "she ran for" or inp[0:5].lower() == "so do":
+	elif inp in {'10', '16', '20', '21', '28'} or inp[0:9].lower() == "she ran for" or inp[0:5].lower() == "so do":
 		handOutLeft(inp)
-	elif inp in {'11', '15', '17', '25', '26'} or inp[0:7].lower() == "she ran" or inp[0:10].lower() == "the answer":
+	elif inp in {'11', '15', '17', '25', '26', '27', '29'} or inp[0:7].lower() == "she ran" or inp[0:10].lower() == "the answer":
 		handOutRight(inp)
 	elif inp == '18':
 		handLookAndOut(inp)
@@ -132,10 +135,12 @@ def sendCmd(inp):
 		cheer(inp)
 	elif inp == '24':
 		shakeHead(inp)
-	elif inp == '27':
+	elif inp == '30':
 		gesture.turnHeadLeft()
-	elif inp == '28':
+	elif inp == '31':
 		gesture.turnHeadRight()
+	elif inp == '32':
+		gesture.nodYes()
 	elif inp[0:7].lower() == "she ran":
 		handOutLeft(inp)
 	else:
