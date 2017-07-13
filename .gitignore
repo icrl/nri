@@ -6,3 +6,181 @@
 
 # ignore any log files that have .txt extensions
 log*.txt
+
+# ignore all mdf and ldf files
+*.mdf
+
+# ignore all ldf files
+*.ldf
+
+# ignore all audio files
+*.wav
+automated_system/Nico_V1/Nico/praat/praatcon.exe
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/workpre.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/workpost.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/whisper.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/vt.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/voicedunvoiced.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/vocoder.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/vibratotremolo.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/updateeqpresetslist.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/tts.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/setup.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/rumble.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/reverb/Vocal.flac
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/reverb/Studio.flac
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/reverb/Stadium.flac
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/reverb/Room Small.flac
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/reverb/Room Medium.flac
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/reverb/Room Big.flac
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/reverb/Robot.flac
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/reverb/Plate.flac
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/reverb/Hall.flac
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/reverb/Church.flac
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/reverb/Bath.flac
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/reverb/Ambience.flac
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/reverb.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/raspiness.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/normalize.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/myFile.txt
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/monotonize.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/minmaxf0.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/maxformant.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/marksyllables.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/markpitch.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/manipulatePitch.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/limiter.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/ireq.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/invertpitch.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/hiss.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/getPitchIntRate_v3.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/getPitchIntRate_v2.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/getPitchIntRate.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/gate.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/fixdc.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/fade.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/extractvowels.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/extractpitch.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/eqpresetslist.txt
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/eqpreset.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/eq10bands.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/eq/Walkie Talkie.Sound
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/eq/Vintage Phone.Sound
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/eq/Small Radio.Sound
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/eq/Radio.Sound
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/eq/Phone.Sound
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/eq/Megaphone.Sound
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/eq/Glass.Sound
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/eq/Film Vocal.Sound
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/eq/Cellular.Sound
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/eq/Car Radio.Sound
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/echo.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/declip.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/cutpauses.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/createwaveform.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/copyvt.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/copyvocoder.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/copypitchmedian.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/copypitchcontour.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/copymix.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/copyintensity.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/copyformants.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/copyeq.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/copyduration.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/copydtw.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/compressor.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/changevt.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/changesemitones.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/changepitchmedian.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/changenote.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/changeformants.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/changeduration.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/buttons.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/breathiness.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/batch.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/analysetoeqpreset.praat
+automated_system/Nico_V1/Nico/praat/plugin_VocalToolkit/addnoise.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/praatcon.exe
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/workpre.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/workpost.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/whisper.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/vt.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/voicedunvoiced.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/vocoder.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/vibratotremolo.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/updateeqpresetslist.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/tts.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/setup.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/rumble.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/reverb/Vocal.flac
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/reverb/Studio.flac
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/reverb/Stadium.flac
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/reverb/Room Small.flac
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/reverb/Room Medium.flac
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/reverb/Room Big.flac
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/reverb/Robot.flac
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/reverb/Plate.flac
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/reverb/Hall.flac
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/reverb/Church.flac
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/reverb/Bath.flac
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/reverb/Ambience.flac
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/reverb.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/raspiness.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/normalize.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/monotonize.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/minmaxf0.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/maxformant.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/marksyllables.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/markpitch.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/manipulatePitch.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/limiter.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/ireq.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/invertpitch.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/hiss.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/getPitchIntRate_v3.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/getPitchIntRate_v2.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/getPitchIntRate.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/gate.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/fixdc.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/fade.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/extractvowels.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/extractpitch.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/eqpresetslist.txt
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/eqpreset.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/eq10bands.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/eq/Walkie Talkie.Sound
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/eq/Vintage Phone.Sound
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/eq/Small Radio.Sound
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/eq/Radio.Sound
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/eq/Phone.Sound
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/eq/Megaphone.Sound
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/eq/Glass.Sound
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/eq/Film Vocal.Sound
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/eq/Cellular.Sound
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/eq/Car Radio.Sound
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/echo.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/declip.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/cutpauses.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/createwaveform.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/copyvt.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/copyvocoder.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/copypitchmedian.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/copypitchcontour.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/copymix.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/copyintensity.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/copyformants.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/copyeq.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/copyduration.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/copydtw.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/compressor.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/changevt.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/changesemitones.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/changepitchmedian.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/changenote.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/changeformants.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/changeduration.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/buttons.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/breathiness.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/batch.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/analysetoeqpreset.praat
+automated_system/Nico_V1/Nico/obj/Release/Package/PackageTmp/praat/plugin_VocalToolkit/addnoise.praat
