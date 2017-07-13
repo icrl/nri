@@ -113,7 +113,7 @@ def sendCmd(inp):
 		gesture.faceForward()
 	elif inp == '1':
 		hello(inp)
-	elif inp in {'2', '3'} or inp[0:15].lower() == "we need to find":
+	elif inp in {'2', '3'} or inp[0:6].lower() == "i will" or inp[0:6].lower() == "i need" or inp[0:7].lower() == "it will":
 		handsHips(inp)
 	elif inp == '4':
 		handChestLeft(inp)
@@ -121,9 +121,9 @@ def sendCmd(inp):
 		nod(inp)
 	elif inp in {'8', '9'}:
 		bigShrug(inp)
-	elif inp in {'10', '16', '20', '21', '28'} or inp[0:9].lower() == "she ran for" or inp[0:5].lower() == "so do":
+	elif inp in {'10', '16', '20', '21', '28'} or inp[0:2].lower() == "we" or inp[0:2].lower() == "do":
 		handOutLeft(inp)
-	elif inp in {'11', '15', '17', '25', '26', '27', '29'} or inp[0:7].lower() == "she ran" or inp[0:10].lower() == "the answer":
+	elif inp in {'11', '15', '17', '25', '26', '27', '29'} or inp[0:10].lower() == "the answer":
 		handOutRight(inp)
 	elif inp == '18':
 		handLookAndOut(inp)
@@ -141,11 +141,5 @@ def sendCmd(inp):
 		gesture.turnHeadRight()
 	elif inp == '32':
 		gesture.nodYes()
-	elif inp[0:7].lower() == "she ran":
-		handOutLeft(inp)
 	else:
 		speak(inp)
-
-'''TODO:
-	incorporate adialog_new.py
-'''

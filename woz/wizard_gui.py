@@ -25,7 +25,7 @@ def main():
 
 	# If the key has dialog associated with it, log it to the file
 	def writeFile(key):
-		if key != "22" and key != "23" and key != "0":
+		if key not in {'0', '30', '31', '32'}:
 			currtime = time.asctime( time.localtime(time.time()) )
 			f = open(filename, "a")
 			f.write(currtime + " ")
@@ -41,9 +41,8 @@ def main():
 	# Call the movement/dialog option and then write any dialog to the file
 	def call(code):
 		cmd = str(code)
-		# print cmd
 		control.sendCmd(cmd)
-		#writeFile(cmd)
+		writeFile(cmd)
 	
 	menubar = Menu(root)
 
@@ -303,7 +302,7 @@ def main():
 	def getTrav():
 		c1 = travE1.get()
 		c2 = travE2.get()
-		call("I would travel %s miles in %s hours."%(c1, c2))
+		call("I will travel %s miles in %s hours."%(c1, c2))
 		travE1.delete(0,END)
 		travE2.delete(0,END)
 	travSay = Button(textop, text = "Say", command = getTrav)
@@ -365,12 +364,3 @@ if __name__ ==  "__main__":
 	main()
 	#kick off the event loop
 	root.mainloop()
-	"""
-	filepath = "/home/nao/programs/move.top"
-	#ad.main()
-	args = shlex.split('python adialog_new.py')
-	#subprocess.Popen(["python", "adialog_new.py"])
-	p = subprocess.call(['gnome-terminal', '-x', 'bash', '-c','python adialog.py'])
-	#Thread(target = func2).start()
-	subprocess.kill()
-	"""
