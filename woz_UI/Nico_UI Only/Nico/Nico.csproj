@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB7366DC-22FE-42E0-997D-1CCED5627F62}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nico</RootNamespace>
+    <AssemblyName>Nico</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort>
+    </IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PublishDatabaseSettings>
+      <Objects>
+      </Objects>
+    </PublishDatabaseSettings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNet.SignalR.Core">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.2.0.0\lib\net45\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.2.0.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.2.0.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.2.0.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aspx\Default.aspx" />
+    <Content Include="aspx\Intro.aspx" />
+    <Content Include="aspx\ProblemPage.aspx" />
+    <Content Include="aspx\TheEnd.aspx" />
+    <Content Include="aspx\UpdateNicoAnswer.aspx" />
+    <Content Include="content\button1.css" />
+    <Content Include="content\img\imagedirectory\double-down-arrow.jpg" />
+    <Content Include="content\img\imagedirectory\double-down-arrow.png" />
+    <Content Include="content\img\imagedirectory\double-up-arrow.jpg" />
+    <Content Include="content\img\imagedirectory\problem_one_images.txt" />
+    <Content Include="content\img\loading\ajax-loader.gif" />
+    <Content Include="content\img\microphone\mic-animate.gif" />
+    <Content Include="content\img\microphone\mic-slash.gif" />
+    <Content Include="content\img\microphone\mic.gif" />
+    <Content Include="content\simple-sidebar.css" />
+    <Content Include="content\Site.css" />
+    <Content Include="content\table1.css" />
+    <Content Include="handlers\UpdateTable.ashx" />
+    <Content Include="handlers\UpdateStep.ashx" />
+    <Content Include="handlers\UpdateAnswer.ashx" />
+    <None Include="Properties\PublishProfiles\NicoNRI.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aspx\About.aspx" />
+    <Content Include="aspx\Contact.aspx" />
+    <Content Include="content\bootstrap-theme.css" />
+    <Content Include="content\bootstrap-theme.min.css" />
+    <Content Include="content\bootstrap.css" />
+    <Content Include="content\bootstrap.min.css" />
+    <Content Include="content\loginstyle.css" />
+    <Content Include="aspx\favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="aspx\Global.asax" />
+    <Content Include="js\audio.js" />
+    <Content Include="js\recorder.js" />
+    <Content Include="js\recorderWorker.js" />
+    <Content Include="js\talk.js" />
+    <Content Include="aspx\Login.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="content\bootstrap-theme.css.map" />
+    <Content Include="content\bootstrap.css.map" />
+    <Content Include="praat\plugin_VocalToolkit\addnoise.praat" />
+    <Content Include="praat\plugin_VocalToolkit\analysetoeqpreset.praat" />
+    <Content Include="praat\plugin_VocalToolkit\batch.praat" />
+    <Content Include="praat\plugin_VocalToolkit\breathiness.praat" />
+    <Content Include="praat\plugin_VocalToolkit\buttons.praat" />
+    <Content Include="praat\plugin_VocalToolkit\changeduration.praat" />
+    <Content Include="praat\plugin_VocalToolkit\changeformants.praat" />
+    <Content Include="praat\plugin_VocalToolkit\changenote.praat" />
+    <Content Include="praat\plugin_VocalToolkit\changepitchmedian.praat" />
+    <Content Include="praat\plugin_VocalToolkit\changesemitones.praat" />
+    <Content Include="praat\plugin_VocalToolkit\changevt.praat" />
+    <Content Include="praat\plugin_VocalToolkit\compressor.praat" />
+    <Content Include="praat\plugin_VocalToolkit\copydtw.praat" />
+    <Content Include="praat\plugin_VocalToolkit\copyduration.praat" />
+    <Content Include="praat\plugin_VocalToolkit\copyeq.praat" />
+    <Content Include="praat\plugin_VocalToolkit\copyformants.praat" />
+    <Content Include="praat\plugin_VocalToolkit\copyintensity.praat" />
+    <Content Include="praat\plugin_VocalToolkit\copymix.praat" />
+    <Content Include="praat\plugin_VocalToolkit\copypitchcontour.praat" />
+    <Content Include="praat\plugin_VocalToolkit\copypitchmedian.praat" />
+    <Content Include="praat\plugin_VocalToolkit\copyvocoder.praat" />
+    <Content Include="praat\plugin_VocalToolkit\copyvt.praat" />
+    <Content Include="praat\plugin_VocalToolkit\createwaveform.praat" />
+    <Content Include="praat\plugin_VocalToolkit\cutpauses.praat" />
+    <Content Include="praat\plugin_VocalToolkit\declip.praat" />
+    <Content Include="praat\plugin_VocalToolkit\echo.praat" />
+    <Content Include="praat\plugin_VocalToolkit\eq10bands.praat" />
+    <Content Include="praat\plugin_VocalToolkit\eqpreset.praat" />
+    <Content Include="praat\plugin_VocalToolkit\eq\Car Radio.Sound" />
+    <Content Include="praat\plugin_VocalToolkit\eq\Cellular.Sound" />
+    <Content Include="praat\plugin_VocalToolkit\eq\Film Vocal.Sound" />
+    <Content Include="praat\plugin_VocalToolkit\eq\Glass.Sound" />
+    <Content Include="praat\plugin_VocalToolkit\eq\Megaphone.Sound" />
+    <Content Include="praat\plugin_VocalToolkit\eq\Phone.Sound" />
+    <Content Include="praat\plugin_VocalToolkit\eq\Radio.Sound" />
+    <Content Include="praat\plugin_VocalToolkit\eq\Small Radio.Sound" />
+    <Content Include="praat\plugin_VocalToolkit\eq\Vintage Phone.Sound" />
+    <Content Include="praat\plugin_VocalToolkit\eq\Walkie Talkie.Sound" />
+    <Content Include="praat\plugin_VocalToolkit\extractpitch.praat" />
+    <Content Include="praat\plugin_VocalToolkit\extractvowels.praat" />
+    <Content Include="praat\plugin_VocalToolkit\fade.praat" />
+    <Content Include="praat\plugin_VocalToolkit\fixdc.praat" />
+    <Content Include="praat\plugin_VocalToolkit\gate.praat" />
+    <Content Include="praat\plugin_VocalToolkit\getPitchIntRate.praat" />
+    <Content Include="praat\plugin_VocalToolkit\getPitchIntRate_v2.praat" />
+    <Content Include="praat\plugin_VocalToolkit\getPitchIntRate_v3.praat" />
+    <Content Include="praat\plugin_VocalToolkit\hiss.praat" />
+    <Content Include="praat\plugin_VocalToolkit\invertpitch.praat" />
+    <Content Include="praat\plugin_VocalToolkit\ireq.praat" />
+    <Content Include="praat\plugin_VocalToolkit\limiter.praat" />
+    <Content Include="praat\plugin_VocalToolkit\manipulatePitch.praat" />
+    <Content Include="praat\plugin_VocalToolkit\markpitch.praat" />
+    <Content Include="praat\plugin_VocalToolkit\marksyllables.praat" />
+    <Content Include="praat\plugin_VocalToolkit\maxformant.praat" />
+    <Content Include="praat\plugin_VocalToolkit\minmaxf0.praat" />
+    <Content Include="praat\plugin_VocalToolkit\monotonize.praat" />
+    <Content Include="praat\plugin_VocalToolkit\normalize.praat" />
+    <Content Include="praat\plugin_VocalToolkit\raspiness.praat" />
+    <Content Include="praat\plugin_VocalToolkit\reverb.praat" />
+    <Content Include="praat\plugin_VocalToolkit\reverb\Ambience.flac" />
+    <Content Include="praat\plugin_VocalToolkit\reverb\Bath.flac" />
+    <Content Include="praat\plugin_VocalToolkit\reverb\Church.flac" />
+    <Content Include="praat\plugin_VocalToolkit\reverb\Hall.flac" />
+    <Content Include="praat\plugin_VocalToolkit\reverb\Plate.flac" />
+    <Content Include="praat\plugin_VocalToolkit\reverb\Robot.flac" />
+    <Content Include="praat\plugin_VocalToolkit\reverb\Room Big.flac" />
+    <Content Include="praat\plugin_VocalToolkit\reverb\Room Medium.flac" />
+    <Content Include="praat\plugin_VocalToolkit\reverb\Room Small.flac" />
+    <Content Include="praat\plugin_VocalToolkit\reverb\Stadium.flac" />
+    <Content Include="praat\plugin_VocalToolkit\reverb\Studio.flac" />
+    <Content Include="praat\plugin_VocalToolkit\reverb\Vocal.flac" />
+    <Content Include="praat\plugin_VocalToolkit\rumble.praat" />
+    <Content Include="praat\plugin_VocalToolkit\setup.praat" />
+    <Content Include="praat\plugin_VocalToolkit\tts.praat" />
+    <Content Include="praat\plugin_VocalToolkit\updateeqpresetslist.praat" />
+    <Content Include="praat\plugin_VocalToolkit\vibratotremolo.praat" />
+    <Content Include="praat\plugin_VocalToolkit\vocoder.praat" />
+    <Content Include="praat\plugin_VocalToolkit\voicedunvoiced.praat" />
+    <Content Include="praat\plugin_VocalToolkit\vt.praat" />
+    <Content Include="praat\plugin_VocalToolkit\whisper.praat" />
+    <Content Include="praat\plugin_VocalToolkit\workpost.praat" />
+    <Content Include="praat\plugin_VocalToolkit\workpre.praat" />
+    <None Include="js\jquery-1.9.1.intellisense.js" />
+    <Content Include="praat\plugin_VocalToolkit\eqpresetslist.txt" />
+    <Content Include="praat\praatcon.exe" />
+    <Content Include="aspx\Register.aspx" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-1.9.1.js" />
+    <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="js\jquery.signalR-2.0.0.js" />
+    <Content Include="js\jquery.signalR-2.0.0.min.js" />
+    <Content Include="GeneralInfo.txt" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="js\jquery-1.9.1.min.map" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aspx\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\Intro.aspx.cs">
+      <DependentUpon>Intro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\Intro.aspx.designer.cs">
+      <DependentUpon>Intro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\ProblemPage.aspx.cs">
+      <DependentUpon>ProblemPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\ProblemPage.aspx.designer.cs">
+      <DependentUpon>ProblemPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\TheEnd.aspx.cs">
+      <DependentUpon>TheEnd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\TheEnd.aspx.designer.cs">
+      <DependentUpon>TheEnd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\UpdateNicoAnswer.aspx.cs">
+      <DependentUpon>UpdateNicoAnswer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\UpdateNicoAnswer.aspx.designer.cs">
+      <DependentUpon>UpdateNicoAnswer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="csharp\functions\SQLLog.cs" />
+    <Compile Include="csharp\functions\SQLProblemStepTracker.cs" />
+    <Compile Include="csharp\functions\SQLAnswerPattern.cs" />
+    <Compile Include="csharp\functions\SQLLogin.cs" />
+    <Compile Include="csharp\functions\SQLProblemDesign.cs" />
+    <Compile Include="csharp\functions\SQLProblemText.cs" />
+    <Compile Include="csharp\functions\SQLUserState.cs" />
+    <Compile Include="csharp\MyHub.cs" />
+    <Compile Include="handlers\UpdateAnswer.ashx.cs">
+      <DependentUpon>UpdateAnswer.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="handlers\UpdateStep.ashx.cs">
+      <DependentUpon>UpdateStep.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="handlers\UpdateTable.ashx.cs">
+      <DependentUpon>UpdateTable.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="aspx\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="csharp\Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\logs\" />
+    <Folder Include="data\userAudio\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49957</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:44301/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
