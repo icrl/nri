@@ -195,7 +195,6 @@
 </category>
 
 
-
 <category>
 <pattern>^ TWO ^</pattern>
 <template><random>
@@ -231,7 +230,6 @@
 <li>Do we divide by FOUR?</li>
 </random></template>
 </category>
-
 
 
 <category>

@@ -26,6 +26,9 @@ def createBot(BOT):
     result = API.create_bot(USER_KEY, APP_ID, HOST, BOT)
     print result
 
+def deleteBot(BOT):
+    result = API.delete_bot(USER_KEY, APP_ID, HOST, BOT)
+    print result
 
 # provides a list of all the current files associated with a bot
 def listFiles(BOT):
@@ -69,6 +72,8 @@ def main():
         listFiles(BOT)
     elif command == "create":
         createBot(BOT)
+    elif command == "delete":
+        deleteBot(BOT)
     elif command == "upload":
         if len(sys.argv) != 4:
             print "Need directory to upload"
@@ -85,9 +90,9 @@ def main():
         uploadSingleFile(BOT, filename)
     elif command == "list":
         listFiles(BOT)
-    elif command == "delete":
+    elif command == "deleteFile":
         if len(sys.argv) != 4:
-            print "Need file to upload"
+            print "Need file to delete"
             sys.exit(1)
         filename = sys.argv[3]
         deleteFile(BOT, filename)
