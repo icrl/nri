@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>PROBLEM START 1</pattern>
+<template>I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, <set name="topic">STEP ONE</set>?</template>
+</category>
+
+
+<category>
+<pattern>next step 1 1</pattern>
+<template><random>
+<li>I'm really not sure what to do on <set name="topic">STEP ONE</set>.</li>
+<li>I'm not sure what to do here on <set name="topic">STEP ONE</set>.</li>
+<li>Can you give me a hint for <set name="topic">STEP ONE</set>?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>next step 1 2</pattern>
+<template><random>
+<li>Can you give me a hint on <set name="topic">STEP TWO</set>?</li>
+<li>I'm really not sure what to do on <set name="topic">STEP TWO</set>.</li>
+<li>I'm not sure what to do here on <set name="topic">STEP TWO</set>.</li>
+<li>Can you give me a hint for <set name="topic">STEP TWO</set>?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>next step 1 3</pattern>
+<template><random>
+<li>So for <set name="topic">STEP THREE</set>, I may be getting this but can you give me another hint?</li>
+<li>Wow we're on <set name="topic">STEP THREE</set>. How do we do this one?</li>
+<li>Yay! <set name="topic">STEP THREE</set>. How do I solve this one?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>next step 1 4</pattern>
+<template><random>
+<li>Well this <set name="topic">LAST STEP</set> involves big numbers.</li>
+<li>We're on the <set name="topic">LAST STEP</set>! I never thought we'd get here. </li>
+<li><set name="topic">LAST STEP</set>! How do we do this one? </li>
+</random></template>
+</category>
+
+<category>
+<pattern>prior step 1 1</pattern>
+<template><random>
+<li> Okay! <set name="topic">BACK TO STEP ONE</set>.</li>
+<li> Oh we're <set name="topic">BACK TO STEP ONE</set>.</li>
+</random></template>
+</category>
+
+<category>
+<pattern>prior step 1 2</pattern>
+<template><random>
+<li>Alright <set name="topic">BACK TO STEP TWO</set>.</li>
+<li>Oh we're <set name="topic">BACK TO STEP TWO</set>.</li>
+<li>Okay! <set name="topic">BACK TO STEP TWO</set>.</li>
+</random></template>
+</category>
+
+<category>
+<pattern>prior step 1 3</pattern>
+<template><random>
+<li>Alright <set name="topic">BACK TO STEP THREE</set>.</li>
+<li>Oh we're <set name="topic">BACK TO STEP THREE</set>.</li>
+<li>Okay! <set name="topic">BACK TO STEP THREE</set>.</li>
+</random></template>
+</category>
+
+<category>
+<pattern>prior step 1 4</pattern>
+<template><random>
+<li>Alright <set name="topic">BACK TO STEP FOUR</set>.</li>
+<li>Oh we're <set name="topic">BACK TO STEP FOUR</set>.</li>
+<li>Okay! <set name="topic">BACK TO STEP FOUR</set>.</li>
+</random></template>
+</category>
+
+<category>
+<pattern>prior step 1 1 a</pattern>
+<template>Didn't we already <set name="topic">do step one</set>?</template>
+</category>
+
+<category>
+<pattern>prior step 1 2 a</pattern>
+<template>Didn't we already <set name="topic">do step two</set>?</template>
+</category>
+
+<category>
+<pattern>prior step 1 3 a</pattern>
+<template>Didn't we already <set name="topic">do step three</set>?</template>
+</category>
+
+<category>
+<pattern>prior step 1 4 a</pattern>
+<template>Didn't we already <set name="topic">do step four</set>?</template>
+</category>
+
+<topic name = "STEP ONE">
+
+
+<category>
+<pattern>^ SIX ^</pattern>
+<template><random>
+<li>What do we do with the number six?</li>
+<li>Do we divide by six?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ </pattern>
+<that>What do we do with the number six</that>
+<template>Oh okay. We divide! We divide twelve by six? </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>What do we do with the number six</that>
+<template>Oh okay. So that's what we do with the six and then what do we do? </template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>We divide twelve by six</that>
+<template>Then we have the answer? </template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>We divide twelve by six</that>
+<template>So that's two. Then we have the answer? </template>
+</category>
+
+<category>
+<pattern>^ No ^</pattern>
+<that>Then we have the answer</that>
+<template>Two times two is four. Is four the answer? </template>
+</category>
+
+<category>
+<pattern>^ Yes ^</pattern>
+<that>Then we have the answer</that>
+<template>Two times two is four. Is four the answer? </template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>So that is what we do with the six and then what do we do</that>
+<template>I will put the answer is four</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Then we have the answer</that>
+<template>I will put the answer is four </template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ </pattern>
+<that>Do we divide by six</that>
+<template>Oh okay. We divide! We divide twelve by six? </template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Do we divide by six</that>
+<template>Okay. I'm going to divide the six by twelve to get two. Then what? </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Do we divide by six</that>
+<template>Oh okay. So that's what we do with the six and then what do we do? </template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>We divide twelve by six</that>
+<template>Then we have the answer? </template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>So that is what we do with the six and then what do we do</that>
+<template>I will put the answer is four</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Then we have the answer</that>
+<template>I will put the answer is four </template>
+</category>
+
+
+
+<category>
+<pattern>^ TWO ^</pattern>
+<template><random>
+<li>What do we do with the number TWO?</li>
+<li>Do we multiply by TWO?</li>
+<li>Do we divide by TWO?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ TWELVE ^</pattern>
+<template><random>
+<li>What do we do with the number TWELVE?</li>
+<li>Do we multiply by TWELVE?</li>
+<li>Do we divide by TWELVE?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ THREE ^</pattern>
+<template><random>
+<li>What do we do with the number three?</li>
+<li>Do we multiply by three?</li>
+<li>Do we divide by THREE?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ FOUR ^</pattern>
+<template><random>
+<li>What do we do with the number FOUR?</li>
+<li>Do we multiply by FOUR?</li>
+<li>Do we divide by FOUR?</li>
+</random></template>
+</category>
+
+
+
+<category>
+<pattern>^ DIVIDE ^ TWELVE ^ SIX ^</pattern>
+<template>Oh okay. We divide! Twelve divided by six?</template>
+</category>
+
+<category>
+<pattern>^ Yep ^</pattern>
+<that>Twelve divided by six</that>
+<template>So twelve divided by six is two. So then what do I do with the two?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that> So then what do I do with the two</that>
+<template>Is four the answer?</template>
+</category>
+
+<category>
+<pattern>^ TIMES ^</pattern>
+<that> So then what do I do with the two</that>
+<template>Is four the answer?</template>
+</category>
+
+<category>
+<pattern>^ TWO ^</pattern>
+<that> So then what do I do with the two</that>
+<template>Is four the answer?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that> So then what do I do with the two</that>
+<template>Is four the answer?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^ TWO ^</pattern>
+<template>Oh okay. We multiply! Two times two?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^ FOUR ^</pattern>
+<template>Sweet! The answer is four?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>The answer is four</that>
+<template>Okay cool. I will put four in as the answer. </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>The answer is four</that>
+<template>Okay cool. I will put four in as the answer. </template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>Is four the answer?</template>
+</category>
+
+<category>
+<pattern>^ YES ^ </pattern>
+<that>Is four the answer</that>
+<template>I will put four in for the answer then.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Is four the answer</that>
+<template>I will put four in for the answer then.</template>
+</category>
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>Maybe I start by dividing twelve by three?</template>
+</category>
+
+<category>
+<pattern>I AM NOT SURE</pattern>
+<template>Maybe what I do is look at the four and the twelve?</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>Maybe what I do is look at the four and the twelve?</template>
+</category>
+
+
+<category>
+<pattern>YOU DO *</pattern>
+<template>Okay so that is what we do.What do we do next?</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds good. So what do we do next then?</template>
+</category>
+
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>Figure it out? But I don't know how.</template>
+</category>
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really. We multiply?</li>
+<li>I think we multiply?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>I don't know</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ Yes ^ </pattern>
+<template>
+Ok great!
+</template>
+</category>
+
+</topic>
+
+
+<topic name = "STEP TWO">
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really. We multiply?</li>
+<li>I think we multiply?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>I don't know</li>
+</random></template>
+</category>
+
+
+</topic>
+
+
+<category>
+<pattern>^ Good job ^ </pattern>
+<template>Thank you. You're a great tutor.</template>
+</category>
+
+<category>
+<pattern>^ Nice job ^ </pattern>
+<template>Thank you. You're a great tutor.</template>
+</category>
+
+</aiml>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<topic name = "Back to step one">
+
+<category><pattern>*</pattern>
+<template>Ahhhh lets go to step two.</template>
+</category>
+
+</topic>
+
+
+
+<topic name = "back on step two">
+
+<category><pattern>*</pattern>
+<template>Aha ok that's why we're back on step two. I get it. </template>
+</category>
+
+</topic>
+
+
+
+<topic name = "back to step three">
+
+<category><pattern>*</pattern>
+<template>Ok I hear you. That makes sense.</template>
+</category>
+
+</topic>
+
+
+
+<topic name = "do step one">
+
+<category><pattern>*</pattern>
+<template>Ahhhh lets go to step two.</template>
+</category>
+
+</topic>
+
+
+
+<topic name = "do step two">
+
+<category><pattern>*</pattern>
+<template>Aha ok that's why we're back on step two. I get it. </template>
+</category>
+
+</topic>
+
+
+
+<topic name = "do step three">
+
+<category><pattern>*</pattern>
+<template>Ok I hear you. That makes sense.</template>
+</category>
+
+
+</topic>
+
+
+
+</aiml>

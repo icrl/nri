@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category><pattern>PROBLEM START 1</pattern>
+<template>So I need to figure out where Bob will be at different points in the race. Can you give me a hint for <set name="topic">STEP ONE</set>?</template>
+</category>
+
+
+<category><pattern>next step 1 1</pattern>
+<template><random>
+<li>I'm really not sure what to do on <set name="topic">STEP ONE</set>.</li>
+<li>I'm not sure what to do here on <set name="topic">STEP ONE</set>.</li>
+<li>Can you give me a hint for <set name="topic">STEP ONE</set>?</li>
+</random></template>
+</category>
+
+<category><pattern>next step 1 2</pattern>
+<template><random>
+<li>Can you give me a hint on <set name="topic">STEP TWO</set>?</li>
+<li>I'm really not sure what to do on <set name="topic">STEP TWO</set>.</li>
+<li>I'm not sure what to do here on <set name="topic">STEP TWO</set>.</li>
+<li>Can you give me a hint for <set name="topic">STEP TWO</set>?</li>
+</random></template>
+</category>
+
+<category><pattern>next step 1 3</pattern>
+<template><random>
+<li>So for <set name="topic">STEP THREE</set>, I may be getting this but can you give me another hint?</li>
+<li>Wow we're on <set name="topic">STEP THREE</set>. How do we do this one?</li>
+<li>Yay! <set name="topic">STEP THREE</set>. How do I solve this one?</li>
+</random></template>
+</category>
+
+<category><pattern>next step 1 4</pattern>
+<template><random>
+<li>Well this <set name="topic">LAST STEP</set> involves big numbers.</li>
+<li>We're on the <set name="topic">LAST STEP</set>! I never thought we'd get here. </li>
+<li><set name="topic">LAST STEP</set>! How do we do this one? </li>
+</random></template>
+</category>
+
+<category><pattern>prior step 1 1</pattern>
+<template><random>
+<li> Okay! <set name="topic">BACK TO STEP ONE</set>.</li>
+<li> Oh we're <set name="topic">BACK TO STEP ONE</set>.</li>
+</random></template>
+</category>
+
+<category><pattern>prior step 1 2</pattern>
+<template><random>
+<li>Alright <set name="topic">BACK TO STEP TWO</set>.</li>
+<li>Oh we're <set name="topic">BACK TO STEP TWO</set>.</li>
+<li>Okay! <set name="topic">BACK TO STEP TWO</set>.</li>
+</random></template>
+</category>
+
+<category><pattern>prior step 1 3</pattern>
+<template><random>
+<li>Alright <set name="topic">BACK TO STEP THREE</set>.</li>
+<li>Oh we're <set name="topic">BACK TO STEP THREE</set>.</li>
+<li>Okay! <set name="topic">BACK TO STEP THREE</set>.</li>
+</random></template>
+</category>
+
+<category><pattern>prior step 1 4</pattern>
+<template><random>
+<li>Alright <set name="topic">BACK TO STEP FOUR</set>.</li>
+<li>Oh we're <set name="topic">BACK TO STEP FOUR</set>.</li>
+<li>Okay! <set name="topic">BACK TO STEP FOUR</set>.</li>
+</random></template>
+</category>
+
+<category><pattern>prior step 1 1 a</pattern>
+<template>Didn't we already <set name="topic">do step one</set>?</template>
+</category>
+
+<category><pattern>prior step 1 2 a</pattern>
+<template>Didn't we already <set name="topic">do step two</set>?</template>
+</category>
+
+<category><pattern>prior step 1 3 a</pattern>
+<template>Didn't we already <set name="topic">do step three</set>?</template>
+</category>
+
+<category><pattern>prior step 1 4 a</pattern>
+<template>Didn't we already <set name="topic">do step four</set>?</template>
+</category>
+
+<topic name = "STEP ONE">
+
+<category><pattern>^ MULTIPLY ^</pattern><that>What do we do with the one</that>
+<template>Oh okay. We multiply! That makes sense.</template>
+</category>
+
+<category><pattern>*</pattern><that>What do we do with the one</that>
+<template>Oh okay. That makes sense.Then what?</template>
+</category>
+
+<category><pattern>^ ONE ^</pattern>
+<template><random>
+<li>What do we do with the one?</li>
+<li>Do we multiply the one by three?</li>
+</random></template>
+</category>
+
+
+<category><pattern>YES * </pattern><that>Do we multiply the one by three</that>
+<template>Oh okay. We multiply the one by three to get three! That makes sense. Then what?</template>
+</category>
+
+<category><pattern>*</pattern><that>Do we multiply the one by three</that>
+<template>Oh okay. That makes sense. Then what?</template>
+</category>
+
+
+<category><pattern>^ ONE ^ THREE *</pattern>
+<template>Ok then what do we do?</template>
+</category>
+
+
+<category><pattern>^ SIX ^</pattern>
+<template>Oh ok that's what we do with the six.</template>
+</category>
+
+<category><pattern>*</pattern><that>Oh ok that is what we do with the six</that>
+<template>Alright I'm going to put the answer in.It is 18.</template>
+</category>
+
+<category><pattern>^ EIGHTEEN ^</pattern>
+<template>The answer is eighteen for step one?</template>
+</category>
+
+<category><pattern>*</pattern><that>The answer is eighteen for step one</that>
+<template>Alright I'm going to put the answer in.</template>
+</category>
+
+
+<category><pattern>^ ANSWER ^</pattern>
+<template>The answer is eighteen for step one?</template>
+</category>
+
+<category><pattern>*</pattern><that>THE ANSWER IS EIGHTEEN FOR STEP ONE</that>
+<template>Alright I'm going to put the answer in.</template>
+</category>
+
+
+
+<category><pattern>DO YOU NOT KNOW</pattern>
+<template>Maybe what I do is look at the one and the three?</template>
+</category>
+
+<category><pattern>I AM NOT SURE</pattern>
+<template>Maybe what I do is look at the one and the three?</template>
+</category>
+
+<category><pattern>I DO NOT KNOW</pattern>
+<template>Maybe what I do is look at the one and the three?</template>
+</category>
+
+<category><pattern>*</pattern><that>Maybe what I do is look at the one and the three</that>
+<template>Ok that makes sense. So then the answer is?</template>
+</category>
+
+
+<category><pattern>YOU DO *</pattern>
+<template>Ok so that is what we do.What do we do next?</template>
+</category>
+
+<category><pattern>* ANSWER *</pattern><that>What do we do next</that>
+<template>Ok so the answer is 18?</template>
+</category>
+
+<category><pattern>* ANSWER *</pattern><that>Ok so the answer is 18</that>
+<template>Alright I'm going to put the answer in.</template>
+</category>
+
+
+<category><pattern>* FIGURE IT OUT *</pattern>
+<template>Figure it out? Let me see. Because three is one times three, we can multiply six times three? To get 18? Is that right?</template>
+</category>
+
+<category><pattern>* ANSWER *</pattern><that>Is that right</that>
+<template>Alright I'm going to put the answer in.</template>
+</category>
+
+<category><pattern>*</pattern><that>Is that right</that>
+<template>Catch all.</template>
+</category>
+
+
+</topic>
+
+
+
+<topic name = "STEP TWO">
+
+<category><pattern>^ FIVE ^</pattern>
+<template>I multiple one by five.</template>
+</category>
+
+<category><pattern>^ 5 ^</pattern>
+<template>Thirty divided by six is five.</template>
+</category>
+
+<category><pattern>*</pattern>
+<template>Five is the answer.</template>
+</category>
+
+</topic>
+
+
+
+<topic name = "STEP THREE">
+
+<category><pattern>^ 8 ^</pattern>
+<template>I multiple six by eight to get 48. Right?</template>
+</category>
+
+<category><pattern>^ EIGHT ^</pattern>
+<template>I multiple six by eight to get 48. Right?</template>
+</category>
+
+<category><pattern>^ 48 ^</pattern>
+<template>I multiple six by eight to get 48. Right?</template>
+</category>
+
+<category><pattern>^ FORTY EIGHT ^</pattern>
+<template>I multiple six by eight to get 48. Right?</template>
+</category>
+
+<category><pattern>*</pattern>
+<template>I multiple six by eight to get 48. Right?</template>
+</category>
+
+</topic>
+
+
+
+<topic name = "LAST STEP">
+
+<category><pattern>^ SEVENTY TWO ^</pattern>
+<template>Yeah that's what I thought. Thank you.</template>
+</category>
+
+<category><pattern>^ 72 ^</pattern>
+<template>Yeah that's what I thought. Thank you.</template>
+</category>
+
+</topic>
+
+
+
+
+
+
+
+</aiml>
