@@ -20,7 +20,6 @@ dialog = {
 	'5': "Okay!",
 	'6': "Yes!",
 	'7': "Yes, I agree.",
-	'29': "Please tap the, next, button for me so we can go on to the next step.",
 	######## Asking Questions #######
 	'8': "How do you solve this problem?",
 	'9': "What do we do next?",
@@ -45,12 +44,17 @@ dialog = {
 	######## What We Know #######
 	'25': "I know that 1 fluid ounce of paint will cover 3 square inches of my body.",
 	'26': "I know that I can drive 60 miles in 1 hour.",
-	'27': "I know that I can swim 5 feet per second and that the tide is coming in at 2 feet per second." 
+	'27': "I know that I can swim 5 feet per second and that the tide is coming in at 2 feet per second.",
+	'29': "Please tap the, next, button for me so we can go on to the next step.",
+	######## Survey Questions ########
+	'30': "Do you like mahth?",
+	'31': "Have you done problems like these before?",
+	'32': "Was it hard when you first started?"
 }
 
 # If the 
 def speak(command_dialog):
-	if command_dialog.isdigit() and (int(command_dialog) <= 29):
+	if command_dialog.isdigit() and (int(command_dialog) <= 32):
 		tts.post.say(dialog[command_dialog])
 	else:
 		tts.say(command_dialog)
@@ -121,9 +125,9 @@ def sendCmd(inp):
 		nod(inp)
 	elif inp in {'8', '9'}:
 		bigShrug(inp)
-	elif inp in {'10', '16', '20', '21', '28'} or inp[0:2].lower() == "we" or inp[0:2].lower() == "do":
+	elif inp in {'10', '16', '20', '21', '28','30','32'} or inp[0:2].lower() == "we" or inp[0:2].lower() == "do":
 		handOutLeft(inp)
-	elif inp in {'11', '15', '17', '25', '26', '27', '29'} or inp[0:10].lower() == "the answer":
+	elif inp in {'11', '15', '17', '25', '26', '27', '29','31'} or inp[0:10].lower() == "the answer":
 		handOutRight(inp)
 	elif inp == '18':
 		handLookAndOut(inp)
@@ -135,11 +139,11 @@ def sendCmd(inp):
 		cheer(inp)
 	elif inp == '24':
 		shakeHead(inp)
-	elif inp == '30':
+	elif inp == '33':
 		gesture.turnHeadLeft()
-	elif inp == '31':
+	elif inp == '34':
 		gesture.turnHeadRight()
-	elif inp == '32':
+	elif inp == '35':
 		gesture.nodYes()
 	else:
 		speak(inp)

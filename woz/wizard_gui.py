@@ -10,7 +10,7 @@ root = Tk()
 #modify root window
 root.title("Wizard GUI")
 #sets the width/height of window
-root.geometry("460x580")
+root.geometry("500x580")
 
 def main():
 	#-------------Logging Setup-------------
@@ -25,7 +25,7 @@ def main():
 
 	# If the key has dialog associated with it, log it to the file
 	def writeFile(key):
-		if key not in {'0', '30', '31', '32'}:
+		if key not in {'0', '33', '34', '35'}:
 			currtime = time.asctime( time.localtime(time.time()) )
 			f = open(filename, "a")
 			f.write(currtime + " ")
@@ -61,7 +61,6 @@ def main():
 	confmenu.add_command(label = 'Okay!', command = lambda: call(5))
 	confmenu.add_command(label = 'Yes.', command = lambda: call(6))
 	confmenu.add_command(label = 'Yes, I agree.', command = lambda: call(7))
-	confmenu.add_command(label = 'Next step', command = lambda: call(29))
 	menubar.add_cascade(label = "Confirmation", menu = confmenu)
 
 	# Asking Questions
@@ -104,6 +103,14 @@ def main():
 
 	menubar.add_cascade(label = "I know...", menu = knowmenu)
 
+	# Survey Questions
+	surveymenu = Menu(menubar)
+	surveymenu.add_command(label = 'Do you like math?', command = lambda: call(30))
+	surveymenu.add_command(label = 'Done problems like these before?', command = lambda: call(31))
+	surveymenu.add_command(label = 'Hard when you started?', command = lambda: call(32))
+
+	menubar.add_cascade(label = 'Survey', menu = surveymenu)
+
 	root.config(menu=menubar)
 
 	#------------- Button Control Options-------------
@@ -114,13 +121,15 @@ def main():
 	# Make Nico turn his head 
 	turns = Label(buttons, text = "Move Head")
 	forward = Button(buttons, text = "Face forward", command = lambda: call(0), width = 17)
-	left = Button(buttons, text = "Turn Head Left", command = lambda: call(30), width = 17)
-	right = Button(buttons, text = "Turn Head Right", command = lambda: call(31), width = 17)
-	nod = Button(buttons, text = "Nod Head Yes", command = lambda: call(32), width = 17)
+	left = Button(buttons, text = "Turn Head Left", command = lambda: call(33), width = 17)
+	right = Button(buttons, text = "Turn Head Right", command = lambda: call(34), width = 17)
+	nod = Button(buttons, text = "Nod Head Yes", command = lambda: call(35), width = 17)
+	next = Button(buttons, text = "Click Next", command = lambda: call(29), width = 17, bg = "lavender")
 
 	turns.grid(row = 0, columnspan = 2)
 	forward.grid(row = 1)
 	left.grid(row = 1, column = 1)
+	next.grid(row = 1, column = 2)
 	right.grid(row = 2)
 	nod.grid(row = 2, column = 1)
 
