@@ -20,17 +20,37 @@ namespace Nico.csharp.functions
 
             try
             {
+                // Get whether the current step has been answered and pass that along 
+                int currentstep = problemStep[1];
+                int answerKey = problemStep[3];
+                string answerPattern = SQLAnswerPattern.GetAnswerPattern(answerKey)[1];
+                char[] chAnswerPattern = answerPattern.ToCharArray();
+
                 if (transcript == "" || transcript == null)                                                                                                          // Need to handle when there is no transcript - will depend on if this is the first time we've been here or not
                 {
                     transcript = problemStep[0].ToString() + "_" + problemStep[1].ToString();
                 }
                 else if (transcript == "next step")
                 {
-                    transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString();
+                    if (chAnswerPattern[currentstep + 1] == '1')
+                    {
+                        transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString() + " a";
+                    }
+                    else
+                    {
+                        transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString();
+                    }
                 }
                 else if (transcript == "prior step")
                 {
-                    transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString();
+                    if (chAnswerPattern[currentstep - 1] == '1')
+                    {
+                        transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString() + " a";
+                    }
+                    else
+                    {
+                        transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString();
+                    }
                 }
                 else if (transcript == "problem start")
                 {
@@ -91,8 +111,6 @@ namespace Nico.csharp.functions
                         answerStep = "confirming answer";
                     }
                 }
-
-                // Put in Sam's movement code
             }
             catch (Exception error)
             {
@@ -110,7 +128,7 @@ namespace Nico.csharp.functions
             try
             {
                 string pythonexe = "C:\\Python27\\python.exe";
-                string pythonargs = "C:\\Python27\\NaoNRIPrograms\\nico_move_speak.py " + path;
+                string pythonargs = "C:\\Python27\\NaoNRIPrograms\\simpleGestureSelectionForAutomatedSys.py " + path;
                 ExternalMethodsCaller.PythonProcess(pythonexe, pythonargs);
             }
             catch (Exception error)
