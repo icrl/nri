@@ -99,17 +99,20 @@ namespace Nico.csharp.functions
 
                 string nicoResponseText = readResponse(pathResponseFile);
                 string lastAnswer = SQLNicoState.ReadNicoState_Answer();
-                if (checkIfAnswered && (nicoResponseText.Contains("answer") || nicoResponseText.Contains("Answer") || lastAnswer == "confirming answer"))
+                if (checkIfAnswered && (nicoResponseText.Contains("put the answer") ) )
                 {
-                    
-                    if (lastAnswer == "confirming answer")
-                    {
-                        answerStep = "answering";
-                    }
-                    else
-                    {
-                        answerStep = "confirming answer";
-                    }
+                    //|| nicoResponseText.Contains("Answer") || lastAnswer == "confirming answer"))
+
+                    //if (lastAnswer == "confirming answer")
+                    //{
+                    //    answerStep = "answering";
+                    //}
+                    //else
+                    //{
+                    //    answerStep = "confirming answer";
+                    //}
+
+                    answerStep = "answering";
                 }
             }
             catch (Exception error)

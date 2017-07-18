@@ -7,36 +7,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <div class="container" id="overalldiv">
-        <div id="listening" style="display:none;width:69px;height:89px;position:absolute;top:50%;left:50%;padding:2px;"><img src='../content/img/loading/loading.gif' width="64" height="64" /><h4>Nico is listening</h4><br></div>
+
+        <div id="listening" style="z-index:-1;display:none;width:69px;height:89px;position:relative;top:50%;left:50%;padding:2px;"><img src='../content/img/loading/loading.gif' width="64" height="64" /><h4>Nico is listening</h4><br></div>
         
-        <div id="thinking" style="display:none;width:69px;height:89px;position:absolute;top:50%;left:50%;padding:2px;"><img src='../content/img/loading/loading.gif' width="64" height="64" /><h4>Nico is thinking</h4><br></div>
+        <div id="thinking" style="z-index:-1;display:none;width:69px;height:89px;position:relative;top:50%;left:50%;padding:2px;"><img src='../content/img/loading/loading.gif' width="64" height="64" /><h4>Nico is thinking</h4><br></div>
         
         <asp:Label ID="ProblemDescription" runat="server" CssClass ="h3"></asp:Label>
         
-        <div id="problemText">
-            <br />
-            <br />
-            <h3>Nico says...</h3>
-            <h4 id="probdescr" align="center">Help Nico by explaining what to do.</h4> 
-            <br />
-        </div>
         <div class="row">
-            <div class="col-sm-4 text-center" >
-                 <img ID="priorStepButton" onclick="PriorStep_Click()" style="visibility:hidden;width:75px;height:75px;cursor:pointer;" src="../content/img/imagedirectory/double-up-arrow.jpg"/>
-                 <h4 ID="priorStepText" style="visibility:hidden;">Prior Step</h4>
-            </div>
             
-            <div class="col-md-4">
-                    <table id="table3" class="table table-new"></table>
-            </div>
             
-            <div class="col-sm-4 text-center">
-                <img ID="nextStepButton" onclick="NextStep_Click()" style="visibility:visible;width:75px;height:75px;cursor:pointer;" src="../content/img/imagedirectory/double-down-arrow.jpg" />
-                <h4 ID="nextStepText" style="visibility:visible;">Next Step</h4>
+            <div id="problemText" class="col-md-8">
+                <br />
+                <br />
+                <h3>Nico says...</h3>
+                <h4 id="probdescr" align="center">Help Nico by explaining what to do.</h4> 
+                <br />
+
             </div>
-        
+
+            <div class="col-md-4 text-center">
+                <br />
+                <h4>Touch and hold the Nao robot image to talk to Nico.</h4>
+                <img id="NAOButton" onmousedown="mouseDown()" onmouseup="mouseUp()" style="width:185px; height:165px; border:3px solid;position:relative;top:0px; left:0px;" src="../content/img/imagedirectory/nao-sit.jpg"/>
+                <br />
+            </div>
+
+       
         </div>
 
+        <div class="row">
+                    <div class="col-md-3 text-center" >
+                         <img ID="priorStepButton" onclick="PriorStep_Click()" style="visibility:hidden;width:75px;height:75px;cursor:pointer;" src="../content/img/imagedirectory/double-up-arrow.jpg"/>
+                         <h4 ID="priorStepText" style="visibility:hidden;">Prior Step</h4>
+                    </div>
+            
+                    <div class="col-md-8 text-center">
+                            <br />
+                            <table id="table3" class="table table-new"></table>
+                    </div>
+            
+                    <div class="col-md-3 text-center">
+                        <img ID="nextStepButton" onclick="NextStep_Click()" style="visibility:visible;width:75px;height:75px;cursor:pointer;" src="../content/img/imagedirectory/double-down-arrow.jpg" />
+                        <h4 ID="nextStepText" style="visibility:visible;">Next Step</h4>
+                    </div>
+        
+           </div>
+            
+        
         <div style="text-align:center;">
             <h4><button type="button" ID="NextProblem" OnClick="Next_Problem()" style="color:hsl(0, 0%, 30%);visibility:hidden;cursor:pointer;">Next Problem</button></h4>
         </div>
@@ -108,7 +126,20 @@
                 
             }
             return false;
-         }
+        }
+
+        function mouseDown() 
+        {
+            clearTimeout(timer);
+            if (!(recognizing)) {
+                $("#listening").css("display", "block");
+                recognizing = true;
+                __log("down - start recognizing");
+                startRecording();
+            }
+            return false;
+            
+        }
 
         // space bar up to stop recognizing
         document.body.onkeyup = function (e) {
@@ -120,7 +151,19 @@
                 //stopRecording(problemStepAnalyzer);
                 stopRecording();
             }
+            return false;
         }
+
+
+        function mouseUp() {
+            $("#listening").css("display", "none");
+            recognizing = false;
+            __log("on up");
+            //stopRecording(problemStepAnalyzer);
+            stopRecording();
+            
+        }
+
 
         // check if microphone is connected and if it can be used as a media stream
         function startUserMedia(stream) {

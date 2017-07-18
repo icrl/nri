@@ -109,6 +109,7 @@
     <Content Include="content\button1.css" />
     <Content Include="content\img\imagedirectory\double-down-arrow.jpg" />
     <Content Include="content\img\imagedirectory\double-up-arrow.jpg" />
+    <Content Include="content\img\imagedirectory\nao-sit.jpg" />
     <Content Include="content\img\imagedirectory\problem_one_images.txt" />
     <Content Include="content\img\loading\ajax-loader.gif" />
     <Content Include="content\img\microphone\mic-animate.gif" />

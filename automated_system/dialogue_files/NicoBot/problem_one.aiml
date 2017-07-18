@@ -481,6 +481,16 @@
 <template>Twelve divided by six is two. Right?</template>
 </category>
 
+<category>
+<pattern>^ DIVIDE ^ </pattern>
+<template>Ok so we divide. Then what do we do?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^ </pattern>
+<template>Ok so we divide. Then what do we do?</template>
+</category>
+
 </topic>
 
 
@@ -1553,7 +1563,5 @@
 
 </topic>
 
-
-</topic>
 
 </aiml>

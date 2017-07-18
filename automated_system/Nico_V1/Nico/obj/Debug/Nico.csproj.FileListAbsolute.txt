@@ -71,6 +71,6 @@ C:\Nikki\ASU_Research\NRI_Project\System\NRI_Git_Hub\automated_system\Nico_V1\Ni
 C:\Nikki\ASU_Research\NRI_Project\System\NRI_Git_Hub\automated_system\Nico_V1\Nico\bin\System.Web.WebPages.xml
 C:\Nikki\ASU_Research\NRI_Project\System\NRI_Git_Hub\automated_system\Nico_V1\Nico\bin\System.Web.WebPages.Deployment.xml
 C:\Nikki\ASU_Research\NRI_Project\System\NRI_Git_Hub\automated_system\Nico_V1\Nico\bin\System.Web.WebPages.Razor.xml
-C:\Nikki\ASU_Research\NRI_Project\System\NRI_Git_Hub\automated_system\Nico_V1\Nico\obj\Debug\Nico.csprojResolveAssemblyReference.cache
 C:\Nikki\ASU_Research\NRI_Project\System\NRI_Git_Hub\automated_system\Nico_V1\Nico\obj\Debug\Nico.dll
 C:\Nikki\ASU_Research\NRI_Project\System\NRI_Git_Hub\automated_system\Nico_V1\Nico\obj\Debug\Nico.pdb
+C:\Nikki\ASU_Research\NRI_Project\System\NRI_Git_Hub\automated_system\Nico_V1\Nico\obj\Debug\Nico.csprojResolveAssemblyReference.cache
