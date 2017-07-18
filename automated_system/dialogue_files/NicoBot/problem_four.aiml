@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>PROBLEM START 4</pattern>
+<template>Ok so now that I know how to get to the beach and I'm waterproof, I need to figure out how far I can swim. There's a current and I need help figuring out how far I can swim before I end up on the shore. Lets say I start out at 26 feet into the ocean? Can you help me? This is <set name="topic">A TRICKY ONE</set>?</template>
+</category>
+
+<category>
+<pattern>next step 4 1</pattern>
+<template><random>
+<li>I'm really not sure what to do on <set name="topic">STEP ONE OF THIS PROBLEM</set>.</li>
+<li>I'm not sure what to do here on <set name="topic">STEP ONE OF THIS PROBLEM</set>.</li>
+<li>Can you give me a hint for <set name="topic">STEP ONE OF THIS PROBLEM</set>?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>next step 4 2</pattern>
+<template><random>
+<li>Can you give me a hint on <set name="topic">STEP TWO OF THIS PROBLEM</set>?</li>
+<li>I'm really not sure what to do on <set name="topic">STEP TWO OF THIS PROBLEM</set>.</li>
+<li>I'm not sure what to do here on <set name="topic">STEP TWO OF THIS PROBLEM</set>.</li>
+<li>Can you give me a hint for <set name="topic">STEP TWO OF THIS PROBLEM</set>?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>next step 4 3</pattern>
+<template><random>
+<li>So for <set name="topic">STEP THREE OF THIS PROBLEM</set>, I may be getting this but can you give me another hint?</li>
+<li>Wow we're on <set name="topic">STEP THREE OF THIS PROBLEM</set>. How do we do this one?</li>
+<li>Yay! <set name="topic">STEP THREE OF THIS PROBLEM</set>. How do I solve this one?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>next step 4 4</pattern>
+<template><random>
+<li>Well this <set name="topic">LAST STEP OF THIS BEACH PROBLEM</set> involves big numbers.</li>
+<li>We're on the <set name="topic">LAST STEP OF THIS BEACH PROBLEM</set>! I never thought we'd get here. </li>
+<li><set name="topic">LAST STEP OF THIS BEACH PROBLEM</set>! How do we do this one? </li>
+</random></template>
+</category>
+
+<category>
+<pattern>prior step 4 1</pattern>
+<template><random>
+<li> Okay! <set name="topic">BACK TO STEP ONE OF THIS BEACH PROBLEM</set>.</li>
+<li> Oh we're <set name="topic">BACK TO STEP ONE OF THIS BEACH PROBLEM</set>.</li>
+</random></template>
+</category>
+
+<category>
+<pattern>prior step 4 2</pattern>
+<template><random>
+<li>Alright <set name="topic">BACK TO STEP TWO OF THIS BEACH PROBLEM</set>.</li>
+<li>Oh we're <set name="topic">BACK TO STEP TWO OF THIS BEACH PROBLEM</set>.</li>
+<li>Okay! <set name="topic">BACK TO STEP TWO OF THIS BEACH PROBLEM</set>.</li>
+</random></template>
+</category>
+
+<category>
+<pattern>prior step 4 3</pattern>
+<template><random>
+<li>Alright <set name="topic">BACK TO STEP THREE OF THIS BEACH PROBLEM</set>.</li>
+<li>Oh we're <set name="topic">BACK TO STEP THREE OF THIS BEACH PROBLEM</set>.</li>
+<li>Okay! <set name="topic">BACK TO STEP THREE OF THIS BEACH PROBLEM</set>.</li>
+</random></template>
+</category>
+
+<category>
+<pattern>prior step 4 4</pattern>
+<template><random>
+<li>Alright <set name="topic">BACK TO STEP FOUR OF THIS BEACH PROBLEM</set>.</li>
+<li>Oh we're <set name="topic">BACK TO STEP FOUR OF THIS BEACH PROBLEM</set>.</li>
+<li>Okay! <set name="topic">BACK TO STEP FOUR OF THIS BEACH PROBLEM</set>.</li>
+</random></template>
+</category>
+
+<category>
+<pattern>prior step 4 1 a</pattern>
+<template>Didn't we already <set name="topic">do step one for problem FOUR</set>?</template>
+</category>
+
+<category>
+<pattern>prior step 4 2 a</pattern>
+<template>Didn't we already <set name="topic">do step two for problem FOUR</set>?</template>
+</category>
+
+<category>
+<pattern>prior step 4 3 a</pattern>
+<template>Didn't we already <set name="topic">do step three for problem FOUR</set>?</template>
+</category>
+
+<category>
+<pattern>prior step 4 4 a</pattern>
+<template>Didn't we already <set name="topic">do step four for problem FOUR</set>?</template>
+</category>
+
+<category>
+<pattern>next step 4 1 a</pattern>
+<template>Didn't we already <set name="topic">do step one for problem FOUR</set>?</template>
+</category>
+
+<category>
+<pattern>next step 4 2 a</pattern>
+<template>Didn't we already <set name="topic">do step two for problem FOUR</set>?</template>
+</category>
+
+<category>
+<pattern>next step 4 3 a</pattern>
+<template>Didn't we already <set name="topic">do step three for problem FOUR</set>?</template>
+</category>
+
+<category>
+<pattern>next step 4 4 a</pattern>
+<template>Didn't we already <set name="topic">do step four for problem FOUR</set>?</template>
+</category>
+
+<topic name = "A TRICKY ONE">
+</topic>
+
+<topic name = "STEP TWO OF THIS PROBLEM">
+</topic>
+
+
+<topic name = "STEP THREE OF THIS PROBLEM">
+</topic>
+
+
+<topic name = "LAST STEP OF THIS BEACH PROBLEM">
+</topic>
+
+<topic name = "BACK TO STEP ONE OF THIS BEACH PROBLEM">
+</topic>
+
+
+<topic name = "BACK TO STEP TWO OF THIS BEACH PROBLEM">
+</topic>
+
+
+<topic name = "BACK TO STEP THREE OF THIS BEACH PROBLEM">
+</topic>
+
+
+<topic name = "BACK TO STEP FOUR OF THIS BEACH PROBLEM">
+</topic>
+
+
+<topic name = "DO STEP ONE for PROBLEM FOUR">
+</topic>
+
+<topic name = "DO STEP TWO for PROBLEM FOUR">
+</topic>
+
+<topic name = "DO STEP THREE for PROBLEM FOUR">
+</topic>
+
+<topic name = "DO STEP FOUR for PROBLEM FOUR">
+</topic>
+
+
+</aiml>

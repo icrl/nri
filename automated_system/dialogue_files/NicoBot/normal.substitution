@@ -442,5 +442,10 @@
 ["{", " beginscript "],
 ["{", " leftcurly "],
 ["}", " endscript "],
-["}", " rightcurly "]
+["}", " rightcurly "],
+["300", "three hundred"],
+["150", "one hundred and fifty"],
+["60", "sixty"],
+["420", "four hundred and twenty"],
+["2.5", "two point five"]
 ]

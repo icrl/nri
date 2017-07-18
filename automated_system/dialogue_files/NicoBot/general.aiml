@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+<category>
+<pattern>^ Good job ^ </pattern>
+<template>Thank you. You're a great tutor.</template>
+</category>
+
+<category>
+<pattern>^ Nice job ^ </pattern>
+<template>Thank you. You're a great tutor.</template>
+</category>
+
+<category>
+<pattern>^ Yes ^ </pattern>
+<template>
+Ok great! Then what?
+</template>
+</category>
+
+<category>
+<pattern>^ No ^</pattern>
+<template>Oh. Do you think you can explain more? </template>
+</category>
+
+<category>
+<pattern>HOW DID YOU ^</pattern>
+<template><random>
+<li>I took what you said and I thought about it and it came to me what to do.</li>
+<li>You're a really good teacher and I'm learning</li>
+<li>I have a pretty good memory and I'm figuring this out </li>
+</random></template>
+</category>
+
+<category>
+<pattern>HOW DO YOU KNOW ^</pattern>
+<template><random>
+<li>I've been listening to you and it just came to meo.</li>
+<li>You're a really good teacher and I'm learning</li>
+<li>I have a pretty good memory and I'm figuring this out </li>
+</random></template>
+</category>
+
+<category>
+<pattern>YOU DO *</pattern>
+<template>Okay so that is what we do.What do we do next?</template>
+</category>
+
+</aiml>

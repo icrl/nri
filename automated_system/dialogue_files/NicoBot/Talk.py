@@ -9,15 +9,21 @@ APP_ID = "1409611535153"
 
 
 # gets a response from the bot
-def response(text, BOT):
-    fullresponse = API.talk(USER_KEY, APP_ID, HOST, BOT, text)
-    bot_response = fullresponse['response']
-    #session_id = fullresponse['sessionid']
-    print BOT + " says: \" ", bot_response, " \" "
+def response(text, BOT, debugMode):
+    if debugMode == 'trace':
+        fullresponse = API.debug_bot(USER_KEY, APP_ID, HOST, BOT, text, session_id=True, reset=True, trace=True,
+                           recent=True)
+        print "Bot Response: ", fullresponse
+    else:
+        fullresponse = API.talk(USER_KEY, APP_ID, HOST, BOT, text)
+        bot_response = fullresponse['response']
+
+        #session_id = fullresponse['sessionid']
+        print BOT + " says: \" ", bot_response, " \" "
 
 
 # enables continuous talk with the bot
-def talk(BOT):
+def talk(BOT, debugMode):
     print "Converse with " + BOT + "! When you are finished conversing with " + BOT + ", enter 'quit.' "
     question = raw_input("What would you like to say first? ")
     done = False
@@ -26,17 +32,19 @@ def talk(BOT):
             done = True
             break
         else:
-            response(question, BOT)
+            response(question, BOT, debugMode)
             question = raw_input("How would you like to respond?  ")
 
 
+
 def main():
-    if len(sys.argv) < 2:
-        print 'usage: ./Talk.py BOT'
+    if len(sys.argv) < 3:
+        print 'usage: ./Talk.py BOT debugMode'
         sys.exit(1)
 
     BOT = sys.argv[1]
-    talk(BOT)
+    debugMode = sys.argv[2]
+    talk(BOT, debugMode)
 
     print "\n\n-------Conversation Done-------"
 
