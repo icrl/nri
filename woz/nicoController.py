@@ -27,7 +27,7 @@ dialog = {
 	'28': "How should we start?",
 	'11': "Could you give me more information?",
 	'12': "Okay now we mul tip ly?",
-	'13': "Okay now we add?",
+	'13': "Okay now we subtract?",
 	'14': "Okay so we divide?",
 	'15': "Is this correct?",
 	######## Confusion ########

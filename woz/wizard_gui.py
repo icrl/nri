@@ -72,7 +72,7 @@ def main():
 	qmenu.add_command(label = 'Is this correct?', command = lambda: call(15))
 	qmenu.add_command(label = 'How do we start?', command = lambda: call(28))
 	qmenu.add_separator()
-	qmenu.add_command(label ='Now we add?', command = lambda: call(13))
+	qmenu.add_command(label ='Now we subtract?', command = lambda: call(13))
 	qmenu.add_command(label = 'Now we multiply?', command = lambda: call(12))
 	qmenu.add_command(label = 'Now we divide?', command = lambda: call(14))
 	menubar.add_cascade(label = "Questions", menu = qmenu)
