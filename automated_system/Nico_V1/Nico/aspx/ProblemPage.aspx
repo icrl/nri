@@ -8,10 +8,7 @@
 
     <div class="container" id="overalldiv">
 
-        <div id="listening" style="z-index:-1;display:none;width:69px;height:89px;position:relative;top:50%;left:50%;padding:2px;"><img src='../content/img/loading/loading.gif' width="64" height="64" /><h4>Nico is listening</h4><br></div>
-        
-        <div id="thinking" style="z-index:-1;display:none;width:69px;height:89px;position:relative;top:50%;left:50%;padding:2px;"><img src='../content/img/loading/loading.gif' width="64" height="64" /><h4>Nico is thinking</h4><br></div>
-        
+       
         <asp:Label ID="ProblemDescription" runat="server" CssClass ="h3"></asp:Label>
         
         <div class="row">
@@ -24,12 +21,30 @@
                 <h4 id="probdescr" align="center">Help Nico by explaining what to do.</h4> 
                 <br />
 
+                <div id="listening" style="z-index:-1;display:none;position:relative;top:50%;left:50%;padding:2px;">
+                    <img src='../content/img/loading/circles.gif' width="150" height="150" />
+                    <h4 style="align-content:center;font-size:2em;font-weight:bold;">Nico is listening</h4>
+                    <br />
+                    <br />
+                    <br />
+
+                </div>
+                
+                <div id="thinking" style="z-index:-1;display:none;position:relative;top:50%;left:50%;padding:2px;">
+                    <img src='../content/img/loading/circles.gif' width="150" height="150" />
+                    <h4 style="align-content:center;font-size:2em;font-weight:bold;">Nico is thinking</h4>
+                    <br />
+                    <br />
+                    <br />
+                </div>
+
+
             </div>
 
-            <div class="col-md-4 text-center">
+            <div id="touchzone" class="col-md-4 text-center">
                 <br />
                 <h4>Touch and hold the Nao robot image to talk to Nico.</h4>
-                <img id="NAOButton" onmousedown="mouseDown()" onmouseup="mouseUp()" style="width:185px; height:165px; border:3px solid;position:relative;top:0px; left:0px;" src="../content/img/imagedirectory/nao-sit.jpg"/>
+                <img id="NAOButton" style="width:185px; height:165px; border:3px solid;position:relative;top:0px; left:0px;" src="../content/img/imagedirectory/nao-sit.jpg"/>
                 <br />
             </div>
 
@@ -37,8 +52,8 @@
         </div>
 
         <div class="row">
-                    <div class="col-md-3 text-center" >
-                         <img ID="priorStepButton" onclick="PriorStep_Click()" style="visibility:hidden;width:75px;height:75px;cursor:pointer;" src="../content/img/imagedirectory/double-up-arrow.jpg"/>
+                    <div id="priorsteptouch" class="col-md-3 text-center" >
+                         <img ID="priorStepButton" style="visibility:hidden;width:75px;height:75px;cursor:pointer;" src="../content/img/imagedirectory/double-up-arrow.jpg"/>
                          <h4 ID="priorStepText" style="visibility:hidden;">Prior Step</h4>
                     </div>
             
@@ -47,8 +62,8 @@
                             <table id="table3" class="table table-new"></table>
                     </div>
             
-                    <div class="col-md-3 text-center">
-                        <img ID="nextStepButton" onclick="NextStep_Click()" style="visibility:visible;width:75px;height:75px;cursor:pointer;" src="../content/img/imagedirectory/double-down-arrow.jpg" />
+                    <div id="nextsteptouch" class="col-md-3 text-center">
+                        <img ID="nextStepButton" style="visibility:visible;width:75px;height:75px;cursor:pointer;" src="../content/img/imagedirectory/double-down-arrow.jpg" />
                         <h4 ID="nextStepText" style="visibility:visible;">Next Step</h4>
                     </div>
         
@@ -59,14 +74,8 @@
             <h4><button type="button" ID="NextProblem" OnClick="Next_Problem()" style="color:hsl(0, 0%, 30%);visibility:hidden;cursor:pointer;">Next Problem</button></h4>
         </div>
         
-        <div class="progress progress-striped">          
-            <div class="progress-bar progress-bar-success" style="width: 20%">20% Complete</div>
-        </div>
-        
-        <div>
-            <h2>Log</h2>
-            <pre id="log"></pre>
-        </div>
+      
+
 
         <br />
 
@@ -89,6 +98,14 @@
         //<button class="button button-new" type="button" ID="nextStepButton" onclick="NextStep_Click()" style="visibility:visible;" > Next Step </button>
         //          <button class="button button-new" type="button" ID="priorStepButton" onclick="PriorStep_Click()" style="visibility:hidden"> Prior Step </button>
 
+        //<div class="progress progress-striped">
+            //<div class="progress-bar progress-bar-success" style="width: 20%">20% Complete</div>
+        //</div>
+
+        //<div>
+         //   <h2>Log</h2>
+        //    <pre id="log"></pre>
+       // </div>
 
         // Variables for recording
         var recorder;
@@ -141,6 +158,19 @@
             
         }
 
+        function touchHandlerDown(evt) {
+            evt.preventDefault();
+            clearTimeout(timer);
+            if (!(recognizing)) {
+                $("#listening").css("display", "block");
+                recognizing = true;
+                __log("down - start recognizing");
+                startRecording();
+            }
+            return false;
+
+        }
+
         // space bar up to stop recognizing
         document.body.onkeyup = function (e) {
             $("#listening").css("display", "none");
@@ -162,6 +192,32 @@
             //stopRecording(problemStepAnalyzer);
             stopRecording();
             
+        }
+
+        function touchHandlerUp(evt) {
+            evt.preventDefault();
+            $("#listening").css("display", "none");
+            recognizing = false;
+            __log("on up");
+            //stopRecording(problemStepAnalyzer);
+            stopRecording();
+
+        }
+
+        function absorbEvent_(event) {
+            var e = event || window.event;
+            e.preventDefault && e.preventDefault();
+            e.stopPropagation && e.stopPropagation();
+            e.cancelBubble = true;
+            e.returnValue = false;
+            return false;
+        }
+
+        function preventLongPressMenu(node) {
+            node.ontouchstart = absorbEvent_;
+            node.ontouchmove = absorbEvent_;
+            node.ontouchend = absorbEvent_;
+            node.ontouchcancel = absorbEvent_;
         }
 
 
@@ -573,6 +629,68 @@
             return false;
         }
 
+        function PriorStep_Touch(evt) {
+            evt.preventDefault();
+            __log("prior step button clicked");
+            var data = new FormData();
+            var clicked = "prior";
+            data.append('button_info', clicked);
+
+            $(document).ajaxStart(function () {
+                $("#thinking").css("display", "block");
+            });
+
+            $(document).ajaxStop(function () {
+                $("#thinking").css("display", "none");
+            });
+
+            $.ajax({
+                url: "../handlers/UpdateStep.ashx",
+                type: 'POST',
+                data: data,
+                contentType: false,
+                processData: false,
+                success: function (endSession) {
+                    updateTable(endSession);
+                },
+                error: function (err) {
+                    alert(err.statusText)
+                }
+            });
+            return false;
+        }
+
+        function NextStep_Touch(evt) {
+            evt.preventDefault();
+            __log("next step button clicked");
+            var data = new FormData();
+            var clicked = "next";
+            data.append('button_info', clicked);
+
+            $(document).ajaxStart(function () {
+                $("#thinking").css("display", "block");
+            });
+
+            $(document).ajaxStop(function () {
+                $("#thinking").css("display", "none");
+            });
+
+            $.ajax({
+                url: "../handlers/UpdateStep.ashx",
+                type: 'POST',
+                data: data,
+                contentType: false,
+                processData: false,
+                success: function (endSession) {
+                    updateTable(endSession);
+                },
+                error: function (err) {
+                    alert(err.statusText)
+                }
+            });
+            return false;
+        }
+
         function Next_Problem() {
             __log("new problem button clicked");
             var data = new FormData();
@@ -608,6 +726,16 @@
 
         // Window loading initializations
         window.onload = function init() {
+            var touchzone = document.getElementById('touchzone');
+            touchzone.addEventListener("touchstart", touchHandlerDown, false);
+            touchzone.addEventListener("touchend", touchHandlerUp, false);
+            //preventLongPressMenu(document.getElementById('NAOButton'));
+
+            var nextsteptouch = document.getElementById('nextsteptouch');
+            var priorsteptouch = document.getElementById('priorsteptouch');
+            nextsteptouch.addEventListener("touchend", NextStep_Touch, false);
+            priorsteptouch.addEventListener("touchend", PriorStep_Touch, false);
+
             updateTable();
 
             try {
@@ -650,7 +778,7 @@
 
         // function for writing data to window
         function __log(e, data) {
-            log.innerHTML += "\n" + e + " " + (data || '');
+            //log.innerHTML += "\n" + e + " " + (data || '');
         }
 
         // response if need to upgrade window

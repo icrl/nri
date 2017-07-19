@@ -34,7 +34,6 @@ namespace Nico.handlers
             int answerKey = problemStep[3];
             int newanswer = problemStep[4];
 
-
             /* ----------Retrieve the problem content----------------
              * Problem Text - contains description of problem plus headers for columns
              * Problem Design Answers - contains the full content, including answers
@@ -49,6 +48,13 @@ namespace Nico.handlers
             List<string> problemText = SQLProblemText.ReadProbText(problem);
             List<string> problemDesign_Answers = SQLProblemDesign.GetProbDesign(problem, 1);
             List<string> problemDesign_Blanks = SQLProblemDesign.GetProbDesign(problem, 0);
+
+            if (answerKey == 0)
+            {
+                // BIG PROBLEM! How did this happen?
+                answerKey = 1;
+            }
+
             string answerPattern = SQLAnswerPattern.GetAnswerPattern(answerKey)[1];
             char[] chAnswerPattern = answerPattern.ToCharArray();
             int maxsteps = Convert.ToInt32(problemDesign_Blanks[0]);
@@ -68,6 +74,7 @@ namespace Nico.handlers
             {
                 cellAnswer = (int)Char.GetNumericValue(stepAnswerPattern[newanswer - 1]);
                 newanswer = 1;
+
             }
 
 
