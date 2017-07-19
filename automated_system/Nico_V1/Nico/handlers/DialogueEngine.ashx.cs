@@ -96,6 +96,11 @@ namespace Nico.handlers
                 string clickstep = "none";
                 int newanswer = 0;
 
+                if (step == 0)
+                {
+                    step = 1;
+                }
+
                 transcript = context.Request.Params["transcript"];                                                         // Get transcript (if there is one)
 
                 if (numAutoResponses > 4)
@@ -152,7 +157,7 @@ namespace Nico.handlers
                     }
                     else
                     {
-                        nextstepanswerkey = SQLProblemStepTracker.CalculateNewAnswerKey(0, answerKey, step);                // Passing 0 as first argument because Nico didn't answer this step yet
+                        nextstepanswerkey = answerKey;                                                                                 // current answer key
                         SQLProblemStepTracker.UpdateProbStep(username, sessionid, problem, step, probImg, nextstepanswerkey, newanswer, numAutoResponses);
                     }
                 }

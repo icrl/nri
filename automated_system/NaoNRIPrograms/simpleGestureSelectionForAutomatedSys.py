@@ -335,7 +335,7 @@ def yawnAndStretch():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("eawyn")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def lookAtNailsLeft():
@@ -381,7 +381,7 @@ def lookAtNailsLeft():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("hum")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def lookAtNailsRight():
@@ -426,7 +426,7 @@ def lookAtNailsRight():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("hum")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def handOutLeft():
@@ -472,7 +472,7 @@ def handOutLeft():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("She ran three kilometers")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def handOutRight():
@@ -519,7 +519,7 @@ def handOutRight():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("So in 18 minutes she will be 6 kilometers away.")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def largeShrug():
@@ -566,7 +566,7 @@ def largeShrug():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I don't know how to solve it")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def handsOnHips():
@@ -612,7 +612,7 @@ def handsOnHips():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I think I know what to do!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def waveLeft():
@@ -658,7 +658,7 @@ def waveLeft():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("Hello! Nice to meet you.")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def waveRight():
@@ -682,6 +682,7 @@ def waveRight():
                   [-66.8 * almath.TO_RAD],
                   [1]]
 
+
     timeLists = [[0.5],
                  [0.5],
 
@@ -704,7 +705,7 @@ def waveRight():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("Hello! Nice to meet you.")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def nodYes():
@@ -741,6 +742,7 @@ def nodYes():
                  [1.5],
 
                  [0.5],
+
                  [0.5],
                  [0.5],
                  [0.5],
@@ -752,6 +754,7 @@ def nodYes():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("Yes, I agree")
     time.sleep(1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def shakeNo():
@@ -799,6 +802,7 @@ def shakeNo():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I don't think that's right")
     time.sleep(1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def lookLeft():
@@ -845,7 +849,7 @@ def lookLeft():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("Take a look at the screen here!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def lookRight():
@@ -891,7 +895,7 @@ def lookRight():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("Take a look at the screen here!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def facepalmLeft():
@@ -938,7 +942,7 @@ def facepalmLeft():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I can't believe I didn't see that before!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def facepalmRight():
@@ -985,7 +989,7 @@ def facepalmRight():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I can't believe I didn't see that before!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def cantHearLeft():
@@ -1032,7 +1036,7 @@ def cantHearLeft():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I didn't hear you, can you repeat that?")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def cantHearRight():
@@ -1079,7 +1083,7 @@ def cantHearRight():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I didn't hear you, can you repeat that?")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def handOnChestLeft():
@@ -1126,7 +1130,7 @@ def handOnChestLeft():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I think I know the answer!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def handOnChestRight():
@@ -1173,7 +1177,7 @@ def handOnChestRight():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I think I know the answer!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def handsOut():
@@ -1220,7 +1224,7 @@ def handsOut():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I think I know the answer!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def cheering():
@@ -1266,7 +1270,7 @@ def cheering():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("We did it!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def handsOnHead():
@@ -1313,7 +1317,7 @@ def handsOnHead():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("This is really confusing!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 ##_________________________________CARTOON GESTURES______________________________________##
@@ -1364,7 +1368,7 @@ def lookAtNailsLeft2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("hum")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def lookAtNailsRight2():
@@ -1409,7 +1413,7 @@ def lookAtNailsRight2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("hum")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def handOutLeft2():
@@ -1455,7 +1459,7 @@ def handOutLeft2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("She ran three kilometers")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def handOutRight2():
@@ -1501,7 +1505,7 @@ def handOutRight2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("So in 18 minutes she will be 6 kilometers away.")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def largeShrug2():
@@ -1594,7 +1598,7 @@ def handsOnHips2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I think I know what to do!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def waveLeft2():
@@ -1640,7 +1644,7 @@ def waveLeft2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("Hello! Nice to meet you.")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def waveRight2():
@@ -1686,7 +1690,7 @@ def waveRight2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("Hello! Nice to meet you.")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def nodYes2():
@@ -1697,6 +1701,7 @@ def nodYes2():
                   [20.3 * almath.TO_RAD, -20.3 * almath.TO_RAD, 20.3 * almath.TO_RAD, -20.3 * almath.TO_RAD,
                    0.0 * almath.TO_RAD],
 
+                  
                   [80.9 * almath.TO_RAD],
                   [8.3 * almath.TO_RAD],
                   [-45.3 * almath.TO_RAD],
@@ -1705,6 +1710,7 @@ def nodYes2():
                   [0],
 
                   [80.8 * almath.TO_RAD],
+
                   [-8.4 * almath.TO_RAD],
                   [45.1 * almath.TO_RAD],
                   [60.1 * almath.TO_RAD],
@@ -1734,6 +1740,7 @@ def nodYes2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("Yes, I agree")
     time.sleep(1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def shakeNo2():
@@ -1781,6 +1788,7 @@ def shakeNo2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I don't think that's right")
     time.sleep(1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def lookLeft2():
@@ -1827,7 +1835,7 @@ def lookLeft2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("Take a look at the screen here!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def lookRight2():
@@ -1873,7 +1881,7 @@ def lookRight2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     tts.say("Take a look at the screen here!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def facepalmLeft2():
@@ -1920,7 +1928,7 @@ def facepalmLeft2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I can't believe I didn't see that before!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def facepalmRight2():
@@ -1967,7 +1975,7 @@ def facepalmRight2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I can't believe I didn't see that before!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def cantHearLeft2():
@@ -1981,8 +1989,7 @@ def cantHearLeft2():
                   [-2.2 * almath.TO_RAD],
                   [-67.6 * almath.TO_RAD],
                   [-88.5 * almath.TO_RAD],
-                  [13.8 * almath.TO_RAD],
-                  [1],
+                  [13.8 * almath.TO_RAD],                  [1]
 
                   [80.8 * almath.TO_RAD],
                   [-8.4 * almath.TO_RAD],
@@ -2014,7 +2021,7 @@ def cantHearLeft2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I didn't hear you, can you repeat that?")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def cantHearRight2():
@@ -2023,8 +2030,7 @@ def cantHearRight2():
              "RShoulderPitch", "RShoulderRoll", "RElbowYaw", "RElbowRoll", "RWristYaw", "RHand"]
     angleLists = [[63.3 * almath.TO_RAD],
                   [-5.7 * almath.TO_RAD],
-
-                  [79.9 * almath.TO_RAD],
+                  [79.9 * almath.TO_RAD],                  
                   [9.3 * almath.TO_RAD],
                   [-46.3 * almath.TO_RAD],
                   [-58.8 * almath.TO_RAD],
@@ -2061,7 +2067,7 @@ def cantHearRight2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I didn't hear you, can you repeat that?")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def handOnChestLeft2():
@@ -2108,7 +2114,7 @@ def handOnChestLeft2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I think I know the answer!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def handOnChestRight2():
@@ -2155,7 +2161,7 @@ def handOnChestRight2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("I think I know the answer!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def cheering2():
@@ -2201,7 +2207,7 @@ def cheering2():
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("We did it!")
     time.sleep(1.0)
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
 def handsOnHead2():
@@ -2247,90 +2253,166 @@ def handsOnHead2():
     # the post is so it happens at the same time as the speech
     motionProxy.post.angleInterpolation(names, angleLists, timeLists, isAbsolute)
     ## tts.say("This is really confusing!")
-    postureProxy.goToPosture("Crouch", 1.0)
+    postureProxy.goToPosture("Crouch", 0.0)
 
 
-def saySmart(filename):
-    ## start in crouch
-    postureProxy.goToPosture("Crouch", 1.0)
+greetList = [waveLeft, waveRight]
+   agreeList = [nodYes]
+   disagreeList = [shakeNo]
+   questionList = [largeShrug]
+   makeAPointList = [handOutLeft, handOutRight, handsOnHips]
+   
+   def saySmart():
+      ## start in crouch
+      crouch()
 
-    ## gesture categories
-    question = ["?", "I don't know", "why", "what"]
-    makeAPoint = ["I think", "I know", "I get it", "I will"]
-    agree = ["yes", "Yes", "I agree", "you're right", "good", "great"]
-    disagree = ["no", "No", "I disagree"]
-    greet = ["Hello", "hello", "Hey", "hey", "Hi", "hi"]
+      ## gesture categories
+      question = ["?"]
+      makeAPoint = ["I think ", "I thought ", "I know ", "I get it ", "I will ", "Oh okay ", "Ohhh. ", "Oh ", "Maybe "]
+      agree = ["yes", "Yes ", "I agree ", "you're right ", " good ", " great "]
+      disagree = [" no ", "No ", "I disagree "]
+      greet = ["Hello", " hello", "Hey", " hey ", "Hi", " hi "]
 
-    questionCount = 0
-    makeAPointCount = 0
-    agreeCount = 0
-    disagreeCount = 0
-    greetCount = 0
+      ## probability
+      questionP1 = 0.25
+      questionP2 = 0.495
+      makeAPointP1 = 0.50
+      makeAPointP2 = 0.75
+      agreeP1 = 0.70
+      agreeP2 = 0.90
+      disagreeP1 = 0.70
+      disagreeP2 = 0.90
 
-    threshold = 4
-    highP = 0.50
-    lowP = 0.80
+      ## number of times this gesture TYPE has been used
+      questionCount = 0
+      makeAPointCount = 0
+      agreeCount = 0
+      disagreeCount = 0
+      greetCount = 0
 
-    with open(filename) as f:
-        for line in f:
-            if (questionCount < threshold):
-                questionP = highP
-            else:
-                questionP = lowP
+      def prettyPrint():
+         print ("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-")
+         print ("   ")
+         print ("Greet: " + str(greetCount))
+         print ("   PROBABILITY: 100 always")
+         print ("Agree: " + str(agreeCount))
+         print ("   PROBABILITY: " + str(agreeP1))
+         print ("Disagree: " + str(disagreeCount))
+         print ("   PROBABILITY: " + str(disagreeP1))
+         print ("Question: " + str(questionCount))
+         print ("   PROBABILITY: " + str(questionP1))
+         print ("Make A Point: " + str(makeAPointCount))
+         print ("   PROBABILITY: " + str(makeAPointP1))
+
+      threshold = 2
+      with open("NAOdialogEx2.txt") as f:
+
+         ## cuts the probability in half when
+         ## a gesture group has been done more than twice
+         ## (except for greetings)
+          for line in f:
+            prettyPrint()
+               
+            if (questionCount >= threshold):
+               questionP1 = 0.165
             #######################
-            if (makeAPointCount < threshold):
-                makeAPointP = highP
-            else:
-                makeAPointP = lowP
+            if (makeAPointCount >= threshold):
+               makeAPointP1 = 0.33
             #######################
-            if (agreeCount < threshold):
-                agreeP = highP
-            else:
-                agreeP = lowP
+            if (agreeCount >= threshold):
+               agreeP1 = 0.33
             #######################
-            if (disagreeCount < threshold):
-                disagreeP = highP
-            else:
-                disagreeP = lowP
-            #######################
-            if (greetCount < threshold):
-                greetP = highP
-            else:
-                greetP = lowP
+            if (disagreeCount >= threshold):
+               disagreeP1 = 0.33
 
+            
             random_number = random.random()
+            
 
-            if any(word in line for word in question) and (random_number >= questionP):
-                tts.post.say(line)
-                largeShrug()
-                questionCount = questionCount + 1
-                ## print ("question count: " + str(questionCount))
-                ## print ("shrug probability: " + str(questionP))
-            elif any(word in line for word in agree) and (random_number >= agreeP):
-                tts.post.say(line)
-                nodYes()
-                agreeCount = agreeCount + 1
-                ## print ("agreeCount: " + str(agreeCount))
-            elif any(word in line for word in disagree) and (random_number >= disagreeP):
-                tts.post.say(line)
-                shakeNo()
-                disagreeCount = disagreeCount + 1
-                ## print ("disagreeCount: " + str(disagreeCount))
-            elif any(word in line for word in greet) and (random_number >= greetP):
-                tts.post.say(line)
-                waveLeft()
-                greetCount = greetCount + 1
-                ## print ("greetCount: " + str(greetCount))
-            elif any(word in line for word in makeAPoint) and (random_number >= makeAPointP):
-                tts.post.say(line)
-                if (int(random_number * 100) % 2 == 0):
-                    handOutLeft()
-                else:
-                    handOutRight()
-                makeAPointCount = makeAPointCount + 1
-                ## print ("makeAPointCount: " + str(makeAPointCount))
+            ## GREET ##  
+            if any(word in line for word in greet):
+               ##  1/3 chance of 1st gesture 
+               ##  1/6 chance of 2nd gesture 
+               ##  1/2 chance of NO gesture 
+               tts.post.say(line)
+               random_greet = choice(greetList)
+               random_greet()
+               greetCount = greetCount+1
+            ## AGREE ##   
+            elif any(word in line for word in agree):
+               if(random_number <= agreeP1):
+                  tts.post.say(line)
+                  random_agree = choice(agreeList)
+                  random_agree()
+                  agreeCount = agreeCount+1
+               elif any(word in line for word in disagree):
+                  if(agreeP1 < random_number <= agreeP2):
+                     tts.post.say(line)
+                     random_disagree = choice(disagreeList)
+                     random_disagree()
+                     disagreeCount = disagreeCount+1
+               elif any(word in line for word in question):
+                  if(agreeP1 < random_number <= agreeP2):
+                     tts.post.say(line)
+                     random_question = choice(questionList)
+                     random_question()
+                     questionCount = questionCount+1
+               elif any(word in line for word in makeAPoint):
+                  if(agreeP1 < random_number <= agreeP2):
+                     tts.post.say(line)
+                     random_point = choice(makeAPointList)
+                     random_point()
+                     makeAPointCount = makeAPointCount+1
+               else:
+                  tts.post.say(line)
+            ## DISAGREE ##   
+            elif any(word in line for word in disagree):
+               if(random_number <= disagreeP1):
+                  tts.post.say(line)
+                  random_disagree = choice(disagreeList)
+                  random_disagree()
+                  disagreeCount = disagreeCount+1
+               elif any(word in line for word in question):
+                  if(disagreeP1 < random_number <= disagreeP2):
+                     tts.post.say(line)
+                     random_question = choice(questionList)
+                     random_question()
+                     questionCount = questionCount+1
+               elif any(word in line for word in makeAPoint):
+                  if(disagreeP1 < random_number <= disagreeP2):
+                     tts.post.say(line)
+                     random_point = choice(makeAPointList)
+                     random_point()
+                     makeAPointCount = makeAPointCount+1
+               else:
+                  tts.post.say(line)
+            ## QUESTION ## 
+            elif any(word in line for word in question):
+               if(random_number <= questionP1):
+                  tts.post.say(line)
+                  random_question = choice(questionList)
+                  random_question()
+                  questionCount = questionCount+1
+               elif any(word in line for word in makeAPoint):
+                  if(questionP1 < random_number <= questionP2):
+                     tts.post.say(line)
+                     random_point = choice(makeAPointList)
+                     random_point()
+                     makeAPointCount = makeAPointCount+1
+               else:
+                  tts.post.say(line)
+            ## MAKE A POINT ##
+            elif any(word in line for word in makeAPoint):
+               if(random_number <= makeAPointP1):
+                  tts.post.say(line)
+                  random_point = choice(makeAPointList)
+                  random_point()
+                  makeAPointCount = makeAPointCount+1
+               else:
+                  tts.post.say(line)
             else:
-                tts.say(line)
+               tts.say(line)
+            
 
 
 

@@ -14,18 +14,20 @@
 
 <category><pattern>RANDOM PICKUP LINE</pattern>
 <template><random>
-<li>That sounds good. Then what do we do?</li>
-<li>This is a hard problem. What do we do next?</li>
+<li>That sounds good.</li>
+<li>This is a hard problem.</li>
 <li>I'm actually not sure what you said. Try saying it again but differently?</li>
 <li>I may be a robot but I do try hard. Can you explain more?</li>
 <li>I like to listen and learn. Can you explain more?</li>
-<li>I'm still learning ratios. Maybe you can explain more?</li>
+<li>Give me time to finish processing.</li>
 <li>Figuring out the solutions to these problems is challenging for me but you're really helpful.</li>
-<li>I like a good challenge. What do we do next?</li>
-<li>So I'm actually not sure what you mean. Can you tell me again?</li>
-<li>That's very interesting. Can you explain that more?</li>
+<li>I like a good challenge; how about you?</li>
+<li>I'm not averse to flattery.</li>
+<li>I like a good discussion.</li>
 <li>I tend to meander a bit. Can you repeat that?</li>
-<li>I'm sorry. I am trying. What do we do?</li>
+<li>I am trying.</li>
+<li>I try to keep my life in balance.</li>
+<li>I deserve to look as good as I can.</li>
 </random></template>
 </category>
 

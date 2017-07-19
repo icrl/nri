@@ -31,6 +31,12 @@ namespace Nico.handlers
                 int newanswer = problemStep[4];
                 int numautoresponses = problemStep[5];
 
+                if (step == 0)
+                {
+                    step = 1;
+                    nextStep = 2;
+                }
+
                 // Variables important to Nico's state
                 Tuple<string, int, string> nicoResponse;                                                                      // string => Nico's response, int is the movement code, string is whether nico is answering
                 string path = HttpRuntime.AppDomainAppPath;
@@ -46,7 +52,7 @@ namespace Nico.handlers
                         problemStep[1] = nextStep;
                         newanswer = 0;
 
-                        clickstep = "step"+ step.ToString() + "_" + nextStep.ToString();
+                        clickstep = "step_"+ step.ToString() + "_" + nextStep.ToString();
                         nicoResponse = ResponseGeneration.NicoResponse(path, problemStep, 0, "next step", now);
                         SQLUserState.UpdateSpeakerState(userid, "", "", 0, problemStep, now, clickstep, numautoresponses);                            // Write out speaker state info
                         SQLNicoState.UpdateNicoState(userid, nicoResponse, problemStep, now);                                       // Write out Nico's state info & update problem/step
@@ -59,7 +65,7 @@ namespace Nico.handlers
                         problemStep[1] = priorStep;
                         newanswer = 0;
 
-                        clickstep = "step" + step.ToString() + "_" + priorStep.ToString();
+                        clickstep = "step_" + step.ToString() + "_" + priorStep.ToString();
                         nicoResponse = ResponseGeneration.NicoResponse(path, problemStep, 0, "prior step", now);
                         SQLUserState.UpdateSpeakerState(userid, "", "", 0, problemStep, now, clickstep, numautoresponses);                            // Write out speaker state info
                         SQLNicoState.UpdateNicoState(userid, nicoResponse, problemStep, now);                                       // Write out Nico's state info & update problem/step
@@ -78,6 +84,15 @@ namespace Nico.handlers
                             step = 1;
                             answerKey = 1;
                             newanswer = 0;
+                            problemStep[0] = nextproblem;
+
+                            clickstep = "problem_" + problem.ToString() + "_" + nextproblem.ToString();
+
+                            nicoResponse = ResponseGeneration.NicoResponse(path, problemStep, 0, "problem start", now);
+                            SQLUserState.UpdateSpeakerState(userid, "", "", 0, problemStep, now, clickstep, numautoresponses);                            // Write out speaker state info
+                            SQLNicoState.UpdateNicoState(userid, nicoResponse, problemStep, now);                                       // Write out Nico's state info & update problem/step
+
+
                             SQLProblemStepTracker.UpdateProbStep(userid, sessionid, nextproblem, step, problemimgkey, answerKey, newanswer, numautoresponses);
                         }
 

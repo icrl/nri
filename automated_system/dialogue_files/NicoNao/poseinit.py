@@ -14,7 +14,7 @@ def initPos(robotIP, PORT):
     motionProxy.wakeUp()
 
     # Send robot to Stand Init
-    postureProxy.goToPosture("Sit", 0.5)
+    postureProxy.goToPosture("Crouch", 0.5)
 
     # Go to rest position
     motionProxy.rest()
