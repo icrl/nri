@@ -33,7 +33,6 @@ except Exception, e:
     sys.exit(1)
 
 
-
 def main():
     nicoresponsefile = sys.argv[1]
     # bot_response = response(nicoresponsefile)
@@ -81,7 +80,7 @@ def stiffnessOff():
     motionProxy.stiffnessInterpolation(pNames, pStiffnessLists, pTimeLists)
 
 
-#stiffnessOff = Button(content, text="OFF", command=stiffnessOff)
+# stiffnessOff = Button(content, text="OFF", command=stiffnessOff)
 
 
 def stiffnessOn():
@@ -91,7 +90,7 @@ def stiffnessOn():
     motionProxy.stiffnessInterpolation(pNames, pStiffnessLists, pTimeLists)
 
 
-#stiffnessOn = Button(content, text="ON", command=stiffnessOn)
+# stiffnessOn = Button(content, text="ON", command=stiffnessOn)
 
 
 ##_________________________________HEAD STUFF______________________________________##
@@ -125,7 +124,7 @@ def moveHead2(pitch, yaw):
 # Hyaw = Label(content, text="Head yaw:")
 # enHyaw = Entry(content)
 
-#apply1 = Button(content, text="APPLY", width=10, command=moveHead)
+# apply1 = Button(content, text="APPLY", width=10, command=moveHead)
 
 
 ##_________________________________LEFT ARM STUFF______________________________________##
@@ -170,7 +169,7 @@ def moveLeftArm2(shoulderPitch, shoulderRoll, elbowYaw, elbowRoll, wristYaw):
 # LWyaw = Label(content, text="Left Wrist yaw: ")
 # enLWyaw = Entry(content)
 
-#apply2 = Button(content, text="APPLY", width=10, command=moveLeftArm)
+# apply2 = Button(content, text="APPLY", width=10, command=moveLeftArm)
 
 
 ##_________________________________RIGHT ARM STUFF______________________________________##
@@ -209,7 +208,7 @@ def moveRightArm2(shoulderPitch, shoulderRoll, elbowYaw, elbowRoll, wristYaw):
 # RIGHT ARM
 
 
-#apply3 = Button(content, text="APPLY", width=10, command=moveRightArm)
+# apply3 = Button(content, text="APPLY", width=10, command=moveRightArm)
 
 
 ##_________________________________FULL BODY STUFF______________________________________##
@@ -257,7 +256,7 @@ def moveBody2(yaw, pitch, lshoulderPitch, lshoulderRoll, lelbowYaw, lelbowRoll, 
     motionProxy.setAngles(names, angles, fractionMaxSpeed)
 
 
-#applyAll = Button(content, text="APPLY ALL", width=10, command=moveBody)
+# applyAll = Button(content, text="APPLY ALL", width=10, command=moveBody)
 
 
 ##________________________________HANDS______________________________________##
@@ -681,7 +680,6 @@ def waveRight():
                   [86.2 * almath.TO_RAD],
                   [-66.8 * almath.TO_RAD],
                   [1]]
-
 
     timeLists = [[0.5],
                  [0.5],
@@ -1701,7 +1699,6 @@ def nodYes2():
                   [20.3 * almath.TO_RAD, -20.3 * almath.TO_RAD, 20.3 * almath.TO_RAD, -20.3 * almath.TO_RAD,
                    0.0 * almath.TO_RAD],
 
-                  
                   [80.9 * almath.TO_RAD],
                   [8.3 * almath.TO_RAD],
                   [-45.3 * almath.TO_RAD],
@@ -1989,7 +1986,7 @@ def cantHearLeft2():
                   [-2.2 * almath.TO_RAD],
                   [-67.6 * almath.TO_RAD],
                   [-88.5 * almath.TO_RAD],
-                  [13.8 * almath.TO_RAD],                  [1]
+                  [13.8 * almath.TO_RAD], [1]
 
                   [80.8 * almath.TO_RAD],
                   [-8.4 * almath.TO_RAD],
@@ -2030,7 +2027,7 @@ def cantHearRight2():
              "RShoulderPitch", "RShoulderRoll", "RElbowYaw", "RElbowRoll", "RWristYaw", "RHand"]
     angleLists = [[63.3 * almath.TO_RAD],
                   [-5.7 * almath.TO_RAD],
-                  [79.9 * almath.TO_RAD],                  
+                  [79.9 * almath.TO_RAD],
                   [9.3 * almath.TO_RAD],
                   [-46.3 * almath.TO_RAD],
                   [-58.8 * almath.TO_RAD],
@@ -2257,162 +2254,161 @@ def handsOnHead2():
 
 
 greetList = [waveLeft, waveRight]
-   agreeList = [nodYes]
-   disagreeList = [shakeNo]
-   questionList = [largeShrug]
-   makeAPointList = [handOutLeft, handOutRight, handsOnHips]
-   
-   def saySmart():
-      ## start in crouch
-      crouch()
+agreeList = [nodYes]
+disagreeList = [shakeNo]
+questionList = [largeShrug]
+makeAPointList = [handOutLeft, handOutRight, handsOnHips]
 
-      ## gesture categories
-      question = ["?"]
-      makeAPoint = ["I think ", "I thought ", "I know ", "I get it ", "I will ", "Oh okay ", "Ohhh. ", "Oh ", "Maybe "]
-      agree = ["yes", "Yes ", "I agree ", "you're right ", " good ", " great "]
-      disagree = [" no ", "No ", "I disagree "]
-      greet = ["Hello", " hello", "Hey", " hey ", "Hi", " hi "]
 
-      ## probability
-      questionP1 = 0.25
-      questionP2 = 0.495
-      makeAPointP1 = 0.50
-      makeAPointP2 = 0.75
-      agreeP1 = 0.70
-      agreeP2 = 0.90
-      disagreeP1 = 0.70
-      disagreeP2 = 0.90
+def saySmart(nicoresponsefile):
+    ## start in crouch
+    postureProxy.goToPosture("Crouch", 1.0)
 
-      ## number of times this gesture TYPE has been used
-      questionCount = 0
-      makeAPointCount = 0
-      agreeCount = 0
-      disagreeCount = 0
-      greetCount = 0
+    ## gesture categories
+    question = ["?"]
+    makeAPoint = ["I think ", "I thought ", "I know ", "I get it ", "I will ", "Oh okay ", "Ohhh. ", "Oh ", "Maybe "]
+    agree = ["yes", "Yes ", "I agree ", "you're right ", " good ", " great "]
+    disagree = [" no ", "No ", "I disagree "]
+    greet = ["Hello", " hello", "Hey", " hey ", "Hi", " hi "]
 
-      def prettyPrint():
-         print ("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-")
-         print ("   ")
-         print ("Greet: " + str(greetCount))
-         print ("   PROBABILITY: 100 always")
-         print ("Agree: " + str(agreeCount))
-         print ("   PROBABILITY: " + str(agreeP1))
-         print ("Disagree: " + str(disagreeCount))
-         print ("   PROBABILITY: " + str(disagreeP1))
-         print ("Question: " + str(questionCount))
-         print ("   PROBABILITY: " + str(questionP1))
-         print ("Make A Point: " + str(makeAPointCount))
-         print ("   PROBABILITY: " + str(makeAPointP1))
+    ## probability
+    questionP1 = 0.25
+    questionP2 = 0.495
+    makeAPointP1 = 0.50
+    makeAPointP2 = 0.75
+    agreeP1 = 0.70
+    agreeP2 = 0.90
+    disagreeP1 = 0.70
+    disagreeP2 = 0.90
 
-      threshold = 2
-      with open("NAOdialogEx2.txt") as f:
+    ## number of times this gesture TYPE has been used
+    questionCount = 0
+    makeAPointCount = 0
+    agreeCount = 0
+    disagreeCount = 0
+    greetCount = 0
 
-         ## cuts the probability in half when
-         ## a gesture group has been done more than twice
-         ## (except for greetings)
-          for line in f:
+    def prettyPrint():
+        print ("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-")
+        print ("   ")
+        print ("Greet: " + str(greetCount))
+        print ("   PROBABILITY: 100 always")
+        print ("Agree: " + str(agreeCount))
+        print ("   PROBABILITY: " + str(agreeP1))
+        print ("Disagree: " + str(disagreeCount))
+        print ("   PROBABILITY: " + str(disagreeP1))
+        print ("Question: " + str(questionCount))
+        print ("   PROBABILITY: " + str(questionP1))
+        print ("Make A Point: " + str(makeAPointCount))
+        print ("   PROBABILITY: " + str(makeAPointP1))
+
+    threshold = 2
+    with open(nicoresponsefile) as f:
+
+        ## cuts the probability in half when
+        ## a gesture group has been done more than twice
+        ## (except for greetings)
+        for line in f:
             prettyPrint()
-               
+
             if (questionCount >= threshold):
-               questionP1 = 0.165
+                questionP1 = 0.165
             #######################
             if (makeAPointCount >= threshold):
-               makeAPointP1 = 0.33
+                makeAPointP1 = 0.33
             #######################
             if (agreeCount >= threshold):
-               agreeP1 = 0.33
+                agreeP1 = 0.33
             #######################
             if (disagreeCount >= threshold):
-               disagreeP1 = 0.33
+                disagreeP1 = 0.33
 
-            
             random_number = random.random()
-            
 
-            ## GREET ##  
+            ## GREET ##
             if any(word in line for word in greet):
-               ##  1/3 chance of 1st gesture 
-               ##  1/6 chance of 2nd gesture 
-               ##  1/2 chance of NO gesture 
-               tts.post.say(line)
-               random_greet = choice(greetList)
-               random_greet()
-               greetCount = greetCount+1
-            ## AGREE ##   
+                ##  1/3 chance of 1st gesture
+                ##  1/6 chance of 2nd gesture
+                ##  1/2 chance of NO gesture
+                tts.post.say(line)
+                random_greet = choice(greetList)
+                random_greet()
+                greetCount = greetCount + 1
+            ## AGREE ##
             elif any(word in line for word in agree):
-               if(random_number <= agreeP1):
-                  tts.post.say(line)
-                  random_agree = choice(agreeList)
-                  random_agree()
-                  agreeCount = agreeCount+1
-               elif any(word in line for word in disagree):
-                  if(agreeP1 < random_number <= agreeP2):
-                     tts.post.say(line)
-                     random_disagree = choice(disagreeList)
-                     random_disagree()
-                     disagreeCount = disagreeCount+1
-               elif any(word in line for word in question):
-                  if(agreeP1 < random_number <= agreeP2):
-                     tts.post.say(line)
-                     random_question = choice(questionList)
-                     random_question()
-                     questionCount = questionCount+1
-               elif any(word in line for word in makeAPoint):
-                  if(agreeP1 < random_number <= agreeP2):
-                     tts.post.say(line)
-                     random_point = choice(makeAPointList)
-                     random_point()
-                     makeAPointCount = makeAPointCount+1
-               else:
-                  tts.post.say(line)
-            ## DISAGREE ##   
+                if (random_number <= agreeP1):
+                    tts.post.say(line)
+                    random_agree = choice(agreeList)
+                    random_agree()
+                    agreeCount = agreeCount + 1
+                elif any(word in line for word in disagree):
+                    if (agreeP1 < random_number <= agreeP2):
+                        tts.post.say(line)
+                        random_disagree = choice(disagreeList)
+                        random_disagree()
+                        disagreeCount = disagreeCount + 1
+                elif any(word in line for word in question):
+                    if (agreeP1 < random_number <= agreeP2):
+                        tts.post.say(line)
+                        random_question = choice(questionList)
+                        random_question()
+                        questionCount = questionCount + 1
+                elif any(word in line for word in makeAPoint):
+                    if (agreeP1 < random_number <= agreeP2):
+                        tts.post.say(line)
+                        random_point = choice(makeAPointList)
+                        random_point()
+                        makeAPointCount = makeAPointCount + 1
+                else:
+                    tts.post.say(line)
+            ## DISAGREE ##
             elif any(word in line for word in disagree):
-               if(random_number <= disagreeP1):
-                  tts.post.say(line)
-                  random_disagree = choice(disagreeList)
-                  random_disagree()
-                  disagreeCount = disagreeCount+1
-               elif any(word in line for word in question):
-                  if(disagreeP1 < random_number <= disagreeP2):
-                     tts.post.say(line)
-                     random_question = choice(questionList)
-                     random_question()
-                     questionCount = questionCount+1
-               elif any(word in line for word in makeAPoint):
-                  if(disagreeP1 < random_number <= disagreeP2):
-                     tts.post.say(line)
-                     random_point = choice(makeAPointList)
-                     random_point()
-                     makeAPointCount = makeAPointCount+1
-               else:
-                  tts.post.say(line)
-            ## QUESTION ## 
+                if (random_number <= disagreeP1):
+                    tts.post.say(line)
+                    random_disagree = choice(disagreeList)
+                    random_disagree()
+                    disagreeCount = disagreeCount + 1
+                elif any(word in line for word in question):
+                    if (disagreeP1 < random_number <= disagreeP2):
+                        tts.post.say(line)
+                        random_question = choice(questionList)
+                        random_question()
+                        questionCount = questionCount + 1
+                elif any(word in line for word in makeAPoint):
+                    if (disagreeP1 < random_number <= disagreeP2):
+                        tts.post.say(line)
+                        random_point = choice(makeAPointList)
+                        random_point()
+                        makeAPointCount = makeAPointCount + 1
+                else:
+                    tts.post.say(line)
+            ## QUESTION ##
             elif any(word in line for word in question):
-               if(random_number <= questionP1):
-                  tts.post.say(line)
-                  random_question = choice(questionList)
-                  random_question()
-                  questionCount = questionCount+1
-               elif any(word in line for word in makeAPoint):
-                  if(questionP1 < random_number <= questionP2):
-                     tts.post.say(line)
-                     random_point = choice(makeAPointList)
-                     random_point()
-                     makeAPointCount = makeAPointCount+1
-               else:
-                  tts.post.say(line)
+                if (random_number <= questionP1):
+                    tts.post.say(line)
+                    random_question = choice(questionList)
+                    random_question()
+                    questionCount = questionCount + 1
+                elif any(word in line for word in makeAPoint):
+                    if (questionP1 < random_number <= questionP2):
+                        tts.post.say(line)
+                        random_point = choice(makeAPointList)
+                        random_point()
+                        makeAPointCount = makeAPointCount + 1
+                else:
+                    tts.post.say(line)
             ## MAKE A POINT ##
             elif any(word in line for word in makeAPoint):
-               if(random_number <= makeAPointP1):
-                  tts.post.say(line)
-                  random_point = choice(makeAPointList)
-                  random_point()
-                  makeAPointCount = makeAPointCount+1
-               else:
-                  tts.post.say(line)
+                if (random_number <= makeAPointP1):
+                    tts.post.say(line)
+                    random_point = choice(makeAPointList)
+                    random_point()
+                    makeAPointCount = makeAPointCount + 1
+                else:
+                    tts.post.say(line)
             else:
-               tts.say(line)
-            
+                tts.say(line)
+
 
 
 
@@ -2424,7 +2420,7 @@ greetList = [waveLeft, waveRight]
 
 
 
-            ##_________________________________GET ANGLES______________________________________##
+                ##_________________________________GET ANGLES______________________________________##
 
 
 # Example that finds the difference between the command and sensed angles.
@@ -2486,7 +2482,7 @@ def getAngles():
     enRWyaw.insert(0, '%.3f' % (float(RWristYawAngle) * almath.TO_DEG))
 
 
-#getAngles = Button(content, text="Get Curent", width=10, command=getAngles)
+# getAngles = Button(content, text="Get Curent", width=10, command=getAngles)
 
 ##_________________________________GRID STUFF______________________________________##
 #
