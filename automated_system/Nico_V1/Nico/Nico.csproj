@@ -123,6 +123,7 @@
     <Content Include="content\img\problem_one\StepThree_Answered.png" />
     <Content Include="content\img\problem_one\StepTwo.png" />
     <Content Include="content\img\problem_one\StepTwo_Answered.png" />
+    <Content Include="content\introductionVideo.mp4" />
     <Content Include="content\simple-sidebar.css" />
     <Content Include="content\Site.css" />
     <Content Include="content\table1.css" />

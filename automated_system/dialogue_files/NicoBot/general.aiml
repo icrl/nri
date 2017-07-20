@@ -47,4 +47,36 @@ Ok great! Then what?
 <template>Okay so that is what we do.What do we do next?</template>
 </category>
 
+<category>
+<pattern>NO RESPONSE</pattern>
+<template><random>
+<li>Are you there? I didn't quite here what you said.</li>
+<li>To be honest, I have no idea what you just said.</li>
+<li>Hmmmm. I didn't hear you. Can you repeat that? </li>
+<li>I'm sorry, sometimes I'm a little hard of hearing.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>TRIGGERED SPEECH 1</pattern>
+<template>Why aren't you talking to me? Are you thinking?</template>
+</category>
+
+<category>
+<pattern>TRIGGERED SPEECH 2</pattern>
+<template>Why aren't you talking to me? I'm getting tired.</template>
+</category>
+
+<category>
+<pattern>TRIGGERED SPEECH 3</pattern>
+<template>If you aren't going to talk to me, I think I'm going to go to sleep.</template>
+</category>
+
+<category>
+<pattern>TRIGGERED SPEECH 4</pattern>
+<template>Okay I'm going to take a nap now.</template>
+</category>
+
+
 </aiml>

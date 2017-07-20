@@ -118,6 +118,29 @@
 <template>Didn't we already <set name="topic">do step four for problem THREE</set>?</template>
 </category>
 
+<category>
+<pattern>3 1</pattern>
+<template><set name="topic">STEP ONE OF THIS THIRD PROBLEM</set></template>
+</category>
+
+<category>
+<pattern>3 2</pattern>
+<template><set name="topic">STEP TWO OF THIS THIRD PROBLEM</set></template>
+</category>
+
+<category>
+<pattern>3 3</pattern>
+<template><set name="topic">STEP THREE OF THIS THIRD PROBLEM</set></template>
+</category>
+
+<category>
+<pattern>3 4</pattern>
+<template><set name="topic">LAST STEP OF THIS THIRD PROBLEM</set></template>
+</category>
+
+
+
+
 <topic name = "MY WAY THERE">
 
 <category>

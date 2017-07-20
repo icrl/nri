@@ -18,7 +18,7 @@ namespace Nico.handlers
             {
                 string userid = "nlubold";
                 int sessionid = 1;
-                int maxprobs = 4;
+                int maxprobs = 3;
 
                 List<int> problemStep = SQLProblemStepTracker.ReadProbStep(userid);
                 int problem = problemStep[0];
