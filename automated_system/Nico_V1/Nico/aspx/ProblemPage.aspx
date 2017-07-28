@@ -14,66 +14,75 @@
         <div class="row">
             
             
-            <div id="problemText" class="col-md-8">
-                <br />
-                <br />
-                <h3>Nico says...</h3>
-                <h4 id="probdescr" align="center">Help Nico by explaining what to do.</h4> 
-                <br />
-
-                <div id="listening" style="z-index:-1;display:none;position:relative;top:50%;left:50%;padding:2px;">
-                    <img src='../content/img/loading/circles.gif' width="150" height="150" />
-                    <h4 style="align-content:center;font-size:2em;font-weight:bold;">Nico is listening</h4>
-                    <br />
-                    <br />
-                    <br />
-
+            <div id="NicoStuff" class=".col-xs-3 center-block">
+                <div class="row">
+                    <div id="touchzone" class=".col-xs-12 center-block">
+                        <br />
+                        
+                        <img id="NAOButton" style="width:247px; height:262px;position:fixed;top:100px; left:75px;" src="../content/img/imagedirectory/nao-sit.png"/>
+                        <br />
+                    </div>
                 </div>
+
+                <div class="row">
+                    <div class=".col-xs-12 center-block" >
+                        <img id="listening" src='../content/img/loading/circles_listening.gif' style="display:none;width:150px; height:150px;position:fixed;top:400px;left:50px;" />
+                        <br />
+                        <br />
+                        <br />
+
+                    </div>
                 
-                <div id="thinking" style="z-index:-1;display:none;position:relative;top:50%;left:50%;padding:2px;">
-                    <img src='../content/img/loading/circles.gif' width="150" height="150" />
-                    <h4 style="align-content:center;font-size:2em;font-weight:bold;">Nico is thinking</h4>
-                    <br />
-                    <br />
-                    <br />
+                    <div  class=".col-xs-12 center-block">
+                        <img id="thinking" src='../content/img/loading/coloredcircles_thinking.gif' style="display:none;width:150px; height:150px;position:fixed;top:400px;left:200px;"/>
+                        <br />
+                        <br />
+                        <br />
+                    </div>
                 </div>
 
 
+
+
             </div>
 
-            <div id="touchzone" class="col-md-4 text-center">
-                <br />
-                <h4>Touch and hold the Nao robot image to talk to Nico.</h4>
-                <img id="NAOButton" style="width:185px; height:165px; border:3px solid;position:relative;top:0px; left:0px;" src="../content/img/imagedirectory/nao-sit.jpg"/>
-                <br />
-            </div>
-
-       
-        </div>
-
-        <div class="row">
-                    <div id="priorsteptouch" class="col-md-3 text-center" >
-                         <img ID="priorStepButton" style="visibility:hidden;width:75px;height:75px;cursor:pointer;" src="../content/img/imagedirectory/double-up-arrow.jpg"/>
-                         <h4 ID="priorStepText" style="visibility:hidden;">Prior Step</h4>
-                    </div>
-            
-                    <div class="col-md-8 text-center">
+            <div id="ProblemUIStuff" class="col-sm-9">
+                <div class="row">
+                    <div id="problemText" class="col-sm-12 text-center">
                             <br />
-                            <table id="table3" class="table table-new"></table>
+                            <br />
+                            <h3>Nico says...</h3>
+                            <h4 id="probdescr">Help Nico by explaining what to do.</h4> 
+                            <br />
                     </div>
+                </div>
+                <div class="row">
+                            <div id="priorsteptouch" class="col-sm-3 text-center" >
+                                 <img ID="priorStepButton" style="visibility:hidden;width:75px;height:75px;cursor:pointer;" src="../content/img/imagedirectory/double-up-arrow.jpg"/>
+                                 <h4 ID="priorStepText" style="visibility:hidden;">Prior Step</h4>
+                            </div>
             
-                    <div id="nextsteptouch" class="col-md-3 text-center">
-                        <img ID="nextStepButton" style="visibility:visible;width:75px;height:75px;cursor:pointer;" src="../content/img/imagedirectory/double-down-arrow.jpg" />
-                        <h4 ID="nextStepText" style="visibility:visible;">Next Step</h4>
+                            <div class="col-sm-6 text-center">
+                                    <br />
+                                    <table id="table3" class="table table-new"></table>
+                            </div>
+            
+                            <div id="nextsteptouch" class="col-sm-3 text-center">
+                                <img ID="nextStepButton" style="visibility:visible;width:75px;height:75px;cursor:pointer;" src="../content/img/imagedirectory/double-down-arrow.jpg" />
+                                <h4 ID="nextStepText" style="visibility:visible;">Next Step</h4>
+                            </div>
+        
+               </div>
+               
+                <div class="row">
+                    <div id="NextProbDiv" class=".col-xs-12 center-block">
+                        <h4><button type="button" ID="NextProblem" OnClick="Next_Problem()" style="color:hsl(0, 0%, 30%);visibility:hidden;cursor:pointer;">Next Problem</button></h4>
                     </div>
-        
-           </div>
-            
-        
-        <div style="text-align:center;">
-            <h4><button type="button" ID="NextProblem" OnClick="Next_Problem()" style="color:hsl(0, 0%, 30%);visibility:hidden;cursor:pointer;">Next Problem</button></h4>
+                </div>
+            </div>
         </div>
-        
+
+
       
 
 

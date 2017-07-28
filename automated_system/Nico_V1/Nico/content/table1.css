@@ -1,4 +1,11 @@
-﻿table.table-new { text-align: center; }
+﻿.videoAdd {
+    position: relative;
+    width: 640px;
+    height: 480px;
+}
+
+
+table.table-new { text-align: center; }
 
 table.table-new {
     border-collapse: collapse;

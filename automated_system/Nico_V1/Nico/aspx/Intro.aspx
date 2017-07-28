@@ -11,16 +11,14 @@
 
     <div class="container">
         <br />
-
         <h3> Introduction Video </h3>
-        <video width="320" height="240" controls>
-              <source src="../content/introductionVideo.mp4" type="video/mp4">
+        <video  width="960" height="540" controls>
+                <source src="../content/video/introductionVideo.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-
         <br />
         <div style="text-align:center;">
-          <h4><asp:LinkButton ID="GoToProblemOne" Text="Start Teaching"  OnClick="Start_Teaching" runat="server" style="color:hsl(0, 0%, 30%)"/></h4>
+            <h4><asp:LinkButton ID="GoToProblemOne" Text="Click Here to Go to the Next Page"  OnClick="Hello_Nico" runat="server" style="color:hsl(0, 0%, 30%)"/></h4>
         </div>
         <br />
     </div>

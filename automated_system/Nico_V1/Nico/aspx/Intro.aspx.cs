@@ -14,13 +14,13 @@ namespace Nico.aspx
 
         }
 
-        protected void Start_Teaching(object sender, EventArgs e)
+        protected void Hello_Nico(object sender, EventArgs e)
         {
             //int eventid = 21;
             //string eventtype = "problemone_to_nicoone";
             //string result = logged(eventtype, eventid);
 
-            Response.Redirect("ProblemPage.aspx");
+            Response.Redirect("HelloNico.aspx");
         }
     }
 }

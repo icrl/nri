@@ -104,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aspx\Default.aspx" />
+    <Content Include="aspx\HelloNico.aspx" />
     <Content Include="aspx\Intro.aspx" />
     <Content Include="aspx\ProblemPage.aspx" />
     <Content Include="content\button1.css" />
@@ -286,6 +287,13 @@
     </Compile>
     <Compile Include="aspx\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\HelloNico.aspx.cs">
+      <DependentUpon>HelloNico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\HelloNico.aspx.designer.cs">
+      <DependentUpon>HelloNico.aspx</DependentUpon>
     </Compile>
     <Compile Include="aspx\Intro.aspx.cs">
       <DependentUpon>Intro.aspx</DependentUpon>
