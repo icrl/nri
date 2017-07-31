@@ -276,6 +276,7 @@
 
                var data = new FormData();
                data.append('transcript', final_transcript);
+               data.append('page_loc', 'HelloNico');
                data.append('lib', blob);
 
 
@@ -318,6 +319,7 @@
        function noResponseCallNico(text) {
            var data = new FormData();
            data.append('transcript', text);
+           data.append('page_loc', 'HelloNico');
 
            $(document).ajaxStart(function () {
                $("#thinking").css("display", "block");
@@ -393,7 +395,9 @@
                __log('getUserMedia not supported');
            }
 
-           timer = setTimeout(function () { noResponseCallNico("no response"); }, 25000);
+           noResponseCallNico("HELLO FIRST TIME");
+
+           timer = setTimeout(function () { noResponseCallNico("no response"); }, 45000);
 
        }
 

@@ -12,7 +12,7 @@ namespace Nico.csharp.functions
         /* Using speaker info, get Nico's response and instigate movement
          * Returns a tuple containing the path to the file of Nico's response, Nico's movement code, and whether Nico provided the answer to this step
         */
-        public static Tuple<string, int, string> NicoResponse(string path, List<int> problemStep, int speakerSpoke, string transcript, DateTime time)
+        public static Tuple<string, int, string> NicoResponse(string path, List<int> problemStep, int speakerSpoke, string transcript, DateTime time, string page)
         {
 
             Tuple<string, int, string> nicoResponse = new Tuple<string, int, string>("",1,"no answer");
@@ -26,64 +26,76 @@ namespace Nico.csharp.functions
                 string answerPattern = SQLAnswerPattern.GetAnswerPattern(answerKey)[1];
                 char[] chAnswerPattern = answerPattern.ToCharArray();
 
-                if (transcript == "" || transcript == null)                                                                                                          // Need to handle when there is no transcript - will depend on if this is the first time we've been here or not
+                if (page == "ProblemPage")
                 {
-                    //transcript = problemStep[0].ToString() + "_" + problemStep[1].ToString();
-                    transcript = "no response";
-                    nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered);                                                                                      // Generate Nico's response (currently just pandorbots)
-                    nicoMoveSpeak1(nicoResponse.Item1, nicoResponse.Item2);
-                }
-                else if (transcript == "next step")
-                {
-                    if (chAnswerPattern[currentstep + 1] == '1')
+
+                    if (transcript == "" || transcript == null)                                                                                                          // Need to handle when there is no transcript - will depend on if this is the first time we've been here or not
                     {
-                        transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString() + " a";
+                        //transcript = problemStep[0].ToString() + "_" + problemStep[1].ToString();
+                        transcript = "no response";
+                        nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered);                                                                                      // Generate Nico's response (currently just pandorbots)
+                        nicoMoveSpeak1(nicoResponse.Item1, nicoResponse.Item2);
+                    }
+                    else if (transcript == "next step")
+                    {
+                        if (chAnswerPattern[currentstep + 1] == '1')
+                        {
+                            transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString() + " a";
+                        }
+                        else
+                        {
+                            transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString();
+                        }
+                        nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered);                                                                                      // Generate Nico's response (currently just pandorbots)
+                        nicoMoveSpeak1(nicoResponse.Item1, nicoResponse.Item2);
+                    }
+                    else if (transcript == "prior step")
+                    {
+                        if (chAnswerPattern[currentstep - 1] == '1')
+                        {
+                            transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString() + " a";
+                        }
+                        else
+                        {
+                            transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString();
+                        }
+
+                        nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered);                                                                                      // Generate Nico's response (currently just pandorbots)
+                        nicoMoveSpeak1(nicoResponse.Item1, nicoResponse.Item2);
+                    }
+                    else if (transcript == "problem start")
+                    {
+                        transcript = transcript + " " + problemStep[0].ToString();
+
+                        nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered);                                                                                      // Generate Nico's response (currently just pandorbots)
+                        nicoMoveSpeak2(nicoResponse.Item1, nicoResponse.Item2);
                     }
                     else
                     {
-                        transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString();
+                        // make sure topic set to the correct problem and step
+                        // detect problem and step we're on, set to that problem and step
+                        // don't play response
+                        string tempTrans = problemStep[0].ToString() + " " + problemStep[1].ToString();
+                        string pythonexe = "C:\\Python27\\python.exe";
+                        string pythonargs = "C:\\Python27\\NaoNRIPrograms\\chatPandoraBot_topicSet.py " + tempTrans;
+                        ExternalMethodsCaller.PythonProcess(pythonexe, pythonargs);
+
+                        checkIfAnswered = true;
+
+                        // now generate response
+                        nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered);                                                                                      // Generate Nico's response (currently just pandorbots)
+                        nicoMoveSpeak1(nicoResponse.Item1, nicoResponse.Item2);
                     }
+               }
+               else if (page == "HelloNico")
+               {
                     nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered);                                                                                      // Generate Nico's response (currently just pandorbots)
                     nicoMoveSpeak1(nicoResponse.Item1, nicoResponse.Item2);
                 }
-                else if (transcript == "prior step")
+               else
                 {
-                    if (chAnswerPattern[currentstep - 1] == '1')
-                    {
-                        transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString() + " a";
-                    }
-                    else
-                    {
-                        transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString();
-                    }
-
-                    nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered);                                                                                      // Generate Nico's response (currently just pandorbots)
-                    nicoMoveSpeak1(nicoResponse.Item1, nicoResponse.Item2);
+                    SQLLog.InsertLog(DateTime.Now, "problem with page detection", "page string not being filled in", "ResponseGeneration.NicoResponse", 1);
                 }
-                else if (transcript == "problem start")
-                {
-                    transcript = transcript + " " + problemStep[0].ToString();
-
-                    nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered);                                                                                      // Generate Nico's response (currently just pandorbots)
-                    nicoMoveSpeak2(nicoResponse.Item1, nicoResponse.Item2);
-                }
-                else 
-                {
-                    // make sure topic set to the correct problem and step
-                    // detect problem and step we're on, set to that problem and step
-                    // don't play response
-                    string tempTrans = problemStep[0].ToString() + " " + problemStep[1].ToString();
-                    string pythonexe = "C:\\Python27\\python.exe";
-                    string pythonargs = "C:\\Python27\\NaoNRIPrograms\\chatPandoraBot_topicSet.py " + tempTrans;
-                    ExternalMethodsCaller.PythonProcess(pythonexe, pythonargs);
-
-                    checkIfAnswered = true;
-
-                    nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered);                                                                                      // Generate Nico's response (currently just pandorbots)
-                    nicoMoveSpeak1(nicoResponse.Item1, nicoResponse.Item2);
-                }
-                //nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered);                                                                                      // Generate Nico's response (currently just pandorbots)
-                //nicoMoveSpeak(nicoResponse.Item1, nicoResponse.Item2);                                                                                                  // Call python to speak
 
             }
             catch (Exception error)

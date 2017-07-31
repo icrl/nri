@@ -1,6 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 
+<category><pattern>HELLO FIRST TIME</pattern>
+<template>Hi! My name is Nico. What is your name?
+</template>
+</category>
+
+<category><pattern>HELLO</pattern>
+<template><random>
+<li>Hi! My name is Nico. What is your name?</li>
+<li>Hello! My name is Nico. Have we met before?</li>
+<li>Hello! My name is Nico. How are you doing today?</li>
+</random></template>
+</category>
+
+<category><pattern>* YES *</pattern>
+<that>have we met before</that>
+<template>Oh I am sorry! Were you teaching me?</template>
+</category>
+
+<category><pattern>* NO *</pattern>
+<that>have we met before</that>
+<template>Oh okay! How are you doing today?</template>
+</category>
+
+
+<category><pattern>*</pattern>
+<that>have we met before</that>
+<template>Oh okay! How are you doing today?</template>
+</category>
+
+<category><pattern>* YES *</pattern>
+<that>Were you teaching me</that>
+<template>Lets get back to learning.</template>
+</category>
+
+<category><pattern>* NO *</pattern>
+<that>Were you teaching me</that>
+<template>Oh. Lets get back to learning anyway.</template>
+</category>
+
+<category><pattern>*</pattern>
+<that>Were you teaching me</that>
+<template>Okay. Lets get back to learning.</template>
+</category>
+
+<category><pattern>MY NAME IS * </pattern>
+<template>Nice to meet you <star/>. How are you doing today?</template>
+</category>
+
+<category><pattern>HOW ARE YOU *</pattern>
+<template>I am great! How are you?</template>
+</category>
+
+<category><pattern>* FINE *</pattern><that>HOW ARE YOU DOING TODAY</that>
+<template>I AM FINE TOO. I am exited for you to help me! Are you ready to get started?</template>
+</category>
+
+<category><pattern>* OKAY *</pattern><that>HOW ARE YOU DOING TODAY</that>
+<template>I AM OKAY TOO. I am exited for you to help me! Are you ready to get started?</template>
+</category>
+
+<category><pattern> *</pattern><that>HOW ARE YOU DOING TODAY</that>
+<template>I AM TOO. I am exited for you to help me! Are you ready to get started?</template>
+</category>
+
+<category><pattern>* YES *</pattern><that>ARE YOU READY TO GET STARTED</that>
+<template>Awesome!  Me too. Press the start teaching button and we can get started. </template>
+</category>
+
+<category><pattern>* NO *</pattern><that>ARE YOU READY TO GET STARTED</that>
+<template>No? Why not? It will be fun. Press the start teaching button and we can get started. </template>
+</category>
+
+<category><pattern>*</pattern><that>ARE YOU READY TO GET STARTED</that>
+<template>Lets do it! It will be fun. Press the start teaching button and we can get started. </template>
+</category>
 
 <category>
 <pattern>^ Good job ^ </pattern>
@@ -12,17 +87,6 @@
 <template>Thank you. You're a great tutor.</template>
 </category>
 
-<category>
-<pattern>^ Yes ^ </pattern>
-<template>
-Ok great! Then what?
-</template>
-</category>
-
-<category>
-<pattern>^ No ^</pattern>
-<template>Oh. Do you think you can explain more? </template>
-</category>
 
 <category>
 <pattern>HOW DID YOU ^</pattern>

@@ -345,6 +345,7 @@
 
                 var data = new FormData();
                 data.append('transcript', final_transcript);
+                data.append('page_loc', 'ProblemPage');
                 data.append('lib', blob);
                 
 
@@ -387,6 +388,7 @@
         function noResponseCallNico(text) {
             var data = new FormData();
             data.append('transcript', text);
+            data.append('page_loc', 'ProblemPage');
 
             $(document).ajaxStart(function () {
                 $("#thinking").css("display", "block");
@@ -404,6 +406,7 @@
                 contentType: false,
                 processData: false,
                 success: function () {
+                    timer = setTimeout(function () { noResponseCallNico("no response"); }, 65000);
                 },
                 error: function (err) {
                     alert(err.statusText)
@@ -781,7 +784,8 @@
                 __log('getUserMedia not supported');
             }
 
-            timer = setTimeout(function () { noResponseCallNico("no response"); }, 25000);
+            timer = setTimeout(function () { noResponseCallNico("no response"); }, 65000);
+            
 
         }
 

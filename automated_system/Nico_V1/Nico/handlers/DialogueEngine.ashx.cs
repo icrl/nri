@@ -72,6 +72,7 @@ namespace Nico.handlers
             string path = context.Request.PhysicalApplicationPath;
             string username = "nlubold";
             Tuple<string, int> imageInfo = new Tuple<string, int>("",2);
+            string page = "";
 
             // Variables important to the speaker's state
             string audioFile = "";
@@ -84,7 +85,7 @@ namespace Nico.handlers
 
             // Variables important to Nico's state
             Tuple<string, int, string> nicoResponse;                                                                           // string => Nico's response, int is the movement code, string contains whether Nico is 'answering', 'confirming', or 'not answering'
-
+            
             try
             {
                 problemStep = SQLProblemStepTracker.ReadProbStep(username);                                                   // Get current step 
@@ -101,7 +102,8 @@ namespace Nico.handlers
                     step = 1;
                 }
 
-                transcript = context.Request.Params["transcript"];                                                         // Get transcript (if there is one)
+                transcript = context.Request.Params["transcript"];    // Get transcript (if there is one)
+                page = context.Request.Params["page_loc"];
 
                 if (numAutoResponses > 4)
                 {
@@ -130,6 +132,11 @@ namespace Nico.handlers
                         transcript = "Triggered Speech " + numAutoResponses.ToString();
 
                     }
+                    else if (transcript == "HELLO FIRST TIME")
+                    {
+                        speakerSpoke = 0;
+                        clickstep = "hello nico start";
+                    }
                     else if ((transcript != "") && (transcript != null))                                                             // Is there a transcript? If there is get the speaker's dialogue act
                     {
                         dialogueAct = estimateDialogueAct(transcript);
@@ -141,7 +148,7 @@ namespace Nico.handlers
                         transcript = "transcript empty or null";
                     }
 
-                    nicoResponse = ResponseGeneration.NicoResponse(path, problemStep, speakerSpoke, transcript, timeStart);                 // Generate and initiate Nico's response
+                    nicoResponse = ResponseGeneration.NicoResponse(path, problemStep, speakerSpoke, transcript, timeStart, page);                 // Generate and initiate Nico's response
                     SQLUserState.UpdateSpeakerState(username, dialogueAct, transcript, speakerSpoke, problemStep, timeStart, clickstep, numAutoResponses);    // Write out speaker state info
                     SQLNicoState.UpdateNicoState(username, nicoResponse, problemStep, timeStart);                                           // Write out Nico's state info & update problem/step
 

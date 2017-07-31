@@ -1,3 +1,13 @@
+
+Potential "THAT" to catch
+
+Why don't you tell me?
+Were you teaching me
+
+Patterns:
+
+OKAY
+
 <category><pattern>YES * </pattern><that>THE ANSWER IS EIGHTEEN FOR STEP ONE</that>
 <template>Alright I'm going to put the answer in.</template>
 </category>
