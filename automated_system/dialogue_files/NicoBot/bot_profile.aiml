@@ -109,11 +109,11 @@
 </category>
 
 
-<category><pattern>BODY</pattern>
+<category><pattern>* YOUR BODY *</pattern>
 <template>My body looks like <bot name="body"/>.</template>
 </category>
 
-<category><pattern>LOOK LIKE</pattern>
+<category><pattern>* YOU LOOK LIKE *</pattern>
 <template>I look like <bot name="look-like"/>.</template>
 </category>
 
@@ -136,6 +136,20 @@
 <category><pattern>EYES</pattern>
 <template>My eyes change color! But they are mostly blue or white when I'm happy.</template>
 </category>
+
+
+<category><pattern>COLOR</pattern>
+<template>What is your favorite color?</template>
+</category>
+
+<category><pattern>* MY FAVORITE COLOR IS *</pattern><that>WHAT IS YOUR FAVORITE COLOR</that>
+<template>That's so funny! <star /> is my favorite color too!</template>
+</category>
+
+<category><pattern>* MY FAVORITE *</pattern><that>WHAT IS YOUR FAVORITE COLOR</that>
+<template>That's so funny! That is my favorite color too! Are you going to tell me how to do these problems I need help with? </template>
+</category>
+
 
 </aiml>
 

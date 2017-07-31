@@ -18,7 +18,7 @@
         </video>
         <br />
         <div style="text-align:center;">
-            <h4><asp:LinkButton ID="GoToProblemOne" Text="Click Here to Go to the Next Page"  OnClick="Hello_Nico" runat="server" style="color:hsl(0, 0%, 30%)"/></h4>
+            <h4><asp:LinkButton ID="GoToHelloNico" Text="Click Here to Go to the Next Page"  OnClick="Hello_Nico" runat="server" style="color:hsl(0, 0%, 30%)"/></h4>
         </div>
         <br />
     </div>

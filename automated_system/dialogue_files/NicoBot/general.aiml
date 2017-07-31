@@ -6,6 +6,11 @@
 </template>
 </category>
 
+<category><pattern>* HI *</pattern>
+<template><srai>HELLO</srai>
+</template>
+</category>
+
 <category><pattern>HELLO</pattern>
 <template><random>
 <li>Hi! My name is Nico. What is your name?</li>
@@ -13,6 +18,65 @@
 <li>Hello! My name is Nico. How are you doing today?</li>
 </random></template>
 </category>
+
+
+<category><pattern>MY NAME IS *</pattern>
+<that>WHAT IS YOUR NAME</that>
+<template>Nice to meet you <star />. Are you ready to get started?</template>
+</category>
+
+<category><pattern>* YES *</pattern>
+<that>ARE YOU READY TO GET STARTED</that>
+<template>Me too! Press the start teaching button and we can get started!</template>
+</category>
+
+<category><pattern>* I AM *</pattern>
+<that>ARE YOU READY TO GET STARTED</that>
+<template>Me too! Press the start teaching button and we can get started!</template>
+</category>
+
+<category><pattern>* ARE YOU *</pattern>
+<that>ARE YOU READY TO GET STARTED</that>
+<template>Me too! Press the start teaching button and we can get started!</template>
+</category>
+
+
+<category><pattern>* YOU BET *</pattern>
+<that>ARE YOU READY TO GET STARTED</that>
+<template>Me too! Press the start teaching button and we can get started!</template>
+</category>
+
+<category><pattern>* NO *</pattern>
+<that>ARE YOU READY TO GET STARTED</that>
+<template>What? Why are you not ready? I am!</template>
+</category>
+
+<category><pattern>_</pattern>
+<that>ARE YOU READY TO GET STARTED</that>
+<template>Press the start teaching button and we can get started!</template>
+</category>
+
+
+<category><pattern>*</pattern>
+<that>I AM</that>
+<template>Press the start teaching button and we can get started!</template>
+</category>
+
+<category><pattern>* NAME *</pattern>
+<that>WHAT IS YOUR NAME</that>
+<template>Nice to meet you! Are you ready to get started?</template>
+</category>
+
+<category><pattern>* </pattern>
+<that>WHAT IS YOUR NAME</that>
+<template>Nice to meet you! Are you ready to get started?</template>
+</category>
+
+<category><pattern>* YES *</pattern>
+<that>WHAT IS YOUR NAME</that>
+<template>Oh I am sorry! Were you teaching me?</template>
+</category>
+
 
 <category><pattern>* YES *</pattern>
 <that>have we met before</that>
@@ -142,5 +206,189 @@
 <template>Okay I'm going to take a nap now.</template>
 </category>
 
+
+<category>
+<pattern>* I *</pattern><that>WHY DO YOU NOT TELL ME</that>
+<template>Okay thanking you for telling me.</template>
+</category>
+
+
+<category>
+<pattern>* I *</pattern><that>WERE YOU TEACHING ME</that>
+<template>Okay! I'll listen if you want to teach me.</template>
+</category>
+
+<category>
+<pattern>OKAY</pattern>
+<template>Now what do we do?</template>
+</category>
+
+<category>
+<pattern>FINE</pattern>
+<template>I am fine and that is fine.</template>
+</category>
+
+<category>
+<pattern>I AM KIDDING</pattern>
+<template>Aha ok. Kidding around is so funny.</template>
+</category>
+
+<category>
+<pattern>REALLY</pattern>
+<template>Really?</template>
+</category>
+
+
+<category>
+<pattern>REALLY</pattern><that>REALLY</that>
+<template>Oh okay.</template>
+</category>
+
+<category>
+<pattern>*</pattern><that>REALLY</that>
+<template>Oh okay.</template>
+</category>
+
+<category>
+<pattern>* your last name *</pattern>
+<template><srai>LAST NAME</srai></template>
+</category>
+
+<category>
+<pattern>* your first name *</pattern>
+<template><srai>FIRST NAME</srai></template>
+</category>
+
+
+<category>
+<pattern>* your middle name *</pattern>
+<template><srai>middle NAME</srai></template>
+</category>
+
+<category>
+<pattern>* your full name *</pattern>
+<template><srai>full NAME</srai></template>
+</category>
+
+
+<category>
+<pattern>* your name *</pattern>
+<template><srai>full NAME</srai></template>
+</category>
+
+<category>
+<pattern>* like * name *</pattern>
+<template>Thank you.</template>
+</category>
+
+<category>
+<pattern>* how old *</pattern>
+<template><srai>AGE</srai></template>
+</category>
+
+
+<category>
+<pattern>* when * birthday *</pattern>
+<template><srai>BIRTHDAY</srai></template>
+</category>
+
+
+<category>
+<pattern>* when * birthdate *</pattern>
+<template><srai>BIRTHDATE</srai></template>
+</category>
+
+
+<category>
+<pattern>* were * born *</pattern>
+<template><srai>BIRTHDAY</srai></template>
+</category>
+
+
+<category>
+<pattern>* when * birthdate *</pattern>
+<template><srai>BIRTHDATE</srai></template>
+</category>
+
+
+<category>
+<pattern>* are you * boy *</pattern>
+<template><srai>GENDER</srai></template>
+</category>
+
+<category>
+<pattern>* are you * girl *</pattern>
+<template><srai>GENDER</srai></template>
+</category>
+
+<category>
+<pattern>* are you * male *</pattern>
+<template><srai>GENDER</srai></template>
+</category>
+
+<category>
+<pattern>* are you * female *</pattern>
+<template><srai>GENDER</srai></template>
+</category>
+
+<category>
+<pattern>* are you * woman *</pattern>
+<template><srai>GENDER</srai></template>
+</category>
+
+<category>
+<pattern>* are you * man *</pattern>
+<template><srai>GENDER</srai></template>
+</category>
+
+<category>
+<pattern>* are you * woman *</pattern>
+<template><srai>GENDER</srai></template>
+</category>
+
+<category>
+<pattern>* are you * man *</pattern>
+<template><srai>GENDER</srai></template>
+</category>
+
+<category>
+<pattern>* are you * robot *</pattern>
+<template><srai>SPECIES</srai></template>
+</category>
+
+<category>
+<pattern>* are you * human *</pattern>
+<template><srai>SPECIES</srai></template>
+</category>
+
+<category>
+<pattern>* are you * species *</pattern>
+<template><srai>SPECIES</srai></template>
+</category>
+
+<category>
+<pattern>* species *</pattern>
+<template><srai>SPECIES</srai></template>
+</category>
+
+<category>
+<pattern>* YOUR HAIR *</pattern>
+<template><srai>HAIR</srai></template>
+</category>
+
+<category>
+<pattern>* YOUR EYECOLOR *</pattern>
+<template><srai>EYECOLOR</srai></template>
+</category>
+
+<category>
+<pattern>* YOUR EYES *</pattern>
+<template><srai>EYES</srai></template>
+</category>
+
+<category>
+<pattern>* YOUR * FAVORITE COLOR *</pattern>
+<template><srai>EYES</srai></template>
+</category>
 
 </aiml>

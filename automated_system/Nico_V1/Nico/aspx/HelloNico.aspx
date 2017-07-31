@@ -32,8 +32,8 @@
         
         <div class="row">
             <div class=".col-xs-12 center-block">
-                <h4><button type="button" ID="StartTeaching" OnClick="Start_Teaching()" style="color:hsl(0, 0%, 30%);visibility:hidden;cursor:pointer;">Start Teaching</button></h4>
-            </div>
+                <h4><asp:LinkButton ID="StartTeaching" Text="Start Teaching"  OnClick="Start_Teaching" runat="server" style="color:hsl(0, 0%, 30%);visibility:hidden;"/></h4>
+          </div>
         </div>
    </div>
 
@@ -141,7 +141,7 @@
            __log("on up");
            //stopRecording(problemStepAnalyzer);
            stopRecording();
-           document.getElementById("StartTeaching").style.visibility = "visible";
+           document.getElementById('<%=StartTeaching.ClientID%>').style.visibility = "visible";
        }
 
        function absorbEvent_(event) {
@@ -342,13 +342,6 @@
                    alert(err.statusText)
                }
            });
-       }
-
-
-
-
-       function Start_Teaching() {
-           window.location.href = "../aspx/ProblemPage.aspx";
        }
 
 

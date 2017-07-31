@@ -29,4 +29,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     '''
-    initPos("10.218.107.156", 9559)
+    initPos("10.218.104.125", 9559)
