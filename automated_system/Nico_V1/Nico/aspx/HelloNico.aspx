@@ -141,7 +141,7 @@
            __log("on up");
            //stopRecording(problemStepAnalyzer);
            stopRecording();
-           document.getElementById('<%=StartTeaching.ClientID%>').style.visibility = "visible";
+           
        }
 
        function absorbEvent_(event) {
@@ -297,6 +297,7 @@
                    processData: false,
                    success: function () {
                        __log("recognized speech");
+                       document.getElementById('<%=StartTeaching.ClientID%>').style.visibility = "visible";
                    },
                    error: function (err) {
                        alert(err.statusText)

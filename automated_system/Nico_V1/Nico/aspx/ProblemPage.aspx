@@ -571,11 +571,11 @@
                         document.getElementById("nextStepText").style.visibility = "visible";
                         document.getElementById("NextProblem").style.visibility = "hidden";      // hidden
                     }
-
+/*
                     if (parseInt(step, 10) == 0) {
                         noResponseCallNico("problem start");
                     }
-                    
+*/                    
                 })
                 
             }            
@@ -783,7 +783,7 @@
             } else {
                 __log('getUserMedia not supported');
             }
-
+            noResponseCallNico("problem start");
             timer = setTimeout(function () { noResponseCallNico("no response"); }, 65000);
             
 
