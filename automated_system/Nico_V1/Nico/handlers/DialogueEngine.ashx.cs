@@ -96,12 +96,12 @@ namespace Nico.handlers
                 int numAutoResponses = problemStep[5];
                 string clickstep = "none";
                 int newanswer = 0;
-
+/*
                 if (step == 0)
                 {
                     step = 1;
                 }
-
+*/
                 transcript = context.Request.Params["transcript"];    // Get transcript (if there is one)
                 page = context.Request.Params["page_loc"];
 

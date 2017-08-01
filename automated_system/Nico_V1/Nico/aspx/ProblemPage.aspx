@@ -389,7 +389,7 @@
             var data = new FormData();
             data.append('transcript', text);
             data.append('page_loc', 'ProblemPage');
-
+/*
             $(document).ajaxStart(function () {
                 $("#thinking").css("display", "block");
             });
@@ -398,7 +398,8 @@
                 $("#thinking").css("display", "none");
             });
 
-
+*/
+            $("#thinking").css("display", "block");
             $.ajax({
                 url: "../handlers/DialogueEngine.ashx",
                 type: 'POST',
@@ -407,6 +408,9 @@
                 processData: false,
                 success: function () {
                     timer = setTimeout(function () { noResponseCallNico("no response"); }, 65000);
+                },
+                complete: function () {
+                    $("#thinking").css("display", "none");
                 },
                 error: function (err) {
                     alert(err.statusText)
@@ -571,11 +575,11 @@
                         document.getElementById("nextStepText").style.visibility = "visible";
                         document.getElementById("NextProblem").style.visibility = "hidden";      // hidden
                     }
-/*
+
                     if (parseInt(step, 10) == 0) {
                         noResponseCallNico("problem start");
                     }
-*/                    
+                   
                 })
                 
             }            
@@ -743,6 +747,8 @@
             touchzone.addEventListener("touchend", touchHandlerUp, false);
             //preventLongPressMenu(document.getElementById('NAOButton'));
 
+
+
             var nextsteptouch = document.getElementById('nextsteptouch');
             var priorsteptouch = document.getElementById('priorsteptouch');
             nextsteptouch.addEventListener("touchend", NextStep_Touch, false);
@@ -783,9 +789,9 @@
             } else {
                 __log('getUserMedia not supported');
             }
-            noResponseCallNico("problem start");
-            timer = setTimeout(function () { noResponseCallNico("no response"); }, 65000);
             
+            timer = setTimeout(function () { noResponseCallNico("no response"); }, 65000);
+
 
         }
 
@@ -798,6 +804,8 @@
         function upgrade() {
             __log('info_upgrade');
         }
+
+        
 
     </script>
 
