@@ -7,6 +7,11 @@
 </category>
 
 <category>
+<pattern>PROBLEM START THREE</pattern>
+<template>Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on <set name="topic">MY WAY THERE</set>?</template>
+</category>
+
+<category>
 <pattern>next step 3 1</pattern>
 <template><random>
 <li>I'm really not sure what to do on <set name="topic">STEP ONE OF THIS THIRD PROBLEM</set>.</li>

@@ -41,9 +41,6 @@
             <h4><button type="button" ID="NextProblem" OnClick="Next_Problem()" style="color:hsl(0, 0%, 30%);visibility:hidden;cursor:pointer;">Next Problem</button></h4>
         </div>
         
-        <div class="progress progress-striped">          
-            <div class="progress-bar progress-bar-success" style="width: 20%">20% Complete</div>
-        </div>
         
 
 

@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 
+<category><pattern>^ REPEAT ^</pattern>
+<template>I really am sorry but I don't remember what I just said. How about you explain what you were explaining again?
+</template>
+</category>
+
 <category><pattern>HELLO FIRST TIME</pattern>
 <template>Hi! My name is Nico. What is your name?
 </template>
 </category>
 
 <category><pattern>* HI *</pattern>
+<template><srai>HELLO</srai>
+</template>
+</category>
+
+<category><pattern>^ HI ^</pattern>
 <template><srai>HELLO</srai>
 </template>
 </category>
@@ -53,7 +63,7 @@
 
 <category><pattern>_</pattern>
 <that>ARE YOU READY TO GET STARTED</that>
-<template>Press the start teaching button and we can get started!</template>
+<template>Oh okay! Press the start teaching button and we can get started!</template>
 </category>
 
 
@@ -389,6 +399,16 @@
 <category>
 <pattern>* YOUR * FAVORITE COLOR *</pattern>
 <template><srai>EYES</srai></template>
+</category>
+
+<category><pattern>* GET IT *</pattern>
+<template>I think I get it. You explain things really well.
+</template>
+</category>
+
+<category><pattern>* WHAT DO YOU GET *</pattern>
+<template>That we multiply and divide to solve ratio problems. Although I still mess up on what to multiply or divide.
+</template>
 </category>
 
 </aiml>
