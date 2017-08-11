@@ -15,8 +15,7 @@
     <AssemblyName>Nico</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
-    <IISExpressSSLPort>
-    </IISExpressSSLPort>
+    <IISExpressSSLPort>44301</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -155,91 +154,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="content\bootstrap-theme.css.map" />
     <Content Include="content\bootstrap.css.map" />
-    <Content Include="praat\plugin_VocalToolkit\addnoise.praat" />
-    <Content Include="praat\plugin_VocalToolkit\analysetoeqpreset.praat" />
-    <Content Include="praat\plugin_VocalToolkit\batch.praat" />
-    <Content Include="praat\plugin_VocalToolkit\breathiness.praat" />
-    <Content Include="praat\plugin_VocalToolkit\buttons.praat" />
-    <Content Include="praat\plugin_VocalToolkit\changeduration.praat" />
-    <Content Include="praat\plugin_VocalToolkit\changeformants.praat" />
-    <Content Include="praat\plugin_VocalToolkit\changenote.praat" />
-    <Content Include="praat\plugin_VocalToolkit\changepitchmedian.praat" />
-    <Content Include="praat\plugin_VocalToolkit\changesemitones.praat" />
-    <Content Include="praat\plugin_VocalToolkit\changevt.praat" />
-    <Content Include="praat\plugin_VocalToolkit\compressor.praat" />
-    <Content Include="praat\plugin_VocalToolkit\copydtw.praat" />
-    <Content Include="praat\plugin_VocalToolkit\copyduration.praat" />
-    <Content Include="praat\plugin_VocalToolkit\copyeq.praat" />
-    <Content Include="praat\plugin_VocalToolkit\copyformants.praat" />
-    <Content Include="praat\plugin_VocalToolkit\copyintensity.praat" />
-    <Content Include="praat\plugin_VocalToolkit\copymix.praat" />
-    <Content Include="praat\plugin_VocalToolkit\copypitchcontour.praat" />
-    <Content Include="praat\plugin_VocalToolkit\copypitchmedian.praat" />
-    <Content Include="praat\plugin_VocalToolkit\copyvocoder.praat" />
-    <Content Include="praat\plugin_VocalToolkit\copyvt.praat" />
-    <Content Include="praat\plugin_VocalToolkit\createwaveform.praat" />
-    <Content Include="praat\plugin_VocalToolkit\cutpauses.praat" />
-    <Content Include="praat\plugin_VocalToolkit\declip.praat" />
-    <Content Include="praat\plugin_VocalToolkit\echo.praat" />
-    <Content Include="praat\plugin_VocalToolkit\eq10bands.praat" />
-    <Content Include="praat\plugin_VocalToolkit\eqpreset.praat" />
-    <Content Include="praat\plugin_VocalToolkit\eq\Car Radio.Sound" />
-    <Content Include="praat\plugin_VocalToolkit\eq\Cellular.Sound" />
-    <Content Include="praat\plugin_VocalToolkit\eq\Film Vocal.Sound" />
-    <Content Include="praat\plugin_VocalToolkit\eq\Glass.Sound" />
-    <Content Include="praat\plugin_VocalToolkit\eq\Megaphone.Sound" />
-    <Content Include="praat\plugin_VocalToolkit\eq\Phone.Sound" />
-    <Content Include="praat\plugin_VocalToolkit\eq\Radio.Sound" />
-    <Content Include="praat\plugin_VocalToolkit\eq\Small Radio.Sound" />
-    <Content Include="praat\plugin_VocalToolkit\eq\Vintage Phone.Sound" />
-    <Content Include="praat\plugin_VocalToolkit\eq\Walkie Talkie.Sound" />
-    <Content Include="praat\plugin_VocalToolkit\extractpitch.praat" />
-    <Content Include="praat\plugin_VocalToolkit\extractvowels.praat" />
-    <Content Include="praat\plugin_VocalToolkit\fade.praat" />
-    <Content Include="praat\plugin_VocalToolkit\fixdc.praat" />
-    <Content Include="praat\plugin_VocalToolkit\gate.praat" />
-    <Content Include="praat\plugin_VocalToolkit\getPitchIntRate.praat" />
-    <Content Include="praat\plugin_VocalToolkit\getPitchIntRate_v2.praat" />
-    <Content Include="praat\plugin_VocalToolkit\getPitchIntRate_v3.praat" />
-    <Content Include="praat\plugin_VocalToolkit\hiss.praat" />
-    <Content Include="praat\plugin_VocalToolkit\invertpitch.praat" />
-    <Content Include="praat\plugin_VocalToolkit\ireq.praat" />
-    <Content Include="praat\plugin_VocalToolkit\limiter.praat" />
-    <Content Include="praat\plugin_VocalToolkit\manipulatePitch.praat" />
-    <Content Include="praat\plugin_VocalToolkit\markpitch.praat" />
-    <Content Include="praat\plugin_VocalToolkit\marksyllables.praat" />
-    <Content Include="praat\plugin_VocalToolkit\maxformant.praat" />
-    <Content Include="praat\plugin_VocalToolkit\minmaxf0.praat" />
-    <Content Include="praat\plugin_VocalToolkit\monotonize.praat" />
-    <Content Include="praat\plugin_VocalToolkit\normalize.praat" />
-    <Content Include="praat\plugin_VocalToolkit\raspiness.praat" />
-    <Content Include="praat\plugin_VocalToolkit\reverb.praat" />
-    <Content Include="praat\plugin_VocalToolkit\reverb\Ambience.flac" />
-    <Content Include="praat\plugin_VocalToolkit\reverb\Bath.flac" />
-    <Content Include="praat\plugin_VocalToolkit\reverb\Church.flac" />
-    <Content Include="praat\plugin_VocalToolkit\reverb\Hall.flac" />
-    <Content Include="praat\plugin_VocalToolkit\reverb\Plate.flac" />
-    <Content Include="praat\plugin_VocalToolkit\reverb\Robot.flac" />
-    <Content Include="praat\plugin_VocalToolkit\reverb\Room Big.flac" />
-    <Content Include="praat\plugin_VocalToolkit\reverb\Room Medium.flac" />
-    <Content Include="praat\plugin_VocalToolkit\reverb\Room Small.flac" />
-    <Content Include="praat\plugin_VocalToolkit\reverb\Stadium.flac" />
-    <Content Include="praat\plugin_VocalToolkit\reverb\Studio.flac" />
-    <Content Include="praat\plugin_VocalToolkit\reverb\Vocal.flac" />
-    <Content Include="praat\plugin_VocalToolkit\rumble.praat" />
-    <Content Include="praat\plugin_VocalToolkit\setup.praat" />
-    <Content Include="praat\plugin_VocalToolkit\tts.praat" />
-    <Content Include="praat\plugin_VocalToolkit\updateeqpresetslist.praat" />
-    <Content Include="praat\plugin_VocalToolkit\vibratotremolo.praat" />
-    <Content Include="praat\plugin_VocalToolkit\vocoder.praat" />
-    <Content Include="praat\plugin_VocalToolkit\voicedunvoiced.praat" />
-    <Content Include="praat\plugin_VocalToolkit\vt.praat" />
-    <Content Include="praat\plugin_VocalToolkit\whisper.praat" />
-    <Content Include="praat\plugin_VocalToolkit\workpost.praat" />
-    <Content Include="praat\plugin_VocalToolkit\workpre.praat" />
     <None Include="js\jquery-1.9.1.intellisense.js" />
-    <Content Include="praat\plugin_VocalToolkit\eqpresetslist.txt" />
-    <Content Include="praat\praatcon.exe" />
     <Content Include="aspx\Register.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />

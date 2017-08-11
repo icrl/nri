@@ -130,7 +130,7 @@
         var firstTime = true;
         
         // Initialize recognition object values
-        recognition.continuous = false;
+        recognition.continuous = true;
         recognition.interimResults = false;
         recognition.lang = 6;
 
@@ -168,6 +168,7 @@
         }
 
         function touchHandlerDown(evt) {
+            writeLog("touch down");
             evt.preventDefault();
             clearTimeout(timer);
             if (!(recognizing)) {
@@ -204,6 +205,7 @@
         }
 
         function touchHandlerUp(evt) {
+            writeLog("touch went UP");
             evt.preventDefault();
             $("#listening").css("display", "none");
             recognizing = false;
@@ -243,6 +245,8 @@
             recorder && recorder.record();
             __log('Calling START record');
 
+            writeLog("Calling start recording");
+
             // reset ASR variables
             final_transcript = '';
             recognition.start();
@@ -274,57 +278,76 @@
                     }
                     ignore_onend = true;
                 }
-                timer = setTimeout(function () { noResponseCallNico("no response"); }, 25000);
-            }
+                //timer = setTimeout(function () { noResponseCallNico("no response"); }, 25000);
+            };
+
 
             ignore_onend = false;
             start_timestamp = event.timeStamp
         }
+
+
 
         // function to stop recording users voice when they push the "STOP" button
         function stopRecording() {
             recorder && recorder.stop();
             __log('Calling STOP record.');
 
+            writeLog("called stop recording");
 
-            // function to happen when recognition ends
+
             recognition.onend = function () {
+                writeLog("recognition onend called");
                 recognizing = false;
                 if (ignore_onend) {
                     return;
                 }
+
                 if (!final_transcript) {
                     __log('No final transcript!!!');
                     window.alert("Your speech wasn't detected. Please try again!");
-                    timer = setTimeout(function () { noResponseCallNico("no response"); }, 25000);
+                    //timer = setTimeout(function () { noResponseCallNico("no response"); }, 25000);
                     return;
                 }
+
+
             };
+
 
             // function to happen when recognition completes
             recognition.onresult = function (event) {
-            
+
+                writeLog("recognition.onresult event fired");
+
                 for (var i = event.resultIndex; i < event.results.length; ++i) {
                     if (event.results[i].isFinal) {
                         final_transcript += event.results[i][0].transcript;
                     }
                 }
-                
-                __log("Final Transcript posted");
+
+                writeLog("final transcript: " + final_transcript);
+
                 if (final_transcript) {
                     //results.innerHTML = results.innerHTML + "<br />" + final_transcript;
                     __log(final_transcript);
                     // create WAV download link using audio captured as a blob
                     createDownloadLink(sendBlob);
+                    writeLog("final transcript detected: " + final_transcript);
                 }
                 else {
                     window.alert("Your speech wasn't detected. Please try again!");
                     timer = setTimeout(function () { noResponseCallNico("no response"); }, 25000);
                 }
-            };
-            
+
+            };    
+
             recorder.clear();
+            recognition.dispatchEvent(new Event('onend'));
+            recognition.dispatchEvent(new Event('onresult'));
         }
+
+
+
 
         // function to save audio file to server
         function sendBlob(blob) {
@@ -357,6 +380,8 @@
                     $("#thinking").css("display", "none");
                 });
 
+                writeLog("calling dialogue engine");
+
                 __log("Calling SAVE");
                 $.ajax({
                     url: "../handlers/DialogueEngine.ashx",
@@ -386,6 +411,7 @@
         
         // This function is triggered whenever there has been a 20 second lapse with no response from the user
         function noResponseCallNico(text) {
+            clearTimeout(timer);
             var data = new FormData();
             data.append('transcript', text);
             data.append('page_loc', 'ProblemPage');
@@ -586,6 +612,7 @@
         }
 
         function PriorStep_Click() {
+            clearTimeout(timer);
             __log("prior step button clicked");
             var data = new FormData();
             var clicked = "prior";
@@ -607,6 +634,7 @@
                 processData: false,
                 success: function (endSession) {
                     updateTable(endSession);
+                    timer = setTimeout(function () { noResponseCallNico("no response"); }, 65000);
                 },
                 error: function (err) {
                     alert(err.statusText)
@@ -616,6 +644,7 @@
         }
 
         function NextStep_Click() {
+            clearTimeout(timer);
             __log("next step button clicked");
             var data = new FormData();
             var clicked = "next";
@@ -637,6 +666,7 @@
                 processData: false,
                 success: function (endSession) {
                     updateTable(endSession);
+                    timer = setTimeout(function () { noResponseCallNico("no response"); }, 65000);
                 },
                 error: function (err) {
                     alert(err.statusText)
@@ -646,6 +676,7 @@
         }
 
         function PriorStep_Touch(evt) {
+            clearTimeout(timer);
             evt.preventDefault();
             __log("prior step button clicked");
             var data = new FormData();
@@ -668,6 +699,7 @@
                 processData: false,
                 success: function (endSession) {
                     updateTable(endSession);
+                    timer = setTimeout(function () { noResponseCallNico("no response"); }, 65000);
                 },
                 error: function (err) {
                     alert(err.statusText)
@@ -677,6 +709,7 @@
         }
 
         function NextStep_Touch(evt) {
+            clearTimeout(timer);
             evt.preventDefault();
             __log("next step button clicked");
             var data = new FormData();
@@ -699,6 +732,7 @@
                 processData: false,
                 success: function (endSession) {
                     updateTable(endSession);
+                    timer = setTimeout(function () { noResponseCallNico("no response"); }, 65000);
                 },
                 error: function (err) {
                     alert(err.statusText)
@@ -708,6 +742,7 @@
         }
 
         function Next_Problem() {
+            clearTimeout(timer);
             __log("new problem button clicked");
             var data = new FormData();
             var clicked = "problem";
@@ -729,6 +764,7 @@
                 processData: false,
                 success: function (endSession) {
                     updateTable(endSession);
+                    timer = setTimeout(function () { noResponseCallNico("no response"); }, 65000);
                 },
                 error: function (err) {
                     alert(err.statusText)
@@ -805,7 +841,23 @@
             __log('info_upgrade');
         }
 
-        
+        function writeLog(message) {
+            var data = new FormData();
+            data.append('log', message);
+
+            $.ajax({
+                url: "../handlers/ErrorLogger.ashx",
+                type: 'POST',
+                data: data,
+                contentType: false,
+                processData: false,
+                success: function () {
+                },
+                error: function (err) {
+                    alert(err.statusText)
+                }
+            });
+        }
 
     </script>
 

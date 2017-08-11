@@ -1,0 +1,147 @@
+,UserID,DateTime,SessionID,ProblemID,StepID,Owner,DialogueAct,DialogueActConfidence,Spoke,StepAnswer,ClickStep,NicoMovement,Answered,Transcript
+0,200717-1,7/20/17 16:45,1,1,0,user,,50,0,1,null,,,Triggered Speech 1
+1,200717-1,7/20/17 16:45,1,1,0,nico,,,,,,1,no answer,Why aren't you talking to me? Are you thinking?
+2,200717-1,7/20/17 16:45,1,1,0,user,,50,0,1,problem start,,,problem start
+3,200717-1,7/20/17 16:45,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+4,200717-1,7/20/17 16:47,1,1,0,user,,50,0,1,problem start,,,problem start
+5,200717-1,7/20/17 16:47,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+6,200717-1,7/20/17 16:48,1,1,1,user,statement,50,1,1,none,,,hi Nico
+7,200717-1,7/20/17 16:48,1,1,1,nico,,,,,,1,no answer,So I'm actually not sure what you mean. Can you tell me again?
+8,200717-1,7/20/17 16:48,1,1,1,user,statement,50,1,1,none,,,hello
+9,200717-1,7/20/17 16:48,1,1,1,nico,,,,,,1,no answer,That's very interesting. Can you explain that more?
+10,200717-1,7/20/17 16:49,1,1,1,user,statement,50,1,1,none,,,the body part of the legs in the service area is 12
+11,200717-1,7/20/17 16:49,1,1,1,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+12,200717-1,7/20/17 16:50,1,1,1,user,statement,50,1,1,none,,,do you want to
+13,200717-1,7/20/17 16:50,1,1,1,nico,,,,,,1,no answer,So I'm actually not sure what you mean. Can you tell me again?
+14,200717-1,7/20/17 16:50,1,1,2,user,,50,0,1,step_1_2,,,
+15,200717-1,7/20/17 16:50,1,1,2,nico,,,,,,1,no answer,Can you give me a hint for STEP TWO?
+16,200717-1,7/20/17 16:52,1,1,2,user,statement,50,1,1,none,,,what goes below the 2 in step 1
+17,200717-1,7/20/17 16:52,1,1,2,nico,,,,,,1,no answer,What do we do with the number TWO?
+18,200717-1,7/20/17 16:53,1,1,2,user,statement,50,1,1,none,,,what would be higher than 2 in below 6
+19,200717-1,7/20/17 16:53,1,1,2,nico,,,,,,1,no answer,What do we do with the number TWO?
+20,200717-1,7/20/17 16:53,1,1,2,user,statement,50,1,1,none,,,you add up
+21,200717-1,7/20/17 16:53,1,1,2,nico,,,,,,1,no answer,Oh okay. So that's what we do with the two and then what do we do?
+22,200717-1,7/20/17 16:54,1,1,2,user,statement,50,1,1,none,,,you add up to and you'll get the answer
+23,200717-1,7/20/17 16:54,1,1,2,nico,,,,,,1,no answer,I think the answer is eighteen. So is the answer eighteen?
+24,200717-1,7/20/17 16:54,1,1,1,user,,50,0,1,step_2_1,,,
+25,200717-1,7/20/17 16:54,1,1,1,nico,,,,,,1,no answer,So I will put the answer is eighteen.
+26,200717-1,7/20/17 16:55,1,1,1,user,statement,50,1,1,none,,,add up the number to from step step zero and you'll get your answer
+27,200717-1,7/20/17 16:55,1,1,1,nico,,,,,,1,no answer,So is the answer eighteen?
+28,200717-1,7/20/17 16:55,1,1,1,user,statement,50,1,1,none,,,no
+29,200717-1,7/20/17 16:55,1,1,1,nico,,,,,,1,answering,So I will put the answer is eighteen.
+30,200717-1,7/20/17 16:55,1,1,2,user,,50,0,33,step_1_2,,,
+31,200717-1,7/20/17 16:55,1,1,2,nico,,,,,,1,no answer,Can you give me a hint on STEP TWO?
+32,200717-1,7/20/17 16:55,1,2,2,user,,50,0,33,problem_1_2,,,
+33,200717-1,7/20/17 16:55,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF THIS SECOND PROBLEM and I'm not sure what to do.
+34,200717-1,7/20/17 16:56,1,2,1,user,statement,50,1,1,none,,,did body parts the hands the surface area is 6 in the volume fluid is to
+35,200717-1,7/20/17 16:56,1,2,1,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+36,200717-1,7/20/17 16:56,1,2,1,user,statement,50,1,1,none,,,you need two bodies of paint right
+37,200717-1,7/20/17 16:56,1,2,1,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+38,200717-1,7/20/17 16:57,1,2,1,user,statement,50,1,1,none,,,-3 into and you'll find the answer for your arms
+39,200717-1,7/20/17 16:57,1,2,1,nico,,,,,,1,no answer,I'm still learning ratios. Maybe you can explain more?
+40,210717-2,7/21/17 10:37,1,1,0,user,statement,50,1,1,none,,,hello Joe
+41,210717-2,7/21/17 10:37,1,1,0,nico,,,,,,1,no answer,
+42,210717-2,7/21/17 10:35,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+43,210717-2,7/21/17 10:37,1,1,0,user,statement,50,1,1,none,,,a picture of a hold it down inside
+44,210717-2,7/21/17 10:37,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+45,210717-2,7/21/17 10:35,1,1,0,user,,50,0,1,problem start,,,problem start
+46,210717-2,7/21/17 10:37,1,1,0,user,,50,0,1,problem start,,,problem start
+47,210717-2,7/21/17 10:39,1,1,1,user,statement,50,1,1,none,,,since your feet is 6 inches and your legs are 12 inches than your torso is 18 inches
+48,210717-2,7/21/17 10:39,1,1,1,nico,,,,,,1,no answer,Do we divide by six?
+49,210717-2,7/21/17 10:39,1,1,1,user,statement,50,1,1,none,,,no we multiply
+50,210717-2,7/21/17 10:39,1,1,1,nico,,,,,,1,no answer,Oh. Do you think you can explain more?
+51,210717-2,7/21/17 10:40,1,1,1,user,statement,50,1,1,none,,,sure
+52,210717-2,7/21/17 10:40,1,1,1,nico,,,,,,1,no answer,I like to listen and learn. Can you explain more?
+53,210717-2,7/21/17 10:40,1,1,1,user,statement,50,1,1,none,,,the legs are bigger
+54,210717-2,7/21/17 10:40,1,1,1,nico,,,,,,1,no answer,I tend to meander a bit. Can you repeat that?
+55,210717-2,7/21/17 10:40,1,1,1,user,statement,50,1,1,none,,,your feet are small
+56,210717-2,7/21/17 10:40,1,1,1,nico,,,,,,1,no answer,That sounds good. Then what do we do?
+57,210717-2,7/21/17 10:41,1,1,1,user,statement,50,1,1,none,,,the pain for your legs
+58,210717-2,7/21/17 10:41,1,1,1,nico,,,,,,1,no answer,I like a good challenge. What do we do next?
+59,210717-2,7/21/17 10:41,1,1,1,user,statement,50,1,1,none,,,you know that 6 time
+60,210717-2,7/21/17 10:41,1,1,1,nico,,,,,,1,no answer,Do we divide by six?
+61,210717-2,7/21/17 10:41,1,1,1,user,statement,50,1,1,none,,,no we multiply
+62,210717-2,7/21/17 10:41,1,1,1,nico,,,,,,1,no answer,Oh. Do you think you can explain more?
+63,210717-2,7/21/17 10:42,1,1,2,nico,,,,,,1,no answer,Can you give me a hint on STEP TWO?
+64,210717-2,7/21/17 10:43,1,1,1,user,statement,51,1,1,none,,,when you know the 12
+65,210717-2,7/21/17 10:43,1,1,1,nico,,,,,,1,no answer,I like to listen and learn. Can you explain more?
+66,210717-2,7/21/17 10:43,1,1,1,user,statement,52,1,1,none,,,we divide the two
+67,210717-2,7/21/17 10:43,1,1,2,nico,,,,,,1,no answer,I like a good challenge. What do we do next?
+68,210717-2,7/21/17 10:43,1,1,1,user,statement,53,1,1,none,,,cause you move no
+69,210717-2,7/21/17 10:43,1,1,3,nico,,,,,,1,no answer,"So for STEP THREE, I may be getting this but can you give me another hint?"
+70,210717-2,7/21/17 10:43,1,1,1,user,statement,54,1,1,none,,,you multiply the two by
+71,210717-2,7/21/17 10:43,1,1,4,nico,,,,,,1,no answer,I tend to meander a bit. Can you repeat that?
+72,210717-2,7/21/17 10:43,1,1,1,user,statement,55,1,1,none,,,no nico
+73,210717-2,7/21/17 10:43,1,1,5,nico,,,,,,1,no answer,I like to listen and learn. Can you explain more?
+74,210717-2,7/21/17 10:43,1,1,6,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+75,020817-3,8/2/17 18:44,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+76,020817-3,8/2/17 18:44,1,1,0,nico,,,,,,1,no answer,Hi! My name is Nico. What is your name?
+77,020817-3,8/2/17 18:44,1,1,0,user,,50,0,1,null,,,Triggered Speech 1
+78,020817-3,8/2/17 18:44,1,1,0,nico,,,,,,1,no answer,Why aren't you talking to me? Are you thinking?
+79,020817-3,8/2/17 18:45,1,1,0,user,statement,50,1,1,none,,,hi new girl my name is Philip
+80,020817-3,8/2/17 18:45,1,1,0,nico,,,,,,1,no answer,I'm still learning ratios. Maybe you can explain more?
+81,020817-3,8/2/17 18:45,1,1,0,user,,50,0,1,problem start,,,problem start
+82,020817-3,8/2/17 18:45,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+83,020817-3,8/2/17 18:46,1,1,1,user,,50,0,1,null,,,Triggered Speech 2
+84,020817-3,8/2/17 18:46,1,1,1,nico,,,,,,1,no answer,Why aren't you talking to me? I'm getting tired.
+85,020817-3,8/2/17 18:46,1,1,1,user,,50,0,1,null,,,Triggered Speech 3
+86,020817-3,8/2/17 18:46,1,1,1,nico,,,,,,1,no answer,I tend to meander a bit. Can you repeat that?
+87,020817-3,8/2/17 18:46,1,1,1,user,statement,50,1,1,none,,,first Nico you need to figure out how much paint you need to put on your legs
+88,020817-3,8/2/17 18:46,1,1,1,nico,,,,,,1,no answer,I like a good challenge. What do we do next?
+89,020817-3,8/2/17 18:46,1,1,1,user,statement,50,1,1,none,,,first you need to put
+90,020817-3,8/2/17 18:50,1,1,1,user,statement,50,1,1,none,,,6 divided by 3 equals
+91,020817-3,8/2/17 18:50,1,1,1,nico,,,,,,1,no answer,Do we divide by six?
+92,020817-3,8/2/17 18:51,1,1,1,user,statement,50,1,1,none,,,Neko repeat yourself
+93,020817-3,8/2/17 18:51,1,1,1,nico,,,,,,1,no answer,Oh okay. So that's what we do with the six and then what do we do?
+94,020817-3,8/2/17 18:51,1,1,1,user,statement,50,1,1,none,,,6 divided by 3 = 2
+95,020817-3,8/2/17 18:51,1,1,1,nico,,,,,,1,no answer,What do we do with the number six?
+96,020817-3,8/2/17 18:52,1,1,1,user,statement,50,1,1,none,,,your divided by 3
+97,020817-3,8/2/17 18:52,1,1,1,nico,,,,,,1,no answer,Oh okay. So have of twelve is six. Do we do something like that with the two?
+98,020817-3,8/2/17 18:52,1,1,1,user,statement,50,1,1,none,,,you / 3
+99,020817-3,8/2/17 18:52,1,1,1,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+100,020817-3,8/2/17 18:53,1,1,1,user,statement,50,1,1,none,,,maker what's your favorite color
+101,020817-3,8/2/17 18:53,1,1,1,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+102,020817-3,8/2/17 19:04,1,1,2,user,,50,0,1,step_1_2,,,
+103,020817-3,8/2/17 19:04,1,1,2,nico,,,,,,1,no answer,Can you give me a hint for STEP TWO?
+104,020817-3,8/2/17 19:04,1,2,2,user,,50,0,1,problem_1_2,,,
+105,020817-3,8/2/17 19:04,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+106,020817-3,8/2/17 19:06,1,2,1,user,statement,50,1,1,none,,,6 divided by 2 equals 3
+107,020817-3,8/2/17 19:06,1,2,1,nico,,,,,,1,no answer,What do we do with the number six?
+108,020817-3,8/2/17 19:06,1,2,1,user,statement,50,1,1,none,,,you divide it by 2
+109,020817-3,8/2/17 19:06,1,2,1,nico,,,,,,1,no answer,Oh okay. So six divided by two is three. So then. We divide two by two?
+110,020817-3,8/2/17 19:07,1,2,1,user,statement,50,1,1,none,,,yes
+111,020817-3,8/2/17 19:07,1,2,1,nico,,,,,,1,no answer,Six divided by two is three. And then two divided by two is one.
+112,020817-3,8/2/17 19:07,1,2,1,user,statement,50,1,1,none,,,so the answer is
+113,020817-3,8/2/17 19:07,1,2,1,nico,,,,,,1,no answer,Is one the answer?
+114,020817-3,8/2/17 19:07,1,2,1,user,statement,50,1,1,none,,,yes
+115,020817-3,8/2/17 19:07,1,2,1,nico,,,,,,1,answering,I will put the answer is one.
+116,020817-3,8/2/17 19:07,1,2,2,user,,50,0,33,step_1_2,,,
+117,020817-3,8/2/17 19:07,1,2,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO OF PROBLEM TWO.
+118,020817-3,8/2/17 19:08,1,2,2,user,statement,50,1,33,none,,,1 times 3 equals 3
+119,020817-3,8/2/17 19:08,1,2,2,nico,,,,,,1,no answer,What do we do with the number three?
+120,020817-3,8/2/17 19:08,1,2,2,user,statement,50,1,33,none,,,x 1
+121,020817-3,8/2/17 19:08,1,2,2,nico,,,,,,1,no answer,Oh okay. So that's what we do with the three and then what do we do?
+122,020817-3,8/2/17 19:08,1,2,2,user,statement,50,1,33,none,,,x 1
+123,020817-3,8/2/17 19:08,1,2,2,nico,,,,,,1,no answer,I like to listen and learn. Can you explain more?
+124,020817-3,8/2/17 19:08,1,2,2,user,statement,50,1,33,none,,,1 x 3
+125,020817-3,8/2/17 19:08,1,2,2,nico,,,,,,1,no answer,Do we multiply by three?
+126,020817-3,8/2/17 19:09,1,2,2,user,statement,50,1,33,none,,,you multiply 1 by 3
+127,020817-3,8/2/17 19:09,1,2,2,nico,,,,,,1,no answer,What do we multiply three by? Do you mean we multiply three by three?
+128,020817-3,8/2/17 19:09,1,2,2,user,statement,50,1,33,none,,,yes
+129,020817-3,8/2/17 19:09,1,2,2,nico,,,,,,1,no answer,I like to listen and learn. Can you explain more?
+130,020817-3,8/2/17 19:10,1,3,2,user,,50,0,33,problem_2_3,,,
+131,020817-3,8/2/17 19:10,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on MY WAY THERE?
+132,020817-3,8/2/17 19:10,1,3,1,user,statement,50,1,1,none,,,what is 1 x 2.5
+133,020817-3,8/2/17 19:10,1,3,1,nico,,,,,,1,no answer,Two point five times ONE is two point five. But how do we figure out the answer?
+134,020817-3,8/2/17 19:11,1,3,1,user,statement,50,1,1,none,,,60 x 2
+135,020817-3,8/2/17 19:11,1,3,1,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+136,020817-3,8/2/17 19:11,1,3,1,user,statement,50,1,1,none,,,you multiply 1 x 2.5
+137,020817-3,8/2/17 19:11,1,3,1,nico,,,,,,1,no answer,That sounds good. Then what do we do?
+138,020817-3,8/2/17 19:12,1,3,1,user,statement,50,1,1,none,,,we multiply 1 x 2.5
+139,020817-3,8/2/17 19:12,1,3,1,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+140,020817-3,8/2/17 19:12,1,3,1,user,statement,50,1,1,none,,,60 * 2.5
+141,020817-3,8/2/17 19:12,1,3,1,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+142,020817-3,8/2/17 19:13,1,3,1,user,statement,50,1,1,none,,,what is 60 x 2.5
+143,020817-3,8/2/17 19:13,1,3,1,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+144,020817-3,8/2/17 19:13,1,3,2,user,,50,0,1,step_1_2,,,
+145,020817-3,8/2/17 19:13,1,3,2,nico,,,,,,1,no answer,I'm really not sure what to do on STEP TWO OF THIS THIRD PROBLEM.
