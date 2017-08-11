@@ -157,7 +157,35 @@
 
 <topic name = "STEP ONE">
 
+<category>
+<pattern>^ DIVISION ^</pattern>
+<template>I've done division before. What do we divide?</template>
+</category>
 
+<category>
+<pattern>^ SIX ^</pattern>
+<that>What do we divide</that>
+<template>Okay so do we divide the six inches by two ounces of paint?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Okay so do we divide the six inches by two ounces of paint</that>
+<template>So that's three. What do we do next?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Okay so do we divide the six inches by two ounces of paint</that>
+<template>So that's three. What do we do next?</template>
+</category>
+
+
+<category>
+<pattern>*</pattern>
+<that>What do we divide</that>
+<template>I am going to divide the six inches by two ounces of paint?</template>
+</category>
 
 <category>
 <pattern>^ HALF OF ^</pattern>
