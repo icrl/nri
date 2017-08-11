@@ -1,0 +1,73 @@
+977,200717-1,7/20/17 16:45,1,1,0,,50,0,1,null,1,Triggered Speech 1
+978,200717-1,7/20/17 16:45,1,1,0,,50,0,1,problem start,0,problem start
+979,200717-1,7/20/17 16:47,1,1,0,,50,0,1,problem start,0,problem start
+980,200717-1,7/20/17 16:48,1,1,1,statement,50,1,1,none,0,hi Nico
+981,200717-1,7/20/17 16:48,1,1,1,statement,50,1,1,none,0,hello
+982,200717-1,7/20/17 16:49,1,1,1,statement,50,1,1,none,0,the body part of the legs in the service area is 12
+983,200717-1,7/20/17 16:50,1,1,1,statement,50,1,1,none,0,do you want to
+984,200717-1,7/20/17 16:50,1,1,2,,50,0,1,step_1_2,0,
+985,200717-1,7/20/17 16:52,1,1,2,statement,50,1,1,none,0,what goes below the 2 in step 1
+986,200717-1,7/20/17 16:53,1,1,2,statement,50,1,1,none,0,what would be higher than 2 in below 6
+987,200717-1,7/20/17 16:53,1,1,2,statement,50,1,1,none,0,you add up
+988,200717-1,7/20/17 16:54,1,1,2,statement,50,1,1,none,0,you add up to and you'll get the answer
+989,200717-1,7/20/17 16:54,1,1,1,,50,0,1,step_2_1,0,
+990,200717-1,7/20/17 16:55,1,1,1,statement,50,1,1,none,0,add up the number to from step step zero and you'll get your answer
+991,200717-1,7/20/17 16:55,1,1,1,statement,50,1,1,none,0,no
+992,200717-1,7/20/17 16:55,1,1,2,,50,0,33,step_1_2,0,
+993,200717-1,7/20/17 16:55,1,2,2,,50,0,33,problem_1_2,0,
+994,200717-1,7/20/17 16:56,1,2,1,statement,50,1,1,none,0,did body parts the hands the surface area is 6 in the volume fluid is to
+995,200717-1,7/20/17 16:56,1,2,1,statement,50,1,1,none,0,you need two bodies of paint right
+996,200717-1,7/20/17 16:57,1,2,1,statement,50,1,1,none,0,-3 into and you'll find the answer for your arms
+997,210717-2,7/21/17 10:37,1,1,0,statement,50,1,1,none,0,hello Joe
+998,210717-2,7/21/17 10:37,1,1,0,statement,50,1,1,none,0,a picture of a hold it down inside
+999,210717-2,7/21/17 10:35,1,1,0,,50,0,1,problem start,0,problem start
+1000,210717-2,7/21/17 10:37,1,1,0,,50,0,1,problem start,0,problem start
+1001,210717-2,7/21/17 10:39,1,1,1,statement,50,1,1,none,0,since your feet is 6 inches and your legs are 12 inches than your torso is 18 inches
+1002,210717-2,7/21/17 10:39,1,1,1,statement,50,1,1,none,0,no we multiply
+1003,210717-2,7/21/17 10:40,1,1,1,statement,50,1,1,none,0,sure
+1004,210717-2,7/21/17 10:40,1,1,1,statement,50,1,1,none,0,the legs are bigger
+1005,210717-2,7/21/17 10:40,1,1,1,statement,50,1,1,none,0,your feet are small
+1006,210717-2,7/21/17 10:41,1,1,1,statement,50,1,1,none,0,the pain for your legs
+1007,210717-2,7/21/17 10:41,1,1,1,statement,50,1,1,none,0,you know that 6 time
+1008,210717-2,7/21/17 10:41,1,1,1,statement,50,1,1,none,0,no we multiply
+1011,210717-2,7/21/17 10:43,1,1,1,statement,51,1,1,none,0,when you know the 12
+1011,210717-2,7/21/17 10:43,1,1,1,statement,52,1,1,none,,we divide the two
+1011,210717-2,7/21/17 10:43,1,1,1,statement,53,1,1,none,,cause you move no
+1011,210717-2,7/21/17 10:43,1,1,1,statement,54,1,1,none,,you multiply the two by
+1011,210717-2,7/21/17 10:43,1,1,1,statement,55,1,1,none,,no nico
+1213,020817-3,8/2/17 18:44,1,1,0,,50,0,1,hello nico start,0,HELLO FIRST TIME
+1214,020817-3,8/2/17 18:44,1,1,0,,50,0,1,null,1,Triggered Speech 1
+1215,020817-3,8/2/17 18:45,1,1,0,statement,50,1,1,none,1,hi new girl my name is Philip
+1216,020817-3,8/2/17 18:45,1,1,0,,50,0,1,problem start,1,problem start
+1217,020817-3,8/2/17 18:46,1,1,1,,50,0,1,null,2,Triggered Speech 2
+1218,020817-3,8/2/17 18:46,1,1,1,,50,0,1,null,3,Triggered Speech 3
+1219,020817-3,8/2/17 18:46,1,1,1,statement,50,1,1,none,2,first Nico you need to figure out how much paint you need to put on your legs
+1220,020817-3,8/2/17 18:46,1,1,1,statement,50,1,1,none,2,first you need to put
+1221,020817-3,8/2/17 18:50,1,1,1,statement,50,1,1,none,2,6 divided by 3 equals
+1222,020817-3,8/2/17 18:51,1,1,1,statement,50,1,1,none,2,Neko repeat yourself
+1223,020817-3,8/2/17 18:51,1,1,1,statement,50,1,1,none,2,6 divided by 3 = 2
+1224,020817-3,8/2/17 18:52,1,1,1,statement,50,1,1,none,2,your divided by 3
+1225,020817-3,8/2/17 18:52,1,1,1,statement,50,1,1,none,2,you / 3
+1226,020817-3,8/2/17 18:53,1,1,1,statement,50,1,1,none,2,maker what's your favorite color
+1227,020817-3,8/2/17 19:04,1,1,2,,50,0,1,step_1_2,2,
+1228,020817-3,8/2/17 19:04,1,2,2,,50,0,1,problem_1_2,2,
+1229,020817-3,8/2/17 19:06,1,2,1,statement,50,1,1,none,2,6 divided by 2 equals 3
+1230,020817-3,8/2/17 19:06,1,2,1,statement,50,1,1,none,2,you divide it by 2
+1231,020817-3,8/2/17 19:07,1,2,1,statement,50,1,1,none,2,yes
+1232,020817-3,8/2/17 19:07,1,2,1,statement,50,1,1,none,2,so the answer is
+1233,020817-3,8/2/17 19:07,1,2,1,statement,50,1,1,none,2,yes
+1234,020817-3,8/2/17 19:07,1,2,2,,50,0,33,step_1_2,2,
+1235,020817-3,8/2/17 19:08,1,2,2,statement,50,1,33,none,2,1 times 3 equals 3
+1236,020817-3,8/2/17 19:08,1,2,2,statement,50,1,33,none,2,x 1
+1237,020817-3,8/2/17 19:08,1,2,2,statement,50,1,33,none,2,x 1
+1238,020817-3,8/2/17 19:08,1,2,2,statement,50,1,33,none,2,1 x 3
+1239,020817-3,8/2/17 19:09,1,2,2,statement,50,1,33,none,2,you multiply 1 by 3
+1240,020817-3,8/2/17 19:09,1,2,2,statement,50,1,33,none,2,yes
+1241,020817-3,8/2/17 19:10,1,3,2,,50,0,33,problem_2_3,2,
+1242,020817-3,8/2/17 19:10,1,3,1,statement,50,1,1,none,2,what is 1 x 2.5
+1243,020817-3,8/2/17 19:11,1,3,1,statement,50,1,1,none,2,60 x 2
+1244,020817-3,8/2/17 19:11,1,3,1,statement,50,1,1,none,2,you multiply 1 x 2.5
+1245,020817-3,8/2/17 19:12,1,3,1,statement,50,1,1,none,2,we multiply 1 x 2.5
+1246,020817-3,8/2/17 19:12,1,3,1,statement,50,1,1,none,2,60 * 2.5
+1247,020817-3,8/2/17 19:13,1,3,1,statement,50,1,1,none,2,what is 60 x 2.5
+1248,020817-3,8/2/17 19:13,1,3,2,,50,0,1,step_1_2,2,
