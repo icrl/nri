@@ -450,14 +450,14 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>So is the answer five</that>
-<template>Great! I will put five in for the answer.</template>
+<template>Great! I will put the answer is five.</template>
 </category>
 
 
 <category>
 <pattern>*</pattern>
 <that>So is the answer five</that>
-<template>Great! I will put five in for the answer.</template>
+<template>Great! I will put the answer is five.</template>
 </category>
 
 
@@ -518,7 +518,7 @@
 <category>
 <pattern>^ ANSWER ^</pattern>
 <that>So that is what we do with two point five and then what do we do</that>
-<template>I will put five in for the answer.</template>
+<template>I will put the answer is five.</template>
 </category>
 
 <category>
@@ -657,7 +657,25 @@
 <template>Five. Is five the answer?</template>
 </category>
 
+<category>
+<pattern>^ YES ^</pattern>
+<that>Is five the answer</that>
+<template>Great! I will put the answer is five.</template>
+</category>
 
+
+<category>
+<pattern>*</pattern>
+<that>Is five the answer</that>
+<template>Great! I will put the answer is five.</template>
+</category>
+
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Is five the answer</that>
+<template>Oh okay. I thought the answer is five. Are you sure?</template>
+</category>
 
 
 </topic>

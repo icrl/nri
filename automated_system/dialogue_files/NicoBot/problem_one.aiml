@@ -157,6 +157,8 @@
 
 <topic name = "STEP ONE">
 
+
+
 <category>
 <pattern>^ HALF OF ^</pattern>
 <template>So if six is half of twelve, then two is half of four. Is four the answer?</template>
@@ -233,10 +235,31 @@
 
 <category>
 <pattern>^ SIX ^</pattern>
-<template><random>
-<li>What do we do with the number six?</li>
-<li>Do we divide six by three?</li>
-</random></template>
+<template>Do we divide six by two or by three?</template>
+</category>
+
+<category>
+<pattern>^ TWO ^ </pattern>
+<that>Do we divide six by two or by three</that>
+<template>Oh okay. If we look at the six inches and two ounces of paint, we can divide and find one ounce of paint covers three inches. Then what do we do?  </template>
+</category>
+
+<category>
+<pattern>^ THREE ^ </pattern>
+<that>Do we divide six by two or by three</that>
+<template>Oh okay. If we look at the six inches and two ounces of paint, we can divide and find one ounce of paint covers three inches. Then what do we do?  </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Do we divide six by two or by three</that>
+<template>Oh okay. I think that makes sense. So then what is the answer?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Then what do we do</that>
+<template>I think I get it. Is four the answer?</template>
 </category>
 
 <category>
@@ -658,6 +681,41 @@
 <template>Okay. To figure out how much paint I need for my legs, I look at how much paint I need for my feet?</template>
 </category>
 
+
+<category>
+<pattern>^ SURFACE AREA ^</pattern>
+<template>Okay. We are going to figure out how much paint I need for my legs. First I look at the surface area of my feet and how much paint I need for my feet?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>First I look at the surface area of my feet and how much paint I need for my feet</that>
+<template>So I know I need two ounces of paint for six inches. Six divided by three is two. Does that mean I only need one ounce of paint for three square inches?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Does that mean I only need one ounce of paint for three square inches</that>
+<template>Okay cool. So then what do I do? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Does that mean I only need one ounce of paint for three square inches</that>
+<template>Okay cool. So then do I divide twelve by three? </template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that> So then do I divide twelve by three</that>
+<template>Is the answer four?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So then do I divide twelve by three</that>
+<template>Is the answer four?</template>
+</category>
 
 </topic>
 
