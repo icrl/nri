@@ -133,6 +133,7 @@
     <Content Include="handlers\DialogueEngine.ashx" />
     <Content Include="handlers\UpdateTable.ashx" />
     <Content Include="handlers\UpdateStep.ashx" />
+    <Content Include="handlers\ErrorLogger.ashx" />
     <None Include="Properties\PublishProfiles\NicoNRI.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -330,6 +331,9 @@
     <Compile Include="csharp\MyHub.cs" />
     <Compile Include="handlers\DialogueEngine.ashx.cs">
       <DependentUpon>DialogueEngine.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="handlers\ErrorLogger.ashx.cs">
+      <DependentUpon>ErrorLogger.ashx</DependentUpon>
     </Compile>
     <Compile Include="handlers\saveTranscript.ashx.cs">
       <DependentUpon>saveTranscript.ashx</DependentUpon>
