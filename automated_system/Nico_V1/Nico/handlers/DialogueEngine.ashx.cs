@@ -117,7 +117,6 @@ namespace Nico.handlers
                         HttpFileCollection files = context.Request.Files;
                         audioFile = writeFile(files, path, username, timeStart);
                     }
-
                     if (transcript == "problem start")
                     {
                         speakerSpoke = 0;
