@@ -317,7 +317,7 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>Then do we have the answer</that>
-<template>I will put the answer is four </template>
+<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four </template>
 </category>
 
 <category>
@@ -335,7 +335,7 @@
 <category>
 <pattern>_</pattern>
 <that>Is four the answer</that>
-<template>I will put the answer is four.</template>
+<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.</template>
 </category>
 
 
@@ -360,7 +360,7 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>Then we have the answer</that>
-<template>I will put the answer is four.</template>
+<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.</template>
 </category>
 
 <category>
@@ -429,7 +429,7 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>Then we have the answer is four</that>
-<template>I will put the answer is four. </template>
+<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four. </template>
 </category>
 
 <category>
@@ -449,7 +449,7 @@
 <category>
 <pattern>^ ANSWER ^</pattern>
 <that>So that is what we do with the two and then what do we do</that>
-<template>I will put the answer is four.</template>
+<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.</template>
 </category>
 
 
@@ -496,7 +496,7 @@
 <category>
 <pattern>^ ANSWER ^</pattern>
 <that>So that is what we do with the twelve and then what do we do</that>
-<template>I will put the answer is four.</template>
+<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.</template>
 </category>
 
 <category>
@@ -528,7 +528,7 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>Did you say four is the answer</that>
-<template>I will put the answer is four.</template>
+<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.</template>
 </category>
 
 <category>
@@ -673,7 +673,13 @@
 
 <category>
 <pattern>^ DIVIDE ^ </pattern>
-<template>Ok so we divide. Do we divide again or do we multiply?</template>
+<template>Okay so we divide. Can you tell me what we are dividing again?</template>
+</category>
+
+<category>
+<pattern>^ TWELVE ^ </pattern>
+<that>Can you tell me what we are dividing again</that>
+<template>Oh right, we should divide twelve by three. That is four. Right?</template>
 </category>
 
 <category>
@@ -694,12 +700,12 @@
 
 <category>
 <pattern>^ LEGS ^</pattern>
-<template>Okay. Looking at how much paint I need for my feet, I can figure out how much paint I need for my legs? But how?</template>
+<template>Okay. Looking at how much paint I need for my feet, I can figure out how much paint I need for my legs? How do we do that?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>but how</that>
+<that>How do we do that</that>
 <template>You are so smart. So then I know that two goes into six three times. So do I divide twelve by three?</template>
 </category>
 
@@ -709,16 +715,20 @@
 <template>Okay. To figure out how much paint I need for my legs, I look at how much paint I need for my feet?</template>
 </category>
 
-
 <category>
 <pattern>^ SURFACE AREA ^</pattern>
 <template>Okay. We are going to figure out how much paint I need for my legs. First I look at the surface area of my feet and how much paint I need for my feet?</template>
 </category>
 
 <category>
+<pattern>^ FIGURE ^ VOLUME ^</pattern>
+<template>Okay. We are going to figure out the volume of paint I need for my legs. First I look at the surface area of my feet and how much paint I need for my feet?</template>
+</category>
+
+<category>
 <pattern>_</pattern>
 <that>First I look at the surface area of my feet and how much paint I need for my feet</that>
-<template>So I know I need two ounces of paint for six inches. Six divided by three is two. Does that mean I only need one ounce of paint for three square inches?</template>
+<template>So we know I need two ounces of paint for six inches of surface area. Six divided by three is two. Does that mean I only need one ounce of paint for three square inches?</template>
 </category>
 
 <category>
@@ -757,24 +767,24 @@
 
 <category>
 <pattern>^ TORSO ^</pattern>
-<template>Okay. Looking at how much paint I need for my feet and how much I know I need for my torso, I can figure out how much surface area that is? But how?</template>
+<template>Okay. Looking at how much paint I need for my feet and how much I know I need for my torso, I can figure out how much surface area that is? How do we do that?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>but how</that>
+<that>How do we do that</that>
 <template>Ah okay. So then I know that two goes into six three times. So I can multiply six times three?</template>
 </category>
 
 
 <category>
 <pattern>^ FEET ^</pattern>
-<template>Okay. To figure out how big my torso is, I can look at how much paint I need for my feet versus my torso? But how?</template>
+<template>Okay. To figure out how big my torso is, I can look at how much paint I need for my feet versus my torso? How do we do that?</template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>but how</that>
+<that>How do we do that</that>
 <template>Ah okay. So then I know that two goes into six three times. So I can multiply six times three?</template>
 </category>
 
@@ -817,10 +827,8 @@
 
 <category>
 <pattern>^ SIX ^</pattern>
-<template><random>
-<li>There is a six in this step two also. To do this step, do we look at how many times two goes into six?</li>
-<li>There is another six! Do we look at how many times two goes into six?</li>
-</random></template>
+<template>We can use the ratio of six to two here too? Do we look at how many times two goes into six?
+</template>
 </category>
 
 <category>
@@ -844,7 +852,7 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>Then do we have the answer</that>
-<template>Ok! Because six times three is eighteen. So I will put the answer is eighteen. </template>
+<template>Ok! Because six times three is eighteen. That means my torso has a surface area of eighteen inches. I will put the answer is eighteen. </template>
 </category>
 
 <category>
@@ -856,7 +864,7 @@
 <category>
 <pattern>^ ANSWER ^ EIGHTEEN ^</pattern>
 <that>What is the answer</that>
-<template>Oh okay! The answer is eighteen. Because six times three is eighteen.S o I will put the answer is eighteen. </template>
+<template>Oh okay! The answer is eighteen because six times three is eighteen. That means my torso has a surface area of eighteen inches! I will put the answer is eighteen. </template>
 </category>
 
 <category>
@@ -874,13 +882,13 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>So is the answer eighteen</that>
-<template>Great! My torso has a surface area of eighteen inches. So I will put the answer is eighteen</template>
+<template>Great! My torso has a surface area of eighteen inches! So I will put the answer is eighteen</template>
 </category>
 
 <category>
 <pattern>_</pattern>
 <that>So is the answer eighteen</that>
-<template>My torso has a surface area of eighteen inches. So I will put the answer is eighteen.</template>
+<template>Sweet! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.</template>
 </category>
 
 <category>
@@ -911,7 +919,7 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>Then we have the answer</that>
-<template>Great! Six times three is eighteen. My torso has a surface area of eighteen inches. I will put the answer is eighteen.</template>
+<template>Great! Six times three is eighteen. So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.</template>
 </category>
 
 <category>
@@ -954,7 +962,7 @@
 
 <category>
 <pattern>^ TWO ^</pattern>
-<template>So two times three is six. So we can use that to figure out the answer? But how?</template>
+<template>So two times three is six. So we can use that to figure out the answer? How do we do that?</template>
 </category>
 
 
@@ -1015,7 +1023,7 @@
 <category>
 <pattern>*</pattern>
 <that>But how do I figure out how big my torso is</that>
-<template>Oh okay.So six times three is eighteen. So my torso has a surface area of eighteen inches. I will put the answer is eighteen! </template>
+<template>Oh okay. Six times three is eighteen. So my torso has a surface area of eighteen inches! I will put the answer is eighteen! </template>
 </category>
 
 <category>
@@ -1176,7 +1184,7 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>Then we have the answer</that>
-<template>I will put the answer is four </template>
+<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four </template>
 </category>
 
 <category>
@@ -1219,7 +1227,7 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>Then we have the answer</that>
-<template>I will put the answer is four </template>
+<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four </template>
 </category>
 
 <category>
@@ -1290,7 +1298,7 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>Then we have the answer is four</that>
-<template>I will put the answer is four </template>
+<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four </template>
 </category>
 
 <category>
@@ -1310,7 +1318,7 @@
 <category>
 <pattern>^ ANSWER ^</pattern>
 <that>So that is what we do with the two and then what do we do</that>
-<template>I will put the answer is four</template>
+<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four</template>
 </category>
 
 
@@ -1357,7 +1365,7 @@
 <category>
 <pattern>^ ANSWER ^</pattern>
 <that>So that is what we do with the twelve and then what do we do</that>
-<template>I will put the answer is four</template>
+<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four</template>
 </category>
 
 <category>
@@ -1519,7 +1527,7 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>Then do we have the answer</that>
-<template>Ok! Because six times three is eighteen. So I will put the answer is eighteen. </template>
+<template>Ok! Because six times three is eighteen. That means my torso has a surface area of eighteen inches. So I will put the answer is eighteen. </template>
 </category>
 
 <category>
@@ -1531,7 +1539,7 @@
 <category>
 <pattern>^ ANSWER ^ EIGHTEEN ^</pattern>
 <that>What is the answer</that>
-<template>Oh okay! The answer is eighteen. Because six times three is eighteen.So I will put the answer is eighteen. </template>
+<template>Oh okay! The answer is eighteen because six times three is eighteen. That means my torso has a surface area of eighteen inches. I will put the answer is eighteen. </template>
 </category>
 
 <category>
@@ -1549,13 +1557,13 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>So is the answer eighteen</that>
-<template>Great! So I will put the answer is eighteen</template>
+<template>Great! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen</template>
 </category>
 
 <category>
 <pattern>_</pattern>
 <that>So is the answer eighteen</that>
-<template>So I will put the answer is eighteen.</template>
+<template>Sweet! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.</template>
 </category>
 
 <category>
@@ -1586,7 +1594,7 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>Then we have the answer</that>
-<template>Great! Six times three is eighteen. So I will put the answer is eighteen.</template>
+<template>Great! Six times three is eighteen. That means my torso has a surface area of eighteen inches. So I will put the answer is eighteen.</template>
 </category>
 
 <category>

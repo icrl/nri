@@ -68,18 +68,19 @@ namespace Nico.csharp.functions
                         transcript = transcript + " " + problemStep[0].ToString();
 
                         nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered);                                                                                      // Generate Nico's response (currently just pandorbots)
-                        nicoMoveSpeak2(nicoResponse.Item1, nicoResponse.Item2);
+                        nicoMoveSpeak1(nicoResponse.Item1, nicoResponse.Item2);
                     }
                     else
                     {
                         // make sure topic set to the correct problem and step
                         // detect problem and step we're on, set to that problem and step
                         // don't play response
+                        /*
                         string tempTrans = problemStep[0].ToString() + " " + problemStep[1].ToString();
                         string pythonexe = "C:\\Python27\\python.exe";
                         string pythonargs = "C:\\Python27\\NaoNRIPrograms\\chatPandoraBot_topicSet.py " + tempTrans;
                         ExternalMethodsCaller.PythonProcess(pythonexe, pythonargs);
-
+                        */
                         checkIfAnswered = true;
 
                         // now generate response

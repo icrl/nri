@@ -172,16 +172,51 @@
 
 <category>
 <pattern>^ SIX ^</pattern>
-<template><random>
-<li>What do we do with the number six?</li>
-<li>We divide six by two?</li>
-</random></template>
+<template>So we're looking at the ratio between the six and the two?</template>
 </category>
 
 <category>
 <pattern>^ DIVIDE ^ </pattern>
-<that>What do we do with the number six</that>
-<template>Oh okay. So six divided by two is three. So then. We divide two by two? </template>
+<that>So we are looking at the ratio between the six and the two</that>
+<template>Oh okay. So six divided by two is three. So then do we divide three by three? </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>So we are looking at the ratio between the six and the two</that>
+<template>Oh okay. So six divided by two is three. So then do we divide three by three? </template>
+</category>
+
+<category>
+<pattern>^ Yes ^</pattern>
+<that>So then do we divide three by three</that>
+<template>Three divided by three is one. So is one the answer? </template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>So then do we divide three by three</that>
+<template>Three divided by three is one. So is one the answer?  </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>So then do we divide three by three</that>
+<template>Three divided by three is one. So is one the answer?  </template>
+</category>
+
+<category>
+<pattern>^ Yes ^</pattern>
+<that>So is one the answer</that>
+<template>Cool! So I only need one ounce of paint for my arms. I will put the answer is one.</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>So is one the answer</that>
+<template>Cool! So I only need one ounce of paint for my arms. I will put the answer is one.</template>
 </category>
 
 <category>
@@ -200,52 +235,34 @@
 <category>
 <pattern>*</pattern>
 <that>We divide two by two</that>
-<template>Six divided by two is three. And then two divided by two is one. </template>
+<template>Six divided by two is three. And then two divided by two is one.</template>
 </category>
 
-
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<that>We divide six by two</that>
-<template>Six divided by two is 2. I don't get how that gets us the answer. </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>We divide six by three</that>
-<template>So that's two. I don't get how that gets us the answer. </template>
-</category>
-
-<category>
-<pattern>^ NO ^</pattern>
-<that>We divide six by three</that>
-<template>Oh okay. Can you explain more? </template>
-</category>
-
-<category>
-<pattern>^ BECAUSE ^</pattern>
-<that>I DO NOT GET HOW THAT GETS US THE ANSWER</that>
-<template>Ohhhh. Half of six is three. So half of two is one? Is one the answer? </template>
-</category>
 
 <category>
 <pattern>*</pattern>
-<that>I DO NOT GET HOW THAT GETS US THE ANSWER</that>
-<template>Ohhhh. Half of six is three. So half of two is one? Is one the answer? </template>
+<that>And then two divided by two is one</that>
+<template>Is one the answer?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>And then two divided by two is one</that>
+<template>Is one the answer?</template>
 </category>
 
 
 <category>
 <pattern>^ YES ^ </pattern>
 <that>Is one the answer</that>
-<template>I will put the answer is one.</template>
+<template>Cool! So I only need one ounce of paint for my arms. I will put the answer is one.</template>
 </category>
 
 <category>
 <pattern>_</pattern>
 <that>Is one the answer</that>
-<template>I will put the answer is one.</template>
+<template>Cool! So I only need one ounce of paint for my arms. I will put the answer is one.</template>
 </category>
 
 
@@ -297,41 +314,70 @@
 </category>
 
 <category>
+<pattern>^ EQUIVALENT ^ </pattern>
+<template>What is an equivalent ratio?</template>
+</category>
+
+<category>
+<pattern>^ AN EQUIVALENT RATIO IS ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks!</template>
+</category>
+
+<category>
+<pattern>^ EQUIVALENT RATIO ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks!</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks!</template>
+</category>
+
+<category>
 <pattern>^ TWO ^</pattern>
 <template><random>
-<li>What do we do with the number TWO?</li>
-<li>Do we divide the two?</li>
+<li>So there is a ratio between six and two. But what do we do with the number TWO?</li>
+<li>So there is a ratio between six and two. We need to create a similar ratio? Do we divide the two?</li>
 </random></template>
+</category>
+
+
+<category>
+<pattern>^ DIVIDE ^ </pattern>
+<that>But what do we do with the number TWO</that>
+<template>Do we divide? Divide six by two? That would give us two. And then what?</template>
 </category>
 
 <category>
 <pattern>^ DIVIDE ^ </pattern>
-<that>What do we do with the number TWO</that>
-<template>Oh okay. We divide! We divide six by two. That gives us two. We divide two by two?</template>
+<that>And then what</that>
+<template>Do we divide two by two? That would be one. Is one the answer?</template>
 </category>
 
 <category>
-<pattern>^ DIVIDE BY ^ </pattern>
-<that>What do we divide by</that>
-<template>Oh okay! I think I get it. Three is half of six. One is half of two. Is one the answer? </template>
+<pattern>^ ONE ^</pattern>
+<that>And then what</that>
+<template>So if we divide two by two, that would be one. Is one the answer?</template>
 </category>
 
 <category>
-<pattern>^ DO NOT ^ </pattern>
-<that>What do we divide by</that>
-<template>Oh okay! I think I get it. Three is half of six. One is half of two. Is one the answer? </template>
+<pattern>*</pattern>
+<that>And then what</that>
+<template>So if we divide two by two, that would be one. Is one the answer?</template>
 </category>
-
 
 <category>
 <pattern>^ ANSWER ^</pattern>
-<that>What do we do with the number TWO</that>
+<that>But what do we do with the number TWO</that>
 <template>Oh okay! I think I get it. Three is half of six. One is half of two. Is one the answer?  </template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>What do we do with the number two</that>
+<that>But what do we do with the number two</that>
 <template>Oh okay. So that's what we do with the two. One is half of two. Is one the answer?</template>
 </category>
 
@@ -339,78 +385,28 @@
 <category>
 <pattern>^ ANSWER ^</pattern>
 <that>So that is what we do with the two and then what do we do</that>
-<template>I will put the answer is one.</template>
+<template>Cool! So I only need one ounce of paint for my arms. I will put the answer is one.</template>
 </category>
 
 
 <category>
 <pattern>^ DIVIDE ^ </pattern>
 <that>Do we divide the two</that>
-<template>Oh okay. We divide! What do we divide by? </template>
-</category>
-
-<category>
-<pattern>^ BY ^ </pattern>
-<that>What do we divide by</that>
-<template>Oh okay. And two divided by two is one. Is one the answer? </template>
+<template>Oh okay! I think I get it. Three is half of six. One is half of two. Is one the answer?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
 <that>Do we divide the two</that>
-<template>Okay. And two divided by two is one. Is one the answer? </template>
+<template>Oh okay! I think I get it. Three is half of six. One is half of two. Is one the answer?</template>
 </category>
 
 <category>
 <pattern>*</pattern>
 <that>Do we divide the two</that>
-<template>Okay. I'm going to divide the two by two. Is one the answer? </template>
+<template>Oh okay! I think I get it. Three is half of six. One is half of two. Is one the answer?</template>
 </category>
 
-
-<category>
-<pattern>^ THREE ^</pattern>
-<template><random>
-<li>What do we do with the number three?</li>
-<li>Do we divide by three?</li>
-</random></template>
-</category>
-
-<category>
-<pattern>^ DIVIDE ^ </pattern>
-<that>What do we do with the number three</that>
-<template>Oh okay. We divide! We divide six by three? </template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>What do we do with the number three</that>
-<template>Oh okay. So that's what we do with the three and then what do we do? </template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<that>So that is what we do with the three and then what do we do</that>
-<template>I will put the answer is one.</template>
-</category>
-
-<category>
-<pattern>^ DIVIDE ^ </pattern>
-<that>Do we divide by three</that>
-<template>Oh okay. So half of six is three and half of two is one. Is one the answer? </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>We divide six by three</that>
-<template>Okay. Six divided by three is two. So that is what we do with the three and then what do we do? </template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>Do we divide by three</that>
-<template>Oh okay. So that's what we do with the three and then what do we do? </template>
-</category>
 
 <category>
 <pattern>^ ONE ^</pattern>
@@ -423,7 +419,7 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>Did you say ONE is the answer</that>
-<template>I will put the answer is ONE.</template>
+<template>Cool! So I only need one ounce of paint for my arms. I will put the answer is ONE.</template>
 </category>
 
 <category>
@@ -446,17 +442,17 @@
 
 <category>
 <pattern>DO YOU NOT KNOW</pattern>
-<template>Maybe I start by dividing six by three?</template>
+<template>Maybe I start by dividing six by two?</template>
 </category>
 
 <category>
 <pattern>I AM NOT SURE</pattern>
-<template>Maybe what I do is look at the six and the three?</template>
+<template>Maybe what I do is look at the six and the two?</template>
 </category>
 
 <category>
 <pattern>I DO NOT KNOW</pattern>
-<template>Maybe what I do is look at the six and the three?</template>
+<template>Maybe what I do is look at the six and the two?</template>
 </category>
 
 <category>
@@ -515,10 +511,9 @@
 <template>One times two is one. Is one the answer?</template>
 </category>
 
-
 <category>
 <pattern>WHAT IS ONE ^ TWO</pattern>
-<template>Two times ONE is one. Is four the answer?</template>
+<template>Two times ONE is one. Is one the answer?</template>
 </category>
 
 <category>
@@ -536,6 +531,15 @@
 <template>six divided by three is two. Right?</template>
 </category>
 
+<category>
+<pattern>^ THREE ^ THREE ^</pattern>
+<template>six divided by three is two. Right?</template>
+</category>
+
+<category>
+<pattern>^ RATIO ^ SIX ^ TWO ^</pattern>
+<template>Six to two is one ratio. And three to something is another similar ratio. How do we figure out the rest of the ratio?</template>
+</category>
 
 
 </topic>
@@ -543,47 +547,47 @@
 <topic name = "STEP TWO OF PROBLEM TWO">
 
 <category>
+<pattern>^ RATIO ^ SIX ^ TWO ^</pattern>
+<template>Six to two is the same ratio we used for step one. But the ratio of one to three seems an easier place to start?</template>
+</category>
+
+<category>
+<pattern>^ RATIO ^ ONE ^ THREE ^</pattern>
+<template>So we can look at the ratio of one to three and three to some unknown number?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So we can look at the ratio of one to three and three to some unknown number</that>
+<template>Three is three more than one. What do we do to find the unknown number?</template>
+</category>
+
+<category>
 <pattern>PROBLEM START 3</pattern>
 <template>Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on <set name="topic">MY WAY THERE</set>?</template>
 </category>
 
 <category>
-<pattern>^ SIX ^</pattern>
-<template><random>
-<li>Do we need the six?</li>
-<li>Why do we need the six?</li>
-<li>Are you sure we need the six?</li>
-</random></template>
+<pattern>^ SAME THING ^</pattern>
+<template>I do the same thing I did before?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>Do we need the six</that>
-<template>Oh okay. Because I thought if maybe we just look at the last step, we know that we only need one fluid ounce of paint for three ounces of paint and now we have 9. So maybe there's something there?</template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>why do we need the six</that>
-<template>Oh okay. Because I thought if maybe we just look at the last step, we know that we only need one fluid ounce of paint for three ounces of paint and now we have 9. So maybe there's something there.</template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Are you sure we need the six</that>
-<template>Oh okay. Because I thought if maybe we just look at the last step, we know that we only need one fluid ounce of paint for three ounces of paint and now we have 9. So maybe there's something there.</template>
+<that>I do the same thing I did before</that>
+<template>I'm not sure I understood what I did though. Can you help me?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
 <that>So the answer is nine</that>
-<template>Okay great! I will put the answer is nine.</template>
+<template>Okay great! So my head has a surface area of nine inches. I will put the answer is nine.</template>
 </category>
 
 <category>
 <pattern>_</pattern>
 <that>So the answer is nine</that>
-<template>Okay great! I will put the answer is nine.</template>
+<template>Okay great! So my head has a surface area of nine inches. I will put the answer is nine.</template>
 </category>
 
 <category>
@@ -601,21 +605,33 @@
 </category>
 
 <category>
-<pattern>*</pattern>
+<pattern>_</pattern>
 <that>What do we do with the number three</that>
-<template>Oh okay. So that's what we do with the three and then what do we do? </template>
+<template>So if we look at the ratio of one to three. Three is three times more. Right?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Right</that>
+<template>So three times more than three would be nine. So the answer is nine?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Right</that>
+<template>So three times more than three would be nine. So the answer is nine?</template>
 </category>
 
 <category>
 <pattern>^ ANSWER ^</pattern>
-<that>So that is what we do with the three and then what do we do</that>
-<template>I think the answer is nine.Am I right that the answer is nine?</template>
+<that>What do we do with the number three</that>
+<template>I think the answer is nine. Am I right that the answer is nine?</template>
 </category>
 
 <category>
 <pattern>_</pattern>
 <that>Am I right that the answer is nine</that>
-<template>Okay great! I will put the answer is nine.</template>
+<template>Okay great! So my head has a surface area of nine inches. I will put the answer is nine.</template>
 </category>
 
 <category>
@@ -623,7 +639,6 @@
 <that>Do we multiply by three</that>
 <template>Oh okay. We multiply! We multiply three by three? </template>
 </category>
-
 
 <category>
 <pattern>*</pattern>
@@ -1118,13 +1133,13 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>So the answer is nine</that>
-<template>Okay great! I will put the answer is nine.</template>
+<template>Okay great! So my head has a surface area of nine inches. I will put the answer is nine.</template>
 </category>
 
 <category>
 <pattern>_</pattern>
 <that>So the answer is nine</that>
-<template>Okay great! I will put the answer is nine.</template>
+<template>Okay great! So my head has a surface area of nine inches. I will put the answer is nine.</template>
 </category>
 
 <category>
@@ -1156,7 +1171,7 @@
 <category>
 <pattern>_</pattern>
 <that>Am I right that the answer is nine</that>
-<template>Okay great! I will put the answer is nine.</template>
+<template>Okay great! So my head has a surface area of nine inches. I will put the answer is nine.</template>
 </category>
 
 <category>
@@ -1165,6 +1180,11 @@
 <template>Oh okay. We multiply! We multiply three by three? </template>
 </category>
 
+<category>
+<pattern>^ YES ^ </pattern>
+<that>We multiply three by three</that>
+<template>Okay. So the surface area three ounces of paint can cover is three times three. That is nine. So the answer is nine? </template>
+</category>
 
 <category>
 <pattern>*</pattern>

@@ -106,7 +106,7 @@ def syncLogs(userFile, nicoFile, errorFile, audioFile):
         else:
             print "ERROR: User and Nico DateTime fields cannot be compared"
 
-    alldata.to_csv("C:\\Nikki\\ASU_Research\\NRI_Project\\System\\NRI_Git_Hub\\automated_system\\LogSync\\data\\alldata.csv",columns = ["UserID","DateTime","SessionID","ProblemID","StepID","Owner","DialogueAct","DialogueActConfidence","Spoke","StepAnswer","ClickStep","NicoMovement","Answered","Transcript"])
+    alldata.to_csv("C:\\Nikki\\ASU_Research\\NRI_Project\\System\\NRI_Git_Hub\\automated_system\\LogSync\\data\\6_110817.csv",columns = ["UserID","DateTime","SessionID","ProblemID","StepID","Owner","DialogueAct","DialogueActConfidence","Spoke","StepAnswer","ClickStep","NicoMovement","Answered","Transcript"])
 
 def main():
     '''
@@ -115,8 +115,8 @@ def main():
         sys.exit(1)
     '''
 
-    userFile = "C:\\Nikki\\ASU_Research\\NRI_Project\\System\\NRI_Git_Hub\\automated_system\\LogSync\\data\\userresults_id_1-3.csv"
-    nicoFile = "C:\\Nikki\\ASU_Research\\NRI_Project\\System\\NRI_Git_Hub\\automated_system\\LogSync\\data\\nicoresults_id_1-3.csv"
+    userFile = "C:\\Nikki\\ASU_Research\\NRI_Project\\System\\NRI_Git_Hub\\automated_system\\LogSync\\data\\userresults.csv"
+    nicoFile = "C:\\Nikki\\ASU_Research\\NRI_Project\\System\\NRI_Git_Hub\\automated_system\\LogSync\\data\\nicoresults.csv"
     errorFile = ""
     audioFile = ""
     syncLogs(userFile, nicoFile, errorFile, audioFile)

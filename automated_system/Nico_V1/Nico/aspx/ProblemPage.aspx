@@ -127,7 +127,8 @@
         var start_timestamp;
         var recognition = new webkitSpeechRecognition();
         var recognizing = false;
-        var firstTime = true;
+        var resultevent = false;
+        var stoprecord = false;
         
         // Initialize recognition object values
         recognition.continuous = true;
@@ -137,71 +138,16 @@
         // Variable for triggering speech if speaker is not responding
         var timer;
 
-        // space bar down to start recognizing
-        document.body.onkeydown = function (e) {
-            
-            clearTimeout(timer);
-            if (!(recognizing)) {
-                if (e.keyCode == 32) {
-                    $("#listening").css("display", "block");
-                    recognizing = true;
-                    e.preventDefault();
-                    __log("down - start recognizing");
-                    startRecording();
-                }
-                
-            }
-            return false;
-        }
-
-        function mouseDown() 
-        {
-            clearTimeout(timer);
-            if (!(recognizing)) {
-                $("#listening").css("display", "block");
-                recognizing = true;
-                __log("down - start recognizing");
-                startRecording();
-            }
-            return false;
-            
-        }
-
         function touchHandlerDown(evt) {
+            $("#thinking").css("display", "none");
             writeLog("touch down");
             evt.preventDefault();
             clearTimeout(timer);
-            if (!(recognizing)) {
-                $("#listening").css("display", "block");
-                recognizing = true;
-                __log("down - start recognizing");
-                startRecording();
-            }
-            return false;
-
-        }
-
-        // space bar up to stop recognizing
-        document.body.onkeyup = function (e) {
-            $("#listening").css("display", "none");
-            if(e.keyCode == 32){
-                recognizing = false;
-                e.preventDefault();
-                __log("on up");
-                //stopRecording(problemStepAnalyzer);
-                stopRecording();
-            }
-            return false;
-        }
-
-
-        function mouseUp() {
-            $("#listening").css("display", "none");
-            recognizing = false;
-            __log("on up");
-            //stopRecording(problemStepAnalyzer);
-            stopRecording();
-            
+            $("#listening").css("display", "block");
+            recognizing = true;
+            __log("down - start recognizing");
+            startRecording();
+            //return false;
         }
 
         function touchHandlerUp(evt) {
@@ -212,25 +158,7 @@
             __log("on up");
             //stopRecording(problemStepAnalyzer);
             stopRecording();
-
         }
-
-        function absorbEvent_(event) {
-            var e = event || window.event;
-            e.preventDefault && e.preventDefault();
-            e.stopPropagation && e.stopPropagation();
-            e.cancelBubble = true;
-            e.returnValue = false;
-            return false;
-        }
-
-        function preventLongPressMenu(node) {
-            node.ontouchstart = absorbEvent_;
-            node.ontouchmove = absorbEvent_;
-            node.ontouchend = absorbEvent_;
-            node.ontouchcancel = absorbEvent_;
-        }
-
 
         // check if microphone is connected and if it can be used as a media stream
         function startUserMedia(stream) {
@@ -240,6 +168,64 @@
             __log('Recorder initialised.');
         }
 
+        // event listener for start of recognition
+        recognition.onstart = function () {
+            __log('Start event fired');
+            recognizing = true;
+        };
+
+        // event listener for error in recognition
+        recognition.onerror = function (event) {
+            if (event.error == 'no-speech') {
+                __log('No speech was detectable');
+                window.alert("Your speech wasn't detected. Please try again!");
+                ignore_onend = true;
+            }
+            if (event.error == 'audio-capture') {
+                __log('No microphone available');
+                ignore_onend = true;
+            }
+            if (event.error == 'not-allowed') {
+                if (event.timeStamp - start_timestamp < 100) {
+                    __log('Time stamp issue');
+                } else {
+                    __log('Other Not Allowed Issue');
+                }
+                ignore_onend = true;
+            }
+            //timer = setTimeout(function () { noResponseCallNico("no response"); }, 25000);
+        };
+
+        // function to happen when recognition completes
+        recognition.onresult = function (event) {
+            for (var i = event.resultIndex; i < event.results.length; ++i) {
+                if (event.results[i].isFinal) {
+                    final_transcript += event.results[i][0].transcript;
+                }
+            }
+            resultevent = true;
+            if (stoprecord) {
+                createDownloadLink(sendBlob);
+            }
+        };    
+
+        // event listener for when recognition ends
+        recognition.onend = function () {
+            writeLog("recognition onend called");
+            recognizing = false;
+            if (ignore_onend) {
+                return;
+            }
+
+            if (!final_transcript) {
+                __log('No final transcript!!!');
+                window.alert("Your speech wasn't detected. Please try again!");
+                //timer = setTimeout(function () { noResponseCallNico("no response"); }, 25000);
+                //createDownloadLink(sendBlob);
+                return;
+            }
+        };
+
         // start recording the user's voice upon button push
         function startRecording() {
             recorder && recorder.record();
@@ -248,42 +234,12 @@
             writeLog("Calling start recording");
 
             // reset ASR variables
+            resultevent = false;
+            stoprecord = false;
             final_transcript = '';
             recognition.start();
             ignore_onend = false;
             start_timestamp = event.timeStamp;
-
-            // begin ASR
-            recognition.onstart = function () {
-                recognizing = true;
-                __log('Starting ASR');
-
-            };
-
-            recognition.onerror = function (event) {
-                if (event.error == 'no-speech') {
-                    __log('No speech was detectable');
-                    window.alert("Your speech wasn't detected. Please try again!");
-                    ignore_onend = true;
-                }
-                if (event.error == 'audio-capture') {
-                    __log('No microphone available');
-                    ignore_onend = true;
-                }
-                if (event.error == 'not-allowed') {
-                    if (event.timeStamp - start_timestamp < 100) {
-                        __log('Time stamp issue');
-                    } else {
-                        __log('Other Not Allowed Issue');
-                    }
-                    ignore_onend = true;
-                }
-                //timer = setTimeout(function () { noResponseCallNico("no response"); }, 25000);
-            };
-
-
-            ignore_onend = false;
-            start_timestamp = event.timeStamp
         }
 
 
@@ -292,58 +248,17 @@
         function stopRecording() {
             recorder && recorder.stop();
             __log('Calling STOP record.');
+            stoprecord = true;
+
+            recognition.stop();
+
+            if (resultevent) {
+                createDownloadLink(sendBlob);
+            }
 
             writeLog("called stop recording");
-
-
-            recognition.onend = function () {
-                writeLog("recognition onend called");
-                recognizing = false;
-                if (ignore_onend) {
-                    return;
-                }
-
-                if (!final_transcript) {
-                    __log('No final transcript!!!');
-                    window.alert("Your speech wasn't detected. Please try again!");
-                    //timer = setTimeout(function () { noResponseCallNico("no response"); }, 25000);
-                    return;
-                }
-
-
-            };
-
-
-            // function to happen when recognition completes
-            recognition.onresult = function (event) {
-
-                writeLog("recognition.onresult event fired");
-
-                for (var i = event.resultIndex; i < event.results.length; ++i) {
-                    if (event.results[i].isFinal) {
-                        final_transcript += event.results[i][0].transcript;
-                    }
-                }
-
-                writeLog("final transcript: " + final_transcript);
-
-                if (final_transcript) {
-                    //results.innerHTML = results.innerHTML + "<br />" + final_transcript;
-                    __log(final_transcript);
-                    // create WAV download link using audio captured as a blob
-                    createDownloadLink(sendBlob);
-                    writeLog("final transcript detected: " + final_transcript);
-                }
-                else {
-                    window.alert("Your speech wasn't detected. Please try again!");
-                    timer = setTimeout(function () { noResponseCallNico("no response"); }, 25000);
-                }
-
-            };    
-
+            
             recorder.clear();
-            recognition.dispatchEvent(new Event('onend'));
-            recognition.dispatchEvent(new Event('onresult'));
         }
 
 
@@ -371,18 +286,21 @@
                 data.append('page_loc', 'ProblemPage');
                 data.append('lib', blob);
                 
-
+                /*
                 $(document).ajaxStart(function () {
                     $("#thinking").css("display", "block");
+
                 });
 
                 $(document).ajaxStop(function () {
                     $("#thinking").css("display", "none");
                 });
+                */
 
                 writeLog("calling dialogue engine");
 
                 __log("Calling SAVE");
+                $("#thinking").css("display", "block");
                 $.ajax({
                     url: "../handlers/DialogueEngine.ashx",
                     type: 'POST',
@@ -390,6 +308,7 @@
                     contentType: false,
                     processData: false,
                     success: function () {
+                        $("#thinking").css("display", "none");
                         updateTable();
                     },
                     error: function (err) {

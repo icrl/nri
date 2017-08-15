@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 
+<category><pattern>DID YOU UNDERSTAND</pattern>
+<template>Figuring out the solutions to these problems is challenging for me but you're really helpful.
+</template>
+</category>
+
 <category><pattern>^ REPEAT ^</pattern>
 <template>I really am sorry but I don't remember what I just said. How about you explain what you were explaining again?
 </template>
@@ -35,6 +40,11 @@
 <template>Nice to meet you <star />. Are you ready to get started?</template>
 </category>
 
+<category><pattern>^ EXCELLENT ^</pattern>
+<template>I kind of feel like I'm starting to get the hang of this. What do we do next?</template>
+</category>
+
+
 <category><pattern>* YES *</pattern>
 <that>ARE YOU READY TO GET STARTED</that>
 <template>Me too! Press the start teaching button and we can get started!</template>
@@ -50,6 +60,9 @@
 <template>Me too! Press the start teaching button and we can get started!</template>
 </category>
 
+<category><pattern>^ NEXT PROBLEM ^</pattern>
+<template>Great! Lets see what I need to figure out next!</template>
+</category>
 
 <category><pattern>* YOU BET *</pattern>
 <that>ARE YOU READY TO GET STARTED</that>
@@ -61,7 +74,7 @@
 <template>What? Why are you not ready? I am!</template>
 </category>
 
-<category><pattern>_</pattern>
+<category><pattern>*</pattern>
 <that>ARE YOU READY TO GET STARTED</that>
 <template>Oh okay! Press the start teaching button and we can get started!</template>
 </category>

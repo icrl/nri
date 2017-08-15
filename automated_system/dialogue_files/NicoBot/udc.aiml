@@ -32,4 +32,25 @@
 </random></template>
 </category>
 
+<category>
+    <pattern>*</pattern>
+    <that>Can you explain more</that>
+    <template>Thank you for explaining!</template>
+</category>
+
+<category>
+    <pattern>You are welcome</pattern>
+    <template>So what do we do next?</template>
+</category>
+
+<category>
+    <pattern>^ Thank you ^</pattern>
+    <template>You are welcome!</template>
+</category>
+
+<category>
+    <pattern>THANK YOU</pattern>
+    <template>You are welcome!</template>
+</category>
+
 </aiml>
