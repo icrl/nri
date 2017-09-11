@@ -262,9 +262,17 @@
 
 
 <category>
-<pattern>^ SIX ^</pattern>
-<template>Do we divide six by two or by three?</template>
+<pattern>_</pattern>
+<that>We divide twelve by six</that>
+<template>Twelve divided by six is two. Then what?</template>
 </category>
+
+
+<category>
+<pattern>what is twelve divided by six</pattern>
+<template>Twelve divided by six is two. Then what?</template>
+</category>
+
 
 <category>
 <pattern>^ TWO ^ </pattern>
@@ -506,6 +514,32 @@
 </category>
 
 <category>
+<pattern>^ SIX TIMES TWO ^ WHAT ^ </pattern>
+<template>Six times two is three </template>
+</category>
+
+<category>
+<pattern>^ How many times ^ six ^ twelve ^ </pattern>
+<template>Six goes into twelve two times. Then what? </template>
+</category>
+
+<category>
+<pattern>^ SIX MULTIPLIED ^ THREE ^ </pattern>
+<template>Six times two is three. Then what? </template>
+</category>
+
+
+<category>
+<pattern>^ SIX TIMES THREE ^ WHAT ^ </pattern>
+<template>Six times two is three. Then what? </template>
+</category>
+
+<category>
+<pattern>^ SIX DIVIDED BY WHAT ^ IS THREE ^</pattern>
+<template>Six divided by two is three </template>
+</category>
+
+<category>
 <pattern>^ YES ^</pattern>
 <that>Do we divide twelve</that>
 <template>Okay. I'm going to divide twelve by six to get two. Then what? </template>
@@ -683,6 +717,31 @@
 </category>
 
 <category>
+<pattern>^ DIVIDE TWELVE ^ </pattern>
+<that>Can you tell me what we are dividing again</that>
+<template>Oh right, we should divide twelve by three. That is four. Right?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ </pattern>
+<that>Can you tell me what we are dividing again</that>
+<template>So I think we should divide twelve by three. That is four. Right?</template>
+</category>
+
+<category>
+<pattern>^ THREE ^ </pattern>
+<that>Can you tell me what we are dividing again</that>
+<template>So I think we should divide twelve by three. That is four. Right?</template>
+</category>
+
+<category>
+<pattern>^ NOT DIVIDE ^ </pattern>
+<that>Can you tell me what we are dividing again</that>
+<template>We're not dividing?</template>
+</category>
+
+
+<category>
 <pattern>^ MULTIPLY ^ </pattern>
 <template>Ok so we multiply. I'm sorry but what are we multiplying? Two times two?</template>
 </category>
@@ -722,7 +781,7 @@
 
 <category>
 <pattern>^ FIGURE ^ VOLUME ^</pattern>
-<template>Okay. We are going to figure out the volume of paint I need for my legs. First I look at the surface area of my feet and how much paint I need for my feet?</template>
+<template>So if we look at the volume of paint for my feet. That's two ounces which covers six square inches. Six divided by three is two. So then do I divide twelve by three?</template>
 </category>
 
 <category>
@@ -744,8 +803,14 @@
 </category>
 
 <category>
+<pattern>_</pattern>
+<that>So then what do I do</that>
+<template>Okay cool. So then do I divide twelve by three? </template>
+</category>
+
+<category>
 <pattern>^ YES ^</pattern>
-<that> So then do I divide twelve by three</that>
+<that>So then do I divide twelve by three</that>
 <template>Is the answer four?</template>
 </category>
 
@@ -754,6 +819,56 @@
 <that>So then do I divide twelve by three</that>
 <template>Is the answer four?</template>
 </category>
+
+
+<category>
+<pattern>^ RATIO ^ </pattern>
+<template>Okay so we look at the ratio of the six to the two. How do we use this ratio?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ TWELVE ^ SIX ^</pattern>
+<that>How do we use this ratio</that>
+<template>So we divide twelve by six? Twelve divided by six is two. Then do we use the ratio?</template>
+</category>
+
+<category>
+<pattern>^ YES ^ </pattern>
+<that>Then do we use the ratio</that>
+<template>So we can multiply two times two. Two times two is four. Is the answer four?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Then do we use the ratio</that>
+<template>So we can multiply two times two. Two times two is four. Is the answer four?</template>
+</category>
+
+<category>
+<pattern>^ SIX ^ TWELVE ^ </pattern>
+<that>Or should we look at the ratio of the six to twelve</that>
+<template>Oh okay. Do I divide twelve by six?</template>
+</category>
+
+<category>
+<pattern>^ SIX ^ TWO ^ </pattern>
+<that>Or should we look at the ratio of the six to twelve</that>
+<template>Oh okay. Six divided by two is three. So then do I divide twelve by three?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>Do I divide twelve by six?</that>
+<template>Twelve divided by six is two. Then do I multiply two times two?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Then do I multiply two times two</that>
+<template>Two times two is four. Is the answer four?</template>
+</category>
+
 
 </topic>
 

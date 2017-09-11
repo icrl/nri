@@ -27,11 +27,7 @@
 </category>
 
 <category><pattern>HELLO</pattern>
-<template><random>
-<li>Hi! My name is Nico. What is your name?</li>
-<li>Hello! My name is Nico. Have we met before?</li>
-<li>Hello! My name is Nico. How are you doing today?</li>
-</random></template>
+<template>It's nice to meet you. Are you ready to get started?</template>
 </category>
 
 

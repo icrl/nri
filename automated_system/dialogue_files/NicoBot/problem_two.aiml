@@ -434,6 +434,18 @@
 <template>Oh okay. We divide! We divide six by three?</template>
 </category>
 
+<category>
+<pattern>^ DIVIDE ^ SIX ^ TWO ^</pattern>
+<template>Oh okay. We divide! We divide six by TWO?</template>
+</category>
+
+
+<category>
+<pattern>^ DIVIDE ^ SIX ^ TWO ^</pattern>
+<that>We divide six by two</that>
+<template>Six divided by two is three. Then what do we do?</template>
+</category>
+
 
 <category>
 <pattern>^ ANSWER ^ ONE ^</pattern>
@@ -519,6 +531,11 @@
 <category>
 <pattern>WHAT IS SIX DIVIDED BY THREE</pattern>
 <template>six divided by three is two. Right?</template>
+</category>
+
+<category>
+<pattern>WHAT IS SIX DIVIDED BY TWO</pattern>
+<template>six divided by TWO is three. Right?</template>
 </category>
 
 <category>
