@@ -3,12 +3,12 @@
 
 <category>
 <pattern>PROBLEM START 3</pattern>
-<template>Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the pool! Can you help me figure out where and when I can stop to rest on <set name="topic">MY WAY THERE</set>?</template>
+<template>Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on <set name="topic">MY WAY THERE</set>?</template>
 </category>
 
 <category>
 <pattern>PROBLEM START THREE</pattern>
-<template>Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the pool! Can you help me figure out where and when I can stop to rest on <set name="topic">MY WAY THERE</set>?</template>
+<template>Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on <set name="topic">MY WAY THERE</set>?</template>
 </category>
 
 <category>
@@ -149,71 +149,71 @@
 <topic name = "MY WAY THERE">
 
 <category>
-<pattern>^ TEN ^</pattern>
+<pattern>^ SIXTY ^</pattern>
 <template><random>
-<li>Ok so I can ride my bike ten miles in one hour. But I'm not sure how I use that knowledge with the two point five. What should I do? </li>
-<li>Ok I know I can ride my bike ten miles in one hour. But how do I figure out how far I can go in two point five hours?</li>
+<li>Ok so I can drive sixty miles in one hour. But the two point five hours is tricky. What do we do with the sixty?</li>
+<li>Ok I know I can drive sixty miles in one hour. Do we multiply sixty by two point five hours? Does that make sense?</li>
 </random></template>
 </category>
 
 <category>
-<pattern>^ MULTIPLY ^ TEN ^ </pattern>
-<that>What should I do</that>
-<template>Oh okay. We multiply! Do we multiply ten by two point five? </template>
+<pattern>^ MULTIPLY ^ </pattern>
+<that>What do we do with sixty</that>
+<template>Oh okay. We multiply! Do we multiply sixty by two point five? </template>
 </category>
 
 <category>
 <pattern>^ ANSWER ^</pattern>
-<that>Do we multiply ten by two point five</that>
-<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five?</template>
+<that>Do we multiply sixty by two point five</that>
+<template>Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>Do we multiply ten by two point five</that>
-<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five?</template>
+<that>Do we multiply sixty by two point five</that>
+<template>Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?</template>
 </category>
 
 <category>
 <pattern>_</pattern>
-<that>Do we multiply ten by two point five</that>
-<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five?</template>
+<that>Do we multiply sixty by two point five</that>
+<template>Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?</template>
 </category>
 
 <category>
 <pattern>^ ANSWER ^</pattern>
-<that>But how do I figure out how far I can go in two point five hours</that>
-<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five?</template>
+<that>DOES THAT MAKE SENSE</that>
+<template>Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?</template>
 </category>
 
 <category>
-<pattern>^ TEN ^</pattern>
-<that>But how do I figure out how far I can go in two point five hours</that>
-<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five?</template>
+<pattern>^ YES ^</pattern>
+<that>DOES THAT MAKE SENSE</that>
+<template>Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?</template>
 </category>
 
 <category>
 <pattern>_</pattern>
-<that>But how do I figure out how far I can go in two point five hours</that>
-<template>So do we multiply ten by two point five? Then the answer is twenty five?</template>
+<that>DOES THAT MAKE SENSE</that>
+<template>Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?</template>
 </category>
 
 
 <category>
 <pattern>^ NO ^</pattern>
-<that>Do we multiply ten by two point five</that>
+<that>Do we multiply sixty by two point five</that>
 <template>Oh okay. Can you explain more? </template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>What should I do?</that>
-<template>Oh okay. I think we should multiply? Do we multiply ten by two point five? </template>
+<that>What do we do with sixty</that>
+<template>Oh okay. I think we should multiply? Do we multiply sixty by two point five? </template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>Do we multiply ten by two point five</that>
+<that>Do we multiply sixty by two point five</that>
 <template>Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?</template>
 </category>
 

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+<category><pattern>*</pattern>
+<template><srai>UDC</srai></template>
+</category>
+
+<category><pattern>UDC</pattern>
+<template><random>
+<li><srai>RANDOM PICKUP LINE</srai></li>
+</random></template>
+</category>
+
+<category><pattern>RANDOM PICKUP LINE</pattern>
+<template><random>
+<li>Okay that sounds good.</li>
+<li>This is a hard problem. What do we do next?</li>
+<li>Okay.</li>
+<li>Cool.</li>
+<li>I'm actually not sure what you said. Try saying it again but differently?</li>
+<li>I may be a robot but I do try hard. Can you explain more?</li>
+<li>Okay that makes sense.</li>
+<li>I'm still learning ratios but you seem like a really cool tutor.</li>
+<li>Figuring out the solutions to these problems is challenging for me but you're really helpful.</li>
+<li>That's interesting. I'm not sure I understand though.</li>
+<li>So I'm actually not sure what you mean.</li>
+<li>Ah ha. Okay.</li>
+<li>So I'm a bit like an older person with hard hearing. Can you say that again?</li>
+<li>I'm sorry. I am trying. What do we do?</li>
+<li>I think I get it.</li>
+</random></template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <that>Can you explain more</that>
+    <template>Thank you for explaining!</template>
+</category>
+
+<category>
+    <pattern>You are welcome</pattern>
+    <template>So what do we do next?</template>
+</category>
+
+<category>
+    <pattern>^ Thank you ^</pattern>
+    <template>You are welcome!</template>
+</category>
+
+<category>
+    <pattern>THANK YOU</pattern>
+    <template>You are welcome!</template>
+</category>
+
+</aiml>
