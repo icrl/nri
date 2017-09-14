@@ -81,7 +81,11 @@
                 </div>
             </div>
         </div>
-
+        
+        <div>
+            <h2>Log</h2>
+            <pre id="log"></pre>
+        </div>
 
       
 
@@ -204,9 +208,12 @@
                 }
             }
             resultevent = true;
+            __log("in on result");
+            
             if (stoprecord) {
                 createDownloadLink(sendBlob);
             }
+            
         };    
 
         // event listener for when recognition ends
@@ -252,10 +259,10 @@
 
             recognition.stop();
 
-            if (resultevent) {
+            /*if (resultevent) {
                 createDownloadLink(sendBlob);
             }
-
+            */
             writeLog("called stop recording");
             
             recorder.clear();
@@ -752,7 +759,7 @@
 
         // function for writing data to window
         function __log(e, data) {
-            //log.innerHTML += "\n" + e + " " + (data || '');
+            log.innerHTML += "\n" + e + " " + (data || '');
         }
 
         // response if need to upgrade window
