@@ -705,13 +705,13 @@
 <category>
 <pattern>^ YES ^</pattern>
 <that>So is the answer five hundred and fifty candies</that>
-<template>Awesome! So for five bags we will have five hundred and fifty candies. So many!! I will put the answer is two hundred and twenty.</template>
+<template>Awesome! So for five bags we will have five hundred and fifty candies. So many!! I will put the answer is five hundred and fifty.</template>
 </category>
 
 <category>
 <pattern>_</pattern>
 <that>So is the answer five hundred and fifty candies</that>
-<template>Awesome! So for five bags we will have five hundred and fifty candies. So many!! I will put the answer is two hundred and twenty.</template>
+<template>Awesome! So for five bags we will have five hundred and fifty candies. So many!! I will put the answer is five hundred and fifty.</template>
 </category>
 
 <category>
@@ -1179,7 +1179,7 @@
 </category>
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <template>I don't understand. The answer was two hundred and twenty right? Maybe we should go to the next step or problem or that we haven't figured out yet?</template>
 </category>
 
@@ -1193,7 +1193,7 @@
 </category>
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <template>I think we should go to the next step or problem or that we haven't answered.</template>
 </category>
 
@@ -1207,7 +1207,7 @@
 </category>
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <template>You're a really great tutor by the way. Thank you for helping me figure out that I need seven bags of M and M's for my friends!</template>
 </category>
 

@@ -8,15 +8,6 @@
 
 
 <category>
-<pattern>next step 2 1</pattern>
-<template><random>
-<li>I'm really not sure what to do on <set name="topic">STEP ONE OF PROBLEM TWO</set>.</li>
-<li>I'm not sure what to do here on <set name="topic">STEP ONE OF PROBLEM TWO</set>.</li>
-<li>Can you give me a hint for <set name="topic">STEP ONE OF PROBLEM TWO</set>?</li>
-</random></template>
-</category>
-
-<category>
 <pattern>next step 2 2</pattern>
 <template><random>
 <li>Can you give me a hint on <set name="topic">STEP TWO OF PROBLEM TWO</set>?</li>
@@ -26,23 +17,6 @@
 </random></template>
 </category>
 
-<category>
-<pattern>next step 2 3</pattern>
-<template><random>
-<li>So for <set name="topic">STEP THREE OF PROBLEM TWO</set>, I may be getting this but can you give me another hint?</li>
-<li>Wow we're on <set name="topic">STEP THREE OF PROBLEM TWO</set>. How do we do this one?</li>
-<li>Yay! <set name="topic">STEP THREE OF PROBLEM TWO</set>. How do I solve this one?</li>
-</random></template>
-</category>
-
-<category>
-<pattern>next step 2 4</pattern>
-<template><random>
-<li>Well this <set name="topic">LAST STEP OF THIS PROBLEM</set> involves big numbers.</li>
-<li>We're on the <set name="topic">LAST STEP OF THIS PROBLEM</set>! I never thought we'd get here. </li>
-<li><set name="topic">LAST STEP OF THIS PROBLEM</set>! How do we do this one? </li>
-</random></template>
-</category>
 
 <category>
 <pattern>prior step 2 1</pattern>
@@ -53,71 +27,17 @@
 </category>
 
 <category>
-<pattern>prior step 2 2</pattern>
-<template><random>
-<li>Alright <set name="topic">BACK TO STEP TWO PROBLEM TWO</set>.</li>
-<li>Oh we're <set name="topic">BACK TO STEP TWO PROBLEM TWO</set>.</li>
-<li>Okay! <set name="topic">BACK TO STEP TWO PROBLEM TWO</set>.</li>
-</random></template>
-</category>
-
-<category>
-<pattern>prior step 2 3</pattern>
-<template><random>
-<li>Alright <set name="topic">BACK TO STEP THREE PROBLEM TWO</set>.</li>
-<li>Oh we're <set name="topic">BACK TO STEP THREE PROBLEM TWO</set>.</li>
-<li>Okay! <set name="topic">BACK TO STEP THREE PROBLEM TWO</set>.</li>
-</random></template>
-</category>
-
-<category>
-<pattern>prior step 2 4</pattern>
-<template><random>
-<li>Alright <set name="topic">BACK TO STEP FOUR PROBLEM TWO</set>.</li>
-<li>Oh we're <set name="topic">BACK TO STEP FOUR PROBLEM TWO</set>.</li>
-<li>Okay! <set name="topic">BACK TO STEP FOUR PROBLEM TWO</set>.</li>
-</random></template>
-</category>
-
-<category>
 <pattern>prior step 2 1 a</pattern>
 <template>Didn't we already <set name="topic">do step one for problem two</set>?</template>
 </category>
 
-<category>
-<pattern>prior step 2 2 a</pattern>
-<template>Didn't we already <set name="topic">do step two for problem two</set>?</template>
-</category>
-
-<category>
-<pattern>prior step 2 3 a</pattern>
-<template>Didn't we already <set name="topic">do step three for problem two</set>?</template>
-</category>
-
-<category>
-<pattern>prior step 2 4 a</pattern>
-<template>Didn't we already <set name="topic">do step four for problem two</set>?</template>
-</category>
-
-<category>
-<pattern>next step 2 1 a</pattern>
-<template>Didn't we already <set name="topic">do step one for problem two</set>?</template>
-</category>
 
 <category>
 <pattern>next step 2 2 a</pattern>
 <template>Didn't we already <set name="topic">do step two for problem two</set>?</template>
 </category>
 
-<category>
-<pattern>next step 2 3 a</pattern>
-<template>Didn't we already <set name="topic">do step three for problem two</set>?</template>
-</category>
 
-<category>
-<pattern>next step 2 4 a</pattern>
-<template>Didn't we already <set name="topic">do step four for problem two</set>?</template>
-</category>
 
 <category>
 <pattern>2 1</pattern>
@@ -129,15 +49,6 @@
 <template><set name="topic">STEP TWO OF PROBLEM TWO</set></template>
 </category>
 
-<category>
-<pattern>2 3</pattern>
-<template><set name="topic">STEP THREE OF PROBLEM TWO</set></template>
-</category>
-
-<category>
-<pattern>2 4</pattern>
-<template><set name="topic">LAST STEP OF THIS PROBLEM</set></template>
-</category>
 
 
 <topic name = "STEP ONE OF PROBLEM TWO">
