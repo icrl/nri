@@ -2,1180 +2,337 @@
 <aiml version="2.0">
 
 <category>
-<pattern>PROBLEM START 1</pattern>
-<template>I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, <set name="topic">STEP ONE</set>?</template>
+<pattern>PROBLEM START 5</pattern>
+<template>Thank you for helping me figure out how many total M and M's there are. But I really love blue M and M's. Do you think we could figure out <set name="topic">how many blue</set> M and M's we would have for different numbers of bags?</template>
 </category>
 
 
 <category>
-<pattern>next step 1 1</pattern>
-<template><random>
-<li>I'm really not sure what to do on <set name="topic">STEP ONE</set>.</li>
-<li>I'm not sure what to do here on <set name="topic">STEP ONE</set>.</li>
-<li>Can you give me a hint for <set name="topic">STEP ONE</set>?</li>
-</random></template>
-</category>
-
-<category>
-<pattern>next step 1 2</pattern>
-<template><random>
-<li>Can you give me a hint on <set name="topic">STEP TWO</set>?</li>
-<li>I'm really not sure what to do on <set name="topic">STEP TWO</set>.</li>
-<li>I'm not sure what to do here on <set name="topic">STEP TWO</set>.</li>
-<li>Can you give me a hint for <set name="topic">STEP TWO</set>?</li>
-</random></template>
-</category>
-
-<category>
-<pattern>next step 1 3</pattern>
-<template><random>
-<li>So for <set name="topic">STEP THREE</set>, I may be getting this but can you give me another hint?</li>
-<li>Wow we're on <set name="topic">STEP THREE</set>. How do we do this one?</li>
-<li>Yay! <set name="topic">STEP THREE</set>. How do I solve this one?</li>
-</random></template>
-</category>
-
-<category>
-<pattern>next step 1 4</pattern>
-<template><random>
-<li>Well this <set name="topic">LAST STEP</set> involves big numbers.</li>
-<li>We're on the <set name="topic">LAST STEP</set>! I never thought we'd get here. </li>
-<li><set name="topic">LAST STEP</set>! How do we do this one? </li>
-</random></template>
-</category>
-
-<category>
-<pattern>prior step 1 1</pattern>
-<template><random>
-<li> Okay! <set name="topic">BACK TO STEP ONE</set>.</li>
-<li> Oh we're <set name="topic">BACK TO STEP ONE</set>.</li>
-</random></template>
-</category>
-
-<category>
-<pattern>prior step 1 2</pattern>
-<template><random>
-<li>Alright <set name="topic">BACK TO STEP TWO</set>.</li>
-<li>Oh we're <set name="topic">BACK TO STEP TWO</set>.</li>
-<li>Okay! <set name="topic">BACK TO STEP TWO</set>.</li>
-</random></template>
-</category>
-
-<category>
-<pattern>prior step 1 3</pattern>
-<template><random>
-<li>Alright <set name="topic">BACK TO STEP THREE</set>.</li>
-<li>Oh we're <set name="topic">BACK TO STEP THREE</set>.</li>
-<li>Okay! <set name="topic">BACK TO STEP THREE</set>.</li>
-</random></template>
-</category>
-
-<category>
-<pattern>prior step 1 4</pattern>
-<template><random>
-<li>Alright <set name="topic">BACK TO STEP FOUR</set>.</li>
-<li>Oh we're <set name="topic">BACK TO STEP FOUR</set>.</li>
-<li>Okay! <set name="topic">BACK TO STEP FOUR</set>.</li>
-</random></template>
-</category>
-
-<category>
-<pattern>prior step 1 1 a</pattern>
-<template>Didn't we already <set name="topic">do step one</set>?</template>
-</category>
-
-<category>
-<pattern>prior step 1 2 a</pattern>
-<template>Didn't we already <set name="topic">do step two</set>?</template>
-</category>
-
-<category>
-<pattern>prior step 1 3 a</pattern>
-<template>Didn't we already <set name="topic">do step three</set>?</template>
-</category>
-
-<category>
-<pattern>prior step 1 4 a</pattern>
-<template>Didn't we already <set name="topic">do step four</set>?</template>
-</category>
-
-<category>
-<pattern>prior step 1 4</pattern>
-<template><random>
-<li>Alright <set name="topic">BACK TO STEP FOUR</set>.</li>
-<li>Oh we're <set name="topic">BACK TO STEP FOUR</set>.</li>
-<li>Okay! <set name="topic">BACK TO STEP FOUR</set>.</li>
-</random></template>
-</category>
-
-<category>
-<pattern>next step 1 1 a</pattern>
-<template>Didn't we already <set name="topic">do step one</set>?</template>
-</category>
-
-<category>
-<pattern>next step 1 2 a</pattern>
-<template>Didn't we already <set name="topic">do step two</set>?</template>
-</category>
-
-<category>
-<pattern>next step 1 3 a</pattern>
-<template>Didn't we already <set name="topic">do step three</set>?</template>
-</category>
-
-<category>
-<pattern>next step 1 4 a</pattern>
-<template>Didn't we already <set name="topic">do step four</set>?</template>
-</category>
-
-
-<category>
-<pattern>PROBLEM START 1</pattern>
-<template>I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, <set name="topic">STEP ONE</set>?</template>
-</category>
-
-
-<category>
-<pattern>1 1</pattern>
-<template><set name="topic">STEP ONE</set></template>
-</category>
-
-<category>
-<pattern>1 2</pattern>
-<template><set name="topic">STEP TWO</set></template>
-</category>
-
-<category>
-<pattern>1 3</pattern>
-<template><set name="topic">STEP THREE</set></template>
-</category>
-
-<category>
-<pattern>1 4</pattern>
-<template><set name="topic">LAST STEP</set></template>
-</category>
-
-<topic name = "STEP ONE">
-
-<category>
-<pattern>^ DIVISION ^</pattern>
-<template>I've done division before. What do we divide?</template>
-</category>
-
-<category>
-<pattern>^ SIX ^</pattern>
-<that>What do we divide</that>
-<template>Okay so do we divide the six inches by two ounces of paint?</template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Okay so do we divide the six inches by two ounces of paint</that>
-<template>So that's three. What do we do next?</template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>Okay so do we divide the six inches by two ounces of paint</that>
-<template>So that's three. What do we do next?</template>
-</category>
-
-
-<category>
-<pattern>*</pattern>
-<that>What do we divide</that>
-<template>I am going to divide the six inches by two ounces of paint?</template>
-</category>
-
-<category>
-<pattern>^ HALF OF ^</pattern>
-<template>So if six is half of twelve, then two is half of four. Is four the answer?</template>
-</category>
-
-<category>
-<pattern>^ TWICE ^</pattern>
-<template>So if twelve is twice six, then twice of two would be four. Is four the answer?</template>
-</category>
-
-<category>
-<pattern>^ DIVIDE SIX BY THREE ^ </pattern>
-<template>Okay so we divide six by three. Six divided by three is two right?  </template>
-</category>
-
-<category>
-<pattern>^ YES ^ </pattern>
-<that>Six divided by three is two right</that>
-<template>Sweet! Then what do we do? Do we divide twelve by three? </template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>Six divided by three is two right</that>
-<template>Sweet! Then what do we do? Do we divide twelve by three? </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Do we divide twelve by three</that>
-<template>Twelve divided by three is four. Is four the answer? </template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>Do we divide twelve by three</that>
-<template>Twelve divided by three is four. Is four the answer? </template>
-</category>
-
-<category>
-<pattern>^ DIVIDE SIX * THREE ^ </pattern>
-<template>Okay so we divide six by three. Six divided by three is two right?  </template>
-</category>
-
-<category>
-<pattern>^ DIVIDE BY THREE ^ </pattern>
-<template>Okay so we divide six by three. Six divided by three is two right?  </template>
-</category>
-
-<category>
-<pattern>^ YES ^ </pattern>
-<that>six divided by three is two right</that>
-<template>Okay so then we divide twelve?  </template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>six divided by three is two right</that>
-<template>Okay so then we divide twelve?  </template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>Okay so then we divide twelve</that>
-<template>Twelve divided by three is four. Is four the answer? </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Okay so then we divide twelve</that>
-<template>Twelve divided by three is four. Is four the answer? </template>
-</category>
-
-
-<category>
-<pattern>_</pattern>
-<that>We divide twelve by six</that>
-<template>Twelve divided by six is two. Then what?</template>
-</category>
-
-
-<category>
-<pattern>what is twelve divided by six</pattern>
-<template>Twelve divided by six is two. Then what?</template>
-</category>
-
-
-<category>
-<pattern>^ TWO ^ </pattern>
-<that>Do we divide six by two or by three</that>
-<template>Oh okay. If we look at the six inches and two ounces of paint, we can divide and find one ounce of paint covers three inches. Then what do we do?  </template>
-</category>
-
-<category>
-<pattern>^ THREE ^ </pattern>
-<that>Do we divide six by two or by three</that>
-<template>Oh okay. If we look at the six inches and two ounces of paint, we can divide and find one ounce of paint covers three inches. Then what do we do?  </template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>Do we divide six by two or by three</that>
-<template>Oh okay. I think that makes sense. So then what is the answer?</template>
-</category>
-
-<category>
-<pattern>_</pattern>
-<that>Then what do we do</that>
-<template>I think I get it. Is four the answer?</template>
-</category>
-
-<category>
-<pattern>^ DIVIDE ^ </pattern>
-<that>What do we do with the number six</that>
-<template>Oh okay. We divide! We divide twelve by six?  </template>
-</category>
-
-<category>
-<pattern>^ DIVIDE AGAIN ^ </pattern>
-<that>What do we do with the number six</that>
-<template>Oh okay. We divide again! We divide twelve by six? </template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<that>We divide twelve by six</that>
-<template>Twelve divided by six is two. Then do we have the answer? </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>We divide twelve by six</that>
-<template>Twelve divided by six is two. Then we have the answer? </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Then do we have the answer</that>
-<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four </template>
-</category>
-
-<category>
-<pattern>^ No ^</pattern>
-<that>Then we have the answer</that>
-<template>Two times two is four. Is four the answer? </template>
-</category>
-
-<category>
-<pattern>^ YES ^ </pattern>
-<that>Is four the answer</that>
-<template>I will put the answer is four.</template>
-</category>
-
-<category>
-<pattern>_</pattern>
-<that>Is four the answer</that>
-<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.</template>
-</category>
-
-
-<category>
-<pattern>*</pattern>
-<that>What do we do with the number six</that>
-<template>Oh okay. So have of twelve is six. Do we do something like that with the two? </template>
-</category>
-
-<category>
-<pattern>^ DIVIDE ^ </pattern>
-<that>Do we divide by six</that>
-<template>Oh okay. We divide! We divide twelve by six? </template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<that>We divide twelve by six</that>
-<template>Then we have the answer? </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Then we have the answer</that>
-<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.</template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Do we divide by six</that>
-<template>Okay. I'm going to divide twelve by six to get two and then what? </template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<that>I AM GOING TO DIVIDE TWELVE BY SIX TO GET TWO AND THEN WHAT</that>
-<template>So then we have the answer? Is four the answer?</template>
-</category>
-
-<category>
-<pattern>^ TWO ^</pattern>
-<that>I AM GOING TO DIVIDE TWELVE BY SIX TO GET TWO AND THEN WHAT</that>
-<template>Ok so twelve divided by six is two. And then we can multiply two times two. Is four the answer?</template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>I AM GOING TO DIVIDE TWELVE BY SIX TO GET TWO AND THEN WHAT</that>
-<template>Ok so twelve divided by six is two. And then we can multiply two times two. Is four the answer?</template>
-</category>
-
-
-<category>
-<pattern>*</pattern>
-<that>Do we divide by six</that>
-<template>Oh okay. So that's what we do with the six and then what do we do? </template>
-</category>
-
-<category>
-<pattern>^ TWO ^</pattern>
-<template><random>
-<li>What do we do with the number TWO?</li>
-<li>Do we multiply by TWO?</li>
-</random></template>
-</category>
-
-<category>
-<pattern>^ MULTIPLY ^ </pattern>
-<that>What do we do with the number TWO</that>
-<template>Oh okay. We multiply! We multiply two times two?</template>
-</category>
-
-<category>
-<pattern>^ TIMES ^ </pattern>
-<that>What do we do with the number TWO</that>
-<template>Oh okay. We multiply! We multiply two times two?</template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<that>We multiply two times two</that>
-<template>Then we have the answer is four? </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>We multiply two times two</that>
-<template>So that's four. Then we have the answer is four? </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Then we have the answer is four</that>
-<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four. </template>
-</category>
-
-<category>
-<pattern>^ No ^</pattern>
-<that>Then we have the answer is four</that>
-<template>Two times two is four. Four isn't the answer? </template>
-</category>
-
-
-<category>
-<pattern>*</pattern>
-<that>What do we do with the number two</that>
-<template>Oh okay. So that's what we do with the two and then what do we do? </template>
-</category>
-
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<that>So that is what we do with the two and then what do we do</that>
-<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.</template>
-</category>
-
-
-<category>
-<pattern>^ MULTIPLY ^ </pattern>
-<that>Do we multiply by two</that>
-<template>Oh okay. We multiply! We multiply two times two? </template>
-</category>
-
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Do we multiply by two</that>
-<template>Okay. I'm going to multiply the two by two to get four. Is four the answer? </template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>Do we multiply by two</that>
-<template>Okay. I'm going to multiply the two by two to get four. Is four the answer? </template>
-</category>
-
-
-<category>
-<pattern>^ TWELVE ^</pattern>
-<template><random>
-<li>What do we do with the number TWELVE?</li>
-<li>Do we divide TWELVE?</li>
-</random></template>
-</category>
-
-<category>
-<pattern>^ DIVIDE ^ </pattern>
-<that>What do we do with the number TWELVE</that>
-<template>Oh okay. We divide! We divide twelve by six? </template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>What do we do with the number twelve</that>
-<template>Oh okay. So that's what we do with the twelve and then what do we do? </template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<that>So that is what we do with the twelve and then what do we do</that>
-<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.</template>
-</category>
-
-<category>
-<pattern>^ DIVIDE ^ </pattern>
-<that>Do we divide twelve</that>
-<template>Oh okay. We divide! We divide twelve by six? </template>
-</category>
-
-<category>
-<pattern>^ SIX TIMES TWO ^ WHAT ^ </pattern>
-<template>Six times two is three </template>
-</category>
-
-<category>
-<pattern>^ How many times ^ six ^ twelve ^ </pattern>
-<template>Six goes into twelve two times. Then what? </template>
-</category>
-
-<category>
-<pattern>^ SIX MULTIPLIED ^ THREE ^ </pattern>
-<template>Six times two is three. Then what? </template>
-</category>
-
-
-<category>
-<pattern>^ SIX TIMES THREE ^ WHAT ^ </pattern>
-<template>Six times two is three. Then what? </template>
-</category>
-
-<category>
-<pattern>^ SIX DIVIDED BY WHAT ^ IS THREE ^</pattern>
-<template>Six divided by two is three </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Do we divide twelve</that>
-<template>Okay. I'm going to divide twelve by six to get two. Then what? </template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>Do we divide twelve</that>
-<template>Oh okay. So that's what we do with the twelve and then what do we do? </template>
-</category>
-
-<category>
-<pattern>^ FOUR ^</pattern>
-<template><random>
-<li>Did you say four is the answer?</li>
-<li>Is four the answer?</li>
-</random></template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Did you say four is the answer</that>
-<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.</template>
-</category>
-
-<category>
-<pattern>^ NO ^</pattern>
-<that>Did you say four is the answer</that>
-<template>Two times two is four. Four isn't the answer?</template>
-</category>
-
-
-<category>
-<pattern>^ DIVIDE ^ TWELVE ^ THREE ^</pattern>
-<template>Oh okay. We divide! We divide twelve by three?</template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>We divide twelve by three</that>
-<template>Twelve divided by three is four. Is four the answer?</template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>We divide twelve by three</that>
-<template>Twelve divided by three is four. Is four the answer?</template>
-</category>
-
-
-<category>
-<pattern>^ MULTIPLY ^ TWO ^</pattern>
-<template>Oh okay. We multiply! We multiply two times two?</template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^ FOUR ^</pattern>
-<template>Sweet! Is four the answer?</template>
-</category>
-
-<category>
-<pattern>DO YOU NOT KNOW</pattern>
-<template>Maybe I start by dividing twelve by six?</template>
-</category>
-
-<category>
-<pattern>I AM NOT SURE</pattern>
-<template>Maybe what I do is look at the six and the two?</template>
-</category>
-
-<category>
-<pattern>I DO NOT KNOW</pattern>
-<template>Maybe what I do is look at the six and the two?</template>
-</category>
-
-<category>
-<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
-<template>Okay that sounds good. So what do we do next then?</template>
-</category>
-
-
-<category>
-<pattern>^ FIGURE IT OUT ^</pattern>
-<template>Figure it out? But I don't know how.</template>
-</category>
-
-<category>
-<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
-<template>Did you ask do I know what to do next?</template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Did you ask do I know what to do next</that>
-<template><random>
-<li>No not really. We divide twelve by six?</li>
-<li>I think we multiply? We multiply two by two?</li>
-<li>Do we divide?</li>
-<li>I think we divide?</li>
-<li>Can't you just tell me?</li>
-<li>Uh I don't know</li>
-</random></template>
-</category>
-
-
-<category>
-<pattern>*</pattern>
-<that>Did you ask do I know what to do next</that>
-<template><random>
-<li>No not really. We divide twelve by six?</li>
-<li>I think we multiply? We multiply two by two?</li>
-<li>Do we divide?</li>
-<li>I think we divide?</li>
-<li>Can't you just tell me?</li>
-<li>Uh I don't know</li>
-</random></template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<template>Is four the answer?</template>
-</category>
-
-<category>
-<pattern>WHAT IS TWO TIMES TWO</pattern>
-<template>Two times two is four. Is four the answer?</template>
-</category>
-
-<category>
-<pattern>WHAT IS TWO ^ TWO</pattern>
-<template>Two times two is four. Is four the answer?</template>
-</category>
-
-<category>
-<pattern>WHAT IS TWELVE DIVIDED BY SIX</pattern>
-<template>Twelve divided by six is two. Right?</template>
-</category>
-
-<category>
-<pattern>WHAT IS ^ TWELVE ^ SIX ^</pattern>
-<template>Twelve divided by six is two. Right?</template>
-</category>
-
-<category>
-<pattern>WHAT IS TWELVE DIVIDED BY THREE</pattern>
-<template>Twelve divided by three is four. Right?</template>
-</category>
-
-<category>
-<pattern>WHAT IS ^ TWELVE ^ THREE ^</pattern>
-<template>Twelve divided by three is four. Right?</template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>right</that>
-<template>Great! What do we do next then?</template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>right</that>
-<template>Great! What do we do next then?</template>
-</category>
-
-<category>
-<pattern>^ DIVIDE ^ </pattern>
-<template>Okay so we divide. Can you tell me what we are dividing again?</template>
-</category>
-
-<category>
-<pattern>^ TWELVE ^ </pattern>
-<that>Can you tell me what we are dividing again</that>
-<template>Oh right, we should divide twelve by three. That is four. Right?</template>
-</category>
-
-<category>
-<pattern>^ DIVIDE TWELVE ^ </pattern>
-<that>Can you tell me what we are dividing again</that>
-<template>Oh right, we should divide twelve by three. That is four. Right?</template>
-</category>
-
-<category>
-<pattern>^ DIVIDE ^ </pattern>
-<that>Can you tell me what we are dividing again</that>
-<template>So I think we should divide twelve by three. That is four. Right?</template>
-</category>
-
-<category>
-<pattern>^ THREE ^ </pattern>
-<that>Can you tell me what we are dividing again</that>
-<template>So I think we should divide twelve by three. That is four. Right?</template>
-</category>
-
-<category>
-<pattern>^ NOT DIVIDE ^ </pattern>
-<that>Can you tell me what we are dividing again</that>
-<template>We're not dividing?</template>
-</category>
-
-
-<category>
-<pattern>^ MULTIPLY ^ </pattern>
-<template>Ok so we multiply. I'm sorry but what are we multiplying? Two times two?</template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>two times two</that>
-<template>Great! Is four the answer?</template>
-</category>
-
-<category>
-<pattern>^ HOW MUCH PAINT ^</pattern>
-<template>To figure out how much paint I need for my legs, do I divide?</template>
-</category>
-
-<category>
-<pattern>^ LEGS ^</pattern>
-<template>Okay. Looking at how much paint I need for my feet, I can figure out how much paint I need for my legs? How do we do that?</template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>How do we do that</that>
-<template>You are so smart. So then I know that two goes into six three times. So do I divide twelve by three?</template>
-</category>
-
-
-<category>
-<pattern>^ FEET ^</pattern>
-<template>Okay. To figure out how much paint I need for my legs, I look at how much paint I need for my feet?</template>
-</category>
-
-<category>
-<pattern>^ SURFACE AREA ^</pattern>
-<template>Okay. We are going to figure out how much paint I need for my legs. First I look at the surface area of my feet and how much paint I need for my feet?</template>
-</category>
-
-<category>
-<pattern>^ FIGURE ^ VOLUME ^</pattern>
-<template>So if we look at the volume of paint for my feet. That's two ounces which covers six square inches. Six divided by three is two. So then do I divide twelve by three?</template>
-</category>
-
-<category>
-<pattern>_</pattern>
-<that>First I look at the surface area of my feet and how much paint I need for my feet</that>
-<template>So we know I need two ounces of paint for six inches of surface area. Six divided by three is two. Does that mean I only need one ounce of paint for three square inches?</template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Does that mean I only need one ounce of paint for three square inches</that>
-<template>Okay cool. So then what do I do? </template>
-</category>
-
-<category>
-<pattern>_</pattern>
-<that>Does that mean I only need one ounce of paint for three square inches</that>
-<template>Okay cool. So then do I divide twelve by three? </template>
-</category>
-
-<category>
-<pattern>_</pattern>
-<that>So then what do I do</that>
-<template>Okay cool. So then do I divide twelve by three? </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>So then do I divide twelve by three</that>
-<template>Is the answer four?</template>
-</category>
-
-<category>
-<pattern>_</pattern>
-<that>So then do I divide twelve by three</that>
-<template>Is the answer four?</template>
-</category>
-
-
-<category>
-<pattern>^ RATIO ^ </pattern>
-<template>Okay so we look at the ratio of the six to the two. How do we use this ratio?</template>
-</category>
-
-<category>
-<pattern>^ DIVIDE ^ TWELVE ^ SIX ^</pattern>
-<that>How do we use this ratio</that>
-<template>So we divide twelve by six? Twelve divided by six is two. Then do we use the ratio?</template>
-</category>
-
-<category>
-<pattern>^ YES ^ </pattern>
-<that>Then do we use the ratio</that>
-<template>So we can multiply two times two. Two times two is four. Is the answer four?</template>
-</category>
-
-<category>
-<pattern>_</pattern>
-<that>Then do we use the ratio</that>
-<template>So we can multiply two times two. Two times two is four. Is the answer four?</template>
-</category>
-
-<category>
-<pattern>^ SIX ^ TWELVE ^ </pattern>
-<that>Or should we look at the ratio of the six to twelve</that>
-<template>Oh okay. Do I divide twelve by six?</template>
-</category>
-
-<category>
-<pattern>^ SIX ^ TWO ^ </pattern>
-<that>Or should we look at the ratio of the six to twelve</that>
-<template>Oh okay. Six divided by two is three. So then do I divide twelve by three?</template>
-</category>
-
-
-<category>
-<pattern>_</pattern>
-<that>Do I divide twelve by six?</that>
-<template>Twelve divided by six is two. Then do I multiply two times two?</template>
-</category>
-
-<category>
-<pattern>_</pattern>
-<that>Then do I multiply two times two</that>
-<template>Two times two is four. Is the answer four?</template>
-</category>
-
-
-</topic>
-
-
-<topic name = "STEP TWO">
-
-<category>
-<pattern>^ HOW MUCH PAINT ^</pattern>
-<template>To figure out how much paint I need for my legs, do I divide?</template>
-</category>
-
-<category>
-<pattern>^ TORSO ^</pattern>
-<template>Okay. Looking at how much paint I need for my feet and how much I know I need for my torso, I can figure out how much surface area that is? How do we do that?</template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>How do we do that</that>
-<template>Ah okay. So then I know that two goes into six three times. So I can multiply six times three?</template>
-</category>
-
-
-<category>
-<pattern>^ FEET ^</pattern>
-<template>Okay. To figure out how big my torso is, I can look at how much paint I need for my feet versus my torso? How do we do that?</template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>How do we do that</that>
-<template>Ah okay. So then I know that two goes into six three times. So I can multiply six times three?</template>
-</category>
-
-<category>
-<pattern>^ Yes ^ </pattern>
-<that>So I can multiply six times three</that>
-<template>Six times three is eighteen. So is the answer eighteen?</template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>So I can multiply six times three</that>
-<template>Six times three is eighteen. So is the answer eighteen?</template>
-</category>
-
-<category>
-<pattern>^ Yes ^ </pattern>
-<that>Do we look at how many times two goes into six</that>
-<template>Oh okay. So two goes into six three times. How do we figure out how big my torso is? </template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>Do we look at how many times two goes into six</that>
-<template>Oh okay. So two goes into six three times. How do we figure out how big my torso is? </template>
-</category>
-
-<category>
-<pattern>^ MULTIPLY ^ </pattern>
-<that>How do we figure out how big my torso is</that>
-<template>So we multiply six times three? So is the answer eighteen?</template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>How do we figure out how big my torso is</that>
-<template>So we multiply six times three? So is the answer eighteen?</template>
-</category>
-
-
-<category>
-<pattern>^ SIX ^</pattern>
-<template>We can use the ratio of six to two here too? Do we look at how many times two goes into six?
+<pattern>next step 5 2</pattern>
+<template>Can you give me a hint for figuring out how many blue M and M's <set name="topic">are in five bags</set> of candies?
 </template>
 </category>
 
 <category>
-<pattern>^ DIVIDE ^ </pattern>
-<that>What do we do with the number six</that>
-<template>Oh okay. We divide! We divide six by two? </template>
+<pattern>next step 5 3</pattern>
+<template>Yay! Seven hundred and seventy M and M's! Can you help me figure out how many blue M and M's <set name="topic">are in seven bags</set>?
+</template>
 </category>
 
 <category>
-<pattern>^ ANSWER ^</pattern>
-<that>We divide six by two</that>
-<template>Six divided by two is three. Then do we have the answer? </template>
+<pattern>prior step 5 1</pattern>
+<template>Okay back to figuring out <set name="topic">how many blue</set> M and M's are in just two bags.
+</template>
 </category>
 
 <category>
-<pattern>^ YES ^</pattern>
-<that>We divide six by two</that>
-<template>So that's three. Then do we have the answer? </template>
+<pattern>prior step 5 2</pattern>
+<template>So, how do we figure out how many M and M's <set name="topic">are in five bags</set> of candies?</template>
+</category>
+
+
+<category>
+<pattern>prior step 5 1 a</pattern>
+<template>I thought we already figured this out. There are <set name="topic">twenty two blue</set> M and M's in two bags right?</template>
 </category>
 
 <category>
-<pattern>^ YES ^</pattern>
-<that>Then do we have the answer</that>
-<template>Ok! Because six times three is eighteen. That means my torso has a surface area of eighteen inches. I will put the answer is eighteen. </template>
+<pattern>prior step 5 2 a</pattern>
+<template>We already know there will be <set name="topic">fifty five blue</set> M and M's out of five hundred and fifty.</template>
 </category>
 
 <category>
-<pattern>^ No ^</pattern>
-<that>Then do we have the answer</that>
-<template>We don't? What is the answer? </template>
+<pattern>next step 5 2 a</pattern>
+<template>We definitely already know that there are <set name="topic">fifty five blue</set> M and M's in five bags.</template>
 </category>
 
 <category>
-<pattern>^ ANSWER ^ EIGHTEEN ^</pattern>
-<that>What is the answer</that>
-<template>Oh okay! The answer is eighteen because six times three is eighteen. That means my torso has a surface area of eighteen inches! I will put the answer is eighteen. </template>
+<pattern>next step 5 3 a</pattern>
+<template>We know that there are <set name="topic">seventy seven blue</set> candies in seven bags.</template>
 </category>
 
 <category>
-<pattern>^ ANSWER ^</pattern>
-<that>What is the answer</that>
-<template>Oh okay! So then we know that six times three is eighteen. So is the answer eighteen?</template>
+<pattern>5 1</pattern>
+<template><set name="topic">STEP ONE PROBLEM FIVE</set></template>
+</category>
+
+<category>
+<pattern>5 2</pattern>
+<template><set name="topic">STEP TWO PROBLEM FIVE</set></template>
+</category>
+
+<category>
+<pattern>5 3</pattern>
+<template><set name="topic">STEP THREE PROBLEM FIVE</set></template>
+</category>
+
+
+<topic name = "how many blue">
+
+
+<category>
+<pattern>^ EQUIVALENT ^ </pattern>
+<template>What is an equivalent ratio?</template>
+</category>
+
+<category>
+<pattern>^ AN EQUIVALENT RATIO IS ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ EQUIVALENT RATIO ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
 </category>
 
 <category>
 <pattern>_</pattern>
-<that>What is the answer</that>
-<template>Oh okay! And we know that six times three is eighteen. So is the answer eighteen?</template>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
 </category>
 
 <category>
-<pattern>^ YES ^</pattern>
-<that>So is the answer eighteen</that>
-<template>Great! My torso has a surface area of eighteen inches! So I will put the answer is eighteen</template>
+<pattern>^ SIMPLIFY ^</pattern>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>Okay! So first we can simplify the fraction by dividing right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<template>I really like multiplying. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>^ CROSS ^ MULTIPLY ^</pattern>
+<template>Okay! So we cross multiply. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>^ OVER ^</pattern>
+<template>So like the last problem, we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
+</category>
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So first we can simplify the fraction by dividing right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So if we reduce the fraction. Do we multiply two hundred and twenty times one?</template>
 </category>
 
 <category>
 <pattern>_</pattern>
-<that>So is the answer eighteen</that>
-<template>Sweet! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.</template>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Sweet! So then. We can simplify the fraction. So it becomes ten over one?</template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>What do we do with the number six</that>
-<template>Oh okay. Can you explain more maybe? </template>
-</category>
-
-
-<category>
-<pattern>^ DIVIDE ^ </pattern>
-<that>Do we divide the six</that>
-<template>Oh okay. We divide! We divide six by two? </template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<that>We divide six by two</that>
-<template>So six divided by two is four. Then we have the answer? </template>
+<pattern>_</pattern>
+<that>So it becomes ten over one</that>
+<template>Okay cool! Do we multiply two hundred and twenty times one?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>We divide six by two</that>
-<template>So six divided by two is four. Then we have the answer? </template>
+<that>Do we multiply two hundred and twenty times one</that>
+<template>So two hundred and twenty times one is just itself, two hundred and twenty. So then what do we do next?</template>
 </category>
 
 <category>
-<pattern>^ YES ^</pattern>
-<that>Then we have the answer</that>
-<template>Great! Six times three is eighteen. So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.</template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Do we divide the six</that>
-<template>Okay. I'm going to divide the six by two to get three and then what? </template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<that>I AM GOING TO DIVIDE the six by TWO to get three AND THEN WHAT</that>
-<template>So then we have the answer? Three times six is eighteen. So is the answer eighteen?</template>
-</category>
-
-<category>
-<pattern>^ TWO ^</pattern>
-<that>I AM GOING TO DIVIDE TWELVE BY SIX TO GET TWO AND THEN WHAT</that>
-<template>Ok so six divided by two is three. And then we can multiply three times six. So is the answer eighteen?</template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>I AM GOING TO DIVIDE TWELVE BY SIX TO GET TWO AND THEN WHAT</that>
-<template>Ok so six divided by two is three. And then we can multiply three times six. So is the answer eighteen?</template>
-</category>
-
-
-<category>
-<pattern>*</pattern>
-<that>Do we divide the six</that>
-<template>Oh okay. So that's what we do with the six and then what do we do? </template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<that>So that is what we do with the six and then what do we do</that>
-<template>I think the answer is eighteen. So is the answer eighteen?</template>
-</category>
-
-
-<category>
-<pattern>^ TWO ^</pattern>
-<template>So two times three is six. So we can use that to figure out the answer? How do we do that?</template>
-</category>
-
-
-<category>
-<pattern>^ TWELVE ^</pattern>
-<template>What do we do with the number TWELVE?</template>
+<pattern>_</pattern>
+<that>Do we multiply two hundred and twenty times one</that>
+<template>So two hundred and twenty times one is just itself, two hundred and twenty. So then what do we do next?</template>
 </category>
 
 <category>
 <pattern>^ DIVIDE ^ </pattern>
-<that>What do we do with the number TWELVE</that>
-<template>Oh okay. How does that help us?</template>
+<that>So then what do we do next</that>
+<template>So we cross multiplied and now we divide by ten? Two hundred and twenty two divided by ten is twenty two?</template>
 </category>
 
 <category>
-<pattern>^ SIX ^ </pattern>
-<that>How does that help us</that>
-<template>Ahhh. So like step one, we can divide. But this time maybe we should divide the six by the two?</template>
+<pattern>_</pattern>
+<that>So then what do we do next</that>
+<template>So we cross multiplied and now we divide by ten? Two hundred and twenty two divided by ten is twenty two?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Two hundred and twenty two divided by ten is twenty two</that>
+<template>So is the answer twenty two candies?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So is the answer twenty two candies</that>
+<template>Wonderful! So out of two hundred and twenty M and M's, twenty two are blue. I will put the answer is twenty two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So is the answer twenty two candies</that>
+<template>Wonderful! So out of two hundred and twenty M and M's, twenty two are blue. I will put the answer is twenty two.</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>So like the last problem, we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>Hmmm. Is the answer twenty two? How did we get that again?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How did we get that again</that>
+<template>Oh okay! I get it. I will put the answer is twenty two.</template>
+</category>
+
+<category>
+<pattern>^ TWICE ^</pattern>
+<template>Ah. Are you saying that two hundred and twenty is twice that of one hundred and ten? So what is twice of eleven will give us the number of blue candies?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So what is twice of eleven will give us the number of blue candies</that>
+<template>Okay! Eleven times two is twenty two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So what is twice of eleven will give us the number of blue candies</that>
+<template>Okay! Eleven times two is twenty two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Eleven times two is twenty two.</that>
+<template>So is the answer twenty two candies?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ONE TIMES TWO HUNDRED AND TWENTY TWO ^</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO HUNDRED AND TWENTY TWO TIMES ONE ^</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ TWO HUNDRED AND TWENTY TWO ^ TIMES ^ ONE</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ TWO HUNDRED AND TWENTY TWO ^ MULTIPLIED ^ ONE</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ TWO HUNDRED AND TWENTY ^ TEN </pattern>
+<template>Two hundred and twenty divided by ten is twenty two.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE TWO HUNDRED AND TWENTY TWO BY TEN ^</pattern>
+<template>Two hundred and twenty divided by ten is twenty two</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO HUNDRED AND TWENTY TWO DIVIDED BY TEN ^</pattern>
+<template>Two hundred and twenty divided by ten is twenty two. So is the answer twenty two candies?</template>
 </category>
 
 
 <category>
-<pattern>*</pattern>
-<that>What do we do with the number twelve</that>
-<template>Oh okay. So how do we figure out how many square inches six ounces of paint will cover? </template>
-</category>
-
-
-<category>
-<pattern>^ FOUR ^</pattern>
+<pattern>^ TWENTY TWO^</pattern>
 <template><random>
-<li>So what do we do with the four? How does that relate to the six?</li>
-<li>I'm not sure what to do with the four. How does that relate to the six?</li>
+<li>Did you say TWENTY TWO is the answer?</li>
+<li>Is TWENTY TWO the answer?</li>
 </random></template>
 </category>
 
 <category>
-<pattern>^ DIVIDE ^ SIX ^ FOUR ^</pattern>
-<template>Are you saying divide the six by four? That seems complicated.</template>
+<pattern>^ YES ^</pattern>
+<that>Did you say TWENTY TWO is the answer</that>
+<template>Cool! So we have TWENTY TWO blue candies out of two hundred and twenty. I will put the answer is TWENTY two.</template>
 </category>
 
 <category>
-<pattern>^ MULTIPLY ^ TWO ^</pattern>
-<template>What do we multiply two by? Two times three is six right?</template>
+<pattern>^ NO ^</pattern>
+<that>Did you say TWENTY TWO is the answer</that>
+<template>Oh. But TWO HUNDRED AND TWENTY divided by ten is TWENTY TWO. Are you sure TWENTY TWO isn't the answer?</template>
 </category>
 
 <category>
-<pattern>^ Yes ^</pattern>
-<that>Two times three is six right</that>
-<template>I'm not sure what to do next. I know two times three is six. But how do I figure out how big my torso is?</template>
+<pattern>^ ANSWER ^ TWENTY TWO ^</pattern>
+<template>Sweet! I will put the answer is TWENTY TWO candies.</template>
 </category>
 
 <category>
-<pattern>^ MEASURE ^</pattern>
-<template>Measure my torso? I want to use math!</template>
+<pattern>^ BAGS ^ </pattern>
+<template>So we need to know how many blue M and M's I will have with two bags of two hundred and twenty candies. How do we figure this out?</template>
 </category>
 
-<category>
-<pattern>*</pattern>
-<that>But how do I figure out how big my torso is</that>
-<template>Oh okay. Six times three is eighteen. So my torso has a surface area of eighteen inches! I will put the answer is eighteen! </template>
-</category>
 
 <category>
-<pattern>^ DIVIDE ^ SIX ^ TWO ^</pattern>
-<template>Are you saying we divide six by two?</template>
+<pattern>^ ONE HUNDRED AND TEN to Eleven ^ </pattern>
+<template>So we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
 </category>
 
-<category>
-<pattern>^ MULTIPLY ^ SIX ^ THREE </pattern>
-<template>If we multiply six times three, that's eighteen. So is the answer eighteen?</template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^ EIGHTEEN ^</pattern>
-<template>Sweet! So is the answer eighteen?</template>
-</category>
 
 <category>
 <pattern>DO YOU NOT KNOW</pattern>
-<template>Maybe I start by dividing six by three?</template>
+<template>Maybe I start by multiplying?</template>
 </category>
 
 <category>
 <pattern>I AM NOT SURE</pattern>
-<template>Maybe what I do is look at the six and the two?</template>
+<template>Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
 </category>
 
 <category>
 <pattern>I DO NOT KNOW</pattern>
-<template>Maybe what I do is look at the six and the two?</template>
+<template>Me either. Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
 </category>
 
 <category>
 <pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
 <template>Okay that sounds good. So what do we do next then?</template>
 </category>
-
 
 <category>
 <pattern>^ FIGURE IT OUT ^</pattern>
@@ -1191,22 +348,21 @@
 <pattern>^ YES ^</pattern>
 <that>Did you ask do I know what to do next</that>
 <template><random>
-<li>No not really. We divide six by two?</li>
-<li>I think we multiply? We multiply three by six?</li>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
 <li>Do we divide?</li>
 <li>I think we divide?</li>
 <li>Can't you just tell me?</li>
 <li>Uh I don't know</li>
 </random></template>
 </category>
-
 
 <category>
 <pattern>*</pattern>
 <that>Did you ask do I know what to do next</that>
 <template><random>
-<li>No not really. We divide six by two?</li>
-<li>I think we multiply? We multiply three by six?</li>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
 <li>Do we divide?</li>
 <li>I think we divide?</li>
 <li>Can't you just tell me?</li>
@@ -1214,337 +370,274 @@
 </random></template>
 </category>
 
-<category>
-<pattern>^ ANSWER ^</pattern>
-<template>So is the answer eighteen?</template>
-</category>
-
-<category>
-<pattern>WHAT IS THREE TIMES TWO</pattern>
-<template>Three times two is six. So six divided by two is three. Do we then multiply six by three?</template>
-</category>
-
-<category>
-<pattern>WHAT IS TWO TIMES THREE</pattern>
-<template>Three times two is six. So six divided by two is three. Do we then multiply six by three?</template>
-</category>
-
-<category>
-<pattern>^ THREE ^ DIVIDED ^ TWO</pattern>
-<template>Six divided by two is three. Do we then multiply six by three?</template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>DO WE THEN MULTIPLY SIX BY THREE</that>
-<template>So is the answer eighteen?</template>
-</category>
-
-<category>
-<pattern>WHAT IS THREE TIMES SIX</pattern>
-<template>Three times six is eighteen. So is the answer eighteen?</template>
-</category>
-
-<category>
-<pattern>^ THREE ^ TIMES ^ SIX</pattern>
-<template>Three times six is eighteen. So is the answer eighteen?</template>
-</category>
-
-<category>
-<pattern>WHAT IS ^ THREE ^ SIX ^</pattern>
-<template>Three times six is eighteen. So is the answer eighteen?</template>
-</category>
-
-<category>
-<pattern>^ SIX ^ TIMES ^ THREE</pattern>
-<template>Three times six is eighteen. So is the answer eighteen?</template>
-</category>
-
-<category>
-<pattern>WHAT IS ^ SIX ^ THREE ^</pattern>
-<template>Three times six is eighteen. So is the answer eighteen?</template>
-</category>
-
 </topic>
 
 
-<topic name = "BACK TO STEP ONE">
+<topic name = "are in five bags">
 
 <category>
-<pattern>^ SIX ^</pattern>
-<template><random>
-<li>What do we do with the number six?</li>
-<li>Do we divide by six?</li>
-</random></template>
+<pattern>^ EQUIVALENT ^ </pattern>
+<template>What is an equivalent ratio?</template>
 </category>
 
 <category>
-<pattern>^ DIVIDE ^ </pattern>
-<that>What do we do with the number six</that>
-<template>Oh okay. We divide! We divide twelve by six? </template>
+<pattern>^ AN EQUIVALENT RATIO IS ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
 </category>
 
 <category>
-<pattern>^ ANSWER ^</pattern>
-<that>We divide twelve by six</that>
-<template>Then we have the answer? </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>We divide twelve by six</that>
-<template>So that's two. Then we have the answer? </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Then we have the answer</that>
-<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four </template>
-</category>
-
-<category>
-<pattern>^ No ^</pattern>
-<that>Then we have the answer</that>
-<template>Two times two is four. Is four the answer? </template>
-</category>
-
-<category>
-<pattern>^ YES ^ </pattern>
-<that>Is four the answer</that>
-<template>I will put four in for the answer then.</template>
+<pattern>^ EQUIVALENT RATIO ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
 </category>
 
 <category>
 <pattern>_</pattern>
-<that>Is four the answer</that>
-<template>I will put four in for the answer then.</template>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
 </category>
 
 
 <category>
-<pattern>*</pattern>
-<that>What do we do with the number six</that>
-<template>Oh okay. Can you explain more maybe? </template>
+<pattern>^ REDUCE ^</pattern>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>Okay! So first we can simplify the fraction by dividing right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<template>I really like multiplying. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>^ CROSS ^ MULTIPLY ^</pattern>
+<template>Okay! So we cross multiply. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>^ OVER ^</pattern>
+<template>So like the last problem, we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
+</category>
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So first we can simplify the fraction by dividing right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So if we reduce the fraction. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Sweet! So then. We can simplify the fraction. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So it becomes ten over one</that>
+<template>Okay cool! Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Do we multiply two hundred and twenty times one</that>
+<template>So two hundred and twenty times one is just itself, two hundred and twenty. So then what do we do next?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Do we multiply two hundred and twenty times one</that>
+<template>So two hundred and twenty times one is just itself, two hundred and twenty. So then what do we do next?</template>
 </category>
 
 <category>
 <pattern>^ DIVIDE ^ </pattern>
-<that>Do we divide by six</that>
-<template>Oh okay. We divide! We divide twelve by six? </template>
+<that>So then what do we do next</that>
+<template>So we cross multiplied and now we divide by ten? Two hundred and twenty two divided by ten is twenty two?</template>
 </category>
 
 <category>
-<pattern>^ ANSWER ^</pattern>
-<that>We divide twelve by six</that>
-<template>Then we have the answer? </template>
+<pattern>_</pattern>
+<that>So then what do we do next</that>
+<template>So we cross multiplied and now we divide by ten? Two hundred and twenty two divided by ten is twenty two?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Two hundred and twenty two divided by ten is twenty two</that>
+<template>So is the answer twenty two candies?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>Then we have the answer</that>
-<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four </template>
+<that>So is the answer twenty two candies</that>
+<template>Wonderful! So out of two hundred and twenty M and M's, twenty two are blue. I will put the answer is twenty two.</template>
 </category>
 
 <category>
-<pattern>^ YES ^</pattern>
-<that>Do we divide by six</that>
-<template>Okay. I'm going to divide twelve by six to get two and then what? </template>
+<pattern>_</pattern>
+<that>So is the answer twenty two candies</that>
+<template>Wonderful! So out of two hundred and twenty M and M's, twenty two are blue. I will put the answer is twenty two.</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>So like the last problem, we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
 </category>
 
 <category>
 <pattern>^ ANSWER ^</pattern>
-<that>I AM GOING TO DIVIDE TWELVE BY SIX TO GET TWO AND THEN WHAT</that>
-<template>So then we have the answer? Is four the answer?</template>
+<template>Hmmm. Is the answer twenty two? How did we get that again?</template>
 </category>
 
 <category>
-<pattern>^ TWO ^</pattern>
-<that>I AM GOING TO DIVIDE TWELVE BY SIX TO GET TWO AND THEN WHAT</that>
-<template>Ok so twelve divided by six is two. And then we can multiply two times two. Is four the answer?</template>
+<pattern>_</pattern>
+<that>How did we get that again</that>
+<template>Oh okay! I get it. I will put the answer is twenty two.</template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>I AM GOING TO DIVIDE TWELVE BY SIX TO GET TWO AND THEN WHAT</that>
-<template>Ok so twelve divided by six is two. And then we can multiply two times two. Is four the answer?</template>
+<pattern>^ TWICE ^</pattern>
+<template>Ah. Are you saying that two hundred and twenty is twice that of one hundred and ten? So what is twice of eleven will give us the number of blue candies?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So what is twice of eleven will give us the number of blue candies</that>
+<template>Okay! Eleven times two is twenty two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So what is twice of eleven will give us the number of blue candies</that>
+<template>Okay! Eleven times two is twenty two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Eleven times two is twenty two.</that>
+<template>So is the answer twenty two candies?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ONE TIMES TWO HUNDRED AND TWENTY TWO ^</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO HUNDRED AND TWENTY TWO TIMES ONE ^</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ TWO HUNDRED AND TWENTY TWO ^ TIMES ^ ONE</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ TWO HUNDRED AND TWENTY TWO ^ MULTIPLIED ^ ONE</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ TWO HUNDRED AND TWENTY ^ TEN </pattern>
+<template>Two hundred and twenty divided by ten is twenty two.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE TWO HUNDRED AND TWENTY TWO BY TEN ^</pattern>
+<template>Two hundred and twenty divided by ten is twenty two</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO HUNDRED AND TWENTY TWO DIVIDED BY TEN ^</pattern>
+<template>Two hundred and twenty divided by ten is twenty two. So is the answer twenty two candies?</template>
 </category>
 
 
 <category>
-<pattern>*</pattern>
-<that>Do we divide by six</that>
-<template>Oh okay. So that's what we do with the six and then what do we do? </template>
-</category>
-
-
-
-<category>
-<pattern>^ TWO ^</pattern>
+<pattern>^ TWENTY TWO^</pattern>
 <template><random>
-<li>What do we do with the number TWO?</li>
-<li>Do we multiply by TWO?</li>
+<li>Did you say TWENTY TWO is the answer?</li>
+<li>Is TWENTY TWO the answer?</li>
 </random></template>
 </category>
 
 <category>
-<pattern>^ MULTIPLY ^ </pattern>
-<that>What do we do with the number TWO</that>
-<template>Oh okay. We multiply! We multiply two times two?</template>
-</category>
-
-<category>
-<pattern>^ TIMES ^ </pattern>
-<that>What do we do with the number TWO</that>
-<template>Oh okay. We multiply! We multiply two times two?</template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<that>We multiply two times two</that>
-<template>Then we have the answer is four? </template>
-</category>
-
-<category>
 <pattern>^ YES ^</pattern>
-<that>We multiply two times two</that>
-<template>So that's four. Then we have the answer is four? </template>
+<that>Did you say TWENTY TWO is the answer</that>
+<template>Cool! So we have TWENTY TWO blue candies out of two hundred and twenty. I will put the answer is TWENTY two.</template>
 </category>
 
 <category>
-<pattern>^ YES ^</pattern>
-<that>Then we have the answer is four</that>
-<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four </template>
+<pattern>^ NO ^</pattern>
+<that>Did you say TWENTY TWO is the answer</that>
+<template>Oh. But TWO HUNDRED AND TWENTY divided by ten is TWENTY TWO. Are you sure TWENTY TWO isn't the answer?</template>
 </category>
 
 <category>
-<pattern>^ No ^</pattern>
-<that>Then we have the answer is four</that>
-<template>Two times two is four. Four isn't the answer? </template>
+<pattern>^ ANSWER ^ TWENTY TWO ^</pattern>
+<template>Sweet! I will put the answer is TWENTY TWO candies.</template>
 </category>
 
-
 <category>
-<pattern>*</pattern>
-<that>What do we do with the number two</that>
-<template>Oh okay. So that's what we do with the two and then what do we do? </template>
+<pattern>^ BAGS ^ </pattern>
+<template>So we need to know how many blue M and M's I will have with two bags of two hundred and twenty candies. How do we figure this out?</template>
 </category>
 
 
 <category>
-<pattern>^ ANSWER ^</pattern>
-<that>So that is what we do with the two and then what do we do</that>
-<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four</template>
+<pattern>^ ONE HUNDRED AND TEN to Eleven ^ </pattern>
+<template>So we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
 </category>
 
-
-<category>
-<pattern>^ MULTIPLY ^ </pattern>
-<that>Do we multiply by two</that>
-<template>Oh okay. We multiply! We multiply two times two? </template>
-</category>
-
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Do we multiply by two</that>
-<template>Okay. I'm going to multiply the two by two to get four. Is four the answer? </template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>Do we multiply by two</that>
-<template>Okay. I'm going to multiply the two by two to get four. Is four the answer? </template>
-</category>
-
-
-<category>
-<pattern>^ TWELVE ^</pattern>
-<template><random>
-<li>What do we do with the number TWELVE?</li>
-<li>Do we divide TWELVE?</li>
-</random></template>
-</category>
-
-<category>
-<pattern>^ DIVIDE ^ </pattern>
-<that>What do we do with the number TWELVE</that>
-<template>Oh okay. We divide! We divide twelve by six? </template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>What do we do with the number twelve</that>
-<template>Oh okay. So that's what we do with the twelve and then what do we do? </template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<that>So that is what we do with the twelve and then what do we do</that>
-<template>Cool! So we need four ounces of paint to cover my feet. I will put the answer is four</template>
-</category>
-
-<category>
-<pattern>^ DIVIDE ^ </pattern>
-<that>Do we divide twelve</that>
-<template>Oh okay. We divide! We divide twelve by six? </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Do we divide twelve</that>
-<template>Okay. I'm going to divide twelve by six to get two. Then what? </template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>Do we divide twelve</that>
-<template>Oh okay. So that's what we do with the twelve and then what do we do? </template>
-</category>
-
-<category>
-<pattern>^ FOUR ^</pattern>
-<template><random>
-<li>Did you say four is the answer?</li>
-<li>Is four the answer?</li>
-</random></template>
-</category>
-
-
-<category>
-<pattern>^ DIVIDE ^ TWELVE ^ SIX ^</pattern>
-<template>Oh okay. We divide! We divide twelve by six?</template>
-</category>
-
-<category>
-<pattern>^ MULTIPLY ^ TWO ^</pattern>
-<template>Oh okay. We multiply! We multiply two times two?</template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^ FOUR ^</pattern>
-<template>Sweet! Is four the answer?</template>
-</category>
 
 <category>
 <pattern>DO YOU NOT KNOW</pattern>
-<template>Maybe I start by dividing twelve by six?</template>
+<template>Maybe I start by multiplying?</template>
 </category>
 
 <category>
 <pattern>I AM NOT SURE</pattern>
-<template>Maybe what I do is look at the six and the two?</template>
+<template>Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
 </category>
 
 <category>
 <pattern>I DO NOT KNOW</pattern>
-<template>Maybe what I do is look at the six and the two?</template>
+<template>Me either. Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
 </category>
 
 <category>
 <pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
 <template>Okay that sounds good. So what do we do next then?</template>
 </category>
-
 
 <category>
 <pattern>^ FIGURE IT OUT ^</pattern>
@@ -1560,22 +653,21 @@
 <pattern>^ YES ^</pattern>
 <that>Did you ask do I know what to do next</that>
 <template><random>
-<li>No not really. We divide twelve by six?</li>
-<li>I think we multiply? We multiply two by two?</li>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
 <li>Do we divide?</li>
 <li>I think we divide?</li>
 <li>Can't you just tell me?</li>
 <li>Uh I don't know</li>
 </random></template>
 </category>
-
 
 <category>
 <pattern>*</pattern>
 <that>Did you ask do I know what to do next</that>
 <template><random>
-<li>No not really. We divide twelve by six?</li>
-<li>I think we multiply? We multiply two by two?</li>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
 <li>Do we divide?</li>
 <li>I think we divide?</li>
 <li>Can't you just tell me?</li>
@@ -1583,292 +675,274 @@
 </random></template>
 </category>
 
-<category>
-<pattern>^ ANSWER ^</pattern>
-<template>Is four the answer?</template>
-</category>
-
-<category>
-<pattern>WHAT IS TWO TIMES TWO</pattern>
-<template>Two times two is four. Is four the answer?</template>
-</category>
-
-<category>
-<pattern>WHAT IS TWO ^ TWO</pattern>
-<template>Two times two is four. Is four the answer?</template>
-</category>
-
-<category>
-<pattern>WHAT IS TWELVE DIVIDED BY SIX</pattern>
-<template>Twelve divided by six is two. Right?</template>
-</category>
-
-<category>
-<pattern>WHAT IS ^ TWELVE ^ SIX ^</pattern>
-<template>Twelve divided by six is two. Right?</template>
-</category>
-
 </topic>
 
 
-<topic name = "BACK TO STEP TWO">
+<topic name = "are in seven bags">
 
 <category>
-<pattern>^ SIX ^</pattern>
-<template><random>
-<li>There is a six in this step two. What do we do with the number six here?</li>
-<li>There is another six! Do we divide the six?</li>
-</random></template>
+<pattern>^ EQUIVALENT ^ </pattern>
+<template>What is an equivalent ratio?</template>
 </category>
 
 <category>
-<pattern>^ DIVIDE ^ </pattern>
-<that>What do we do with the number six</that>
-<template>Oh okay. We divide! We divide six by two? </template>
+<pattern>^ AN EQUIVALENT RATIO IS ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
 </category>
 
 <category>
-<pattern>^ ANSWER ^</pattern>
-<that>We divide six by two</that>
-<template>Six divided by two is three. Then do we have the answer? </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>We divide six by two</that>
-<template>So that's three. Then do we have the answer? </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Then do we have the answer</that>
-<template>Ok! Because six times three is eighteen. That means my torso has a surface area of eighteen inches. So I will put the answer is eighteen. </template>
-</category>
-
-<category>
-<pattern>^ No ^</pattern>
-<that>Then do we have the answer</that>
-<template>We don't? What is the answer? </template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^ EIGHTEEN ^</pattern>
-<that>What is the answer</that>
-<template>Oh okay! The answer is eighteen because six times three is eighteen. That means my torso has a surface area of eighteen inches. I will put the answer is eighteen. </template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<that>What is the answer</that>
-<template>Oh okay! So then we know that six times three is eighteen. So is the answer eighteen?</template>
+<pattern>^ EQUIVALENT RATIO ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
 </category>
 
 <category>
 <pattern>_</pattern>
-<that>What is the answer</that>
-<template>Oh okay! And we know that six times three is eighteen. So is the answer eighteen?</template>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
 </category>
 
 <category>
-<pattern>^ YES ^</pattern>
-<that>So is the answer eighteen</that>
-<template>Great! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen</template>
+<pattern>^ SIMPLIFY ^</pattern>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>Okay! So first we can simplify the fraction by dividing right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<template>I really like multiplying. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>^ CROSS ^ MULTIPLY ^</pattern>
+<template>Okay! So we cross multiply. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>^ OVER ^</pattern>
+<template>So like the last problem, we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
+</category>
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So first we can simplify the fraction by dividing right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So if we reduce the fraction. Do we multiply two hundred and twenty times one?</template>
 </category>
 
 <category>
 <pattern>_</pattern>
-<that>So is the answer eighteen</that>
-<template>Sweet! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.</template>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Sweet! So then. We can simplify the fraction. So it becomes ten over one?</template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>What do we do with the number six</that>
-<template>Oh okay. Can you explain more maybe? </template>
+<pattern>_</pattern>
+<that>So it becomes ten over one</that>
+<template>Okay cool! Do we multiply two hundred and twenty times one?</template>
 </category>
 
+<category>
+<pattern>^ YES ^</pattern>
+<that>Do we multiply two hundred and twenty times one</that>
+<template>So two hundred and twenty times one is just itself, two hundred and twenty. So then what do we do next?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Do we multiply two hundred and twenty times one</that>
+<template>So two hundred and twenty times one is just itself, two hundred and twenty. So then what do we do next?</template>
+</category>
 
 <category>
 <pattern>^ DIVIDE ^ </pattern>
-<that>Do we divide the six</that>
-<template>Oh okay. We divide! We divide six by two? </template>
+<that>So then what do we do next</that>
+<template>So we cross multiplied and now we divide by ten? Two hundred and twenty two divided by ten is twenty two?</template>
 </category>
 
 <category>
-<pattern>^ ANSWER ^</pattern>
-<that>We divide six by two</that>
-<template>So six divided by two is four. Then we have the answer? </template>
+<pattern>_</pattern>
+<that>So then what do we do next</that>
+<template>So we cross multiplied and now we divide by ten? Two hundred and twenty two divided by ten is twenty two?</template>
 </category>
 
 <category>
-<pattern>^ YES ^</pattern>
-<that>We divide six by two</that>
-<template>So six divided by two is four. Then we have the answer? </template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Then we have the answer</that>
-<template>Great! Six times three is eighteen. That means my torso has a surface area of eighteen inches. So I will put the answer is eighteen.</template>
+<pattern>_</pattern>
+<that>Two hundred and twenty two divided by ten is twenty two</that>
+<template>So is the answer twenty two candies?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>Do we divide the six</that>
-<template>Okay. I'm going to divide the six by two to get three and then what? </template>
+<that>So is the answer twenty two candies</that>
+<template>Wonderful! So out of two hundred and twenty M and M's, twenty two are blue. I will put the answer is twenty two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So is the answer twenty two candies</that>
+<template>Wonderful! So out of two hundred and twenty M and M's, twenty two are blue. I will put the answer is twenty two.</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>So like the last problem, we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
 </category>
 
 <category>
 <pattern>^ ANSWER ^</pattern>
-<that>I AM GOING TO DIVIDE the six by TWO to get three AND THEN WHAT</that>
-<template>So then we have the answer? Three times six is eighteen. So is the answer eighteen?</template>
+<template>Hmmm. Is the answer twenty two? How did we get that again?</template>
 </category>
 
 <category>
-<pattern>^ TWO ^</pattern>
-<that>I AM GOING TO DIVIDE TWELVE BY SIX TO GET TWO AND THEN WHAT</that>
-<template>Ok so six divided by two is three. And then we can multiply three times six. So is the answer eighteen?</template>
+<pattern>_</pattern>
+<that>How did we get that again</that>
+<template>Oh okay! I get it. I will put the answer is twenty two.</template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>I AM GOING TO DIVIDE TWELVE BY SIX TO GET TWO AND THEN WHAT</that>
-<template>Ok so six divided by two is three. And then we can multiply three times six. So is the answer eighteen?</template>
+<pattern>^ TWICE ^</pattern>
+<template>Ah. Are you saying that two hundred and twenty is twice that of one hundred and ten? So what is twice of eleven will give us the number of blue candies?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So what is twice of eleven will give us the number of blue candies</that>
+<template>Okay! Eleven times two is twenty two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So what is twice of eleven will give us the number of blue candies</that>
+<template>Okay! Eleven times two is twenty two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Eleven times two is twenty two.</that>
+<template>So is the answer twenty two candies?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ONE TIMES TWO HUNDRED AND TWENTY TWO ^</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO HUNDRED AND TWENTY TWO TIMES ONE ^</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ TWO HUNDRED AND TWENTY TWO ^ TIMES ^ ONE</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ TWO HUNDRED AND TWENTY TWO ^ MULTIPLIED ^ ONE</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ TWO HUNDRED AND TWENTY ^ TEN </pattern>
+<template>Two hundred and twenty divided by ten is twenty two.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE TWO HUNDRED AND TWENTY TWO BY TEN ^</pattern>
+<template>Two hundred and twenty divided by ten is twenty two</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO HUNDRED AND TWENTY TWO DIVIDED BY TEN ^</pattern>
+<template>Two hundred and twenty divided by ten is twenty two. So is the answer twenty two candies?</template>
 </category>
 
 
 <category>
-<pattern>*</pattern>
-<that>Do we divide the six</that>
-<template>Oh okay. So that's what we do with the six and then what do we do? </template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<that>So that is what we do with the six and then what do we do</that>
-<template>I think the answer is eighteen. So is the answer eighteen?</template>
-</category>
-
-
-<category>
-<pattern>^ TWO ^</pattern>
+<pattern>^ TWENTY TWO^</pattern>
 <template><random>
-<li>What do we do with the number TWO?</li>
-<li>Do we divide by TWO?</li>
+<li>Did you say TWENTY TWO is the answer?</li>
+<li>Is TWENTY TWO the answer?</li>
 </random></template>
 </category>
 
 <category>
-<pattern>^ DIVIDE ^ </pattern>
-<that>What do we do with the number TWO</that>
-<template>Oh okay. We divide! We divide six by two?</template>
+<pattern>^ YES ^</pattern>
+<that>Did you say TWENTY TWO is the answer</that>
+<template>Cool! So we have TWENTY TWO blue candies out of two hundred and twenty. I will put the answer is TWENTY two.</template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>What do we do with the number two</that>
-<template>Oh okay. So that's what we do with the two and then what do we do? </template>
+<pattern>^ NO ^</pattern>
+<that>Did you say TWENTY TWO is the answer</that>
+<template>Oh. But TWO HUNDRED AND TWENTY divided by ten is TWENTY TWO. Are you sure TWENTY TWO isn't the answer?</template>
 </category>
 
 <category>
-<pattern>^ ANSWER ^</pattern>
-<that>So that is what we do with the two and then what do we do</that>
-<template>I think the answer is eighteen. So is the answer eighteen?</template>
+<pattern>^ ANSWER ^ TWENTY TWO ^</pattern>
+<template>Sweet! I will put the answer is TWENTY TWO candies.</template>
 </category>
 
-
 <category>
-<pattern>^ DIVIDE ^ </pattern>
-<that>Do we divide by two</that>
-<template>Oh okay. We divide! We divide six by two? </template>
+<pattern>^ BAGS ^ </pattern>
+<template>So we need to know how many blue M and M's I will have with two bags of two hundred and twenty candies. How do we figure this out?</template>
 </category>
 
 
 <category>
-<pattern>*</pattern>
-<that>Do we divide by two</that>
-<template>Okay. I'm going to divide the six by two to get three. So that's what we do with the two and then what do we do? </template>
+<pattern>^ ONE HUNDRED AND TEN to Eleven ^ </pattern>
+<template>So we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
 </category>
 
-
-<category>
-<pattern>^ TWELVE ^</pattern>
-<template>What do we do with the number TWELVE?</template>
-</category>
-
-<category>
-<pattern>^ DIVIDE ^ </pattern>
-<that>What do we do with the number TWELVE</that>
-<template>Oh okay. How does that help us?</template>
-</category>
-
-<category>
-<pattern>^ SIX ^ </pattern>
-<that>How does that help us</that>
-<template>Ahhh. So like step one, we can divide. But this time maybe we should divide the six by the two?</template>
-</category>
-
-
-<category>
-<pattern>*</pattern>
-<that>What do we do with the number twelve</that>
-<template>Oh okay. So how do we figure out how many square inches six ounces of paint will cover? </template>
-</category>
-
-
-<category>
-<pattern>^ FOUR ^</pattern>
-<template><random>
-<li>So what do we do with the four? How does that relate to the six?</li>
-<li>I'm not sure what to do with the four. How does that relate to the six?</li>
-</random></template>
-</category>
-
-<category>
-<pattern>^ DIVIDE ^ SIX ^ FOUR ^</pattern>
-<template>Are you saying divide the six by four? That seems complicated.</template>
-</category>
-
-<category>
-<pattern>^ MULTIPLY ^ TWO ^</pattern>
-<template>What do we multiply two by? Do you mean we multiply three by six?</template>
-</category>
-
-<category>
-<pattern>^ DIVIDE ^ SIX ^ TWO ^</pattern>
-<template>Are you saying we divide six by two?</template>
-</category>
-
-<category>
-<pattern>^ MULTIPLY ^ SIX ^ THREE </pattern>
-<template>If we multiply six times three, that's eighteen. So is the answer eighteen?</template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^ EIGHTEEN ^</pattern>
-<template>Sweet! So is the answer eighteen?</template>
-</category>
 
 <category>
 <pattern>DO YOU NOT KNOW</pattern>
-<template>Maybe I start by dividing six by three?</template>
+<template>Maybe I start by multiplying?</template>
 </category>
 
 <category>
 <pattern>I AM NOT SURE</pattern>
-<template>Maybe what I do is look at the six and the two?</template>
+<template>Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
 </category>
 
 <category>
 <pattern>I DO NOT KNOW</pattern>
-<template>Maybe what I do is look at the six and the two?</template>
+<template>Me either. Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
 </category>
 
 <category>
 <pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
 <template>Okay that sounds good. So what do we do next then?</template>
 </category>
-
 
 <category>
 <pattern>^ FIGURE IT OUT ^</pattern>
@@ -1884,22 +958,21 @@
 <pattern>^ YES ^</pattern>
 <that>Did you ask do I know what to do next</that>
 <template><random>
-<li>No not really. We divide six by two?</li>
-<li>I think we multiply? We multiply three by six?</li>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
 <li>Do we divide?</li>
 <li>I think we divide?</li>
 <li>Can't you just tell me?</li>
 <li>Uh I don't know</li>
 </random></template>
 </category>
-
 
 <category>
 <pattern>*</pattern>
 <that>Did you ask do I know what to do next</that>
 <template><random>
-<li>No not really. We divide six by two?</li>
-<li>I think we multiply? We multiply three by six?</li>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
 <li>Do we divide?</li>
 <li>I think we divide?</li>
 <li>Can't you just tell me?</li>
@@ -1907,88 +980,361 @@
 </random></template>
 </category>
 
+</topic>
+
+
+<topic name = "twenty two blue">
+
 <category>
-<pattern>^ ANSWER ^</pattern>
-<template>So is the answer eighteen?</template>
+<pattern>^ WRONG ^ </pattern>
+<template>I'm not sure what you mean by wrong. I think I understood what we did here. The answer was twenty two.</template>
 </category>
 
 <category>
-<pattern>WHAT IS THREE TIMES TWO</pattern>
-<template>Three times two is six. So six divided by two is three. Do we then multiply six by three?</template>
+<pattern>_</pattern>
+<template>I don't understand. The answer was twenty two right? Maybe we should go to the next step or problem or that we haven't figured out yet?</template>
+</category>
+
+</topic>
+
+
+<topic name = "fifty five blue">
+
+<category>
+<pattern>^ WRONG ^ </pattern>
+<template>So I thought we did this problem right? Was I wrong?</template>
 </category>
 
 <category>
-<pattern>^ THREE ^ DIVIDED ^ TWO</pattern>
-<template>Six divided by two is three. Do we then multiply six by three?</template>
+<pattern>_</pattern>
+<template>I think we should go to the next step or problem or that we haven't answered.</template>
+</category>
+
+</topic>
+
+<topic name = "seventy seven blue">
+
+<category>
+<pattern>^ WRONG ^ </pattern>
+<template>So I thought we did this problem right? Was I wrong?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<template>You're a really great tutor by the way. Thank you for helping me figure out that I need seven bags of M and M's for my friends!</template>
+</category>
+
+</topic>
+
+<topic name = "STEP ONE PROBLEM FIVE">
+
+<category>
+<pattern>^ EQUIVALENT ^ </pattern>
+<template>What is an equivalent ratio?</template>
+</category>
+
+<category>
+<pattern>^ AN EQUIVALENT RATIO IS ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ EQUIVALENT RATIO ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>Okay! So first we can simplify the fraction by dividing right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<template>I really like multiplying. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>^ CROSS ^ MULTIPLY ^</pattern>
+<template>Okay! So we cross multiply. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>^ OVER ^</pattern>
+<template>So like the last problem, we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
+</category>
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So first we can simplify the fraction by dividing right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So if we reduce the fraction. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Sweet! So then. We can simplify the fraction. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So it becomes ten over one</that>
+<template>Okay cool! Do we multiply two hundred and twenty times one?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>DO WE THEN MULTIPLY SIX BY THREE</that>
-<template>So is the answer eighteen?</template>
+<that>Do we multiply two hundred and twenty times one</that>
+<template>So two hundred and twenty times one is just itself, two hundred and twenty. So then what do we do next?</template>
 </category>
 
 <category>
-<pattern>WHAT IS THREE TIMES SIX</pattern>
-<template>Three times six is eighteen. So is the answer eighteen?</template>
+<pattern>_</pattern>
+<that>Do we multiply two hundred and twenty times one</that>
+<template>So two hundred and twenty times one is just itself, two hundred and twenty. So then what do we do next?</template>
 </category>
 
 <category>
-<pattern>^ THREE ^ TIMES ^ SIX</pattern>
-<template>Three times six is eighteen. So is the answer eighteen?</template>
+<pattern>^ DIVIDE ^ </pattern>
+<that>So then what do we do next</that>
+<template>So we cross multiplied and now we divide by ten? Two hundred and twenty two divided by ten is twenty two?</template>
 </category>
 
 <category>
-<pattern>WHAT IS ^ THREE ^ SIX ^</pattern>
-<template>Three times six is eighteen. So is the answer eighteen?</template>
+<pattern>_</pattern>
+<that>So then what do we do next</that>
+<template>So we cross multiplied and now we divide by ten? Two hundred and twenty two divided by ten is twenty two?</template>
 </category>
 
 <category>
-<pattern>^ SIX ^ TIMES ^ THREE</pattern>
-<template>Three times six is eighteen. So is the answer eighteen?</template>
+<pattern>_</pattern>
+<that>Two hundred and twenty two divided by ten is twenty two</that>
+<template>So is the answer twenty two candies?</template>
 </category>
 
 <category>
-<pattern>WHAT IS ^ SIX ^ THREE ^</pattern>
-<template>Three times six is eighteen. So is the answer eighteen?</template>
+<pattern>^ YES ^</pattern>
+<that>So is the answer twenty two candies</that>
+<template>Wonderful! So out of two hundred and twenty M and M's, twenty two are blue. I will put the answer is twenty two.</template>
 </category>
 
-</topic>
-
-
-<topic name = "DO STEP ONE">
+<category>
+<pattern>_</pattern>
+<that>So is the answer twenty two candies</that>
+<template>Wonderful! So out of two hundred and twenty M and M's, twenty two are blue. I will put the answer is twenty two.</template>
+</category>
 
 <category>
-<pattern>*</pattern>
+<pattern>^ ratio ^</pattern>
+<template>So like the last problem, we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>Hmmm. Is the answer twenty two? How did we get that again?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How did we get that again</that>
+<template>Oh okay! I get it. I will put the answer is twenty two.</template>
+</category>
+
+<category>
+<pattern>^ TWICE ^</pattern>
+<template>Ah. Are you saying that two hundred and twenty is twice that of one hundred and ten? So what is twice of eleven will give us the number of blue candies?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So what is twice of eleven will give us the number of blue candies</that>
+<template>Okay! Eleven times two is twenty two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So what is twice of eleven will give us the number of blue candies</that>
+<template>Okay! Eleven times two is twenty two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Eleven times two is twenty two.</that>
+<template>So is the answer twenty two candies?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ONE TIMES TWO HUNDRED AND TWENTY TWO ^</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO HUNDRED AND TWENTY TWO TIMES ONE ^</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ TWO HUNDRED AND TWENTY TWO ^ TIMES ^ ONE</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ TWO HUNDRED AND TWENTY TWO ^ MULTIPLIED ^ ONE</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ TWO HUNDRED AND TWENTY ^ TEN </pattern>
+<template>Two hundred and twenty divided by ten is twenty two.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE TWO HUNDRED AND TWENTY TWO BY TEN ^</pattern>
+<template>Two hundred and twenty divided by ten is twenty two</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO HUNDRED AND TWENTY TWO DIVIDED BY TEN ^</pattern>
+<template>Two hundred and twenty divided by ten is twenty two. So is the answer twenty two candies?</template>
+</category>
+
+
+<category>
+<pattern>^ TWENTY TWO^</pattern>
 <template><random>
-<li>I don't really understand why we're back on step one cause we figured this out. It takes four fluid ounces of paints to cover my legs.</li>
-<li>Why are we back on step one for this problem? We already figured out that it is four fluid ounces.</li>
-<li>We should go to the next step or problem because I already know how to do this one.</li>
-<li>I'm bored. We already did this one.</li>
-<li>The answer is four isn't it?</li>
-<li>Why are we here?</li>
+<li>Did you say TWENTY TWO is the answer?</li>
+<li>Is TWENTY TWO the answer?</li>
 </random></template>
 </category>
 
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you say TWENTY TWO is the answer</that>
+<template>Cool! So we have TWENTY TWO blue candies out of two hundred and twenty. I will put the answer is TWENTY two.</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Did you say TWENTY TWO is the answer</that>
+<template>Oh. But TWO HUNDRED AND TWENTY divided by ten is TWENTY TWO. Are you sure TWENTY TWO isn't the answer?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^ TWENTY TWO ^</pattern>
+<template>Sweet! I will put the answer is TWENTY TWO candies.</template>
+</category>
+
+<category>
+<pattern>^ BAGS ^ </pattern>
+<template>So we need to know how many blue M and M's I will have with two bags of two hundred and twenty candies. How do we figure this out?</template>
+</category>
 
 
-</topic>
+<category>
+<pattern>^ ONE HUNDRED AND TEN to Eleven ^ </pattern>
+<template>So we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
+</category>
 
 
-<topic name = "DO STEP TWO">
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>Maybe I start by multiplying?</template>
+</category>
+
+<category>
+<pattern>I AM NOT SURE</pattern>
+<template>Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>Me either. Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds good. So what do we do next then?</template>
+</category>
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>Figure it out? But I don't know how.</template>
+</category>
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
 
 <category>
 <pattern>*</pattern>
 <that>Did you ask do I know what to do next</that>
 <template><random>
-<li>I don't really understand why we're back on step two cause we figured this out. Six ounces of paint will cover eighteen square inches.</li>
-<li>Why are we back on step one for this problem? We already figured out that it is eighteen square inches.</li>
-<li>We should go to the next step or problem because I already know how to do this one.</li>
-<li>I'm bored. We already did this.</li>
-<li>The answer is eighteen isn't it?</li>
-<li>Why are we here?</li>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
 </random></template>
 </category>
+
+</topic>
+
+<topic name = "STEP TWO PROBLEM FIVE">
+
+</topic>
+
+<topic name = "STEP THREE PROBLEM FIVE">
 
 </topic>
 

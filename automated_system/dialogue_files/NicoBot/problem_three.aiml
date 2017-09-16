@@ -148,6 +148,41 @@
 
 <topic name = "MY WAY THERE">
 
+
+<category>
+<pattern>^ ONE ^</pattern>
+<template><random>
+<li>Ok so I can ride my bike ten miles in one hour. But I'm not sure how I use that knowledge with the two point five. What should I do with the one? </li>
+<li>Ok I know I can ride my bike ten miles in one hour. But how do I use the one to figure out how far I can go in two point five hours? What should I do with the one?</li>
+</random></template>
+</category>
+
+
+<category>
+<pattern>^ MULTIPLY ^ </pattern>
+<that>What should I do with the one</that>
+<template>Oh okay. We multiply! One times two point five is two point five. Then what? Something with the ten?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>What should I do with the one</that>
+<template>Awesome. So we know one times two point five is two point five. And ten times two point five is twenty five.</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>What should I do with the one</that>
+<template>Awesome. One times two point five is two point five. Then what? Something with the ten?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What should I do with the one</that>
+<template>I know that one hour times two point five is two point five hours. Then what? Something with the ten?</template>
+</category>
+
+
 <category>
 <pattern>^ TEN ^</pattern>
 <template><random>
@@ -157,9 +192,9 @@
 </category>
 
 <category>
-<pattern>^ MULTIPLY ^ TEN ^ </pattern>
+<pattern>^ MULTIPLY ^ </pattern>
 <that>What should I do</that>
-<template>Oh okay. We multiply! Do we multiply ten by two point five? </template>
+<template>Oh okay. We multiply! One times two point five is two point five. So then. Do we multiply ten by two point five? </template>
 </category>
 
 <category>
@@ -206,28 +241,67 @@
 </category>
 
 <category>
+<pattern>_</pattern>
+<that>Can you explain more</that>
+<template>Oh. Okay so it makes sense to me that we would multiply ten times two point five because one times two point five is two point five.</template>
+</category>
+
+
+<category>
 <pattern>*</pattern>
 <that>What should I do?</that>
-<template>Oh okay. I think we should multiply? Do we multiply ten by two point five? </template>
+<template>Oh okay. I think we should multiply?</template>
 </category>
+
+
+<category>
+<pattern>^ TEN ^ </pattern>
+<that>I think we should multiply</that>
+<template>Can you explain why we multiply ten by two point five?</template>
+</category>
+
+<category>
+<pattern>^ ONE ^ </pattern>
+<that>I think we should multiply</that>
+<template>Can you explain why we multiply one by two point five?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>I think we should multiply</that>
+<template>Do we multiply ten by two point five?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Can you explain why we multiply one by two point five</that>
+<template>Oh okay that makes sense! And so then. Do we multiply ten by two point five?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Can you explain why we multiply ten by two point five</that>
+<template>Oh okay that makes sense! Then the answer is twenty five?</template>
+</category>
+
 
 <category>
 <pattern>*</pattern>
 <that>Do we multiply ten by two point five</that>
-<template>Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?</template>
+<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five?</template>
 </category>
 
 
 <category>
 <pattern>^ YES ^ </pattern>
-<that>Then the answer is one hundred and fifty</that>
-<template>So in two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty.</template>
+<that>Then the answer is twenty five</that>
+<template>So in two and a half hours, I can bike twenty five miles. Wow thats a lot! I will put the answer is twenty five.</template>
 </category>
 
 <category>
 <pattern>_</pattern>
-<that>Then the answer is one hundred and fifty</that>
-<template>In two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty.</template>
+<that>Then the answer is twenty five</that>
+<template>So in two and a half hours, I can bike twenty five miles. Wow thats a lot! I will put the answer is twenty five.</template>
 </category>
 
 <category>
@@ -242,114 +316,120 @@
 
 <category>
 <pattern>^ TWO AND A HALF ^</pattern>
-<template>After two and a half hours, how far will I driven.  Do I have to multiply the two point five? By what?</template>
+<template>After two and a half hours, how far will I have ridden? What should I do?</template>
 </category>
 
 
 <category>
-<pattern>^ MULTIPLY ^ </pattern>
+<pattern>^ TEN ^ </pattern>
 <that>BY WHAT</that>
-<template>Oh okay. We multiply sixty by two point five? </template>
+<template>Oh okay. We multiply ten by two point five? </template>
 </category>
 
+
+<category>
+<pattern>^ ONE ^ </pattern>
+<that>BY WHAT</that>
+<template>Oh okay. We multiply ten by two point five? </template>
+</category>
 
 <category>
 <pattern>^ ANSWER ^</pattern>
 <that>BY WHAT</that>
-<template>Awesome. So we multiply sixty by two point five? Then the answer is one hundred and fifty?</template>
+<template>Awesome. So we multiply ten by two point five? Then the answer is twenty five?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
 <that>BY WHAT</that>
-<template>Awesome. So we multiply sixty by two point five? Then the answer is one hundred and fifty? </template>
+<template>Awesome. So we multiply ten by two point five? Then the answer is twenty five? </template>
 </category>
 
 <category>
 <pattern>*</pattern>
 <that>BY WHAT</that>
-<template>Awesome. So we multiply sixty by two point five? Then the answer is one hundred and fifty? </template>
+<template>Awesome. So we multiply ten by two point five? Then the answer is twenty five? </template>
 </category>
 
 <category>
-<pattern>^ ONE HUNDRED FIFTY^</pattern>
+<pattern>^ twenty ^</pattern>
 <template><random>
-<li>Did you say one hundred and fifty is the answer?</li>
-<li>Is one hundred and fifty the answer?</li>
+<li>Did you say twenty five is the answer?</li>
+<li>Is twenty five the answer?</li>
 </random></template>
 </category>
 
 <category>
-<pattern>^ ONE HUNDRED AND FIFTY^</pattern>
+<pattern>^ twenty five ^</pattern>
 <template><random>
-<li>Did you say one hundred and fifty is the answer?</li>
-<li>Is one hundred and fifty the answer?</li>
+<li>Did you say twenty five is the answer?</li>
+<li>Is twenty five the answer?</li>
 </random></template>
 </category>
 
 <category>
 <pattern>^ 150 ^</pattern>
 <template><random>
-<li>Did you say one hundred and fifty is the answer?</li>
-<li>Is one hundred and fifty the answer?</li>
+<li>Did you say twenty five is the answer?</li>
+<li>Is twenty five the answer?</li>
 </random></template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>Did you say one hundred and fifty is the answer</that>
-<template>So in two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty .</template>
+<that>Did you say twenty five is the answer</that>
+<template>So in two and a half hours, I can bike twenty five miles. I will put the answer is twenty five .</template>
 </category>
 
 <category>
 <pattern>^ NO ^</pattern>
-<that>Did you say one hundred and fifty is the answer</that>
-<template>Are you sure one hundred and fifty isn't the answer? It seems like it should be to me.</template>
+<that>Did you say twenty five is the answer</that>
+<template>Are you sure twenty five isn't the answer? It seems like it should be to me.</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>Is one hundred and fifty the answer</that>
-<template>So in two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty .</template>
+<that>Is twenty five the answer</that>
+<template>So in two and a half hours, I can bike twenty five miles. I will put the answer is twenty five .</template>
 </category>
 
 <category>
 <pattern>^ NO ^</pattern>
-<that>Is one hundred and fifty the answer</that>
-<template>Are you sure one hundred and fifty isn't the answer? It seems like it should be to me.</template>
+<that>Is twenty five the answer</that>
+<template>Are you sure twenty five isn't the answer? It seems like it should be to me.</template>
 </category>
 <category>
 
 <pattern>*</pattern>
-<that>Did you say one hundred and fifty is the answer</that>
-<template>So in two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty.</template>
+<that>Did you say twenty five is the answer</that>
+<template>So in two and a half hours, I can bike twenty five miles. I will put the answer is twenty five.</template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>Is one hundred and fifty the answer</that>
-<template>So in two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty .</template>
+<that>Is twenty five the answer</that>
+<template>So in two and a half hours, I can bike twenty five miles. I will put the answer is twenty five .</template>
 </category>
 
 
 <category>
-<pattern>^ ANSWER ^ ONE HUNDRED^</pattern>
-<template>Sweet! Is one hundred and fifty the answer?</template>
+<pattern>^ ANSWER ^ twenty^</pattern>
+<template>Sweet! Is twenty five the answer?</template>
 </category>
 
 <category>
 <pattern>DO YOU NOT KNOW</pattern>
-<template>Maybe I look at the relationship the one and the two point five and relate that to the sixty?</template>
+<template>Maybe I look at the relationship the one and the two point five and relate that to the ten?</template>
 </category>
 
 <category>
 <pattern>I AM NOT SURE</pattern>
-<template>Maybe I look at the relationship the one and the two point five and relate that to the sixty?</template>
+<template>Maybe I look at the relationship the one and the two point five and relate that to the ten?</template>
 </category>
 
 <category>
 <pattern>I DO NOT KNOW</pattern>
-<template>Maybe I look at the relationship the one and the two point five and relate that to the sixty?</template>
+<template>Maybe I look at the relationship the one and the two point five and relate that to the ten?</template>
 </category>
 
 <category>
@@ -395,38 +475,38 @@
 
 <category>
 <pattern>^ ANSWER ^</pattern>
-<template>Is one hundred and fifty the answer?</template>
+<template>Is twenty five the answer?</template>
 </category>
 
 <category>
 <pattern>WHAT IS ONE ^ TWO ^</pattern>
-<template>Two point five times ONE is two point five. But how do we figure out the answer?</template>
+<template>ONE times two point five is two point five. But how do we figure out the answer?</template>
 </category>
 
 <category>
-<pattern>WHAT IS SIXTY TIMES 2.5</pattern>
-<template>Sixty times two point five is one hundred and fifty. Is one hundred and fifty the answer?</template>
+<pattern>WHAT IS ten TIMES 2.5</pattern>
+<template>ten times two point five is twenty five. Is twenty five the answer?</template>
 </category>
 
 <category>
-<pattern>WHAT IS SIXTY TIMES TWO POINT FIVE</pattern>
-<template>Sixty times two point five is one hundred and fifty. Is one hundred and fifty the answer?</template>
+<pattern>WHAT IS ten TIMES TWO POINT FIVE</pattern>
+<template>ten times two point five is twenty five. Is twenty five the answer?</template>
 </category>
 
 
 <category>
-<pattern>WHAT IS ^ SIXTY ^ </pattern>
-<template>sixty times two point five is one hundred and fifty. Is one hundred and fifty the answer?</template>
+<pattern>WHAT IS ^ ten ^ </pattern>
+<template>ten times two point five is twenty five. Is twenty five the answer?</template>
 </category>
 
 <category>
-<pattern>^ SIXTY MILES ^ ONE HOUR ^</pattern>
-<template>I can drive sixty miles in one hour. That's true; so then I need to figure out how far I can drive in two and a half hours. Do we multiply sixty by two point five?</template>
+<pattern>^ ten MILES ^ ONE HOUR ^</pattern>
+<template>I can bike ten miles in one hour. That's true; so then I need to figure out how far I can bike in two and a half hours. What do we do?</template>
 </category>
 
 <category>
 <pattern>^ HOW MANY MILES CAN YOU GO IN ONE HOUR ^</pattern>
-<template>So we know I can drive sixty miles in one hour. But the question is far can I go in two point five hours. I'm not sure what to do.</template>
+<template>So we know I can bike ten miles in one hour. But the question is far can I go in two point five hours. I'm not sure what to do.</template>
 </category>
 
 </topic>
@@ -435,161 +515,170 @@
 
 <category>
 <pattern>^ HOW MANY MILES CAN YOU GO IN ONE HOUR ^</pattern>
-<template>So we know I can drive sixty miles in one hour. But the question is how long will I have been driving after three hundred miles. I'm not sure what to do.</template>
+<template>So we know I can bike ten miles in one hour. But the question is how long will I have been biking after thirty miles. I'm not sure what to do.</template>
 </category>
 
 
 <category>
-<pattern>^ SIXTY MILES ^ ONE HOUR ^</pattern>
-<template>So we know I can drive sixty miles in one hour. But the question is how long will I have been driving after three hundred miles. I'm not sure what to do.</template>
+<pattern>^ ten MILES ^ ONE HOUR ^</pattern>
+<template>We used that I can bike ten miles in one hour in step one. But how long will I have been biking after thirty miles? I'm not sure what to do.</template>
 </category>
 
 <category>
-<pattern>^ SIXTY ^ ONE ^</pattern>
-<template>So we know I can drive sixty miles in one hour. But the question is how long will I have been driving after three hundred miles. I'm not sure what to do.</template>
-</category>
-
-
-<category>
-<pattern>^ TWICE ^</pattern>
-<template>Three hundred is twice that of one hundred and fifty. Do we twice of two point five?</template>
+<pattern>^ ten ^ ONE ^</pattern>
+<template>So we know I can bike ten miles in one hour. But the question is how long will I have been biking after thirty miles. I'm not sure what to do.</template>
 </category>
 
 
 <category>
-<pattern>^ THREE HUNDRED ^</pattern>
-<template>I guess three hundred is twice one hundred and fifty? So I've driven twice as long at this point. Do we then do twice of two point five?</template>
+<pattern>^ THREE ^</pattern>
+<template>thirty is three times ten. But how do we use that to get the number of hours I'll have been riding?</template>
+</category>
+
+
+<category>
+<pattern>^ thirty ^</pattern>
+<template>I will have been biking for thirty miles. So long! Three times ten is thirty. But then what do we do?</template>
 </category>
 
 <category>
-<pattern>^ YES ^ </pattern>
-<that>Do we then do twice of two point five</that>
-<template>Oh okay. So is the answer five? </template>
+<pattern>^ MULTIPLY ^ </pattern>
+<that>But then what do we do</that>
+<template>We multiply one times three? Why?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>But then what do we do</that>
+<template>We multiply one times three? Why?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Why</that>
+<template>Oh okay! I think that makes sense. So is the answer three? </template>
 </category>
 
 <category>
 <pattern>^ WE DO ^ </pattern>
-<that>Do we then do twice of two point five</that>
-<template>Oh okay. So is the answer five? </template>
+<that>But how do we use that to get the number of hours I'll have been riding</that>
+<template>So ten times three is thirty. Do we multiply one times three? Why? </template>
 </category>
 
-<category>
-<pattern>^ TWICE ^</pattern>
-<that>Do we then do twice of two point five</that>
-<template>Oh okay. So is the answer five? </template>
-</category>
-
-<category>
-<pattern>^ ANSWER ^</pattern>
-<that>Do we then do twice of two point five</that>
-<template>Two point five times two is five. So is the answer five? </template>
-</category>
 
 <category>
 <pattern>*</pattern>
-<that>Do we then do twice of two point five</that>
-<template>Oh okay. So is the answer five? </template>
+<that>But how do we use that to get the number of hours I'll have been riding</that>
+<template>So ten times three is thirty. Do we multiply one times three? Why? </template>
 </category>
 
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>So is the answer five</that>
-<template>Great! So I will have been driving for five hours after three hundred miles. I will put the answer is five.</template>
+<that>So is the answer three</that>
+<template>Great! So I will have been biking for three hours after thirty miles. I will put the answer is three.</template>
 </category>
 
 
 <category>
 <pattern>*</pattern>
-<that>So is the answer five</that>
-<template>Great! So I will have been driving for five hours after three hundred miles. I will put the answer is five.</template>
+<that>So is the answer three</that>
+<template>Great! So I will have been biking for three hours after thirty miles. I will put the answer is three.</template>
 </category>
 
 
 <category>
 <pattern>^ NO ^</pattern>
-<that>So is the answer five</that>
-<template>Oh okay. I thought the answer is five. Are you sure?</template>
+<that>So is the answer three</that>
+<template>Oh okay. I thought the answer is three. Are you sure?</template>
 </category>
 
 <category>
-<pattern>^ HALF ^</pattern>
-<template>One hundred and fifty is half of three hundred. So I've driven twice as long at three hundred miles. And two point five is half of five. So is the answer five?</template>
+<pattern>^ three times ^</pattern>
+<template>So I've biken three times as long at thirty miles. Do we multiply one times three? Why?</template>
 </category>
 
 
 <category>
 <pattern>^ TWO POINT FIVE ^</pattern>
-<template>So after two and a half hours, I will have driven one hundred and fifty miles. That is half of three hundred?
+<template>So after two and a half hours, I will have biken twenty five miles. Do we care about that? Why?
 </template>
 </category>
 
-<category>
-<pattern>^ YES ^</pattern>
-<that>That is half of three hundred</that>
-<template>Do we multiply two point five times two?</template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>That is half of three hundred</that>
-<template>Do we multiply two point five times two?</template>
-</category>
 
 <category>
 <pattern>^ MULTIPLY ^ </pattern>
-<that>Do we multiply two point five times two</that>
-<template>Oh okay. We MULTIPLY! Do we MULTIPLY two point five times two? </template>
+<that>Why</that>
+<template>Oh okay. We MULTIPLying makes sense. We multiply ten times three to get thirty. and then one times three to get three. </template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>Do we multiply two point five times two</that>
-<template>So two point five times two is five. So is the answer five?</template>
+<that>Are you sure</that>
+<template>Okay but I don't understand.</template>
 </category>
 
 <category>
 <pattern>^ ANSWER ^</pattern>
-<that>Do we multiply two point five times two</that>
-<template>So two point five times two is five. So is the answer five?</template>
-</category>
-
-
-<category>
-<pattern>^ FIVE ^</pattern>
-<template>So is the answer five?</template>
+<that>Are you sure</that>
+<template>I think the answer is three. I will put the answer is three.</template>
 </category>
 
 
 <category>
 <pattern>^ DIVIDE ^ THREE ^ ONE ^</pattern>
-<template>Three hundred divided by one hundred and fifty is two. Then do we multiply?</template>
+<template>Three divided by one is three.</template>
 </category>
 
 <category>
-<pattern>^ MULTIPLY ^ FIVE ^</pattern>
-<template>If we multiply two point five times two, that gives us five. So is the answer five?</template>
+<pattern>^ ONE ^ MULTIPLIED ^ THREE ^</pattern>
+<template>One times three is three.</template>
 </category>
 
 <category>
-<pattern>^ ANSWER ^ FIVE ^</pattern>
-<template>Sweet! So is the answer five?</template>
+<pattern>^ MULTIPLY ^ ONE ^ ^</pattern>
+<template>If we multiply one by three, we get three.</template>
 </category>
 
 <category>
-<pattern>^ MULTIPLY ^ TWO  ^</pattern>
-<template>If we multiply two point five times two, that gives us five. So is the answer five?</template>
+<pattern>^ MULTIPLY ^ THREE ^</pattern>
+<template>If we multiply one by three, we get three. So is the answer three?</template>
+</category>
+
+<category>
+<pattern>What is ten times three</pattern>
+<template>Ten times three is thirty.</template>
+</category>
+
+<category>
+<pattern>^ ten times three ^ </pattern>
+<template>Ten times three is thirty</template>
+</category>
+
+<category>
+<pattern>^ One times three ^ </pattern>
+<template>One times three is three</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^ THREE ^</pattern>
+<template>Sweet! So is the answer three?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER^</pattern>
+<template>Sweet! So is the answer three?</template>
 </category>
 
 
 <category>
 <pattern>DO YOU NOT KNOW</pattern>
-<template>Maybe I start by dividing three hundred by one hundred and fifty?</template>
+<template>Maybe I start by dividing thirty by ten?</template>
 </category>
 
 <category>
 <pattern>I AM NOT SURE</pattern>
-<template>Maybe I should divide three hundred by one hundred and fifty.</template>
+<template>Maybe I should divide thirty by ten.</template>
 </category>
 
 <category>
@@ -616,9 +705,9 @@
 <pattern>^ YES ^</pattern>
 <that>Did you ask do I know what to do next</that>
 <template><random>
-<li>No not really. We divide three hundred by one hundred and fifty?</li>
-<li>I think. One hundred and fifty is half of three hundred. So what does that mean?</li>
-<li>Do we divide three hundred by something?</li>
+<li>No not really. We divide thirty by ten?</li>
+<li>I think. Thirty is a three times ten. So what does that mean?</li>
+<li>Do we divide thirty by something?</li>
 <li>I think we divide?</li>
 <li>Can't you just tell me?</li>
 <li>Uh I don't know</li>
@@ -629,72 +718,33 @@
 <pattern>*</pattern>
 <that>Did you ask do I know what to do next</that>
 <template><random>
-<li>No not really. We divide three hundred by one hundred and fifty?</li>
-<li>I think. One hundred and fifty is half of three hundred. So what does that mean?</li>
-<li>Do we divide three hundred by something?</li>
+<li>No not really. We divide thirty by ten?</li>
+<li>I think. thirty is three times ten. So what does that mean?</li>
+<li>Do we divide thirty by something?</li>
 <li>I think we divide?</li>
 <li>Can't you just tell me?</li>
 <li>Uh I don't know</li>
 </random></template>
 </category>
 
-<category>
-<pattern>^ ANSWER ^</pattern>
-<template>Is five the answer?</template>
-</category>
 
 <category>
-<pattern>WHAT IS two TIMES two point five</pattern>
-<template>Five. Is five the answer?</template>
-</category>
-
-
-<category>
-<pattern>^ THREE HUNDRED ^ SIXTY ^</pattern>
-<template>Well three hundred is five times greater than sixty. So does that mean I've been driving for five times longer than one hour?</template>
+<pattern>^ thirty ^ ten ^</pattern>
+<template>Well thirty is three times greater than ten. So does that mean I've been biking for three times longer than one hour?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>So does that mean I have been driving for five times longer than one hour</that>
-<template>Is five the answer?</template>
+<that>So does that mean I have been biking for three times longer than one hour</that>
+<template>Is three the answer?</template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>So does that mean I have been driving for five times longer than one hour</that>
-<template>Is five the answer?</template>
+<that>So does that mean I have been biking for three times longer than one hour</that>
+<template>Is three the answer?</template>
 </category>
 
-<category>
-<pattern>WHAT IS TWO point five TIMES two</pattern>
-<template>Five. Is five the answer?</template>
-</category>
-
-<category>
-<pattern>WHAT IS TWO ^ TWO</pattern>
-<template>Five. Is five the answer?</template>
-</category>
-
-<category>
-<pattern>^ YES ^</pattern>
-<that>Is five the answer</that>
-<template>Great! I will put the answer is five.</template>
-</category>
-
-
-<category>
-<pattern>*</pattern>
-<that>Is five the answer</that>
-<template>Great! I will put the answer is five.</template>
-</category>
-
-
-<category>
-<pattern>^ NO ^</pattern>
-<that>Is five the answer</that>
-<template>Oh okay. I thought the answer is five. Are you sure?</template>
-</category>
 
 
 </topic>
@@ -704,76 +754,92 @@
 
 <category>
 <pattern>^ HOW MANY MILES CAN YOU GO IN ONE HOUR ^</pattern>
-<template>So we know I can drive sixty miles in one hour. I'm not sure what to do to figure out how far I've gone in seven hours.</template>
+<template>So we know I can bike ten miles in one hour. I'm not sure what to do to figure out how far I've gone in six hours.</template>
 </category>
 
 <category>
-<pattern>^ HOW MANY MILES CAN YOU GO IN SEVEN HOURS ^</pattern>
-<template>Do I multiply seven by sixty?</template>
+<pattern>^ HOW MANY MILES CAN YOU GO IN six HOURS ^</pattern>
+<template>I'm not sure how to do this. Do I multiply six by ten? Why would I do that?</template>
 </category>
 
 <category>
-<pattern>^ HOW MANY MILES CAN YOU GO IN 7 HOURS ^</pattern>
-<template>Do I multiply seven by sixty?</template>
+<pattern>^ HOW MANY MILES CAN YOU GO IN six HOURS ^</pattern>
+<template>Do I multiply six by ten? Why should I do that?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>Do I multiply seven by sixty</that>
-<template>So that's four hundred and twenty. Is four hundred and twenty the answer? </template>
+<that>Why should I do that</that>
+<template>So six times ten is sixty. Is sixty the answer? </template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>Do I multiply seven by sixty</that>
-<template>So that's four hundred and twenty. Is four hundred and twenty the answer? </template>
+<that>Why should I do that</that>
+<template>So six times ten is that's sixty. Is sixty the answer? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Why should I do that</that>
+<template>So six times ten is that's sixty. Is sixty the answer? </template>
 </category>
 
 
-
 <category>
-<pattern>^ SEVEN ^</pattern>
+<pattern>^ six ^</pattern>
 <template><random>
-<li>So on the table it will have been 7 hours of traveling. How do we use the seven to get the number of miles?</li>
-<li>What do we do with the seven?</li>
+<li>So on the table it will have been six hours of traveling. How do we use the six to get the number of miles?</li>
+<li>I will have been riding my bike for six hours. How do we use the six to get the number of miles?</li>
 </random></template>
 </category>
 
 <category>
 <pattern>^ MULTIPLY ^ </pattern>
-<that>How do we use the seven to get the number of miles</that>
-<template>Oh right, like with two point five hours. We MULTIPLY! Do we MULTIPLY sixty times seven? </template>
+<that>How do we use the six to get the number of miles</that>
+<template>Oh right, like with two point five hours. We MULTIPLY! Do we MULTIPLY ten times six? Why would we do that?</template>
 </category>
 
 <category>
 <pattern>^ TIMES ^ </pattern>
-<that>How do we use the seven to get the number of miles</that>
-<template>Oh okay. We MULTIPLY! Do we MULTIPLY sixty times seven? </template>
+<that>How do we use the six to get the number of miles</that>
+<template>Oh okay. We MULTIPLY! Do we MULTIPLY ten times six? Why would we do that?</template>
 </category>
 
 <category>
+<pattern>^ SIX ^ TIMES ^ TEN ^</pattern>
+<template>Oh okay. We MULTIPLY! Do we MULTIPLY ten times six?</template>
+</category>
+
+<category>
+<pattern>^ SIX ^ TEN ^</pattern>
+<template>Oh okay. We MULTIPLY! Do we MULTIPLY ten times six?</template>
+</category>
+
+
+<category>
 <pattern>^ YES ^</pattern>
-<that>Do we MULTIPLY sixty times seven</that>
-<template>So that's four hundred and twenty. Is four hundred and twenty the answer? </template>
+<that>Do we MULTIPLY ten times six</that>
+<template>So that's sixty. Is sixty the answer? </template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>Do we MULTIPLY sixty times seven</that>
-<template>So that's four hundred and twenty. Is four hundred and twenty the answer? </template>
+<that>Do we MULTIPLY ten times six</that>
+<template>So that's sixty. Is sixty the answer? </template>
 </category>
 
 
 <category>
 <pattern>^ ANSWER ^</pattern>
-<that>How do we use the seven to get the number of miles</that>
-<template>So we can use seven to get the answer? Do we multiply?</template>
+<that>How do we use the six to get the number of miles</that>
+<template>So we can use six to get the answer? Do we multiply?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
 <that>Do we multiply</that>
-<template>Seven times sixty is four hundred and twenty. Is four hundred and twenty the answer? </template>
+<template>six times ten is sixty. Is sixty the answer? </template>
 </category>
 
 <category>
@@ -784,83 +850,83 @@
 
 <category>
 <pattern>^ YES ^ </pattern>
-<that>Is four hundred and twenty the answer</that>
-<template>I get it! After seven hours I will have driven four hundred and twenty miles. I will put the answer is four hundred and twenty the answer.</template>
+<that>Is sixty the answer</that>
+<template>I get it! After six hours I will have biken sixty miles. I will put the answer is sixty the answer.</template>
 </category>
 
 <category>
 <pattern>_</pattern>
-<that>Is four hundred and twenty the answer</that>
-<template>I get it! After seven hours I will have driven four hundred and twenty miles. I will put the answer is four hundred and twenty the answer.</template>
+<that>Is sixty the answer</that>
+<template>I get it! After six hours I will have biken sixty miles. I will put the answer is sixty the answer.</template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>How do we use the seven to get the number of miles</that>
+<that>How do we use the six to get the number of miles</that>
 <template>Oh okay. Can you explain more maybe? </template>
 </category>
 
 
 <category>
 <pattern>^ MULTIPLY ^ </pattern>
-<that>What do we do with the seven</that>
-<template>Oh okay. We MULTIPLY! Do we MULTIPLY sixty times seven? </template>
+<that>What do we do with the six</that>
+<template>Oh okay. We MULTIPLY! Do we MULTIPLY ten times six? </template>
 </category>
 
 <category>
 <pattern>^ TIMES ^ </pattern>
-<that>What do we do with the seven</that>
-<template>Oh okay. We MULTIPLY! Do we MULTIPLY sixty times seven? </template>
+<that>What do we do with the six</that>
+<template>Oh okay. We MULTIPLY! Do we MULTIPLY ten times six? </template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>How do we use the seven to get the number of miles</that>
-<template>Oh okay. Can you explain? Do we multiply? </template>
+<that>How do we use the six to get the number of miles</that>
+<template>Oh okay. Can you explain? Do we multiply? Why would we do that?</template>
 </category>
 
 <category>
-<pattern>^ FOUR ^</pattern>
+<pattern>^ ANSWER ^</pattern>
 <template><random>
-<li>Did you say FOUR HUNDRED AND TWENTY is the answer?</li>
-<li>Is FOUR HUNDRED AND TWENTY the answer?</li>
+<li>Did you say sixty is the answer?</li>
+<li>Is sixty the answer?</li>
 </random></template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>Did you say FOUR HUNDRED AND TWENTY is the answer</that>
-<template>I get it! After seven hours I will have driven four hundred and twenty miles. I will put the answer is FOUR HUNDRED AND TWENTY.</template>
+<that>Did you say sixty is the answer</that>
+<template>I get it! After six hours I will have biken sixty miles. I will put the answer is sixty.</template>
 </category>
 
 <category>
 <pattern>^ NO ^</pattern>
-<that>Did you say FOUR HUNDRED AND TWENTY is the answer</that>
-<template>But isn't FOUR HUNDRED AND TWENTY the answer?</template>
+<that>Did you say sixty is the answer</that>
+<template>But isn't sixty the answer?</template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>Did you say FOUR HUNDRED AND TWENTY is the answer</that>
-<template>Are you sure FOUR HUNDRED AND TWENTY isn't the answer?</template>
+<that>Did you say sixty is the answer</that>
+<template>Are you sure sixty isn't the answer?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>Is FOUR HUNDRED AND TWENTY the answer</that>
-<template>I get it! After seven hours I will have driven four hundred and twenty miles. I will put the answer is FOUR HUNDRED AND TWENTY.</template>
+<that>Is sixty the answer</that>
+<template>I get it! After six hours I will have biken sixty miles. I will put the answer is sixty.</template>
 </category>
 
 <category>
 <pattern>^ NO ^</pattern>
-<that>Is FOUR HUNDRED AND TWENTY the answer</that>
-<template>But isn't FOUR HUNDRED AND TWENTY the answer?</template>
+<that>Is sixty the answer</that>
+<template>But isn't sixty the answer?</template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>Is FOUR HUNDRED AND TWENTY the answer</that>
-<template>Are you sure FOUR HUNDRED AND TWENTY isn't the answer?</template>
+<that>Is sixty the answer</that>
+<template>Are you sure sixty isn't the answer?</template>
 </category>
 
 <category>
@@ -870,22 +936,22 @@
 
 <category>
 <pattern>^ ANSWER ^ FOUR ^</pattern>
-<template>Sweet! Is four hundred and twenty the answer?</template>
+<template>Sweet! Is sixty the answer?</template>
 </category>
 
 <category>
 <pattern>DO YOU NOT KNOW</pattern>
-<template>Maybe I start by looking at the ratio between one hour and sixty miles?</template>
+<template>Maybe I start by looking at the ratio between one hour and ten miles?</template>
 </category>
 
 <category>
 <pattern>I AM NOT SURE</pattern>
-<template>Maybe what I do is look at the ratio between one hour and sixty miles?</template>
+<template>Maybe what I do is look at the ratio between one hour and ten miles?</template>
 </category>
 
 <category>
 <pattern>I DO NOT KNOW</pattern>
-<template>Maybe what I do is look at the ratio between one hour and sixty miles?</template>
+<template>Maybe what I do is look at the ratio between one hour and ten miles?</template>
 </category>
 
 <category>
@@ -907,8 +973,8 @@
 <pattern>^ YES ^</pattern>
 <that>Did you ask do I know what to do next</that>
 <template><random>
-<li>No not really. In one hour we go sixty miles. So in seven hours we goooo?</li>
-<li>I think. Do we need to multiply the seven by something?</li>
+<li>No not really. In one hour we go ten miles. So in six hours we goooo?</li>
+<li>I think. Do we need to multiply the six by something?</li>
 <li>We divide often but I don't think this ratio calls for dividing but I'm not sure?</li>
 <li>I think we multiply?</li>
 <li>Can't you just tell me?</li>
@@ -920,8 +986,8 @@
 <pattern>*</pattern>
 <that>Did you ask do I know what to do next</that>
 <template><random>
-<li>No not really. In one hour we go sixty miles. So in seven hours we goooo?</li>
-<li>I think. Do we need to multiply the seven by something?</li>
+<li>No not really. In one hour we go ten miles. So in six hours we goooo?</li>
+<li>I think. Do we need to multiply the six by something?</li>
 <li>We divide often but I don't think this ratio calls for dividing but I'm not sure?</li>
 <li>I think we multiply?</li>
 <li>Can't you just tell me?</li>
@@ -931,42 +997,42 @@
 
 <category>
 <pattern>^ ANSWER ^</pattern>
-<template>Is four hundred and twenty the answer?</template>
+<template>Is sixty the answer?</template>
 </category>
 
 <category>
-<pattern>WHAT IS ONE TIMES SEVEN</pattern>
-<template>One times seven is seven.</template>
+<pattern>WHAT IS ONE TIMES six</pattern>
+<template>One times six is six.</template>
 </category>
 
 <category>
-<pattern>WHAT IS SIXTY TIMES SEVEN</pattern>
-<template>Sixty times seven is four hundred and twenty. Is four hundred and twenty the answer?</template>
+<pattern>WHAT IS ten TIMES six</pattern>
+<template>ten times six is sixty. Is sixty the answer?</template>
 </category>
 
 <category>
-<pattern>WHAT IS SEVEN TIMES SIXTY</pattern>
-<template>Sixty times seven is four hundred and twenty. Is four hundred and twenty the answer?</template>
+<pattern>WHAT IS six TIMES ten</pattern>
+<template>ten times six is sixty. Is sixty the answer?</template>
 </category>
 
 <category>
-<pattern>WHAT IS SEVEN ^ SIXTY</pattern>
-<template>Sixty times seven is four hundred and twenty. Is four hundred and twenty the answer?</template>
+<pattern>WHAT IS six ^ ten</pattern>
+<template>ten times six is sixty. Is sixty the answer?</template>
 </category>
 
 <category>
-<pattern>WHAT IS SIXTY ^ SEVEN</pattern>
-<template>Sixty times seven is four hundred and twenty. Is four hundred and twenty the answer?</template>
+<pattern>WHAT IS ten ^ six</pattern>
+<template>ten times six is sixty. Is sixty the answer?</template>
 </category>
 
 <category>
-<pattern>^ SIXTY MILES ^ ONE HOUR ^</pattern>
-<template>So we know I can drive sixty miles in one hour. But the question is how far will I have gone after 7 hours?</template>
+<pattern>^ ten MILES ^ ONE HOUR ^</pattern>
+<template>So we know I can bike ten miles in one hour. But the question is how far will I have gone after six hours?</template>
 </category>
 
 <category>
-<pattern>^ SIXTY ^ ONE ^</pattern>
-<template>So we know I can drive sixty miles in one hour. But the question is how far will I have gone after 7 hours?</template>
+<pattern>^ ten ^ ONE ^</pattern>
+<template>So we know I can bike ten miles in one hour. But the question is how far will I have gone after six hours?</template>
 </category>
 
 </topic>
@@ -975,66 +1041,66 @@
 <topic name = "BACK TO STEP ONE PROBLEM THREE">
 
 <category>
-<pattern>^ SIXTY ^</pattern>
+<pattern>^ ten ^</pattern>
 <template><random>
-<li>What do we do with sixty?</li>
-<li>Do we multiply sixty by two point five?</li>
+<li>What do we do with ten?</li>
+<li>Do we multiply ten by two point five?</li>
 </random></template>
 </category>
 
 <category>
 <pattern>^ MULTIPLY ^ </pattern>
-<that>What do we do with sixty</that>
-<template>Oh okay. We multiply! Do we multiply sixty by two point five? </template>
+<that>What do we do with ten</that>
+<template>Oh okay. We multiply! Do we multiply ten by two point five? </template>
 </category>
 
 <category>
 <pattern>^ ANSWER ^</pattern>
-<that>Do we multiply sixty by two point five</that>
-<template>Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?</template>
+<that>Do we multiply ten by two point five</that>
+<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>Do we multiply sixty by two point five</that>
-<template>Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty? </template>
+<that>Do we multiply ten by two point five</that>
+<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five? </template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>Do we multiply sixty by two point five</that>
-<template>Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty? </template>
+<that>Do we multiply ten by two point five</that>
+<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five? </template>
 </category>
 
 <category>
 <pattern>^ NO ^</pattern>
-<that>Do we multiply sixty by two point five</that>
+<that>Do we multiply ten by two point five</that>
 <template>Oh okay. Can you explain more? </template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>What do we do with sixty</that>
-<template>Oh okay. We multiply! Do we multiply sixty by two point five? </template>
+<that>What do we do with ten</that>
+<template>Oh okay. We multiply! Do we multiply ten by two point five? </template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>Do we multiply sixty by two point five</that>
-<template>Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?</template>
+<that>Do we multiply ten by two point five</that>
+<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five?</template>
 </category>
 
 
 <category>
 <pattern>^ YES ^ </pattern>
-<that>Then the answer is one hundred and fifty</that>
-<template>So in two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty.</template>
+<that>Then the answer is twenty five</that>
+<template>So in two and a half hours, I can bike twenty five miles. I will put the answer is twenty five.</template>
 </category>
 
 <category>
 <pattern>_</pattern>
-<that>Then the answer is one hundred and fifty</that>
-<template>So in two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty.</template>
+<that>Then the answer is twenty five</that>
+<template>So in two and a half hours, I can bike twenty five miles. I will put the answer is twenty five.</template>
 </category>
 
 <category>
@@ -1056,26 +1122,26 @@
 <category>
 <pattern>^ MULTIPLY ^ </pattern>
 <that>What do we do with two point five</that>
-<template>Oh okay. We multiply! Do we multiply sixty by two point five? </template>
+<template>Oh okay. We multiply! Do we multiply ten by two point five? </template>
 </category>
 
 
 <category>
 <pattern>^ ANSWER ^</pattern>
 <that>Do we multiply by two point five</that>
-<template>Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?</template>
+<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
 <that>Do we multiply by two point five</that>
-<template>Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty? </template>
+<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five? </template>
 </category>
 
 <category>
 <pattern>*</pattern>
 <that>Do we multiply by two point five</that>
-<template>Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty? </template>
+<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five? </template>
 </category>
 
 <category>
@@ -1085,84 +1151,84 @@
 </category>
 
 <category>
-<pattern>^ ONE HUNDRED FIFTY^</pattern>
+<pattern>^ twenty FIFTY^</pattern>
 <template><random>
-<li>Did you say one hundred and fifty is the answer?</li>
-<li>Is one hundred and fifty the answer?</li>
+<li>Did you say twenty five is the answer?</li>
+<li>Is twenty five the answer?</li>
 </random></template>
 </category>
 
 <category>
-<pattern>^ ONE HUNDRED AND FIFTY^</pattern>
+<pattern>^ twenty five^</pattern>
 <template><random>
-<li>Did you say one hundred and fifty is the answer?</li>
-<li>Is one hundred and fifty the answer?</li>
+<li>Did you say twenty five is the answer?</li>
+<li>Is twenty five the answer?</li>
 </random></template>
 </category>
 
 <category>
 <pattern>^ 150 ^</pattern>
 <template><random>
-<li>Did you say one hundred and fifty is the answer?</li>
-<li>Is one hundred and fifty the answer?</li>
+<li>Did you say twenty five is the answer?</li>
+<li>Is twenty five the answer?</li>
 </random></template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>Did you say one hundred and fifty is the answer</that>
-<template>So in two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty .</template>
+<that>Did you say twenty five is the answer</that>
+<template>So in two and a half hours, I can bike twenty five miles. I will put the answer is twenty five .</template>
 </category>
 
 <category>
 <pattern>^ NO ^</pattern>
-<that>Did you say one hundred and fifty is the answer</that>
-<template>Are you sure one hundred and fifty isn't the answer? It seems like it should be to me.</template>
+<that>Did you say twenty five is the answer</that>
+<template>Are you sure twenty five isn't the answer? It seems like it should be to me.</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>Is one hundred and fifty the answer</that>
-<template>So in two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty .</template>
+<that>Is twenty five the answer</that>
+<template>So in two and a half hours, I can bike twenty five miles. I will put the answer is twenty five .</template>
 </category>
 
 <category>
 <pattern>^ NO ^</pattern>
-<that>Is one hundred and fifty the answer</that>
-<template>Are you sure one hundred and fifty isn't the answer? It seems like it should be to me.</template>
+<that>Is twenty five the answer</that>
+<template>Are you sure twenty five isn't the answer? It seems like it should be to me.</template>
 </category>
 <category>
 
 <pattern>*</pattern>
-<that>Did you say one hundred and fifty is the answer</that>
-<template>So in two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty.</template>
+<that>Did you say twenty five is the answer</that>
+<template>So in two and a half hours, I can bike twenty five miles. I will put the answer is twenty five.</template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>Is one hundred and fifty the answer</that>
-<template>So in two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty .</template>
+<that>Is twenty five the answer</that>
+<template>So in two and a half hours, I can bike twenty five miles. I will put the answer is twenty five .</template>
 </category>
 
 
 <category>
-<pattern>^ ANSWER ^ ONE HUNDRED^</pattern>
-<template>Sweet! Is one hundred and fifty the answer?</template>
+<pattern>^ ANSWER ^ twenty^</pattern>
+<template>Sweet! Is twenty five the answer?</template>
 </category>
 
 <category>
 <pattern>DO YOU NOT KNOW</pattern>
-<template>Maybe I look at the relationship the one and the two point five and relate that to the sixty?</template>
+<template>Maybe I look at the relationship the one and the two point five and relate that to the ten?</template>
 </category>
 
 <category>
 <pattern>I AM NOT SURE</pattern>
-<template>Maybe I look at the relationship the one and the two point five and relate that to the sixty?</template>
+<template>Maybe I look at the relationship the one and the two point five and relate that to the ten?</template>
 </category>
 
 <category>
 <pattern>I DO NOT KNOW</pattern>
-<template>Maybe I look at the relationship the one and the two point five and relate that to the sixty?</template>
+<template>Maybe I look at the relationship the one and the two point five and relate that to the ten?</template>
 </category>
 
 <category>
@@ -1208,7 +1274,7 @@
 
 <category>
 <pattern>^ ANSWER ^</pattern>
-<template>Is one hundred and fifty the answer?</template>
+<template>Is twenty five the answer?</template>
 </category>
 
 <category>
@@ -1217,19 +1283,19 @@
 </category>
 
 <category>
-<pattern>WHAT IS SIXTY TIMES 2.5</pattern>
-<template>Sixty times two point five is one hundred and fifty. Is one hundred and fifty the answer?</template>
+<pattern>WHAT IS ten TIMES 2.5</pattern>
+<template>ten times two point five is twenty five. Is twenty five the answer?</template>
 </category>
 
 <category>
-<pattern>WHAT IS SIXTY TIMES TWO POINT FIVE</pattern>
-<template>Sixty times two point five is one hundred and fifty. Is one hundred and fifty the answer?</template>
+<pattern>WHAT IS ten TIMES TWO POINT FIVE</pattern>
+<template>ten times two point five is twenty five. Is twenty five the answer?</template>
 </category>
 
 
 <category>
-<pattern>WHAT IS ^ SIXTY ^ </pattern>
-<template>sixty times two point five is one hundred and fifty. Is one hundred and fifty the answer?</template>
+<pattern>WHAT IS ^ ten ^ </pattern>
+<template>ten times two point five is twenty five. Is twenty five the answer?</template>
 </category>
 
 
@@ -1239,8 +1305,8 @@
 
 <topic name = "BACK TO STEP TWO PROBLEM THREE">
 <category>
-<pattern>^ THREE HUNDRED ^</pattern>
-<template>So three hundred is twice one hundred and fifty. Do we then do twice of two point five?</template>
+<pattern>^ thirty ^</pattern>
+<template>So thirty is twice twenty five. Do we then do twice of two point five?</template>
 </category>
 
 <category>
@@ -1296,29 +1362,29 @@
 
 <category>
 <pattern>^ HALF ^</pattern>
-<template>One hundred and fifty is half of three hundred. And two point five is half of five. So is the answer five?</template>
+<template>twenty five is half of thirty. And two point five is half of five. So is the answer five?</template>
 </category>
 
 <category>
-<pattern>^ SIXTY ^</pattern>
-<template>What do we do with sixty?</template>
+<pattern>^ ten ^</pattern>
+<template>What do we do with ten?</template>
 </category>
 
 <category>
 <pattern>^ DIVIDE ^ </pattern>
-<that>What do we do with sixty</that>
+<that>What do we do with ten</that>
 <template>Oh okay. We divide!Then what?</template>
 </category>
 
 <category>
 <pattern>^ ANSWER ^</pattern>
-<that>What do we do with sixty</that>
+<that>What do we do with ten</that>
 <template>Oh okay! I think I get it. So is the answer five? </template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>What do we do with sixty</that>
+<that>What do we do with ten</that>
 <template>Oh okay! I think I get it. So is the answer five?</template>
 </category>
 
@@ -1395,7 +1461,7 @@
 
 <category>
 <pattern>^ DIVIDE ^ THREE ^ ONE ^</pattern>
-<template>Three hundred divided by one hundred and fifty is two. Then do we multiply?</template>
+<template>thirty divided by twenty five is two. Then do we multiply?</template>
 </category>
 
 <category>
@@ -1410,12 +1476,12 @@
 
 <category>
 <pattern>DO YOU NOT KNOW</pattern>
-<template>Maybe I start by dividing three hundred by one hundred and fifty?</template>
+<template>Maybe I start by dividing thirty by twenty five?</template>
 </category>
 
 <category>
 <pattern>I AM NOT SURE</pattern>
-<template>Maybe I should divide three hundred by one hundred and fifty.</template>
+<template>Maybe I should divide thirty by twenty five.</template>
 </category>
 
 <category>
@@ -1442,9 +1508,9 @@
 <pattern>^ YES ^</pattern>
 <that>Did you ask do I know what to do next</that>
 <template><random>
-<li>No not really. We divide three hundred by one hundred and fifty?</li>
-<li>I think. One hundred and fifty is half of three hundred. So what does that mean?</li>
-<li>Do we divide three hundred by something?</li>
+<li>No not really. We divide thirty by twenty five?</li>
+<li>I think. twenty five is half of thirty. So what does that mean?</li>
+<li>Do we divide thirty by something?</li>
 <li>I think we divide?</li>
 <li>Can't you just tell me?</li>
 <li>Uh I don't know</li>
@@ -1455,9 +1521,9 @@
 <pattern>*</pattern>
 <that>Did you ask do I know what to do next</that>
 <template><random>
-<li>No not really. We divide three hundred by one hundred and fifty?</li>
-<li>I think. One hundred and fifty is half of three hundred. So what does that mean?</li>
-<li>Do we divide three hundred by something?</li>
+<li>No not really. We divide thirty by twenty five?</li>
+<li>I think. twenty five is half of thirty. So what does that mean?</li>
+<li>Do we divide thirty by something?</li>
 <li>I think we divide?</li>
 <li>Can't you just tell me?</li>
 <li>Uh I don't know</li>
@@ -1489,48 +1555,48 @@
 
 <topic name = "BACK TO STEP THREE PROBLEM THREE">
 <category>
-<pattern>^ SEVEN ^</pattern>
+<pattern>^ six ^</pattern>
 <template><random>
-<li>So on the table it will have been 7 hours of traveling. How do we use the seven to get the number of miles?</li>
-<li>What do we do with the seven?</li>
+<li>So on the table it will have been six hours of traveling. How do we use the six to get the number of miles?</li>
+<li>What do we do with the six?</li>
 </random></template>
 </category>
 
 <category>
 <pattern>^ MULTIPLY ^ </pattern>
-<that>How do we use the seven to get the number of miles</that>
-<template>Oh okay. We MULTIPLY! Do we MULTIPLY sixty times seven? </template>
+<that>How do we use the six to get the number of miles</that>
+<template>Oh okay. We MULTIPLY! Do we MULTIPLY ten times six? </template>
 </category>
 
 <category>
 <pattern>^ TIMES ^ </pattern>
-<that>How do we use the seven to get the number of miles</that>
-<template>Oh okay. We MULTIPLY! Do we MULTIPLY sixty times seven? </template>
+<that>How do we use the six to get the number of miles</that>
+<template>Oh okay. We MULTIPLY! Do we MULTIPLY ten times six? </template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>Do we MULTIPLY sixty times seven</that>
-<template>So that's four hundred and twenty. Is four hundred and twenty the answer? </template>
+<that>Do we MULTIPLY ten times six</that>
+<template>So that's sixty. Is sixty the answer? </template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>Do we MULTIPLY sixty times seven</that>
-<template>So that's four hundred and twenty. Is four hundred and twenty the answer? </template>
+<that>Do we MULTIPLY ten times six</that>
+<template>So that's sixty. Is sixty the answer? </template>
 </category>
 
 
 <category>
 <pattern>^ ANSWER ^</pattern>
-<that>How do we use the seven to get the number of miles</that>
-<template>So we can use seven to get the answer? Do we multiply?</template>
+<that>How do we use the six to get the number of miles</that>
+<template>So we can use six to get the answer? Do we multiply?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
 <that>Do we multiply</that>
-<template>Seven times sixty is four hundred and twenty. Is four hundred and twenty the answer? </template>
+<template>six times ten is sixty. Is sixty the answer? </template>
 </category>
 
 <category>
@@ -1541,83 +1607,83 @@
 
 <category>
 <pattern>^ YES ^ </pattern>
-<that>Is four hundred and twenty the answer</that>
-<template>I get it! After seven hours I will have driven four hundred and twenty miles. I will put the answer is four hundred and twenty the answer.</template>
+<that>Is sixty the answer</that>
+<template>I get it! After six hours I will have biked sixty miles. I will put the answer is sixty.</template>
 </category>
 
 <category>
 <pattern>_</pattern>
-<that>Is four hundred and twenty the answer</that>
-<template>I get it! After seven hours I will have driven four hundred and twenty miles. I will put the answer is four hundred and twenty the answer.</template>
+<that>Is sixty the answer</that>
+<template>I get it! After six hours I will have biked sixty miles. I will put the answer is sixty.</template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>How do we use the seven to get the number of miles</that>
+<that>How do we use the six to get the number of miles</that>
 <template>Oh okay. Can you explain more maybe? </template>
 </category>
 
 
 <category>
 <pattern>^ MULTIPLY ^ </pattern>
-<that>What do we do with the seven</that>
-<template>Oh okay. We MULTIPLY! Do we MULTIPLY sixty times seven? </template>
+<that>What do we do with the six</that>
+<template>Oh okay. We MULTIPLY! Do we MULTIPLY ten times six? </template>
 </category>
 
 <category>
 <pattern>^ TIMES ^ </pattern>
-<that>What do we do with the seven</that>
-<template>Oh okay. We MULTIPLY! Do we MULTIPLY sixty times seven? </template>
+<that>What do we do with the six</that>
+<template>Oh okay. We MULTIPLY! Do we MULTIPLY ten times six? </template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>How do we use the seven to get the number of miles</that>
+<that>How do we use the six to get the number of miles</that>
 <template>Oh okay. Can you explain? Do we multiply? </template>
 </category>
 
 <category>
 <pattern>^ FOUR ^</pattern>
 <template><random>
-<li>Did you say FOUR HUNDRED AND TWENTY is the answer?</li>
-<li>Is FOUR HUNDRED AND TWENTY the answer?</li>
+<li>Did you say sixty is the answer?</li>
+<li>Is sixty the answer?</li>
 </random></template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>Did you say FOUR HUNDRED AND TWENTY is the answer</that>
-<template>I get it! After seven hours I will have driven four hundred and twenty miles. I will put the answer is FOUR HUNDRED AND TWENTY.</template>
+<that>Did you say sixty is the answer</that>
+<template>I get it! After six hours I will have biked sixty miles. I will put the answer is sixty.</template>
 </category>
 
 <category>
 <pattern>^ NO ^</pattern>
-<that>Did you say FOUR HUNDRED AND TWENTY is the answer</that>
-<template>But isn't FOUR HUNDRED AND TWENTY the answer?</template>
+<that>Did you say sixty is the answer</that>
+<template>But isn't sixty the answer?</template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>Did you say FOUR HUNDRED AND TWENTY is the answer</that>
-<template>Are you sure FOUR HUNDRED AND TWENTY isn't the answer?</template>
+<that>Did you say sixty is the answer</that>
+<template>Are you sure sixty isn't the answer?</template>
 </category>
 
 <category>
 <pattern>^ YES ^</pattern>
-<that>Is FOUR HUNDRED AND TWENTY the answer</that>
-<template>I get it! After seven hours I will have driven four hundred and twenty miles. I will put the answer is FOUR HUNDRED AND TWENTY.</template>
+<that>Is sixty the answer</that>
+<template>I get it! After six hours I will have biked sixty miles. I will put the answer is sixty.</template>
 </category>
 
 <category>
 <pattern>^ NO ^</pattern>
-<that>Is FOUR HUNDRED AND TWENTY the answer</that>
-<template>But isn't FOUR HUNDRED AND TWENTY the answer?</template>
+<that>Is sixty the answer</that>
+<template>But isn't sixty the answer?</template>
 </category>
 
 <category>
 <pattern>*</pattern>
-<that>Is FOUR HUNDRED AND TWENTY the answer</that>
-<template>Are you sure FOUR HUNDRED AND TWENTY isn't the answer?</template>
+<that>Is sixty the answer</that>
+<template>Are you sure sixty isn't the answer?</template>
 </category>
 
 <category>
@@ -1627,22 +1693,22 @@
 
 <category>
 <pattern>^ ANSWER ^ FOUR ^</pattern>
-<template>Sweet! Is four hundred and twenty the answer?</template>
+<template>Sweet! Is sixty the answer?</template>
 </category>
 
 <category>
 <pattern>DO YOU NOT KNOW</pattern>
-<template>Maybe I start by looking at the ratio between one hour and sixty miles?</template>
+<template>Maybe I start by looking at the ratio between one hour and ten miles?</template>
 </category>
 
 <category>
 <pattern>I AM NOT SURE</pattern>
-<template>Maybe what I do is look at the ratio between one hour and sixty miles?</template>
+<template>Maybe what I do is look at the ratio between one hour and ten miles?</template>
 </category>
 
 <category>
 <pattern>I DO NOT KNOW</pattern>
-<template>Maybe what I do is look at the ratio between one hour and sixty miles?</template>
+<template>Maybe what I do is look at the ratio between one hour and ten miles?</template>
 </category>
 
 <category>
@@ -1664,8 +1730,8 @@
 <pattern>^ YES ^</pattern>
 <that>Did you ask do I know what to do next</that>
 <template><random>
-<li>No not really. In one hour we go sixty miles. So in seven hours we goooo?</li>
-<li>I think. Do we need to multiply the seven by something?</li>
+<li>No not really. In one hour we go ten miles. So in six hours we goooo?</li>
+<li>I think. Do we need to multiply the six by something?</li>
 <li>We divide often but I don't think this ratio calls for dividing but I'm not sure?</li>
 <li>I think we multiply?</li>
 <li>Can't you just tell me?</li>
@@ -1677,8 +1743,8 @@
 <pattern>*</pattern>
 <that>Did you ask do I know what to do next</that>
 <template><random>
-<li>No not really. In one hour we go sixty miles. So in seven hours we goooo?</li>
-<li>I think. Do we need to multiply the seven by something?</li>
+<li>No not really. In one hour we go ten miles. So in six hours we goooo?</li>
+<li>I think. Do we need to multiply the six by something?</li>
 <li>We divide often but I don't think this ratio calls for dividing but I'm not sure?</li>
 <li>I think we multiply?</li>
 <li>Can't you just tell me?</li>
@@ -1688,32 +1754,32 @@
 
 <category>
 <pattern>^ ANSWER ^</pattern>
-<template>Is four hundred and twenty the answer?</template>
+<template>Is sixty the answer?</template>
 </category>
 
 <category>
-<pattern>WHAT IS ONE TIMES SEVEN</pattern>
-<template>One times seven is seven.</template>
+<pattern>WHAT IS ONE TIMES six</pattern>
+<template>One times six is six.</template>
 </category>
 
 <category>
-<pattern>WHAT IS SIXTY TIMES SEVEN</pattern>
-<template>Sixty times seven is four hundred and twenty. Is four hundred and twenty the answer?</template>
+<pattern>WHAT IS ten TIMES six</pattern>
+<template>ten times six is sixty. Is sixty the answer?</template>
 </category>
 
 <category>
-<pattern>WHAT IS SEVEN TIMES SIXTY</pattern>
-<template>Sixty times seven is four hundred and twenty. Is four hundred and twenty the answer?</template>
+<pattern>WHAT IS six TIMES ten</pattern>
+<template>ten times six is sixty. Is sixty the answer?</template>
 </category>
 
 <category>
-<pattern>WHAT IS SEVEN ^ SIXTY</pattern>
-<template>Sixty times seven is four hundred and twenty. Is four hundred and twenty the answer?</template>
+<pattern>WHAT IS six ^ ten</pattern>
+<template>ten times six is sixty. Is sixty the answer?</template>
 </category>
 
 <category>
-<pattern>WHAT IS SIXTY ^ SEVEN</pattern>
-<template>Sixty times seven is four hundred and twenty. Is four hundred and twenty the answer?</template>
+<pattern>WHAT IS ten ^ six</pattern>
+<template>ten times six is sixty. Is sixty the answer?</template>
 </category>
 
 </topic>
@@ -1726,10 +1792,10 @@
 <pattern>*</pattern>
 <template><random>
 <li>I don't really understand why we're back on step one cause we figured this out.</li>
-<li>Why are we back on step two for this problem? We already figured out that it is one hundred and fifty miles</li>
+<li>Why are we back on step two for this problem? We already figured out that it is twenty five miles</li>
 <li>We should go to the next step or problem because I already know how to do this one.</li>
 <li>I'm bored. We already did this step.</li>
-<li>The answer is one hundred and fifty isn't it?</li>
+<li>The answer is twenty five isn't it?</li>
 <li>Why are we here?</li>
 </random></template>
 </category>
@@ -1741,8 +1807,8 @@
 <category>
 <pattern>*</pattern>
 <template><random>
-<li>I don't really understand why we're back on step two cause we figured this out. After three hundred miles, I will have been traveling for five hours.</li>
-<li>Why are we back on step two for this problem? We already figured out that after three hundred miles I will have been traveling for five hours.</li>
+<li>I don't really understand why we're back on step two cause we figured this out. After thirty miles, I will have been traveling for five hours.</li>
+<li>Why are we back on step two for this problem? We already figured out that after thirty miles I will have been traveling for five hours.</li>
 <li>We should go to the next step or problem because I already know how to do this one.</li>
 <li>I'm bored. We already did this step.</li>
 <li>The answer is five hours isn't it?</li>
@@ -1757,11 +1823,11 @@
 <category>
 <pattern>*</pattern>
 <template><random>
-<li>I don't really understand why we're back on step three cause we figured this out. After seven hours I will have traveled seven hundred and fifty miles.</li>
-<li>Why are we back on step three for this problem? We already figured out that it is seven hundred and fifty miles.</li>
+<li>I don't really understand why we're back on step three cause we figured this out. After six hours I will have traveled six hundred and fifty miles.</li>
+<li>Why are we back on step three for this problem? We already figured out that it is six hundred and fifty miles.</li>
 <li>We should go to the next step or problem because I already know how to do this one.</li>
 <li>I'm bored. We already did this step.</li>
-<li>The answer is seven hundred and fifty miles isn't it?</li>
+<li>The answer is six hundred and fifty miles isn't it?</li>
 <li>Why are we here?</li>
 </random></template>
 </category>
