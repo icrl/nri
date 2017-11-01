@@ -1,0 +1,241 @@
+,UserID,DateTime,SessionID,ProblemID,StepID,Owner,DialogueAct,DialogueActConfidence,Spoke,StepAnswer,ClickStep,NicoMovement,Answered,Transcript
+0,14_209017,9/20/17 16:37,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+1,14_209017,9/20/17 16:37,1,1,0,nico,,,,,,1,no answer,Hi! My name is Nico. What is your name?
+2,14_209017,9/20/17 16:37,1,1,0,user,statement,50,1,1,none,,,hello Nico my name is Sean
+3,14_209017,9/20/17 16:37,1,1,0,nico,,,,,,1,no answer,Nice to meet you! Are you ready to get started?
+4,14_209017,9/20/17 16:37,1,1,0,user,statement,50,1,1,none,,,yes
+5,14_209017,9/20/17 16:37,1,1,0,nico,,,,,,1,no answer,Oh okay! Press the start teaching button and we can get started!
+6,14_209017,9/20/17 16:37,1,1,0,user,,50,0,1,problem start,,,problem start
+7,14_209017,9/20/17 16:37,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+8,14_209017,9/20/17 16:39,1,1,1,user,statement,50,1,1,none,,,Sonic up this how this is how you know you're how much volume of paint me so you see appear for your feet is 662 6 x 3/2 x 3 equals 6
+9,14_209017,9/20/17 16:39,1,1,1,nico,,,,,,1,no answer,"Okay. To figure out how much paint I need for my legs, I look at how much paint I need for my feet?"
+10,14_209017,9/20/17 16:39,1,1,1,user,statement,50,1,1,none,,,OK Google show me the find out what how much paint you need for your legs since you have 12 surface surface area you need we need times that by 4 bye what is 4 * 3
+11,14_209017,9/20/17 16:39,1,1,1,nico,,,,,,1,no answer,"To figure out how much paint I need for my legs, do I divide?"
+12,14_209017,9/20/17 16:40,1,1,1,user,statement,50,1,1,none,,,Monica you need to make a unit 2 X 3 and yeah you need a ride by 3 to 12
+13,14_209017,9/20/17 16:40,1,1,1,nico,,,,,,1,no answer,Do we multiply by TWO?
+14,14_209017,9/20/17 16:40,1,1,1,user,statement,50,1,1,none,,,you * 3
+15,14_209017,9/20/17 16:40,1,1,1,nico,,,,,,1,no answer,Okay. I'm going to multiply the two by two to get four. Is four the answer?
+16,14_209017,9/20/17 16:40,1,1,1,user,statement,50,1,1,none,,,yes
+17,14_209017,9/20/17 16:40,1,1,1,nico,,,,,,1,answering,Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.
+18,14_209017,9/20/17 16:40,1,1,1,user,statement,50,1,33,none,,,Brett
+19,14_209017,9/20/17 16:40,1,1,1,nico,,,,,,1,no answer,Okay that sounds good.
+20,14_209017,9/20/17 16:41,1,1,1,user,statement,50,1,33,none,,,six wrong paint for your torso hit the times that by 3
+21,14_209017,9/20/17 16:41,1,1,1,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+22,14_209017,9/20/17 16:41,1,1,1,user,statement,50,1,33,none,,,Nico you need to divide 6 multiply 6 and 3
+23,14_209017,9/20/17 16:41,1,1,1,nico,,,,,,1,no answer,Okay so we divide six by three. Six divided by three is two right?
+24,14_209017,9/20/17 16:42,1,1,1,user,statement,50,1,33,none,,,yes but we need a ride six times you need to multiply 6 x 3
+25,14_209017,9/20/17 16:42,1,1,1,nico,,,,,,1,no answer,Okay so then we divide twelve?
+26,14_209017,9/20/17 16:42,1,1,1,user,statement,50,1,33,none,,,Monica you need to survive X multiply 6 x 3
+27,14_209017,9/20/17 16:42,1,1,1,nico,,,,,,1,no answer,Ok so we multiply. I'm sorry but what are we multiplying? Two times two?
+28,14_209017,9/20/17 16:42,1,1,1,user,statement,50,1,33,none,,,no we multiply 6 x 3
+29,14_209017,9/20/17 16:42,1,1,1,nico,,,,,,1,no answer,Ok so we multiply. I'm sorry but what are we multiplying? Two times two?
+30,14_209017,9/20/17 16:42,1,1,2,user,,50,0,33,step_1_2,,,
+31,14_209017,9/20/17 16:42,1,1,2,nico,,,,,,1,no answer,I'm really not sure what to do on STEP TWO.
+32,14_209017,9/20/17 16:43,1,1,2,user,statement,50,1,33,none,,,okay Niko you need a multiply 6 x 3
+33,14_209017,9/20/17 16:43,1,1,2,nico,,,,,,1,no answer,"If we multiply six times three, that's eighteen. So is the answer eighteen?"
+34,14_209017,9/20/17 16:43,1,1,2,user,statement,50,1,33,none,,,yes
+35,14_209017,9/20/17 16:43,1,1,2,nico,,,,,,1,answering,Sweet! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.
+36,14_209017,9/20/17 16:43,1,2,2,user,,50,0,49,problem_1_2,,,
+37,14_209017,9/20/17 16:43,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+38,14_209017,9/20/17 16:44,1,2,1,user,statement,50,1,1,none,,,OK Google so you need to divide this time
+39,14_209017,9/20/17 16:44,1,2,1,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+40,14_209017,9/20/17 16:45,1,2,1,user,statement,50,1,1,none,,,we need a / 3
+41,14_209017,9/20/17 16:45,1,2,1,nico,,,,,,1,no answer,Thank you for explaining!
+42,14_209017,9/20/17 16:45,1,2,1,user,statement,50,1,1,none,,,Cellini / 3 divided by 3
+43,14_209017,9/20/17 16:45,1,2,1,nico,,,,,,1,no answer,six divided by three is two. Right?
+44,14_209017,9/20/17 16:45,1,2,1,user,statement,50,1,1,none,,,yes but not the problem can you divide 3 by 3
+45,14_209017,9/20/17 16:45,1,2,1,nico,,,,,,1,no answer,So then three divided by three?
+46,14_209017,9/20/17 16:45,1,2,1,user,statement,50,1,1,none,,,yes
+47,14_209017,9/20/17 16:45,1,2,1,nico,,,,,,1,no answer,Okay I think that makes sense. Is the answer one? Can you explain a little more about why the answer is one?
+48,14_209017,9/20/17 16:45,1,2,1,user,statement,50,1,1,none,,,dancers one because you needed / 3 + 3 / 3 is equals 1
+49,14_209017,9/20/17 16:45,1,2,1,nico,,,,,,1,answering,Okay I think I get it. I will put the answer is one.
+50,14_209017,9/20/17 16:45,1,2,2,user,,50,0,33,step_1_2,,,
+51,14_209017,9/20/17 16:45,1,2,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO OF PROBLEM TWO.
+52,14_209017,9/20/17 16:46,1,2,2,user,statement,50,1,33,none,,,okay Mika you need me to * 3 * 3
+53,14_209017,9/20/17 16:46,1,2,2,nico,,,,,,1,no answer,Do we multiply by three?
+54,14_209017,9/20/17 16:46,1,2,2,user,statement,50,1,33,none,,,yes
+55,14_209017,9/20/17 16:46,1,2,2,nico,,,,,,1,no answer,Okay. We have three ounces of paint. So the surface area it can cover is three times three. That is nine. So the answer is nine?
+56,14_209017,9/20/17 16:46,1,2,2,user,statement,50,1,33,none,,,yes
+57,14_209017,9/20/17 16:46,1,2,2,nico,,,,,,1,answering,Okay great! So my head has a surface area of nine inches. I will put the answer is nine.
+58,14_209017,9/20/17 16:46,1,2,2,user,statement,50,1,49,none,,,that is
+59,14_209017,9/20/17 16:46,1,2,2,nico,,,,,,1,no answer,I think I get it.
+60,14_209017,9/20/17 16:46,1,3,2,user,,50,0,49,problem_2_3,,,
+61,14_209017,9/20/17 16:46,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the pool! Can you help me figure out where I should be stopping on MY WAY THERE?
+62,14_209017,9/20/17 16:47,1,3,1,user,statement,50,1,1,none,,,okay me go so you need to take out the decimal off of 2.5
+63,14_209017,9/20/17 16:47,1,3,1,nico,,,,,,1,no answer,I've never liked decimals. Do I have to multiply the two point five? By what?
+64,14_209017,9/20/17 16:47,1,3,1,user,statement,50,1,1,none,,,you don't have to multiply but you can just take out the decimals
+65,14_209017,9/20/17 16:47,1,3,1,nico,,,,,,1,no answer,Okay so that is what we do.What do we do next?
+66,14_209017,9/20/17 16:48,1,3,1,user,statement,50,1,1,none,,,will you multiply 1 x 2.5
+67,14_209017,9/20/17 16:48,1,3,1,nico,,,,,,1,no answer,Ok I know I can ride my bike ten miles in one hour. But how do I use the one to figure out how far I can go in two point five hours? What should I do with the one?
+68,14_209017,9/20/17 16:48,1,3,1,user,statement,50,1,1,none,,,what should I do with the one so you multiply 1 x 2.5 then you multiply to 10 times Ashley DeVoe
+69,14_209017,9/20/17 16:48,1,3,1,nico,,,,,,1,no answer,I know that one hour times two point five is two point five hours. Then what? Something with the ten?
+70,14_209017,9/20/17 16:48,1,3,1,user,statement,50,1,1,none,,,time multiply 10 x 2.5
+71,14_209017,9/20/17 16:48,1,3,1,nico,,,,,,1,no answer,I've never liked decimals. Do I have to multiply the two point five? By what?
+72,14_209017,9/20/17 16:48,1,3,1,user,statement,50,1,1,none,,,10 * 2.5 * 10
+73,14_209017,9/20/17 16:48,1,3,1,nico,,,,,,1,no answer,I've never liked decimals. Do I have to multiply the two point five? By what?
+74,14_209017,9/20/17 16:49,1,3,1,user,statement,50,1,1,none,,,multiply 2.5 x 10
+75,14_209017,9/20/17 16:49,1,3,1,nico,,,,,,1,no answer,I've never liked decimals. Do I have to multiply the two point five? By what?
+76,14_209017,9/20/17 16:49,1,3,1,user,statement,50,1,1,none,,,okay Niko Mimi to Amita time multiply 10 x 2.5
+77,14_209017,9/20/17 16:49,1,3,1,nico,,,,,,1,no answer,I've never liked decimals. Do I have to multiply the two point five? By what?
+78,14_209017,9/20/17 16:49,1,3,1,user,statement,50,1,1,none,,,first you needed multiply 2.5 by 1 then you get 2.5 then you need to multiply 10 * 3.5
+79,14_209017,9/20/17 16:49,1,3,1,nico,,,,,,1,no answer,I've never liked decimals. Do I have to multiply the two point five? By what?
+80,14_209017,9/20/17 16:50,1,3,2,user,,50,0,1,step_1_2,,,
+81,14_209017,9/20/17 16:50,1,3,2,nico,,,,,,1,no answer,Can you give me a hint for STEP TWO OF THIS THIRD PROBLEM?
+82,14_209017,9/20/17 16:50,1,3,1,user,,50,0,1,step_2_1,,,
+83,14_209017,9/20/17 16:50,1,3,1,nico,,,,,,1,no answer,Didn't we already do step one for problem THREE?
+84,14_209017,9/20/17 16:50,1,3,1,user,statement,50,1,1,none,,,Nico you need to times you need to multiply 10 x 2.5
+85,14_209017,9/20/17 16:50,1,3,1,nico,,,,,,1,no answer,Why are we back on step two for this problem? We already figured out that it is twenty five miles
+86,14_209017,9/20/17 16:50,1,3,1,user,statement,50,1,1,none,,,Nico what is 10 x 2.5
+87,14_209017,9/20/17 16:50,1,3,1,nico,,,,,,1,no answer,I don't really understand why we're back on step one cause we figured this out.
+88,14_209017,9/20/17 16:51,1,3,1,user,statement,50,1,1,none,,,Google you need to multiply 10 x 2.5
+89,14_209017,9/20/17 16:51,1,3,1,nico,,,,,,1,no answer,So there is a ratio between six and two. But what do we do with the number TWO?
+90,14_209017,9/20/17 16:52,1,3,1,user,statement,50,1,1,none,,,Nico you need to multiply 10 x 2. 5
+91,14_209017,9/20/17 16:52,1,3,1,nico,,,,,,1,no answer,Cool.
+92,14_209017,9/20/17 16:52,1,3,1,user,statement,50,1,1,none,,,we go you need to multiply 10 x 2.5 to get your answer for Step 1
+93,14_209017,9/20/17 16:52,1,3,1,nico,,,,,,1,no answer,I've never liked decimals. Do I have to multiply the two point five? By what?
+94,14_209017,9/20/17 16:52,1,3,1,user,statement,50,1,1,none,,,you need to multiply that 2.5 by 10
+95,14_209017,9/20/17 16:52,1,3,1,nico,,,,,,1,no answer,I've never liked decimals. Do I have to multiply the two point five? By what?
+96,14_209017,9/20/17 16:52,1,3,2,user,,50,0,1,step_1_2,,,
+97,14_209017,9/20/17 16:52,1,3,2,nico,,,,,,1,no answer,Can you give me a hint on STEP TWO OF THIS THIRD PROBLEM?
+98,14_209017,9/20/17 16:53,1,3,2,user,statement,50,1,1,none,,,Sonoco meaning to divided by 10 to get one
+99,14_209017,9/20/17 16:53,1,3,2,nico,,,,,,1,no answer,Okay.
+100,14_209017,9/20/17 16:53,1,3,2,user,statement,50,1,1,none,,,because you need to tie multiply 10 x 3
+101,14_209017,9/20/17 16:53,1,3,2,nico,,,,,,1,no answer,"If we multiply one by three, we get three. So is the answer three?"
+102,14_209017,9/20/17 16:54,1,3,2,user,statement,50,1,1,none,,,yes
+103,14_209017,9/20/17 16:54,1,3,2,nico,,,,,,1,answering,Great! So I will have been biking for three hours after thirty miles. I will put the answer is three.
+104,14_209017,9/20/17 16:54,1,3,3,user,,50,0,17,step_2_3,,,
+105,14_209017,9/20/17 16:54,1,3,3,nico,,,,,,1,no answer,"So for STEP THREE OF THIS THIRD PROBLEM, I may be getting this but can you give me another hint?"
+106,14_209017,9/20/17 16:54,1,3,3,user,statement,50,1,17,none,,,Nicole you need to multiply 10 x 6
+107,14_209017,9/20/17 16:54,1,3,3,nico,,,,,,1,no answer,I will have been riding my bike for six hours. How do we use the six to get the number of miles?
+108,14_209017,9/20/17 16:54,1,3,3,user,statement,50,1,17,none,,,because you need to multiply 10 x 6
+109,14_209017,9/20/17 16:54,1,3,3,nico,,,,,,1,no answer,"Oh right, like with two point five hours. We MULTIPLY! Do we MULTIPLY ten times six? Why would we do that?"
+110,14_209017,9/20/17 16:55,1,3,3,user,statement,50,1,17,none,,,you get if you multiply 10 x 6 you'll get 60 + 60 is your answer
+111,14_209017,9/20/17 16:55,1,3,3,nico,,,,,,1,no answer,So on the table it will have been six hours of traveling. How do we use the six to get the number of miles?
+112,14_209017,9/20/17 16:55,1,3,3,user,statement,50,1,17,none,,,Sonic all you need to multiply 1 x 6
+113,14_209017,9/20/17 16:55,1,3,3,nico,,,,,,1,no answer,"Oh right, like with two point five hours. We MULTIPLY! Do we MULTIPLY ten times six? Why would we do that?"
+114,14_209017,9/20/17 16:55,1,3,3,user,statement,50,1,17,none,,,Nico if you will comply 1 * 6 UK 60
+115,14_209017,9/20/17 16:55,1,3,3,nico,,,,,,1,no answer,So on the table it will have been six hours of traveling. How do we use the six to get the number of miles?
+116,14_209017,9/20/17 16:56,1,3,3,user,statement,50,1,17,none,,,text the number * 10 * 6
+117,14_209017,9/20/17 16:56,1,3,3,nico,,,,,,1,no answer,Oh okay. We MULTIPLY! Do we MULTIPLY ten times six? Why would we do that?
+118,14_209017,9/20/17 16:56,1,3,3,user,statement,50,1,17,none,,,multiply 10 x 66 6 hours okay
+119,14_209017,9/20/17 16:56,1,3,3,nico,,,,,,1,no answer,I will have been riding my bike for six hours. How do we use the six to get the number of miles?
+120,14_209017,9/20/17 16:56,1,3,3,user,statement,50,1,17,none,,,so you are at 6 hours so if your ride six hours at the time that my 10
+121,14_209017,9/20/17 16:56,1,3,3,nico,,,,,,1,no answer,I will have been riding my bike for six hours. How do we use the six to get the number of miles?
+122,14_209017,9/20/17 16:57,1,3,3,user,statement,50,1,17,none,,,you have to multiply since you rode your bike for six hours see at the time 6 x 10
+123,14_209017,9/20/17 16:57,1,3,3,nico,,,,,,1,answering,I get it! After six hours I will have biken sixty miles. I will put the answer is sixty.
+124,14_209017,9/20/17 16:57,1,4,3,user,,50,0,25,problem_3_4,,,
+125,14_209017,9/20/17 16:57,1,4,3,nico,,,,,,1,no answer,Sixty miles is a really long way! But it's worth it to go swimming. I think I should stop and get snacks. I really like M and M's. Can you help me figure out how many bags of M and M's I should buy for my friends?
+126,14_209017,9/20/17 16:57,1,4,1,user,statement,50,1,1,none,,,so if you want two bags of Eminem's you need to multiply 110 by 2
+127,14_209017,9/20/17 16:57,1,4,1,nico,,,,,,1,no answer,So we need to know how many M and M's I will have with two bags of candies. How do we figure this out?
+128,14_209017,9/20/17 16:58,1,4,1,user,statement,50,1,1,none,,,Google we need some multiplayer
+129,14_209017,9/20/17 16:58,1,4,1,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+130,14_209017,9/20/17 16:58,1,4,1,user,statement,50,1,1,none,,,we go you need to
+131,14_209017,9/20/17 16:58,1,4,1,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+132,14_209017,9/20/17 16:59,1,4,1,user,statement,50,1,1,none,,,Google you need to multiply 110 times to get the total of Eminem's
+133,14_209017,9/20/17 16:59,1,4,1,nico,,,,,,1,no answer,Okay! So we multiply. Are we multiplying two times one hundred and ten?
+134,14_209017,9/20/17 16:59,1,4,1,user,statement,50,1,1,none,,,yes
+135,14_209017,9/20/17 16:59,1,4,1,nico,,,,,,1,no answer,So two times one hundred and ten is two hundred and twenty. What do we do next?
+136,14_209017,9/20/17 16:59,1,4,1,user,statement,50,1,1,none,,,220 is your answer
+137,14_209017,9/20/17 16:59,1,4,1,nico,,,,,,1,no answer,So we cross multiplied and now we divide by one? So is the answer two hundred and twenty candies?
+138,14_209017,9/20/17 16:59,1,4,1,user,statement,50,1,1,none,,,yes
+139,14_209017,9/20/17 16:59,1,4,1,nico,,,,,,1,answering,Awesome! So we will have two hundred and twenty candies with two bags. I will put the answer is two hundred and twenty.
+140,14_209017,9/20/17 16:59,1,4,2,user,,50,0,33,step_1_2,,,
+141,14_209017,9/20/17 16:59,1,4,2,nico,,,,,,1,no answer,So now I have five bags of candy. Can you give me a hint?
+142,14_209017,9/20/17 17:00,1,4,2,user,statement,50,1,33,none,,,so you need to multiply 110 x 5
+143,14_209017,9/20/17 17:00,1,4,2,nico,,,,,,1,no answer,"Okay! So like the last step, we multiply. I'm thinking we multiply one hundred and ten times five?"
+144,14_209017,9/20/17 17:00,1,4,2,user,statement,50,1,33,none,,,multiply 1 year 10 x 5 dinghy / 1
+145,14_209017,9/20/17 17:00,1,4,2,nico,,,,,,1,no answer,So five times one hundred and ten is five hundred and fifty. So then what do we do?
+146,14_209017,9/20/17 17:00,1,4,2,user,statement,50,1,33,none,,,we divided by 1
+147,14_209017,9/20/17 17:00,1,4,2,nico,,,,,,1,no answer,"So we cross multiplied and like last time, we divide by one? So is the answer five hundred and fifty candies?"
+148,14_209017,9/20/17 17:00,1,4,2,user,statement,50,1,33,none,,,yes
+149,14_209017,9/20/17 17:00,1,4,2,nico,,,,,,1,answering,Awesome! So for five bags we will have five hundred and fifty candies. So many!! I will put the answer is five hundred and fifty.
+150,14_209017,9/20/17 17:01,1,4,3,user,,50,0,49,step_2_3,,,
+151,14_209017,9/20/17 17:01,1,4,3,nico,,,,,,1,no answer,"So now if we have seven bags of candy, I think I'm getting this but can you give me another hint?"
+152,14_209017,9/20/17 17:01,1,4,3,user,statement,50,1,49,none,,,do you need to multiply 110 by 7 then you're more than you
+153,14_209017,9/20/17 17:01,1,4,3,nico,,,,,,1,no answer,Okay! I think I'm getting this! Let me guess. We multiply one hundred and ten times seven?
+154,14_209017,9/20/17 17:02,1,4,3,user,statement,50,1,49,none,,,OK Google give me to multiply 110 times 70 divided by 1
+155,14_209017,9/20/17 17:02,1,4,3,nico,,,,,,1,no answer,So five times one hundred and ten is five hundred and fifty. And then do we divide by one?
+156,14_209017,9/20/17 17:02,1,4,3,user,statement,50,1,49,none,,,nicolini 2 * 110 * 7 / 1
+157,14_209017,9/20/17 17:02,1,4,3,nico,,,,,,1,no answer,I thought we would divide by one! And then the answer is seventy hundred and seventy candies?
+158,14_209017,9/20/17 17:02,1,4,3,user,statement,50,1,49,none,,,yes
+159,14_209017,9/20/17 17:02,1,4,3,nico,,,,,,1,answering,I have a lot of friends so I bet seven bags is what I should get. For seven bags we have seven hundred and seventy candies! I will put the answer is seven hundred and seventy.
+160,14_209017,9/20/17 17:03,1,5,3,user,,50,0,57,problem_4_5,,,
+161,14_209017,9/20/17 17:03,1,5,3,nico,,,,,,1,no answer,Thank you for helping me figure out how many total M and M's there are. But I really love blue M and M's. Do you think we could figure out how many blue M and M's we would have for different numbers of bags?
+162,14_209017,9/20/17 17:03,1,5,1,user,statement,50,1,1,none,,,Niko now you need to multiply 220 x 1 to get your answer
+163,14_209017,9/20/17 17:03,1,5,1,nico,,,,,,1,no answer,I really like multiplying. Do we multiply two hundred and twenty times eleven?
+164,14_209017,9/20/17 17:04,1,5,1,user,statement,50,1,1,none,,,nickel you multiply 220 by 1 then you divide 220 divided by 10
+165,14_209017,9/20/17 17:04,1,5,1,nico,,,,,,1,no answer,Oh okay. I think then. Do we multiply two hundred and twenty times one?
+166,14_209017,9/20/17 17:04,1,5,1,user,statement,50,1,1,none,,,yes you first you need to multiply 220 x 1 equals 220 so you have 20 20 / 10
+167,14_209017,9/20/17 17:04,1,5,1,nico,,,,,,1,no answer,"So two hundred and twenty times one is just itself, two hundred and twenty. So then what do we do next?"
+168,14_209017,9/20/17 17:04,1,5,1,user,statement,50,1,1,none,,,B / 10
+169,14_209017,9/20/17 17:04,1,5,1,nico,,,,,,1,no answer,So we cross multiplied and now we divide by ten? Two hundred and twenty two divided by ten is twenty two?
+170,14_209017,9/20/17 17:04,1,5,1,user,statement,50,1,1,none,,,222 divided
+171,14_209017,9/20/17 17:04,1,5,1,nico,,,,,,1,no answer,So is the answer twenty two candies?
+172,14_209017,9/20/17 17:04,1,5,1,user,statement,50,1,1,none,,,yes
+173,14_209017,9/20/17 17:04,1,5,1,nico,,,,,,1,answering,"Wonderful! So out of two hundred and twenty M and M's, twenty two are blue. I will put the answer is twenty two."
+174,14_209017,9/20/17 17:05,1,5,1,user,statement,50,1,33,none,,,so Force tattoo
+175,14_209017,9/20/17 17:05,1,5,1,nico,,,,,,1,no answer,Okay that makes sense.
+176,14_209017,9/20/17 17:05,1,5,1,user,statement,50,1,33,none,,,because you need to multiply 550 * 1/10
+177,14_209017,9/20/17 17:05,1,5,1,nico,,,,,,1,no answer,I really like multiplying. Do we multiply two hundred and twenty times eleven?
+178,14_209017,9/20/17 17:05,1,5,2,user,,50,0,33,step_1_2,,,
+179,14_209017,9/20/17 17:05,1,5,2,nico,,,,,,1,no answer,Oh okay. I think then. Do we multiply two hundred and twenty times one?
+180,14_209017,9/20/17 17:05,1,5,2,user,statement,50,1,33,none,,,okay you need to multiply 550 x 1 then you divide by 10
+181,14_209017,9/20/17 17:05,1,5,2,nico,,,,,,1,no answer,"So two hundred and twenty times one is just itself, two hundred and twenty. So then what do we do next?"
+182,14_209017,9/20/17 17:07,1,5,2,user,statement,50,1,33,none,,,Nico you need to Multiply 150 x 1 then after that you divided by 10
+183,14_209017,9/20/17 17:07,1,5,2,nico,,,,,,1,no answer,I really like multiplying. Do we multiply five hundred and fifty times one?
+184,14_209017,9/20/17 17:07,1,5,2,user,statement,50,1,33,none,,,yes
+185,14_209017,9/20/17 17:07,1,5,2,nico,,,,,,1,no answer,"So five hundred and fifty times one is just itself, five hundred and fifty. Then do we do the same thing we did on the first step?"
+186,14_209017,9/20/17 17:07,1,5,2,user,statement,50,1,33,none,,,find
+187,14_209017,9/20/17 17:07,1,5,2,nico,,,,,,1,no answer,"So just like in step one, we cross multiplied and now I think we divide by ten again?"
+188,14_209017,9/20/17 17:07,1,5,2,user,statement,50,1,33,none,,,yes
+189,14_209017,9/20/17 17:07,1,5,2,nico,,,,,,1,no answer,Five hundred and fifty divided by ten is fifty five. So is the answer fifty five?
+190,14_209017,9/20/17 17:07,1,5,2,user,statement,50,1,33,none,,,yes
+191,14_209017,9/20/17 17:07,1,5,2,nico,,,,,,1,no answer,"Wonderful! So out of five hundred and fifty M and M's, fifty five are blue. I'm beginning to see a pattern! Are you?"
+192,14_209017,9/20/17 17:07,1,5,2,user,statement,50,1,33,none,,,PS
+193,14_209017,9/20/17 17:07,1,5,2,nico,,,,,,1,answering,Okay so I will put the answer is fifty five
+194,14_209017,9/20/17 17:08,1,5,3,user,,50,0,49,step_2_3,,,
+195,14_209017,9/20/17 17:08,1,5,3,nico,,,,,,1,no answer,Yay! Seven hundred and seventy M and M's! Can you help me figure out how many blue M and M's are in seven bags?
+196,14_209017,9/20/17 17:08,1,5,3,user,statement,50,1,49,none,,,Nicole you need to multiply 770 * 1/10
+197,14_209017,9/20/17 17:08,1,5,3,nico,,,,,,1,no answer,So after we simplify the fraction. Then we can multiply seven hundred and seventy times one right?
+198,14_209017,9/20/17 17:08,1,5,3,user,statement,50,1,49,none,,,yes
+199,14_209017,9/20/17 17:08,1,5,3,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+200,14_209017,9/20/17 17:08,1,5,3,user,statement,50,1,49,none,,,Nico you need to divide
+201,14_209017,9/20/17 17:08,1,5,3,nico,,,,,,1,no answer,So I really think I'm beginning to get this! We reduce the fraction so it becomes ten over one.
+202,14_209017,9/20/17 17:09,1,5,3,user,statement,50,1,49,none,,,hookah YouTube multiply 770 by 1 then after that you divide 770 by 10
+203,14_209017,9/20/17 17:09,1,5,3,nico,,,,,,1,no answer,So after we simplify the fraction. Then we can multiply seven hundred and seventy times one right?
+204,14_209017,9/20/17 17:09,1,5,3,user,statement,50,1,49,none,,,yes
+205,14_209017,9/20/17 17:09,1,5,3,nico,,,,,,1,no answer,I think I get it.
+206,14_209017,9/20/17 17:09,1,5,3,user,statement,50,1,49,none,,,Seneca me to multiply 700 770 * 1/10
+207,14_209017,9/20/17 17:09,1,5,3,nico,,,,,,1,no answer,So after we simplify the fraction. Then we can multiply seven hundred and seventy times one right?
+208,14_209017,9/20/17 17:09,1,5,3,user,statement,50,1,49,none,,,yes
+209,14_209017,9/20/17 17:09,1,5,3,nico,,,,,,1,no answer,Okay that makes sense.
+210,14_209017,9/20/17 17:10,1,5,3,user,statement,50,1,49,none,,,then after you multiply 770 x 1 you divide 770 by 10
+211,14_209017,9/20/17 17:10,1,5,3,nico,,,,,,1,no answer,So after we simplify the fraction. Then we can multiply seven hundred and seventy times one right?
+212,14_209017,9/20/17 17:10,1,5,3,user,statement,50,1,49,none,,,PS
+213,14_209017,9/20/17 17:10,1,5,3,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+214,14_209017,9/20/17 17:10,1,5,3,user,statement,50,1,49,none,,,so you can simplify the fraction to 770 so you multiply 770 * 1 that equal 770 - 770 divided by 10 equals 7 7
+215,14_209017,9/20/17 17:10,1,5,3,nico,,,,,,1,no answer,So I really think I'm beginning to get this! We reduce the fraction so it becomes ten over one.
+216,14_209017,9/20/17 17:11,1,5,3,user,statement,50,1,49,none,,,nickel you need to fly to fraction and empty 770 770 times 1 equals 770 770 / 10 equals 77
+217,14_209017,9/20/17 17:11,1,5,3,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+218,14_209017,9/20/17 17:12,1,5,3,user,statement,50,1,49,none,,,Nico you need to divide 770 by 10
+219,14_209017,9/20/17 17:12,1,5,3,nico,,,,,,1,no answer,So I really think I'm beginning to get this! We reduce the fraction so it becomes ten over one.
+220,14_209017,9/20/17 17:12,1,5,3,user,statement,50,1,49,none,,,reduce the fraction 110 when you're 10 to 11 that equals 770 but we don't know what that is so we would use the fraction 10 over 1 into 700 over we don't know so we leave that blank then multiply 770 * 1 then you / 10
+221,14_209017,9/20/17 17:12,1,5,3,nico,,,,,,1,no answer,So I really think I'm beginning to get this! We reduce the fraction so it becomes ten over one.
+222,14_209017,9/20/17 17:13,1,5,3,user,statement,50,1,49,none,,,Nico do you have to multiply 770 * 1 that then you / 10
+223,14_209017,9/20/17 17:13,1,5,3,nico,,,,,,1,no answer,So after we simplify the fraction. Then we can multiply seven hundred and seventy times one right?
+224,14_209017,9/20/17 17:13,1,5,3,user,statement,50,1,49,none,,,yes thing you / 10
+225,14_209017,9/20/17 17:13,1,5,3,nico,,,,,,1,no answer,Cool.
+226,14_209017,9/20/17 17:14,1,5,3,user,statement,50,1,49,none,,,can we multiply 770 x 1 and after you get your answer then you divide 10 by your answer from 770 x 1
+227,14_209017,9/20/17 17:14,1,5,3,nico,,,,,,1,no answer,So after we simplify the fraction. Then we can multiply seven hundred and seventy times one right?
+228,14_209017,9/20/17 17:49,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+229,14_209017,9/20/17 17:49,1,1,0,nico,,,,,,1,no answer,Hi! My name is Nico. What is your name?
+230,14_209017,9/20/17 17:49,1,1,0,user,statement,50,1,1,none,,,my name is Sean
+231,14_209017,9/20/17 17:49,1,1,0,nico,,,,,,1,no answer,Nice to meet you Sean. Are you ready to get started?
+232,14_209017,9/20/17 17:50,1,1,0,user,statement,50,1,1,none,,,hello my name is Sean
+233,14_209017,9/20/17 17:50,1,1,0,nico,,,,,,1,no answer,Oh okay! Press the start teaching button and we can get started!
+234,14_209017,9/20/17 17:50,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+235,14_209017,9/20/17 17:50,1,1,0,nico,,,,,,1,no answer,Hi! My name is Nico. What is your name?
+236,14_209017,9/20/17 17:50,1,1,0,user,statement,50,1,1,none,,,hello my name is Tron
+237,14_209017,9/20/17 17:50,1,1,0,nico,,,,,,1,no answer,Nice to meet you! Are you ready to get started?
+238,14_209017,9/20/17 17:51,1,1,0,user,statement,50,1,1,none,,,yes
+239,14_209017,9/20/17 17:51,1,1,0,nico,,,,,,1,no answer,Oh okay! Press the start teaching button and we can get started!

@@ -70,7 +70,7 @@ namespace Nico.handlers
             // General variables
             DateTime timeStart = DateTime.Now;
             string path = context.Request.PhysicalApplicationPath;
-            string username = "nlubold";
+            string userid = "nlubold";
             Tuple<string, int> imageInfo = new Tuple<string, int>("",2);
             string page = "";
 
@@ -88,12 +88,13 @@ namespace Nico.handlers
             
             try
             {
-                problemStep = SQLProblemStepTracker.ReadProbStep(username);                                                   // Get current step 
+                problemStep = SQLProblemStepTracker.ReadProbStep(userid);                                                   // Get current step 
                 int problem = problemStep[0];
                 int step = problemStep[1];
                 int probImg = problemStep[2];
                 int answerKey = problemStep[3];
                 int numAutoResponses = problemStep[5];
+                int numturns = problemStep[6];
                 string clickstep = "none";
                 int newanswer = 0;
 /*
@@ -115,7 +116,7 @@ namespace Nico.handlers
                     if (context.Request.Files.Count > 0)                                                                       // Write out audio file (if it's there)
                     {
                         HttpFileCollection files = context.Request.Files;
-                        audioFile = writeFile(files, path, username, timeStart);
+                        audioFile = writeFile(files, path, userid, timeStart);
                     }
                     if (transcript == "problem start")
                     {
@@ -147,24 +148,25 @@ namespace Nico.handlers
                         transcript = "transcript empty or null";
                     }
 
-                    nicoResponse = ResponseGeneration.NicoResponse(path, problemStep, speakerSpoke, transcript, timeStart, page);                 // Generate and initiate Nico's response
-                    SQLUserState.UpdateSpeakerState(username, dialogueAct, transcript, speakerSpoke, problemStep, timeStart, clickstep, numAutoResponses);    // Write out speaker state info
-                    SQLNicoState.UpdateNicoState(username, nicoResponse, problemStep, timeStart);                                           // Write out Nico's state info & update problem/step
+                    nicoResponse = ResponseGeneration.NicoResponse(path, problemStep, speakerSpoke, transcript, timeStart, page, userid, audioFile);                 // Generate and initiate Nico's response
+                    SQLUserState.UpdateSpeakerState(userid, dialogueAct, transcript, speakerSpoke, problemStep, timeStart, clickstep, numAutoResponses);    // Write out speaker state info
+                    SQLNicoState.UpdateNicoState(userid, nicoResponse, problemStep, timeStart);                                           // Write out Nico's state info & update problem/step
 
 
                     // Nico response: string => Nico's response, int is the movement code, the boolean indicates whether Nico answered the step
                     // To update the step, we check if Nico answered the question. 
 
+                    numturns += 1;
                     if (nicoResponse.Item3 == "answering")
                     {
                         nextstepanswerkey = SQLProblemStepTracker.CalculateNewAnswerKey(1, answerKey, step);                // Passing 1 as first argument because Nico DID answer this step
                         newanswer = step;
-                        SQLProblemStepTracker.UpdateProbStep(username, sessionid, problem, step, probImg, nextstepanswerkey, newanswer, numAutoResponses);
+                        SQLProblemStepTracker.UpdateProbStep(userid, sessionid, problem, step, probImg, nextstepanswerkey, newanswer, numAutoResponses, numturns);
                     }
                     else
                     {
                         nextstepanswerkey = answerKey;                                                                                 // current answer key
-                        SQLProblemStepTracker.UpdateProbStep(username, sessionid, problem, step, probImg, nextstepanswerkey, newanswer, numAutoResponses);
+                        SQLProblemStepTracker.UpdateProbStep(userid, sessionid, problem, step, probImg, nextstepanswerkey, newanswer, numAutoResponses, numturns);
                     }
                 }
 
@@ -172,20 +174,28 @@ namespace Nico.handlers
             catch (Exception error)
             {
                 SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "DialogueEngine.ashx.cs", 0, "nlubold");
-            }  
-            
-            
+            }
+
+            string transResponse = "Saved User Wav File!";
+
+            context.Response.ContentType = "audio/wav";
+            context.Response.AppendHeader("Access-Control-Allow-Origin", "*");
+            context.Response.AppendHeader("Access-Control-Allow-Headers", "x-requested-with");
+            context.Response.Write(transResponse);
+
         }
 
         // Write out audio file 
-        private string writeFile(HttpFileCollection files, string path, string username, DateTime timeStart)
+        private string writeFile(HttpFileCollection files, string path, string userid, DateTime timeStart)
         {
             string fullPath = "";
             for (int i = 0; i < files.Count; i++)
             {
                 HttpPostedFile file = files[i];
                 string formatFileName = string.Format("{0}-{1:yyyy-MM-dd_hh-mm-ss-tt}", file.FileName, timeStart);
-                fullPath = path + "data\\userAudio\\" + username + "_" + formatFileName + ".wav";
+                fullPath = path + "data\\userAudio\\" + userid + "_2" + formatFileName + ".wav";
+                file.SaveAs(fullPath);
+                fullPath = path + "data\\userAudio\\" + file.FileName + ".wav";
                 file.SaveAs(fullPath);
             }
             return fullPath;

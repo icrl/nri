@@ -18,7 +18,7 @@ namespace Nico.handlers
             {
                 string userid = "nlubold";
                 int sessionid = 1;
-                int maxprobs = 7;
+                int maxprobs = 6;
                 string page = "ProblemPage";
 
                 List<int> problemStep = SQLProblemStepTracker.ReadProbStep(userid);
@@ -31,6 +31,9 @@ namespace Nico.handlers
                 int answerKey = problemStep[3];
                 int newanswer = problemStep[4];
                 int numautoresponses = problemStep[5];
+                int numturns = problemStep[6];
+
+                string useraudio = "";
 
                 if (step == 0)
                 {
@@ -52,26 +55,28 @@ namespace Nico.handlers
                     case "next":
                         problemStep[1] = nextStep;
                         newanswer = 0;
+                        numturns = 0;
 
                         clickstep = "step_"+ step.ToString() + "_" + nextStep.ToString();
-                        nicoResponse = ResponseGeneration.NicoResponse(path, problemStep, 0, "next step", now, page);
+                        nicoResponse = ResponseGeneration.NicoResponse(path, problemStep, 0, "next step", now, page, userid, useraudio);
                         SQLUserState.UpdateSpeakerState(userid, "", "", 0, problemStep, now, clickstep, numautoresponses);                            // Write out speaker state info
                         SQLNicoState.UpdateNicoState(userid, nicoResponse, problemStep, now);                                       // Write out Nico's state info & update problem/step
 
-                        SQLProblemStepTracker.UpdateProbStep(userid, sessionid, problem, nextStep, problemimgkey, answerKey, newanswer, numautoresponses);
+                        SQLProblemStepTracker.UpdateProbStep(userid, sessionid, problem, nextStep, problemimgkey, answerKey, newanswer, numautoresponses, numturns);
 
                         break;
 
                     case "prior":
                         problemStep[1] = priorStep;
                         newanswer = 0;
+                        numturns = 0;
 
                         clickstep = "step_" + step.ToString() + "_" + priorStep.ToString();
-                        nicoResponse = ResponseGeneration.NicoResponse(path, problemStep, 0, "prior step", now, page);
+                        nicoResponse = ResponseGeneration.NicoResponse(path, problemStep, 0, "prior step", now, page, userid, useraudio);
                         SQLUserState.UpdateSpeakerState(userid, "", "", 0, problemStep, now, clickstep, numautoresponses);                            // Write out speaker state info
                         SQLNicoState.UpdateNicoState(userid, nicoResponse, problemStep, now);                                       // Write out Nico's state info & update problem/step
 
-                        SQLProblemStepTracker.UpdateProbStep(userid, sessionid, problem, priorStep, problemimgkey, answerKey, newanswer, numautoresponses);
+                        SQLProblemStepTracker.UpdateProbStep(userid, sessionid, problem, priorStep, problemimgkey, answerKey, newanswer, numautoresponses, numturns);
 
                         break;
 
@@ -86,15 +91,16 @@ namespace Nico.handlers
                             answerKey = 1;
                             newanswer = 0;
                             problemStep[0] = nextproblem;
+                            numturns = 0;
 
                             clickstep = "problem_" + problem.ToString() + "_" + nextproblem.ToString();
 
-                            nicoResponse = ResponseGeneration.NicoResponse(path, problemStep, 0, "problem start", now, page);
+                            nicoResponse = ResponseGeneration.NicoResponse(path, problemStep, 0, "problem start", now, page, userid, useraudio);
                             SQLUserState.UpdateSpeakerState(userid, "", "", 0, problemStep, now, clickstep, numautoresponses);                            // Write out speaker state info
                             SQLNicoState.UpdateNicoState(userid, nicoResponse, problemStep, now);                                       // Write out Nico's state info & update problem/step
 
 
-                            SQLProblemStepTracker.UpdateProbStep(userid, sessionid, nextproblem, step, problemimgkey, answerKey, newanswer, numautoresponses);
+                            SQLProblemStepTracker.UpdateProbStep(userid, sessionid, nextproblem, step, problemimgkey, answerKey, newanswer, numautoresponses, numturns);
                         }
 
                         break;

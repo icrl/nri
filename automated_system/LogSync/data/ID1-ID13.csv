@@ -1,0 +1,1667 @@
+#,UserID,DateTime,SessionID,ProblemID,StepID,Owner,DialogueAct,DialogueActConfidence,Spoke,StepAnswer,ClickStep,NicoMovement,Answered,Transcript
+0,8_180817,8/18/2017 18:01,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+1,8_180817,8/18/2017 18:01,1,1,0,nico,,,,,,1,no answer,Hi! My name is Nico. What is your name?
+2,8_180817,8/18/2017 18:02,1,1,0,user,statement,50,1,1,none,,,my name is Jonathan
+3,8_180817,8/18/2017 18:02,1,1,0,nico,,,,,,1,no answer,Nice to meet you Jonathan. Are you ready to get started?
+4,8_180817,8/18/2017 18:02,1,1,0,user,,50,0,1,problem start,,,problem start
+5,8_180817,8/18/2017 18:02,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+6,8_180817,8/18/2017 18:02,1,1,1,user,statement,50,1,1,none,,,what times 6 equals 2
+7,8_180817,8/18/2017 18:02,1,1,1,nico,,,,,,1,no answer,Do we divide six by two or by three?
+8,8_180817,8/18/2017 18:02,1,1,1,user,statement,50,1,1,none,,,what divided by 6 equals to go
+9,8_180817,8/18/2017 18:02,1,1,1,nico,,,,,,1,no answer,Do we divide six by two or by three?
+10,8_180817,8/18/2017 18:03,1,1,1,user,statement,50,1,1,none,,,divide 6 by 2
+11,8_180817,8/18/2017 18:03,1,1,1,nico,,,,,,1,no answer,Okay so we divide. Can you tell me what we are dividing again?
+12,8_180817,8/18/2017 18:03,1,1,1,user,statement,50,1,1,none,,,divide 6 by 3
+13,8_180817,8/18/2017 18:03,1,1,1,nico,,,,,,1,no answer,Okay so we divide six by three. Six divided by three is two right?
+14,8_180817,8/18/2017 18:03,1,1,1,user,statement,50,1,1,none,,,correct
+15,8_180817,8/18/2017 18:03,1,1,1,nico,,,,,,1,no answer,Did you say four is the answer?
+16,8_180817,8/18/2017 18:03,1,1,1,user,statement,50,1,1,none,,,correct so 12 / 3 equals 4 then
+17,8_180817,8/18/2017 18:03,1,1,1,nico,,,,,,1,no answer,Did you say four is the answer?
+18,8_180817,8/18/2017 18:03,1,1,1,user,statement,50,1,1,none,,,so 12 / 3 equals 4
+19,8_180817,8/18/2017 18:03,1,1,1,nico,,,,,,1,no answer,Did you say four is the answer?
+20,8_180817,8/18/2017 18:03,1,1,1,user,statement,50,1,1,none,,,yes
+21,8_180817,8/18/2017 18:03,1,1,1,nico,,,,,,1,answering,Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.
+22,8_180817,8/18/2017 18:03,1,1,2,user,,50,0,33,step_1_2,,,
+23,8_180817,8/18/2017 18:03,1,1,2,nico,,,,,,1,no answer,Can you give me a hint for STEP TWO?
+24,8_180817,8/18/2017 18:04,1,1,2,user,statement,50,1,33,none,,,so two times 3 equals 6
+25,8_180817,8/18/2017 18:04,1,1,2,nico,,,,,,1,no answer,So two times three is six. So we can use that to figure out the answer? How do we do that?
+26,8_180817,8/18/2017 18:04,1,1,2,user,statement,50,1,33,none,,,we're going to multiply 6 x 3
+27,8_180817,8/18/2017 18:04,1,1,2,nico,,,,,,1,no answer,Sweet! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.
+28,8_180817,8/18/2017 18:04,1,1,2,user,statement,50,1,33,none,,,we're going to multiply 6 x 3 what is 6 * 3
+29,8_180817,8/18/2017 18:04,1,1,2,nico,,,,,,1,answering,Sweet! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.
+30,8_180817,8/18/2017 18:04,1,2,2,user,,50,0,49,problem_1_2,,,
+31,8_180817,8/18/2017 18:04,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+32,8_180817,8/18/2017 18:05,1,2,1,user,statement,50,1,1,none,,,6 divided by 3 equals what
+33,8_180817,8/18/2017 18:05,1,2,1,nico,,,,,,1,no answer,So we're looking at the ratio between the six and the two?
+34,8_180817,8/18/2017 18:05,1,2,1,user,statement,50,1,1,none,,,yes
+35,8_180817,8/18/2017 18:05,1,2,1,nico,,,,,,1,no answer,Oh okay. So six divided by two is three. So then do we divide three by three?
+36,8_180817,8/18/2017 18:05,1,2,1,user,statement,50,1,1,none,,,yes
+37,8_180817,8/18/2017 18:05,1,2,1,nico,,,,,,1,no answer,Three divided by three is one. So is one the answer?
+38,8_180817,8/18/2017 18:05,1,2,1,user,statement,50,1,1,none,,,yes Neko
+39,8_180817,8/18/2017 18:05,1,2,1,nico,,,,,,1,answering,Cool! So I only need one ounce of paint for my arms. I will put the answer is one.
+40,8_180817,8/18/2017 18:05,1,2,2,user,,50,0,33,step_1_2,,,
+41,8_180817,8/18/2017 18:05,1,2,2,nico,,,,,,1,no answer,Can you give me a hint on STEP TWO OF PROBLEM TWO?
+42,8_180817,8/18/2017 18:05,1,2,2,user,statement,50,1,33,none,,,2622 is also equal to 3 - 1
+43,8_180817,8/18/2017 18:05,1,2,2,nico,,,,,,1,no answer,Do we multiply by three?
+44,8_180817,8/18/2017 18:06,1,2,2,user,statement,50,1,33,none,,,yes we multiply 1 by 3 what is 1 * 3
+45,8_180817,8/18/2017 18:06,1,2,2,nico,,,,,,1,no answer,"If we multiply three times three, that's nine. So the answer is nine?"
+46,8_180817,8/18/2017 18:06,1,2,2,user,statement,50,1,33,none,,,correct
+47,8_180817,8/18/2017 18:06,1,2,2,nico,,,,,,1,answering,Okay great! So my head has a surface area of nine inches. I will put the answer is nine.
+48,8_180817,8/18/2017 18:06,1,3,2,user,,50,0,49,problem_2_3,,,
+49,8_180817,8/18/2017 18:06,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on MY WAY THERE?
+50,8_180817,8/18/2017 18:06,1,3,1,user,statement,50,1,1,none,,,1 to 60 is the ratio of time to distance to the beach
+51,8_180817,8/18/2017 18:06,1,3,1,nico,,,,,,1,no answer,Ok I know I can drive sixty miles in one hour. Do we multiply sixty by two point five hours? Does that make sense?
+52,8_180817,8/18/2017 18:07,1,3,1,user,statement,50,1,1,none,,,yes Neko we multiply 60 by 2.5
+53,8_180817,8/18/2017 18:07,1,3,1,nico,,,,,,1,no answer,Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?
+54,8_180817,8/18/2017 18:07,1,3,1,user,statement,50,1,1,none,,,correct
+55,8_180817,8/18/2017 18:07,1,3,1,nico,,,,,,1,answering,"In two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty."
+56,8_180817,8/18/2017 18:07,1,3,2,user,,50,0,33,step_1_2,,,
+57,8_180817,8/18/2017 18:07,1,3,2,nico,,,,,,1,no answer,I'm really not sure what to do on STEP TWO OF THIS THIRD PROBLEM.
+58,8_180817,8/18/2017 18:07,1,3,2,user,statement,50,1,33,none,,,so 2.5 to 150 is the ratio to the time and hours to the distance to the beach
+59,8_180817,8/18/2017 18:07,1,3,2,nico,,,,,,1,no answer,Okay that sounds good.
+60,8_180817,8/18/2017 18:08,1,3,2,user,statement,50,1,33,none,,,so what is 150 * to Nico
+61,8_180817,8/18/2017 18:08,1,3,2,nico,,,,,,1,no answer,Okay that sounds good.
+62,8_180817,8/18/2017 18:08,1,3,2,user,statement,50,1,33,none,,,what is 150 * 2
+63,8_180817,8/18/2017 18:08,1,3,2,nico,,,,,,1,no answer,Okay that makes sense.
+64,8_180817,8/18/2017 18:08,1,3,2,user,statement,50,1,33,none,,,what is 150 * 2 nickel
+65,8_180817,8/18/2017 18:08,1,3,2,nico,,,,,,1,no answer,So I'm actually not sure what you mean.
+66,8_180817,8/18/2017 18:08,1,3,2,user,statement,50,1,33,none,,,so 150 * 2 equals 300 so 2 and 1/2 * 2 equals what Niko
+67,8_180817,8/18/2017 18:08,1,3,2,nico,,,,,,1,no answer,I guess three hundred is twice one hundred and fifty? So I've driven twice as long at this point. Do we then do twice of two point five?
+68,8_180817,8/18/2017 18:09,1,3,2,user,statement,50,1,33,none,,,what is 2 x 2.5 nickel
+69,8_180817,8/18/2017 18:09,1,3,2,nico,,,,,,1,no answer,Oh okay. So is the answer five?
+70,8_180817,8/18/2017 18:09,1,3,2,user,statement,50,1,33,none,,,correct
+71,8_180817,8/18/2017 18:09,1,3,2,nico,,,,,,1,answering,Great! So I will have been driving for five hours after three hundred miles. I will put the answer is five.
+72,8_180817,8/18/2017 18:09,1,3,3,user,,50,0,49,step_2_3,,,
+73,8_180817,8/18/2017 18:09,1,3,3,nico,,,,,,1,no answer,"So for STEP THREE OF THIS THIRD PROBLEM, I may be getting this but can you give me another hint?"
+74,8_180817,8/18/2017 18:09,1,3,3,user,statement,50,1,49,none,,,what times 1 equals 70 go
+75,8_180817,8/18/2017 18:09,1,3,3,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+76,8_180817,8/18/2017 18:09,1,3,3,user,statement,50,1,49,none,,,what is 7 / 1 meter
+77,8_180817,8/18/2017 18:09,1,3,3,nico,,,,,,1,no answer,So on the table it will have been 7 hours of traveling. How do we use the seven to get the number of miles?
+78,8_180817,8/18/2017 18:10,1,3,2,user,,50,0,49,step_3_2,,,
+79,8_180817,8/18/2017 18:10,1,3,2,nico,,,,,,1,no answer,Didn't we already do step two for problem THREE?
+80,8_180817,8/18/2017 18:10,1,3,3,user,,50,0,49,step_2_3,,,
+81,8_180817,8/18/2017 18:10,1,3,3,nico,,,,,,1,no answer,"So for STEP THREE OF THIS THIRD PROBLEM, I may be getting this but can you give me another hint?"
+82,8_180817,8/18/2017 18:10,1,3,3,user,statement,50,1,49,none,,,so one time 7 equals what Nico
+83,8_180817,8/18/2017 18:10,1,3,3,nico,,,,,,1,no answer,So on the table it will have been 7 hours of traveling. How do we use the seven to get the number of miles?
+84,8_180817,8/18/2017 18:10,1,3,3,user,statement,50,1,49,none,,,what is 60 * 7
+85,8_180817,8/18/2017 18:10,1,3,3,nico,,,,,,1,no answer,Sixty times seven is four hundred and twenty. Is four hundred and twenty the answer?
+86,8_180817,8/18/2017 18:10,1,3,3,user,statement,50,1,49,none,,,yes Neko
+87,8_180817,8/18/2017 18:10,1,3,3,nico,,,,,,1,answering,I get it! After seven hours I will have driven four hundred and twenty miles. I will put the answer is four hundred and twenty the answer.
+88,8_180817,8/18/2017 18:42,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+89,8_180817,8/18/2017 18:42,1,1,0,nico,,,,,,1,no answer,Hi! My name is Nico. What is your name?
+90,8_180817,8/18/2017 18:42,1,1,0,user,statement,50,1,1,none,,,my name is Jonathan
+91,8_180817,8/18/2017 18:42,1,1,0,nico,,,,,,1,no answer,Nice to meet you Jonathan. Are you ready to get started?
+92,8_180817,8/18/2017 18:42,1,1,0,user,statement,50,1,1,none,,,what is your favorite color Nico
+93,8_180817,8/18/2017 18:42,1,1,0,nico,,,,,,1,no answer,Lets do it! It will be fun. Press the start teaching button and we can get started.
+94,8_180817,8/18/2017 18:42,1,1,0,user,,50,0,1,problem start,,,problem start
+95,8_180817,8/18/2017 18:42,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+96,8_180817,8/18/2017 18:43,1,1,1,user,statement,50,1,1,none,,,what is your favorite color
+97,8_180817,8/18/2017 18:43,1,1,1,nico,,,,,,1,no answer,Okay that sounds good.
+98,8_180817,8/18/2017 18:43,1,1,1,user,statement,50,1,1,none,,,what is your favorite color
+99,8_180817,8/18/2017 18:43,1,1,1,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+100,9_210817,8/21/2017 18:33,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+101,9_210817,8/21/2017 18:33,1,1,0,nico,,,,,,1,no answer,Hi! My name is Nico. What is your name?
+102,9_210817,8/21/2017 18:34,1,1,0,user,statement,50,1,1,none,,,my name is Emma
+103,9_210817,8/21/2017 18:34,1,1,0,nico,,,,,,1,no answer,Nice to meet you Emma. Are you ready to get started?
+104,9_210817,8/21/2017 18:34,1,1,0,user,statement,50,1,1,none,,,yes I am
+105,9_210817,8/21/2017 18:34,1,1,0,nico,,,,,,1,no answer,Lets do it! It will be fun. Press the start teaching button and we can get started.
+106,9_210817,8/21/2017 18:34,1,1,0,user,,50,0,1,problem start,,,problem start
+107,9_210817,8/21/2017 18:34,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+108,9_210817,8/21/2017 18:35,1,1,1,user,,50,0,1,null,,,Triggered Speech 1
+109,9_210817,8/21/2017 18:35,1,1,1,nico,,,,,,1,no answer,Why aren't you talking to me? Are you thinking?
+110,9_210817,8/21/2017 18:35,1,1,1,user,statement,50,1,1,none,,,yes I am thinking
+111,9_210817,8/21/2017 18:35,1,1,1,nico,,,,,,1,no answer,Okay that makes sense.
+112,9_210817,8/21/2017 18:35,1,1,1,user,statement,50,1,1,none,,,okay so how I did it is multiplied
+113,9_210817,8/21/2017 18:35,1,1,1,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+114,9_210817,8/21/2017 18:36,1,1,1,user,statement,50,1,1,none,,,so the first step would be multiplying 2 by 3 what do you think that is
+115,9_210817,8/21/2017 18:36,1,1,1,nico,,,,,,1,no answer,What do we do with the number TWO?
+116,9_210817,8/21/2017 18:36,1,1,1,user,statement,50,1,1,none,,,he * 3 3
+117,9_210817,8/21/2017 18:36,1,1,1,nico,,,,,,1,no answer,Okay.ay. So that's what we do with the two and then what do we do?
+118,9_210817,8/21/2017 18:36,1,1,1,user,statement,50,1,1,none,,,he * 3
+119,9_210817,8/21/2017 18:36,1,1,1,nico,,,,,,1,no answer,Okay.ay. So that's what we do with the two and then what do we do?
+120,9_210817,8/21/2017 18:37,1,1,1,user,statement,50,1,1,none,,,so are we doing two is * 3 + 2 * 3 would be 6
+121,9_210817,8/21/2017 18:37,1,1,1,nico,,,,,,1,no answer,Do we multiply by TWO?
+122,9_210817,8/21/2017 18:37,1,1,1,user,statement,50,1,1,none,,,but you can't do it that way or you can't do it either way to * 3 + 3 * 10
+123,9_210817,8/21/2017 18:37,1,1,1,nico,,,,,,1,no answer,Okay. I'm going to multiply the two by two to get four. Is four the answer?
+124,9_210817,8/21/2017 18:37,1,1,1,user,statement,50,1,1,none,,,closed but it's not
+125,9_210817,8/21/2017 18:37,1,1,1,nico,,,,,,1,answering,Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.
+126,9_210817,8/21/2017 18:38,1,1,1,user,statement,50,1,33,none,,,okay so the next step is multiplying
+127,9_210817,8/21/2017 18:38,1,1,1,nico,,,,,,1,no answer,Is four the answer? the answer?
+128,9_210817,8/21/2017 18:38,1,1,1,user,statement,50,1,33,none,,,okay so the next step is multiplying 4 * 3
+129,9_210817,8/21/2017 18:38,1,1,1,nico,,,,,,1,no answer,Is four the answer? the answer?
+130,9_210817,8/21/2017 18:38,1,1,2,user,,50,0,33,step_1_2,,,
+131,9_210817,8/21/2017 18:38,1,1,2,nico,,,,,,1,no answer,Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.
+132,9_210817,8/21/2017 18:39,1,1,2,user,,50,0,33,null,,,Triggered Speech 2
+133,9_210817,8/21/2017 18:39,1,1,2,nico,,,,,,1,no answer,Why aren't you talking to me? I'm getting tired.
+134,9_210817,8/21/2017 18:39,1,1,2,user,statement,50,1,33,none,,,cake stuff for the next step you would also multiplies so you would multiply 6 x 3
+135,9_210817,8/21/2017 18:39,1,1,2,nico,,,,,,1,no answer,Ok so we multiply. I'm sorry but what are we multiplying? Two times two?
+136,9_210817,8/21/2017 18:40,1,1,2,user,statement,50,1,33,none,,,no we are multiplying 6 x 3 which would be 18
+137,9_210817,8/21/2017 18:40,1,1,2,nico,,,,,,1,no answer,Do we divide six by two or by three?
+138,9_210817,8/21/2017 18:40,1,1,2,user,statement,50,1,33,none,,,no we are multiplying 6 x 3 which would be 18 so answer is 18
+139,9_210817,8/21/2017 18:40,1,1,2,nico,,,,,,1,no answer,Do we divide six by two or by three?
+140,9_210817,8/21/2017 18:40,1,1,2,user,statement,50,1,33,none,,,Weider 565
+141,9_210817,8/21/2017 18:40,1,1,2,nico,,,,,,1,no answer,Okay that sounds good.
+142,9_210817,8/21/2017 18:40,1,1,2,user,statement,50,1,33,none,,,okay so we multiply 6 x 3 which would be 18 so your answer Fitness step would be 18
+143,9_210817,8/21/2017 18:40,1,1,2,nico,,,,,,1,no answer,We can use the ratio of six to two here too? Do we look at how many times two goes into six?
+144,9_210817,8/21/2017 18:41,1,1,2,user,statement,50,1,33,none,,,we can like how many times three cousin VI
+145,9_210817,8/21/2017 18:41,1,1,2,nico,,,,,,1,no answer,Oh okay. So two goes into six three times. How do we figure out how big my torso is?
+146,9_210817,8/21/2017 18:41,1,1,2,user,statement,50,1,33,none,,,so we figure it out by doing six times 3 which would be taking 6 3 times so basically 6 + 6 + 6
+147,9_210817,8/21/2017 18:41,1,1,2,nico,,,,,,1,no answer,Figure it out? But I don't know how.
+148,9_210817,8/21/2017 18:41,1,1,2,user,statement,50,1,33,none,,,so we figure it out by doing six times
+149,9_210817,8/21/2017 18:41,1,1,2,nico,,,,,,1,no answer,Figure it out? But I don't know how.
+150,9_210817,8/21/2017 18:41,1,1,2,user,statement,50,1,33,none,,,okay so you would multiply 6 times 3 which is basically 6 + 6 + 6 + 6 + 6 + 6 or 6 times three would be 18 the answer is 18 for the steps
+151,9_210817,8/21/2017 18:41,1,1,2,nico,,,,,,1,no answer,We can use the ratio of six to two here too? Do we look at how many times two goes into six?
+152,9_210817,8/21/2017 18:42,1,2,2,user,,50,0,33,problem_1_2,,,
+153,9_210817,8/21/2017 18:42,1,2,2,nico,,,,,,1,no answer,Sweet! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.
+154,9_210817,8/21/2017 18:42,1,2,1,user,statement,50,1,1,none,,,okay so this one is the same as the last one except for doing different numbers sort of bed still * 3
+155,9_210817,8/21/2017 18:42,1,2,1,nico,,,,,,1,no answer,So I'm actually not sure what you mean.ext?
+156,9_210817,8/21/2017 18:42,1,2,1,user,statement,50,1,1,none,,,okay so this one is the same as the last one except for doing different numbers sort of
+157,9_210817,8/21/2017 18:42,1,2,1,nico,,,,,,1,no answer,So I'm actually not sure what you mean.ext?
+158,9_210817,8/21/2017 18:43,1,2,1,user,statement,50,1,1,none,,,okay Sofia the First Step you would do 1 times 3 which is one taken three times so it's one plus one plus one basically
+159,9_210817,8/21/2017 18:43,1,2,1,nico,,,,,,1,no answer,Sweet! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.
+160,9_210817,8/21/2017 18:43,1,2,1,user,statement,50,1,1,none,,,okay Sofia the First Step you would do 1 times 3 which is one taken three times so it's one plus one plus one basically answer would be 3 x 3
+161,9_210817,8/21/2017 18:43,1,2,1,nico,,,,,,1,answering,Sweet! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.
+162,9_210817,8/21/2017 18:44,1,2,1,user,statement,50,1,33,none,,,okay so now we're going to do how much paint you need on your arms so first you would do 1 * 3 which is
+163,9_210817,8/21/2017 18:44,1,2,1,nico,,,,,,1,no answer,Did you say ONE is the answer?
+164,9_210817,8/21/2017 18:44,1,2,1,user,statement,50,1,33,none,,,okay so now we're going to do how much paint you need on your arms so first you would do 1 * 3 which is basically one plus one plus one cuz it's one Taken 3 times so dancing for your arms would be 3
+165,9_210817,8/21/2017 18:44,1,2,1,nico,,,,,,1,no answer,Did you say ONE is the answer?
+166,9_210817,8/21/2017 18:44,1,2,1,user,statement,50,1,33,none,,,no I did not I said that the answer was 3
+167,9_210817,8/21/2017 18:44,1,2,1,nico,,,,,,1,no answer,Half of six is three.Half of two is one. Are you sure one isn't the answer?
+168,9_210817,8/21/2017 18:44,1,2,1,user,statement,50,1,33,none,,,the way you are right it is one your answer is one
+169,9_210817,8/21/2017 18:44,1,2,1,nico,,,,,,1,no answer,Did you say ONE is the answer?
+170,9_210817,8/21/2017 18:44,1,2,1,user,statement,50,1,33,none,,,yes I did
+171,9_210817,8/21/2017 18:44,1,2,1,nico,,,,,,1,answering,Cool! So I only need one ounce of paint for my arms. I will put the answer is ONE.
+172,9_210817,8/21/2017 18:45,1,2,1,user,statement,50,1,33,none,,,the next we're going to do your head sancy other ones but different number so you would do 3 * 3 * 3 which is 3 Taken 3 times which is 3 + 3 + 3 which would be 9
+173,9_210817,8/21/2017 18:45,1,2,1,nico,,,,,,1,no answer,What do we do with the number three?
+174,9_210817,8/21/2017 18:45,1,2,1,user,statement,50,1,33,none,,,what you would do with the number 3 is multiplied by itself so witty 3 x 3 which is very close to 1 or mean 2 3 + 3 + 3 + 3 + 3 + 3 or 3 * 9 3 * 349 so your answer is 9
+175,9_210817,8/21/2017 18:45,1,2,1,nico,,,,,,1,no answer,So three times more than three would be nine. So the answer is nine?e. Right?
+176,9_210817,8/21/2017 18:45,1,2,1,user,statement,50,1,33,none,,,what you would do with the number 3 is multiplied by itself so witty 3 x 3 which is
+177,9_210817,8/21/2017 18:45,1,2,1,nico,,,,,,1,no answer,So three times more than three would be nine. So the answer is nine?e. Right?
+178,9_210817,8/21/2017 18:46,1,2,1,user,statement,50,1,33,none,,,yes it answer would be nice
+179,9_210817,8/21/2017 18:46,1,2,1,nico,,,,,,1,answering,Okay great! So my head has a surface area of nine inches. I will put the answer is nine.
+180,9_210817,8/21/2017 18:46,1,2,2,user,,50,0,33,step_1_2,,,
+181,9_210817,8/21/2017 18:46,1,2,2,nico,,,,,,1,no answer,Can you give me a hint for STEP TWO OF PROBLEM TWO?
+182,9_210817,8/21/2017 18:47,1,2,2,user,statement,50,1,33,none,,,okay so for Step 2 you would have to cover your head in the volume of things so it's like the same but the other ones so will be three times 3 which is basically free and three 3 + 3 + 3 which is 9
+183,9_210817,8/21/2017 18:47,1,2,2,nico,,,,,,1,no answer,So what do we do with the two? Aren't the three and the one on step two more important??
+184,9_210817,8/21/2017 18:47,1,2,2,user,statement,50,1,33,none,,,okay so for Step 2 you would have to cover your head in the volume of things so it's like the same but the other ones so will be three times 3 which is basically free and three 3 + 3 + 3 which is 9
+185,9_210817,8/21/2017 18:47,1,2,2,nico,,,,,,1,no answer,So what do we do with the two? Aren't the three and the one on step two more important??
+186,9_210817,8/21/2017 18:47,1,2,2,user,statement,50,1,33,none,,,okay so you would multiply the 3 10-3 so it's 3 Taken 3 * 3 + 3 + 3 which would be in cigarettes it would be nice
+187,9_210817,8/21/2017 18:47,1,2,2,nico,,,,,,1,no answer,What do we multiply three by? Do you mean we multiply three by three?
+188,9_210817,8/21/2017 18:47,1,2,2,user,statement,50,1,33,none,,,yes
+189,9_210817,8/21/2017 18:47,1,2,2,nico,,,,,,1,no answer,I'm still learning ratios but you seem like a really cool tutor.
+190,9_210817,8/21/2017 18:48,1,2,2,user,statement,50,1,33,none,,,okay Niko so your answer would be 9
+191,9_210817,8/21/2017 18:48,1,2,2,nico,,,,,,1,no answer,Sweet! So the answer is nine?surface area of nine inches. I will put the answer is nine.
+192,9_210817,8/21/2017 18:48,1,2,2,user,statement,50,1,33,none,,,okay Niko so your answer would be 9 wait
+193,9_210817,8/21/2017 18:48,1,2,2,nico,,,,,,1,answering,Sweet! So the answer is nine?surface area of nine inches. I will put the answer is nine.
+194,9_210817,8/21/2017 18:48,1,3,2,user,,50,0,49,problem_2_3,,,
+195,9_210817,8/21/2017 18:48,1,3,2,nico,,,,,,1,no answer,Okay great! So my head has a surface area of nine inches. I will put the answer is nine.
+196,9_210817,8/21/2017 18:49,1,3,1,user,,50,0,1,null,,,Triggered Speech 3
+197,9_210817,8/21/2017 18:49,1,3,1,nico,,,,,,1,no answer,"If you aren't going to talk to me, I think I'm going to go to sleep."
+198,9_210817,8/21/2017 18:50,1,3,1,user,,50,0,1,null,,,Triggered Speech 4
+199,9_210817,8/21/2017 18:50,1,3,1,nico,,,,,,1,no answer,Okay I'm going to take a nap now.
+200,9_210817,8/21/2017 18:52,1,3,1,user,,50,0,1,null,,,Triggered Speech 5
+201,9_210817,8/21/2017 18:52,1,3,1,nico,,,,,,1,no answer,I'm still learning ratios but you seem like a really cool tutor.
+202,10_040917,9/4/2017 13:20,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+203,10_040917,9/4/2017 13:20,1,1,0,nico,,,,,,1,no answer,Hi! My name is Nico. What is your name?
+204,10_040917,9/4/2017 13:20,1,1,0,user,statement,50,1,1,none,,,Mark Wiens
+205,10_040917,9/4/2017 13:20,1,1,0,nico,,,,,,1,no answer,Nice to meet you! Are you ready to get started?
+206,10_040917,9/4/2017 13:20,1,1,0,user,,50,0,1,problem start,,,problem start
+207,10_040917,9/4/2017 13:20,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+208,10_040917,9/4/2017 13:21,1,1,1,user,,50,0,1,null,,,Triggered Speech 1
+209,10_040917,9/4/2017 13:21,1,1,1,nico,,,,,,1,no answer,Why aren't you talking to me? Are you thinking?
+210,10_040917,9/4/2017 13:22,1,1,1,user,statement,50,1,1,none,,,yes
+211,10_040917,9/4/2017 13:22,1,1,1,nico,,,,,,1,no answer,So I'm a bit like an older person with hard hearing. Can you say that again?
+212,10_040917,9/4/2017 13:22,1,1,1,user,statement,50,1,1,none,,,yes
+213,10_040917,9/4/2017 13:22,1,1,1,nico,,,,,,1,no answer,Ah ha. Okay.
+214,10_040917,9/4/2017 13:23,1,1,1,user,statement,50,1,1,none,,,so you know how much it takes for your feet but your legs are twice as big so it you know it takes two
+215,10_040917,9/4/2017 13:23,1,1,1,nico,,,,,,1,no answer,"Okay. To figure out how much paint I need for my legs, I look at how much paint I need for my feet?"
+216,10_040917,9/4/2017 13:23,1,1,1,user,statement,50,1,1,none,,,yes and then you multiply it by 2
+217,10_040917,9/4/2017 13:23,1,1,1,nico,,,,,,1,no answer,Oh okay. We multiply! We multiply two times two?
+218,10_040917,9/4/2017 13:23,1,1,1,user,statement,50,1,1,none,,,yes
+219,10_040917,9/4/2017 13:23,1,1,1,nico,,,,,,1,no answer,So that's four. Then we have the answer is four?
+220,10_040917,9/4/2017 13:23,1,1,1,user,statement,50,1,1,none,,,yes
+221,10_040917,9/4/2017 13:23,1,1,1,nico,,,,,,1,answering,Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.
+222,10_040917,9/4/2017 13:23,1,1,2,user,,50,0,1,step_1_2,,,
+223,10_040917,9/4/2017 13:23,1,1,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO.
+224,10_040917,9/4/2017 13:25,1,1,2,user,,50,0,1,null,,,Triggered Speech 2
+225,10_040917,9/4/2017 13:25,1,1,2,nico,,,,,,1,no answer,Why aren't you talking to me? I'm getting tired.
+226,10_040917,9/4/2017 13:25,1,1,2,user,statement,50,1,1,none,,,I'm thinking
+227,10_040917,9/4/2017 13:25,1,1,2,nico,,,,,,1,no answer,So I'm a bit like an older person with hard hearing. Can you say that again?
+228,10_040917,9/4/2017 13:25,1,1,2,user,statement,50,1,1,none,,,I'm thinking
+229,10_040917,9/4/2017 13:25,1,1,2,nico,,,,,,1,no answer,Cool.
+230,10_040917,9/4/2017 13:26,1,1,2,user,statement,50,1,1,none,,,so you know it takes 6 oz of paint to cover your torso but you know that also every time that you had two more ounces it is six more so
+231,10_040917,9/4/2017 13:26,1,1,2,nico,,,,,,1,no answer,We can use the ratio of six to two here too? Do we look at how many times two goes into six?
+232,10_040917,9/4/2017 13:26,1,1,2,user,statement,50,1,1,none,,,so you know it takes 6 oz of paint to cover your torso but you know that also every time that you had two more ounces it is six more so what is 12 + 6
+233,10_040917,9/4/2017 13:26,1,1,2,nico,,,,,,1,no answer,We can use the ratio of six to two here too? Do we look at how many times two goes into six?
+234,10_040917,9/4/2017 13:27,1,1,1,user,,50,0,1,step_2_1,,,
+235,10_040917,9/4/2017 13:27,1,1,1,nico,,,,,,1,no answer,Didn't we already do step one?
+236,10_040917,9/4/2017 13:27,1,1,1,user,statement,50,1,1,none,,,yes but if you go back
+237,10_040917,9/4/2017 13:27,1,1,1,nico,,,,,,1,no answer,Why are we back on step one for this problem? We already figured out that it is four fluid ounces.
+238,10_040917,9/4/2017 13:27,1,1,2,user,,50,0,1,step_1_2,,,
+239,10_040917,9/4/2017 13:27,1,1,2,nico,,,,,,1,no answer,I'm really not sure what to do on STEP TWO.
+240,10_040917,9/4/2017 13:28,1,1,2,user,statement,50,1,1,none,,,so you know that you have you need 6 ounces of paint to cover your torso and you also know that for 12 it took four and four six it took two so you added so six times to was 12 and that
+241,10_040917,9/4/2017 13:28,1,1,2,nico,,,,,,1,no answer,We can use the ratio of six to two here too? Do we look at how many times two goes into six?
+242,10_040917,9/4/2017 13:28,1,1,2,user,statement,50,1,1,none,,,yes
+243,10_040917,9/4/2017 13:28,1,1,2,nico,,,,,,1,no answer,Oh okay. So two goes into six three times. How do we figure out how big my torso is?
+244,10_040917,9/4/2017 13:28,1,1,2,user,statement,50,1,1,none,,,do you do the multiplication problem of 6 * 3
+245,10_040917,9/4/2017 13:28,1,1,2,nico,,,,,,1,no answer,We can use the ratio of six to two here too? Do we look at how many times two goes into six?
+246,10_040917,9/4/2017 13:28,1,1,2,user,statement,50,1,1,none,,,do you do the multiplication problem of
+247,10_040917,9/4/2017 13:28,1,1,2,nico,,,,,,1,no answer,We can use the ratio of six to two here too? Do we look at how many times two goes into six?
+248,10_040917,9/4/2017 13:29,1,1,2,user,statement,50,1,1,none,,,yes
+249,10_040917,9/4/2017 13:29,1,1,2,nico,,,,,,1,no answer,Oh okay. So two goes into six three times. How do we figure out how big my torso is?
+250,10_040917,9/4/2017 13:29,1,1,2,user,statement,50,1,1,none,,,you multiply 6 by 3
+251,10_040917,9/4/2017 13:29,1,1,2,nico,,,,,,1,no answer,"If we multiply six times three, that's eighteen. So is the answer eighteen?"
+252,10_040917,9/4/2017 13:29,1,1,2,user,statement,50,1,1,none,,,yes
+253,10_040917,9/4/2017 13:29,1,1,2,nico,,,,,,1,answering,Sweet! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.
+254,10_040917,9/4/2017 13:29,1,2,2,user,,50,0,17,problem_1_2,,,
+255,10_040917,9/4/2017 13:29,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+256,10_040917,9/4/2017 13:30,1,2,1,user,,50,0,1,null,,,Triggered Speech 3
+257,10_040917,9/4/2017 13:30,1,2,1,nico,,,,,,1,no answer,"If you aren't going to talk to me, I think I'm going to go to sleep."
+258,10_040917,9/4/2017 13:31,1,2,1,user,statement,50,1,1,none,,,so if you
+259,10_040917,9/4/2017 13:31,1,2,1,nico,,,,,,1,no answer,Okay.
+260,10_040917,9/4/2017 13:31,1,2,1,user,statement,50,1,1,none,,,so you know it took 2 oz of paint for 6 inches so what is 6
+261,10_040917,9/4/2017 13:31,1,2,1,nico,,,,,,1,no answer,So there is a ratio between six and two. But what do we do with the number TWO?we divide the two?
+262,10_040917,9/4/2017 13:31,1,2,1,user,statement,50,1,1,none,,,so you know it took 2 oz of paint for 6 inches so what is 6 divided by 3
+263,10_040917,9/4/2017 13:31,1,2,1,nico,,,,,,1,no answer,So there is a ratio between six and two. But what do we do with the number TWO?we divide the two?
+264,10_040917,9/4/2017 13:32,1,2,1,user,statement,50,1,1,none,,,yes
+265,10_040917,9/4/2017 13:32,1,2,1,nico,,,,,,1,no answer,Oh okay. So that's what we do with the two. One is half of two. Is one the answer?
+266,10_040917,9/4/2017 13:32,1,2,1,user,statement,50,1,1,none,,,yes
+267,10_040917,9/4/2017 13:32,1,2,1,nico,,,,,,1,answering,Cool! So I only need one ounce of paint for my arms. I will put the answer is one.
+268,10_040917,9/4/2017 13:32,1,2,2,user,,50,0,33,step_1_2,,,
+269,10_040917,9/4/2017 13:32,1,2,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO OF PROBLEM TWO.
+270,10_040917,9/4/2017 13:33,1,2,2,user,statement,50,1,33,none,,,so you know it takes 3 oz of paint to cover your head
+271,10_040917,9/4/2017 13:33,1,2,2,nico,,,,,,1,no answer,What do we do with the number three?
+272,10_040917,9/4/2017 13:33,1,2,2,user,statement,50,1,33,none,,,you multiply it
+273,10_040917,9/4/2017 13:33,1,2,2,nico,,,,,,1,no answer,So if we look at the ratio of one to three. Three is three times more. Right?
+274,10_040917,9/4/2017 13:33,1,2,2,user,statement,50,1,33,none,,,no
+275,10_040917,9/4/2017 13:33,1,2,2,nico,,,,,,1,no answer,So three times more than three would be nine. So the answer is nine?
+276,10_040917,9/4/2017 13:33,1,2,2,user,statement,50,1,33,none,,,yes
+277,10_040917,9/4/2017 13:33,1,2,2,nico,,,,,,1,answering,Okay great! So my head has a surface area of nine inches. I will put the answer is nine.
+278,10_040917,9/4/2017 13:33,1,3,2,user,,50,0,49,problem_2_3,,,
+279,10_040917,9/4/2017 13:33,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on MY WAY THERE?
+280,10_040917,9/4/2017 13:34,1,3,1,user,,50,0,1,null,,,Triggered Speech 4
+281,10_040917,9/4/2017 13:34,1,3,1,nico,,,,,,1,no answer,Okay I'm going to take a nap now.
+282,10_040917,9/4/2017 13:35,1,3,1,user,statement,50,1,1,none,,,so you know that in one hour you drove 60 miles so if you add another hour and a half
+283,10_040917,9/4/2017 13:35,1,3,1,nico,,,,,,1,no answer,Ok I know I can drive sixty miles in one hour. Do we multiply sixty by two point five hours? Does that make sense?
+284,10_040917,9/4/2017 13:35,1,3,1,user,statement,50,1,1,none,,,so you know that in one hour you drove 60 miles so if you add another hour and a half going at the same speed how much more would you have gone
+285,10_040917,9/4/2017 13:35,1,3,1,nico,,,,,,1,no answer,Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?
+286,10_040917,9/4/2017 13:35,1,3,1,user,statement,50,1,1,none,,,yes
+287,10_040917,9/4/2017 13:35,1,3,1,nico,,,,,,1,answering,"In two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty."
+288,10_040917,9/4/2017 13:36,1,3,2,user,,50,0,33,step_1_2,,,
+289,10_040917,9/4/2017 13:36,1,3,2,nico,,,,,,1,no answer,Can you give me a hint for STEP TWO OF THIS THIRD PROBLEM?
+290,10_040917,9/4/2017 13:37,1,3,2,user,,50,0,33,null,,,Triggered Speech 5
+291,10_040917,9/4/2017 13:37,1,3,2,nico,,,,,,1,no answer,This is a hard problem. What do we do next?
+292,10_040917,9/4/2017 13:41,1,3,3,user,,50,0,33,step_2_3,,,
+293,10_040917,9/4/2017 13:41,1,3,3,nico,,,,,,1,no answer,"So for STEP THREE OF THIS THIRD PROBLEM, I may be getting this but can you give me another hint?"
+294,10_040917,9/4/2017 13:43,1,1,0,user,,50,0,1,problem start,,,problem start
+295,10_040917,9/4/2017 13:43,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+296,10_040917,9/4/2017 13:43,1,1,2,user,,50,0,1,step_1_2,,,
+297,10_040917,9/4/2017 13:43,1,1,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO.
+298,10_040917,9/4/2017 13:44,1,2,2,user,,50,0,1,problem_1_2,,,
+299,10_040917,9/4/2017 13:44,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+300,10_040917,9/4/2017 13:44,1,2,2,user,,50,0,1,step_1_2,,,
+301,10_040917,9/4/2017 13:44,1,2,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO OF PROBLEM TWO.
+302,10_040917,9/4/2017 13:44,1,3,2,user,,50,0,1,problem_2_3,,,
+303,10_040917,9/4/2017 13:44,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on MY WAY THERE?
+304,10_040917,9/4/2017 13:44,1,3,2,user,,50,0,1,step_1_2,,,
+305,10_040917,9/4/2017 13:44,1,3,2,nico,,,,,,1,no answer,Can you give me a hint for STEP TWO OF THIS THIRD PROBLEM?
+306,10_040917,9/4/2017 13:44,1,3,2,user,statement,50,1,1,none,,,hi Nico
+307,10_040917,9/4/2017 13:44,1,3,2,nico,,,,,,1,no answer,It's nice to meet you. Are you ready to get started?
+308,10_040917,9/4/2017 13:45,1,1,0,user,statement,50,1,1,none,,,so if 150 * 2 is 300 then what is 2.5 hours * 2
+309,10_040917,9/4/2017 13:45,1,1,0,nico,,,,,,1,no answer,I guess three hundred is twice one hundred and fifty? So I've driven twice as long at this point. Do we then do twice of two point five?
+310,10_040917,9/4/2017 13:45,1,1,0,user,,50,0,1,problem start,,,problem start
+311,10_040917,9/4/2017 13:45,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+312,10_040917,9/4/2017 13:45,1,1,2,user,,50,0,33,step_1_2,,,
+313,10_040917,9/4/2017 13:45,1,1,2,nico,,,,,,1,no answer,Can you give me a hint on STEP TWO?
+314,10_040917,9/4/2017 13:45,1,2,2,user,,50,0,33,problem_1_2,,,
+315,10_040917,9/4/2017 13:45,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+316,10_040917,9/4/2017 13:45,1,2,2,user,,50,0,1,step_1_2,,,
+317,10_040917,9/4/2017 13:45,1,2,2,nico,,,,,,1,no answer,I'm really not sure what to do on STEP TWO OF PROBLEM TWO.
+318,10_040917,9/4/2017 13:46,1,3,2,user,,50,0,1,problem_2_3,,,
+319,10_040917,9/4/2017 13:46,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on MY WAY THERE?
+320,10_040917,9/4/2017 13:46,1,3,2,user,,50,0,1,step_1_2,,,
+321,10_040917,9/4/2017 13:46,1,3,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO OF THIS THIRD PROBLEM.
+322,10_040917,9/4/2017 13:47,1,3,2,user,statement,50,1,1,none,,,so if you know that 150 * 2 is 300 then you need to figure out what 2.5 hours * 2 is
+323,10_040917,9/4/2017 13:47,1,3,2,nico,,,,,,1,no answer,I guess three hundred is twice one hundred and fifty? So I've driven twice as long at this point. Do we then do twice of two point five?
+324,10_040917,9/4/2017 13:47,1,3,2,user,statement,50,1,1,none,,,yes
+325,10_040917,9/4/2017 13:47,1,3,2,nico,,,,,,1,no answer,Oh okay. So is the answer five?
+326,10_040917,9/4/2017 13:47,1,3,2,user,statement,50,1,1,none,,,yes
+327,10_040917,9/4/2017 13:47,1,3,2,nico,,,,,,1,answering,Great! So I will have been driving for five hours after three hundred miles. I will put the answer is five.
+328,10_040917,9/4/2017 13:47,1,3,3,user,,50,0,17,step_2_3,,,
+329,10_040917,9/4/2017 13:47,1,3,3,nico,,,,,,1,no answer,"So for STEP THREE OF THIS THIRD PROBLEM, I may be getting this but can you give me another hint?"
+330,10_040917,9/4/2017 13:48,1,3,3,user,statement,50,1,17,none,,,if you know that in one hour you drove 60 miles then what is 7 * 60
+331,10_040917,9/4/2017 13:48,1,3,3,nico,,,,,,1,no answer,So on the table it will have been 7 hours of traveling. How do we use the seven to get the number of miles?
+332,10_040917,9/4/2017 13:48,1,3,3,user,statement,50,1,17,none,,,you multiply it by 60
+333,10_040917,9/4/2017 13:48,1,3,3,nico,,,,,,1,no answer,"Oh right, like with two point five hours. We MULTIPLY! Do we MULTIPLY sixty times seven?"
+334,10_040917,9/4/2017 13:48,1,3,3,user,statement,50,1,17,none,,,yes
+335,10_040917,9/4/2017 13:48,1,3,3,nico,,,,,,1,no answer,So that's four hundred and twenty. Is four hundred and twenty the answer?
+336,10_040917,9/4/2017 13:48,1,3,3,user,statement,50,1,17,none,,,yes
+337,10_040917,9/4/2017 13:48,1,3,3,nico,,,,,,1,answering,I get it! After seven hours I will have driven four hundred and twenty miles. I will put the answer is four hundred and twenty the answer.
+338,11_060917,9/6/2017 11:47,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+339,11_060917,9/6/2017 11:47,1,1,0,nico,,,,,,1,no answer,Hi! My name is Nico. What is your name?
+340,11_060917,9/6/2017 11:47,1,1,0,user,statement,50,1,1,none,,,my name is Aaron Cordova
+341,11_060917,9/6/2017 11:47,1,1,0,nico,,,,,,1,no answer,Nice to meet you Aaron Cordova. Are you ready to get started?
+342,11_060917,9/6/2017 11:47,1,1,0,user,statement,50,1,1,none,,,yes
+343,11_060917,9/6/2017 11:47,1,1,0,nico,,,,,,1,no answer,Lets do it! It will be fun. Press the start teaching button and we can get started.
+344,11_060917,9/6/2017 11:48,1,1,0,user,,50,0,1,problem start,,,problem start
+345,11_060917,9/6/2017 11:48,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+346,11_060917,9/6/2017 11:49,1,1,1,user,,50,0,1,null,,,Triggered Speech 1
+347,11_060917,9/6/2017 11:49,1,1,1,nico,,,,,,1,no answer,Why aren't you talking to me? Are you thinking?
+348,11_060917,9/6/2017 11:49,1,1,1,user,statement,50,1,1,none,,,give me a second I'm still think
+349,11_060917,9/6/2017 11:49,1,1,1,nico,,,,,,1,no answer,Ah ha. Okay.
+350,11_060917,9/6/2017 11:50,1,1,1,user,statement,50,1,1,none,,,okay I'm done thinking now we will start the question
+351,11_060917,9/6/2017 11:50,1,1,1,nico,,,,,,1,no answer,Ah ha. Okay.
+352,11_060917,9/6/2017 11:50,1,1,1,user,statement,50,1,1,none,,,dead body part surface area volume of paint
+353,11_060917,9/6/2017 11:50,1,1,1,nico,,,,,,1,no answer,So we know I need two ounces of paint for six inches of surface area. Six divided by three is two. Does that mean I only need one ounce of paint for three square inches?
+354,11_060917,9/6/2017 11:50,1,1,1,user,statement,50,1,1,none,,,dead body part surface area volume of paint surface area inches volume of paper dolls
+355,11_060917,9/6/2017 11:50,1,1,1,nico,,,,,,1,no answer,So we know I need two ounces of paint for six inches of surface area. Six divided by three is two. Does that mean I only need one ounce of paint for three square inches?
+356,11_060917,9/6/2017 11:51,1,1,1,user,statement,50,1,1,none,,,yes you are correct
+357,11_060917,9/6/2017 11:51,1,1,1,nico,,,,,,1,no answer,Okay cool. So then do I divide twelve by three?
+358,11_060917,9/6/2017 11:51,1,1,1,user,statement,50,1,1,none,,,yes
+359,11_060917,9/6/2017 11:51,1,1,1,nico,,,,,,1,no answer,Okay that makes sense.
+360,11_060917,9/6/2017 11:52,1,1,1,user,statement,50,1,1,none,,,and you are still thinking right
+361,11_060917,9/6/2017 11:52,1,1,1,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+362,11_060917,9/6/2017 11:52,1,1,1,user,statement,50,1,1,none,,,divide 12 by 3
+363,11_060917,9/6/2017 11:52,1,1,1,nico,,,,,,1,no answer,Okay so we divide. Can you tell me what we are dividing again?
+364,11_060917,9/6/2017 11:52,1,1,1,user,statement,50,1,1,none,,,12
+365,11_060917,9/6/2017 11:52,1,1,1,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+366,11_060917,9/6/2017 11:52,1,1,1,user,statement,50,1,1,none,,,12 divided by 3
+367,11_060917,9/6/2017 11:52,1,1,1,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+368,11_060917,9/6/2017 11:52,1,1,1,user,statement,50,1,1,none,,,3-Dec
+369,11_060917,9/6/2017 11:52,1,1,1,nico,,,,,,1,answering,Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.
+370,11_060917,9/6/2017 11:53,1,1,1,user,statement,50,1,33,none,,,good painters correct
+371,11_060917,9/6/2017 11:53,1,1,1,nico,,,,,,1,no answer,Ah ha. Okay.
+372,11_060917,9/6/2017 11:53,1,1,1,user,statement,50,1,33,none,,,no
+373,11_060917,9/6/2017 11:53,1,1,1,nico,,,,,,1,no answer,So we know I need two ounces of paint for six inches of surface area. Six divided by three is two. Does that mean I only need one ounce of paint for three square inches?
+374,11_060917,9/6/2017 11:53,1,1,1,user,statement,50,1,33,none,,,no staff body part surface area volume of pink surface area and his son paint food
+375,11_060917,9/6/2017 11:53,1,1,1,nico,,,,,,1,no answer,So we know I need two ounces of paint for six inches of surface area. Six divided by three is two. Does that mean I only need one ounce of paint for three square inches?
+376,11_060917,9/6/2017 11:53,1,1,2,user,,50,0,33,step_1_2,,,
+377,11_060917,9/6/2017 11:53,1,1,2,nico,,,,,,1,no answer,Okay cool. So then do I divide twelve by three?
+378,11_060917,9/6/2017 11:54,1,1,2,user,statement,50,1,33,none,,,yes
+379,11_060917,9/6/2017 11:54,1,1,2,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+380,11_060917,9/6/2017 11:54,1,1,2,user,statement,50,1,33,none,,,thank you Alice get back to the questions
+381,11_060917,9/6/2017 11:54,1,1,2,nico,,,,,,1,no answer,You are welcome!
+382,11_060917,9/6/2017 11:54,1,1,1,user,,50,0,33,step_2_1,,,
+383,11_060917,9/6/2017 11:54,1,1,1,nico,,,,,,1,no answer,Didn't we already do step one?
+384,11_060917,9/6/2017 11:54,1,1,1,user,statement,50,1,33,none,,,Step 2
+385,11_060917,9/6/2017 11:54,1,1,1,nico,,,,,,1,no answer,Why are we here?
+386,11_060917,9/6/2017 11:55,1,1,2,user,,50,0,33,step_1_2,,,
+387,11_060917,9/6/2017 11:55,1,1,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO.
+388,11_060917,9/6/2017 11:55,1,1,2,user,statement,50,1,33,none,,,hear the serpent area and kids 6-12 and volume of paint fluid oz to blank 6 and on surface area and is actually 612 blank
+389,11_060917,9/6/2017 11:55,1,1,2,nico,,,,,,1,no answer,We can use the ratio of six to two here too? Do we look at how many times two goes into six?
+390,11_060917,9/6/2017 11:56,1,1,2,user,statement,50,1,33,none,,,yes good
+391,11_060917,9/6/2017 11:56,1,1,2,nico,,,,,,1,no answer,Oh okay. So two goes into six three times. How do we figure out how big my torso is?
+392,11_060917,9/6/2017 11:56,1,1,2,user,statement,50,1,33,none,,,by measuring from inches
+393,11_060917,9/6/2017 11:56,1,1,2,nico,,,,,,1,no answer,So we multiply six times three? So is the answer eighteen?
+394,11_060917,9/6/2017 11:56,1,1,2,user,statement,50,1,33,none,,,correct
+395,11_060917,9/6/2017 11:56,1,1,2,nico,,,,,,1,answering,Sweet! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.
+396,11_060917,9/6/2017 11:56,1,1,2,user,statement,50,1,49,none,,,volume of plane in fluid oz
+397,11_060917,9/6/2017 11:56,1,1,2,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+398,11_060917,9/6/2017 11:57,1,1,2,user,statement,50,1,49,none,,,yes now
+399,11_060917,9/6/2017 11:57,1,1,2,nico,,,,,,1,no answer,Oh okay. So two goes into six three times. How do we figure out how big my torso is?nto six?
+400,11_060917,9/6/2017 11:57,1,1,2,user,statement,50,1,49,none,,,yes now we're doing volume of paint Pluto's to blank 6
+401,11_060917,9/6/2017 11:57,1,1,2,nico,,,,,,1,no answer,Oh okay. So two goes into six three times. How do we figure out how big my torso is?nto six?
+402,11_060917,9/6/2017 11:57,1,2,2,user,,50,0,49,problem_1_2,,,
+403,11_060917,9/6/2017 11:57,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+404,11_060917,9/6/2017 11:57,1,2,2,user,,50,0,49,problem_1_2,,,
+405,11_060917,9/6/2017 11:57,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+406,11_060917,9/6/2017 11:57,1,2,2,user,,50,0,49,problem_1_2,,,
+407,11_060917,9/6/2017 11:57,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+408,11_060917,9/6/2017 11:58,1,2,1,user,statement,50,1,1,none,,,can you help me figure out what waterproof paint I need to cover my arms and head too I'm looking at said one of problem too and I'm not sure what to do okay well first we have to think about this heart
+409,11_060917,9/6/2017 11:58,1,2,1,nico,,,,,,1,no answer,Is ONE the answer?
+410,11_060917,9/6/2017 11:58,1,2,1,user,statement,50,1,1,none,,,can you help me figure out what waterproof paint I need to cover my arms and head too I'm looking at said one of problem too and I'm not sure what to do okay well first we have to think about this heart
+411,11_060917,9/6/2017 11:58,1,2,1,nico,,,,,,1,answering,Cool! So I only need one ounce of paint for my arms. I will put the answer is one.
+412,11_060917,9/6/2017 11:58,1,2,1,user,statement,50,1,1,none,,,yes
+413,11_060917,9/6/2017 11:58,1,2,1,nico,,,,,,1,no answer,Why aren't you talking to me? I'm getting tired.
+414,11_060917,9/6/2017 11:58,1,2,1,user,,50,0,33,null,,,Triggered Speech 2
+415,11_060917,9/6/2017 11:58,1,2,1,nico,,,,,,1,no answer,Why aren't you talking to me? I'm getting tired.
+416,11_060917,9/6/2017 11:58,1,2,1,user,,50,0,33,null,,,Triggered Speech 2
+417,11_060917,9/6/2017 11:58,1,2,1,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+418,11_060917,9/6/2017 11:58,1,2,1,user,statement,50,1,33,none,,,you talking to me
+419,11_060917,9/6/2017 11:59,1,2,1,user,statement,50,1,33,none,,,now the surfer is that the surface area inches is 6 3 blank the volume of Plank and poodles is to blank three
+420,11_060917,9/6/2017 11:59,1,2,1,nico,,,,,,1,no answer,So we're looking at the ratio between the six and the two?
+421,11_060917,9/6/2017 11:59,1,2,1,user,statement,50,1,33,none,,,now
+422,11_060917,9/6/2017 11:59,1,2,1,nico,,,,,,1,no answer,So we're looking at the ratio between the six and the two?
+423,11_060917,9/6/2017 11:59,1,2,1,user,statement,50,1,33,none,,,yes
+424,11_060917,9/6/2017 11:59,1,2,1,nico,,,,,,1,no answer,Oh okay. So six divided by two is three. So then do we divide three by three?
+425,11_060917,9/6/2017 11:59,1,2,1,user,statement,50,1,33,none,,,correct
+426,11_060917,9/6/2017 11:59,1,2,1,nico,,,,,,1,no answer,Three divided by three is one. So is one the answer?
+427,11_060917,9/6/2017 11:59,1,2,1,user,statement,50,1,33,none,,,yes
+428,11_060917,9/6/2017 11:59,1,2,1,nico,,,,,,1,answering,Cool! So I only need one ounce of paint for my arms. I will put the answer is one.
+429,11_060917,9/6/2017 12:00,1,2,1,user,statement,50,1,33,none,,,volume up Clank fluid hose to Blink 3
+430,11_060917,9/6/2017 12:00,1,2,1,nico,,,,,,1,no answer,This is a hard problem. What do we do next?
+431,11_060917,9/6/2017 12:00,1,2,1,user,statement,50,1,33,none,,,we divide the ratios
+432,11_060917,9/6/2017 12:00,1,2,1,nico,,,,,,1,no answer,Do we divide? Divide six by two? That would give us two. And then what?ber TWO?
+433,11_060917,9/6/2017 12:00,1,2,1,user,statement,50,1,33,none,,,we divide the ratios 2 - 3
+434,11_060917,9/6/2017 12:00,1,2,1,nico,,,,,,1,no answer,Do we divide? Divide six by two? That would give us two. And then what?ber TWO?
+435,11_060917,9/6/2017 12:00,1,2,1,user,statement,50,1,33,none,,,and then what for two yes
+436,11_060917,9/6/2017 12:00,1,2,1,nico,,,,,,1,no answer,So there is a ratio between six and two. We need to create a similar ratio? Do we divide the two?
+437,11_060917,9/6/2017 12:01,1,2,1,user,statement,50,1,33,none,,,no volume up paint fluid hose 2 blank 3
+438,11_060917,9/6/2017 12:01,1,2,1,nico,,,,,,1,no answer,So there is a ratio between six and two. But what do we do with the number TWO?we divide the two?
+439,11_060917,9/6/2017 12:01,1,2,1,user,statement,50,1,33,none,,,no volume up paint fluid hose 2 blank 3 we will divide the ratios 2 by 3
+440,11_060917,9/6/2017 12:01,1,2,1,nico,,,,,,1,no answer,So there is a ratio between six and two. But what do we do with the number TWO?we divide the two?
+441,11_060917,9/6/2017 12:01,1,2,1,user,statement,50,1,33,none,,,yes
+442,11_060917,9/6/2017 12:01,1,2,1,nico,,,,,,1,no answer,Do we divide two by two? That would be one. Is one the answer?hen what?
+443,11_060917,9/6/2017 12:01,1,2,1,user,statement,50,1,33,none,,,yes we divide the tune
+444,11_060917,9/6/2017 12:01,1,2,1,nico,,,,,,1,no answer,Do we divide two by two? That would be one. Is one the answer?hen what?
+445,11_060917,9/6/2017 12:02,1,2,1,user,statement,50,1,33,none,,,give me directions
+446,11_060917,9/6/2017 12:02,1,2,1,nico,,,,,,1,answering,Cool! So I only need one ounce of paint for my arms. I will put the answer is one.
+447,11_060917,9/6/2017 12:02,1,2,2,user,,50,0,33,step_1_2,,,
+448,11_060917,9/6/2017 12:02,1,2,2,nico,,,,,,1,no answer,I'm really not sure what to do on STEP TWO OF PROBLEM TWO.
+449,11_060917,9/6/2017 12:02,1,2,2,user,statement,50,1,33,none,,,don't worry
+450,11_060917,9/6/2017 12:02,1,2,2,nico,,,,,,1,no answer,I'm still learning ratios but you seem like a really cool tutor.ferently?
+451,11_060917,9/6/2017 12:02,1,2,2,user,statement,50,1,33,none,,,don't worry I'll help you with the problem and walking through
+452,11_060917,9/6/2017 12:02,1,2,2,nico,,,,,,1,no answer,I'm still learning ratios but you seem like a really cool tutor.ferently?
+453,11_060917,9/6/2017 12:03,1,2,2,user,statement,50,1,33,none,,,no Part B solution Step 1 surface area inches volume of paint Pluto's
+454,11_060917,9/6/2017 12:03,1,2,2,nico,,,,,,1,no answer,What do we do with the number three?
+455,11_060917,9/6/2017 12:03,1,2,2,user,statement,50,1,33,none,,,no Part B solution Step 1 surface area inches volume of paint Pluto's surface area inches 6:30 blank volume of plane fluid oz to blank 3
+456,11_060917,9/6/2017 12:03,1,2,2,nico,,,,,,1,no answer,What do we do with the number three?
+457,11_060917,9/6/2017 12:03,1,2,2,user,statement,50,1,33,none,,,we don't fight it from the ratio
+458,11_060917,9/6/2017 12:03,1,2,2,nico,,,,,,1,no answer,So if we look at the ratio of one to three. Three is three times more. Right?
+459,11_060917,9/6/2017 12:03,1,2,2,user,statement,50,1,33,none,,,correct
+460,11_060917,9/6/2017 12:03,1,2,2,nico,,,,,,1,no answer,So three times more than three would be nine. So the answer is nine?
+461,11_060917,9/6/2017 12:03,1,2,2,user,statement,50,1,33,none,,,yes
+462,11_060917,9/6/2017 12:03,1,2,2,nico,,,,,,1,answering,Okay great! So my head has a surface area of nine inches. I will put the answer is nine.
+463,11_060917,9/6/2017 12:03,1,2,2,user,statement,50,1,49,none,,,alright
+464,11_060917,9/6/2017 12:03,1,2,2,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+465,11_060917,9/6/2017 12:04,1,3,2,user,,50,0,49,problem_2_3,,,
+466,11_060917,9/6/2017 12:04,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on MY WAY THERE?
+467,11_060917,9/6/2017 12:04,1,3,1,user,statement,50,1,1,none,,,don't worry I'll walk you through the whole thing
+468,11_060917,9/6/2017 12:04,1,3,1,nico,,,,,,1,no answer,So I'm actually not sure what you mean.
+469,11_060917,9/6/2017 12:04,1,3,1,user,statement,50,1,1,none,,,I'm saying that I'll help you now
+470,11_060917,9/6/2017 12:04,1,3,1,nico,,,,,,1,no answer,Okay.nk I get it.
+471,11_060917,9/6/2017 12:04,1,3,1,user,statement,50,1,1,none,,,I'm saying that I'll help you now will do the problem
+472,11_060917,9/6/2017 12:04,1,3,1,nico,,,,,,1,no answer,Okay.nk I get it.
+473,11_060917,9/6/2017 12:05,1,3,1,user,statement,50,1,1,none,,,we are on part 2 of Part B I mean Step 2 the surface area inches is 6 3 blank the volume of paint in food of is to blank three
+474,11_060917,9/6/2017 12:05,1,3,1,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+475,11_060917,9/6/2017 12:05,1,3,1,user,statement,50,1,1,none,,,we are on part 2 of Part B I mean Step 2 the surface area inches is 6 3 blank
+476,11_060917,9/6/2017 12:05,1,3,1,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+477,11_060917,9/6/2017 12:05,1,3,1,user,statement,50,1,1,none,,,can you explain more surface area inches 6-3 blank
+478,11_060917,9/6/2017 12:05,1,3,1,nico,,,,,,1,no answer,Is one hundred and fifty the answer?
+479,11_060917,9/6/2017 12:05,1,3,1,user,statement,50,1,1,none,,,can you explain more surface area inches 6-3 blank what is the answer
+480,11_060917,9/6/2017 12:05,1,3,1,nico,,,,,,1,no answer,Is one hundred and fifty the answer?
+481,11_060917,9/6/2017 12:05,1,3,1,user,statement,50,1,1,none,,,yes
+482,11_060917,9/6/2017 12:05,1,3,1,nico,,,,,,1,no answer,"Okay. two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty ."
+483,11_060917,9/6/2017 12:05,1,3,1,user,statement,50,1,1,none,,,yes actually no let's try again
+484,11_060917,9/6/2017 12:05,1,3,1,nico,,,,,,1,answering,"Okay. two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty ."
+485,11_060917,9/6/2017 12:06,1,3,1,user,statement,50,1,33,none,,,150 - 150 okay next question volume of pain to blank what is the answer will be divided
+486,11_060917,9/6/2017 12:06,1,3,1,nico,,,,,,1,no answer,Is one hundred and fifty the answer?
+487,11_060917,9/6/2017 12:06,1,3,1,user,statement,50,1,33,none,,,yes 150 is the answer to this question good job
+488,11_060917,9/6/2017 12:06,1,3,1,nico,,,,,,1,answering,"So in two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty ."
+489,11_060917,9/6/2017 12:06,1,3,1,user,statement,50,1,33,none,,,now we are on final answer
+490,11_060917,9/6/2017 12:06,1,3,1,nico,,,,,,1,no answer,Is one hundred and fifty the answer?
+491,11_060917,9/6/2017 12:07,1,3,1,user,statement,50,1,33,none,,,Final Answer surface area inches 639 divide that with three numbers then we will go on to the next question and then we will be done done
+492,11_060917,9/6/2017 12:07,1,3,1,nico,,,,,,1,no answer,Is one hundred and fifty the answer?
+493,11_060917,9/6/2017 12:07,1,3,1,user,statement,50,1,33,none,,,turn yes
+494,11_060917,9/6/2017 12:07,1,3,1,nico,,,,,,1,answering,"So in two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty ."
+495,11_060917,9/6/2017 12:07,1,3,2,user,,50,0,33,step_1_2,,,
+496,11_060917,9/6/2017 12:07,1,3,2,nico,,,,,,1,no answer,Can you give me a hint on STEP TWO OF THIS THIRD PROBLEM?
+497,11_060917,9/6/2017 12:07,1,3,2,user,,50,0,33,step_1_2,,,
+498,11_060917,9/6/2017 12:07,1,3,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO OF THIS THIRD PROBLEM.
+499,11_060917,9/6/2017 12:07,1,3,2,user,,50,0,33,step_1_2,,,
+500,11_060917,9/6/2017 12:07,1,3,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO OF THIS THIRD PROBLEM.
+501,11_060917,9/6/2017 12:08,1,3,2,user,statement,50,1,33,none,,,okay well hold on let me think for a second
+502,11_060917,9/6/2017 12:08,1,3,2,nico,,,,,,1,no answer,Okay.
+503,11_060917,9/6/2017 12:08,1,3,2,user,,50,0,33,null,,,Triggered Speech 3
+504,11_060917,9/6/2017 12:08,1,3,2,nico,,,,,,1,no answer,"If you aren't going to talk to me, I think I'm going to go to sleep."
+505,11_060917,9/6/2017 12:08,1,3,2,user,,50,0,33,null,,,Triggered Speech 3
+506,11_060917,9/6/2017 12:08,1,3,2,nico,,,,,,1,no answer,"If you aren't going to talk to me, I think I'm going to go to sleep."
+507,11_060917,9/6/2017 12:09,1,3,2,user,statement,50,1,33,none,,,okay Final Answer surface area inches 6 pictures
+508,11_060917,9/6/2017 12:09,1,3,2,nico,,,,,,1,no answer,Is five the answer?
+509,11_060917,9/6/2017 12:09,1,3,2,user,statement,50,1,33,none,,,you will divide these three answer surface area in 639
+510,11_060917,9/6/2017 12:09,1,3,2,nico,,,,,,1,no answer,Is five the answer?
+511,11_060917,9/6/2017 12:09,1,3,2,user,statement,50,1,33,none,,,yes
+512,11_060917,9/6/2017 12:09,1,3,2,nico,,,,,,1,answering,Great! I will put the answer is five.
+513,11_060917,9/6/2017 12:09,1,3,2,user,statement,50,1,49,none,,,no volume of paint fluid hose 213 / 3
+514,11_060917,9/6/2017 12:09,1,3,2,nico,,,,,,1,no answer,Ah ha. Okay.
+515,11_060917,9/6/2017 12:10,1,3,2,user,,50,0,49,null,,,Triggered Speech 4
+516,11_060917,9/6/2017 12:10,1,3,2,nico,,,,,,1,no answer,Okay I'm going to take a nap now.
+517,11_060917,9/6/2017 12:10,1,3,2,user,statement,50,1,49,none,,,next I'm still
+518,11_060917,9/6/2017 12:10,1,3,2,nico,,,,,,1,no answer,I'm still learning ratios but you seem like a really cool tutor.
+519,11_060917,9/6/2017 12:10,1,3,2,user,statement,50,1,49,none,,,next I'm still we are still talking about volume of paint food host one I need to 1:30 please divide those three numbers
+520,11_060917,9/6/2017 12:10,1,3,2,nico,,,,,,1,no answer,I'm still learning ratios but you seem like a really cool tutor.
+521,11_060917,9/6/2017 12:10,1,3,2,user,statement,50,1,49,none,,,thank you but we still need to do volume of pink food hose 213 please divide those three answers for me
+522,11_060917,9/6/2017 12:10,1,3,2,nico,,,,,,1,no answer,You are welcome!
+523,11_060917,9/6/2017 12:11,1,3,2,user,statement,50,1,49,none,,,beatified volume of pink fluid oz to 1 3/3 answers and give me the answer and we will be done
+524,11_060917,9/6/2017 12:11,1,3,2,nico,,,,,,1,no answer,Is five the answer?
+525,11_060917,9/6/2017 12:11,1,3,2,user,statement,50,1,49,none,,,correct now let's go to
+526,11_060917,9/6/2017 12:11,1,3,2,nico,,,,,,1,no answer,Yay! STEP THREE OF THIS THIRD PROBLEM. How do I solve this one?
+527,11_060917,9/6/2017 12:11,1,3,3,user,,50,0,49,step_2_3,,,
+528,11_060917,9/6/2017 12:11,1,3,3,nico,,,,,,1,no answer,Yay! STEP THREE OF THIS THIRD PROBLEM. How do I solve this one?
+529,11_060917,9/6/2017 12:11,1,3,3,user,,50,0,49,step_2_3,,,
+530,11_060917,9/6/2017 12:11,1,3,3,nico,,,,,,1,no answer,Wow we're on STEP THREE OF THIS THIRD PROBLEM. How do we do this one?
+531,11_060917,9/6/2017 12:12,1,3,3,user,statement,50,1,49,none,,,surface area inches 639 please divide those answers for me
+532,11_060917,9/6/2017 12:12,1,3,3,nico,,,,,,1,no answer,Oh okay. We divide! Then what do we do?
+533,11_060917,9/6/2017 12:12,1,3,3,user,statement,50,1,49,none,,,then we divide 6 3 + 9 I will give you time and when you answer the question please just tell me
+534,11_060917,9/6/2017 12:12,1,3,3,nico,,,,,,1,no answer,Oh okay. We divide! Then what do we do?
+535,11_060917,9/6/2017 12:12,1,3,3,user,statement,50,1,49,none,,,then we divide 6 3 + 9 I will give you time and when you answer the question please just tell me
+536,11_060917,9/6/2017 12:12,1,3,3,nico,,,,,,1,no answer,Oh okay. We divide! Then what do we do?
+537,11_060917,9/6/2017 12:12,1,3,3,user,,50,0,49,null,,,Triggered Speech 5
+538,11_060917,9/6/2017 12:12,1,3,3,nico,,,,,,1,no answer,Okay that sounds good.
+539,12_130917,9/13/2017 16:22,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+540,12_130917,9/13/2017 16:22,1,1,0,nico,,,,,,1,no answer,Hi! My name is Nico. What is your name?
+541,12_130917,9/13/2017 16:22,1,1,0,user,statement,50,1,1,none,,,my name is Ana Lucia
+542,12_130917,9/13/2017 16:22,1,1,0,nico,,,,,,1,no answer,Nice to meet you Ana Lucia. Are you ready to get started?
+543,12_130917,9/13/2017 16:22,1,1,0,user,,50,0,1,problem start,,,problem start
+544,12_130917,9/13/2017 16:22,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+545,12_130917,9/13/2017 16:23,1,1,1,user,statement,50,1,1,none,,,augustaville I do it says surface area for 6 and volume of paint to that's going to help you so then will you you can see that 6/3 would equal to write
+546,12_130917,9/13/2017 16:23,1,1,1,nico,,,,,,1,no answer,Okay. We are going to figure out how much paint I need for my legs. First I look at the surface area of my feet and how much paint I need for my feet?
+547,12_130917,9/13/2017 16:23,1,1,1,user,statement,50,1,1,none,,,okay so now it's need to find out what's 12 / 3
+548,12_130917,9/13/2017 16:23,1,1,1,nico,,,,,,1,no answer,So we know I need two ounces of paint for six inches of surface area. Six divided by three is two. Does that mean I only need one ounce of paint for three square inches?
+549,12_130917,9/13/2017 16:24,1,1,1,user,statement,50,1,1,none,,,no you need some now for surface area you do 12/3 which would eat
+550,12_130917,9/13/2017 16:24,1,1,1,nico,,,,,,1,no answer,Okay cool. So then do I divide twelve by three?
+551,12_130917,9/13/2017 16:24,1,1,1,user,statement,50,1,1,none,,,yes you would do tones invited by 3
+552,12_130917,9/13/2017 16:24,1,1,1,nico,,,,,,1,no answer,That's interesting. I'm not sure I understand though.
+553,12_130917,9/13/2017 16:24,1,1,1,user,statement,50,1,1,none,,,I assume we know that 6/3 too so now we know that each number has to be divided by 3 to do the volume paint so what's 12 / 3
+554,12_130917,9/13/2017 16:24,1,1,1,nico,,,,,,1,no answer,Ah ha. Okay.
+555,12_130917,9/13/2017 16:25,1,1,1,user,statement,50,1,1,none,,,do you know 2/3 Nico
+556,12_130917,9/13/2017 16:25,1,1,1,nico,,,,,,1,no answer,What do we do with the number TWO?
+557,12_130917,9/13/2017 16:25,1,1,1,user,statement,50,1,1,none,,,don't do anything with it we just do it when your snow that 6/3 is too so first step number one since Subzero would be 6 / 3 is too for Step 1 you do 12 / 3
+558,12_130917,9/13/2017 16:25,1,1,1,nico,,,,,,1,no answer,Oh okay. So that's what we do with the two and then what do we do?
+559,12_130917,9/13/2017 16:25,1,1,1,user,statement,50,1,1,none,,,we do 12 /
+560,12_130917,9/13/2017 16:25,1,1,1,nico,,,,,,1,no answer,Okay.
+561,12_130917,9/13/2017 16:25,1,1,1,user,statement,50,1,1,none,,,do you know what times divided by 3 is
+562,12_130917,9/13/2017 16:25,1,1,1,nico,,,,,,1,answering,Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.
+563,12_130917,9/13/2017 16:25,1,1,1,user,statement,50,1,33,none,,,good job
+564,12_130917,9/13/2017 16:25,1,1,1,nico,,,,,,1,no answer,Thank you. You're a great tutor.
+565,12_130917,9/13/2017 16:26,1,1,1,user,statement,50,1,33,none,,,okay so for step number two It's the Great and in the volume of paint at 6
+566,12_130917,9/13/2017 16:26,1,1,1,nico,,,,,,1,no answer,What do we do with the number TWO?
+567,12_130917,9/13/2017 16:26,1,1,1,user,statement,50,1,33,none,,,footsie so we know I have to divide the blank divided by three weeks equals 606 times what would equal 8
+568,12_130917,9/13/2017 16:26,1,1,1,nico,,,,,,1,no answer,Okay so we divide. Can you tell me what we are dividing again?
+569,12_130917,9/13/2017 16:26,1,1,1,user,statement,50,1,33,none,,,play the Doom who have to find out what six-time
+570,12_130917,9/13/2017 16:26,1,1,1,nico,,,,,,1,no answer,Can you give me a hint for STEP TWO?EP TWO.
+571,12_130917,9/13/2017 16:26,1,1,2,user,,50,0,33,step_1_2,,,
+572,12_130917,9/13/2017 16:26,1,1,2,nico,,,,,,1,no answer,Can you give me a hint for STEP TWO?EP TWO.
+573,12_130917,9/13/2017 16:26,1,1,2,user,,50,0,33,step_1_2,,,
+574,12_130917,9/13/2017 16:26,1,1,2,nico,,,,,,1,no answer,Can you give me a hint for STEP TWO?
+575,12_130917,9/13/2017 16:26,1,1,2,user,,50,0,33,step_1_2,,,
+576,12_130917,9/13/2017 16:26,1,1,2,nico,,,,,,1,no answer,Can you give me a hint for STEP TWO?
+577,12_130917,9/13/2017 16:27,1,1,2,user,statement,50,1,33,none,,,yes I will give you hit so what you do we already know that will have to divide the gray space / 3 right
+578,12_130917,9/13/2017 16:27,1,1,2,nico,,,,,,1,no answer,That's interesting. I'm not sure I understand though.
+579,12_130917,9/13/2017 16:27,1,1,2,user,statement,50,1,33,none,,,okay so it's just like step number one you know that 12/3 is for so we'll have to do it on reverse 6 times what equals so will you do 6 times 3
+580,12_130917,9/13/2017 16:27,1,1,2,nico,,,,,,1,no answer,Three times six is eighteen. So is the answer eighteen?
+581,12_130917,9/13/2017 16:27,1,1,2,user,statement,50,1,33,none,,,yeah surface area would be 18 yes
+582,12_130917,9/13/2017 16:27,1,1,2,nico,,,,,,1,answering,Sweet! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.
+583,12_130917,9/13/2017 16:27,1,1,2,user,,50,0,49,null,,,Triggered Speech 1
+584,12_130917,9/13/2017 16:27,1,1,2,nico,,,,,,1,no answer,Why aren't you talking to me? Are you thinking?
+585,12_130917,9/13/2017 16:27,1,1,2,user,,50,0,49,null,,,Triggered Speech 1
+586,12_130917,9/13/2017 16:27,1,1,2,nico,,,,,,1,no answer,Why aren't you talking to me? Are you thinking?
+587,12_130917,9/13/2017 16:27,1,2,2,user,,50,0,49,problem_1_2,,,
+588,12_130917,9/13/2017 16:27,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+589,12_130917,9/13/2017 16:28,1,2,1,user,statement,50,1,1,none,,,okay so if you look at 6:04 an example we know that 6/3 is too right
+590,12_130917,9/13/2017 16:28,1,2,1,nico,,,,,,1,no answer,So we're looking at the ratio between the six and the two?
+591,12_130917,9/13/2017 16:28,1,2,1,user,statement,50,1,1,none,,,well kind of
+592,12_130917,9/13/2017 16:28,1,2,1,nico,,,,,,1,no answer,Oh okay. So six divided by two is three. So then do we divide three by three?
+593,12_130917,9/13/2017 16:28,1,2,1,user,statement,50,1,1,none,,,correct there so we not 3/3 is is
+594,12_130917,9/13/2017 16:28,1,2,1,nico,,,,,,1,no answer,six divided by three is two. Right?
+595,12_130917,9/13/2017 16:28,1,2,1,user,,50,0,1,null,,,Triggered Speech 2
+596,12_130917,9/13/2017 16:28,1,2,1,nico,,,,,,1,no answer,Why aren't you talking to me? I'm getting tired.
+597,12_130917,9/13/2017 16:29,1,2,1,user,statement,50,1,1,none,,,no you do 3/3 like you said
+598,12_130917,9/13/2017 16:29,1,2,1,nico,,,,,,1,no answer,six divided by three is two. Right?
+599,12_130917,9/13/2017 16:29,1,2,1,user,statement,50,1,1,none,,,yes
+600,12_130917,9/13/2017 16:29,1,2,1,nico,,,,,,1,no answer,That's interesting. I'm not sure I understand though.
+601,12_130917,9/13/2017 16:29,1,2,1,user,statement,50,1,1,none,,,so for step number one like you said we would do 3/3
+602,12_130917,9/13/2017 16:29,1,2,1,nico,,,,,,1,no answer,Did you say ONE is the answer?
+603,12_130917,9/13/2017 16:29,1,2,1,user,statement,50,1,1,none,,,yes what would be the answer
+604,12_130917,9/13/2017 16:29,1,2,1,nico,,,,,,1,answering,Cool! So I only need one ounce of paint for my arms. I will put the answer is ONE.
+605,12_130917,9/13/2017 16:29,1,2,2,user,,50,0,33,step_1_2,,,
+606,12_130917,9/13/2017 16:29,1,2,2,nico,,,,,,1,no answer,Can you give me a hint for STEP TWO OF PROBLEM TWO?
+607,12_130917,9/13/2017 16:30,1,2,2,user,statement,50,1,33,none,,,okay so what we would do we would have to be do it says right here blank is surface area and then three is volume
+608,12_130917,9/13/2017 16:30,1,2,2,nico,,,,,,1,no answer,Do we multiply by three?
+609,12_130917,9/13/2017 16:30,1,2,2,user,statement,50,1,33,none,,,so we know how to divide surface area / 3 to equal 3
+610,12_130917,9/13/2017 16:30,1,2,2,nico,,,,,,1,no answer,Do we multiply by three?
+611,12_130917,9/13/2017 16:30,1,2,2,user,statement,50,1,33,none,,,yeah so 3 x 3 would equal
+612,12_130917,9/13/2017 16:30,1,2,2,nico,,,,,,1,no answer,Do we multiply by three?
+613,12_130917,9/13/2017 16:30,1,2,2,user,statement,50,1,33,none,,,yes
+614,12_130917,9/13/2017 16:30,1,2,2,nico,,,,,,1,no answer,Okay. We have three ounces of paint. So the surface area it can cover is three times three. That is nine. So the answer is nine?
+615,12_130917,9/13/2017 16:31,1,2,2,user,statement,50,1,33,none,,,yes the answer would be 9
+616,12_130917,9/13/2017 16:31,1,2,2,nico,,,,,,1,answering,Okay great! So my head has a surface area of nine inches. I will put the answer is nine.
+617,12_130917,9/13/2017 16:31,1,3,2,user,,50,0,49,problem_2_3,,,
+618,12_130917,9/13/2017 16:31,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on MY WAY THERE?
+619,12_130917,9/13/2017 16:31,1,3,1,user,statement,50,1,1,none,,,yes
+620,12_130917,9/13/2017 16:31,1,3,1,nico,,,,,,1,no answer,Okay that makes sense.
+621,12_130917,9/13/2017 16:32,1,3,1,user,statement,50,1,1,none,,,but C470 it says time which is 1 and distance is 16 so we would do 60 times we would do 1.1 x 2.5
+622,12_130917,9/13/2017 16:32,1,3,1,nico,,,,,,1,no answer,Ok I know I can drive sixty miles in one hour. Do we multiply sixty by two point five hours? Does that make sense?
+623,12_130917,9/13/2017 16:33,1,3,1,user,statement,50,1,1,none,,,yes
+624,12_130917,9/13/2017 16:33,1,3,1,nico,,,,,,1,no answer,Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?
+625,12_130917,9/13/2017 16:33,1,3,1,user,statement,50,1,1,none,,,yes
+626,12_130917,9/13/2017 16:33,1,3,1,nico,,,,,,1,answering,"In two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty."
+627,12_130917,9/13/2017 16:33,1,3,2,user,,50,0,33,step_1_2,,,
+628,12_130917,9/13/2017 16:33,1,3,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO OF THIS THIRD PROBLEM.
+629,12_130917,9/13/2017 16:34,1,3,2,user,statement,50,1,33,none,,,okay so $0.04 number to we have blank we have we don't know what the time is but we do know that the distance would be the distant IS300
+630,12_130917,9/13/2017 16:34,1,3,2,nico,,,,,,1,no answer,Ah ha. Okay.
+631,12_130917,9/13/2017 16:34,1,3,2,user,statement,50,1,33,none,,,so the way we would get to answer 300 is by multiplying two numbers
+632,12_130917,9/13/2017 16:34,1,3,2,nico,,,,,,1,no answer,Is five the answer?
+633,12_130917,9/13/2017 16:34,1,3,2,user,statement,50,1,33,none,,,yes
+634,12_130917,9/13/2017 16:34,1,3,2,nico,,,,,,1,answering,Great! I will put the answer is five.
+635,12_130917,9/13/2017 16:34,1,3,3,user,,50,0,49,step_2_3,,,
+636,12_130917,9/13/2017 16:34,1,3,3,nico,,,,,,1,no answer,"So for STEP THREE OF THIS THIRD PROBLEM, I may be getting this but can you give me another hint?"
+637,12_130917,9/13/2017 16:34,1,3,3,user,statement,50,1,49,none,,,yes I'll give you the next 10
+638,12_130917,9/13/2017 16:34,1,3,3,nico,,,,,,1,no answer,That's interesting. I'm not sure I understand though.
+639,12_130917,9/13/2017 16:35,1,3,3,user,statement,50,1,49,none,,,okay so we know the time or ours is 7 but we don't know the distance right
+640,12_130917,9/13/2017 16:35,1,3,3,nico,,,,,,1,no answer,So on the table it will have been 7 hours of traveling. How do we use the seven to get the number of miles?
+641,12_130917,9/13/2017 16:35,1,3,3,user,statement,50,1,49,none,,,we would do 60 times 7
+642,12_130917,9/13/2017 16:35,1,3,3,nico,,,,,,1,no answer,Oh okay. We MULTIPLY! Do we MULTIPLY sixty times seven?
+643,12_130917,9/13/2017 16:35,1,3,3,user,statement,50,1,49,none,,,yes
+644,12_130917,9/13/2017 16:35,1,3,3,nico,,,,,,1,no answer,So that's four hundred and twenty. Is four hundred and twenty the answer?
+645,12_130917,9/13/2017 16:35,1,3,3,user,statement,50,1,49,none,,,yes
+646,12_130917,9/13/2017 16:35,1,3,3,nico,,,,,,1,answering,I get it! After seven hours I will have driven four hundred and twenty miles. I will put the answer is four hundred and twenty the answer.
+647,1_200717,7/20/2017 16:45,1,1,0,user,,50,0,1,null,,,Triggered Speech 1
+648,1_200717,7/20/2017 16:45,1,1,0,nico,,,,,,1,no answer,Why aren't you talking to me? Are you thinking?
+649,1_200717,7/20/2017 16:45,1,1,0,user,,50,0,1,problem start,,,problem start
+650,1_200717,7/20/2017 16:45,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+651,1_200717,7/20/2017 16:47,1,1,0,user,,50,0,1,problem start,,,problem start
+652,1_200717,7/20/2017 16:47,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+653,1_200717,7/20/2017 16:48,1,1,1,user,statement,50,1,1,none,,,hi Nico
+654,1_200717,7/20/2017 16:48,1,1,1,nico,,,,,,1,no answer,So I'm actually not sure what you mean. Can you tell me again?
+655,1_200717,7/20/2017 16:48,1,1,1,user,statement,50,1,1,none,,,hello
+656,1_200717,7/20/2017 16:48,1,1,1,nico,,,,,,1,no answer,That's very interesting. Can you explain that more?
+657,1_200717,7/20/2017 16:49,1,1,1,user,statement,50,1,1,none,,,the body part of the legs in the service area is 12
+658,1_200717,7/20/2017 16:49,1,1,1,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+659,1_200717,7/20/2017 16:50,1,1,1,user,statement,50,1,1,none,,,do you want to
+660,1_200717,7/20/2017 16:50,1,1,1,nico,,,,,,1,no answer,So I'm actually not sure what you mean. Can you tell me again?
+661,1_200717,7/20/2017 16:50,1,1,2,user,,50,0,1,step_1_2,,,
+662,1_200717,7/20/2017 16:50,1,1,2,nico,,,,,,1,no answer,Can you give me a hint for STEP TWO?
+663,1_200717,7/20/2017 16:52,1,1,2,user,statement,50,1,1,none,,,what goes below the 2 in step 1
+664,1_200717,7/20/2017 16:52,1,1,2,nico,,,,,,1,no answer,What do we do with the number TWO?
+665,1_200717,7/20/2017 16:53,1,1,2,user,statement,50,1,1,none,,,what would be higher than 2 in below 6
+666,1_200717,7/20/2017 16:53,1,1,2,nico,,,,,,1,no answer,What do we do with the number TWO?
+667,1_200717,7/20/2017 16:53,1,1,2,user,statement,50,1,1,none,,,you add up
+668,1_200717,7/20/2017 16:53,1,1,2,nico,,,,,,1,no answer,Oh okay. So that's what we do with the two and then what do we do?
+669,1_200717,7/20/2017 16:54,1,1,2,user,statement,50,1,1,none,,,you add up to and you'll get the answer
+670,1_200717,7/20/2017 16:54,1,1,2,nico,,,,,,1,no answer,I think the answer is eighteen. So is the answer eighteen?
+671,1_200717,7/20/2017 16:54,1,1,1,user,,50,0,1,step_2_1,,,
+672,1_200717,7/20/2017 16:54,1,1,1,nico,,,,,,1,no answer,So I will put the answer is eighteen.
+673,1_200717,7/20/2017 16:55,1,1,1,user,statement,50,1,1,none,,,add up the number to from step step zero and you'll get your answer
+674,1_200717,7/20/2017 16:55,1,1,1,nico,,,,,,1,no answer,So is the answer eighteen?
+675,1_200717,7/20/2017 16:55,1,1,1,user,statement,50,1,1,none,,,no
+676,1_200717,7/20/2017 16:55,1,1,1,nico,,,,,,1,answering,So I will put the answer is eighteen.
+677,1_200717,7/20/2017 16:55,1,1,2,user,,50,0,33,step_1_2,,,
+678,1_200717,7/20/2017 16:55,1,1,2,nico,,,,,,1,no answer,Can you give me a hint on STEP TWO?
+679,1_200717,7/20/2017 16:55,1,2,2,user,,50,0,33,problem_1_2,,,
+680,1_200717,7/20/2017 16:55,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF THIS SECOND PROBLEM and I'm not sure what to do.
+681,1_200717,7/20/2017 16:56,1,2,1,user,statement,50,1,1,none,,,did body parts the hands the surface area is 6 in the volume fluid is to
+682,1_200717,7/20/2017 16:56,1,2,1,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+683,1_200717,7/20/2017 16:56,1,2,1,user,statement,50,1,1,none,,,you need two bodies of paint right
+684,1_200717,7/20/2017 16:56,1,2,1,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+685,1_200717,7/20/2017 16:57,1,2,1,user,statement,50,1,1,none,,,-3 into and you'll find the answer for your arms
+686,1_200717,7/20/2017 16:57,1,2,1,nico,,,,,,1,no answer,I'm still learning ratios. Maybe you can explain more?
+687,2_210717,7/21/2017 10:37,1,1,0,user,statement,50,1,1,none,,,hello Joe
+688,2_210717,7/21/2017 10:37,1,1,0,nico,,,,,,1,no answer,
+689,2_210717,7/21/2017 10:35,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+690,2_210717,7/21/2017 10:37,1,1,0,user,statement,50,1,1,none,,,a picture of a hold it down inside
+691,2_210717,7/21/2017 10:37,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+692,2_210717,7/21/2017 10:35,1,1,0,user,,50,0,1,problem start,,,problem start
+693,2_210717,7/21/2017 10:37,1,1,0,user,,50,0,1,problem start,,,problem start
+694,2_210717,7/21/2017 10:39,1,1,1,user,statement,50,1,1,none,,,since your feet is 6 inches and your legs are 12 inches than your torso is 18 inches
+695,2_210717,7/21/2017 10:39,1,1,1,nico,,,,,,1,no answer,Do we divide by six?
+696,2_210717,7/21/2017 10:39,1,1,1,user,statement,50,1,1,none,,,no we multiply
+697,2_210717,7/21/2017 10:39,1,1,1,nico,,,,,,1,no answer,Oh. Do you think you can explain more?
+698,2_210717,7/21/2017 10:40,1,1,1,user,statement,50,1,1,none,,,sure
+699,2_210717,7/21/2017 10:40,1,1,1,nico,,,,,,1,no answer,I like to listen and learn. Can you explain more?
+700,2_210717,7/21/2017 10:40,1,1,1,user,statement,50,1,1,none,,,the legs are bigger
+701,2_210717,7/21/2017 10:40,1,1,1,nico,,,,,,1,no answer,I tend to meander a bit. Can you repeat that?
+702,2_210717,7/21/2017 10:40,1,1,1,user,statement,50,1,1,none,,,your feet are small
+703,2_210717,7/21/2017 10:40,1,1,1,nico,,,,,,1,no answer,That sounds good. Then what do we do?
+704,2_210717,7/21/2017 10:41,1,1,1,user,statement,50,1,1,none,,,the pain for your legs
+705,2_210717,7/21/2017 10:41,1,1,1,nico,,,,,,1,no answer,I like a good challenge. What do we do next?
+706,2_210717,7/21/2017 10:41,1,1,1,user,statement,50,1,1,none,,,you know that 6 time
+707,2_210717,7/21/2017 10:41,1,1,1,nico,,,,,,1,no answer,Do we divide by six?
+708,2_210717,7/21/2017 10:41,1,1,1,user,statement,50,1,1,none,,,no we multiply
+709,2_210717,7/21/2017 10:41,1,1,1,nico,,,,,,1,no answer,Oh. Do you think you can explain more?
+710,2_210717,7/21/2017 10:42,1,1,2,nico,,,,,,1,no answer,Can you give me a hint on STEP TWO?
+711,2_210717,7/21/2017 10:43,1,1,1,user,statement,51,1,1,none,,,when you know the 12
+712,2_210717,7/21/2017 10:43,1,1,1,nico,,,,,,1,no answer,I like to listen and learn. Can you explain more?
+713,2_210717,7/21/2017 10:43,1,1,1,user,statement,52,1,1,none,,,we divide the two
+714,2_210717,7/21/2017 10:43,1,1,2,nico,,,,,,1,no answer,I like a good challenge. What do we do next?
+715,2_210717,7/21/2017 10:43,1,1,1,user,statement,53,1,1,none,,,cause you move no
+716,2_210717,7/21/2017 10:43,1,1,3,nico,,,,,,1,no answer,"So for STEP THREE, I may be getting this but can you give me another hint?"
+717,2_210717,7/21/2017 10:43,1,1,1,user,statement,54,1,1,none,,,you multiply the two by
+718,2_210717,7/21/2017 10:43,1,1,4,nico,,,,,,1,no answer,I tend to meander a bit. Can you repeat that?
+719,2_210717,7/21/2017 10:43,1,1,1,user,statement,55,1,1,none,,,no nico
+720,2_210717,7/21/2017 10:43,1,1,5,nico,,,,,,1,no answer,I like to listen and learn. Can you explain more?
+721,2_210717,7/21/2017 10:43,1,1,6,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+722,3_020817,8/2/2017 18:44,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+723,3_020817,8/2/2017 18:44,1,1,0,nico,,,,,,1,no answer,Hi! My name is Nico. What is your name?
+724,3_020817,8/2/2017 18:44,1,1,0,user,,50,0,1,null,,,Triggered Speech 1
+725,3_020817,8/2/2017 18:44,1,1,0,nico,,,,,,1,no answer,Why aren't you talking to me? Are you thinking?
+726,3_020817,8/2/2017 18:45,1,1,0,user,statement,50,1,1,none,,,hi new girl my name is Philip
+727,3_020817,8/2/2017 18:45,1,1,0,nico,,,,,,1,no answer,I'm still learning ratios. Maybe you can explain more?
+728,3_020817,8/2/2017 18:45,1,1,0,user,,50,0,1,problem start,,,problem start
+729,3_020817,8/2/2017 18:45,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+730,3_020817,8/2/2017 18:46,1,1,1,user,,50,0,1,null,,,Triggered Speech 2
+731,3_020817,8/2/2017 18:46,1,1,1,nico,,,,,,1,no answer,Why aren't you talking to me? I'm getting tired.
+732,3_020817,8/2/2017 18:46,1,1,1,user,,50,0,1,null,,,Triggered Speech 3
+733,3_020817,8/2/2017 18:46,1,1,1,nico,,,,,,1,no answer,I tend to meander a bit. Can you repeat that?
+734,3_020817,8/2/2017 18:46,1,1,1,user,statement,50,1,1,none,,,first Nico you need to figure out how much paint you need to put on your legs
+735,3_020817,8/2/2017 18:46,1,1,1,nico,,,,,,1,no answer,I like a good challenge. What do we do next?
+736,3_020817,8/2/2017 18:46,1,1,1,user,statement,50,1,1,none,,,first you need to put
+737,3_020817,8/2/2017 18:50,1,1,1,user,statement,50,1,1,none,,,6 divided by 3 equals
+738,3_020817,8/2/2017 18:50,1,1,1,nico,,,,,,1,no answer,Do we divide by six?
+739,3_020817,8/2/2017 18:51,1,1,1,user,statement,50,1,1,none,,,Neko repeat yourself
+740,3_020817,8/2/2017 18:51,1,1,1,nico,,,,,,1,no answer,Oh okay. So that's what we do with the six and then what do we do?
+741,3_020817,8/2/2017 18:51,1,1,1,user,statement,50,1,1,none,,,6 divided by 3 = 2
+742,3_020817,8/2/2017 18:51,1,1,1,nico,,,,,,1,no answer,What do we do with the number six?
+743,3_020817,8/2/2017 18:52,1,1,1,user,statement,50,1,1,none,,,your divided by 3
+744,3_020817,8/2/2017 18:52,1,1,1,nico,,,,,,1,no answer,Oh okay. So have of twelve is six. Do we do something like that with the two?
+745,3_020817,8/2/2017 18:52,1,1,1,user,statement,50,1,1,none,,,you / 3
+746,3_020817,8/2/2017 18:52,1,1,1,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+747,3_020817,8/2/2017 18:53,1,1,1,user,statement,50,1,1,none,,,maker what's your favorite color
+748,3_020817,8/2/2017 18:53,1,1,1,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+749,3_020817,8/2/2017 19:04,1,1,2,user,,50,0,1,step_1_2,,,
+750,3_020817,8/2/2017 19:04,1,1,2,nico,,,,,,1,no answer,Can you give me a hint for STEP TWO?
+751,3_020817,8/2/2017 19:04,1,2,2,user,,50,0,1,problem_1_2,,,
+752,3_020817,8/2/2017 19:04,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+753,3_020817,8/2/2017 19:06,1,2,1,user,statement,50,1,1,none,,,6 divided by 2 equals 3
+754,3_020817,8/2/2017 19:06,1,2,1,nico,,,,,,1,no answer,What do we do with the number six?
+755,3_020817,8/2/2017 19:06,1,2,1,user,statement,50,1,1,none,,,you divide it by 2
+756,3_020817,8/2/2017 19:06,1,2,1,nico,,,,,,1,no answer,Oh okay. So six divided by two is three. So then. We divide two by two?
+757,3_020817,8/2/2017 19:07,1,2,1,user,statement,50,1,1,none,,,yes
+758,3_020817,8/2/2017 19:07,1,2,1,nico,,,,,,1,no answer,Six divided by two is three. And then two divided by two is one.
+759,3_020817,8/2/2017 19:07,1,2,1,user,statement,50,1,1,none,,,so the answer is
+760,3_020817,8/2/2017 19:07,1,2,1,nico,,,,,,1,no answer,Is one the answer?
+761,3_020817,8/2/2017 19:07,1,2,1,user,statement,50,1,1,none,,,yes
+762,3_020817,8/2/2017 19:07,1,2,1,nico,,,,,,1,answering,I will put the answer is one.
+763,3_020817,8/2/2017 19:07,1,2,2,user,,50,0,33,step_1_2,,,
+764,3_020817,8/2/2017 19:07,1,2,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO OF PROBLEM TWO.
+765,3_020817,8/2/2017 19:08,1,2,2,user,statement,50,1,33,none,,,1 times 3 equals 3
+766,3_020817,8/2/2017 19:08,1,2,2,nico,,,,,,1,no answer,What do we do with the number three?
+767,3_020817,8/2/2017 19:08,1,2,2,user,statement,50,1,33,none,,,x 1
+768,3_020817,8/2/2017 19:08,1,2,2,nico,,,,,,1,no answer,Oh okay. So that's what we do with the three and then what do we do?
+769,3_020817,8/2/2017 19:08,1,2,2,user,statement,50,1,33,none,,,x 1
+770,3_020817,8/2/2017 19:08,1,2,2,nico,,,,,,1,no answer,I like to listen and learn. Can you explain more?
+771,3_020817,8/2/2017 19:08,1,2,2,user,statement,50,1,33,none,,,1 x 3
+772,3_020817,8/2/2017 19:08,1,2,2,nico,,,,,,1,no answer,Do we multiply by three?
+773,3_020817,8/2/2017 19:09,1,2,2,user,statement,50,1,33,none,,,you multiply 1 by 3
+774,3_020817,8/2/2017 19:09,1,2,2,nico,,,,,,1,no answer,What do we multiply three by? Do you mean we multiply three by three?
+775,3_020817,8/2/2017 19:09,1,2,2,user,statement,50,1,33,none,,,yes
+776,3_020817,8/2/2017 19:09,1,2,2,nico,,,,,,1,no answer,I like to listen and learn. Can you explain more?
+777,3_020817,8/2/2017 19:10,1,3,2,user,,50,0,33,problem_2_3,,,
+778,3_020817,8/2/2017 19:10,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on MY WAY THERE?
+779,3_020817,8/2/2017 19:10,1,3,1,user,statement,50,1,1,none,,,what is 1 x 2.5
+780,3_020817,8/2/2017 19:10,1,3,1,nico,,,,,,1,no answer,Two point five times ONE is two point five. But how do we figure out the answer?
+781,3_020817,8/2/2017 19:11,1,3,1,user,statement,50,1,1,none,,,60 x 2
+782,3_020817,8/2/2017 19:11,1,3,1,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+783,3_020817,8/2/2017 19:11,1,3,1,user,statement,50,1,1,none,,,you multiply 1 x 2.5
+784,3_020817,8/2/2017 19:11,1,3,1,nico,,,,,,1,no answer,That sounds good. Then what do we do?
+785,3_020817,8/2/2017 19:12,1,3,1,user,statement,50,1,1,none,,,we multiply 1 x 2.5
+786,3_020817,8/2/2017 19:12,1,3,1,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+787,3_020817,8/2/2017 19:12,1,3,1,user,statement,50,1,1,none,,,60 * 2.5
+788,3_020817,8/2/2017 19:12,1,3,1,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+789,3_020817,8/2/2017 19:13,1,3,1,user,statement,50,1,1,none,,,what is 60 x 2.5
+790,3_020817,8/2/2017 19:13,1,3,1,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+791,3_020817,8/2/2017 19:13,1,3,2,user,,50,0,1,step_1_2,,,
+792,3_020817,8/2/2017 19:13,1,3,2,nico,,,,,,1,no answer,I'm really not sure what to do on STEP TWO OF THIS THIRD PROBLEM.
+793,4_030817,8/3/2017 17:28,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+794,4_030817,8/3/2017 17:28,1,1,0,nico,,,,,,1,no answer,Hi! My name is Nico. What is your name?
+795,4_030817,8/3/2017 17:28,1,1,0,user,statement,50,1,1,none,,,my name is Abby
+796,4_030817,8/3/2017 17:28,1,1,0,nico,,,,,,1,no answer,Nice to meet you Abby. Are you ready to get started?
+797,4_030817,8/3/2017 17:28,1,1,0,user,statement,50,1,1,none,,,yes
+798,4_030817,8/3/2017 17:28,1,1,0,nico,,,,,,1,no answer,Oh okay! Press the start teaching button and we can get started!
+799,4_030817,8/3/2017 17:28,1,1,0,user,,50,0,1,problem start,,,problem start
+800,4_030817,8/3/2017 17:28,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+801,4_030817,8/3/2017 17:29,1,1,1,user,statement,50,1,1,none,,,so we're doing division
+802,4_030817,8/3/2017 17:29,1,1,1,nico,,,,,,1,no answer,Okay.
+803,4_030817,8/3/2017 17:29,1,1,1,user,statement,50,1,1,none,,,if you look at Step Zero its 6
+804,4_030817,8/3/2017 17:29,1,1,1,nico,,,,,,1,no answer,What do we do with the number six?
+805,4_030817,8/3/2017 17:29,1,1,1,user,statement,50,1,1,none,,,so how I would do it is I would do 6 divided by 2 and then equals
+806,4_030817,8/3/2017 17:29,1,1,1,nico,,,,,,1,no answer,Do we divide six by three?
+807,4_030817,8/3/2017 17:29,1,1,1,user,,50,0,1,null,,,Triggered Speech 1
+808,4_030817,8/3/2017 17:29,1,1,1,nico,,,,,,1,no answer,Why aren't you talking to me? Are you thinking?
+809,4_030817,8/3/2017 17:29,1,1,1,user,statement,50,1,1,none,,,you do 6/2 witchly would
+810,4_030817,8/3/2017 17:29,1,1,1,nico,,,,,,1,no answer,Okay so that is what we do.What do we do next?
+811,4_030817,8/3/2017 17:30,1,1,1,user,statement,50,1,1,none,,,you take the
+812,4_030817,8/3/2017 17:30,1,1,1,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+813,4_030817,8/3/2017 17:30,1,1,1,user,statement,50,1,1,none,,,if 6 divided by 2 is 312 divided by 12 divided by 3 is what
+814,4_030817,8/3/2017 17:30,1,1,1,nico,,,,,,1,no answer,What do we do with the number six?
+815,4_030817,8/3/2017 17:30,1,1,1,user,statement,50,1,1,none,,,on Step 1
+816,4_030817,8/3/2017 17:30,1,1,1,nico,,,,,,1,no answer,Oh okay. So have of twelve is six. Do we do something like that with the two?
+817,4_030817,8/3/2017 17:30,1,1,1,user,statement,50,1,1,none,,,no we're on Step 1 now
+818,4_030817,8/3/2017 17:30,1,1,1,nico,,,,,,1,no answer,Cool.
+819,4_030817,8/3/2017 17:30,1,1,1,user,statement,50,1,1,none,,,this is a division problem
+820,4_030817,8/3/2017 17:30,1,1,1,nico,,,,,,1,no answer,This is a hard problem. What do we do next?
+821,4_030817,8/3/2017 17:30,1,1,1,user,statement,50,1,1,none,,,12 divided by 3
+822,4_030817,8/3/2017 17:30,1,1,1,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+823,4_030817,8/3/2017 17:31,1,1,1,user,statement,50,1,1,none,,,what is 12 divided by 3
+824,4_030817,8/3/2017 17:31,1,1,1,nico,,,,,,1,no answer,So I'm actually not sure what you mean.
+825,4_030817,8/3/2017 17:31,1,1,1,user,statement,50,1,1,none,,,it's going to be a division problem 12 divided by 3 equals blank
+826,4_030817,8/3/2017 17:31,1,1,1,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+827,4_030817,8/3/2017 17:31,1,1,2,user,,50,0,1,step_1_2,,,
+828,4_030817,8/3/2017 17:31,1,1,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO.
+829,4_030817,8/3/2017 17:32,1,1,2,user,statement,50,1,1,none,,,so we have the number 3 which we is divided by every by the numbers
+830,4_030817,8/3/2017 17:32,1,1,2,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+831,4_030817,8/3/2017 17:32,1,1,2,user,statement,50,1,1,none,,,so this time it's going to be a multiplication problem we're going to do 6 x 3 equals
+832,4_030817,8/3/2017 17:32,1,1,2,nico,,,,,,1,no answer,There is another six! Do we look at how many times two goes into six?
+833,4_030817,8/3/2017 17:32,1,1,2,user,statement,50,1,1,none,,,we are doing multiplication
+834,4_030817,8/3/2017 17:32,1,1,2,nico,,,,,,1,no answer,Oh okay. So two goes into six three times. How do we figure out how big my torso is?
+835,4_030817,8/3/2017 17:32,1,1,2,user,statement,50,1,1,none,,,what is 6 * 3
+836,4_030817,8/3/2017 17:32,1,1,2,nico,,,,,,1,no answer,Three times six is eighteen. So is the answer eighteen?
+837,4_030817,8/3/2017 17:32,1,1,2,user,statement,50,1,1,none,,,yes
+838,4_030817,8/3/2017 17:32,1,1,2,nico,,,,,,1,answering,My torso has a surface area of eighteen inches. So I will put the answer is eighteen.
+839,4_030817,8/3/2017 17:33,1,1,1,user,,50,0,17,step_2_1,,,
+840,4_030817,8/3/2017 17:33,1,1,1,nico,,,,,,1,no answer,So I'm a bit like an older person with hard hearing. Can you say that again?
+841,4_030817,8/3/2017 17:33,1,1,0,user,,50,0,17,step_1_0,,,
+842,4_030817,8/3/2017 17:33,1,1,0,nico,,,,,,1,no answer,empty transcript
+843,4_030817,8/3/2017 17:33,1,1,0,user,,50,0,17,problem start,,,problem start
+844,4_030817,8/3/2017 17:33,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+845,4_030817,8/3/2017 17:33,1,1,1,user,statement,50,1,17,none,,,what is okay
+846,4_030817,8/3/2017 17:33,1,1,1,nico,,,,,,1,no answer,Okay that makes sense.
+847,4_030817,8/3/2017 17:33,1,1,1,user,statement,50,1,17,none,,,what is 12 divided by 3
+848,4_030817,8/3/2017 17:33,1,1,1,nico,,,,,,1,no answer,That's interesting. I'm not sure I understand though.
+849,4_030817,8/3/2017 17:34,1,1,1,user,statement,50,1,17,none,,,3 goes into 12 how many times
+850,4_030817,8/3/2017 17:34,1,1,1,nico,,,,,,1,no answer,This is a hard problem. What do we do next?
+851,4_030817,8/3/2017 17:34,1,1,1,user,statement,50,1,17,none,,,can you do the problem 12 divided by 3
+852,4_030817,8/3/2017 17:34,1,1,1,nico,,,,,,1,no answer,Okay that sounds good.
+853,4_030817,8/3/2017 17:34,1,1,1,user,statement,50,1,17,none,,,our problem is
+854,4_030817,8/3/2017 17:34,1,1,1,nico,,,,,,1,no answer,I'm still learning ratios but you seem like a really cool tutor.
+855,4_030817,8/3/2017 17:34,1,1,1,user,statement,50,1,17,none,,,53 times what equals 12 if we change the problem a little bit into 12 divided by 3 equals blank do you know the answer
+856,4_030817,8/3/2017 17:34,1,1,1,nico,,,,,,1,no answer,Is four the answer?
+857,4_030817,8/3/2017 17:35,1,1,1,user,statement,50,1,17,none,,,yes
+858,4_030817,8/3/2017 17:35,1,1,1,nico,,,,,,1,answering,I will put the answer is four.
+859,4_030817,8/3/2017 17:35,1,1,2,user,,50,0,49,step_1_2,,,
+860,4_030817,8/3/2017 17:35,1,1,2,nico,,,,,,1,no answer,Can you give me a hint on STEP TWO?
+861,4_030817,8/3/2017 17:35,1,1,2,user,,50,0,49,step_1_2,,,
+862,4_030817,8/3/2017 17:35,1,1,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO.
+863,4_030817,8/3/2017 17:35,1,1,3,user,,50,0,49,step_2_3,,,
+864,4_030817,8/3/2017 17:35,1,1,3,nico,,,,,,1,no answer,"So for STEP THREE, I may be getting this but can you give me another hint?"
+865,4_030817,8/3/2017 17:35,1,2,2,user,,50,0,49,problem_1_2,,,
+866,4_030817,8/3/2017 17:35,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+867,4_030817,8/3/2017 17:35,1,2,2,user,,50,0,49,problem_1_2,,,
+868,4_030817,8/3/2017 17:35,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+869,4_030817,8/3/2017 17:35,1,2,2,user,,50,0,49,problem_1_2,,,
+870,4_030817,8/3/2017 17:35,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+871,4_030817,8/3/2017 17:35,1,2,2,user,,50,0,49,problem_1_2,,,
+872,4_030817,8/3/2017 17:35,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+873,4_030817,8/3/2017 17:36,1,2,1,user,statement,50,1,1,none,,,what is 6 / 2
+874,4_030817,8/3/2017 17:36,1,2,1,nico,,,,,,1,no answer,What do we do with the number six?
+875,4_030817,8/3/2017 17:36,1,2,1,user,statement,50,1,1,none,,,divided by 2
+876,4_030817,8/3/2017 17:36,1,2,1,nico,,,,,,1,no answer,Do we divide the two?
+877,4_030817,8/3/2017 17:36,1,2,1,user,statement,50,1,1,none,,,divide the six into two parts
+878,4_030817,8/3/2017 17:36,1,2,1,nico,,,,,,1,no answer,Oh okay. We divide! What do we divide by?
+879,4_030817,8/3/2017 17:37,1,2,1,user,statement,50,1,1,none,,,6 divided by 2
+880,4_030817,8/3/2017 17:37,1,2,1,nico,,,,,,1,no answer,We divide six by two?
+881,4_030817,8/3/2017 17:37,1,2,1,user,statement,50,1,1,none,,,yes
+882,4_030817,8/3/2017 17:37,1,2,1,nico,,,,,,1,no answer,That's interesting. I'm not sure I understand though.
+883,4_030817,8/3/2017 17:37,1,2,1,user,statement,50,1,1,none,,,when you look at Step Zero you can see there's a six and a two that you know that two times 3 equals 6 so then you take it over to Step One
+884,4_030817,8/3/2017 17:37,1,2,1,nico,,,,,,1,no answer,What do we do with the number six?
+885,4_030817,8/3/2017 17:37,1,2,1,user,statement,50,1,1,none,,,don't do anything with the number 6 that was just
+886,4_030817,8/3/2017 17:37,1,2,1,nico,,,,,,1,no answer,We divide six by two?
+887,4_030817,8/3/2017 17:37,1,2,1,user,statement,50,1,1,none,,,yes
+888,4_030817,8/3/2017 17:37,1,2,1,nico,,,,,,1,no answer,Okay.
+889,4_030817,8/3/2017 17:38,1,2,1,user,statement,50,1,1,none,,,we know the number is 3 so we know that 3 divided by 3 equals what
+890,4_030817,8/3/2017 17:38,1,2,1,nico,,,,,,1,no answer,What do we do with the number three?
+891,4_030817,8/3/2017 17:38,1,2,1,user,statement,50,1,1,none,,,you want to divide it by the three
+892,4_030817,8/3/2017 17:38,1,2,1,nico,,,,,,1,no answer,Oh okay. We divide! We divide six by three?
+893,4_030817,8/3/2017 17:38,1,2,1,user,statement,50,1,1,none,,,No 3 by 3
+894,4_030817,8/3/2017 17:38,1,2,1,nico,,,,,,1,no answer,Oh okay. Can you explain more?
+895,4_030817,8/3/2017 17:38,1,2,1,user,statement,50,1,1,none,,,you want to divide the three
+896,4_030817,8/3/2017 17:38,1,2,1,nico,,,,,,1,no answer,What do we do with the number three?
+897,4_030817,8/3/2017 17:38,1,2,1,user,statement,50,1,1,none,,,divided by 3
+898,4_030817,8/3/2017 17:38,1,2,1,nico,,,,,,1,no answer,Do we divide by three?
+899,4_030817,8/3/2017 17:38,1,2,1,user,statement,50,1,1,none,,,yes
+900,4_030817,8/3/2017 17:38,1,2,1,nico,,,,,,1,no answer,Oh okay. So that's what we do with the three and then what do we do?
+901,4_030817,8/3/2017 17:39,1,2,1,user,statement,50,1,1,none,,,3 divided by 3
+902,4_030817,8/3/2017 17:39,1,2,1,nico,,,,,,1,no answer,Do we divide by three?
+903,4_030817,8/3/2017 17:39,1,2,1,user,statement,50,1,1,none,,,divide 3 into 3 parts
+904,4_030817,8/3/2017 17:39,1,2,1,nico,,,,,,1,no answer,Oh okay. So half of six is three and half of two is one. Is one the answer?
+905,4_030817,8/3/2017 17:39,1,2,1,user,statement,50,1,1,none,,,yes
+906,4_030817,8/3/2017 17:39,1,2,1,nico,,,,,,1,answering,I will put the answer is one.
+907,4_030817,8/3/2017 17:39,1,2,2,user,,50,0,33,step_1_2,,,
+908,4_030817,8/3/2017 17:39,1,2,2,nico,,,,,,1,no answer,I'm really not sure what to do on STEP TWO OF PROBLEM TWO.
+909,4_030817,8/3/2017 17:39,1,2,2,user,statement,50,1,33,none,,,this time it will be a multiplication problem
+910,4_030817,8/3/2017 17:39,1,2,2,nico,,,,,,1,no answer,That's interesting. I'm not sure I understand though.
+911,4_030817,8/3/2017 17:40,1,2,2,user,statement,50,1,33,none,,,we know the
+912,4_030817,8/3/2017 17:40,1,2,2,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+913,4_030817,8/3/2017 17:40,1,2,2,user,statement,50,1,33,none,,,what is 3 * 3
+914,4_030817,8/3/2017 17:40,1,2,2,nico,,,,,,1,no answer,Do we multiply by three?
+915,4_030817,8/3/2017 17:40,1,2,2,user,statement,50,1,33,none,,,3 x 3
+916,4_030817,8/3/2017 17:40,1,2,2,nico,,,,,,1,no answer,Do we multiply by three?
+917,4_030817,8/3/2017 17:40,1,2,2,user,statement,50,1,33,none,,,yes
+918,4_030817,8/3/2017 17:40,1,2,2,nico,,,,,,1,no answer,Okay. We have three ounces of paint. So the surface area it can cover is three times three. That is nine. So the answer is nine?
+919,4_030817,8/3/2017 17:40,1,2,2,user,statement,50,1,33,none,,,yes
+920,4_030817,8/3/2017 17:40,1,2,2,nico,,,,,,1,answering,Okay great! I will put the answer is nine.
+921,4_030817,8/3/2017 17:41,1,3,2,user,,50,0,49,problem_2_3,,,
+922,4_030817,8/3/2017 17:41,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on MY WAY THERE?
+923,4_030817,8/3/2017 17:41,1,3,1,user,statement,50,1,1,none,,,what is 1 * 60
+924,4_030817,8/3/2017 17:41,1,3,1,nico,,,,,,1,no answer,Okay that makes sense.
+925,4_030817,8/3/2017 17:41,1,3,1,user,statement,50,1,1,none,,,this is a multiplication problem
+926,4_030817,8/3/2017 17:41,1,3,1,nico,,,,,,1,no answer,Cool.
+927,4_030817,8/3/2017 17:42,1,3,1,user,statement,50,1,1,none,,,2.5 x 60
+928,4_030817,8/3/2017 17:42,1,3,1,nico,,,,,,1,no answer,This is a hard problem. What do we do next?
+929,4_030817,8/3/2017 17:42,1,3,1,user,statement,50,1,1,none,,,multiply
+930,4_030817,8/3/2017 17:42,1,3,1,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+931,4_030817,8/3/2017 17:42,1,3,1,user,statement,50,1,1,none,,,multiply 2 times 2.5 times 60
+932,4_030817,8/3/2017 17:42,1,3,1,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+933,4_030817,8/3/2017 17:43,1,3,1,user,statement,50,1,1,none,,,what's .5 times 2
+934,4_030817,8/3/2017 17:43,1,3,1,nico,,,,,,1,no answer,Okay.
+935,4_030817,8/3/2017 17:43,1,3,2,user,,50,0,1,step_1_2,,,
+936,4_030817,8/3/2017 17:43,1,3,2,nico,,,,,,1,no answer,I'm really not sure what to do on STEP TWO OF THIS THIRD PROBLEM.
+937,4_030817,8/3/2017 17:43,1,3,2,user,statement,50,1,1,none,,,it's a division problem
+938,4_030817,8/3/2017 17:43,1,3,2,nico,,,,,,1,no answer,Okay that sounds good.
+939,4_030817,8/3/2017 17:43,1,3,2,user,statement,50,1,1,none,,,300 divided by 60
+940,4_030817,8/3/2017 17:43,1,3,2,nico,,,,,,1,no answer,I'm still learning ratios but you seem like a really cool tutor.
+941,4_030817,8/3/2017 17:44,1,3,2,user,statement,50,1,1,none,,,300 divided into 60 parts
+942,4_030817,8/3/2017 17:44,1,3,2,nico,,,,,,1,no answer,Oh okay. So is the answer five?
+943,4_030817,8/3/2017 17:44,1,3,2,user,statement,50,1,1,none,,,yes
+944,4_030817,8/3/2017 17:44,1,3,2,nico,,,,,,1,no answer,Great! I will put five in for the answer.
+945,4_030817,8/3/2017 17:45,1,3,2,user,statement,50,1,1,none,,,300 divided by 60 is what
+946,4_030817,8/3/2017 17:45,1,3,2,nico,,,,,,1,no answer,Okay that sounds good.
+947,4_030817,8/3/2017 17:45,1,3,3,user,,50,0,1,step_2_3,,,
+948,4_030817,8/3/2017 17:45,1,3,3,nico,,,,,,1,no answer,"So for STEP THREE OF THIS THIRD PROBLEM, I may be getting this but can you give me another hint?"
+949,4_030817,8/3/2017 17:46,1,3,3,user,statement,50,1,1,none,,,it's a multiplication problem
+950,4_030817,8/3/2017 17:46,1,3,3,nico,,,,,,1,no answer,Cool.
+951,4_030817,8/3/2017 17:46,1,3,3,user,statement,50,1,1,none,,,7 times 60 equals what
+952,4_030817,8/3/2017 17:46,1,3,3,nico,,,,,,1,no answer,
+953,4_030817,8/3/2017 17:46,1,3,3,user,statement,50,1,1,none,,,760 times as what
+954,4_030817,8/3/2017 17:46,1,3,3,nico,,,,,,1,no answer,So I'm a bit like an older person with hard hearing. Can you say that again?
+955,4_030817,8/3/2017 17:46,1,3,3,user,statement,50,1,1,none,,,7 times 6 equals
+956,4_030817,8/3/2017 17:46,1,3,3,nico,,,,,,1,no answer,What do we do with the seven?
+957,4_030817,8/3/2017 17:46,1,3,3,user,statement,50,1,1,none,,,time is it by 6
+958,4_030817,8/3/2017 17:46,1,3,3,nico,,,,,,1,no answer,Okay.
+959,4_030817,8/3/2017 17:46,1,3,3,user,statement,50,1,1,none,,,times it by 60
+960,4_030817,8/3/2017 17:46,1,3,3,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+961,4_030817,8/3/2017 17:47,1,3,3,user,statement,50,1,1,none,,,7 x 60
+962,4_030817,8/3/2017 17:47,1,3,3,nico,,,,,,1,no answer,What do we do with the seven?
+963,4_030817,8/3/2017 17:47,1,3,3,user,statement,50,1,1,none,,,times it by 60
+964,4_030817,8/3/2017 17:47,1,3,3,nico,,,,,,1,no answer,Oh okay. We MULTIPLY! Do we MULTIPLY sixty times seven?
+965,4_030817,8/3/2017 17:47,1,3,3,user,statement,50,1,1,none,,,yes
+966,4_030817,8/3/2017 17:47,1,3,3,nico,,,,,,1,no answer,So that's four hundred and twenty. Is four hundred and twenty the answer?
+967,4_030817,8/3/2017 17:47,1,3,3,user,statement,50,1,1,none,,,yes
+968,4_030817,8/3/2017 17:47,1,3,3,nico,,,,,,1,answering,I will put the answer is four hundred and twenty the answer.
+969,4_030817,8/3/2017 17:47,1,3,2,user,,50,0,9,step_3_2,,,
+970,4_030817,8/3/2017 17:47,1,3,2,nico,,,,,,1,no answer,Okay! BACK TO STEP TWO PROBLEM THREE.
+971,4_030817,8/3/2017 17:47,1,3,2,user,statement,50,1,9,none,,,what was the answer for this one again
+972,4_030817,8/3/2017 17:47,1,3,2,nico,,,,,,1,no answer,Is five the answer?
+973,4_030817,8/3/2017 17:48,1,3,2,user,statement,50,1,9,none,,,yes
+974,4_030817,8/3/2017 17:48,1,3,2,nico,,,,,,1,no answer,Cool.
+975,4_030817,8/3/2017 17:48,1,3,1,user,,50,0,9,step_2_1,,,
+976,4_030817,8/3/2017 17:48,1,3,1,nico,,,,,,1,no answer,Didn't we already do step one for problem THREE?
+977,4_030817,8/3/2017 17:48,1,3,1,user,statement,50,1,9,none,,,2.5 x 60
+978,4_030817,8/3/2017 17:48,1,3,1,nico,,,,,,1,no answer,Why are we here?
+979,4_030817,8/3/2017 17:48,1,3,2,user,,50,0,9,step_1_2,,,
+980,4_030817,8/3/2017 17:48,1,3,2,nico,,,,,,1,no answer,Didn't we already do step two for problem THREE?
+981,4_030817,8/3/2017 17:48,1,3,3,user,,50,0,9,step_2_3,,,
+982,4_030817,8/3/2017 17:48,1,3,3,nico,,,,,,1,no answer,"So for STEP THREE OF THIS THIRD PROBLEM, I may be getting this but can you give me another hint?"
+983,4_030817,8/3/2017 18:10,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+984,4_030817,8/3/2017 18:10,1,1,0,nico,,,,,,1,no answer,I will put the answer is four hundred and twenty the answer.
+985,4_030817,8/3/2017 18:10,1,1,0,user,statement,50,1,1,none,,,when did put it down hello Nico
+986,4_030817,8/3/2017 18:10,1,1,0,nico,,,,,,1,no answer,I'm still learning ratios but you seem like a really cool tutor.
+987,4_030817,8/3/2017 18:10,1,1,0,user,,50,0,1,problem start,,,problem start
+988,4_030817,8/3/2017 18:10,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+989,4_030817,8/3/2017 18:11,1,1,2,user,,50,0,1,step_1_2,,,
+990,4_030817,8/3/2017 18:11,1,1,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO.
+991,4_030817,8/3/2017 18:11,1,2,2,user,,50,0,1,problem_1_2,,,
+992,4_030817,8/3/2017 18:11,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+993,4_030817,8/3/2017 18:11,1,2,1,user,,50,0,1,null,,,Triggered Speech 1
+994,4_030817,8/3/2017 18:11,1,2,1,nico,,,,,,1,no answer,Why aren't you talking to me? Are you thinking?
+995,4_030817,8/3/2017 18:12,1,2,2,user,,50,0,1,step_1_2,,,
+996,4_030817,8/3/2017 18:12,1,2,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO OF PROBLEM TWO.
+997,4_030817,8/3/2017 18:12,1,2,2,user,,50,0,1,null,,,Triggered Speech 2
+998,4_030817,8/3/2017 18:12,1,2,2,nico,,,,,,1,no answer,Why aren't you talking to me? I'm getting tired.
+999,4_030817,8/3/2017 18:12,1,3,2,user,,50,0,1,problem_2_3,,,
+1000,4_030817,8/3/2017 18:12,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on MY WAY THERE?
+1001,4_030817,8/3/2017 18:12,1,3,2,user,,50,0,1,problem_2_3,,,
+1002,4_030817,8/3/2017 18:12,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on MY WAY THERE?
+1003,4_030817,8/3/2017 18:12,1,3,2,user,,50,0,1,problem_2_3,,,
+1004,4_030817,8/3/2017 18:12,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on MY WAY THERE?
+1005,4_030817,8/3/2017 18:13,1,3,1,user,statement,50,1,1,none,,,hey Nico so what's the answer
+1006,4_030817,8/3/2017 18:13,1,3,1,nico,,,,,,1,no answer,Is one hundred and fifty the answer?
+1007,4_030817,8/3/2017 18:13,1,3,1,user,,50,0,1,null,,,Triggered Speech 3
+1008,4_030817,8/3/2017 18:13,1,3,1,nico,,,,,,1,no answer,"If you aren't going to talk to me, I think I'm going to go to sleep."
+1009,4_030817,8/3/2017 18:13,1,3,1,user,statement,50,1,1,none,,,yep 150 is the answer
+1010,4_030817,8/3/2017 18:13,1,3,1,nico,,,,,,1,no answer,Is one hundred and fifty the answer?
+1011,4_030817,8/3/2017 18:13,1,3,1,user,statement,50,1,1,none,,,yes it is I was quite rude
+1012,4_030817,8/3/2017 18:13,1,3,1,nico,,,,,,1,answering,I will put the answer is one hundred and fifty .
+1013,4_030817,8/3/2017 18:13,1,3,2,user,,50,0,33,step_1_2,,,
+1014,4_030817,8/3/2017 18:13,1,3,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO OF THIS THIRD PROBLEM.
+1015,4_030817,8/3/2017 18:13,1,3,2,user,statement,50,1,33,none,,,Nico what's the answer for the step
+1016,4_030817,8/3/2017 18:13,1,3,2,nico,,,,,,1,no answer,Is five the answer?
+1017,4_030817,8/3/2017 18:14,1,3,2,user,statement,50,1,33,none,,,yes
+1018,4_030817,8/3/2017 18:14,1,3,2,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+1019,4_030817,8/3/2017 18:14,1,3,2,user,statement,50,1,33,none,,,yes the answer is 5
+1020,4_030817,8/3/2017 18:14,1,3,2,nico,,,,,,1,no answer,Is five the answer?
+1021,4_030817,8/3/2017 18:14,1,3,2,user,statement,50,1,33,none,,,yes
+1022,4_030817,8/3/2017 18:14,1,3,2,nico,,,,,,1,no answer,So I'm actually not sure what you mean.
+1023,4_030817,8/3/2017 18:14,1,3,2,user,statement,50,1,33,none,,,put 5 in for the answer
+1024,4_030817,8/3/2017 18:14,1,3,2,nico,,,,,,1,no answer,Is five the answer?
+1025,4_030817,8/3/2017 18:14,1,3,2,user,statement,50,1,33,none,,,yes it is put it in
+1026,4_030817,8/3/2017 18:14,1,3,2,nico,,,,,,1,no answer,So I'm actually not sure what you mean.
+1027,4_030817,8/3/2017 18:14,1,3,3,user,,50,0,33,step_2_3,,,
+1028,4_030817,8/3/2017 18:14,1,3,3,nico,,,,,,1,no answer,Wow we're on STEP THREE OF THIS THIRD PROBLEM. How do we do this one?
+1029,4_030817,8/3/2017 18:15,1,3,3,user,statement,50,1,33,none,,,how is your day do you like cats do you like dogs
+1030,4_030817,8/3/2017 18:15,1,3,3,nico,,,,,,1,no answer,Okay that makes sense.
+1031,4_030817,8/3/2017 18:15,1,3,3,user,statement,50,1,33,none,,,Nico what's your favorite color
+1032,4_030817,8/3/2017 18:15,1,3,3,nico,,,,,,1,no answer,So I'm actually not sure what you mean.
+1033,4_030817,8/3/2017 18:16,1,3,3,user,statement,50,1,33,none,,,Nikka what's your favorite color
+1034,4_030817,8/3/2017 18:16,1,3,3,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+1035,4_030817,8/3/2017 18:16,1,3,3,user,statement,50,1,33,none,,,what's your favorite animal is it a cat is it a dog is it a bird is it a plane
+1036,4_030817,8/3/2017 18:16,1,3,3,nico,,,,,,1,no answer,So I'm a bit like an older person with hard hearing. Can you say that again?
+1037,5_080817,8/8/2017 18:42,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+1038,5_080817,8/8/2017 18:42,1,1,0,nico,,,,,,1,no answer,Hi! My name is Nico. What is your name?
+1039,5_080817,8/8/2017 18:42,1,1,0,user,statement,50,1,1,none,,,Oscar
+1040,5_080817,8/8/2017 18:42,1,1,0,nico,,,,,,1,no answer,Nice to meet you! Are you ready to get started?
+1041,5_080817,8/8/2017 18:43,1,1,0,user,,50,0,1,problem start,,,problem start
+1042,5_080817,8/8/2017 18:43,1,1,0,nico,,,,,,1,no answer,Oh okay! Press the start teaching button and we can get started!
+1043,5_080817,8/8/2017 18:44,1,1,1,user,,50,0,1,null,,,Triggered Speech 1
+1044,5_080817,8/8/2017 18:44,1,1,1,nico,,,,,,1,no answer,Why aren't you talking to me? Are you thinking?
+1045,5_080817,8/8/2017 18:44,1,1,1,user,statement,50,1,1,none,,,so right now we're going to be finding the surface area of your legs
+1046,5_080817,8/8/2017 18:44,1,1,1,nico,,,,,,1,no answer,That's very interesting. Can you explain that more?
+1047,5_080817,8/8/2017 18:45,1,1,1,user,,50,0,1,null,,,Triggered Speech 1
+1048,5_080817,8/8/2017 18:45,1,1,1,nico,,,,,,1,no answer,Why aren't you talking to me? Are you thinking?
+1049,5_080817,8/8/2017 18:45,1,1,1,user,statement,50,1,1,none,,,image of so we're going to be finding the surface area to cover up the volume of paint with waterproof case you can go swimming and we need to find out how much volume of pain we need to cover up the surface area with a likes
+1050,5_080817,8/8/2017 18:45,1,1,1,nico,,,,,,1,no answer,I tend to meander a bit. Can you repeat that?
+1051,5_080817,8/8/2017 18:46,1,1,1,user,statement,50,1,1,none,,,we are going to be finding the surface area of your legs since we already know that we're going to find the volume of paint we need to cover up your legs which are 12 inches
+1052,5_080817,8/8/2017 18:46,1,1,1,nico,,,,,,1,no answer,That sounds good. Then what do we do?
+1053,5_080817,8/8/2017 18:46,1,1,1,user,statement,50,1,1,none,,,so right now we're going to find out since we covered up your feet which were 6 surface area on which surface area was square inches recovered up volume of paint was 2 fluid ounces
+1054,5_080817,8/8/2017 18:46,1,1,1,nico,,,,,,1,no answer,So I'm actually not sure what you mean. Can you tell me again?
+1055,5_080817,8/8/2017 18:47,1,1,1,user,statement,50,1,1,none,,,so the volume of paint we used to cover up the the surface area of your feet was 2 fluid ounces and the surface area of your feet or 6 in square inches
+1056,5_080817,8/8/2017 18:47,1,1,1,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+1057,5_080817,8/8/2017 18:47,1,1,1,user,statement,50,1,1,none,,,solder me finding out the fluid the fluid ounces of the paint which we covered up the 6 squared inches of your feet now we're going to do is multiply 6 * 2 + 2 * what Nico
+1058,5_080817,8/8/2017 18:47,1,1,1,nico,,,,,,1,no answer,So I'm actually not sure what you mean. Can you tell me again?
+1059,5_080817,8/8/2017 18:48,1,1,1,user,statement,50,1,1,none,,,so we're going to be finding the volume of paint which is fluid ounces we used to to cover up your feet which was 6 squared inches and your legs are 12 square inches so where the volume of paint we're going to be using since 6 inches were doubled with your legs
+1060,5_080817,8/8/2017 18:48,1,1,1,nico,,,,,,1,no answer,That sounds good. Then what do we do?
+1061,5_080817,8/8/2017 18:48,1,1,1,user,statement,50,1,1,none,,,we need to double up the surface area of your square inches off your feet which were six inches when you had double that up
+1062,5_080817,8/8/2017 18:48,1,1,1,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+1063,5_080817,8/8/2017 18:48,1,1,2,user,,50,0,1,step_1_2,,,
+1064,5_080817,8/8/2017 18:48,1,1,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO.
+1065,5_080817,8/8/2017 18:49,1,1,2,user,statement,50,1,1,none,,,since your surface area of was on your legs worth 12 in square or Square
+1066,5_080817,8/8/2017 18:49,1,1,2,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+1067,5_080817,8/8/2017 18:49,1,1,2,user,statement,50,1,1,none,,,so since your legs were 12 square inches
+1068,5_080817,8/8/2017 18:49,1,1,2,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+1069,5_080817,8/8/2017 18:50,1,1,2,user,statement,50,1,1,none,,,so since your surface area of where 12 of your legs were 12 square inches and the volume of paint will use to paint yourself or six fluid ounces how much do you think the surface area on squared inches will be since we doubled up the 4 fluid ounces on your legs how much you think that how much do you think it will be doubled up at 12 square inches
+1070,5_080817,8/8/2017 18:50,1,1,2,nico,,,,,,1,no answer,There is a six in this step two. What do we do with the number six here?
+1071,5_080817,8/8/2017 18:50,1,1,2,user,statement,50,1,1,none,,,Club thing is we're going to x 3 since since since to 2 times 3 equals 6 then 12 with double that up and we'll reach
+1072,5_080817,8/8/2017 18:50,1,1,2,nico,,,,,,1,no answer,Do we divide by TWO?
+1073,5_080817,8/8/2017 18:50,1,1,2,user,statement,50,1,1,none,,,no
+1074,5_080817,8/8/2017 18:50,1,1,2,nico,,,,,,1,no answer,Okay. I'm going to divide the six by two to get three. So that's what we do with the two and then what do we do?
+1075,5_080817,8/8/2017 18:51,1,1,2,user,statement,50,1,1,none,,,well since the surface area of your legs were 12 how much do you think the surface area over torso will be since we covered up six fluid ounces of the paint and 12
+1076,5_080817,8/8/2017 18:51,1,1,2,nico,,,,,,1,no answer,There is another six! Do we divide the six?
+1077,5_080817,8/8/2017 18:51,1,1,2,user,statement,50,1,1,none,,,yes yes
+1078,5_080817,8/8/2017 18:51,1,1,2,nico,,,,,,1,no answer,Okay. I'm going to divide the six by two to get three and then what?
+1079,5_080817,8/8/2017 18:51,1,1,2,user,statement,50,1,1,none,,,and then
+1080,5_080817,8/8/2017 18:51,1,1,2,nico,,,,,,1,no answer,That's very interesting. Can you explain that more?
+1081,5_080817,8/8/2017 18:52,1,1,1,user,,50,0,1,step_2_1,,,
+1082,5_080817,8/8/2017 18:52,1,1,1,nico,,,,,,1,no answer,That's very interesting. Can you explain that more?
+1083,5_080817,8/8/2017 18:52,1,1,1,user,statement,50,1,1,none,,,okay Niko sense
+1084,5_080817,8/8/2017 18:52,1,1,1,nico,,,,,,1,no answer,I'm still learning ratios. Maybe you can explain more?
+1085,5_080817,8/8/2017 18:52,1,1,1,user,statement,50,1,1,none,,,okay Niko
+1086,5_080817,8/8/2017 18:52,1,1,1,nico,,,,,,1,no answer,That sounds good. Then what do we do?
+1087,5_080817,8/8/2017 18:53,1,1,1,user,statement,50,1,1,none,,,we are going to
+1088,5_080817,8/8/2017 18:53,1,1,1,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+1089,5_080817,8/8/2017 18:53,1,1,1,user,statement,50,1,1,none,,,we're going to multiply 2 times 4 times 2 I mean since we multiplied 6 x 2 to get the surface area of your legs we're going to do the same thing with the fluid ounces of the paint we're going to be covering
+1090,5_080817,8/8/2017 18:53,1,1,1,nico,,,,,,1,no answer,What do we multiply two by? Do you mean we multiply three by six?
+1091,5_080817,8/8/2017 18:53,1,1,1,user,statement,50,1,1,none,,,no we multiply 2 by 2
+1092,5_080817,8/8/2017 18:53,1,1,1,nico,,,,,,1,no answer,What do we multiply two by? Do you mean we multiply three by six?
+1093,5_080817,8/8/2017 18:53,1,1,1,user,statement,50,1,1,none,,,we are going to multiply two by two
+1094,5_080817,8/8/2017 18:53,1,1,1,nico,,,,,,1,no answer,What do we multiply two by? Do you mean we multiply three by six?
+1095,5_080817,8/8/2017 18:54,1,1,1,user,statement,50,1,1,none,,,no
+1096,5_080817,8/8/2017 18:54,1,1,1,nico,,,,,,1,no answer,That's very interesting. Can you explain that more?
+1097,5_080817,8/8/2017 18:54,1,1,1,user,statement,50,1,1,none,,,so we're basically going to do is multiply 2 by 2
+1098,5_080817,8/8/2017 18:54,1,1,1,nico,,,,,,1,no answer,What do we multiply two by? Do you mean we multiply three by six?
+1099,5_080817,8/8/2017 18:54,1,1,2,user,,50,0,1,step_1_2,,,
+1100,5_080817,8/8/2017 18:54,1,1,2,nico,,,,,,1,no answer,I'm really not sure what to do on STEP TWO.
+1101,5_080817,8/8/2017 18:54,1,1,1,user,,50,0,1,step_2_1,,,
+1102,5_080817,8/8/2017 18:54,1,1,1,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+1103,5_080817,8/8/2017 18:55,1,1,1,user,statement,50,1,1,none,,,we're going to be multiplying to fluid ounces by 2 because we did the same thing with the 6 squared inches of your feet by 2 which God is 12 so we're going to do to fluid ounces x 2
+1104,5_080817,8/8/2017 18:55,1,1,1,nico,,,,,,1,no answer,Do we divide by TWO?
+1105,5_080817,8/8/2017 18:55,1,1,1,user,statement,50,1,1,none,,,no
+1106,5_080817,8/8/2017 18:55,1,1,1,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+1107,5_080817,8/8/2017 18:55,1,1,1,user,statement,50,1,1,none,,,so we're basically going to do is multiply 2 by 2 which would get us
+1108,5_080817,8/8/2017 18:55,1,1,1,nico,,,,,,1,no answer,Oh okay. We multiply! We multiply two times two?
+1109,5_080817,8/8/2017 18:55,1,1,1,user,statement,50,1,1,none,,,yes
+1110,5_080817,8/8/2017 18:55,1,1,1,nico,,,,,,1,no answer,So that's four. Then we have the answer is four?
+1111,5_080817,8/8/2017 18:55,1,1,1,user,statement,50,1,1,none,,,yes
+1112,5_080817,8/8/2017 18:55,1,1,1,nico,,,,,,1,answering,I will put the answer is four.
+1113,5_080817,8/8/2017 18:55,1,1,1,user,statement,50,1,33,none,,,good job
+1114,5_080817,8/8/2017 18:55,1,1,1,nico,,,,,,1,no answer,Thank you. You're a great tutor.
+1115,5_080817,8/8/2017 18:55,1,1,2,user,,50,0,33,step_1_2,,,
+1116,5_080817,8/8/2017 18:55,1,1,2,nico,,,,,,1,no answer,I'm really not sure what to do on STEP TWO.
+1117,5_080817,8/8/2017 18:56,1,1,2,user,statement,50,1,33,none,,,don't worry I'll help you
+1118,5_080817,8/8/2017 18:56,1,1,2,nico,,,,,,1,no answer,I tend to meander a bit. Can you repeat that?
+1119,5_080817,8/8/2017 18:56,1,1,2,user,statement,50,1,33,none,,,Sony Co what it what is 2 times what equals 6
+1120,5_080817,8/8/2017 18:56,1,1,2,nico,,,,,,1,no answer,Do we divide by TWO?
+1121,5_080817,8/8/2017 18:56,1,1,2,user,statement,50,1,33,none,,,no
+1122,5_080817,8/8/2017 18:56,1,1,2,nico,,,,,,1,no answer,Okay. I'm going to divide the six by two to get three. So that's what we do with the two and then what do we do?
+1123,5_080817,8/8/2017 18:57,1,1,2,user,statement,50,1,33,none,,,no Neko
+1124,5_080817,8/8/2017 18:57,1,1,2,nico,,,,,,1,no answer,I tend to meander a bit. Can you repeat that?
+1125,5_080817,8/8/2017 18:57,1,1,2,user,statement,50,1,33,none,,,so we're going to multiply 2 X 3 which equals what
+1126,5_080817,8/8/2017 18:57,1,1,2,nico,,,,,,1,no answer,What do we multiply two by? Do you mean we multiply three by six?
+1127,5_080817,8/8/2017 18:57,1,1,2,user,statement,50,1,33,none,,,Destiny Co
+1128,5_080817,8/8/2017 18:57,1,1,2,nico,,,,,,1,no answer,This is a hard problem. What do we do next?
+1129,5_080817,8/8/2017 18:57,1,1,2,user,statement,50,1,33,none,,,we are going to multiply
+1130,5_080817,8/8/2017 18:57,1,1,2,nico,,,,,,1,no answer,I'm still learning ratios. Maybe you can explain more?
+1131,5_080817,8/8/2017 18:58,1,1,2,user,statement,50,1,33,none,,,so where we going to be doing is multiplying 6 by 3 since that's what we got for fluid ounces we're going to multiply by 3 to get the answer for the square inches of your torso
+1132,5_080817,8/8/2017 18:58,1,1,2,nico,,,,,,1,no answer,There is a six in this step two. What do we do with the number six here?
+1133,5_080817,8/8/2017 18:58,1,1,2,user,statement,50,1,33,none,,,you're going to * 3
+1134,5_080817,8/8/2017 18:58,1,1,2,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+1135,5_080817,8/8/2017 18:58,1,1,2,user,statement,50,1,33,none,,,we are going to x 3
+1136,5_080817,8/8/2017 18:58,1,1,2,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+1137,5_080817,8/8/2017 18:59,1,1,2,user,statement,50,1,33,none,,,so the reason we're going to be multiplying by 3 4 6 is because two times 3 equals 6 and that's that's the answer for fluid ounces and then to find the square inches of your torso in a multiply three because that's how much we would multiply because 4 * 3 + 12 * 3 + 606 * 3 equals what
+1138,5_080817,8/8/2017 18:59,1,1,2,nico,,,,,,1,no answer,There is another six! Do we divide the six?
+1139,5_080817,8/8/2017 18:59,1,1,2,user,statement,50,1,33,none,,,no
+1140,5_080817,8/8/2017 18:59,1,1,2,nico,,,,,,1,no answer,Oh okay. So that's what we do with the six and then what do we do?
+1141,5_080817,8/8/2017 18:59,1,1,2,user,statement,50,1,33,none,,,we do not divide 6
+1142,5_080817,8/8/2017 18:59,1,1,2,nico,,,,,,1,answering,So I will put the answer is eighteen.
+1143,5_080817,8/8/2017 18:59,1,2,2,user,,50,0,49,problem_1_2,,,
+1144,5_080817,8/8/2017 18:59,1,2,2,nico,,,,,,1,no answer,So I will put the answer is eighteen.
+1145,5_080817,8/8/2017 19:01,1,2,1,user,statement,50,1,1,none,,,okay me go for this
+1146,5_080817,8/8/2017 19:01,1,2,1,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+1147,5_080817,8/8/2017 19:01,1,2,1,user,statement,50,1,1,none,,,Sonoco for this problem we're going to be doing 6 since we got three for your three squared inches for your arms we're going to divide 6 by 6 by 2 and divide that by 2 and then we going to get we're going to get 3
+1148,5_080817,8/8/2017 19:01,1,2,1,nico,,,,,,1,no answer,What do we do with the number six?
+1149,5_080817,8/8/2017 19:01,1,2,1,user,statement,50,1,1,none,,,we divided by 2
+1150,5_080817,8/8/2017 19:01,1,2,1,nico,,,,,,1,no answer,What do we do with the number TWO?
+1151,5_080817,8/8/2017 19:01,1,2,1,user,statement,50,1,1,none,,,divided by 2
+1152,5_080817,8/8/2017 19:01,1,2,1,nico,,,,,,1,no answer,What do we do with the number TWO?
+1153,5_080817,8/8/2017 19:01,1,2,1,user,statement,50,1,1,none,,,we are going to divide the number two by two
+1154,5_080817,8/8/2017 19:01,1,2,1,nico,,,,,,1,no answer,Oh okay. We divide! We divide six by two. That gives us two. We divide two by two?
+1155,5_080817,8/8/2017 19:02,1,2,1,user,statement,50,1,1,none,,,we are going to divide 2 by 2 which is going to give us what answer
+1156,5_080817,8/8/2017 19:02,1,2,1,nico,,,,,,1,no answer,What do we do with the number TWO?
+1157,5_080817,8/8/2017 19:02,1,2,1,user,statement,50,1,1,none,,,we're going to ride number the number 2 with
+1158,5_080817,8/8/2017 19:02,1,2,1,nico,,,,,,1,no answer,What do we do with the number TWO?
+1159,5_080817,8/8/2017 19:02,1,2,1,user,statement,50,1,1,none,,,we are going to divide the number two by two
+1160,5_080817,8/8/2017 19:02,1,2,1,nico,,,,,,1,no answer,Oh okay. We divide! We divide six by two. That gives us two. We divide two by two?
+1161,5_080817,8/8/2017 19:02,1,2,1,user,statement,50,1,1,none,,,yes
+1162,5_080817,8/8/2017 19:02,1,2,1,nico,,,,,,1,no answer,Six divided by two is three. And then two divided by two is one.
+1163,5_080817,8/8/2017 19:02,1,2,1,user,statement,50,1,1,none,,,so that is the answer
+1164,5_080817,8/8/2017 19:02,1,2,1,nico,,,,,,1,no answer,Is one the answer?
+1165,5_080817,8/8/2017 19:03,1,2,1,user,statement,50,1,1,none,,,yes Neko
+1166,5_080817,8/8/2017 19:03,1,2,1,nico,,,,,,1,answering,I will put the answer is one.
+1167,5_080817,8/8/2017 19:03,1,2,1,user,statement,50,1,33,none,,,good job
+1168,5_080817,8/8/2017 19:03,1,2,1,nico,,,,,,1,no answer,Thank you. You're a great tutor.
+1169,5_080817,8/8/2017 19:03,1,2,1,user,statement,50,1,33,none,,,okay time for the next step
+1170,5_080817,8/8/2017 19:03,1,2,1,nico,,,,,,1,no answer,I tend to meander a bit. Can you repeat that?
+1171,5_080817,8/8/2017 19:03,1,2,2,user,,50,0,33,step_1_2,,,
+1172,5_080817,8/8/2017 19:03,1,2,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO OF PROBLEM TWO.
+1173,5_080817,8/8/2017 19:03,1,2,2,user,statement,50,1,33,none,,,Sonoco how we found the 3 fluid ounces of paint we put on your head
+1174,5_080817,8/8/2017 19:03,1,2,2,nico,,,,,,1,no answer,What do we do with the number three?
+1175,5_080817,8/8/2017 19:04,1,2,2,user,statement,50,1,33,none,,,see you're going to multiply that by 3
+1176,5_080817,8/8/2017 19:04,1,2,2,nico,,,,,,1,no answer,What do we multiply three by? Do you mean we multiply three by three?
+1177,5_080817,8/8/2017 19:04,1,2,2,user,statement,50,1,33,none,,,yes
+1178,5_080817,8/8/2017 19:04,1,2,2,nico,,,,,,1,no answer,So I'm actually not sure what you mean. Can you tell me again?
+1179,5_080817,8/8/2017 19:04,1,2,2,user,statement,50,1,33,none,,,yes we multiply 3 by 3
+1180,5_080817,8/8/2017 19:04,1,2,2,nico,,,,,,1,no answer,"If we multiply three times three, that's nine. So the answer is nine?"
+1181,5_080817,8/8/2017 19:04,1,2,2,user,statement,50,1,33,none,,,yes good job
+1182,5_080817,8/8/2017 19:04,1,2,2,nico,,,,,,1,answering,Okay great! I will put the answer is nine.
+1183,5_080817,8/8/2017 19:04,1,2,2,user,statement,50,1,49,none,,,great job Nico
+1184,5_080817,8/8/2017 19:04,1,2,2,nico,,,,,,1,no answer,This is a hard problem. What do we do next?
+1185,5_080817,8/8/2017 19:04,1,3,2,user,,50,0,49,problem_2_3,,,
+1186,5_080817,8/8/2017 19:04,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on MY WAY THERE?
+1187,5_080817,8/8/2017 19:05,1,3,1,user,statement,50,1,1,none,,,yes
+1188,5_080817,8/8/2017 19:05,1,3,1,nico,,,,,,1,no answer,This is a hard problem. What do we do next?
+1189,5_080817,8/8/2017 19:05,1,3,1,user,statement,50,1,1,none,,,Sonoco what is 1 times 25
+1190,5_080817,8/8/2017 19:05,1,3,1,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+1191,5_080817,8/8/2017 19:05,1,3,1,user,statement,50,1,1,none,,,so Niko since you drove 6
+1192,5_080817,8/8/2017 19:05,1,3,1,nico,,,,,,1,no answer,I'm still learning ratios. Maybe you can explain more?
+1193,5_080817,8/8/2017 19:06,1,3,1,user,statement,50,1,1,none,,,so since you drove 60 miles in 2.5 hours
+1194,5_080817,8/8/2017 19:06,1,3,1,nico,,,,,,1,no answer,I like to listen and learn. Can you explain more?
+1195,5_080817,8/8/2017 19:06,1,3,1,user,statement,50,1,1,none,,,so 1 times what equals 2.5
+1196,5_080817,8/8/2017 19:06,1,3,1,nico,,,,,,1,no answer,That sounds good. Then what do we do?
+1197,5_080817,8/8/2017 19:06,1,3,1,user,statement,50,1,1,none,,,we multiply 1 x 2.5
+1198,5_080817,8/8/2017 19:06,1,3,1,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+1199,5_080817,8/8/2017 19:06,1,3,1,user,statement,50,1,1,none,,,we are going to multiply 1 x 2.5
+1200,5_080817,8/8/2017 19:06,1,3,1,nico,,,,,,1,no answer,I like a good challenge. What do we do next?
+1201,5_080817,8/8/2017 19:06,1,3,1,user,statement,50,1,1,none,,,we multiply 1
+1202,5_080817,8/8/2017 19:06,1,3,1,nico,,,,,,1,no answer,That's very interesting. Can you explain that more?
+1203,5_080817,8/8/2017 19:07,1,3,1,user,statement,50,1,1,none,,,well since $0.01 1 * 2.5 is 2.5 and we have 60 miles you drove in 1 hour what we were going to multiply 60 x 2.5
+1204,5_080817,8/8/2017 19:07,1,3,1,nico,,,,,,1,no answer,Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?
+1205,5_080817,8/8/2017 19:07,1,3,1,user,statement,50,1,1,none,,,yes
+1206,5_080817,8/8/2017 19:07,1,3,1,nico,,,,,,1,answering,I will put the answer is one hundred and fifty.
+1207,5_080817,8/8/2017 19:07,1,3,1,user,statement,50,1,33,none,,,good job
+1208,5_080817,8/8/2017 19:07,1,3,1,nico,,,,,,1,no answer,Thank you. You're a great tutor.
+1209,5_080817,8/8/2017 19:07,1,3,2,user,,50,0,33,step_1_2,,,
+1210,5_080817,8/8/2017 19:07,1,3,2,nico,,,,,,1,no answer,I'm really not sure what to do on STEP TWO OF THIS THIRD PROBLEM.
+1211,5_080817,8/8/2017 19:08,1,3,2,user,statement,50,1,33,none,,,so 150 times 2 which was your mileage at 2.5 hours
+1212,5_080817,8/8/2017 19:08,1,3,2,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+1213,5_080817,8/8/2017 19:08,1,3,2,user,statement,50,1,33,none,,,4 first step is multiplying 150 x 2 because that's how we going to get
+1214,5_080817,8/8/2017 19:08,1,3,2,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+1215,5_080817,8/8/2017 19:09,1,3,2,user,statement,50,1,33,none,,,is 450 * 2 equals 300 then 2.5 * 2 equals what
+1216,5_080817,8/8/2017 19:09,1,3,2,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+1217,5_080817,8/8/2017 19:09,1,3,2,user,statement,50,1,33,none,,,we are going to multiply 2.5 x 2 because that is the same number we multiplied your miles which
+1218,5_080817,8/8/2017 19:09,1,3,2,nico,,,,,,1,no answer,This is a hard problem. What do we do next?
+1219,5_080817,8/8/2017 19:09,1,3,2,user,statement,50,1,33,none,,,we multiply 2.5 x 2
+1220,5_080817,8/8/2017 19:09,1,3,2,nico,,,,,,1,no answer,Oh okay. We MULTIPLY! Do we MULTIPLY two point five times two?
+1221,5_080817,8/8/2017 19:09,1,3,2,user,statement,50,1,33,none,,,yes
+1222,5_080817,8/8/2017 19:09,1,3,2,nico,,,,,,1,no answer,So two point five times two is five. So is the answer five?
+1223,5_080817,8/8/2017 19:10,1,3,2,user,statement,50,1,33,none,,,yes
+1224,5_080817,8/8/2017 19:10,1,3,2,nico,,,,,,1,no answer,Great! I will put five in for the answer.
+1225,5_080817,8/8/2017 19:10,1,3,2,user,statement,50,1,33,none,,,Bijan Nika
+1226,5_080817,8/8/2017 19:10,1,3,2,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+1227,5_080817,8/8/2017 19:10,1,3,2,user,statement,50,1,33,none,,,great job Nico
+1228,5_080817,8/8/2017 19:10,1,3,2,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+1229,5_080817,8/8/2017 19:10,1,3,3,user,,50,0,33,step_2_3,,,
+1230,5_080817,8/8/2017 19:10,1,3,3,nico,,,,,,1,no answer,Yay! STEP THREE OF THIS THIRD PROBLEM. How do I solve this one?
+1231,5_080817,8/8/2017 19:11,1,3,3,user,statement,50,1,33,none,,,Sonoco if 1 x 7
+1232,5_080817,8/8/2017 19:11,1,3,3,nico,,,,,,1,no answer,What do we do with the seven?
+1233,5_080817,8/8/2017 19:11,1,3,3,user,statement,50,1,33,none,,,we multiply it by 1
+1234,5_080817,8/8/2017 19:11,1,3,3,nico,,,,,,1,no answer,Oh okay. We MULTIPLY! Do we MULTIPLY sixty times seven?
+1235,5_080817,8/8/2017 19:11,1,3,3,user,statement,50,1,33,none,,,yes
+1236,5_080817,8/8/2017 19:11,1,3,3,nico,,,,,,1,no answer,So that's four hundred and twenty. Is four hundred and twenty the answer?
+1237,5_080817,8/8/2017 19:11,1,3,3,user,statement,50,1,33,none,,,yes
+1238,5_080817,8/8/2017 19:11,1,3,3,nico,,,,,,1,answering,I will put the answer is four hundred and twenty the answer.
+1239,5_080817,8/8/2017 19:11,1,3,3,user,statement,50,1,41,none,,,great job Nico
+1240,5_080817,8/8/2017 19:11,1,3,3,nico,,,,,,1,no answer,I'm still learning ratios. Maybe you can explain more?
+1241,5_080817,8/8/2017 19:11,1,4,3,nico,,,,,,1,no answer,"Ok so now that I know how to get to the beach and I'm waterproof, I need to figure out how far I can swim. There's a current and I need help figuring out how far I can swim before I end up on the shore. Lets say I start out at 26 feet into the ocean? Can you help me? This is A TRICKY ONE?"
+1242,6_110817,8/11/2017 18:26,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+1243,6_110817,8/11/2017 18:26,1,1,0,nico,,,,,,1,no answer,Hi! My name is Nico. What is your name?
+1244,6_110817,8/11/2017 18:26,1,1,0,user,statement,50,1,1,none,,,my name is James
+1245,6_110817,8/11/2017 18:26,1,1,0,nico,,,,,,1,no answer,Nice to meet you James. Are you ready to get started?
+1246,6_110817,8/11/2017 18:26,1,1,0,user,,50,0,1,problem start,,,problem start
+1247,6_110817,8/11/2017 18:26,1,1,0,nico,,,,,,1,no answer,Oh okay! Press the start teaching button and we can get started!
+1248,6_110817,8/11/2017 18:28,1,1,1,user,,50,0,1,null,,,Triggered Speech 1
+1249,6_110817,8/11/2017 18:28,1,1,1,nico,,,,,,1,no answer,Why aren't you talking to me? Are you thinking?
+1250,6_110817,8/11/2017 18:28,1,1,1,user,statement,50,1,1,none,,,yeah
+1251,6_110817,8/11/2017 18:28,1,1,1,nico,,,,,,1,no answer,Okay that makes sense.
+1252,6_110817,8/11/2017 18:28,1,1,1,user,statement,50,1,1,none,,,to figure out the volume
+1253,6_110817,8/11/2017 18:28,1,1,1,nico,,,,,,1,no answer,Okay that makes sense.
+1254,6_110817,8/11/2017 18:29,1,1,1,user,statement,50,1,1,none,,,then you need to find the ratio of how many
+1255,6_110817,8/11/2017 18:29,1,1,1,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+1256,6_110817,8/11/2017 18:29,1,1,1,user,statement,50,1,1,none,,,to figure out the amount of paint need
+1257,6_110817,8/11/2017 18:29,1,1,1,nico,,,,,,1,no answer,Ah ha. Okay.
+1258,6_110817,8/11/2017 18:30,1,1,1,user,statement,50,1,1,none,,,to figure out the amount of pain for your legs he need them
+1259,6_110817,8/11/2017 18:30,1,1,1,nico,,,,,,1,no answer,"Okay. Looking at how much paint I need for my feet, I can figure out how much paint I need for my legs? But how?"
+1260,6_110817,8/11/2017 18:30,1,1,1,user,statement,50,1,1,none,,,if it takes two
+1261,6_110817,8/11/2017 18:30,1,1,1,nico,,,,,,1,no answer,Do we multiply by TWO?
+1262,6_110817,8/11/2017 18:30,1,1,1,user,statement,50,1,1,none,,,yeah
+1263,6_110817,8/11/2017 18:30,1,1,1,nico,,,,,,1,no answer,Okay. I'm going to multiply the two by two to get four. Is four the answer?
+1264,6_110817,8/11/2017 18:30,1,1,1,user,statement,50,1,1,none,,,yes
+1265,6_110817,8/11/2017 18:30,1,1,1,nico,,,,,,1,answering,I will put the answer is four.
+1266,6_110817,8/11/2017 18:31,1,1,2,user,,50,0,33,step_1_2,,,
+1267,6_110817,8/11/2017 18:31,1,1,2,nico,,,,,,1,no answer,Can you give me a hint for STEP TWO?
+1268,6_110817,8/11/2017 18:31,1,1,2,user,statement,50,1,33,none,,,so if it takes 6 fluid ounces of paint to cover your torso that means that you have to multiply the 6 by 3 because for all the other ones for your pain if you multiply that by 3 it'll be what how many square inches it takes
+1269,6_110817,8/11/2017 18:31,1,1,2,nico,,,,,,1,no answer,"There is a six in this step two also. To do this step, do we look at how many times two goes into six?"
+1270,6_110817,8/11/2017 18:32,1,1,2,user,statement,50,1,33,none,,,yeah
+1271,6_110817,8/11/2017 18:32,1,1,2,nico,,,,,,1,no answer,This is a hard problem. What do we do next?
+1272,6_110817,8/11/2017 18:32,1,1,2,user,statement,50,1,33,none,,,so two goes into 6 three times
+1273,6_110817,8/11/2017 18:32,1,1,2,nico,,,,,,1,no answer,So two times three is six. So we can use that to figure out the answer? But how?
+1274,6_110817,8/11/2017 18:32,1,1,2,user,statement,50,1,33,none,,,yeah
+1275,6_110817,8/11/2017 18:32,1,1,2,nico,,,,,,1,no answer,Ah okay. So then I know that two goes into six three times. So I can multiply six times three?
+1276,6_110817,8/11/2017 18:32,1,1,2,user,statement,50,1,33,none,,,yes
+1277,6_110817,8/11/2017 18:32,1,1,2,nico,,,,,,1,no answer,Six times three is eighteen. So is the answer eighteen?
+1278,6_110817,8/11/2017 18:32,1,1,2,user,statement,50,1,33,none,,,yes
+1279,6_110817,8/11/2017 18:32,1,1,2,nico,,,,,,1,answering,My torso has a surface area of eighteen inches. So I will put the answer is eighteen.
+1280,6_110817,8/11/2017 18:33,1,2,2,user,,50,0,49,problem_1_2,,,
+1281,6_110817,8/11/2017 18:33,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+1282,6_110817,8/11/2017 18:33,1,2,1,user,statement,50,1,1,none,,,so if you have
+1283,6_110817,8/11/2017 18:33,1,2,1,nico,,,,,,1,no answer,Ah ha. Okay.
+1284,6_110817,8/11/2017 18:34,1,2,1,user,statement,50,1,1,none,,,if you have a service area on your hands for 6 inches and it takes to fluid oz that that's a ratio of
+1285,6_110817,8/11/2017 18:34,1,2,1,nico,,,,,,1,no answer,What do we do with the number six?
+1286,6_110817,8/11/2017 18:34,1,2,1,user,statement,50,1,1,none,,,divided by 2 and then answer the answer to x 3
+1287,6_110817,8/11/2017 18:34,1,2,1,nico,,,,,,1,no answer,What do we do with the number TWO?
+1288,6_110817,8/11/2017 18:34,1,2,1,user,statement,50,1,1,none,,,so if it takes
+1289,6_110817,8/11/2017 18:34,1,2,1,nico,,,,,,1,no answer,Oh okay. So that's what we do with the two. One is half of two. Is one the answer?
+1290,6_110817,8/11/2017 18:34,1,2,1,user,statement,50,1,1,none,,,yes
+1291,6_110817,8/11/2017 18:34,1,2,1,nico,,,,,,1,answering,I will put the answer is one.
+1292,6_110817,8/11/2017 18:35,1,2,2,user,,50,0,33,step_1_2,,,
+1293,6_110817,8/11/2017 18:35,1,2,2,nico,,,,,,1,no answer,Can you give me a hint for STEP TWO OF PROBLEM TWO?
+1294,6_110817,8/11/2017 18:35,1,2,2,user,statement,50,1,33,none,,,so you need to do the same thing you just did but in reverse
+1295,6_110817,8/11/2017 18:35,1,2,2,nico,,,,,,1,no answer,Okay that sounds good.
+1296,6_110817,8/11/2017 18:35,1,2,2,user,statement,50,1,33,none,,,so instead of dividing it by 3 you're doing it the other way around to find the surface area so you need to multiply by 3 instead
+1297,6_110817,8/11/2017 18:35,1,2,2,nico,,,,,,1,no answer,Do we multiply by three?
+1298,6_110817,8/11/2017 18:35,1,2,2,user,statement,50,1,33,none,,,yeah
+1299,6_110817,8/11/2017 18:35,1,2,2,nico,,,,,,1,no answer,Okay. We have three ounces of paint. So the surface area it can cover is three times three. That is nine. So the answer is nine?
+1300,6_110817,8/11/2017 18:36,1,2,2,user,statement,50,1,33,none,,,yes
+1301,6_110817,8/11/2017 18:36,1,2,2,nico,,,,,,1,answering,Okay great! I will put the answer is nine.
+1302,6_110817,8/11/2017 18:36,1,3,2,user,,50,0,49,problem_2_3,,,
+1303,6_110817,8/11/2017 18:36,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on MY WAY THERE?
+1304,6_110817,8/11/2017 18:36,1,3,1,user,statement,50,1,1,none,,,if you can drive 60 miles in one hour then you have to multiply 2.5 x 60 to find out how many miles do you will go before you stop
+1305,6_110817,8/11/2017 18:36,1,3,1,nico,,,,,,1,no answer,So I'm actually not sure what you mean.
+1306,6_110817,8/11/2017 18:37,1,3,1,user,statement,50,1,1,none,,,if you can drive
+1307,6_110817,8/11/2017 18:37,1,3,1,nico,,,,,,1,no answer,That's interesting. I'm not sure I understand though.
+1308,6_110817,8/11/2017 18:37,1,3,1,user,statement,50,1,1,none,,,you can go 60 miles in 1 hour
+1309,6_110817,8/11/2017 18:37,1,3,1,nico,,,,,,1,no answer,So I'm a bit like an older person with hard hearing. Can you say that again?
+1310,6_110817,8/11/2017 18:37,1,3,1,user,statement,50,1,1,none,,,if
+1311,6_110817,8/11/2017 18:37,1,3,1,nico,,,,,,1,no answer,I'm still learning ratios but you seem like a really cool tutor.
+1312,6_110817,8/11/2017 18:37,1,3,1,user,statement,50,1,1,none,,,fit ratio is 1 - 60 so if you have 2.5 you have to multiply 2.5 by 60 to find out how many miles it is
+1313,6_110817,8/11/2017 18:37,1,3,1,nico,,,,,,1,no answer,I'm still learning ratios but you seem like a really cool tutor.
+1314,6_110817,8/11/2017 18:38,1,3,1,user,statement,50,1,1,none,,,can you can go 60 miles in 1 hour
+1315,6_110817,8/11/2017 18:38,1,3,1,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+1316,6_110817,8/11/2017 18:38,1,3,1,user,statement,50,1,1,none,,,in one hour you can go 60 miles
+1317,6_110817,8/11/2017 18:38,1,3,1,nico,,,,,,1,no answer,So I'm actually not sure what you mean.
+1318,6_110817,8/11/2017 18:38,1,3,1,user,statement,50,1,1,none,,,how many miles could you go in 1 hour
+1319,6_110817,8/11/2017 18:38,1,3,1,nico,,,,,,1,no answer,Oh okay. We multiply! Do we multiply sixty by two point five?
+1320,6_110817,8/11/2017 18:39,1,3,1,user,statement,50,1,1,none,,,yes
+1321,6_110817,8/11/2017 18:39,1,3,1,nico,,,,,,1,no answer,Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?
+1322,6_110817,8/11/2017 18:39,1,3,1,user,statement,50,1,1,none,,,yes
+1323,6_110817,8/11/2017 18:39,1,3,1,nico,,,,,,1,answering,I will put the answer is one hundred and fifty.
+1324,6_110817,8/11/2017 18:39,1,3,2,user,,50,0,33,step_1_2,,,
+1325,6_110817,8/11/2017 18:39,1,3,2,nico,,,,,,1,no answer,Can you give me a hint on STEP TWO OF THIS THIRD PROBLEM?
+1326,6_110817,8/11/2017 18:39,1,3,2,user,statement,50,1,33,none,,,as you adjusted and you went 6
+1327,6_110817,8/11/2017 18:39,1,3,2,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+1328,6_110817,8/11/2017 18:40,1,3,2,user,statement,50,1,33,none,,,it takes you 1 hour to go 60 MI
+1329,6_110817,8/11/2017 18:40,1,3,2,nico,,,,,,1,no answer,Is the one important? What do we do with the one?
+1330,6_110817,8/11/2017 18:40,1,3,2,user,statement,50,1,33,none,,,nothing
+1331,6_110817,8/11/2017 18:40,1,3,2,nico,,,,,,1,no answer,This is a hard problem. What do we do next?
+1332,6_110817,8/11/2017 18:40,1,3,2,user,statement,50,1,33,none,,,it takes you two and a half hours to go 60 miles
+1333,6_110817,8/11/2017 18:40,1,3,2,nico,,,,,,1,no answer,One hundred and fifty is half of three hundred. And two point five is half of five. So is the answer five?
+1334,6_110817,8/11/2017 18:40,1,3,2,user,statement,50,1,33,none,,,yes
+1335,6_110817,8/11/2017 18:40,1,3,2,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+1336,6_110817,8/11/2017 18:41,1,3,2,user,statement,50,1,33,none,,,so two and a half is half of 5 and 150
+1337,6_110817,8/11/2017 18:41,1,3,2,nico,,,,,,1,no answer,One hundred and fifty is half of three hundred. And two point five is half of five. So is the answer five?
+1338,6_110817,8/11/2017 18:41,1,3,2,user,statement,50,1,33,none,,,yes
+1339,6_110817,8/11/2017 18:41,1,3,2,nico,,,,,,1,answering,Great! I will put the answer is five.
+1340,6_110817,8/11/2017 18:41,1,3,3,user,,50,0,49,step_2_3,,,
+1341,6_110817,8/11/2017 18:41,1,3,3,nico,,,,,,1,no answer,"So for STEP THREE OF THIS THIRD PROBLEM, I may be getting this but can you give me another hint?"
+1342,6_110817,8/11/2017 18:41,1,3,3,user,statement,50,1,49,none,,,you can go 60 miles in 1 hour
+1343,6_110817,8/11/2017 18:41,1,3,3,nico,,,,,,1,no answer,So I'm a bit like an older person with hard hearing. Can you say that again?
+1344,6_110817,8/11/2017 18:42,1,3,3,user,statement,50,1,49,none,,,how many miles can you go in 1 hour
+1345,6_110817,8/11/2017 18:42,1,3,3,nico,,,,,,1,no answer,Cool.
+1346,6_110817,8/11/2017 18:42,1,3,3,user,statement,50,1,49,none,,,how many miles can you go in 1 hour
+1347,6_110817,8/11/2017 18:42,1,3,3,nico,,,,,,1,no answer,Okay that sounds good.
+1348,6_110817,8/11/2017 18:42,1,3,3,user,statement,50,1,49,none,,,multiply 7 by the number of miles you can go in one hour
+1349,6_110817,8/11/2017 18:42,1,3,3,nico,,,,,,1,no answer,What do we do with the seven?
+1350,6_110817,8/11/2017 18:42,1,3,3,user,statement,50,1,49,none,,,multiply the 7 x 60
+1351,6_110817,8/11/2017 18:42,1,3,3,nico,,,,,,1,no answer,Oh okay. We MULTIPLY! Do we MULTIPLY sixty times seven?
+1352,6_110817,8/11/2017 18:43,1,3,3,user,statement,50,1,49,none,,,yes
+1353,6_110817,8/11/2017 18:43,1,3,3,nico,,,,,,1,no answer,So that's four hundred and twenty. Is four hundred and twenty the answer?
+1354,6_110817,8/11/2017 18:43,1,3,3,user,statement,50,1,49,none,,,yes
+1355,6_110817,8/11/2017 18:43,1,3,3,nico,,,,,,1,answering,I will put the answer is four hundred and twenty the answer.
+1356,7_150817,8/15/2017 18:10,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+1357,7_150817,8/15/2017 18:10,1,1,0,nico,,,,,,1,no answer,Hi! My name is Nico. What is your name?
+1358,7_150817,8/15/2017 18:11,1,1,0,user,statement,50,1,1,none,,,hello my name is Chris
+1359,7_150817,8/15/2017 18:11,1,1,0,nico,,,,,,1,no answer,Nice to meet you! Are you ready to get started?
+1360,7_150817,8/15/2017 18:11,1,1,0,user,,50,0,1,problem start,,,problem start
+1361,7_150817,8/15/2017 18:11,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+1362,7_150817,8/15/2017 18:12,1,1,1,user,statement,50,1,1,none,,,so you have 12 inches to cover on your legs
+1363,7_150817,8/15/2017 18:12,1,1,1,nico,,,,,,1,no answer,"Okay. Looking at how much paint I need for my feet, I can figure out how much paint I need for my legs? How do we do that?"
+1364,7_150817,8/15/2017 18:12,1,1,1,user,statement,50,1,1,none,,,so if your feet are 6 inches and your legs are 12 inches
+1365,7_150817,8/15/2017 18:12,1,1,1,nico,,,,,,1,no answer,"Okay. To figure out how much paint I need for my legs, I look at how much paint I need for my feet?"
+1366,7_150817,8/15/2017 18:12,1,1,1,user,statement,50,1,1,none,,,x 2
+1367,7_150817,8/15/2017 18:12,1,1,1,nico,,,,,,1,no answer,What do we do with the number TWO?
+1368,7_150817,8/15/2017 18:12,1,1,1,user,statement,50,1,1,none,,,the number of fluid ounces for your feet you multiply it by 2
+1369,7_150817,8/15/2017 18:12,1,1,1,nico,,,,,,1,no answer,"Okay. To figure out how much paint I need for my legs, I look at how much paint I need for my feet?"
+1370,7_150817,8/15/2017 18:13,1,1,1,user,statement,50,1,1,none,,,the find out how much paint you need for your legs and fluid ounces you look at your feet
+1371,7_150817,8/15/2017 18:13,1,1,1,nico,,,,,,1,no answer,"To figure out how much paint I need for my legs, do I divide?"
+1372,7_150817,8/15/2017 18:13,1,1,1,user,statement,50,1,1,none,,,no you multiply 2 x 2
+1373,7_150817,8/15/2017 18:13,1,1,1,nico,,,,,,1,no answer,Oh okay. We multiply! We multiply two times two?
+1374,7_150817,8/15/2017 18:13,1,1,1,user,statement,50,1,1,none,,,show the square area of your feet is 6 inches and the amount of paint you need to cover that is 2 fluid ounces so if your legs are 12 inches then you would need to do to fluid ounces for your feet and then double that so you would do 2 x 2 and to get for
+1375,7_150817,8/15/2017 18:13,1,1,1,nico,,,,,,1,no answer,"Okay. To figure out how much paint I need for my legs, I look at how much paint I need for my feet?"
+1376,7_150817,8/15/2017 18:14,1,1,1,user,statement,50,1,1,none,,,one fluid ounce equals 3 in 3 Square in
+1377,7_150817,8/15/2017 18:14,1,1,1,nico,,,,,,1,answering,Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.
+1378,7_150817,8/15/2017 18:14,1,1,2,user,,50,0,33,step_1_2,,,
+1379,7_150817,8/15/2017 18:14,1,1,2,nico,,,,,,1,no answer,I'm really not sure what to do on STEP TWO.
+1380,7_150817,8/15/2017 18:15,1,1,2,user,statement,50,1,33,none,,,so if one fluid ounce of paint equals 3 square inches and it takes 6 fluid ounces of paint to cover your whole torso then you would do 6 * 3
+1381,7_150817,8/15/2017 18:15,1,1,2,nico,,,,,,1,no answer,We can use the ratio of six to two here too? Do we look at how many times two goes into six?
+1382,7_150817,8/15/2017 18:15,1,1,2,user,statement,50,1,33,none,,,so if there is 3 square inches in one fluid ounce and it takes 6 fluid ounces to cover your torso then you would do 6 x 3 to get 18 square inches to cover your whole torso
+1383,7_150817,8/15/2017 18:15,1,1,2,nico,,,,,,1,no answer,We can use the ratio of six to two here too? Do we look at how many times two goes into six?
+1384,7_150817,8/15/2017 18:16,1,1,2,user,statement,50,1,33,none,,,yes
+1385,7_150817,8/15/2017 18:16,1,1,2,nico,,,,,,1,no answer,So we multiply six times three? So is the answer eighteen?
+1386,7_150817,8/15/2017 18:16,1,1,2,user,statement,50,1,33,none,,,yes
+1387,7_150817,8/15/2017 18:16,1,1,2,nico,,,,,,1,answering,Sweet! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.
+1388,7_150817,8/15/2017 18:16,1,1,2,user,statement,50,1,49,none,,,the job
+1389,7_150817,8/15/2017 18:16,1,1,2,nico,,,,,,1,no answer,Okay that makes sense.
+1390,7_150817,8/15/2017 18:16,1,2,2,user,,50,0,49,problem_1_2,,,
+1391,7_150817,8/15/2017 18:16,1,2,2,nico,,,,,,1,no answer,So I think it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at STEP ONE OF PROBLEM TWO and I'm not sure what to do.
+1392,7_150817,8/15/2017 18:17,1,2,1,user,statement,50,1,1,none,,,I'm looking at said one of
+1393,7_150817,8/15/2017 18:17,1,2,1,nico,,,,,,1,no answer,Did you say ONE is the answer?
+1394,7_150817,8/15/2017 18:17,1,2,1,user,statement,50,1,1,none,,,did you say one
+1395,7_150817,8/15/2017 18:17,1,2,1,nico,,,,,,1,no answer,Is ONE the answer?
+1396,7_150817,8/15/2017 18:17,1,2,1,user,statement,50,1,1,none,,,yes
+1397,7_150817,8/15/2017 18:17,1,2,1,nico,,,,,,1,answering,Cool! So I only need one ounce of paint for my arms. I will put the answer is one.
+1398,7_150817,8/15/2017 18:17,1,2,2,user,,50,0,33,step_1_2,,,
+1399,7_150817,8/15/2017 18:17,1,2,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO OF PROBLEM TWO.
+1400,7_150817,8/15/2017 18:17,1,2,2,user,statement,50,1,33,none,,,so if 1 fluid ounce equals 3 inches and it takes 3 fluid ounces to to get
+1401,7_150817,8/15/2017 18:17,1,2,2,nico,,,,,,1,no answer,What do we do with the number three?
+1402,7_150817,8/15/2017 18:18,1,2,2,user,statement,50,1,33,none,,,so if it takes one fluid ounce and one fluid ounce is 3 square inches and it takes 3 fluid ounces to cover your whole head then you do three times three to get nine to figure out the whole amount of square inches it takes to cover your head with waterproof paint
+1403,7_150817,8/15/2017 18:18,1,2,2,nico,,,,,,1,no answer,So three times more than three would be nine. So the answer is nine?e. Right?
+1404,7_150817,8/15/2017 18:18,1,2,2,user,statement,50,1,33,none,,,so if it takes one fluid ounce and
+1405,7_150817,8/15/2017 18:18,1,2,2,nico,,,,,,1,no answer,So three times more than three would be nine. So the answer is nine?e. Right?
+1406,7_150817,8/15/2017 18:18,1,2,2,user,statement,50,1,33,none,,,yes
+1407,7_150817,8/15/2017 18:18,1,2,2,nico,,,,,,1,answering,Okay great! So my head has a surface area of nine inches. I will put the answer is nine.
+1408,7_150817,8/15/2017 18:18,1,2,2,user,statement,50,1,49,none,,,good job
+1409,7_150817,8/15/2017 18:18,1,2,2,nico,,,,,,1,no answer,Thank you. You're a great tutor.
+1410,7_150817,8/15/2017 18:18,1,3,2,user,,50,0,49,problem_2_3,,,
+1411,7_150817,8/15/2017 18:18,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on MY WAY THERE?
+1412,7_150817,8/15/2017 18:18,1,3,1,user,statement,50,1,1,none,,,yes
+1413,7_150817,8/15/2017 18:18,1,3,1,nico,,,,,,1,no answer,Cool.
+1414,7_150817,8/15/2017 18:19,1,3,1,user,statement,50,1,1,none,,,sofa takes one hour to get 60 miles and you are you traveled for 2.5 hours then you have to do 2.5 * 60 figure out your answer for how many miles you need to go for Step 1
+1415,7_150817,8/15/2017 18:19,1,3,1,nico,,,,,,1,no answer,Ok I know I can drive sixty miles in one hour. Do we multiply sixty by two point five hours? Does that make sense?
+1416,7_150817,8/15/2017 18:19,1,3,1,user,statement,50,1,1,none,,,yes
+1417,7_150817,8/15/2017 18:19,1,3,1,nico,,,,,,1,no answer,Awesome. So we multiply sixty by two point five. Then the answer is one hundred and fifty?
+1418,7_150817,8/15/2017 18:19,1,3,1,user,statement,50,1,1,none,,,yes
+1419,7_150817,8/15/2017 18:19,1,3,1,nico,,,,,,1,answering,"In two and a half hours, I can drive one hundred and fifty miles. I will put the answer is one hundred and fifty."
+1420,7_150817,8/15/2017 18:19,1,3,2,user,,50,0,33,step_1_2,,,
+1421,7_150817,8/15/2017 18:19,1,3,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO OF THIS THIRD PROBLEM.
+1422,7_150817,8/15/2017 18:20,1,3,2,user,statement,50,1,33,none,,,sofa takes 1 hour to travel 60 miles and you traveled for 5 hours then you have to do 5 x 62 find the amount of miles you traveled in 5 hours
+1423,7_150817,8/15/2017 18:20,1,3,2,nico,,,,,,1,no answer,Cool.
+1424,7_150817,8/15/2017 18:20,1,3,2,user,statement,50,1,33,none,,,sulfur step to you travel 300 miles and it takes one hour to get 60 miles so if you do 300 / 6 you will get your answer in hours for your time
+1425,7_150817,8/15/2017 18:20,1,3,2,nico,,,,,,1,no answer,Well three hundred is five times greater than sixty. So does that mean I've been driving for five times longer than one hour?
+1426,7_150817,8/15/2017 18:20,1,3,2,user,statement,50,1,33,none,,,yes
+1427,7_150817,8/15/2017 18:20,1,3,2,nico,,,,,,1,no answer,Is five the answer?
+1428,7_150817,8/15/2017 18:21,1,3,2,user,statement,50,1,33,none,,,yes good job
+1429,7_150817,8/15/2017 18:21,1,3,2,nico,,,,,,1,answering,Great! I will put the answer is five.
+1430,7_150817,8/15/2017 18:21,1,3,3,user,,50,0,49,step_2_3,,,
+1431,7_150817,8/15/2017 18:21,1,3,3,nico,,,,,,1,no answer,"So for STEP THREE OF THIS THIRD PROBLEM, I may be getting this but can you give me another hint?"
+1432,7_150817,8/15/2017 18:21,1,3,3,user,statement,50,1,49,none,,,so in 1 hour you can drive 60 miles so you have to go you drove for 7 hours so if you do 7 * 60 what would you get as your answer for miles
+1433,7_150817,8/15/2017 18:21,1,3,3,nico,,,,,,1,no answer,So on the table it will have been 7 hours of traveling. How do we use the seven to get the number of miles?
+1434,7_150817,8/15/2017 18:21,1,3,3,user,statement,50,1,49,none,,,so one hour equals 60 miles so if you drove 7 hours and you have to do 7 * 60 to figure out your answer for distance in miles
+1435,7_150817,8/15/2017 18:21,1,3,3,nico,,,,,,1,no answer,What do we do with the seven?
+1436,7_150817,8/15/2017 18:22,1,3,3,user,statement,50,1,49,none,,,you multiply the 7 x 60 to figure out how many miles you travel
+1437,7_150817,8/15/2017 18:22,1,3,3,nico,,,,,,1,no answer,Oh okay. We MULTIPLY! Do we MULTIPLY sixty times seven?
+1438,7_150817,8/15/2017 18:22,1,3,3,user,statement,50,1,49,none,,,yes you do
+1439,7_150817,8/15/2017 18:22,1,3,3,nico,,,,,,1,no answer,So that's four hundred and twenty. Is four hundred and twenty the answer?
+1440,7_150817,8/15/2017 18:22,1,3,3,user,statement,50,1,49,none,,,yes good job
+1441,7_150817,8/15/2017 18:22,1,3,3,nico,,,,,,1,answering,I get it! After seven hours I will have driven four hundred and twenty miles. I will put the answer is four hundred and twenty the answer.
+1442,13_160917,9/16/2017 10:37,1,1,0,user,,50,0,1,hello nico start,,,HELLO FIRST TIME
+1443,13_160917,9/16/2017 10:37,1,1,0,nico,,,,,,1,no answer,Hi! My name is Nico. What is your name?
+1444,13_160917,9/16/2017 10:38,1,1,0,user,statement,50,1,1,none,,,hello Nico
+1445,13_160917,9/16/2017 10:38,1,1,0,nico,,,,,,1,no answer,Nice to meet you! Are you ready to get started?
+1446,13_160917,9/16/2017 10:38,1,1,0,user,statement,50,1,1,none,,,you ready
+1447,13_160917,9/16/2017 10:38,1,1,0,nico,,,,,,1,no answer,Lets do it! It will be fun. Press the start teaching button and we can get started.
+1448,13_160917,9/16/2017 10:38,1,1,0,user,,50,0,1,problem start,,,problem start
+1449,13_160917,9/16/2017 10:38,1,1,0,nico,,,,,,1,no answer,"I really want to go swimming with my friends, but I need to put some waterproof paint on first. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, STEP ONE?"
+1450,13_160917,9/16/2017 10:39,1,1,1,user,statement,50,1,1,none,,,you just double the amount of paint that you would have on Step Zero
+1451,13_160917,9/16/2017 10:39,1,1,1,nico,,,,,,1,no answer,So I'm a bit like an older person with hard hearing. Can you say that again?
+1452,13_160917,9/16/2017 10:39,1,1,1,user,statement,50,1,1,none,,,you would have to multiply to be able to double the amount you have at Step Zero
+1453,13_160917,9/16/2017 10:39,1,1,1,nico,,,,,,1,no answer,Ok so we multiply. I'm sorry but what are we multiplying? Two times two?
+1454,13_160917,9/16/2017 10:39,1,1,1,user,statement,50,1,1,none,,,yep
+1455,13_160917,9/16/2017 10:39,1,1,1,nico,,,,,,1,no answer,Great! Is four the answer?
+1456,13_160917,9/16/2017 10:40,1,1,1,user,statement,50,1,1,none,,,yeah good job
+1457,13_160917,9/16/2017 10:40,1,1,1,nico,,,,,,1,answering,Cool! So we need four ounces of paint to cover my feet. I will put the answer is four.
+1458,13_160917,9/16/2017 10:40,1,1,2,user,,50,0,33,step_1_2,,,
+1459,13_160917,9/16/2017 10:40,1,1,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO.
+1460,13_160917,9/16/2017 10:40,1,1,2,user,statement,50,1,33,none,,,silver step to step zero and step one you went up by 6 inches so you have to do that again for Step 2 so what would the answer be
+1461,13_160917,9/16/2017 10:40,1,1,2,nico,,,,,,1,no answer,We can use the ratio of six to two here too? Do we look at how many times two goes into six?
+1462,13_160917,9/16/2017 10:41,1,1,2,user,statement,50,1,33,none,,,no
+1463,13_160917,9/16/2017 10:41,1,1,2,nico,,,,,,1,no answer,Oh okay. So two goes into six three times. How do we figure out how big my torso is?
+1464,13_160917,9/16/2017 10:41,1,1,2,user,statement,50,1,33,none,,,two times 61212 * 4 is
+1465,13_160917,9/16/2017 10:41,1,1,2,nico,,,,,,1,no answer,So two times three is six. So we can use that to figure out the answer? How do we do that?
+1466,13_160917,9/16/2017 10:41,1,1,2,user,statement,50,1,33,none,,,by multiplying
+1467,13_160917,9/16/2017 10:41,1,1,2,nico,,,,,,1,no answer,Ah okay. So then I know that two goes into six three times. So I can multiply six times three?
+1468,13_160917,9/16/2017 10:41,1,1,2,user,statement,50,1,33,none,,,no
+1469,13_160917,9/16/2017 10:41,1,1,2,nico,,,,,,1,no answer,Six times three is eighteen. So is the answer eighteen?
+1470,13_160917,9/16/2017 10:41,1,1,2,user,statement,50,1,33,none,,,yes
+1471,13_160917,9/16/2017 10:41,1,1,2,nico,,,,,,1,answering,Sweet! So that means my torso has a surface area of eighteen inches. I will put the answer is eighteen.
+1472,13_160917,9/16/2017 10:42,1,2,2,user,,50,0,49,problem_1_2,,,
+1473,13_160917,9/16/2017 10:42,1,2,2,nico,,,,,,1,no answer,Okay that makes sense.
+1474,13_160917,9/16/2017 10:42,1,2,1,user,statement,50,1,1,none,,,you ready for the next problem
+1475,13_160917,9/16/2017 10:42,1,2,1,nico,,,,,,1,no answer,Great! Lets see what I need to figure out next!
+1476,13_160917,9/16/2017 10:42,1,2,1,user,statement,50,1,1,none,,,let's start with step one
+1477,13_160917,9/16/2017 10:42,1,2,1,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+1478,13_160917,9/16/2017 10:43,1,2,1,user,statement,50,1,1,none,,,we know that too that your head is has a surface area of 6 which takes 2 oz of paint we know that your arms are 3 inches so what would be the next logical step from 2 to something to 3
+1479,13_160917,9/16/2017 10:43,1,2,1,nico,,,,,,1,no answer,We can use the ratio of six to two here too? Do we look at how many times two goes into six?
+1480,13_160917,9/16/2017 10:43,1,2,1,user,statement,50,1,1,none,,,what is 6 / 2
+1481,13_160917,9/16/2017 10:43,1,2,1,nico,,,,,,1,no answer,We can use the ratio of six to two here too? Do we look at how many times two goes into six?
+1482,13_160917,9/16/2017 10:44,1,2,1,user,statement,50,1,1,none,,,no
+1483,13_160917,9/16/2017 10:44,1,2,1,nico,,,,,,1,no answer,Oh okay. So two goes into six three times. How do we figure out how big my torso is?
+1484,13_160917,9/16/2017 10:44,1,2,1,user,statement,50,1,1,none,,,6 goes into 2 three times which is the surface area of your arms so how many times does 3 go into 2
+1485,13_160917,9/16/2017 10:44,1,2,1,nico,,,,,,1,no answer,"loading ""1409611535153"" ""nico"" into memory got bot does not exist"
+1486,13_160917,9/16/2017 10:46,1,2,1,user,statement,50,1,1,none,,,do you know how to divide
+1487,13_160917,9/16/2017 10:46,1,2,1,nico,,,,,,1,no answer,Okay that sounds good.
+1488,13_160917,9/16/2017 10:46,1,2,1,user,statement,50,1,1,none,,,we know that two times three equal is equal to 6 so what is 6 / 6
+1489,13_160917,9/16/2017 10:46,1,2,1,nico,,,,,,1,no answer,So there is a ratio between six and two. But what do we do with the number TWO?
+1490,13_160917,9/16/2017 10:47,1,2,1,user,statement,50,1,1,none,,,no we know that two times three he is equal is equal to 6 so 6/6 would be equal to the answer what is 6 / 6
+1491,13_160917,9/16/2017 10:47,1,2,1,nico,,,,,,1,no answer,So there is a ratio between six and two. But what do we do with the number TWO?
+1492,13_160917,9/16/2017 10:47,1,2,1,user,statement,50,1,1,none,,,what is 6 / 6
+1493,13_160917,9/16/2017 10:47,1,2,1,nico,,,,,,1,answering,Cool! So I only need one ounce of paint for my arms. I will put the answer is one.
+1494,13_160917,9/16/2017 10:47,1,2,1,user,statement,50,1,33,none,,,good
+1495,13_160917,9/16/2017 10:47,1,2,1,nico,,,,,,1,answering,Cool! So I only need one ounce of paint for my arms. I will put the answer is one.
+1496,13_160917,9/16/2017 10:47,1,2,2,user,,50,0,33,step_1_2,,,
+1497,13_160917,9/16/2017 10:47,1,2,2,nico,,,,,,1,no answer,Can you give me a hint on STEP TWO OF PROBLEM TWO?
+1498,13_160917,9/16/2017 10:47,1,2,2,user,statement,50,1,33,none,,,so we
+1499,13_160917,9/16/2017 10:47,1,2,2,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+1500,13_160917,9/16/2017 10:48,1,2,2,user,statement,50,1,33,none,,,we know that 6 * 3 is equal to 18 so what is 18 / 2
+1501,13_160917,9/16/2017 10:48,1,2,2,nico,,,,,,1,no answer,What do we do with the number three?
+1502,13_160917,9/16/2017 10:49,1,2,2,user,statement,50,1,33,none,,,what is 3 * 6
+1503,13_160917,9/16/2017 10:49,1,2,2,nico,,,,,,1,no answer,So if we look at the ratio of one to three. Three is three times more. Right?
+1504,13_160917,9/16/2017 10:49,1,2,2,user,statement,50,1,33,none,,,what is 3 * 6
+1505,13_160917,9/16/2017 10:49,1,2,2,nico,,,,,,1,no answer,So three times more than three would be nine. So the answer is nine?
+1506,13_160917,9/16/2017 10:49,1,2,2,user,statement,50,1,33,none,,,no
+1507,13_160917,9/16/2017 10:49,1,2,2,nico,,,,,,1,answering,Okay great! So my head has a surface area of nine inches. I will put the answer is nine.
+1508,13_160917,9/16/2017 10:49,1,2,2,user,statement,50,1,49,none,,,the answer is not 9
+1509,13_160917,9/16/2017 10:49,1,2,2,nico,,,,,,1,no answer,Sweet! So the answer is nine?
+1510,13_160917,9/16/2017 10:49,1,2,2,user,statement,50,1,49,none,,,the answer is not 9
+1511,13_160917,9/16/2017 10:49,1,2,2,nico,,,,,,1,no answer,Sweet! So the answer is nine?
+1512,13_160917,9/16/2017 10:50,1,2,2,user,statement,50,1,49,none,,,no
+1513,13_160917,9/16/2017 10:50,1,2,2,nico,,,,,,1,answering,Okay great! So my head has a surface area of nine inches. I will put the answer is nine.
+1514,13_160917,9/16/2017 10:50,1,2,2,user,statement,50,1,49,none,,,no it does not have a surface area of 9 inches
+1515,13_160917,9/16/2017 10:50,1,2,2,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+1516,13_160917,9/16/2017 10:50,1,2,2,user,statement,50,1,49,none,,,we need a different number than 9
+1517,13_160917,9/16/2017 10:50,1,2,2,nico,,,,,,1,no answer,Okay.
+1518,13_160917,9/16/2017 10:50,1,3,2,user,,50,0,49,problem_2_3,,,
+1519,13_160917,9/16/2017 10:50,1,3,2,nico,,,,,,1,no answer,Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on MY WAY THERE?
+1520,13_160917,9/16/2017 10:51,1,3,1,user,statement,50,1,1,none,,,so Step One is 1 times 10 equals 10
+1521,13_160917,9/16/2017 10:51,1,3,1,nico,,,,,,1,no answer,Ok I know I can ride my bike ten miles in one hour. But how do I use the one to figure out how far I can go in two point five hours? What should I do with the one?
+1522,13_160917,9/16/2017 10:51,1,3,1,user,statement,50,1,1,none,,,in 2.5 hours you x 10 giving you your distance
+1523,13_160917,9/16/2017 10:51,1,3,1,nico,,,,,,1,no answer,I know that one hour times two point five is two point five hours. Then what? Something with the ten?
+1524,13_160917,9/16/2017 10:51,1,3,1,user,statement,50,1,1,none,,,you multiply 2.5 by 10 to get your distance
+1525,13_160917,9/16/2017 10:51,1,3,1,nico,,,,,,1,no answer,That's interesting. I'm not sure I understand though.
+1526,13_160917,9/16/2017 10:51,1,3,1,user,statement,50,1,1,none,,,2.5 * 10
+1527,13_160917,9/16/2017 10:51,1,3,1,nico,,,,,,1,no answer,That's interesting. I'm not sure I understand though.
+1528,13_160917,9/16/2017 10:52,1,3,1,user,statement,50,1,1,none,,,what is 2.5 * 10
+1529,13_160917,9/16/2017 10:52,1,3,1,nico,,,,,,1,no answer,Awesome. So we multiply ten by two point five? Then the answer is twenty five?
+1530,13_160917,9/16/2017 10:52,1,3,1,user,statement,50,1,1,none,,,correct
+1531,13_160917,9/16/2017 10:52,1,3,1,nico,,,,,,1,answering,"So in two and a half hours, I can bike twenty five miles. Wow thats a lot! I will put the answer is twenty five."
+1532,13_160917,9/16/2017 10:52,1,3,2,user,,50,0,33,step_1_2,,,
+1533,13_160917,9/16/2017 10:52,1,3,2,nico,,,,,,1,no answer,I'm not sure what to do here on STEP TWO OF THIS THIRD PROBLEM.
+1534,13_160917,9/16/2017 10:52,1,3,2,user,statement,50,1,33,none,,,who do the opposite of what you did on Step 1 you take 35 and you / 10
+1535,13_160917,9/16/2017 10:52,1,3,2,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+1536,13_160917,9/16/2017 10:53,1,3,2,user,statement,50,1,33,none,,,we know that your hours * 10 equals your distance so what is your what is the opposite of that that would be dividing your distance by the same thing we demoted applied to get the hours
+1537,13_160917,9/16/2017 10:53,1,3,2,nico,,,,,,1,no answer,Thank you for explaining!
+1538,13_160917,9/16/2017 10:53,1,3,2,user,statement,50,1,33,none,,,so we have to divide 30 by 10
+1539,13_160917,9/16/2017 10:53,1,3,2,nico,,,,,,1,no answer,This is a hard problem. What do we do next?
+1540,13_160917,9/16/2017 10:53,1,3,2,user,statement,50,1,33,none,,,divide 30 by 10
+1541,13_160917,9/16/2017 10:53,1,3,2,nico,,,,,,1,no answer,Okay.
+1542,13_160917,9/16/2017 10:54,1,3,2,user,statement,50,1,33,none,,,what is 30 divided by 10
+1543,13_160917,9/16/2017 10:54,1,3,2,nico,,,,,,1,no answer,Is three the answer?
+1544,13_160917,9/16/2017 10:54,1,3,2,user,statement,50,1,33,none,,,yes
+1545,13_160917,9/16/2017 10:54,1,3,2,nico,,,,,,1,no answer,Okay.
+1546,13_160917,9/16/2017 10:54,1,3,3,user,,50,0,33,step_2_3,,,
+1547,13_160917,9/16/2017 10:54,1,3,3,nico,,,,,,1,no answer,Yay! STEP THREE OF THIS THIRD PROBLEM. How do I solve this one?
+1548,13_160917,9/16/2017 10:54,1,3,3,user,statement,50,1,33,none,,,do the same thing as Step 1 multiply the hours by 10 to get your distance
+1549,13_160917,9/16/2017 10:54,1,3,3,nico,,,,,,1,no answer,I'm still learning ratios but you seem like a really cool tutor.
+1550,13_160917,9/16/2017 10:55,1,3,3,user,statement,50,1,33,none,,,thank you
+1551,13_160917,9/16/2017 10:55,1,3,3,nico,,,,,,1,no answer,You are welcome!
+1552,13_160917,9/16/2017 10:55,1,3,3,user,statement,50,1,33,none,,,so what is 6 * 10
+1553,13_160917,9/16/2017 10:55,1,3,3,nico,,,,,,1,no answer,So on the table it will have been six hours of traveling. How do we use the six to get the number of miles?
+1554,13_160917,9/16/2017 10:55,1,3,3,user,statement,50,1,33,none,,,by multiplying it by 10
+1555,13_160917,9/16/2017 10:55,1,3,3,nico,,,,,,1,no answer,Oh okay. Can you explain? Do we multiply? Why would we do that?
+1556,13_160917,9/16/2017 10:55,1,3,3,user,statement,50,1,33,none,,,because in one hour you got a distance of 10 miles so if we make if we make it 6 hours cuz you're going to get 10 times as much as 1 hour or six times as much as 1 hour
+1557,13_160917,9/16/2017 10:55,1,3,3,nico,,,,,,1,no answer,So on the table it will have been six hours of traveling. How do we use the six to get the number of miles?
+1558,13_160917,9/16/2017 10:56,1,3,3,user,statement,50,1,33,none,,,by multiplying it by 10
+1559,13_160917,9/16/2017 10:56,1,3,3,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.
+1560,13_160917,9/16/2017 10:56,1,3,3,user,statement,50,1,33,none,,,do you know the answer
+1561,13_160917,9/16/2017 10:56,1,3,3,nico,,,,,,1,no answer,Is sixty the answer?
+1562,13_160917,9/16/2017 10:56,1,3,3,user,statement,50,1,33,none,,,yes
+1563,13_160917,9/16/2017 10:56,1,3,3,nico,,,,,,1,answering,I get it! After six hours I will have biken sixty miles. I will put the answer is sixty the answer.
+1564,13_160917,9/16/2017 10:56,1,3,2,user,,50,0,41,step_3_2,,,
+1565,13_160917,9/16/2017 10:56,1,3,2,nico,,,,,,1,no answer,Didn't we already do step two for problem THREE?
+1566,13_160917,9/16/2017 10:56,1,3,2,user,statement,50,1,41,none,,,no you didn't put the answer in
+1567,13_160917,9/16/2017 10:56,1,3,2,nico,,,,,,1,no answer,The answer is five hours isn't it?
+1568,13_160917,9/16/2017 10:56,1,3,2,user,statement,50,1,41,none,,,no
+1569,13_160917,9/16/2017 10:56,1,3,2,nico,,,,,,1,no answer,I'm bored. We already did this step.
+1570,13_160917,9/16/2017 10:56,1,3,2,user,statement,50,1,41,none,,,what is 30 divided by 10
+1571,13_160917,9/16/2017 10:56,1,3,2,nico,,,,,,1,no answer,"I don't really understand why we're back on step two cause we figured this out. After thirty miles, I will have been traveling for five hours."
+1572,13_160917,9/16/2017 10:57,1,3,2,user,statement,50,1,41,none,,,after 30 miles is 3 times as much as 1 hour so what how many hours would you have traveled if it's three times as much as 1 hour
+1573,13_160917,9/16/2017 10:57,1,3,2,nico,,,,,,1,no answer,So I've biken three times as long at thirty miles. Do we multiply one times three? Why?
+1574,13_160917,9/16/2017 10:57,1,3,2,user,statement,50,1,41,none,,,yes
+1575,13_160917,9/16/2017 10:57,1,3,2,nico,,,,,,1,answering,Great! So I will have been biking for three hours after thirty miles. I will put the answer is three.
+1576,13_160917,9/16/2017 10:57,1,3,2,user,statement,50,1,57,none,,,thank you
+1577,13_160917,9/16/2017 10:57,1,3,2,nico,,,,,,1,no answer,You are welcome!
+1578,13_160917,9/16/2017 10:57,1,3,3,user,,50,0,57,step_2_3,,,
+1579,13_160917,9/16/2017 10:57,1,3,3,nico,,,,,,1,no answer,Wow we're on STEP THREE OF THIS THIRD PROBLEM. How do we do this one?
+1580,13_160917,9/16/2017 10:57,1,4,3,user,,50,0,57,problem_3_4,,,
+1581,13_160917,9/16/2017 10:57,1,4,3,nico,,,,,,1,no answer,Sixty miles is a really long way! But it's worth it to go swimming. I think I should stop and get snacks. I really like M and M's. Can you help me figure out how many bags of M and M's I should buy for my friends?
+1582,13_160917,9/16/2017 10:58,1,4,1,user,statement,50,1,1,none,,,so if you have one bag of M&Ms has a total of 110 M&Ms two bags of Eminem's would be double the amount of one bag so what would two bags be
+1583,13_160917,9/16/2017 10:58,1,4,1,nico,,,,,,1,no answer,So we need to know how many M and M's I will have with two bags of candies. How do we figure this out?
+1584,13_160917,9/16/2017 10:58,1,4,1,user,statement,50,1,1,none,,,by multiplying the total of one bag by two
+1585,13_160917,9/16/2017 10:58,1,4,1,nico,,,,,,1,no answer,I'm still learning ratios but you seem like a really cool tutor.
+1586,13_160917,9/16/2017 10:59,1,4,1,user,statement,50,1,1,none,,,you've already given me this compliment twice now
+1587,13_160917,9/16/2017 10:59,1,4,1,nico,,,,,,1,no answer,So two times one hundred and ten is two hundred and twenty. What do we do next?
+1588,13_160917,9/16/2017 10:59,1,4,1,user,statement,50,1,1,none,,,that's your answer
+1589,13_160917,9/16/2017 10:59,1,4,1,nico,,,,,,1,no answer,So we cross multiplied and now we divide by one? So is the answer two hundred and twenty candies?
+1590,13_160917,9/16/2017 10:59,1,4,1,user,statement,50,1,1,none,,,yes it would be 220
+1591,13_160917,9/16/2017 10:59,1,4,1,nico,,,,,,1,answering,Awesome! So we will have two hundred and twenty candies with two bags. I will put the answer is two hundred and twenty.
+1592,13_160917,9/16/2017 10:59,1,4,2,user,,50,0,33,step_1_2,,,
+1593,13_160917,9/16/2017 10:59,1,4,2,nico,,,,,,1,no answer,I'm really not sure how to figure this out for five bags of candy.
+1594,13_160917,9/16/2017 11:00,1,4,2,user,statement,50,1,33,none,,,you do the same thing that you do on number one at a March larger scale so you do 5 times the total Eminem's of of number one
+1595,13_160917,9/16/2017 11:00,1,4,2,nico,,,,,,1,no answer,Okay so that is what we do.What do we do next?
+1596,13_160917,9/16/2017 11:00,1,4,2,user,statement,50,1,33,none,,,so you do five times the total number of Eminem's on Step Zero
+1597,13_160917,9/16/2017 11:00,1,4,2,nico,,,,,,1,no answer,Cool.
+1598,13_160917,9/16/2017 11:00,1,4,2,user,statement,50,1,33,none,,,so what would be so
+1599,13_160917,9/16/2017 11:00,1,4,2,nico,,,,,,1,no answer,Okay.
+1600,13_160917,9/16/2017 11:00,1,4,2,user,statement,50,1,33,none,,,what would 110 x 5 be
+1601,13_160917,9/16/2017 11:00,1,4,2,nico,,,,,,1,no answer,Okay that sounds good.
+1602,13_160917,9/16/2017 11:01,1,4,2,user,statement,50,1,33,none,,,what would a 110 x 5 be
+1603,13_160917,9/16/2017 11:01,1,4,2,nico,,,,,,1,no answer,Okay that makes sense.
+1604,13_160917,9/16/2017 11:01,1,4,2,user,statement,50,1,33,none,,,so what is the answer
+1605,13_160917,9/16/2017 11:01,1,4,2,nico,,,,,,1,no answer,Hmmm. Is the answer five hundred and fifty? Can you explain more about why that is the answer?
+1606,13_160917,9/16/2017 11:01,1,4,2,user,statement,50,1,33,none,,,yeah you multiply the total from one bag of Eminem's and by the number of bags you have so if it is 5 bags then you would have 5 times as much as one bag
+1607,13_160917,9/16/2017 11:01,1,4,2,nico,,,,,,1,answering,Oh okay! That makes sense. I will put the answer is five hundred and fifty.
+1608,13_160917,9/16/2017 11:02,1,4,2,user,statement,50,1,49,none,,,cool ready for the next step
+1609,13_160917,9/16/2017 11:02,1,4,2,nico,,,,,,1,no answer,So I'm a bit like an older person with hard hearing. Can you say that again?
+1610,13_160917,9/16/2017 11:02,1,4,3,user,,50,0,49,step_2_3,,,
+1611,13_160917,9/16/2017 11:02,1,4,3,nico,,,,,,1,no answer,"So now if we have seven bags of candy, I think I'm getting this but can you give me another hint?"
+1612,13_160917,9/16/2017 11:02,1,4,3,user,statement,50,1,49,none,,,if we have 7 bags of candy we have to do the same thing which is X the total number of M&Ms in one bag
+1613,13_160917,9/16/2017 11:02,1,4,3,nico,,,,,,1,no answer,So we need to know how many M and M's we will have with seven bags of candies. What do we do?
+1614,13_160917,9/16/2017 11:02,1,4,3,user,statement,50,1,49,none,,,you will multiply 7 times the amount of Eminem's in one bag
+1615,13_160917,9/16/2017 11:02,1,4,3,nico,,,,,,1,no answer,Okay! I think I'm getting this! Let me guess. We multiply one hundred and ten times seven?
+1616,13_160917,9/16/2017 11:03,1,4,3,user,statement,50,1,49,none,,,yes
+1617,13_160917,9/16/2017 11:03,1,4,3,nico,,,,,,1,no answer,So five times one hundred and ten is five hundred and fifty. And then do we divide by one?
+1618,13_160917,9/16/2017 11:03,1,4,3,user,statement,50,1,49,none,,,no
+1619,13_160917,9/16/2017 11:03,1,4,3,nico,,,,,,1,no answer,I thought we would divide by one! And then the answer is seventy hundred and seventy candies?
+1620,13_160917,9/16/2017 11:03,1,4,3,user,statement,50,1,49,none,,,for seven bags of candy yes
+1621,13_160917,9/16/2017 11:03,1,4,3,nico,,,,,,1,answering,I have a lot of friends so I bet seven bags is what I should get. For seven bags we have seven hundred and seventy candies! I will put the answer is seven hundred and seventy.
+1622,13_160917,9/16/2017 11:03,1,5,3,user,,50,0,57,problem_4_5,,,
+1623,13_160917,9/16/2017 11:03,1,5,3,nico,,,,,,1,no answer,Thank you for helping me figure out how many total M and M's there are. But I really love blue M and M's. Do you think we could figure out how many blue M and M's we would have for different numbers of bags?
+1624,13_160917,9/16/2017 11:03,1,5,1,user,statement,50,1,1,none,,,sure why not
+1625,13_160917,9/16/2017 11:03,1,5,1,nico,,,,,,1,no answer,So I'm actually not sure what you mean.
+1626,13_160917,9/16/2017 11:04,1,5,1,user,statement,50,1,1,none,,,so if we have 210 Eminem's it would double the amount of blue M&Ms in 110
+1627,13_160917,9/16/2017 11:04,1,5,1,nico,,,,,,1,no answer,I'm sorry. I am trying. What do we do?
+1628,13_160917,9/16/2017 11:04,1,5,1,user,statement,50,1,1,none,,,so we would multiply we would multiply by two of them
+1629,13_160917,9/16/2017 11:04,1,5,1,nico,,,,,,1,no answer,I really like multiplying. Do we multiply two hundred and twenty times eleven?
+1630,13_160917,9/16/2017 11:04,1,5,1,user,statement,50,1,1,none,,,no you multiply 11 * 2 to get your next answer because it doubles the amount of blue M&Ms in 110 to 120
+1631,13_160917,9/16/2017 11:04,1,5,1,nico,,,,,,1,no answer,Oh okay. I think then. Do we multiply two hundred and twenty times one?
+1632,13_160917,9/16/2017 11:04,1,5,1,user,statement,50,1,1,none,,,no we multiply 11 x 2
+1633,13_160917,9/16/2017 11:04,1,5,1,nico,,,,,,1,no answer,"So two hundred and twenty times one is just itself, two hundred and twenty. So then what do we do next?"
+1634,13_160917,9/16/2017 11:05,1,5,1,user,statement,50,1,1,none,,,we multiply 11 and to
+1635,13_160917,9/16/2017 11:05,1,5,1,nico,,,,,,1,no answer,So we cross multiplied and now we divide by ten? Two hundred and twenty two divided by ten is twenty two?
+1636,13_160917,9/16/2017 11:05,1,5,1,user,statement,50,1,1,none,,,yes
+1637,13_160917,9/16/2017 11:05,1,5,1,nico,,,,,,1,answering,"Wonderful! So out of two hundred and twenty M and M's, twenty two are blue. I will put the answer is twenty two."
+1638,13_160917,9/16/2017 11:05,1,5,1,user,statement,50,1,33,none,,,good
+1639,13_160917,9/16/2017 11:05,1,5,1,nico,,,,,,1,no answer,Okay.
+1640,13_160917,9/16/2017 11:05,1,5,1,user,statement,50,1,33,none,,,ready for Step 2
+1641,13_160917,9/16/2017 11:05,1,5,1,nico,,,,,,1,no answer,So I'm a bit like an older person with hard hearing. Can you say that again?
+1642,13_160917,9/16/2017 11:05,1,5,2,user,,50,0,33,step_1_2,,,
+1643,13_160917,9/16/2017 11:05,1,5,2,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+1644,13_160917,9/16/2017 11:05,1,5,2,user,,50,0,33,step_1_2,,,
+1645,13_160917,9/16/2017 11:05,1,5,2,nico,,,,,,1,no answer,I'm actually not sure what you said. Try saying it again but differently?
+1646,13_160917,9/16/2017 11:06,1,5,2,user,statement,50,1,33,none,,,so we have to do number 2 which is 550 / 10 what would the answer be
+1647,13_160917,9/16/2017 11:06,1,5,2,nico,,,,,,1,no answer,Hmmm. Is the answer twenty two? How did we get that again?
+1648,13_160917,9/16/2017 11:06,1,5,2,user,statement,50,1,33,none,,,cuz we didn't it's not supposed to be 22
+1649,13_160917,9/16/2017 11:06,1,5,2,nico,,,,,,1,answering,Oh okay! I get it. I will put the answer is twenty two.
+1650,13_160917,9/16/2017 11:06,1,5,3,user,,50,0,49,step_2_3,,,
+1651,13_160917,9/16/2017 11:06,1,5,3,nico,,,,,,1,no answer,Ah ha. Okay.
+1652,13_160917,9/16/2017 11:07,1,5,2,user,,50,0,49,null,,,Triggered Speech 1
+1653,13_160917,9/16/2017 11:07,1,5,2,nico,,,,,,1,no answer,Why aren't you talking to me? Are you thinking?
+1654,13_160917,9/16/2017 11:07,1,5,2,user,statement,50,1,49,none,,,what is 770 divided by 10
+1655,13_160917,9/16/2017 11:07,1,5,2,nico,,,,,,1,no answer,Okay.
+1656,13_160917,9/16/2017 11:07,1,5,3,user,,50,0,49,step_2_3,,,
+1657,13_160917,9/16/2017 11:07,1,5,3,nico,,,,,,1,no answer,I may be a robot but I do try hard. Can you explain more?
+1658,13_160917,9/16/2017 11:07,1,5,3,user,statement,50,1,49,none,,,what is 770 divided by 10
+1659,13_160917,9/16/2017 11:07,1,5,3,nico,,,,,,1,no answer,So I'm actually not sure what you mean.
+1660,13_160917,9/16/2017 11:08,1,5,3,user,,50,0,49,null,,,Triggered Speech 2
+1661,13_160917,9/16/2017 11:08,1,5,3,nico,,,,,,1,no answer,Why aren't you talking to me? I'm getting tired.
+1662,13_160917,9/16/2017 11:08,1,5,3,user,statement,50,1,49,none,,,what is 770 divided by 10
+1663,13_160917,9/16/2017 11:08,1,5,3,nico,,,,,,1,no answer,I'm still learning ratios but you seem like a really cool tutor.
+1664,13_160917,9/16/2017 11:08,1,5,3,user,statement,50,1,49,none,,,what is 11 * 110
+1665,13_160917,9/16/2017 11:08,1,5,3,nico,,,,,,1,no answer,Figuring out the solutions to these problems is challenging for me but you're really helpful.

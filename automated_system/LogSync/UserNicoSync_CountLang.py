@@ -28,12 +28,15 @@ def incrementLanguageCounts(transcript):
         inclusive[key] += numOccur
 
 def writeCounts(userID):
-    line = "\n" + userID
+    line1 = "\n ID"
+    line2 = "\n" + userID
     for key, val in inclusive.iteritems():
-        line = line + "," + str(inclusive[key])
+        line1 = line1 + "," + key
+        line2 = line2 + "," + str(inclusive[key])
         inclusive[key] = 0
-    with open("C:\\Nikki\\ASU_Research\\NRI_Project\\Data\\Pilots\\LanguageCounts.csv", "a") as myfile:
-        myfile.write(line)
+    with open("C:\\Nikki\\ASU_Research\\NRI_Project\\Data\\Pilots\\LanguageCounts_14.csv", "a") as myfile:
+        myfile.write(line1)
+        myfile.write(line2)
 
 def writeUserData(alldata, user, userIndex, alldataIndex, lastUser):
     alldata.loc[alldataIndex]["DateTime"] = user.iloc[userIndex]["DateTime"]
@@ -144,7 +147,7 @@ def syncLogs(userFile, nicoFile, errorFile, audioFile):
             print "ERROR: User and Nico DateTime fields cannot be compared"
 
     writeCounts(lastUser)
-    alldata.to_csv("C:\\Nikki\\ASU_Research\\NRI_Project\\System\\NRI_Git_Hub\\automated_system\\LogSync\\data\\9_210817.csv",columns = ["UserID","DateTime","SessionID","ProblemID","StepID","Owner","DialogueAct","DialogueActConfidence","Spoke","StepAnswer","ClickStep","NicoMovement","Answered","Transcript"])
+    alldata.to_csv("C:\\Nikki\\ASU_Research\\NRI_Project\\System\\NRI_Git_Hub\\automated_system\\LogSync\\data\\ID14.csv",columns = ["UserID","DateTime","SessionID","ProblemID","StepID","Owner","DialogueAct","DialogueActConfidence","Spoke","StepAnswer","ClickStep","NicoMovement","Answered","Transcript"])
 
 def main():
     '''

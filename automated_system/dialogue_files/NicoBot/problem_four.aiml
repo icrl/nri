@@ -78,9 +78,20 @@
 <topic name = "how many bags">
 
 <category>
+<pattern>^ MULTIPLYING ^</pattern>
+<template>Okay! So we multiply. Are we multiplying two times one hundred and ten?</template>
+</category>
+
+<category>
 <pattern>^ MULTIPLY ^</pattern>
 <template>Okay! So we multiply. Are we multiplying two times one hundred and ten?</template>
 </category>
+
+<category>
+<pattern>^ TIMES ^</pattern>
+<template>Okay! So we multiply. Are we multiplying two times one hundred and ten?</template>
+</category>
+
 
 <category>
 <pattern>^ CROSS ^ MULTIPLY ^</pattern>
@@ -363,6 +374,17 @@
 </topic>
 
 <topic name = "two bags of candy">
+
+<category>
+<pattern>^ MULTIPLYING ^</pattern>
+<template>Okay! So we multiply. Are we multiplying two times one hundred and ten?</template>
+</category>
+
+<category>
+<pattern>^ SAME THING ^</pattern>
+<template>Okay! So we multiply. Are we multiplying two times one hundred and ten?</template>
+</category>
+
 
 <category>
 <pattern>^ MULTIPLY ^</pattern>
@@ -650,6 +672,18 @@
 </topic>
 
 <topic name = "five bags of candy">
+
+
+<category>
+<pattern>^ what ^ oneonezero x 5 ^</pattern>
+<template>One hundred and ten times five bags of candy is five hundred and fifty.</template>
+</category>
+
+
+<category>
+<pattern>^ FIVE TIMES ^</pattern>
+<template>Okay! So like the last step, we multiply. I'm thinking we multiply one hundred and ten times five?</template>
+</category>
 
 <category>
 <pattern>^ MULTIPLY ^</pattern>

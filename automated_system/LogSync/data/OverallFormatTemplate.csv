@@ -1,9 +1,9 @@
-StateKey,UserID,Date,Time,SessionID,ProblemID,StepID,Owner,DialogueAct,DialogueActConfidence,Spoke,StepAnswerKey,ClickStep,NicoMovement,AnsweredStep,transcript
-1,nlubold,6/9/2017,25:45.3,1,1,0,Nico,statement,NULL,1,1,NULL,1,0,How do I get started?
-2,nlubold,6/9/2017,25:50.2,1,1,1,Participant,NULL,NULL,NULL,1,step1_step2,NULL,NULL,""""""
-3,nlubold,6/9/2017,25:58.2,1,1,2,Participant,NULL,NULL,NULL,1,step2_step3,NULL,NULL,""""""
-4,nlubold,6/9/2017,26:05.3,1,1,3,Nico,question,NULL,1,1,NULL,1,0,Are you there?
-5,nlubold,6/9/2017,26:08.4,1,1,3,Participant,statement,50,1,1,NULL,NULL,NULL,Yeah sorry Nico. So to get started??
-6,nlubold,6/9/2017,26:10.0,1,1,3,Participant,NULL,NULL,NULL,1,step3_step2,NULL,NULL,""""""
-7,nlubold,6/9/2017,26:12.0,1,1,2,Participant,NULL,NULL,NULL,1,step2_step1,NULL,NULL,""""""
-8,nlubold,6/9/2017,26:16.0,1,1,1,Participant,statement,50,1,1,NULL,NULL,NULL,Ok so first you need to multiply the six by three
+StateKey,UserID,Date,Time,SessionID,ProblemID,StepID,Owner,DialogueAct,DialogueActConfidence,Spoke,StepAnswerKey,ClickStep,NicoMovement,Entraining,PitchNico,PitchUser,AnsweredStep,transcript,Error
+1,nlubold,6/9/2017,12:25 AM,1,1,0,Nico,statement,NULL,1,1,NULL,1,1,250,,0,How do I get started?,
+2,nlubold,6/9/2017,12:25 AM,1,1,1,Participant,NULL,NULL,NULL,1,step1_step2,NULL,1,,,NULL,"""""",
+3,nlubold,6/9/2017,12:25 AM,1,1,2,Participant,NULL,NULL,NULL,1,step2_step3,NULL,1,,,NULL,"""""",
+4,nlubold,6/9/2017,12:26 AM,1,1,3,Nico,question,NULL,1,1,NULL,1,1,250,,0,Are you there?,
+5,nlubold,6/9/2017,12:26 AM,1,1,3,Participant,statement,50,1,1,NULL,NULL,1,,225,NULL,Yeah sorry Nico. So to get started??,
+6,nlubold,6/9/2017,12:26 AM,1,1,3,Participant,NULL,NULL,NULL,1,step3_step2,NULL,1,,,NULL,"""""",
+7,nlubold,6/9/2017,12:26 AM,1,1,2,Participant,NULL,NULL,NULL,1,step2_step1,NULL,1,,,NULL,"""""",
+8,nlubold,6/9/2017,12:26 AM,1,1,1,Participant,statement,50,1,1,NULL,NULL,1,,,NULL,Ok so first you need to multiply the six by three,

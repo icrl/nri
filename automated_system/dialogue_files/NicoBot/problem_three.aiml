@@ -150,6 +150,35 @@
 
 
 <category>
+<pattern>^ MULTIPLY two point 5 BY ^</pattern>
+<template>Oh okay. So we multiply two point five by what exactly? </template>
+</category>
+
+<category>
+<pattern>^ TEN ^ </pattern>
+<that>So we multiply two point five by what exactly</that>
+<template>So two point five times ten is twenty five. </template>
+</category>
+
+<category>
+<pattern>^ ONE ^ </pattern>
+<that>So we multiply two point five by what exactly</that>
+<template>So two point five times one is two point five. </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So two point five times ten is twenty five</that>
+<template>Awesome! I will put the answer is twenty five.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So two point five times one is two point five.</that>
+<template>So two point five times ten is twenty five.</template>
+</category>
+
+<category>
 <pattern>^ ONE ^</pattern>
 <template><random>
 <li>Ok so I can ride my bike ten miles in one hour. But I'm not sure how I use that knowledge with the two point five. What should I do with the one? </li>
@@ -595,13 +624,13 @@
 
 <category>
 <pattern>^ three times ^</pattern>
-<template>So I've biken three times as long at thirty miles. Do we multiply one times three? Why?</template>
+<template>So I've biked three times as long at thirty miles. Do we multiply one times three? Why?</template>
 </category>
 
 
 <category>
 <pattern>^ TWO POINT FIVE ^</pattern>
-<template>So after two and a half hours, I will have biken twenty five miles. Do we care about that? Why?
+<template>So after two and a half hours, I will have biked twenty five miles. Do we care about that? Why?
 </template>
 </category>
 
@@ -851,13 +880,13 @@
 <category>
 <pattern>^ YES ^ </pattern>
 <that>Is sixty the answer</that>
-<template>I get it! After six hours I will have biken sixty miles. I will put the answer is sixty the answer.</template>
+<template>I get it! After six hours I will have biken sixty miles. I will put the answer is sixty.</template>
 </category>
 
 <category>
 <pattern>_</pattern>
 <that>Is sixty the answer</that>
-<template>I get it! After six hours I will have biken sixty miles. I will put the answer is sixty the answer.</template>
+<template>I get it! After six hours I will have biken sixty miles. I will put the answer is sixty.</template>
 </category>
 
 <category>

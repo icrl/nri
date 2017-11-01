@@ -54,6 +54,17 @@
 <topic name = "STEP ONE OF PROBLEM TWO">
 
 <category>
+<pattern>what is six slash two</pattern>
+<template>Six divided by two is three.</template>
+</category>
+
+<category>
+<pattern>what is six slash six</pattern>
+<template>Six divided by six is one.</template>
+</category>
+
+
+<category>
 <pattern>^ HALF OF ^</pattern>
 <template>Are you saying three is half of six? So then whatever is half of two is the answer?</template>
 </category>
@@ -469,10 +480,54 @@
 <template>Six to two is one ratio. And three to something is another similar ratio. How do we figure out the rest of the ratio?</template>
 </category>
 
+<category>
+<pattern>^ YES ^</pattern>
+<that>Right</that>
+<template>So then three divided by three?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Right</that>
+<template>So then three divided by three?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So then three divided by three</that>
+<template>Okay I think that makes sense. Is the answer one? Can you explain a little more about why the answer is one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So then three divided by three</that>
+<template>Okay I think that makes sense. Is the answer one? Can you explain a little more about why the answer is one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Can you explain a little more about why the answer is one</that>
+<template>Okay I think I get it. I will put the answer is one.</template>
+</category>
 
 </topic>
 
 <topic name = "STEP TWO OF PROBLEM TWO">
+
+<category>
+<pattern>^ What is eighteen slash two ^ </pattern>
+<template>Eighteen divided by two is nine.</template>
+</category>
+
+<category>
+<pattern>^ What is six times three ^ </pattern>
+<template>Six times three is eighteen.</template>
+</category>
+
+<category>
+<pattern>^ What is three times six ^</pattern>
+<template>Six times three is eighteen.</template>
+</category>
 
 <category>
 <pattern>^ RATIO ^ SIX ^ TWO ^</pattern>
@@ -492,7 +547,7 @@
 
 <category>
 <pattern>PROBLEM START 3</pattern>
-<template>Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the beach! Can you help me figure out where I should be stopping on <set name="topic">MY WAY THERE</set>?</template>
+<template>Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the pool! Can you help me figure out where I should be stopping on <set name="topic">MY WAY THERE</set>?</template>
 </category>
 
 <category>
@@ -690,6 +745,11 @@
 
 
 <topic name = "BACK TO STEP ONE PROBLEM TWO">
+
+<category>
+<pattern>what is six slash two</pattern>
+<template>Six divided by two is three.</template>
+</category>
 
 <category>
 <pattern>^ SIX ^</pattern>

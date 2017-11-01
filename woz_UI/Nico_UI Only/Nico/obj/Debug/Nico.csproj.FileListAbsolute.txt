@@ -102,3 +102,4 @@ C:\Nikki\ASU_Research\NRI_Project\System\NRI_Git_Hub\woz_UI\Nico_UI Only\Nico\bi
 C:\Nikki\ASU_Research\NRI_Project\System\NRI_Git_Hub\woz_UI\Nico_UI Only\Nico\bin\System.Web.WebPages.Razor.xml
 C:\Nikki\ASU_Research\NRI_Project\System\NRI_Git_Hub\woz_UI\Nico_UI Only\Nico\obj\Debug\Nico.dll
 C:\Nikki\ASU_Research\NRI_Project\System\NRI_Git_Hub\woz_UI\Nico_UI Only\Nico\obj\Debug\Nico.pdb
+C:\Nikki\ASU_Research\NRI_Project\System\NRI_Git_Hub\woz_UI\Nico_UI Only\Nico\obj\Debug\Nico.csprojResolveAssemblyReference.cache

@@ -150,7 +150,9 @@
             $("#listening").css("display", "block");
             recognizing = true;
             __log("down - start recognizing");
+
             startRecording();
+
             //return false;
         }
 
@@ -162,6 +164,8 @@
             __log("on up");
             //stopRecording(problemStepAnalyzer);
             stopRecording();
+
+
         }
 
         // check if microphone is connected and if it can be used as a media stream
@@ -259,18 +263,15 @@
 
             recognition.stop();
 
-            /*if (resultevent) {
+            if (resultevent) {
                 createDownloadLink(sendBlob);
             }
-            */
-            writeLog("called stop recording");
             
+            writeLog("called stop recording");
+
             recorder.clear();
         }
-
-
-
-
+        
         // function to save audio file to server
         function sendBlob(blob) {
             if (object.sendToServer) {
@@ -324,6 +325,7 @@
                 });
 
             }
+
         }
 
         // still a part of saving response to server
@@ -369,6 +371,11 @@
                 }
             });
         }
+
+
+     
+
+
 
         // This function updates the table display
         function updateTable(endSession) {
