@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<topic name = "STEP TWO OF PROBLEM TWO">
+
+<category>
+<pattern>PROBLEM START 3</pattern>
+<template>Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the pool! Can you help me figure out where I should be stopping on <set name="topic">MY WAY THERE</set>?</template>
+</category>
+
+<category>
+<pattern>^ What is eighteen slash two ^ </pattern>
+<template>That's a really great question! Eighteen divided by two is nine. Why do we divide?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Why do we divide</that>
+<template>Oh right! I think I get it. We divide because of the way the ratio is set up. So my head has a surface area of nine inches!  I will <set name="topic">put the answer is nine</set>.</template>
+</category>
+
+
+<category>
+<pattern>^ What is six times three ^ </pattern>
+<template>I know this! Six times three is eighteen. Why are we multiplying six times three?</template>
+</category>
+
+<category>
+<pattern>^ What is three times six ^</pattern>
+<template>I know this! Six times three is eighteen. Why are we multiplying six times three?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Why are we multiplying six times three</that>
+<template>Super awesome! We cross multiply and that gives us six times three. And then what do we do?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>And then what do we do</that>
+<template>Cool! If we divide eighteen by two, that gives us nine! So I think my head has a surface area of nine inches. What do you think?</template>
+</category>
+
+
+<category>
+<pattern>^ RATIO ^ SIX ^ TWO ^</pattern>
+<template>Sounds good! Six to two is the same ratio we used for step one. But the ratio of one to three seems an easier place to start?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>But the ratio of one to three seems an easier place to start</that>
+<template>We can look at the one and know that three is three times greater! So we need three times as much paint. Otherwise we need to cross-multiply. What do you think?</template>
+</category>
+
+<category>
+<pattern>^ RATIO ^ ONE ^ THREE ^</pattern>
+<template>I like how you think! So we can look at the ratio of one to three and three to some unknown number?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So we can look at the ratio of one to three and three to some unknown number</that>
+<template>Aha! You are so good at this. Three is three more than one. What do we do to find the unknown number?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So we can look at the ratio of one to three and three to some unknown number</that>
+<template>Aha! You are so good at this. Three is three more than one. What do we do to find the unknown number?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>What do we do to find the unknown number</that>
+<template>Awesome! I was thinking we could potentially multiply three times three. That would be nine. What do you think?</template>
+</category>
+
+<category>
+<pattern>^ SAME THING ^</pattern>
+<template>That's a good way to look at things! I do the same thing I did before?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>I do the same thing I did before</that>
+<template>I'm not sure I understood what I did though. Can you help me?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>I do the same thing I did before</that>
+<template>I'm not sure I understood what I did though. Can you help me?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Can you help me</that>
+<template>Oh that's right! You are so helpful! We should cross-multiply. So six times three is eighteen. Why do we do that?</template>
+</category>
+
+<category>
+<pattern>^ THREE ^</pattern>
+<template>Okay sweet! So we know we have three ounces more paint. What do we do with that though?</template>
+</category>
+
+<category>
+<pattern>^ multiply ^ </pattern>
+<that>What do we do with that though</that>
+<template>Oh right! That makes sense! We multiply! What should we multiply?</template>
+</category>
+
+<category>
+<pattern>^ THREE ^</pattern>
+<that>What should we multiply</that>
+<template>Sweet! If we multiply three times six, that's eighteen. So what do we do?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What should we multiply</that>
+<template>Sweet! If we multiply three times six, that's eighteen. So what do we do?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>So what do we do</that>
+<template>Good thought! I think we can divide! What do you think?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>What do we do with that though</that>
+<template>I'm thinking. So if we look at the ratio of one to three. Three is three times more. Right?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Right</that>
+<template>That's what I thought too! So three times more than three would be nine. What do you think?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Right</that>
+<template>I think you're on to something. I was thinking that three times more than three would be nine. What do you think?</template>
+</category>
+
+
+<category>
+<pattern>^ DIVIDE</pattern>
+<template>Great! So we divide. Can you explain that more?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Can you explain that more</that>
+<template>Explanations are hard! I'm thinking we can divide eighteen by two? What do you think?</template>
+</category>
+
+
+<category>
+<pattern>^ MULTIPLY ^ THREE ^</pattern>
+<template>Okay sweet! So we know we have three ounces more paint and we can multiply. What do we do with that though?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^ THREE ^ THREE </pattern>
+<template>I think you're on to something. I was thinking that three times more than three would be nine. What do you think?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do you think </that>
+<template>I like hearing what you think <bot name="username" />! Okay I will <set name="topic">put the answer is nine</set>.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS THREE TIMES THREE</pattern>
+<template>Great question! Three times three is nine. Why do we do that?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>Why do we do that</that>
+<template>Aha okay! I should have known that. So we know my head has a surface area of nine inches! I will <set name="topic">put the answer is nine</set>.</template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^ NINE ^</pattern>
+<template>Sweet! The surface area of my head is nine square inches. I think I get it. But can you tell me. How did we figure this out?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>How did we figure this out</that>
+<template>Great! I think I get it. I will <set name="topic">put the answer is nine</set>.</template>
+</category>
+
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>I really don't know! Maybe we start by multiplying six times three?</template>
+</category>
+
+<category>
+<pattern>I AM NOT SURE</pattern>
+<template>Me either! Maybe we look at the six and the two?</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>Me either! Maybe we should look at the six and the two?</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds good. So what do we do?</template>
+</category>
+
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>That's funny. Did you say figure it out? I'm not sure how! Help me!</template>
+</category>
+
+<category>
+<pattern>^ I WILL ^</pattern>
+<that>Help me</that>
+<template>Thank you, you're the best. So what do we do?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Help me</that>
+<template>You're the best. So what do we do?</template>
+</category>
+
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you ask do I know what to do next</that>
+<template>I'm really not sure actually! I know I should. I'm sorry. Help me!</template>
+</category>
+
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template>I'm really not sure actually! I know I should. I'm sorry. Help me!</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>So from what you've told me, I think my head has a surface area of nine inches. But can you clarify. How did we figure this out?</template>
+</category>
+
+
+
+</topic>
+
+</aiml>

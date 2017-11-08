@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<topic name = "how far I can swim">
+
+<category>
+<pattern>^ look at ^</pattern>
+<template>Okay so now I need to look at how far I go in twelve point five seconds. How do I do that?</template>
+</category>
+
+<category>
+<pattern>^ Step Zero ^</pattern>
+<template>Are you saying I should look at step zero again? How do I do that?</template>
+</category>
+
+<category>
+<pattern>^ last time ^</pattern>
+<template>Are you saying I should look at what I did last time? How do I do that?</template>
+</category>
+
+<category>
+<pattern>^ using ^ time ^</pattern>
+<template>So can I use time. How do I do that?</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>So I can look at the ratio of the time it takes me to swim? How do I do that?</template>
+</category>
+
+<category>
+<pattern>^ onezero feet ^</pattern>
+<that>How do I do that</that>
+<template>I can use that original ratio of two point five to ten again. Do I multiply again?</template>
+</category>
+
+<category>
+<pattern>^ ten ^</pattern>
+<that>How do I do that</that>
+<template>I can use that original ratio of two point five to ten again. Do I multiply again?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How do I do that</that>
+<template>Okay. So then what do I do?</template>
+</category>
+
+<category>
+<pattern>^ last time ^</pattern>
+<template>I can use that original ratio of two point five to ten again. Do I multiply again?</template>
+</category>
+
+<category>
+<pattern>^ same ^</pattern>
+<template>I can use that original ratio of two point five to ten again. Do I multiply again?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Do I multiply again</that>
+<template>So I can multiply four times twelve point five, like last time. That's fifty.</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<template>How do you know I multiply?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How do you know I multiply</that> 
+<template>I think I get it. So I can multiply four times twelve point five, like last time. That's fifty.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>THAT IS fivezero</that> 
+<template>I will put the answer is fifty.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>THAT IS fifty</that> 
+<template>I will put the answer is fifty.</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS FOUR TIMES TWELVE POINT FIVE</pattern>
+<template>Four times twelve point five? That's fifty.</template>
+</category>
+
+<category>
+<pattern>WHAT IS FOUR ^</pattern>
+<template>Four times twelve point five? That's fifty.</template>
+</category>
+
+
+<category>
+<pattern>^ over onezero ^</pattern>
+<template>I swam ten feet in two point five seconds. I set the ratio up last time. Do I multiply again?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Can you explain why I multiply by four again</that>
+<template>I think I get it. I think the answer is twenty nine point two?</template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>I will put the answer is fifty.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>Okay so to figure out the distance I have swum I need to divide? What do I divide?</template>
+</category>
+
+<category>
+<pattern>^ one ^</pattern>
+<that>What do I divide</that>
+<template>Okay so are you saying I can divide by one? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do I divide</that>
+<template>I think I get it. Is the answer fifty?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Is the answer fifty</that>
+<template>I will put the answer is fifty.</template>
+</category>
+
+<category>
+<pattern>^ step zero ^</pattern>
+<that>What do I divide</that>
+<template>So divide two point five by ten? That is one quarter or one over four. </template>
+</category>
+
+<category>
+<pattern>^ onezero ^</pattern>
+<that>What do I divide</that>
+<template>So divide two point five by ten? That is one quarter or one over four. </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do I divide</that>
+<template>So divide two point five by ten? That is one quarter or one over four. </template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that>That is one quarter or one over four</that>
+<template>What do I multiply?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>That is one quarter or one over four</that>
+<template>What do I multiply?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do I multiply</that>
+<template>So do I multiply twelve point five times four?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So do I multiply twelve point five times four</that>
+<template>That's fifty.</template>
+</category>
+
+</topic>
+
+
+</aiml>

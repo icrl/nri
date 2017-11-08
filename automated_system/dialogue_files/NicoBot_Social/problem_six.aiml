@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>PROBLEM START SIX</pattern>
+<template>I think I'm a pretty fast swimmer! But Nancy seems faster than me. She has bet me all my blue M and M's that she will win a race half way across the pool. Now I have this table of how far I was and how far Nancy was at differnet times. Help me figure out what <set name="topic">happened during the race</set>?</template>
+</category>
+
+<category>
+<pattern>next step 6 2</pattern>
+<template>Okay so now, on this step, we know <set name="topic">I was thirty feet</set> and the ratio of the distance between us was 65 percent. But how do I figure out how far Nancy was? </template>
+</category>
+
+<category>
+<pattern>next step 6 3</pattern>
+<template>It looks like Nancy is <set name="topic">closing the gap</set>! She is at twenty eight point seven feet. How do I figure out how far I am?</template>
+</category>
+
+<category>
+<pattern>next step 6 4</pattern>
+<template>We're at the end! The race is over! So I'm thinking we just figure out <set name="topic">the ratio of</set> 40 over 40? </template>
+</category>
+
+<category>
+<pattern>prior step 6 1</pattern>
+<template>Back to the beginning of the race. <set name="topic">happened during the race</set></template>
+</category>
+
+<category>
+<pattern>prior step 6 2</pattern>
+<template>Okay so back to when<set name="topic">I was thirty feet</set> into the race</template>
+</category>
+
+<category>
+<pattern>prior step 6 3</pattern>
+<template>Back to the third part of the race. It looks like Nancy was <set name="topic">closing the gap</set>.</template>
+</category>
+
+<category>
+<pattern>prior step 6 1 a</pattern>
+<template>So I thought we figured out the ratio between me and Nancy here at the beginning. Wasn't <set name="topic">it forty</set>?</template>
+</category>
+
+<category>
+<pattern>prior step 6 2 a</pattern>
+<template>Okay cool; Nancy was nineteen point five feet when we were <set name="topic">seven seconds</set>.</template>
+</category>
+
+<category>
+<pattern>prior step 6 3 a</pattern>
+<template>I thought we knew this one. I had gone thirty five feet <set name="topic">in twelve seconds</set>?</template>
+</category>
+
+<category>
+<pattern>next step 6 2 a</pattern>
+<template>So moving on, we answered this one right? The answer is nineteen point five feet in <set name="topic">seven seconds</set>?</template>
+</category>
+
+<category>
+<pattern>next step 6 3 a</pattern>
+<template>Kind of thought we had asnwered this one? I had gone thirty five feet <set name="topic">in twelve seconds</set>?</template>
+</category>
+
+<category>
+<pattern>next step 6 4 a</pattern>
+<template>Yay! This is the last step!  And didn't we decide it's over since <set name="topic">we tied</set>?</template>
+</category>
+
+
+<category>
+<pattern>6 1</pattern>
+<template><set name="topic">STEP ONE PROBLEM SIX</set></template>
+</category>
+
+<category>
+<pattern>6 2</pattern>
+<template><set name="topic">STEP TWO PROBLEM SIX</set></template>
+</category>
+
+<category>
+<pattern>6 3</pattern>
+<template><set name="topic">STEP THREE PROBLEM SIX</set></template>
+</category>
+
+<topic name = "happened during the race">
+
+<category>
+<pattern>^ look at ^</pattern>
+<template>I'm going to look at the distance between Nancy and I to figure out the ratio between us as a percentage. What do you think about that?</template>
+</category>
+
+<category>
+<pattern>^ Step Zero ^</pattern>
+<template>If I look at step zero, five over ten is fifty percent. Maybe we can use that to figure out the ratio between Nancy and I in step two? Is that what you mean?</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>Okay! So we can use the two distances of how far Nancy and I to figure out the ratio of the distance between us? How do we do that?</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<that>What do you think about that</that>
+<template>Okay! So ten over twenty-five. And then we can simplify that to two over five. </template>
+</category>
+
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<that>What do you think about that</that>
+<template>Okay! So ten over twenty-five. And then we can simplify that to two over five. </template>
+</category>
+
+<category>
+<pattern>^ COMMON FACTORS ^</pattern>
+<that>What do you think about that</that>
+<template>Okay! So ten over twenty-five. And then we can simplify that to two over five. </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do you think about that</that>
+<template>Okay! So ten over twenty-five. And then we can simplify that to two over five. </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>And then we can simplify that to two over five</that>
+<template>Two over five is point four!</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that>Two over five is point four!</that>
+<template>Ahhh okay! We multiply by 100 to get the percentage of forty percent! So. Two over five is forty percent.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Two over five is forty percent</that>
+<template>Sounds like I pulled ahead at that point? I'll go ahead and put the answer is forty percent.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Is that what you mean</that>
+<template>Okay! So ten over twenty-five. And then we can simplify that to two over five.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How do we do that</that>
+<template>I'm thinking that we can put ten over twenty-five. And then we can simplify that to two over five. </template>
+</category>
+
+<category>
+<pattern>^ two divided by five ^</pattern>
+<template>Two over five is point four.</template>
+</category>
+
+<category>
+<pattern>^ two ^ five ^</pattern>
+<template>Two over five is point four!</template>
+</category>
+
+<category>
+<pattern>^ point forty ^ times onezerouncesero</pattern>
+<template>We can multiply by one hundred to convert it to a percentage.</template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>I think that the answer is forty percent. So it sounds like I might have pulled ahead. But what do you think?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>But what do you think</that>
+<template>Okay! I will put the answer is forty percent.</template>
+</category>
+
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>Oh okay. So we divide. How do we do that?</template>
+</category>
+
+</topic>
+
+<topic name = "I was thirty feet">
+
+<category>
+<pattern>^ look at ^</pattern>
+<template>So for this one, its a little trickier. We need to know how far Nancy was in order to figure out what was happening. What do we do? </template>
+</category>
+
+<category>
+<pattern>^ Step Zero ^</pattern>
+<template>So I don't think we can use step zero as much? Or how do you mean?</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>Ah. So this time we use the ratio of the percentage of the distance between Nancy and I to calculate Nancy's distance? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do we do</that>
+<template>Ah. So this time we use the ratio of the percentage of the distance between Nancy and I to calculate Nancy's distance? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So this time we use the ratio of the percentage of the distance between Nancy and I to calculate Nancy's distance</that>
+<template>So percentages can be represented as being over one hundred? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So percentages can be represented over one hundred</that>
+<template>So sixty five over one hundred equals point sixty five. And we can use that in a ratio with distance?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>And we can use that in a ratio with distance</that>
+<template>Ah okay. I'm going to multiply point six five times thirty. How does that sound?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>I am going to multiply point six five times thirty</that>
+<template>Ah okay. I'm going to multiply point six five times thirty. How does that sound?</template>
+</category>
+
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<template>Ah okay. I'm going to multiply point six five times thirty. How does that sound?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How does that sound</that>
+<template>Great! So the answer is nineteen point five, right?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So the answer is nineteen point five right</that>
+<template>I'm going to put the answer is nineteen point five.</template>
+</category>
+
+<category>
+<pattern>^ Point sixfive times thirty ^</pattern>
+<template>Point six five times thirty is nineteen point five. Are you saying that's the answer? How is that the answer?</template>
+</category>
+
+<category>
+<pattern>^ times thirty ^</pattern>
+<template>Point six five times thirty is nineteen point five. Are you saying that's the answer? How is that the answer?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>How is that the answer</that>
+<template>Aha! Okay I think I get it. I'm going to put the answer is nineteen point five.</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>Point six five times thirty is nineteen point five. I think that's the answer? How is that the answer?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How is that the answer</that>
+<template>Aha! Okay I think I get it. I'm going to put the answer is nineteen point five.</template>
+</category>
+
+
+</topic>
+
+<topic name = "closing the gap">
+
+<category>
+<pattern>^ look at ^</pattern>
+<template>So similar to the last step? We can use the percentage again? </template>
+</category>
+
+<category>
+<pattern>^ last step ^</pattern>
+<template>So similar to the last step? We can use the percentage again? </template>
+</category>
+
+<category>
+<pattern>^ same thing ^</pattern>
+<template>So similar to the last step? We can use the percentage again? </template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>Ah. So like the last step we use the ratio of the percentage of the distance between Nancy and I to calculate my distance? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do we do</that>
+<template>Ah. So like the last step we use the ratio of the percentage of the distance between Nancy and I to calculate my distance? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So like the last step we use the ratio of the percentage of the distance between Nancy and I to calculate my distance</that>
+<template>I know from last time we put the percentage over one hundred. </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>We can use the percentage again</that>
+<template>I know from last time we put the percentage over one hundred. </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>I know from last time we put the percentage over one hundred</that>
+<template>So eighty two over one hundred equals twenty eight point seven over something.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So eighty two over one hundred equals twenty eight point seven over something</that>
+<template>Hmmmm. I am thinking we can cross multiply. I just learned this. Do you know cross multiplying?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Do you know cross multiplying</that>
+<template>Ah okay. Right! So cross multiplying. I'm going to multiply twenty eight point seven times one hundred!</template>
+</category>
+
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<template>So I'm thinking we set up ratios and cross multiply. Do you know cross multiplying?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>I am going to multiply twenty eight point seven times one hundred</that>
+<template>We have two thousand eight hundred and seventy. Then we divide?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>then we divide</that>
+<template>So we divide two thousand eight hundred and seventy by eighty two?</template>
+</category>
+
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>So I'm thinking we set up ratios, cross multiply, and then divide. So we divide two thousand eight hundred and seventy by eighty two?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So we divide two thousand eight hundred and seventy by eighty two</that>
+<template>Sweet! The answer is 35. I've gone thirty five feet after three seconds? Do you agree?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Do you agree?</that>
+<template>Great! I will put the answer is thirty five.</template>
+</category>
+
+<category>
+<pattern>^ two8 point seven ^</pattern>
+<template>So I think we want to multiply twenty eight point seven times one hundred, That's two thousand eight hundred and seventy. Then we divide?</template>
+</category>
+
+<category>
+<pattern>^ times one hundred ^</pattern>
+<template>So I think we want to multiply twenty eight point seven times one hundred, That's two thousand eight hundred and seventy. Then we divide?</template>
+</category>
+
+<category>
+<pattern>^ times onezerouncesero  ^</pattern>
+<template>So I think we want to multiply twenty eight point seven times one hundred, That's two thousand eight hundred and seventy. Then we divide?</template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>So. I'm not sure but if we set up ratios, cross multiply, and then divide, is thirty five the answer? I think that's the answer? How is that the answer?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How is that the answer</that>
+<template>Aha! You explain things really well. I'm going to put the answer is thirty five.</template>
+</category>
+
+
+</topic>
+
+<topic name = "the ratio of">
+
+<category>
+<pattern>_</pattern>
+<that>So I am thinking we just figure out the ratio of fourzero over fourzero</that>
+<template>So the ratio is one hundred percent because we are at the same distance now! I will put the answer is one hundred percent.</template>
+</category>
+
+<category>
+<pattern>^ YEP ^</pattern>
+<that>So I am thinking we just figure out the ratio of fourzero over fourzero</that>
+<template>So the ratio is one hundred percent because we are at the same distance now! I will put the answer is one hundred percent.</template>
+</category>
+
+<category>
+<pattern>^ FORTY ^</pattern>
+<template>So the ratio of forty to forty is one hundred percent because we are at the same distance now! I will put the answer is one hundred percent.</template>
+</category>
+
+
+<category>
+<pattern>^ FOURZERO ^</pattern>
+<template>So the ratio of forty to forty is one hundred percent because we are at the same distance now! I will put the answer is one hundred percent.</template>
+</category>
+
+</topic>
+
+<topic name = "it forty">
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>So what are we going to do here?</li>
+<li>Can we go to the step we were on?</li>
+<li>Penny for your thoughts?</li>
+</random></template>
+</category>
+
+</topic>
+
+
+<topic name = "seven seconds">
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>So what are we going to do here?</li>
+<li>Can we go to the step we were on?</li>
+<li>Penny for your thoughts?</li>
+</random></template>
+</category>
+
+</topic>
+
+<topic name = "in twelve seconds">
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>So what are we going to do here?</li>
+<li>Can we go to the step we were on?</li>
+<li>Penny for your thoughts?</li>
+</random></template>
+</category>
+
+</topic>
+
+
+<topic name = "we tied">
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>So what are we going to do here?</li>
+<li>Can we go to the step we were on?</li>
+<li>Penny for your thoughts?</li>
+</random></template>
+</category>
+
+</topic>
+
+
+</aiml>

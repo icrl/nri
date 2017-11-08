@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>PROBLEM START 4</pattern>
+<template>I think I should stop and get snacks. I really like M and M's. Can you help me figure out <set name="topic">how many bags</set> of M and M's I should buy for my friends?</template>
+</category>
+
+<category>
+<pattern>next step 4 2</pattern>
+<template>So now I have <set name="topic">five bags of candy</set>. Can you give me a hint?</template>
+</category>
+
+<category>
+<pattern>next step 4 3</pattern>
+<template>So now if I have <set name="topic">seven bags of candy</set>, I think I'm getting this but can you give me a place to start?</template>
+</category>
+
+<category>
+<pattern>prior step 4 1</pattern>
+<template>Back to two bags of candy. I am still figuring out <set name="topic">how many bags</set> of M and M's I should buy
+</template>
+</category>
+
+<category>
+<pattern>prior step 4 2</pattern>
+<template>Alright back to <set name="topic">five bags of candy</set>.</template>
+</category>
+
+<category>
+<pattern>prior step 4 1 a</pattern>
+<template>Didn't I already figure out how many M and M's I will have for <set name="topic">two bags</set> of candy?</template>
+</category>
+
+<category>
+<pattern>prior step 4 2 a</pattern>
+<template>Was I wrong about how many candies I have if I buy <set name="topic">five bags</set>?</template>
+</category>
+
+<category>
+<pattern>next step 4 2 a</pattern>
+<template>I know that I will have five hundred and fifty M and M's. Right? For <set name="topic">five bags</set>?</template>
+</category>
+
+<category>
+<pattern>next step 4 3 a</pattern>
+<template>Uh. I thought I said seven hundred and seventy was the number of M and M's I needed for <set name="topic">seven bags</set>?</template>
+</category>
+
+
+<category>
+<pattern>4 1</pattern>
+<template><set name="topic">HOW MANY BAGS</set></template>
+</category>
+
+<category>
+<pattern>4 2</pattern>
+<template><set name="topic">FIVE BAGS OF CANDY</set></template>
+</category>
+
+<category>
+<pattern>4 3</pattern>
+<template><set name="topic">seven bags of candy</set></template>
+</category>
+
+
+<topic name = "two bags">
+
+  <category>
+    <pattern>*</pattern>
+    <template>
+      <random>
+        <li>I don't really understand why I'm back on step one cause I figured this out right? Two bags have two hundred and twenty candies.</li>
+        <li>Why am I back on step one for this problem? I already figured out that two bags have two hundred and twenty candies.</li>
+        <li>I should go to the next step or problem because I already know how to do this one.</li>
+        <li>I'm bored. I already did this one.</li>
+        <li>The answer is two hundred and twenty isn't it?</li>
+        <li>Why am I here?</li>
+      </random>
+    </template>
+  </category>
+
+</topic>
+
+<topic name = "five bags">
+
+  <category>
+    <pattern>*</pattern>
+    <template>
+      <random>
+        <li>I don't really understand why I'm back on step two cause I figured this out. I will have five hundred and fifty candies if I buy five bags.</li>
+        <li>Why am I back on step one for this problem? I already figured out that there are five hundred and fifty candies in five bags of M and M's.</li>
+        <li>I should go to the next step or problem because I already know how to do this one.</li>
+        <li>I'm bored. I already did this.</li>
+        <li>The answer is five hundred and fifty, isn't it?</li>
+        <li>Why am I here?</li>
+      </random>
+    </template>
+  </category>
+
+
+</topic>
+
+<topic name = "seven bags">
+
+  <category>
+    <pattern>*</pattern>
+    <template>
+      <random>
+        <li>I don't really understand why I'm back on step three cause I figured this out. Seven hundred and seventy candies, the ideal amount of M and M's, I can get in seven bags.</li>
+        <li>Why am I back on step three for this problem? I already figured out that it is seven bags.</li>
+        <li>I should go to the next step or problem because I already know how to do this one.</li>
+        <li>I'm bored. I already did this step.</li>
+        <li>The answer is seven isn't it?</li>
+        <li>Why am I here?</li>
+      </random>
+    </template>
+  </category>
+
+
+</topic>
+
+  <topic name = "PUT THE ANSWER IS TWO HUNDRED AND TWENTY">
+
+    <category>
+      <pattern>*</pattern>
+      <template>Do you want to go to the next step?</template>
+
+      <category>
+        <pattern>^ GREAT ^</pattern>
+        <template>So what's next?</template>
+      </category>
+
+
+      <category>
+        <pattern>^ Good ^</pattern>
+        <template>So what's next?</template>
+      </category>
+
+      <category>
+        <pattern>^ NEXT ^</pattern>
+        <template>So what's next?</template>
+      </category>
+
+    </category>
+
+  </topic>
+
+  <topic name = "put the answer is FIVE HUNDRED AND FIFTY">
+
+    <category>
+      <pattern>*</pattern>
+      <template>Okay! Do you want to do the last step? </template>
+    </category>
+
+    <category>
+      <pattern>^ GREAT ^</pattern>
+      <template>So what's next?</template>
+    </category>
+
+
+    <category>
+      <pattern>^ Good ^</pattern>
+      <template>So what's next?</template>
+    </category>
+
+    <category>
+      <pattern>^ NEXT ^</pattern>
+      <template>So what's next?</template>
+    </category>
+
+
+  </topic>
+
+  <topic name = "put the answer is SEVEN">
+
+    <category>
+      <pattern>*</pattern>
+      <template>Now we know how many M and M's I need. On to the next problem.</template>
+    </category>
+
+    <category>
+      <pattern>^ GREAT ^</pattern>
+      <template>So what's next?</template>
+    </category>
+
+
+    <category>
+      <pattern>^ Good ^</pattern>
+      <template>So what's next?</template>
+    </category>
+
+    <category>
+      <pattern>^ NEXT ^</pattern>
+      <template>So what's next?</template>
+    </category>
+
+
+  </topic>
+
+
+
+
+
+</aiml>

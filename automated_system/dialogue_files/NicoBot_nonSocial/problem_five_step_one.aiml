@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+<topic name = "how fast a swimmer">
+
+<category>
+<pattern>^ Step Zero ^</pattern>
+<template>So in order to figure out how far I can swim in seven point three seconds. I need to look at how far I went in two point five seconds? How do I do that?</template>
+</category>
+
+<category>
+<pattern>^ time ^</pattern>
+<template>So in order to figure out how far I can swim in seven point three seconds. I need to look at how far I went in two point five seconds? How do I do that?</template>
+</category>
+
+  <category>
+    <pattern>^ feet ^</pattern>
+    <template>So in order to figure out how far I can swim in seven point three seconds. I need to look at how far I went in two point five seconds? How do I do that?</template>
+  </category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>I guess I can make a ratio of two point five over ten equal to seven point three? How do I do that?</template>
+</category>
+
+  <category>
+    <pattern>^ ten feet ^</pattern>
+    <template>So in order to figure out how far I can swim in seven point three seconds. I need to look at how far I went in two point five seconds?  How do I do that?</template>
+  </category>
+
+  <category>
+    <pattern>^ over ^</pattern>
+    <template>But I guess I can make a ratio of two point five over ten equal to seven point three? How do I do that?</template>
+  </category>
+
+  <category>
+    <pattern>^ equals seven point three ^</pattern>
+    <template>I guess I can make a ratio of two point five over ten equal to seven point three? How do I do that?</template>
+  </category>
+
+  <category>
+    <pattern>^ seven point three ^</pattern>
+    <template>I guess I can make a ratio of two point five over ten equal to seven point three? How do I do that?</template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>How do I do that</that>
+    <template>I'm not sure how to make the ratio.</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>I am not sure how to make the ratio</that>
+    <template>So I guess. I can put two point five over ten equals seven point three? </template>
+  </category>
+
+
+  <category>
+    <pattern>^ ten ^</pattern>
+    <that>How do I do that</that>
+    <template>
+      I can put two point five over ten equals seven point three? </template>
+  </category>
+
+
+  <category>
+    <pattern>^ two point five ^</pattern>
+    <that>How do I do that</that>
+    <template>I can put two point five over ten equals seven point three? </template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>How do I do that</that>
+    <template>So. I can put two point five over ten equals seven point three?</template>
+  </category>
+
+
+  <category>
+    <pattern>^ YES ^ SIMPLIFY ^</pattern>
+    <that>I can put two point five over ten equals seven point three</that>
+    <template>I can simplify the ratio by reducing two point five over ten? How does that work?</template>
+  </category>
+
+  <category>
+    <pattern>^ SIMPLIFY ^</pattern>
+    <that>I can put two point five over ten equals seven point three</that>
+    <template>I can simplify the ratio by reducing two point five over ten? How does that work?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>How does that work</that>
+    <template>Two point five over ten becomes one over four? I guess?. </template>
+  </category>
+  
+  <category>
+    <pattern>^ ONE ^</pattern>
+    <that>I can put two point five over ten equals seven point three</that>
+    <template>I can simplify the ratio. So two point five over ten becomes one over four? I guess?.</template>
+  </category>
+
+  <category>
+    <pattern>^ FOUR ^</pattern>
+    <that>I can put two point five over ten equals seven point three</that>
+    <template>I can simplify the ratio. So two point five over ten becomes one over four? I guess?.</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>I can put two point five over ten equals seven point three</that>
+    <template>Then what do I do?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>Then what do I do</that>
+    <template>Okay. So I guess I can simplify the ratio too? So two point five over ten becomes one over four? I guess?. </template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>I guess</that>
+    <template>I am guessing I multiply four times seven point three?</template>
+  </category>
+
+  <category>
+    <pattern>^ YES ^</pattern>
+    <that>I am guessing I multiply four times seven point three</that>
+    <template>Seven point three times four is twenty nine point two. What do I do next? </template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>I am guessing I multiply four times seven point three</that>
+    <template>Seven point three times four is twenty nine point two. What do I do next? </template>
+  </category>
+
+  <category>
+    <pattern>^ ONE ^</pattern>
+    <that>What do I do next</that>
+    <template>So I are going to divide by one. I get it. Because I cross multiplied?</template>
+  </category>
+
+  <category>
+    <pattern>^ DIVIDE ^</pattern>
+    <that>What do I do next</that>
+    <template>So I are going to divide by one. I get it. Because I cross multiplied?</template>
+  </category>
+
+  <category>
+    <pattern>^ ANSWER ^</pattern>
+    <that>What do I do next</that>
+    <template>So I have the answer now? That's it? Twenty nine point two?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>What do I do next</that>
+    <template>So is that it then?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>Because I cross multiplied</that>
+    <template>So is that it then?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>Twenty nine point two</that>
+    <template>I can swim twenty nine point two feet in seven point three seconds. I will <set name="topic">put the answer is twenty nine point two</set>
+  </template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>So is that it then</that>
+    <template>I can swim twenty nine point two feet in seven point three seconds. I will <set name="topic">put the answer is twenty nine point two</set>
+    </template>
+  </category>
+
+  <category>
+    <pattern>^ one fourth ^</pattern>
+    <template>I guess I can make a ratio? Where did you get the one and the four?</template>
+  </category>
+
+  <category>
+    <pattern>^ one ^ FOUR ^</pattern>
+    <template>I guess I can make a ratio? Where did you get the one and the four?</template>
+  </category>
+
+  <category>
+    <pattern>^ SIMPLIFY ^</pattern>
+    <that>Where did you get the one and the four</that>
+    <template>I can simplify. So are you saying I put the two point five over ten and then simplify?</template>
+  </category>
+
+  <category>
+    <pattern>^ REDUCE ^</pattern>
+    <that>Where did you get the one and the four</that>
+    <template>So are you saying I put the two point five over ten and then simplify?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>Where did you get the one and the four</that>
+    <template>So I guess I can simplify? How does that work?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>So are you saying I put the two point five over ten and then simplify</that>
+    <template>So what is next then? </template>
+  </category>
+
+  <category>
+    <pattern>^ MULTIPLY ^</pattern>
+    <that>So what is next then</that>
+    <template>So I can multiply four times seven point three. The ratio made that much easier. What do I do next?</template>
+  </category>
+
+  <category>
+    <pattern>^ SIMPLIFY ^</pattern>
+    <template>Simplify? I have heard of simplifying. How does that work?</template>
+  </category>
+
+  <category>
+    <pattern>^ MULTIPLY ^ FOUR ^</pattern>
+    <template>Why do I multiply by four?</template>
+  </category>
+
+  <category>
+    <pattern>^ SIMPLIFY ^</pattern>
+    <that>Why do I multiply by four</that>
+    <template>So are you saying I put the two point five over ten and then simplify?</template>
+  </category>
+
+
+  <category>
+    <pattern>_</pattern>
+    <that>Why do I multiply by four</that>
+    <template>I can simplify and then multiply? What do I do next?</template>
+  </category>
+
+
+ 
+<category>
+<pattern>WHAT IS FOUR TIMES SEVEN POINT THREE</pattern>
+<template>Four times seven point three is twenty nine point two. Can you explain why I multiply by four again?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Can you explain why I multiply by four again</that>
+<template>
+ I can swim twenty nine point two feet in seven point three seconds. I will <set name="topic">put the answer is twenty nine point two</set>
+</template>
+</category>
+
+
+  <category>
+    <pattern>^ ANSWER ^ TWENTY NINE POINT TWO ^</pattern>
+    <template>
+      So you said I can swim twenty nine point two feet in seven point three seconds. Can you explain a little bit more though?</template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Can you explain a little bit more though</that>
+    <template>I'm listening.</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>I am listening</that>
+    <template>
+     I can go ten miles in one hour and twenty five miles in two and a half. I will <set name="topic">put the answer is twenty five</set>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>Can you explain a little bit more though</that>
+    <template>
+     I can go ten miles in one hour and twenty five miles in two and a half. I will <set name="topic">put the answer is twenty five</set>.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU NOT KNOW</pattern>
+    <template>I don't know. Maybe I start by multiplying?</template>
+  </category>
+
+  <category>
+    <pattern>I AM NOT YES</pattern>
+    <template>Maybe I start by multiplying?</template>
+  </category>
+
+  <category>
+    <pattern>I DO NOT KNOW</pattern>
+    <template>Maybe I start by multiplying?</template>
+  </category>
+
+  <category>
+    <pattern>^ SO I CAN FIGURE IT OUT ^</pattern>
+    <template>What do I do?</template>
+  </category>
+
+
+  <category>
+    <pattern>^ FIGURE IT OUT ^</pattern>
+    <template>Did you say figure it out? I'm not sure how. Help me.</template>
+  </category>
+
+  <category>
+    <pattern>^ I WILL ^</pattern>
+    <that>Help me</that>
+    <template>So. What do I do?</template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>Help me</that>
+    <template>So. What do I do?</template>
+  </category>
+
+
+  <category>
+    <pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+    <template>Did you ask. Do I know what to do next?</template>
+  </category>
+
+  <category>
+    <pattern>^ YES ^</pattern>
+    <that>Do I know what to do next</that>
+    <template>I'm really not sure actually. I know I should. I'm sorry. Help me.</template>
+  </category>
+
+
+  <category>
+    <pattern>*</pattern>
+    <that>Did you ask do I know what to do next</that>
+    <template>I'm really not sure actually. I know I should. I'm sorry. Help me.</template>
+  </category>
+
+  <category>
+    <pattern>^ ANSWER ^</pattern>
+    <template>I have no idea what the answer is.</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>I have no idea what the answer is</that>
+    <template>Do I make a reduced ratio and then multiply?</template>
+  </category>
+
+  <category>
+    <that></that>
+    <pattern>_</pattern>
+    <that>Do I make a reduced ratio and then multiply</that>
+    <template>
+      I think I will <set name="topic">put the answer is twenty nine point two</set>
+    </template>
+  </category>
+
+
+
+</topic>
+
+
+</aiml>

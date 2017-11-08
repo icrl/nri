@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<topic name = "MY WAY THERE">
+
+
+  <category>
+  <pattern>^ MULTIPLY TWO POINT FIVE BY ^</pattern>
+  <template>Okay great! We multiply two point five. What do we multiply by exactly? </template>
+  </category>
+
+  <category>
+  <pattern>^ TEN ^ </pattern>
+  <that>What do we multiply by exactly</that>
+  <template>Wonderful! We multiply by ten. Why do we multiply by ten?</template>
+  </category>
+
+  <category>
+  <pattern>_</pattern>
+  <that>Why do we multiply by ten</that>
+  <template>Oh you are so right! So ten times two point five is twenty five. Then what?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>Then what</that>
+    <template>Aha! I get it! I can go ten miles in one hour and twenty five miles in two and a half! I will <set name="topic">put the answer is twenty five</set>.
+  </template>
+  </category>
+
+  <category>
+  <pattern>^ ONE ^ </pattern>
+  <that>What do we multiply two point five by exactly</that>
+  <template>Sweet! We multiply two point five by one. So hmmm. Why do we do that? </template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>Why do we do that</that>
+    <template>Okay awesome! We know that two point five is two point five times greater than one. Then what do we do?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>Then what do we do</that>
+    <template>Awesome! I get it! We can multiply by ten right?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>We can multiply by ten right</that>
+    <template>
+      Aha! I get it! I can go ten miles in one hour and twenty five miles in two and a half! I will <set name="topic">put the answer is twenty five</set>
+    </template>
+  </category>
+  
+    <category>
+    <pattern>_</pattern>
+    <that> What do we multiply two point five by exactly</that>
+    <template>Okay! So let me think. I think it makes sense to multiple two point five by ten. I am not sure. </template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that> I AM NOT YES</that>
+    <template>I suppose it makes sense if we multiply by ten! I suppose that sounds good? Then what?</template>
+  </category>
+
+
+  <category>
+  <pattern>^ ONE ^</pattern>
+  <template>Okay so I can ride my bike ten miles in one hour. I guess we could multiply the one by two point five? But then what would we do?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>But then what would we do</that>
+    <template>That's very interesting! Why do you think we should do that?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>Why do you think we should do that</that>
+    <template>
+      Nice! So I'm thinking I can go ten miles in one hour and twenty five miles in two and a half.  I will <set name="topic">put the answer is twenty five!</set>
+  </template>
+  </category>
+
+  <category>
+  <pattern>^ MULTIPLY ^ </pattern>
+  <template>Awesome! We multiply! What do we multiply by exactly?</template>
+  </category>
+
+  <category>
+  <pattern>^ TEN ^</pattern>
+  <template>Wonderful! We multiply by ten. Why do we multiply by ten?</template>
+  </category>
+
+
+  <category>
+  <pattern>^ TWO POINT FIVE ^</pattern>
+  <template>I've never much liked decimals! So we multiply? What do we multiply by exactly?</template>
+  </category>
+
+
+  <category>
+  <pattern>^ TWO AND A HALF ^</pattern>
+  <template>Two and a half hours is a long way but I have even further to go I think! So do you think we multiply? What do we multiply by exactly?</template>
+  </category>
+
+  <category>
+  <pattern>^ WHAT IS ONE ^ TWO ^</pattern>
+  <template>That is an excellent question! ONE times two point five is two point five. But how do we use that to figure out the answer? Then what do we do?</template>
+  </category>
+
+  <category>
+  <pattern>^ WHAT IS ten TIMES two point five</pattern>
+  <template>Trying to stump me are you? I know this! Ten times two point five is twenty five. What does that mean?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>What does that mean</that>
+    <template>
+      Yay! So then I can bike twenty five miles in two point five hours! I think I will <set name="topic">put the answer is twenty five</set>.
+    </template>
+  </category>
+
+
+  <category>
+  <pattern>^ WHAT IS ten TIMES TWO POINT FIVE</pattern>
+  <template>Trying to stump me are you? I know this! Ten times two point five is twenty five. What does that mean?</template>
+  </category>
+
+
+  <category>
+  <pattern>^ WHAT IS ^ ten ^ </pattern>
+  <template>That is a great question! Ten times two point five is twenty five. What does that mean?</template>
+  </category>
+
+  <category>
+  <pattern>^ ten MILES ^ ONE HOUR ^</pattern>
+  <template>I can bike ten miles in one hour. That's true; so then I need to figure out how far I can bike in two and a half hours. What do we do?</template>
+  </category>
+
+  <category>
+  <pattern>^ HOW MANY MILES CAN YOU GO IN ONE HOUR ^</pattern>
+  <template>So we know I can bike ten miles in one hour. But the question is far can I go in two point five hours. I'm not sure what to do. What do we do?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>What do we do</that>
+    <template>Oh okay! That makes sense! Then what?</template>
+  </category>
+
+  <category>
+    <pattern>^ ANSWER ^ TWENTY FIVE ^</pattern>
+    <template>Cool beans! You are so smart. I can go twenty five miles in two point five hours? Can you explain a little bit more about why though?</template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Can you explain a little bit more about why though</that>
+    <template>Do go on. I'm listening.</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>I am listening</that>
+    <template>
+      Aha! I get it! I can go ten miles in one hour and twenty five miles in two and a half! I will <set name="topic">put the answer is twenty five</set>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>Can you explain a little bit more about why though</that>
+    <template>
+      Aha! I get it! I can go ten miles in one hour and twenty five miles in two and a half! I will <set name="topic">put the answer is twenty five</set>.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU NOT KNOW</pattern>
+    <template>I really don't know! Maybe we start by multiplying?</template>
+  </category>
+
+  <category>
+    <pattern>I AM NOT YES</pattern>
+    <template>Me either! Maybe we start by multiplying?</template>
+  </category>
+
+  <category>
+    <pattern>I DO NOT KNOW</pattern>
+    <template>Me either! Maybe we start by multiplying?</template>
+  </category>
+
+  <category>
+    <pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+    <template>Okay that sounds good! What do we do?</template>
+  </category>
+
+
+  <category>
+    <pattern>^ FIGURE IT OUT ^</pattern>
+    <template>That's funny. Did you say figure it out? I'm not sure how! Help me!</template>
+  </category>
+
+  <category>
+    <pattern>^ I WILL ^</pattern>
+    <that>Help me</that>
+    <template>Thank you, that's because you're really nice. So. What do we do?</template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>Help me</that>
+    <template>You're the best. So. What do we do?</template>
+  </category>
+
+
+  <category>
+    <pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+    <template>Did you ask. Do I know what to do next?</template>
+  </category>
+
+  <category>
+    <pattern>^ YES ^</pattern>
+    <that>Do I know what to do next</that>
+    <template>I'm really not sure actually! I know I should. I'm sorry. Help me!</template>
+  </category>
+
+
+  <category>
+    <pattern>*</pattern>
+    <that>Did you ask do I know what to do next</that>
+    <template>I'm really not sure actually! I know I should. I'm sorry. Help me!</template>
+  </category>
+
+  <category>
+    <pattern>^ ANSWER ^</pattern>
+    <template>So given the last two problems, I think I now what to do? But again. I'm not sure if I'm right. I think it is twenty five? What do you think?</template>
+  </category>
+
+
+  <category>
+    <pattern>_</pattern>
+    <that>What do you think</that>
+    <template>
+      Yay! I think I will <set name="topic">put the answer is twenty five</set>.
+    </template>
+  </category>
+
+
+
+
+</topic>
+
+</aiml>

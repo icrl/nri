@@ -15,6 +15,7 @@ namespace Nico.handlers
         public void ProcessRequest(HttpContext context)
         {
             string path1 = context.Request.PhysicalApplicationPath;
+            string userid = HttpContext.Current.User.Identity.Name;
             using (StreamWriter ws = new StreamWriter(path1 + "data\\logs\\log_SaveWav.txt"))
             {
 
@@ -30,9 +31,8 @@ namespace Nico.handlers
                         for (int i = 0; i < files.Count; i++)
                         {
                             HttpPostedFile file = files[i];
-                            string username = "nlubold";
                             string formatFileName = string.Format("{0}-{1:yyyy-MM-dd_hh-mm-ss-tt}", file.FileName, DateTime.Now);
-                            fullPath = path + "data\\userAudio\\" + username + "_" + formatFileName + ".wav";
+                            fullPath = path + "data\\userAudio\\" + userid + "_" + formatFileName + ".wav";
                             file.SaveAs(fullPath);
                             fullPath = path + "data\\userAudio\\" + file.FileName + ".wav";
                             file.SaveAs(fullPath);

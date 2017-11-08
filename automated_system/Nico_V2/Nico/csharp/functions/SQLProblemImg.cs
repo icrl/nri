@@ -58,7 +58,7 @@ namespace Nico.csharp.functions
         /* 
          * Returns the filepath of a particular image for a given problem / step given the key to the image. 
         */
-        public static Tuple<string, int> FetchImgPathByKey(int problemimgkey)
+        public static Tuple<string, int> FetchImgPathByKey(int problemimgkey, string userid)
         {
             Tuple<string, int> result = new Tuple<string, int>("", 2);             // key to the filepath for this image, to be stored in the problem step tracker. Start at 2 because that's the first key in the DB
             string queryString = "Select * From NicoDB.dbo.Problem_Step_Img Where NicoDB.dbo.Problem_Step_Img.ProblemImgKey = @ProblemImgKey";
@@ -85,7 +85,7 @@ namespace Nico.csharp.functions
             }
             catch (Exception error)
             {
-                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLProblemImg FetchImgPathByKey", 0, "nlubold");
+                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLProblemImg FetchImgPathByKey", 0, userid);
             }
             return result;
         }

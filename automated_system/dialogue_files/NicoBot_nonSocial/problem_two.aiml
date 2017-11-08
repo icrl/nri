@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>PROBLEM START 2</pattern>
+<template>So it is not enough to just go in up to my hips. Can you help me figure out what waterproof paint I need to cover my arms and head too? I'm looking at <set name="topic">STEP ONE OF PROBLEM TWO</set> and I'm not sure what to do.</template>
+</category>
+
+
+<category>
+<pattern>next step 2 2</pattern>
+<template>Can you give me a hint on <set name="topic">STEP TWO OF PROBLEM TWO</set>?
+</template>
+</category>
+
+
+<category>
+<pattern>prior step 2 1</pattern>
+<template>Back to <set name="topic">STEP ONE PROBLEM TWO</set>. What do we do?</template>
+</category>
+
+
+<category>
+<pattern>prior step 2 1 a</pattern>
+<template>Didn't we already <set name="topic">do step one for problem two</set>?</template>
+</category>
+
+
+<category>
+<pattern>next step 2 2 a</pattern>
+<template>Didn't we already <set name="topic">do step two for problem two</set>?</template>
+</category>
+
+
+
+<category>
+<pattern>2 1</pattern>
+<template><set name="topic">STEP ONE OF PROBLEM TWO</set></template>
+</category>
+
+<category>
+<pattern>2 2</pattern>
+<template><set name="topic">STEP TWO OF PROBLEM TWO</set></template>
+</category>
+
+
+
+<topic name = "DO STEP ONE for PROBLEM TWO">
+
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>I don't really understand why I'm back on step one cause I figured this out. It takes one fluid ounce of paint to cover my arms.</li>
+<li>Why am I back on step one for this problem? I already figured out that it is one fluid ounces.</li>
+<li>I should go to the next step or problem because I already know how to do this one.</li>
+<li>I'm bored. I already did this one.</li>
+<li>The answer is one isn't it?</li>
+<li>Why am I here?</li>
+</random></template>
+</category>
+
+</topic>
+
+<topic name = "DO STEP TWO for PROBLEM TWO">
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>I don't really understand why I'm back on step two cause we figured this out. My head is nine square inches and it will take three fluid ounce of paint to cover it.</li>
+<li>Why am I back on step two for this problem? I already figured out that it is 3 fluid ounces.</li>
+<li>I should go to the next step or problem because I already know how to do this one.</li>
+<li>I'm bored. I already did this step.</li>
+<li>The answer is nine isn't it?</li>
+  <li>Why am I here?</li>
+</random></template>
+</category>
+
+</topic>
+
+
+  <topic name = "PUT THE ANSWER IS ONE">
+
+    <category>
+      <pattern>*</pattern>
+      <template>Should we go to the next step and figure out how big my head is?</template>
+
+      <category>
+        <pattern>^ GREAT ^</pattern>
+        <template>What's next?</template>
+      </category>
+
+
+      <category>
+        <pattern>^ Good ^</pattern>
+        <template>What's next?</template>
+      </category>
+
+      <category>
+        <pattern>^ NEXT ^</pattern>
+        <template>What's next?</template>
+      </category>
+
+    </category>
+
+  </topic>
+
+  <topic name = "put the answer is nine">
+
+    <category>
+      <pattern>*</pattern>
+      <template>What's next?</template>
+    </category>
+
+    <category>
+      <pattern>^ GREAT ^</pattern>
+      <template>What's next?!</template>
+    </category>
+
+
+    <category>
+      <pattern>^ Good ^</pattern>
+      <template>What's next?</template>
+    </category>
+
+    <category>
+      <pattern>^ NEXT ^</pattern>
+      <template>What's next?</template>
+    </category>
+
+
+  </topic>
+
+
+</aiml>

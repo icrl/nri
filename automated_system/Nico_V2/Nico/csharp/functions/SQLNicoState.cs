@@ -62,7 +62,7 @@ namespace Nico.csharp.functions
             }
             catch(Exception error)
             {
-                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLNicoState UpdateState", 0, "nlubold");
+                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLNicoState UpdateState", 0, userid);
             }
 
         }
@@ -80,7 +80,7 @@ namespace Nico.csharp.functions
             }
         }
 
-        public static string ReadNicoState_Answer()
+        public static string ReadNicoState_Answer(string userid)
         {
             string NicoStateAnswer = "";
 
@@ -99,7 +99,7 @@ namespace Nico.csharp.functions
             }
             catch (Exception error)
             {
-                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLNicoState ReadAnswerVal", 0, "nlubold");
+                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLNicoState ReadAnswerVal", 0, userid);
             }
             return NicoStateAnswer;
         }

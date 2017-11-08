@@ -56,7 +56,7 @@ namespace Nico.csharp.functions
             }
             catch (Exception error)
             {
-                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLUserState UpdateSpeakerState", 0, "nlubold");
+                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLUserState UpdateSpeakerState", 0, userid);
             }
         }
 

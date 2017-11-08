@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>PROBLEM START FIVE</pattern>
+<template>Now that we have some snacks, it is time to get to the pool and start swimming! I wonder if you can help me figure out <set name="topic">how fast a swimmer</set> I actually am though? </template>
+</category>
+
+<category>
+<pattern>next step 5 2</pattern>
+<template>Sweet! So we know I can go twenty nine point two feet in seven point three seconds. But how do I figure out <set name="topic">how far I can swim</set> in twelve point five seconds?</template>
+</category>
+
+<category>
+<pattern>next step 5 3</pattern>
+<template>Awesome!! So the pool length is 80 feet. I wonder if <set name="topic">I swim this fast</set>, if I can beat my friend who can swim it in 18 seconds? Can you help me figure that out?</template>
+</category>
+
+<category>
+<pattern>prior step 5 1</pattern>
+<template>So we're going to figure out <set name="topic">how fast a swimmer</set> I am but what do we do first?</template>
+</category>
+
+<category>
+<pattern>prior step 5 2</pattern>
+<template>Okay so here we're going to figure out <set name="topic">how far I can swim</set> in twelve point five seconds?</template>
+</category>
+
+<category>
+<pattern>prior step 5 1 a</pattern>
+<template>Interesting, I thought we already <set name="topic">did this step and found the answer</set>. Twenty nine point two?</template>
+</category>
+
+<category>
+<pattern>prior step 5 2 a</pattern>
+<template>Didn't we figure out that <set name="topic">I can swim fifty feet</set> in twelve point five seconds?</template>
+</category>
+
+<category>
+<pattern>next step 5 3 a</pattern>
+<template>I thought we figured out that <set name="topic">I have to swim faster</set> if I want to beat my friend?</template>
+</category>
+
+
+<topic name = "did this step and found the answer">
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>I don't really understand why we're back on step one cause we figured this out. I can swim twenty nine point two feet in seven point three seconds.</li>
+<li>Why are we back on step one for this problem? We already figured out that I can swim twenty nine point two feet in seven point three seconds.</li>
+<li>We should go to the next step or problem because I already know how to do this one.</li>
+<li>I'm bored. We already did this one.</li>
+<li>The answer is twenty nine point two feet isn't it?</li>
+<li>Why are we here?</li>
+</random></template>
+</category>
+</topic>
+
+<topic name = "I can swim fifty feet">
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>I don't really understand why we're back on step two cause we figured this out. I can swim fifty feet in twelve point five seconds.</li>
+<li>Why are we back on step two for this problem? We already figured out that it is fifty feet.</li>
+<li>We should go to the next step or problem because I already know how to do this one.</li>
+<li>I'm bored. We already did this.</li>
+<li>The answer is fifty isn't it?</li>
+<li>Why are we here?</li>
+</random></template>
+</category>
+
+</topic>
+
+<topic name = "I have to swim faster">
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>I don't really understand why we're back on step three cause we figured this out. It will take me twenty seconds to swim the full eighty feet of the pool.</li>
+<li>Why are we back on step three for this problem? We already figured out that it is twenty seconds.</li>
+<li>We should go to the next step or problem because I already know how to do this one.</li>
+<li>I'm bored. We already did this.</li>
+<li>The answer is twenty isn't it?</li>
+<li>Why are we here?</li>
+</random></template>
+</category>
+
+</topic>
+
+
+  <topic name = "PUT THE ANSWER IS TWENTY NINE POINT TWO">
+
+    <category>
+      <pattern>*</pattern>
+      <template>Sweet! Lets find out how far I go in twelve point five seconds!</template>
+
+      <category>
+        <pattern>^ GREAT ^</pattern>
+        <template>Thank you! You're really awesome!</template>
+      </category>
+
+
+      <category>
+        <pattern>^ Good ^</pattern>
+        <template>Thank you! You're really awesome!</template>
+      </category>
+
+      <category>
+        <pattern>^ NEXT ^</pattern>
+        <template>Sweet! What's next?</template>
+      </category>
+
+    </category>
+
+  </topic>
+
+  <topic name = "put the answer is fifty">
+
+    <category>
+      <pattern>*</pattern>
+      <template>Awesome! I can go fifty feet in twelve point five seconds! I am a fast robot. Lets see how far I can go in eight?</template>
+    </category>
+
+    <category>
+      <pattern>^ GREAT ^</pattern>
+      <template>Thank you! You're really awesome!</template>
+    </category>
+
+
+    <category>
+      <pattern>^ Good ^</pattern>
+      <template>Thank you! You're really awesome!</template>
+    </category>
+
+    <category>
+      <pattern>^ NEXT ^</pattern>
+      <template>Sweet! What's next?</template>
+    </category>
+
+
+  </topic>
+
+  <topic name = "put the answer is eighty">
+
+    <category>
+      <pattern>*</pattern>
+      <template>Great! Lets go to the next problem!</template>
+    </category>
+
+    <category>
+      <pattern>^ GREAT ^</pattern>
+      <template>Thank you! You're really awesome!</template>
+    </category>
+
+
+    <category>
+      <pattern>^ Good ^</pattern>
+      <template>Thank you! You're really awesome!</template>
+    </category>
+
+    <category>
+      <pattern>^ NEXT ^</pattern>
+      <template>Sweet! What's next?</template>
+    </category>
+
+
+  </topic>
+
+
+
+</aiml>

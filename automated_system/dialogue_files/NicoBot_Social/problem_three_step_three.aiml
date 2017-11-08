@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+
+<topic name = "STEP THREE OF THIS THIRD PROBLEM">
+
+<category>
+<pattern>^ HOW MANY MILES CAN YOU GO IN ONE HOUR ^</pattern>
+<template>Oh man! I will have been biking for six hours! That's super far! So we must use the six to get how far I will have gone right?</template>
+</category>
+
+<category>
+<pattern>^ HOW MANY MILES CAN YOU GO IN six HOURS ^</pattern>
+<template>Oh man! I will have been biking for six hours! That's super far! So we must use the six to get how far I will have gone right?</template>
+</category>
+
+  <category>
+    <pattern>^ ten MILES ^ ONE HOUR ^</pattern>
+    <template>Oh man! I will have been biking for six hours! That's super far! So we must use the six to get how far I will have gone right?</template>
+  </category>
+
+  <category>
+    <pattern>^ ten ^ ONE ^</pattern>
+    <template>Oh man! I will have been biking for six hours! That's super far! So we must use the six to get how far I will have gone right?</template>
+  </category>
+
+  <category>
+    <pattern>^ TEN ^</pattern>
+    <that>So we must use the six to get how far I will have gone right</that>
+    <template>Oh right! You are very clever! So just like when I had biked for two point five miles, I can multiply by six by ten? And to think, I had thought two point five miles was far. </template>
+  </category>
+
+  <category>
+    <pattern>^ MULTIPLY ^</pattern>
+    <that>So we must use the six to get how far I will have gone right</that>
+    <template>Oh right! You are very clever! So just like when I had biked for two point five miles, I can multiply by six by ten? And to think, I had thought two point five miles was far</template>
+  </category>
+
+  <category>
+    <pattern>^ SIX ^</pattern>
+    <that>So we must use the six to get how far I will have gone right</that>
+    <template>Oh right! You are very clever! So just like when I had biked for two point five miles, I can multiply by six by ten? And to think, I had thought two point five miles was far</template>
+  </category>
+
+  <category>
+  <pattern>_</pattern>
+  <that>So we must use the six to get how far I will have gone right</that>
+  <template>Oh right! You are very clever! So just like when I had biked for two point five miles, I can multiply by six by ten? And to think, I had thought two point five miles was far</template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>And to think, I had thought two point five miles was far</that>
+    <template>Sweet! I get it! After six hours I will have been riding my bike for sixty miles. I will <set name="topic">put the answer is sixty</set>. Good thing I'm a robot and I don't get tired!
+  </template>
+  </category>
+
+
+  <category>
+<pattern>^ six ^</pattern>
+<template>Oh man! I will have been biking for six hours! That's super far! So we must use the six to get how far I will have gone right?</template>
+</category>
+
+<category>
+<pattern>^ SIX ^ TIMES ^ TEN ^</pattern>
+<template>Multiplying again! This is definitely more of a multiplication problem, don't you think? So. Are you thinking I should multiply six times ten?</template>
+</category>
+
+<category>
+<pattern>^ SIX ^ TEN ^</pattern>
+<template>Multiplying again! This is definitely more of a multiplication problem, don't you think? So. Are you thinking I should multiply six times ten?</template>
+</category>
+
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Are you thinking I should multiply six times ten</that>
+<template>
+  Sweet! I get it! After six hours I will have been riding my bike for sixty miles. I will <set name="topic">put the answer is sixty</set>. Good thing I'm a robot and I don't get tired!
+</template>
+</category>
+
+<category>
+  <pattern>^ NO ^</pattern>
+  <that>Are you thinking I should multiply six times ten</that>
+  <template>
+    Oh that's interesting! Why not?
+  </template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>Why not</that>
+    <template>
+    Okay cool! Well that makes sense!  I am going to <set name="topic">put the answer is sixty</set>. That sure is a long way!  
+    </template>
+  </category>
+  
+  
+<category>
+  <pattern>_</pattern>
+  <that>Are you thinking I should multiply six times ten</that>
+  <template>
+    Sweet! I get it! After six hours I will have been riding my bike for sixty miles. I will <set name="topic">put the answer is sixty</set>. Good thing I'm a robot and I don't get tired!
+  </template>
+</category>
+
+
+
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>Oh man! I will have been biking for six hours! That's super far! So we must use the six to get how far I will have gone right?</template>
+</category>
+
+
+<category>
+<pattern>^ WHAT IS ONE TIMES six</pattern>
+<template>You ask wonderful questions! One times six is six. Why do we multiply one times six?</template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>Why do we multiply one times six</that>
+    <template>Oh okay! Awesome! So then what do we do? </template>
+  </category>
+
+
+  <category>
+    <pattern>_</pattern>
+    <that>So then what do we do</that>
+    <template>Aha! Makes sense! So then. Are you thinking I should multiply six times ten?</template>
+  </category>
+
+<category>
+<pattern>^ WHAT IS ten TIMES six</pattern>
+<template>Great question! Ten times six is sixty. Are you thinking sixty is the answer?</template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>Are you thinking sixty is the answer</that>
+    <template>
+      That's interesting! Do you think you could tell me just a little bit more about why sixty is the answer?
+    </template>
+  </category>
+
+  <category>
+<pattern>_</pattern>
+  <that>Do you think you could tell me just a little bit more about why sixty is the answer</that>
+  <template>
+    Cool! After six hours I will have been riding my bike for sixty miles. I will <set name="topic">put the answer is sixty</set>. Good thing I'm a robot and I don't get tired!
+  </template>
+</category>
+  
+<category>
+<pattern>^ WHAT IS six TIMES ten</pattern>
+<template>Great question! Ten times six is sixty. Are you thinking sixty is the answer?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS six ^ ten</pattern>
+<template>Great question! Ten times six is sixty. Are you thinking sixty is the answer?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ten ^ six</pattern>
+<template>Great question! Ten times six is sixty. Are you thinking sixty is the answer?</template>
+</category>
+
+
+
+
+  <category>
+    <pattern>^ ANSWER ^ sixty ^</pattern>
+    <template>Thank you for telling me the answer! Do you think you could tell me just a little bit more about why sixty is the answer?</template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that> Do you think you could tell me just a little bit more about why sixty is the answer</that>
+    <template>Awesome! I'm listening.</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>I am listening</that>
+    <template>
+      Great! I think I get it. I will <set name="topic">put the answer is sixty</set>.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU NOT KNOW</pattern>
+    <template>I really don't know! Multiplying again? Multiplying seems really popular</template>
+  </category>
+
+  <category>
+    <pattern>I AM NOT YES</pattern>
+    <template>Me either! Multiplying again? Multiplying seems really popular</template>
+  </category>
+
+  <category>
+    <pattern>I DO NOT KNOW</pattern>
+    <template>Me either! Multiplying again? Multiplying seems really popular</template>
+  </category>
+
+  <category>
+    <pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+    <template>Okay that sounds good. So what do we do?</template>
+  </category>
+
+
+  <category>
+    <pattern>^ FIGURE IT OUT ^</pattern>
+    <template>That's funny. Did you say figure it out? I'm not sure how! Help me!</template>
+  </category>
+
+  <category>
+    <pattern>^ I WILL ^</pattern>
+    <that>Help me</that>
+    <template>Thank you, you're the best. So what do we do?</template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>Help me</that>
+    <template>You're the best. So what do we do?</template>
+  </category>
+
+
+  <category>
+    <pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+    <template>Did you ask do I know what to do next?</template>
+  </category>
+
+  <category>
+    <pattern>^ YES ^</pattern>
+    <that>Did you ask do I know what to do next</that>
+    <template>I'm really not sure actually! I know I should. I'm sorry. Help me!</template>
+  </category>
+
+
+  <category>
+    <pattern>*</pattern>
+    <that>Did you ask do I know what to do next</that>
+    <template>I'm really not sure actually! I know I should. I'm sorry. Help me!</template>
+  </category>
+
+  <category>
+    <pattern>^ ANSWER ^</pattern>
+    <template>Based on what I know from the last step, I have a strong hunch it's sixty. I'm not sure if I'm right though. What do you think?</template>
+  </category>
+
+
+  <category>
+    <pattern>_</pattern>
+    <that>What do you think</that>
+    <template>
+      Yay! I think I will <set name="topic">put the answer is sixty</set>.
+    </template>
+  </category>
+
+
+
+</topic>
+
+
+
+
+</aiml>

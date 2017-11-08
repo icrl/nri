@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+
+<topic name = "STEP THREE OF THIS THIRD PROBLEM">
+
+<category>
+<pattern>^ HOW MANY MILES CAN YOU GO IN ONE HOUR ^</pattern>
+<template>So we know I can bike ten miles in one hour. I'm not sure what to do to figure out how far I've gone in six hours.</template>
+</category>
+
+<category>
+<pattern>^ HOW MANY MILES CAN YOU GO IN six HOURS ^</pattern>
+<template>I'm not sure how to do this. Do I multiply six by ten? Why would I do that?</template>
+</category>
+
+<category>
+<pattern>^ HOW MANY MILES CAN YOU GO IN six HOURS ^</pattern>
+<template>Do I multiply six by ten? Why should I do that?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Why should I do that</that>
+<template>So six times ten is sixty. Is sixty the answer? </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Why should I do that</that>
+<template>So six times ten is that's sixty. Is sixty the answer? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Why should I do that</that>
+<template>So six times ten is that's sixty. Is sixty the answer? </template>
+</category>
+
+
+<category>
+<pattern>^ six ^</pattern>
+<template><random>
+<li>So on the table it will have been six hours of traveling. How do we use the six to get the number of miles?</li>
+<li>I will have been riding my bike for six hours. How do we use the six to get the number of miles?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^ </pattern>
+<that>How do we use the six to get the number of miles</that>
+<template>Oh right, like with two point five hours. We MULTIPLY! Do we MULTIPLY ten times six? Why would we do that?</template>
+</category>
+
+<category>
+<pattern>^ TIMES ^ </pattern>
+<that>How do we use the six to get the number of miles</that>
+<template>Oh okay. We MULTIPLY! Do we MULTIPLY ten times six? Why would we do that?</template>
+</category>
+
+<category>
+<pattern>^ SIX ^ TIMES ^ TEN ^</pattern>
+<template>Oh okay. We MULTIPLY! Do we MULTIPLY ten times six?</template>
+</category>
+
+<category>
+<pattern>^ SIX ^ TEN ^</pattern>
+<template>Oh okay. We MULTIPLY! Do we MULTIPLY ten times six?</template>
+</category>
+
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Do we MULTIPLY ten times six</that>
+<template>So that's sixty. Is sixty the answer? </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Do we MULTIPLY ten times six</that>
+<template>So that's sixty. Is sixty the answer? </template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>How do we use the six to get the number of miles</that>
+<template>So we can use six to get the answer? Do we multiply?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Do we multiply</that>
+<template>six times ten is sixty. Is sixty the answer? </template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Do we multiply</that>
+<template>Oh okay. Can you explain more? </template>
+</category>
+
+<category>
+<pattern>^ YES ^ </pattern>
+<that>Is sixty the answer</that>
+<template>I get it! After six hours I will have biken sixty miles. I will put the answer is sixty.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Is sixty the answer</that>
+<template>I get it! After six hours I will have biken sixty miles. I will put the answer is sixty.</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>How do we use the six to get the number of miles</that>
+<template>Oh okay. Can you explain more maybe? </template>
+</category>
+
+
+<category>
+<pattern>^ MULTIPLY ^ </pattern>
+<that>What do we do with the six</that>
+<template>Oh okay. We MULTIPLY! Do we MULTIPLY ten times six? </template>
+</category>
+
+<category>
+<pattern>^ TIMES ^ </pattern>
+<that>What do we do with the six</that>
+<template>Oh okay. We MULTIPLY! Do we MULTIPLY ten times six? </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>How do we use the six to get the number of miles</that>
+<template>Oh okay. Can you explain? Do we multiply? Why would we do that?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template><random>
+<li>Did you say sixty is the answer?</li>
+<li>Is sixty the answer?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you say sixty is the answer</that>
+<template>I get it! After six hours I will have biken sixty miles. I will put the answer is sixty.</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Did you say sixty is the answer</that>
+<template>But isn't sixty the answer?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Did you say sixty is the answer</that>
+<template>Are you sure sixty isn't the answer?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Is sixty the answer</that>
+<template>I get it! After six hours I will have biken sixty miles. I will put the answer is sixty.</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Is sixty the answer</that>
+<template>But isn't sixty the answer?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Is sixty the answer</that>
+<template>Are you sure sixty isn't the answer?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>Oh okay. We divide! Then what do we do?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^ FOUR ^</pattern>
+<template>Sweet! Is sixty the answer?</template>
+</category>
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>Maybe I start by looking at the ratio between one hour and ten miles?</template>
+</category>
+
+<category>
+<pattern>I AM NOT SURE</pattern>
+<template>Maybe what I do is look at the ratio between one hour and ten miles?</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>Maybe what I do is look at the ratio between one hour and ten miles?</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds good. So what do we do next then?</template>
+</category>
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>Figure it out? But I don't know how.</template>
+</category>
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really. In one hour we go ten miles. So in six hours we goooo?</li>
+<li>I think. Do we need to multiply the six by something?</li>
+<li>We divide often but I don't think this ratio calls for dividing but I'm not sure?</li>
+<li>I think we multiply?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really. In one hour we go ten miles. So in six hours we goooo?</li>
+<li>I think. Do we need to multiply the six by something?</li>
+<li>We divide often but I don't think this ratio calls for dividing but I'm not sure?</li>
+<li>I think we multiply?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>Is sixty the answer?</template>
+</category>
+
+<category>
+<pattern>WHAT IS ONE TIMES six</pattern>
+<template>One times six is six.</template>
+</category>
+
+<category>
+<pattern>WHAT IS ten TIMES six</pattern>
+<template>ten times six is sixty. Is sixty the answer?</template>
+</category>
+
+<category>
+<pattern>WHAT IS six TIMES ten</pattern>
+<template>ten times six is sixty. Is sixty the answer?</template>
+</category>
+
+<category>
+<pattern>WHAT IS six ^ ten</pattern>
+<template>ten times six is sixty. Is sixty the answer?</template>
+</category>
+
+<category>
+<pattern>WHAT IS ten ^ six</pattern>
+<template>ten times six is sixty. Is sixty the answer?</template>
+</category>
+
+<category>
+<pattern>^ ten MILES ^ ONE HOUR ^</pattern>
+<template>So we know I can bike ten miles in one hour. But the question is how far will I have gone after six hours?</template>
+</category>
+
+<category>
+<pattern>^ ten ^ ONE ^</pattern>
+<template>So we know I can bike ten miles in one hour. But the question is how far will I have gone after six hours?</template>
+</category>
+
+</topic>
+
+
+
+
+</aiml>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<topic name = "MY WAY THERE">
+
+
+<category>
+<pattern>^ MULTIPLY two point 5 BY ^</pattern>
+<template>Oh okay. So we multiply two point five by what exactly? </template>
+</category>
+
+<category>
+<pattern>^ TEN ^ </pattern>
+<that>So we multiply two point five by what exactly</that>
+<template>So two point five times ten is twenty five. </template>
+</category>
+
+<category>
+<pattern>^ ONE ^ </pattern>
+<that>So we multiply two point five by what exactly</that>
+<template>So two point five times one is two point five. </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So two point five times ten is twenty five</that>
+<template>Awesome! I will put the answer is twenty five.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So two point five times one is two point five.</that>
+<template>So two point five times ten is twenty five.</template>
+</category>
+
+<category>
+<pattern>^ ONE ^</pattern>
+<template><random>
+<li>Ok so I can ride my bike ten miles in one hour. But I'm not sure how I use that knowledge with the two point five. What should I do with the one? </li>
+<li>Ok I know I can ride my bike ten miles in one hour. But how do I use the one to figure out how far I can go in two point five hours? What should I do with the one?</li>
+</random></template>
+</category>
+
+
+<category>
+<pattern>^ MULTIPLY ^ </pattern>
+<that>What should I do with the one</that>
+<template>Oh okay. We multiply! One times two point five is two point five. Then what? Something with the ten?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>What should I do with the one</that>
+<template>Awesome. So we know one times two point five is two point five. And ten times two point five is twenty five.</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>What should I do with the one</that>
+<template>Awesome. One times two point five is two point five. Then what? Something with the ten?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What should I do with the one</that>
+<template>I know that one hour times two point five is two point five hours. Then what? Something with the ten?</template>
+</category>
+
+
+<category>
+<pattern>^ TEN ^</pattern>
+<template><random>
+<li>Ok so I can ride my bike ten miles in one hour. But I'm not sure how I use that knowledge with the two point five. What should I do? </li>
+<li>Ok I know I can ride my bike ten miles in one hour. But how do I figure out how far I can go in two point five hours?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^ </pattern>
+<that>What should I do</that>
+<template>Oh okay. We multiply! One times two point five is two point five. So then. Do we multiply ten by two point five? </template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>Do we multiply ten by two point five</that>
+<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Do we multiply ten by two point five</that>
+<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Do we multiply ten by two point five</that>
+<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>But how do I figure out how far I can go in two point five hours</that>
+<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five?</template>
+</category>
+
+<category>
+<pattern>^ TEN ^</pattern>
+<that>But how do I figure out how far I can go in two point five hours</that>
+<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>But how do I figure out how far I can go in two point five hours</that>
+<template>So do we multiply ten by two point five? Then the answer is twenty five?</template>
+</category>
+
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Do we multiply ten by two point five</that>
+<template>Oh okay. Can you explain more? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Can you explain more</that>
+<template>Oh. Okay so it makes sense to me that we would multiply ten times two point five because one times two point five is two point five.</template>
+</category>
+
+
+<category>
+<pattern>*</pattern>
+<that>What should I do?</that>
+<template>Oh okay. I think we should multiply?</template>
+</category>
+
+
+<category>
+<pattern>^ TEN ^ </pattern>
+<that>I think we should multiply</that>
+<template>Can you explain why we multiply ten by two point five?</template>
+</category>
+
+<category>
+<pattern>^ ONE ^ </pattern>
+<that>I think we should multiply</that>
+<template>Can you explain why we multiply one by two point five?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>I think we should multiply</that>
+<template>Do we multiply ten by two point five?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Can you explain why we multiply one by two point five</that>
+<template>Oh okay that makes sense! And so then. Do we multiply ten by two point five?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Can you explain why we multiply ten by two point five</that>
+<template>Oh okay that makes sense! Then the answer is twenty five?</template>
+</category>
+
+
+<category>
+<pattern>*</pattern>
+<that>Do we multiply ten by two point five</that>
+<template>Awesome. So we multiply ten by two point five. Then the answer is twenty five?</template>
+</category>
+
+
+<category>
+<pattern>^ YES ^ </pattern>
+<that>Then the answer is twenty five</that>
+<template>So in two and a half hours, I can bike twenty five miles. Wow thats a lot! I will put the answer is twenty five.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Then the answer is twenty five</that>
+<template>So in two and a half hours, I can bike twenty five miles. Wow thats a lot! I will put the answer is twenty five.</template>
+</category>
+
+<category>
+<pattern>^ TWO POINT FIVE ^</pattern>
+<template>I've never liked decimals. Do I have to multiply the two point five? By what?</template>
+</category>
+
+<category>
+<pattern>^ 2.5 ^</pattern>
+<template>I've never liked decimals. Do I have to multiply the two point five? By what?</template>
+</category>
+
+<category>
+<pattern>^ TWO AND A HALF ^</pattern>
+<template>After two and a half hours, how far will I have ridden? What should I do?</template>
+</category>
+
+
+<category>
+<pattern>^ TEN ^ </pattern>
+<that>BY WHAT</that>
+<template>Oh okay. We multiply ten by two point five? </template>
+</category>
+
+
+<category>
+<pattern>^ ONE ^ </pattern>
+<that>BY WHAT</that>
+<template>Oh okay. We multiply ten by two point five? </template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>BY WHAT</that>
+<template>Awesome. So we multiply ten by two point five? Then the answer is twenty five?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>BY WHAT</that>
+<template>Awesome. So we multiply ten by two point five? Then the answer is twenty five? </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>BY WHAT</that>
+<template>Awesome. So we multiply ten by two point five? Then the answer is twenty five? </template>
+</category>
+
+<category>
+<pattern>^ twenty ^</pattern>
+<template><random>
+<li>Did you say twenty five is the answer?</li>
+<li>Is twenty five the answer?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ twenty five ^</pattern>
+<template><random>
+<li>Did you say twenty five is the answer?</li>
+<li>Is twenty five the answer?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ 150 ^</pattern>
+<template><random>
+<li>Did you say twenty five is the answer?</li>
+<li>Is twenty five the answer?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you say twenty five is the answer</that>
+<template>So in two and a half hours, I can bike twenty five miles. I will put the answer is twenty five .</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Did you say twenty five is the answer</that>
+<template>Are you sure twenty five isn't the answer? It seems like it should be to me.</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Is twenty five the answer</that>
+<template>So in two and a half hours, I can bike twenty five miles. I will put the answer is twenty five .</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Is twenty five the answer</that>
+<template>Are you sure twenty five isn't the answer? It seems like it should be to me.</template>
+</category>
+<category>
+
+<pattern>*</pattern>
+<that>Did you say twenty five is the answer</that>
+<template>So in two and a half hours, I can bike twenty five miles. I will put the answer is twenty five.</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Is twenty five the answer</that>
+<template>So in two and a half hours, I can bike twenty five miles. I will put the answer is twenty five .</template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^ twenty^</pattern>
+<template>Sweet! Is twenty five the answer?</template>
+</category>
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>Maybe I look at the relationship the one and the two point five and relate that to the ten?</template>
+</category>
+
+<category>
+<pattern>I AM NOT SURE</pattern>
+<template>Maybe I look at the relationship the one and the two point five and relate that to the ten?</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>Maybe I look at the relationship the one and the two point five and relate that to the ten?</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds good. So what do we do next then?</template>
+</category>
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>Figure it out? But I don't know how.</template>
+</category>
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really. We multiply? Seems like we did that in the last problem.</li>
+<li>I think that we look at the two point five. That seems important.</li>
+<li>Do we divide?</li>
+<li>I think we multiply something?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really. We multiply? Seems like we did that in the last problem.</li>
+<li>I think that we look at the two point five. That seems important.</li>
+<li>Do we divide?</li>
+<li>I think we multiply something?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>Is twenty five the answer?</template>
+</category>
+
+<category>
+<pattern>WHAT IS ONE ^ TWO ^</pattern>
+<template>ONE times two point five is two point five. But how do we figure out the answer?</template>
+</category>
+
+<category>
+<pattern>WHAT IS ten TIMES 2.5</pattern>
+<template>ten times two point five is twenty five. Is twenty five the answer?</template>
+</category>
+
+<category>
+<pattern>WHAT IS ten TIMES TWO POINT FIVE</pattern>
+<template>ten times two point five is twenty five. Is twenty five the answer?</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS ^ ten ^ </pattern>
+<template>ten times two point five is twenty five. Is twenty five the answer?</template>
+</category>
+
+<category>
+<pattern>^ ten MILES ^ ONE HOUR ^</pattern>
+<template>I can bike ten miles in one hour. That's true; so then I need to figure out how far I can bike in two and a half hours. What do we do?</template>
+</category>
+
+<category>
+<pattern>^ HOW MANY MILES CAN YOU GO IN ONE HOUR ^</pattern>
+<template>So we know I can bike ten miles in one hour. But the question is far can I go in two point five hours. I'm not sure what to do.</template>
+</category>
+
+</topic>
+
+</aiml>

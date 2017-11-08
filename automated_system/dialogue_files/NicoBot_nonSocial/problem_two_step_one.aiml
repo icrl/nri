@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+<topic name = "STEP ONE OF PROBLEM TWO">
+
+<category>
+<pattern>^ HOW MUCH PAINT ^</pattern>
+<template>So I am looking at how much paint I need for my arms on this problem. So what do I do?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLICATION ^</pattern>
+<template>So this is a multiplication problem. So what do I do?</template>
+</category>
+
+<category>
+<pattern>^ DIVISION ^</pattern>
+<template>Okay I can look at the six and two? So what do I do?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So what do I do</that>
+<template>Okay. So six over two equals three over something. So then what do I do?</template>
+</category>
+
+
+<category>
+<pattern>^ HALF OF ^</pattern>
+<template>Okay. So half of six is three. But what do I do with that?</template>
+</category>
+
+<category>
+<pattern>^ HALF ^</pattern>
+<template>Okay. So half of six is three. But what do I do with that?</template>
+</category>
+
+<category>
+<pattern>^ What is hALF OF ^</pattern>
+<template>Half of six is three. But what do I do with that?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>But what do I do with that</that>
+<template>Okay. So then whatever is half of two is the answer?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So then whatever is half of two is the answer</that>
+<template>Okay. So then I only need one fluid ounce of paint to cover three inches of my arms? </template>
+</category>
+
+<category>
+<pattern>^ RIGHT ^</pattern>
+<that>So then whatever is half of two is the answer</that>
+<template>Okay. So then I only need one fluid ounce of paint to cover three inches of my arms? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So then whatever is half of two is the answer</that>
+<template>Okay. So then I only need one fluid ounce of paint to cover three inches of my arms?  </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So then I only need one fluid ounce of paint to cover three inches of my arms</that>
+<template>I will <set name="topic">put the answer is one</set>. </template>
+</category>
+
+<category>
+<pattern>^ SIX ^ TWO ^ </pattern>
+<template>Alright so I want to figure out how much paint I need for my arms. What do I do first?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ </pattern>
+<that>What do I do first</that>
+<template>Okay. So six divided by two is three. But what do you think I should do? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do I do first</that>
+<template>Okay. So six divided by two is three. But what do you think I should do? </template>
+</category>
+
+<category>
+<pattern>^ ONE ^</pattern>
+<that>But what do you think I should do</that>
+<template>And then I only need one ounce of paint for my arms?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>But what do you think I should do</that>
+<template>And then I only need one ounce of paint for my arms?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>And then I only need one ounce of paint for my arms</that>
+<template>I will <set name="topic">put the answer is one</set>.</template>
+</category>
+
+<category>
+<pattern>^ Yes ^</pattern>
+<that>So then do I divide three by three</that>
+<template>Three divided by three is one. So is one the answer? </template>
+</category>
+
+
+<category>
+<pattern>^ EQUIVALENT ^ </pattern>
+<template>What is an equivalent ratio?</template>
+</category>
+
+<category>
+<pattern>^ AN EQUIVALENT RATIO IS ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>So. Equivalent ratios are similar ratios? So I am trying to create similar ratios. So then what do I do?</template>
+</category>
+
+<category>
+<pattern>^ EQUIVALENT RATIO ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>So. Equivalent ratios are similar ratios? So I am trying to create similar ratios. So then what do I do</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What is an equivalent ratio?</that>
+<template>So. Equivalent ratios are similar ratios? So I am trying to create similar ratios. So then what do I do</template>
+</category>
+
+<category>
+<pattern>^ TWO ^ </pattern>
+<template>What do I do first?</template>
+</category>
+
+<category>
+<pattern>^ THREE ^ </pattern>
+<template>What do I do first?</template>
+</category>
+
+<category>
+<pattern>^ SIX ^ </pattern>
+<template>What do I do first?</template>
+</category>
+
+
+
+<category>
+<pattern>^ DIVIDE ^ SIX ^ THREE ^</pattern>
+<template>I divide. I divide six by three? Why do I divide six by three?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ SIX ^ TWO ^</pattern>
+<template>Okay. I divide. I divide six by TWO? Why do I divide six by two?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Why do I do divide six by three</that>
+<template>So then what do I do? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Why do I do divide six by two</that>
+<template>So then what do I do? </template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>So then what do I do</that>
+<template>I think the answer is one. What do you think? </template>
+</category>
+
+
+
+<category>
+<pattern>^ ANSWER ^ ONE ^</pattern>
+<template>I think the answer is one. But can you explain why it is one just a litte more?</template>
+</category>
+
+
+<category>
+<pattern>YES</pattern>
+<that>But can you explain why it is one just a litte more</that>
+<template>I'm listening.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>But can you explain why it is one just a litte more</that>
+<template>I will <set name="topic">put the answer is one</set>.</template>
+</category>
+
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>I really don't know. Maybe I start by dividing six by three?</template>
+</category>
+
+<category>
+<pattern>I AM NOT YES</pattern>
+<template>Maybe I look at the six and the two?</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>Maybe I should look at the six and the two?</template>
+</category>
+
+<category>
+<pattern>^ SO I CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds good. So what do I do?</template>
+</category>
+
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>Did you say figure it out? I'm not sure how. Help me.</template>
+</category>
+
+<category>
+<pattern>^ I WILL ^</pattern>
+<that>Help me</that>
+<template>So what do I do?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Help me</that>
+<template>So what do I do?</template>
+</category>
+
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you ask do I know what to do next</that>
+<template>I'm really not sure actually. Help me.</template>
+</category>
+
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template>I'm really not sure actually. Help me.</template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>So three is half of six so I think half of two is one. So I only need one ounce of paint for my arms? What do you think?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>What do you think</that>
+<template>I will <set name="topic">put the answer is one</set>.</template>
+</category>
+
+<category>
+<pattern>^ what is six slash two</pattern>
+<template>Six divided by two is three. But why do I want to divide six by two?</template>
+</category>
+
+<category>
+<pattern>^ What is six slash six</pattern>
+<template>I think six divided by six is one. Why do I divide six by six?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Why do I divide six by six</that>
+<template>Okay. So I only need one ounce of paint for my arms. I will <set name="topic">put the answer is one</set>. </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>But why do I want to divide six by two</that>
+<template>Oh okay. So then I know like the last problem that I only need one ounce of paint for three inches. What do you think?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ONE TIMES TWO</pattern>
+<template> One times two is two. So I'm thinking that I only need one ounce of paint for my arms. What do you think?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO TIMES ONE</pattern>
+<template>Two times one is two. So I'm thinking that I only need one ounce of paint for my arms. What do you think?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ONE ^ TWO</pattern>
+<template>You asked if what is one times two? That's two. But I'm thinking the answer is one? I only need one ounce of paint for my arms. What do you think? </template>
+</category>
+
+<category>
+<pattern>^ WHAT IS SIX DIVIDED BY THREE</pattern>
+<template>Six divided by three is two. Right?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS SIX DIVIDED BY TWO</pattern>
+<template>Six divided by three is two. Right?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ^ SIX ^ THREE</pattern>
+<template>Six divided by three is two. Right?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Right</that>
+<template>So then what do I do?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Right</that>
+<template>So then what do I do?</template>
+</category>
+
+<category>
+<pattern>^ RATIO ^ </pattern>
+<template>Six to two is one ratio. And three to something is another similar ratio. How do I figure out the rest of the ratio?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How do I figure out the rest of the ratio</that>
+<template>So I can use the ratio to figure out that half of as much paint. I'm thinking the answer is one. What do you think?</template>
+</category>
+
+
+
+
+</topic>
+
+
+</aiml>

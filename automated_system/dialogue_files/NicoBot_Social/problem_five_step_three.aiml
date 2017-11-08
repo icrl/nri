@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<topic name = "I swim this fast">
+
+<category>
+<pattern>^ look at ^</pattern>
+<template>So the pool is eighty feet. Nancy swam it in eighteen seconds. Do you think I can beat her? </template>
+</category>
+
+<category>
+<pattern>^ Step Zero ^</pattern>
+<template>So if we use step zero again, we can figure out how long it took me to go eighty feet? How do we do that?</template>
+</category>
+
+<category>
+<pattern>^ last time ^</pattern>
+<template>So we do the same thing again and use the one over four? </template>
+</category>
+
+<category>
+<pattern>^ using ^ time ^</pattern>
+<template>Okay so based on the time it took me to go 10 feet, we can figure out how long it took me to go 80 feet. But how do we do that?</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>Okay! So we can use the ratio of the time it takes me to swim 10 feet, similar to the last problem. How do we do that?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How do we do that</that>
+<template>Sweet! Do you think I can beat her?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Do you think I can beat her</that>
+<template>I sure hope I can beat her. I think I might not though. Maybe I will have to actually race her to find out! Anyway. So we do the same thing again and use the one over four? </template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Do you think I can beat her</that>
+<template>I sure hope I can beat her. I think I might not though. Maybe I will have to actually race her to find out! Anyway. So we do the same thing again and use the one over four? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Do you think I can beat her</that>
+<template>I sure hope I can beat her. Anyway. So we do the same thing again and use the one over four?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So we do the same thing again and use the one over four</that>
+<template>Okay if we multiply one times eighty, that gives eighty. And then we can divide eighty by four.</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>And then we can divide eighty by four</that>
+<template>It looks like I'm not going to beat her. Twenty seconds is two seconds slower than her time of eighteen!  Maybe I should challenge her to a race!</template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^ </pattern>
+<template>I think the answer is twenty? How did we get twenty again? </template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>How did we get twenty again</that>
+<template>Oh right! I'll put the answer is twenty. It looks like I'm not going to beat her. Maybe I should challenge her to a race!  </template>
+</category>
+
+<category>
+<pattern>^ TWENTY ^</pattern>
+<template>I think the answer is twenty? How did we get twenty again?</template>
+</category>
+
+<category>
+<pattern>^ SAME ^ </pattern>
+<template>So we do the same thing again and use the one over four? </template>
+</category>
+
+
+</topic>
+
+
+
+</aiml>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>PROBLEM START 3</pattern>
+<template>Now I need help figuring out how to get to the pool! Can you help me figure out where and when I can stop to rest on <set name="topic">MY WAY THERE</set>?</template>
+</category>
+
+<category>
+<pattern>next step 3 2</pattern>
+<template>Can you give me a hint for <set name="topic">STEP TWO OF THIS THIRD PROBLEM</set>?</template>
+</category>
+
+<category>
+<pattern>next step 3 3</pattern>
+<template>We're on <set name="topic">STEP THREE OF THIS THIRD PROBLEM</set>. How do we do this one?</template>
+</category>
+
+<category>
+<pattern>prior step 3 1</pattern>
+<template>Are you going to help me figure out how far my first stop is on <set name="topic">MY WAY THERE</set> to the pool?</template>
+</category>
+
+<category>
+<pattern>prior step 3 2</pattern>
+<template>Oh we're back on <set name="topic">STEP TWO OF THIS THIRD PROBLEM</set></template>
+</category>
+
+<category>
+<pattern>prior step 3 1 a</pattern>
+<template>Didn't we already <set name="topic">do step one for problem THREE</set>?</template>
+</category>
+
+<category>
+<pattern>prior step 3 2 a</pattern>
+<template>Didn't we already <set name="topic">do step two for problem THREE</set>?</template>
+</category>
+
+
+<category>
+<pattern>next step 3 2 a</pattern>
+<template>Didn't we already <set name="topic">do step two for problem THREE</set>?</template>
+</category>
+
+<category>
+<pattern>next step 3 3 a</pattern>
+<template>Didn't we already <set name="topic">do step three for problem THREE</set>?</template>
+</category>
+
+
+<category>
+<pattern>3 1</pattern>
+<template><set name="topic">STEP ONE OF THIS THIRD PROBLEM</set></template>
+</category>
+
+<category>
+<pattern>3 2</pattern>
+<template><set name="topic">STEP TWO OF THIS THIRD PROBLEM</set></template>
+</category>
+
+<category>
+<pattern>3 3</pattern>
+<template><set name="topic">STEP THREE OF THIS THIRD PROBLEM</set></template>
+</category>
+
+
+
+<topic name = "DO STEP ONE for PROBLEM THREE">
+
+  <category>
+  <pattern>*</pattern>
+  <template><random>
+  <li>I don't really understand why I'm back on step one cause I figured this out.</li>
+  <li>Why am I back on step two for this problem? I already figured out that it is twenty five miles</li>
+  <li>I should go to the next step or problem because I already know how to do this one.</li>
+  <li>I'm bored. I already did this step.</li>
+  <li>The answer is twenty five isn't it?</li>
+  <li>Why am I here?</li>
+  </random></template>
+  </category>
+
+</topic>
+
+<topic name = "DO STEP TWO for PROBLEM THREE">
+
+  <category>
+  <pattern>*</pattern>
+  <template><random>
+  <li>I don't really understand why I'm back on step two cause we figured this out. After thirty miles, I will have been traveling for five hours.</li>
+  <li>Why am I back on step two for this problem? I already figured out that after thirty miles I will have been traveling for five hours.</li>
+  <li>I should go to the next step or problem because I already know how to do this one.</li>
+  <li>I'm bored. I already did this step.</li>
+  <li>The answer is five hours isn't it?</li>
+  <li>Why am I here?</li>
+  </random></template>
+  </category>
+
+</topic>
+
+<topic name = "DO STEP THREE for PROBLEM THREE">
+
+  <category>
+  <pattern>*</pattern>
+  <template><random>
+  <li>I don't really understand why I'm back on step three cause I figured this out. After six hours I will have traveled sixty miles.</li>
+  <li>Why am I back on step three for this problem? I already figured out that it is sixty miles.</li>
+  <li>I should go to the next step or problem because I already know how to do this one.</li>
+  <li>I'm bored. I already did this step.</li>
+  <li>The answer is sixty isn't it?</li>
+  <li>Why am I here?</li>
+  </random></template>
+  </category>
+
+</topic>
+
+
+  <topic name = "PUT THE ANSWER IS TWENTY FIVE">
+
+    <category>
+      <pattern>*</pattern>
+      <template>Lets figure out how many hours it will take for me to go thirty miles.</template>
+
+      <category>
+        <pattern>^ GREAT ^</pattern>
+        <template>What's next?</template>
+      </category>
+
+
+      <category>
+        <pattern>^ Good ^</pattern>
+        <template>What's next?</template>
+      </category>
+
+      <category>
+        <pattern>^ NEXT ^</pattern>
+        <template>What's next?</template>
+      </category>
+
+    </category>
+
+  </topic>
+
+  <topic name = "put the answer is three">
+
+    <category>
+      <pattern>*</pattern>
+      <template>To the next step?</template>
+    </category>
+
+    <category>
+      <pattern>^ GREAT ^</pattern>
+      <template>What's next?</template>
+    </category>
+
+
+    <category>
+      <pattern>^ Good ^</pattern>
+      <template>What's next?</template>
+    </category>
+
+    <category>
+      <pattern>^ NEXT ^</pattern>
+      <template>What's next?</template>
+    </category>
+
+
+  </topic>
+
+  <topic name = "put the answer is sixty">
+
+    <category>
+      <pattern>*</pattern>
+      <template>Do you want to go to the next problem?</template>
+    </category>
+
+    <category>
+      <pattern>^ GREAT ^</pattern>
+      <template>What's next?</template>
+    </category>
+
+
+    <category>
+      <pattern>^ Good ^</pattern>
+      <template>What's next?</template>
+    </category>
+
+    <category>
+      <pattern>^ NEXT ^</pattern>
+      <template>What's next?</template>
+    </category>
+
+
+  </topic>
+
+
+</aiml>

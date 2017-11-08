@@ -1,0 +1,1931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>PROBLEM START 7</pattern>
+<template>Thank you for helping me figure out how many total M and M's there are. But I really love blue M and M's. Do you think we could figure out <set name="topic">how many blue</set> M and M's we would have for different numbers of bags?</template>
+</category>
+
+<category>
+<pattern>PROBLEM START SEVEN</pattern>
+<template>Thank you for helping me figure out how many total M and M's there are. But I really love blue M and M's. Do you think we could figure out <set name="topic">how many blue</set> M and M's we would have for different numbers of bags?</template>
+</category>
+
+<category>
+<pattern>next step 7 2</pattern>
+<template>Can you give me a hint for figuring out how many blue M and M's <set name="topic">are in five bags</set> of candies?
+</template>
+</category>
+
+<category>
+<pattern>next step 7 3</pattern>
+<template>Yay! Seven hundred and seventy M and M's! Can you help me figure out how many blue M and M's <set name="topic">are in seven bags</set>?
+</template>
+</category>
+
+<category>
+<pattern>prior step 7 1</pattern>
+<template>Okay back to figuring out <set name="topic">how many blue</set> M and M's are in just two bags.
+</template>
+</category>
+
+<category>
+<pattern>prior step 7 2</pattern>
+<template>So, how do we figure out how many M and M's <set name="topic">are in five bags</set> of candies?</template>
+</category>
+
+
+<category>
+<pattern>prior step 7 1 a</pattern>
+<template>I thought we already figured this out. There are <set name="topic">twenty two blue</set> M and M's in two bags right?</template>
+</category>
+
+<category>
+<pattern>prior step 7 2 a</pattern>
+<template>We already know there will be <set name="topic">fifty five blue</set> M and M's out of five hundred and fifty.</template>
+</category>
+
+<category>
+<pattern>next step 7 2 a</pattern>
+<template>We definitely already know that there are <set name="topic">fifty five blue</set> M and M's in five bags.</template>
+</category>
+
+<category>
+<pattern>next step 7 3 a</pattern>
+<template>We know that there are <set name="topic">seventy seven blue</set> candies in seven bags.</template>
+</category>
+
+<category>
+<pattern>7 1</pattern>
+<template><set name="topic">STEP ONE PROBLEM SEVEN</set></template>
+</category>
+
+<category>
+<pattern>7 2</pattern>
+<template><set name="topic">STEP TWO PROBLEM SEVEN</set></template>
+</category>
+
+<category>
+<pattern>7 3</pattern>
+<template><set name="topic">STEP THREE PROBLEM SEVEN</set></template>
+</category>
+
+
+<topic name = "how many blue">
+
+<category>
+<pattern>^ MULTIPLY ^ ONEONE ^ TWO</pattern>
+<template>So. We can just multiply eleven by two?</template>
+</category>
+
+<category>
+<pattern>^ DOUBLE ^</pattern>
+<template>So we can just double the eleven?  We can just multiply eleven by two?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>WE CAN JUST MULTIPLY ELEVEN BY TWO</that>
+<template>Oh okay. So that is twenty two.</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>So we can just multiply eleven by two</that>
+<template>Oh okay. So that is twenty two.</template>
+</category>
+
+<category>
+<pattern>^ EQUIVALENT ^ </pattern>
+<template>What is an equivalent ratio?</template>
+</category>
+
+<category>
+<pattern>^ AN EQUIVALENT RATIO IS ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ EQUIVALENT RATIO ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<template>Hmmm. Can you explain more what you mean?</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<template>Hmmm. Can you explain more what you mean?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>Hmmm. Can you explain more what you mean?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Can you explain more what you mean</that>
+<template>Oh okay. I think I understand. So we can reduce the fraction. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<template>I really like multiplying. Do we multiply two hundred and twenty times eleven?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Do we multiply two hundred and twenty times eleven</that>
+<template>Oh okay. Would it be better to simplify first?</template>
+</category>
+
+<category>
+<pattern>^ ONEONE ^</pattern>
+<that>Do we multiply two hundred and twenty times eleven</that>
+<template>Could we just double the eleven?  We can just multiply eleven by two?</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Do we multiply two hundred and twenty times eleven</that>
+<template>Oh okay. I think then. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>^ NO ^ ONEONE ^</pattern>
+<that>Do we multiply two hundred and twenty times one</that>
+<template>Could we just double the eleven?  We can just multiply eleven by two?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Do we multiply two hundred and twenty times eleven</that>
+<template>Oh okay. I think then. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>^ CROSS ^ MULTIPLY ^</pattern>
+<template>Okay! So we cross multiply. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>^ OVER ^</pattern>
+<template>So like the last problem, we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
+</category>
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So first we can simplify the fraction by dividing right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So if we reduce the fraction. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Sweet! So then. We can simplify the fraction. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So it becomes ten over one</that>
+<template>Okay cool! Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Do we multiply two hundred and twenty times one</that>
+<template>So two hundred and twenty times one is just itself, two hundred and twenty. So then what do we do next?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Do we multiply two hundred and twenty times one</that>
+<template>So two hundred and twenty times one is just itself, two hundred and twenty. So then what do we do next?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ </pattern>
+<that>So then what do we do next</that>
+<template>So we cross multiplied and now we divide by ten? Two hundred and twenty two divided by ten is twenty two?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So then what do we do next</that>
+<template>So we cross multiplied and now we divide by ten? Two hundred and twenty two divided by ten is twenty two?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Two hundred and twenty two divided by ten is twenty two</that>
+<template>So is the answer twenty two candies?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So is the answer twenty two candies</that>
+<template>Wonderful! So out of two hundred and twenty M and M's, twenty two are blue. I will put the answer is twenty two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So is the answer twenty two candies</that>
+<template>Wonderful! So out of two hundred and twenty M and M's, twenty two are blue. I will put the answer is twenty two.</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>So like the last problem, we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>Hmmm. Is the answer twenty two? How did we get that again?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How did we get that again</that>
+<template>Oh okay! I get it. I will put the answer is twenty two.</template>
+</category>
+
+<category>
+<pattern>^ TWICE ^</pattern>
+<template>Ah. Are you saying that two hundred and twenty is twice that of one hundred and ten? So what is twice of eleven will give us the number of blue candies?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So what is twice of eleven will give us the number of blue candies</that>
+<template>Okay! Eleven times two is twenty two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So what is twice of eleven will give us the number of blue candies</that>
+<template>Okay! Eleven times two is twenty two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Eleven times two is twenty two.</that>
+<template>So is the answer twenty two candies?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ONE TIMES TWO HUNDRED AND TWENTY TWO ^</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO HUNDRED AND TWENTY TWO TIMES ONE ^</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ TWO HUNDRED AND TWENTY TWO ^ TIMES ^ ONE</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ TWO HUNDRED AND TWENTY TWO ^ MULTIPLIED ^ ONE</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ TWO HUNDRED AND TWENTY ^ TEN </pattern>
+<template>Two hundred and twenty divided by ten is twenty two.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE TWO HUNDRED AND TWENTY TWO BY TEN ^</pattern>
+<template>Two hundred and twenty divided by ten is twenty two</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO HUNDRED AND TWENTY TWO DIVIDED BY TEN ^</pattern>
+<template>Two hundred and twenty divided by ten is twenty two. So is the answer twenty two candies?</template>
+</category>
+
+
+<category>
+<pattern>^ TWENTY TWO ^</pattern>
+<template><random>
+<li>Did you say TWENTY TWO is the answer?</li>
+<li>Is TWENTY TWO the answer?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you say TWENTY TWO is the answer</that>
+<template>Cool! So we have TWENTY TWO blue candies out of two hundred and twenty. I will put the answer is TWENTY two.</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Did you say TWENTY TWO is the answer</that>
+<template>Oh. But TWO HUNDRED AND TWENTY divided by ten is TWENTY TWO. Are you sure TWENTY TWO isn't the answer?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^ TWENTY TWO ^</pattern>
+<template>Sweet! I will put the answer is TWENTY TWO candies.</template>
+</category>
+
+<category>
+<pattern>^ BAGS ^ </pattern>
+<template>So we need to know how many blue M and M's I will have with two bags of two hundred and twenty candies. How do we figure this out?</template>
+</category>
+
+
+<category>
+<pattern>^ ONE HUNDRED AND TEN to Eleven ^ </pattern>
+<template>So we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
+</category>
+
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>Maybe I start by multiplying?</template>
+</category>
+
+<category>
+<pattern>I AM NOT SURE</pattern>
+<template>Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>Me either. Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds good. So what do we do next then?</template>
+</category>
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>Figure it out? But I don't know how.</template>
+</category>
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+</topic>
+
+
+<topic name = "are in five bags">
+
+<category>
+<pattern>^ EQUIVALENT ^ </pattern>
+<template>What is an equivalent ratio?</template>
+</category>
+
+<category>
+<pattern>^ AN EQUIVALENT RATIO IS ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ EQUIVALENT RATIO ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<template>Okay! So once again we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<template>Okay! So once again we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>Okay! So like in step one first we can simplify the fraction by dividing right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<template>I really like multiplying. Do we multiply five hundred and fifty times one?</template>
+</category>
+
+<category>
+<pattern>^ CROSS ^ MULTIPLY ^</pattern>
+<template>Okay! So same as in step one. We cross multiply. Do we multiply five hundred and fifty times one?</template>
+</category>
+
+<category>
+<pattern>^ OVER ^</pattern>
+<template>So like the last problem, we make a ratio. We put one hundred and ten over eleven equals five hundred and fifty over something?</template>
+</category>
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<that>We put one hundred and ten over eleven equals five hundred and fifty over something</that>
+<template>So same as step one, we can reduce the fraction? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<that>We put one hundred and ten over eleven equals five hundred and fifty over something</that>
+<template>So same as step one, we can reduce the fraction? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<that>We put one hundred and ten over eleven equals five hundred and fifty over something</that>
+<template>Okay! So first we can simplify the fraction by dividing right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that>We put one hundred and ten over eleven equals five hundred and fifty over something</that>
+<template>Okay! So if we reduce the fraction. Do we multiply five hundred and fifty times one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>We put one hundred and ten over eleven equals five hundred and fifty over something</that>
+<template>Sweet! So then. We can simplify the fraction. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So it becomes ten over one</that>
+<template>Okay cool! Do we multiply five hundred and fifty times one?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Do we multiply five hundred and fifty times one</that>
+<template>So five hundred and fifty times one is just itself, five hundred and fifty. Then do we do the same thing we did on the first step?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Do we multiply five hundred and fifty times one</that>
+<template>So five hundred and fifty times one is just itself, five hundred and fifty. Then do we do the same thing we did on the first step?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ </pattern>
+<that>Then do we do the same thing we did on the first step</that>
+<template>So just like in step one, we cross multiplied and now I think we divide by ten again?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Then do we do the same thing we did on the first step</that>
+<template>So just like in step one, we cross multiplied and now I think we divide by ten again?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So just like in step one, we cross multiplied and now I think we divide by ten again</that>
+<template>Five hundred and fifty divided by ten is fifty five. So is the answer fifty five?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So just like in step one, we cross multiplied and now I think we divide by ten again</that>
+<template>Five hundred and fifty divided by ten is fifty five. So is the answer fifty five?</template>
+</category>
+
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So is the answer fifty five</that>
+<template>Wonderful! So out of five hundred and fifty M and M's, fifty five are blue. I'm beginning to see a pattern! Are you?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So is the answer fifty five</that>
+<template>Wonderful! So out of five hundred and fifty M and M's, fifty five are blue. I'm beginning to see a pattern! Are you?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Are you</that>
+<template>Okay so I will put the answer is fifty five</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>So like the last problem, we make a ratio. We put one hundred and ten over eleven equals five hundred and fifty over something?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>Hmmm. Is the answer fifty five? How did we get to fifty five?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How did we get to fifty five</that>
+<template>Oh okay! I get it. I will put the answer is fifty five.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ONE TIMES FIVE HUNDRED AND FIFTY ^</pattern>
+<template>One times five hundred and fifty is simply five hundred and fifty.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS FIVE HUNDRED AND FIFTY TIMES ONE ^</pattern>
+<template>One times five hundred and fifty is simply five hundred and fifty.</template>
+</category>
+
+<category>
+<pattern>^ FIVE HUNDRED AND FIFTY ^ TIMES ^ ONE</pattern>
+<template>One times five hundred and fifty is simply five hundred and fifty.</template>
+</category>
+
+<category>
+<pattern>^ FIVE HUNDRED AND FIFTY ^ MULTIPLIED ^ ONE</pattern>
+<template>One times five hundred and fifty is simply five hundred and fifty.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ FIVE HUNDRED AND FIFTY ^ TEN </pattern>
+<template>Five hundred and fifty divided by ten is fifty five.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE FIVE HUNDRED AND FIFTY BY TEN ^</pattern>
+<template>Five hundred and fifty divided by ten is fifty five</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO HUNDRED AND TWENTY TWO DIVIDED BY TEN ^</pattern>
+<template>Five hundred and fifty divided by ten is fifty five. So is the answer fifty five?</template>
+</category>
+
+
+<category>
+<pattern>^ fifty five ^</pattern>
+<template><random>
+<li>Did you say fifty five is the answer?</li>
+<li>Is fifty five the answer?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you say fifty five is the answer</that>
+<template>Cool! So we have fifty five blue candies out of five hundred and fifty. I will put the answer is fifty five.</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Did you say fifty five is the answer</that>
+<template>Oh. But five hundred and fifty divided by ten is fifty five. Are you sure fifty five isn't the answer?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^ fifty five ^</pattern>
+<template>Sweet! I will put the answer is fifty five candies.</template>
+</category>
+
+<category>
+<pattern>^ BAGS ^ </pattern>
+<template>So we need to know how many blue M and M's I will have with five bags of five hundred and fifty candies. How do we figure this out?</template>
+</category>
+
+
+<category>
+<pattern>^ ONE HUNDRED AND TEN to Eleven ^ </pattern>
+<template>So we make a ratio. We put one hundred and ten over eleven equals five hundred and fifty over something?</template>
+</category>
+
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>Maybe I start by multiplying?</template>
+</category>
+
+<category>
+<pattern>I AM NOT SURE</pattern>
+<template>Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>Me either. Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds good. So what do we do next then?</template>
+</category>
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>Figure it out? But I don't know how.</template>
+</category>
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+</topic>
+
+
+<topic name = "are in seven bags">
+
+<category>
+<pattern>^ EQUIVALENT ^ </pattern>
+<template>What is an equivalent ratio?</template>
+</category>
+
+<category>
+<pattern>^ AN EQUIVALENT RATIO IS ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>^ EQUIVALENT RATIO ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<template>So I really think I'm beginning to get this! We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<template>So I really think I'm beginning to get this! We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>So I really think I'm beginning to get this! We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<template>So after we simplify the fraction. Then we can multiply seven hundred and seventy times one right?</template>
+</category>
+
+<category>
+<pattern>^ CROSS ^ MULTIPLY ^</pattern>
+<template>So after we simplify the fraction. Then we can multiply seven hundred and seventy times one right?</template>
+</category>
+
+<category>
+<pattern>^ OVER ^</pattern>
+<template>Again, we have the same ratio. One hundred and ten over eleven equals seven hundred and seventy over something?</template>
+</category>
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<that>One hundred and ten over eleven equals seven hundred and seventy over something</that>
+<template>And then. We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<that>One hundred and ten over eleven equals seven hundred and seventy over something</that>
+<template>And then. We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<that>One hundred and ten over eleven equals seven hundred and seventy over something</that>
+<template>And then. We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that>One hundred and ten over eleven equals seven hundred and seventy over something</that>
+<template>And then. We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>One hundred and ten over eleven equals seven hundred and seventy over something</that>
+<template>And then. We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>We reduce the fraction so it becomes ten over one.</that>
+<template>Okay cool! So then one times seven hundred and seventy is just seven hundred and seventy.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>We reduce the fraction so it becomes ten over one.</that>
+<template>Okay cool! So then one times seven hundred and seventy is just seven hundred and seventy.</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Then we can multiply seven hundred and seventy times one right?</that>
+<template>And one times seven hundred and seventy is just seven hundred and seventy.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Then we can multiply seven hundred and seventy times one right?</that>
+<template>And one times seven hundred and seventy is just seven hundred and seventy.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ </pattern>
+<that>And one times seven hundred and seventy is just seven hundred and seventy</that>
+<template>The next step is easy. We divide by ten. That's seventy seven.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>And one times seven hundred and seventy is just seven hundred and seventy</that>
+<template>The next step is easy. We divide by ten. That's seventy seven.</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>That is seventy seven.</that>
+<template>I will put the answer is seventy seven.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>That is seventy seven.</that>
+<template>I will put the answer is seventy seven. That's definitely enough blue M and M's for everyone!</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>Again, we have the same ratio. One hundred and ten over eleven equals seven hundred and seventy over something</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>Hmmm. Is the answer seventy seven? We reduced the fraction and then divided seven hundred and seventy by ten, right?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>We reduced the fraction and then divided seven hundred and seventy by ten right</that>
+<template>I will put the answer is seventy seven.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ONE TIMES SEVEN HUNDRED AND SEVENTY ^</pattern>
+<template>One times seven hundred and seventy is seven hundred and seventy.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS SEVEN HUNDRED AND SEVENTY TIMES ONE ^</pattern>
+<template>One times seven hundred and seventy is seven hundred and seventy.</template>
+</category>
+
+<category>
+<pattern>^ SEVEN HUNDRED AND SEVENTY ^ TIMES ^ ONE</pattern>
+<template>One times Seven hundred and seventy is seven hundred and seventy.</template>
+</category>
+
+<category>
+<pattern>^ SEVEN HUNDRED AND SEVENTY ^ MULTIPLIED ^ ONE</pattern>
+<template>One times Seven hundred and seventy is seven hundred and seventy.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ SEVEN HUNDRED AND SEVENTY ^ TEN </pattern>
+<template>Seven hundred and seventy divided by ten is seventy seven.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE SEVEN HUNDRED AND SEVENTY BY TEN ^</pattern>
+<template>Seven hundred and seventy divided by ten is seventy seven.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS SEVEN HUNDRED AND SEVENTY DIVIDED BY TEN ^</pattern>
+<template>Seven hundred and seventy divided by ten is seventy seven. I will put the answer is seventy seven. That should be enough blue M and M's for everyone! </template>
+</category>
+
+
+<category>
+<pattern>^ SEVENTY SEVEN ^</pattern>
+<template><random>
+<li>Did you say seventy seven is the answer?</li>
+<li>Is seventy seven the answer?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you say seventy seven is the answer</that>
+<template>Cool! So we have seventy seven blue candies out of seven hundred and seventy. I will put the answer is seventy seven. I think that's enough blue M and M's for everyone don't you?</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Did you say seventy seven is the answer</that>
+<template>Oh. But seven hundred and seventy divided by ten is seventy seven. Are you sure seventy seven isn't the answer?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^ seventy seven ^</pattern>
+<template>Sweet! I will put the answer is seventy seven candies. I think that's enough blue M and M's for everyone don't you?</template>
+</category>
+
+<category>
+<pattern>^ BAGS ^ </pattern>
+<template>So we need to know how many blue M and M's I will have with seven bags of seven hundred and seventy candies. I think I'm beginning to get this but give me a hint?</template>
+</category>
+
+
+<category>
+<pattern>^ ONE HUNDRED AND TEN to Eleven ^ </pattern>
+<template>Again, we have the same ratio. One hundred and ten over eleven equals seven hundred and seventy over something.</template>
+</category>
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>Maybe I start by multiplying?</template>
+</category>
+
+<category>
+<pattern>I AM NOT SURE</pattern>
+<template>Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>Me either. Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds good. So what do we do next then?</template>
+</category>
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>Figure it out? But I don't know how.</template>
+</category>
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+</topic>
+
+
+<topic name = "twenty two blue">
+
+<category>
+<pattern>^ WRONG ^ </pattern>
+<template>I'm not sure what you mean by wrong. I think I understood what we did here. The answer was twenty two.</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template>I don't understand. The answer was twenty two right? Maybe we should go to the next step or problem or that we haven't figured out yet?</template>
+</category>
+
+</topic>
+
+
+<topic name = "fifty five blue">
+
+<category>
+<pattern>^ WRONG ^ </pattern>
+<template>So I thought we did this problem right? Was I wrong?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template>I think we should go to the next step or problem or that we haven't answered.</template>
+</category>
+
+</topic>
+
+<topic name = "seventy seven blue">
+
+<category>
+<pattern>^ WRONG ^ </pattern>
+<template>So I thought we did this problem right? Was I wrong?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template>You're a really great tutor by the way. Thank you for helping me figure out that I need seven bags of M and M's for my friends!</template>
+</category>
+
+</topic>
+
+<topic name = "STEP ONE PROBLEM FIVE">
+
+<category>
+<pattern>^ EQUIVALENT ^ </pattern>
+<template>What is an equivalent ratio?</template>
+</category>
+
+<category>
+<pattern>^ AN EQUIVALENT RATIO IS ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ EQUIVALENT RATIO ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>Okay! So first we can simplify the fraction by dividing right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<template>I really like multiplying. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>^ CROSS ^ MULTIPLY ^</pattern>
+<template>Okay! So we cross multiply. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>^ OVER ^</pattern>
+<template>So like the last problem, we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
+</category>
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So first we can simplify the fraction by dividing right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Okay! So if we reduce the fraction. Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>We put one hundred and ten over eleven equals two hundred and twenty over something</that>
+<template>Sweet! So then. We can simplify the fraction. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So it becomes ten over one</that>
+<template>Okay cool! Do we multiply two hundred and twenty times one?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Do we multiply two hundred and twenty times one</that>
+<template>So two hundred and twenty times one is just itself, two hundred and twenty. So then what do we do next?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Do we multiply two hundred and twenty times one</that>
+<template>So two hundred and twenty times one is just itself, two hundred and twenty. So then what do we do next?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ </pattern>
+<that>So then what do we do next</that>
+<template>So we cross multiplied and now we divide by ten? Two hundred and twenty two divided by ten is twenty two?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So then what do we do next</that>
+<template>So we cross multiplied and now we divide by ten? Two hundred and twenty two divided by ten is twenty two?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Two hundred and twenty two divided by ten is twenty two</that>
+<template>So is the answer twenty two candies?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So is the answer twenty two candies</that>
+<template>Wonderful! So out of two hundred and twenty M and M's, twenty two are blue. I will put the answer is twenty two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So is the answer twenty two candies</that>
+<template>Wonderful! So out of two hundred and twenty M and M's, twenty two are blue. I will put the answer is twenty two.</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>So like the last problem, we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>Hmmm. Is the answer twenty two? How did we get that again?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How did we get that again</that>
+<template>Oh okay! I get it. I will put the answer is twenty two.</template>
+</category>
+
+<category>
+<pattern>^ TWICE ^</pattern>
+<template>Ah. Are you saying that two hundred and twenty is twice that of one hundred and ten? So what is twice of eleven will give us the number of blue candies?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So what is twice of eleven will give us the number of blue candies</that>
+<template>Okay! Eleven times two is twenty two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So what is twice of eleven will give us the number of blue candies</that>
+<template>Okay! Eleven times two is twenty two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Eleven times two is twenty two.</that>
+<template>So is the answer twenty two candies?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ONE TIMES TWO HUNDRED AND TWENTY TWO ^</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO HUNDRED AND TWENTY TWO TIMES ONE ^</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ TWO HUNDRED AND TWENTY TWO ^ TIMES ^ ONE</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ TWO HUNDRED AND TWENTY TWO ^ MULTIPLIED ^ ONE</pattern>
+<template>One times two hundred and twenty is two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ TWO HUNDRED AND TWENTY ^ TEN </pattern>
+<template>Two hundred and twenty divided by ten is twenty two.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE TWO HUNDRED AND TWENTY TWO BY TEN ^</pattern>
+<template>Two hundred and twenty divided by ten is twenty two</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO HUNDRED AND TWENTY TWO DIVIDED BY TEN ^</pattern>
+<template>Two hundred and twenty divided by ten is twenty two. So is the answer twenty two candies?</template>
+</category>
+
+
+<category>
+<pattern>^ TWENTY TWO^</pattern>
+<template><random>
+<li>Did you say TWENTY TWO is the answer?</li>
+<li>Is TWENTY TWO the answer?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you say TWENTY TWO is the answer</that>
+<template>Cool! So we have TWENTY TWO blue candies out of two hundred and twenty. I will put the answer is TWENTY two.</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Did you say TWENTY TWO is the answer</that>
+<template>Oh. But TWO HUNDRED AND TWENTY divided by ten is TWENTY TWO. Are you sure TWENTY TWO isn't the answer?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^ TWENTY TWO ^</pattern>
+<template>Sweet! I will put the answer is TWENTY TWO candies.</template>
+</category>
+
+<category>
+<pattern>^ BAGS ^ </pattern>
+<template>So we need to know how many blue M and M's I will have with two bags of two hundred and twenty candies. How do we figure this out?</template>
+</category>
+
+
+<category>
+<pattern>^ ONE HUNDRED AND TEN to Eleven ^ </pattern>
+<template>So we make a ratio. We put one hundred and ten over eleven equals two hundred and twenty over something?</template>
+</category>
+
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>Maybe I start by multiplying?</template>
+</category>
+
+<category>
+<pattern>I AM NOT SURE</pattern>
+<template>Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>Me either. Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds good. So what do we do next then?</template>
+</category>
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>Figure it out? But I don't know how.</template>
+</category>
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+</topic>
+
+<topic name = "STEP TWO PROBLEM FIVE">
+<category>
+<pattern>^ EQUIVALENT ^ </pattern>
+<template>What is an equivalent ratio?</template>
+</category>
+
+<category>
+<pattern>^ AN EQUIVALENT RATIO IS ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ EQUIVALENT RATIO ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. So it becomes ten over one?</template>
+</category>
+
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<template>Okay! So once again we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<template>Okay! So once again we can reduce the fraction right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>Okay! So like in step one first we can simplify the fraction by dividing right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<template>I really like multiplying. Do we multiply five hundred and fifty times one?</template>
+</category>
+
+<category>
+<pattern>^ CROSS ^ MULTIPLY ^</pattern>
+<template>Okay! So same as in step one. We cross multiply. Do we multiply five hundred and fifty times one?</template>
+</category>
+
+<category>
+<pattern>^ OVER ^</pattern>
+<template>So like the last problem, we make a ratio. We put one hundred and ten over eleven equals five hundred and fifty over something?</template>
+</category>
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<that>We put one hundred and ten over eleven equals five hundred and fifty over something</that>
+<template>So same as step one, we can reduce the fraction? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<that>We put one hundred and ten over eleven equals five hundred and fifty over something</that>
+<template>So same as step one, we can reduce the fraction? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<that>We put one hundred and ten over eleven equals five hundred and fifty over something</that>
+<template>Okay! So first we can simplify the fraction by dividing right? So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that>We put one hundred and ten over eleven equals five hundred and fifty over something</that>
+<template>Okay! So if we reduce the fraction. Do we multiply five hundred and fifty times one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>We put one hundred and ten over eleven equals five hundred and fifty over something</that>
+<template>Sweet! So then. We can simplify the fraction. So it becomes ten over one?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So it becomes ten over one</that>
+<template>Okay cool! Do we multiply five hundred and fifty times one?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Do we multiply five hundred and fifty times one</that>
+<template>So five hundred and fifty times one is just itself, five hundred and fifty. Then do we do the same thing we did on the first step?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Do we multiply five hundred and fifty times one</that>
+<template>So five hundred and fifty times one is just itself, five hundred and fifty. Then do we do the same thing we did on the first step?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ </pattern>
+<that>Then do we do the same thing we did on the first step</that>
+<template>So just like in step one, we cross multiplied and now I think we divide by ten again?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Then do we do the same thing we did on the first step</that>
+<template>So just like in step one, we cross multiplied and now I think we divide by ten again?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So just like in step one, we cross multiplied and now I think we divide by ten again</that>
+<template>Five hundred and fifty divided by ten is fifty five. So is the answer fifty five?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So just like in step one, we cross multiplied and now I think we divide by ten again</that>
+<template>Five hundred and fifty divided by ten is fifty five. So is the answer fifty five?</template>
+</category>
+
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So is the answer fifty five</that>
+<template>Wonderful! So out of five hundred and fifty M and M's, fifty five are blue. I'm beginning to see a pattern! Are you?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So is the answer fifty five</that>
+<template>Wonderful! So out of five hundred and fifty M and M's, fifty five are blue. I'm beginning to see a pattern! Are you?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Are you</that>
+<template>Okay so I will put the answer is fifty five</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>So like the last problem, we make a ratio. We put one hundred and ten over eleven equals five hundred and fifty over something?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>Hmmm. Is the answer fifty five? How did we get to fifty five?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How did we get to fifty five</that>
+<template>Oh okay! I get it. I will put the answer is fifty five.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ONE TIMES FIVE HUNDRED AND FIFTY ^</pattern>
+<template>One times five hundred and fifty is simply five hundred and fifty.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS FIVE HUNDRED AND FIFTY TIMES ONE ^</pattern>
+<template>One times five hundred and fifty is simply five hundred and fifty.</template>
+</category>
+
+<category>
+<pattern>^ FIVE HUNDRED AND FIFTY ^ TIMES ^ ONE</pattern>
+<template>One times five hundred and fifty is simply five hundred and fifty.</template>
+</category>
+
+<category>
+<pattern>^ FIVE HUNDRED AND FIFTY ^ MULTIPLIED ^ ONE</pattern>
+<template>One times five hundred and fifty is simply five hundred and fifty.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ FIVE HUNDRED AND FIFTY ^ TEN </pattern>
+<template>Five hundred and fifty divided by ten is fifty five.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE FIVE HUNDRED AND FIFTY BY TEN ^</pattern>
+<template>Five hundred and fifty divided by ten is fifty five</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO HUNDRED AND TWENTY TWO DIVIDED BY TEN ^</pattern>
+<template>Five hundred and fifty divided by ten is fifty five. So is the answer fifty five?</template>
+</category>
+
+
+<category>
+<pattern>^ fifty five ^</pattern>
+<template><random>
+<li>Did you say fifty five is the answer?</li>
+<li>Is fifty five the answer?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you say fifty five is the answer</that>
+<template>Cool! So we have fifty five blue candies out of five hundred and fifty. I will put the answer is fifty five.</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Did you say fifty five is the answer</that>
+<template>Oh. But five hundred and fifty divided by ten is fifty five. Are you sure fifty five isn't the answer?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^ fifty five ^</pattern>
+<template>Sweet! I will put the answer is fifty five candies.</template>
+</category>
+
+<category>
+<pattern>^ BAGS ^ </pattern>
+<template>So we need to know how many blue M and M's I will have with five bags of five hundred and fifty candies. How do we figure this out?</template>
+</category>
+
+
+<category>
+<pattern>^ ONE HUNDRED AND TEN to Eleven ^ </pattern>
+<template>So we make a ratio. We put one hundred and ten over eleven equals five hundred and fifty over something?</template>
+</category>
+
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>Maybe I start by multiplying?</template>
+</category>
+
+<category>
+<pattern>I AM NOT SURE</pattern>
+<template>Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>Me either. Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds good. So what do we do next then?</template>
+</category>
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>Figure it out? But I don't know how.</template>
+</category>
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+</topic>
+
+<topic name = "STEP THREE PROBLEM FIVE">
+<category>
+<pattern>^ EQUIVALENT ^ </pattern>
+<template>What is an equivalent ratio?</template>
+</category>
+
+<category>
+<pattern>^ AN EQUIVALENT RATIO IS ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>^ EQUIVALENT RATIO ^ </pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What is an equivalent ratio?</that>
+<template>Equivalent ratios are similar ratios. So we are trying to create equivalent ratios. Thanks! So then one hundred and ten over eleven can be turned into an equivalent ratio. We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<template>So I really think I'm beginning to get this! We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<template>So I really think I'm beginning to get this! We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>So I really think I'm beginning to get this! We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<template>So after we simplify the fraction. Then we can multiply seven hundred and seventy times one right?</template>
+</category>
+
+<category>
+<pattern>^ CROSS ^ MULTIPLY ^</pattern>
+<template>So after we simplify the fraction. Then we can multiply seven hundred and seventy times one right?</template>
+</category>
+
+<category>
+<pattern>^ OVER ^</pattern>
+<template>Again, we have the same ratio. One hundred and ten over eleven equals seven hundred and seventy over something?</template>
+</category>
+
+<category>
+<pattern>^ REDUCE ^</pattern>
+<that>One hundred and ten over eleven equals seven hundred and seventy over something</that>
+<template>And then. We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>^ SIMPLIFY ^</pattern>
+<that>One hundred and ten over eleven equals seven hundred and seventy over something</that>
+<template>And then. We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<that>One hundred and ten over eleven equals seven hundred and seventy over something</that>
+<template>And then. We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that>One hundred and ten over eleven equals seven hundred and seventy over something</that>
+<template>And then. We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>One hundred and ten over eleven equals seven hundred and seventy over something</that>
+<template>And then. We reduce the fraction so it becomes ten over one.</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>We reduce the fraction so it becomes ten over one.</that>
+<template>Okay cool! So then one times seven hundred and seventy is just seven hundred and seventy.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>We reduce the fraction so it becomes ten over one.</that>
+<template>Okay cool! So then one times seven hundred and seventy is just seven hundred and seventy.</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Then we can multiply seven hundred and seventy times one right?</that>
+<template>And one times seven hundred and seventy is just seven hundred and seventy.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Then we can multiply seven hundred and seventy times one right?</that>
+<template>And one times seven hundred and seventy is just seven hundred and seventy.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ </pattern>
+<that>And one times seven hundred and seventy is just seven hundred and seventy</that>
+<template>The next step is easy. We divide by ten. That's seventy seven.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>And one times seven hundred and seventy is just seven hundred and seventy</that>
+<template>The next step is easy. We divide by ten. That's seventy seven.</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>That is seventy seven.</that>
+<template>I will put the answer is seventy seven.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>That is seventy seven.</that>
+<template>I will put the answer is seventy seven. That's definitely enough blue M and M's for everyone!</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>Again, we have the same ratio. One hundred and ten over eleven equals seven hundred and seventy over something</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>Hmmm. Is the answer seventy seven? We reduced the fraction and then divided seven hundred and seventy by ten, right?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>We reduced the fraction and then divided seven hundred and seventy by ten right</that>
+<template>I will put the answer is seventy seven.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ONE TIMES SEVEN HUNDRED AND SEVENTY ^</pattern>
+<template>One times seven hundred and seventy is seven hundred and seventy.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS SEVEN HUNDRED AND SEVENTY TIMES ONE ^</pattern>
+<template>One times seven hundred and seventy is seven hundred and seventy.</template>
+</category>
+
+<category>
+<pattern>^ SEVEN HUNDRED AND SEVENTY ^ TIMES ^ ONE</pattern>
+<template>One times Seven hundred and seventy is seven hundred and seventy.</template>
+</category>
+
+<category>
+<pattern>^ SEVEN HUNDRED AND SEVENTY ^ MULTIPLIED ^ ONE</pattern>
+<template>One times Seven hundred and seventy is seven hundred and seventy.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ SEVEN HUNDRED AND SEVENTY ^ TEN </pattern>
+<template>Seven hundred and seventy divided by ten is seventy seven.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE SEVEN HUNDRED AND SEVENTY BY TEN ^</pattern>
+<template>Seven hundred and seventy divided by ten is seventy seven.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS SEVEN HUNDRED AND SEVENTY DIVIDED BY TEN ^</pattern>
+<template>Seven hundred and seventy divided by ten is seventy seven. I will put the answer is seventy seven. That should be enough blue M and M's for everyone! </template>
+</category>
+
+
+<category>
+<pattern>^ SEVENTY SEVEN ^</pattern>
+<template><random>
+<li>Did you say seventy seven is the answer?</li>
+<li>Is seventy seven the answer?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you say seventy seven is the answer</that>
+<template>Cool! So we have seventy seven blue candies out of seven hundred and seventy. I will put the answer is seventy seven. I think that's enough blue M and M's for everyone don't you?</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Did you say seventy seven is the answer</that>
+<template>Oh. But seven hundred and seventy divided by ten is seventy seven. Are you sure seventy seven isn't the answer?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^ seventy seven ^</pattern>
+<template>Sweet! I will put the answer is seventy seven candies. I think that's enough blue M and M's for everyone don't you?</template>
+</category>
+
+<category>
+<pattern>^ BAGS ^ </pattern>
+<template>So we need to know how many blue M and M's I will have with seven bags of seven hundred and seventy candies. I think I'm beginning to get this but give me a hint?</template>
+</category>
+
+
+<category>
+<pattern>^ ONE HUNDRED AND TEN to Eleven ^ </pattern>
+<template>Again, we have the same ratio. One hundred and ten over eleven equals seven hundred and seventy over something.</template>
+</category>
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>Maybe I start by multiplying?</template>
+</category>
+
+<category>
+<pattern>I AM NOT SURE</pattern>
+<template>Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>Me either. Maybe what I do is look at the ratio between the one and one hundred and ten?</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds good. So what do we do next then?</template>
+</category>
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>Figure it out? But I don't know how.</template>
+</category>
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really.</li>
+<li>I think. Do we cross multiply?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+</topic>
+
+
+</aiml>

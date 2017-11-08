@@ -18,7 +18,7 @@ namespace Nico.handlers
             /* ----------Retrieve current user & session ID ----------------
              * Should be dynamic - need to fix this
             */
-            string userid = "nlubold";
+            string userid = HttpContext.Current.User.Identity.Name;
             int sessionid = 1;                 
  
 
@@ -45,9 +45,9 @@ namespace Nico.handlers
              * Num Cells - number of columns for the problem
              * Step Answer Pattern - indicates which cells need to be answered
             */
-            List<string> problemText = SQLProblemText.ReadProbText(problem);
-            List<string> problemDesign_Answers = SQLProblemDesign.GetProbDesign(problem, 1);
-            List<string> problemDesign_Blanks = SQLProblemDesign.GetProbDesign(problem, 0);
+            List<string> problemText = SQLProblemText.ReadProbText(problem, userid);
+            List<string> problemDesign_Answers = SQLProblemDesign.GetProbDesign(problem, 1, userid);
+            List<string> problemDesign_Blanks = SQLProblemDesign.GetProbDesign(problem, 0, userid);
 
             if (answerKey == 0)
             {
@@ -55,7 +55,7 @@ namespace Nico.handlers
                 answerKey = 1;
             }
 
-            string answerPattern = SQLAnswerPattern.GetAnswerPattern(answerKey)[1];
+            string answerPattern = SQLAnswerPattern.GetAnswerPattern(answerKey, userid)[1];
             char[] chAnswerPattern = answerPattern.ToCharArray();
             int maxsteps = Convert.ToInt32(problemDesign_Blanks[0]);
             int numrows = Convert.ToInt32(problemDesign_Blanks[1]);

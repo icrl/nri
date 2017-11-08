@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+<category><pattern>*</pattern>
+<template><srai>UDC</srai></template>
+</category>
+
+<category><pattern>UDC</pattern>
+<template><random>
+<li><srai>RANDOM PICKUP LINE</srai></li>
+</random></template>
+</category>
+
+<category><pattern>RANDOM PICKUP LINE</pattern>
+<template><random>
+<li>Okay.</li>
+<li>What do I do next?</li>
+<li>I think I get it.</li>
+<li>Alright.</li>
+<li>I am not sure what you said. Can you try saying it again?</li>
+<li>Do you think you could explain more about that?</li>
+<li>Okay makes sense.</li>
+<li>Right makes sense.</li>
+<li>Okay.</li>
+<li>Can you explain more?</li>
+<li>I think I get it. Can you explain more?</li>
+<li>Sounds good.</li>
+<li>Can you say that again?</li>
+<li>What do I do?</li>
+<li>Okay. So what do I do next?</li>
+</random></template>
+</category>
+
+
+<category>
+    <pattern>YES</pattern>
+    <that>Can you explain more</that>
+    <template>I'm listening.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>Do you think you could explain more about that</that>
+    <template>I'm listening.</template>
+</category>
+
+
+<category>
+    <pattern>*</pattern>
+    <that>Can you explain more</that>
+    <template>Okay. So then what do we do?</template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <that> Do you think you could explain more about that</that>
+    <template>Okay. So then what do we do?</template>
+</category>
+
+
+</aiml>

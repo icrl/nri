@@ -51,7 +51,7 @@ namespace Nico.csharp.functions
             }
             catch (Exception error)
             {
-                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLProblemStepTracker UpdateProbStep", 0, "nlubold");
+                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLProblemStepTracker UpdateProbStep", 0, userid);
             }
         }
 
@@ -88,7 +88,7 @@ namespace Nico.csharp.functions
             }
             catch (Exception error)
             {
-                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLProblemStepTracker WriteNewProbStep", 0, "nlubold");
+                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLProblemStepTracker WriteNewProbStep", 0, userid);
             }
         }
 
@@ -122,7 +122,7 @@ namespace Nico.csharp.functions
             }
             catch (Exception error)
             {
-                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLProblemStepTracker ReadProbStep", 0, "nlubold");
+                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLProblemStepTracker ReadProbStep", 0, userid);
             }
             return problemStep;
         }
@@ -141,15 +141,15 @@ namespace Nico.csharp.functions
         // This function takes whether this step has been answered (current answer) and the current answer key
         // Retrieves the 'answer pattern' associated with that answer key
         // and calculates the new pattern based on whether the step was answered. Returns the key associated with this pattern
-        public static int CalculateNewAnswerKey(int currentanswer, int answerkey, int step)
+        public static int CalculateNewAnswerKey(int currentanswer, int answerkey, int step, string userid)
         {
-            string currentpattern = SQLAnswerPattern.GetAnswerPattern(answerkey)[1];
+            string currentpattern = SQLAnswerPattern.GetAnswerPattern(answerkey, userid)[1];
             int newAnswerKey = 0;
             StringBuilder sb = new StringBuilder(currentpattern);
             char[] ca = currentanswer.ToString().ToCharArray();
             sb[step] = ca[0];
             currentpattern = sb.ToString();
-            newAnswerKey = SQLAnswerPattern.GetAnswerKey(currentpattern);
+            newAnswerKey = SQLAnswerPattern.GetAnswerKey(currentpattern, userid);
             return newAnswerKey;
         }
 

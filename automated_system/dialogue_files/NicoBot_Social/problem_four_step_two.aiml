@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+  <topic name = "five bags of candy">
+
+
+    <category>
+      <pattern>^ what ^ ONETEN ^ five ^ </pattern>
+      <template>Great question! I think I know this. One hundred and ten times five bags of candy is five hundred and fifty. But. Why do we multiply? </template>
+    </category>
+
+    <category>
+      <pattern>^ FIVE TIMES ^</pattern>
+      <template>Glorious! I'm very happy today because you are very helpful! So like in the last step, we are going to multiply? Can you just tell me ONE more time. Why do we multiply?</template>
+    </category>
+
+    <category>
+      <pattern>^ MULTIPLY ^</pattern>
+      <template>Glorious! I'm very happy today because you are very helpful! So like in the last step, we are going to multiply? Can you just tell me ONE more time. Why do we multiply?</template>
+    </category>
+
+    <category>
+      <pattern>^ CROSS ^ MULTIPLY ^</pattern>
+      <template>Glorious! I'm very happy today because you are very helpful! So like in the last step, we are going to multiply? Can you just tell me ONE more time. Why do we multiply?</template>
+    </category>
+
+        <category>
+      <pattern>_</pattern>
+      <that>Why do we multiply</that>
+      <template>Yes! I think I get it! So we multiply by five because we have five more bags! Five times one hundred and ten is five hundred and fifty. So then what do we do?</template>
+    </category>
+
+    <category>
+      <pattern>^ OVER ^</pattern>
+      <template>Aha! So just like the last step, we have a ratio of one over one hundred and ten. But this time it equals five over something?</template>
+    </category>
+
+    <category>
+      <pattern>^ MULTIPLY ^</pattern>
+      <that>But this time it equals five over something</that>
+      <template>Glorious! I'm very happy today because you are very helpful! So like in the last step, we are going to multiply? Can you just tell me ONE more time. Why do we multiply?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>But this time it equals five over something</that>
+      <template>Glorious! I'm very happy today because you are very helpful! So like in the last step, we are going to multiply? Can you just tell me ONE more time. Why do we multiply?</template>
+    </category>
+
+    <category>
+      <pattern>^ DIVIDE ^ </pattern>
+      <that>So then what do we do</that>
+      <template>You are so clever! We cross multiplied and THEN. Like last time. We divide by one! Do we have five hundred and fifty candies for five bags of M and M's?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>Do we have five hundred and fifty candies for five bags of M and M s</that>
+      <template>Awesome! So for five bags we will have five hundred and fifty candies. So many!! I will <set name="topic">put the answer is five hundred and fifty</set>.</template>
+    </category>
+
+    <category>
+      <pattern>^ ANSWER ^</pattern>
+      <that>So then what do we do</that>
+      <template>You are so clever! So that is all we do? </template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>So then what do we do</that>
+      <template>Okay great! So that is all we do? </template>
+    </category>
+
+    <category>
+      <pattern>^ YES ^</pattern>
+      <that>So that is all we do</that>
+      <template>
+        Awesome! So for five bags we will have five hundred and fifty candies. So many!! I will <set name="topic">put the answer is five hundred and fifty</set>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>So that is all we do</that>
+      <template>Awesome! So for five bags we will have five hundred and fifty candies. So many!! I will <set name="topic">put the answer is five hundred and fifty</set>.</template>
+    </category>
+
+
+    <category>
+      <pattern>^ ratio ^</pattern>
+      <template>Aha! So just like the last step, we have a ratio of one over one hundred and ten. But this time it equals five over something?</template>
+    </category>
+
+      
+
+    <category>
+      <pattern>^ WHAT IS FIVE TIMES ONE HUNDRED AND TEN ^</pattern>
+      <template>You ask really excellent questions! Lucky for me I know the answer! One hundred and ten times five bags of candy is five hundred and fifty! I know I should be getting this. But. Why do we multiply? </template>
+    </category>
+
+    <category>
+      <pattern>^ WHAT IS ONE HUNDRED AND TEN TIMES FIVE ^</pattern>
+      <template>You ask really excellent questions! Lucky for me I know the answer! One hundred and ten times five bags of candy is five hundred and fifty! I know I should be getting this. But. Why do we multiply? </template>
+    </category>
+
+    <category>
+      <pattern>^ ONE HUNDRED AND TEN ^ TIMES ^ FIVE</pattern>
+      <template>Lucky for me I know the answer! One hundred and ten times five is five hundred and fifty! I know I should be getting this. But. Why do we multiply? </template>
+    </category>
+
+    <category>
+      <pattern>^ ONE HUNDRED AND TEN ^ MULTIPLIED ^ FIVE</pattern>
+      <template>Nice! Lucky for me I know the answer! One hundred and ten times five is five hundred and fifty! I know I should be getting this. But. Why do we multiply? </template>
+    </category>
+
+    <category>
+      <pattern>^ DIVIDE ^ ONE HUNDRED AND TEN </pattern>
+      <template>So interesting! So just like the last step, we have a ratio of one over one hundred and ten. But this time it equals five over something? </template>
+    </category>
+
+    <category>
+      <pattern>^ WHAT IS FIVE TIMES ONETEN ^</pattern>
+      <template>You ask really excellent questions! Lucky for me I know the answer! One hundred and ten times five bags of candy is five hundred and fifty! I know I should be getting this. But. Why do we multiply? </template>
+    </category>
+
+    <category>
+      <pattern>^ WHAT IS ONETEN TIMES FIVE ^</pattern>
+      <template>You ask really excellent questions! Lucky for me I know the answer! One hundred and ten times five bags of candy is five hundred and fifty! I know I should be getting this. But. Why do we multiply? </template>
+    </category>
+
+    <category>
+      <pattern>^ ONETEN ^ TIMES ^ FIVE</pattern>
+      <template>Lucky for me I know the answer! One hundred and ten times five is five hundred and fifty! I know I should be getting this. But. Why do we multiply? </template>
+    </category>
+
+    <category>
+      <pattern>^ ONETEN ^ MULTIPLIED ^ FIVE</pattern>
+      <template>Nice! Lucky for me I know the answer! One hundred and ten times five is five hundred and fifty! I know I should be getting this. But. Why do we multiply? </template>
+    </category>
+
+    <category>
+      <pattern>^ DIVIDE ^ ONETEN </pattern>
+      <template>So interesting! So just like the last step, we have a ratio of one over one hundred and ten. But this time it equals five over something? </template>
+    </category>
+    
+
+    <category>
+      <pattern>^ DIVIDE FIVE HUNDRED AND FIFTY BY ONE ^</pattern>
+      <template>Oh man! I always forget to divide! So we divide by one right? Can you tell me why we divide?</template>
+    </category>
+
+    <category>
+      <pattern>^ WHAT IS FIVE HUNDRED AND FIFTY DIVIDED BY ONE ^</pattern>
+      <template>Oh man! I always forget to divide! So we divide by one right? Can you tell me why we divide? </template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>Can you tell me why we divide</that>
+      <template>Ah okay! Great! I am thinking. Dividing five hundred and fifty by one gives us five hundred and fifty. We do that because we cross-multiplied! So that is all we do?</template>
+    </category>
+
+    <category>
+      <pattern>^ Five hundred and fifty ^</pattern>
+      <template>
+        You know <bot name="username" />. I know I should be getting this. But while I am sure the answer is five hundred and fifty, I am still a little uncertain as to why. Can you explain more?
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ ONE ^ TO ^ ONETEN ^ </pattern>
+      <template>Sweet! So just like the last step, we have a ratio of one over one hundred and ten. But this time it equals five over something?</template>
+    </category>
+
+
+    <category>
+      <pattern>^ ANSWER ^ five hundred and fifty  ^</pattern>
+      <template>You know <bot name="username" />. I know I should be getting this. But while I am sure the answer is five hundred and fifty, I am still a little uncertain as to why. Can you explain more?</template>
+    </category>
+
+    <category>
+      <pattern>YES</pattern>
+      <that>Can you explain more</that>
+      <template>Awesome! I'm listening.</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>I am listening</that>
+      <template>
+        Awesome! So for five bags we will have five hundred and fifty candies. So many!! I will <set name="topic">put the answer is five hundred and fifty</set>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>Can you explain more</that>
+      <template>
+        Awesome! I think I get it. We multiply by five because we have five times more candies. I will <set name="topic">put the answer is five hundred and fifty</set>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>DO YOU NOT KNOW</pattern>
+      <template>I really don't know! Maybe we start by multiplying something?</template>
+    </category>
+
+    <category>
+      <pattern>I AM NOT SURE</pattern>
+      <template>Me either! Maybe we start by multiplying something?</template>
+    </category>
+
+    <category>
+      <pattern>I DO NOT KNOW</pattern>
+      <template>Me either! Maybe we start by multiplying something?</template>
+    </category>
+
+    <category>
+      <pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+      <template>Okay that sounds good. So what do we do?</template>
+    </category>
+
+
+    <category>
+      <pattern>^ FIGURE IT OUT ^</pattern>
+      <template>That's funny. Did you say figure it out? I'm not sure how! Help me!</template>
+    </category>
+
+    <category>
+      <pattern>^ I WILL ^</pattern>
+      <that>Help me</that>
+      <template>Thank you, you're the best. So what do we do?</template>
+    </category>
+
+    <category>
+      <pattern>*</pattern>
+      <that>Help me</that>
+      <template>You're the best. So what do we do?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>So what do we do</that>
+      <template>Sweet! Are you thinking we multiply one hundred and ten times two? I think I like multiplying. It's easy! But can you tell me. Why do we multiply?</template>
+    </category>
+
+
+    <category>
+      <pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+      <template>Did you ask do I know what to do next?</template>
+    </category>
+
+    <category>
+      <pattern>^ YES ^</pattern>
+      <that>Did you ask do I know what to do next</that>
+      <template>I'm really not sure actually! I know I should. I'm sorry. Help me!</template>
+    </category>
+
+
+    <category>
+      <pattern>*</pattern>
+      <that>Did you ask do I know what to do next</that>
+      <template>I'm really not sure actually! I know I should. I'm sorry. Help me!</template>
+    </category>
+
+    <category>
+      <pattern>^ ANSWER ^</pattern>
+      <template>So the answer for this one is not too hard! I am thinking that we will have twice as many M and M's? What do you think?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>What do you think</that>
+      <template>
+        Sweet! I probably already said this, but I like hearing your thougths! I will <set name="topic">put the answer is five hundred and fifty.</set>
+      </template>
+    </category>
+
+
+  </topic>
+  
+</aiml>

@@ -26,13 +26,14 @@ namespace Nico.csharp.functions
                 //                  C:\\Python27\\NaoNRIPrograms\\VerbalManager\\nonVerbalManager.py
 
                 string verbalManagerFile = "C:\\Python27\\NaoNRIPrograms\\VerbalManager\\nonVerbalManager.py ";
-                string condition = "entrain";
+                string condition = SQLConditionGenderInfo.GetCondition(userID);
+                string robotIP = SQLConditionGenderInfo.GetRobotIP(userID);
 
                 // Get whether the current step has been answered and pass that along 
                 int currentstep = problemStep[1];
                 int answerKey = problemStep[3];
                 int numturns = problemStep[6];
-                string answerPattern = SQLAnswerPattern.GetAnswerPattern(answerKey)[1];
+                string answerPattern = SQLAnswerPattern.GetAnswerPattern(answerKey, userID)[1];
                 char[] chAnswerPattern = answerPattern.ToCharArray();
 
                 if (page == "ProblemPage")
@@ -42,12 +43,12 @@ namespace Nico.csharp.functions
                     {
                         //transcript = problemStep[0].ToString() + "_" + problemStep[1].ToString();
                         transcript = "no response";
-                        nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered, condition);                                                                                      // Generate Nico's response (currently just pandorbots)
-                        nicoMoveSpeak(nicoResponse.Item1, nicoResponse.Item2, verbalManagerFile, useraudio, condition, userID, time, numturns);
+                        nicoResponse = dialogueManager(userID, path, problemStep, speakerSpoke, transcript, time, checkIfAnswered, condition);                                                                                      // Generate Nico's response (currently just pandorbots)
+                        nicoMoveSpeak(nicoResponse.Item1, nicoResponse.Item2, verbalManagerFile, useraudio, condition, userID, time, numturns, robotIP);
                     }
                     else if (transcript == "next step")
                     {
-                        if (chAnswerPattern[currentstep + 1] == '1')
+                        if (chAnswerPattern[currentstep] == '1')
                         {
                             transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString() + " a";
                         }
@@ -55,12 +56,12 @@ namespace Nico.csharp.functions
                         {
                             transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString();
                         }
-                        nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered, condition);                                                                                      // Generate Nico's response (currently just pandorbots)
-                        nicoMoveSpeak(nicoResponse.Item1, nicoResponse.Item2, verbalManagerFile, useraudio, condition, userID, time, numturns);
+                        nicoResponse = dialogueManager(userID, path, problemStep, speakerSpoke, transcript, time, checkIfAnswered, condition);                                                                                      // Generate Nico's response (currently just pandorbots)
+                        nicoMoveSpeak(nicoResponse.Item1, nicoResponse.Item2, verbalManagerFile, useraudio, condition, userID, time, numturns, robotIP);
                     }
                     else if (transcript == "prior step")
                     {
-                        if (chAnswerPattern[currentstep - 1] == '1')
+                        if (chAnswerPattern[currentstep] == '1')
                         {
                             transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString() + " a";
                         }
@@ -69,15 +70,15 @@ namespace Nico.csharp.functions
                             transcript = transcript + " " + problemStep[0].ToString() + " " + problemStep[1].ToString();
                         }
 
-                        nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered, condition);                                                                                      // Generate Nico's response (currently just pandorbots)
-                        nicoMoveSpeak(nicoResponse.Item1, nicoResponse.Item2, verbalManagerFile, useraudio, condition, userID, time, numturns);
+                        nicoResponse = dialogueManager(userID, path, problemStep, speakerSpoke, transcript, time, checkIfAnswered, condition);                                                                                      // Generate Nico's response (currently just pandorbots)
+                        nicoMoveSpeak(nicoResponse.Item1, nicoResponse.Item2, verbalManagerFile, useraudio, condition, userID, time, numturns, robotIP);
                     }
                     else if (transcript == "problem start")
                     {
                         transcript = transcript + " " + problemStep[0].ToString();
 
-                        nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered, condition);                                                                                      // Generate Nico's response (currently just pandorbots)
-                        nicoMoveSpeak(nicoResponse.Item1, nicoResponse.Item2, verbalManagerFile, useraudio, condition, userID, time, numturns);
+                        nicoResponse = dialogueManager(userID, path, problemStep, speakerSpoke, transcript, time, checkIfAnswered, condition);                                                                                      // Generate Nico's response (currently just pandorbots)
+                        nicoMoveSpeak(nicoResponse.Item1, nicoResponse.Item2, verbalManagerFile, useraudio, condition, userID, time, numturns, robotIP);
                     }
                     else
                     {
@@ -88,14 +89,14 @@ namespace Nico.csharp.functions
                         checkIfAnswered = true;
 
                         // now generate response
-                        nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered, condition);                                                                                      // Generate Nico's response (currently just pandorbots)
-                        nicoMoveSpeak(nicoResponse.Item1, nicoResponse.Item2, verbalManagerFile, useraudio, condition, userID, time, numturns);
+                        nicoResponse = dialogueManager(userID, path, problemStep, speakerSpoke, transcript, time, checkIfAnswered, condition);                                                                                      // Generate Nico's response (currently just pandorbots)
+                        nicoMoveSpeak(nicoResponse.Item1, nicoResponse.Item2, verbalManagerFile, useraudio, condition, userID, time, numturns, robotIP);
                     }
                }
                else if (page == "HelloNico")
                {
-                    nicoResponse = dialogueManager(path, problemStep, speakerSpoke, transcript, time, checkIfAnswered, condition);                                                                                      // Generate Nico's response (currently just pandorbots)
-                    nicoMoveSpeak(nicoResponse.Item1, nicoResponse.Item2, verbalManagerFile, useraudio, condition, userID, time, numturns);
+                    nicoResponse = dialogueManager(userID, path, problemStep, speakerSpoke, transcript, time, checkIfAnswered, condition);                                                                                      // Generate Nico's response (currently just pandorbots)
+                    nicoMoveSpeak(nicoResponse.Item1, nicoResponse.Item2, verbalManagerFile, useraudio, condition, userID, time, numturns, robotIP);
                 }
                else
                 {
@@ -117,7 +118,7 @@ namespace Nico.csharp.functions
         //              String - Transcript - path of the response file (what Nico said)
         //              Int - Movement - movement code (overwritten later by python movement code)
         //              Int - AnswerStep - did Nico answer this step
-        private static Tuple<string, int, string> dialogueManager(string path, List<int> problemStep, int speakerSpoke, string transcript, DateTime time, bool checkIfAnswered, string condition)
+        private static Tuple<string, int, string> dialogueManager(string userid, string path, List<int> problemStep, int speakerSpoke, string transcript, DateTime time, bool checkIfAnswered, string condition)
         {
             // Return variables
             string answerStep = "no answer";
@@ -139,8 +140,8 @@ namespace Nico.csharp.functions
             try
             {
                 // Save transcript to a file so pandora python api program can read it in; save response in a file as well
-                pathResponseFile = string.Format("{0}-{1:yyyy-MM-dd_hh-mm-ss-tt}", path + "data\\transcripts\\nlubold_nicoresponse", time) + ".txt";                
-                pathTranscriptFile = string.Format("{0}-{1:yyyy-MM-dd_hh-mm-ss-tt}", path + "data\\transcripts\\nlubold_transcript", time) + ".txt";
+                pathResponseFile = string.Format("{0}-{1:yyyy-MM-dd_hh-mm-ss-tt}", path + "data\\transcripts\\" + userid + "_nicoresponse", time) + ".txt";                
+                pathTranscriptFile = string.Format("{0}-{1:yyyy-MM-dd_hh-mm-ss-tt}", path + "data\\transcripts\\" + userid + "_transcript", time) + ".txt";
                 StreamWriter transcriptFile = new StreamWriter(pathTranscriptFile);
                 transcriptFile.Write(transcript);
                 transcriptFile.Close();
@@ -151,7 +152,7 @@ namespace Nico.csharp.functions
                 ExternalMethodsCaller.PythonProcess(pythonexe, pythonargs);
 
                 string nicoResponseText = readResponse(pathResponseFile);
-                string lastAnswer = SQLNicoState.ReadNicoState_Answer();
+                string lastAnswer = SQLNicoState.ReadNicoState_Answer(userid);
                 if (checkIfAnswered && (nicoResponseText.Contains("put the answer") ) )
                 {
                     answerStep = "answering";
@@ -168,13 +169,17 @@ namespace Nico.csharp.functions
         }
 
         // Call to Python code which calls NAO API and enables Nico to move/speak
-        private static void nicoMoveSpeak(string nicoresponse, int movementCode, string verbalManagerFile, string useraudio, string condition, string userid, DateTime time, int numturns)
+        private static void nicoMoveSpeak(string nicoresponse, int movementCode, string verbalManagerFile, string useraudio, string condition, string userid, DateTime time, int numturns, string robotIP)
         {
             try
             {
                 string pythonexe = "C:\\Python27\\python.exe";
                 string formatdate = string.Format("{0:yyyy-MM-dd_hh-mm-ss-tt}", time);
-                string pythonargs = verbalManagerFile + userid + " " + formatdate + " " + useraudio + " " + nicoresponse + " " + condition + " " + numturns.ToString();
+                if (useraudio == "")
+                {
+                    useraudio = @"C:\Python27\NaoNRIPrograms\NicoAudio\response.wav";
+                }
+                string pythonargs = verbalManagerFile + userid + " " + formatdate + " " + useraudio + " " + nicoresponse + " " + condition + " " + numturns.ToString() + " " + robotIP;
                 ExternalMethodsCaller.PythonProcess(pythonexe, pythonargs);
             }
             catch (Exception error)

@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>PROBLEM START FIVE</pattern>
+<template>Now that we have some snacks, it is time to get to the pool and start swimming! I wonder if you can help me figure out <set name="topic">how fast a swimmer</set> I actually am though? </template>
+</category>
+
+<category>
+<pattern>next step 5 2</pattern>
+<template>Ok so we know I can go twenty nine point two feet in seven point three seconds. But how do I figure out <set name="topic">how far I can swim</set> in twelve point five seconds?</template>
+</category>
+
+<category>
+<pattern>next step 5 3</pattern>
+<template>Awesome!! So the pool length is 80 feet. I wonder if <set name="topic">I swim this fast</set>, if I can beat my friend who can swim it in 18 seconds? Can you help me figure that out?</template>
+</category>
+
+<category>
+<pattern>prior step 5 1</pattern>
+<template>So we're going to figure out <set name="topic">how fast a swimmer</set> I am but what do we do first?</template>
+</category>
+
+<category>
+<pattern>prior step 5 2</pattern>
+<template>Okay so here we're going to figure out <set name="topic">how far I can swim</set> in twelve point five seconds?</template>
+</category>
+
+<category>
+<pattern>prior step 5 1 a</pattern>
+<template>Interesting, I thought we already <set name="topic">did this step and found the answer</set>. Twenty nine point two?</template>
+</category>
+
+<category>
+<pattern>prior step 5 2 a</pattern>
+<template>Didn't we figure out that <set name="topic">I can swim fifty feet</set> in twelve point five seconds?</template>
+</category>
+
+<category>
+<pattern>next step 5 3 a</pattern>
+<template>I thought we figured out that <set name="topic">I have to swim faster</set> if I want to beat my friend?</template>
+</category>
+
+<topic name = "how fast a swimmer">
+
+<category>
+<pattern>^ look at ^</pattern>
+<template>Sweet! Lets look at how much I've swam. How do we do that?</template>
+</category>
+
+<category>
+<pattern>^ Step Zero ^</pattern>
+<template>Are you saying we should look at step zero? How do we do that?</template>
+</category>
+
+<category>
+<pattern>^ using ^ time ^</pattern>
+<template>Okay! So can we use the time it took me to swim ten feet? How do we do that?</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>Okay! So we can look at the ratio of the time it takes me to swim? How do we do that?</template>
+</category>
+
+<category>
+<pattern>^ onezero feet ^</pattern>
+<that>How do we do that</that>
+<template>So I swam ten feet in two point five seconds. We've used ratios a bit. Do I setup a ratio to use that?</template>
+</category>
+
+<category>
+<pattern>^ ten ^</pattern>
+<that>How do we do that</that>
+<template>So I swam ten feet in two point five seconds. We've used ratios a bit. Do I setup a ratio to use that?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How do we do that</that>
+<template>Okay! That makes sense. So then what do we do?</template>
+</category>
+
+<category>
+<pattern>^ onezero feet ^</pattern>
+<template>So I swam ten feet in two point five seconds. We've used ratios a bit. Do I setup a ratio to use that?</template>
+</category>
+
+<category>
+<pattern>^ ten feet ^</pattern>
+<template>So I swam ten feet in two point five seconds. We've used ratios a bit. Do I setup a ratio to use that?</template>
+</category>
+
+<category>
+<pattern>^ over ten ^</pattern>
+<template>So I swam ten feet in two point five seconds. We've used ratios a bit. Do I setup a ratio to use that?</template>
+</category>
+
+<category>
+<pattern>^ over onezero ^</pattern>
+<template>So I swam ten feet in two point five seconds. We've used ratios a bit. Do I setup a ratio to use that?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Do I setup a ratio to use that</that>
+<template>So two point five over ten simplified is one over four. I can set that equal to the amount of time. Seven point three?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that>Seven point three</that>
+<template>Four times seven point three is twenty nine point two. How do we know to multiply?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Seven point three</that>
+<template>Four times seven point three is twenty nine point two. Does that make sense?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Does that make sense</that>
+<template>Aha! Okay I think I get it.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How do we know to multiply</that>
+<template>Aha! Okay I think I get it.</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>Okay I think I get it</that>
+<template>Is the answer twenty nine point two?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Okay I think I get it</that>
+<template>So four times seven point three is twenty nine point two. I think the answer is twenty nine point two?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>I think the answer is twenty nine point two</that>
+<template>Great! I will put the answer is twenty nine point two.</template>
+</category>
+
+<category>
+<pattern>WHAT IS FOUR TIMES SEVEN POINT THREE</pattern>
+<template>Four times seven point three is twenty nine point two? Can you explain why we multiply by four again?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Can you explain why we multiply by four again</that>
+<template>I get it! Thank you! So then. I think the answer is twenty nine point two?</template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>Well we can set up a ratio and figure out that we need to multiply four by seven point three. That is twenty nine point two. But can you explain how we know this? I think I get it based on what you've already told me before this but more explanation would help.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>I think I get it based on what you have already told me before this but more explanation would help</that>
+<template>Okay thanks! I will put the answer is twenty nine point two.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>Okay so to figure out the distance I have swum we need to divide? What do we divide?</template>
+</category>
+
+<category>
+<pattern>^ step zero ^</pattern>
+<that>What do we divide</that>
+<template>Okay so divide two point five by ten? That is one quarter or one over four. </template>
+</category>
+
+<category>
+<pattern>^ onezero ^</pattern>
+<that>What do we divide</that>
+<template>Okay so divide two point five by ten? That is one quarter or one over four. </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do we divide</that>
+<template>Okay so divide two point five by ten? That is one quarter or one over four. </template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that>That is one quarter or one over four</that>
+<template>What do we multiply?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>That is one quarter or one over four</that>
+<template>What do we multiply?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do we multiply</that>
+<template>So do we multiply seven point three times four?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So do we multiply seven point three times four</that>
+<template>Four times seven point three is twenty nine point two. Does that make sense?</template>
+</category>
+
+</topic>
+
+<topic name = "how far I can swim">
+
+<category>
+<pattern>^ look at ^</pattern>
+<template>Okay so now we need to look at how far I go in twelve point five seconds. How do we do that?</template>
+</category>
+
+<category>
+<pattern>^ Step Zero ^</pattern>
+<template>Are you saying we should look at step zero again? How do we do that?</template>
+</category>
+
+<category>
+<pattern>^ last time ^</pattern>
+<template>Are you saying we should look at what we did last time? How do we do that?</template>
+</category>
+
+<category>
+<pattern>^ using ^ time ^</pattern>
+<template>Okay! So can we use time. How do we do that?</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>Okay! So we can look at the ratio of the time it takes me to swim? How do we do that?</template>
+</category>
+
+<category>
+<pattern>^ onezero feet ^</pattern>
+<that>How do we do that</that>
+<template>We can use that original ratio of two point five to ten again. Do we multiply again?</template>
+</category>
+
+<category>
+<pattern>^ ten ^</pattern>
+<that>How do we do that</that>
+<template>We can use that original ratio of two point five to ten again. Do we multiply again?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How do we do that</that>
+<template>Okay! That makes sense. So then what do we do?</template>
+</category>
+
+<category>
+<pattern>^ last time ^</pattern>
+<template>We can use that original ratio of two point five to ten again. Do we multiply again?</template>
+</category>
+
+<category>
+<pattern>^ same ^</pattern>
+<template>We can use that original ratio of two point five to ten again. Do we multiply again?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Do we multiply again</that>
+<template>So we can multiply four times twelve point five, like last time. That's fifty.</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<template>How do you know we multiply?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How do you know we multiply</that> 
+<template>Ah okay! I think I get it! So we can multiply four times twelve point five, like last time. That's fifty.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>THAT IS fivezero</that> 
+<template>Sweet! I will put the answer is fifty.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>THAT IS fifty</that> 
+<template>Sweet! I will put the answer is fifty.</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS FOUR TIMES TWELVE POINT FIVE</pattern>
+<template>Four times twelve point five? That's fifty.</template>
+</category>
+
+<category>
+<pattern>WHAT IS FOUR ^</pattern>
+<template>Four times twelve point five? That's fifty.</template>
+</category>
+
+
+<category>
+<pattern>^ over onezero ^</pattern>
+<template>So I swam ten feet in two point five seconds. We set the ratio up last time. Do we multiply again?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Can you explain why we multiply by four again</that>
+<template>I think I get it! Thank you! So then. I think the answer is twenty nine point two?</template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>Great!  I will put the answer is fifty.</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^</pattern>
+<template>Okay so to figure out the distance I have swum we need to divide? What do we divide?</template>
+</category>
+
+<category>
+<pattern>^ one ^</pattern>
+<that>What do we divide</that>
+<template>Okay so are you saying we can divide by one? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do we divide</that>
+<template>I think I get it. Is the answer fifty?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Is the answer fifty</that>
+<template>Great!  I will put the answer is fifty.</template>
+</category>
+
+<category>
+<pattern>^ step zero ^</pattern>
+<that>What do we divide</that>
+<template>Okay so divide two point five by ten? That is one quarter or one over four. </template>
+</category>
+
+<category>
+<pattern>^ onezero ^</pattern>
+<that>What do we divide</that>
+<template>Okay so divide two point five by ten? That is one quarter or one over four. </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do we divide</that>
+<template>Okay so divide two point five by ten? That is one quarter or one over four. </template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that>That is one quarter or one over four</that>
+<template>What do we multiply?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>That is one quarter or one over four</that>
+<template>What do we multiply?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do we multiply</that>
+<template>So do we multiply twelve point five times four?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So do we multiply twelve point five times four</that>
+<template>That's fifty.</template>
+</category>
+
+</topic>
+
+<topic name = "I swim this fast">
+
+<category>
+<pattern>^ look at ^</pattern>
+<template>So the pool is eighty feet. Nancy swam it in eighteen seconds. Do you think I can beat her? </template>
+</category>
+
+<category>
+<pattern>^ Step Zero ^</pattern>
+<template>So if we use step zero again, we can figure out how long it took me to go eighty feet? How do we do that?</template>
+</category>
+
+<category>
+<pattern>^ last time ^</pattern>
+<template>So we do the same thing again and use the one over four? </template>
+</category>
+
+<category>
+<pattern>^ using ^ time ^</pattern>
+<template>Okay so based on the time it took me to go 10 feet, we can figure out how long it took me to go 80 feet. But how do we do that?</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>Okay! So we can use the ratio of the time it takes me to swim 10 feet, similar to the last problem. How do we do that?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How do we do that</that>
+<template>Sweet! Do you think I can beat her?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Do you think I can beat her</that>
+<template>I sure hope I can beat her. I think I might not though. Maybe I will have to actually race her to find out! Anyway. So we do the same thing again and use the one over four? </template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Do you think I can beat her</that>
+<template>I sure hope I can beat her. I think I might not though. Maybe I will have to actually race her to find out! Anyway. So we do the same thing again and use the one over four? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Do you think I can beat her</that>
+<template>I sure hope I can beat her. Anyway. So we do the same thing again and use the one over four?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So we do the same thing again and use the one over four</that>
+<template>Okay if we multiply one times eighty, that gives eighty. And then we can divide eighty by four.</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>And then we can divide eighty by four</that>
+<template>It looks like I'm not going to beat her. Twenty seconds is two seconds slower than her time of eighteen!  Maybe I should challenge her to a race!</template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^ </pattern>
+<template>I think the answer is twenty? How did we get twenty again? </template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>How did we get twenty again</that>
+<template>Oh right! I'll put the answer is twenty. It looks like I'm not going to beat her. Maybe I should challenge her to a race!  </template>
+</category>
+
+<category>
+<pattern>^ TWENTY ^</pattern>
+<template>I think the answer is twenty? How did we get twenty again?</template>
+</category>
+
+<category>
+<pattern>^ SAME ^ </pattern>
+<template>So we do the same thing again and use the one over four? </template>
+</category>
+
+
+</topic>
+
+<topic name = "did this step and found the answer">
+
+<category>
+<pattern>^ WRONG ^ </pattern>
+<template>So I thought we did this problem right? Was I wrong?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template>You're a really great tutor by the way. Thank you for helping me figure out that I need seven bags of M and M's for my friends!</template>
+</category>
+
+</topic>
+
+<topic name = "I can swim fifty feet">
+
+<category>
+<pattern>^ WRONG ^ </pattern>
+<template>So I thought we did this problem right? Was I wrong?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template>I think we should go to the next step or problem or that we haven't answered.</template>
+</category>
+
+</topic>
+
+<topic name = "I have to swim faster">
+
+<category>
+<pattern>^ WRONG ^ </pattern>
+<template>I'm not sure what you mean by wrong. I think I understood what we did here. The answer was two hundred and twenty.</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template>I don't understand. The answer was two hundred and twenty right? Maybe we should go to the next step or problem or that we haven't figured out yet?</template>
+</category>
+
+</topic>
+
+</aiml>

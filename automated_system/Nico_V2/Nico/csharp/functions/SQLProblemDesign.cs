@@ -17,7 +17,7 @@ namespace Nico.csharp.functions
         public int NumCells { get; set; }
         public int Answer { get; set; }
 
-        public static List<string> GetProbDesign(int problemid, int answer)
+        public static List<string> GetProbDesign(int problemid, int answer, string userid)
         {
             List<string> problemDesign = new List<string>();
 
@@ -44,7 +44,7 @@ namespace Nico.csharp.functions
             }
             catch (Exception error)
             {
-                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLProblemDesign GetProbDesign", 0, "nlubold");
+                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLProblemDesign GetProbDesign", 0, userid);
             }
             return problemDesign;
         }

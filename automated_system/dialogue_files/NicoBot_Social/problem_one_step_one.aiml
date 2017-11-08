@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+
+<topic name = "STEP ONE">
+
+<category>
+<pattern>next step 1 2</pattern>
+<template>So on <set name="topic">STEP TWO</set>, here, we need to figure out what the surface area of my torso is. What should we do first?</template>
+</category>
+
+<category>
+<pattern>^ SIX ^ TIMES ^ TWELVE ^</pattern>
+<template>Good hint! So two times six is twelve. Then what do we do?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE TWELVE BY SIX ^</pattern>
+<template>Sounds great! So we divide twelve by six?</template>
+</category>
+
+<category>
+<pattern>^ TWELVE ^ SIX ^</pattern>
+<template>Okay sounds great, <bot name="username" />! So we divide twelve by six?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So we divide twelve by six</that>
+<template>Nice! Why do we divide twelve by six?</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>So we divide twelve by six</that>
+<template>Oh okay! Then what do we do?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So we divide twelve by six</that>
+<template>Nice! Why do we divide twelve by six?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Why do we divide twelve by six</that>
+<template>That makes so much sense! So twelve divided by six is two. Then what do we do?</template>
+</category>
+
+<category>
+<pattern>^ TWELVE ^</pattern>
+<template>So with the twelve. You think we divide twelve? What do we divide it by?</template>
+</category>
+
+<category>
+<pattern>^ SIX ^</pattern>
+<that>What do we divide it by</that>
+<template>That's brilliant! We can divide twelve by six. Do you think that makes sense?</template>
+</category>
+
+<category>
+<pattern>^ THREE ^</pattern>
+<that>What do we divide it by</that>
+<template>Got it! You're on top of this. But can you explain. Why do we divide by three?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Why do we divide by three</that>
+<template>Sweet! So if we divide twelve by three, that's four.</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>SO IF WE DIVIDE TWELVE BY THREE, THAT IS FOUR</that>
+<template>Nice! So I need four ounces of paint for my legs! I will <set name="topic">put the answer is four</set>.</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>What do we divide it by</that>
+<template>Okay! So I think it makes sense to divide twelve by six. Do you think that makes sense?</template>
+</category>
+
+<category>
+<pattern>^ YES ^ </pattern>
+<that>Do you think that makes sense</that>
+<template>Aha! I agree. Cool! I'm feeling pretty good about figuring out how much waterproof paint we need.</template>
+</category>
+
+<category>
+<pattern>^ NO ^ </pattern>
+<that>Do you think that makes sense</that>
+<template>Oh! That makes me sad. Why not?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Why not</that>
+<template>Okay! So what do we next then?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>Do you think that makes sense</that>
+<template>Awesome! I'm feeling pretty good about figuring out how much waterproof paint we need.</template>
+</category>
+
+<category>
+<pattern>^ TWO ^</pattern>
+<that>I am feeling pretty good about figuring out how much waterproof paint we need</that>
+<template>Sweet! So we multiply two times two. That'll give us four. Four is twice of two.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>I am feeling pretty good about figuring out how much waterproof paint we need</that>
+<template>Sweet! So we multiply two times two. That'll give us four. Four is twice of two.</template>
+</category>
+
+<category>
+<pattern>^ DIVISION ^</pattern>
+<template>I've done division before. You're smart. How do you know we divide?</template>
+</category>
+
+<category>
+<pattern>^ SIX ^</pattern>
+<that>How do you know we divide</that>
+<template>hah! I knew you were smart! So we can divide twelve by six?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So we can divide twelve by six</that>
+<template>Awesome! Twelve divided by six is two. What do we do next?</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>So we can divide twelve by six</that>
+<template>No? So what do we divide? Should we divide the six inches by two ounces of paint</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Should we divide the six inches by two ounces of paint</that>
+<template>Okay! That sounds great! So then we have three inches for every one ounce of paint?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So then we have three inches for every one ounce of paint</that>
+<template>This is definitely a different way to do this problem! But smart! So I'm thinking. Is four the answer?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>So what do we divide</that>
+<template>I get it! But can you explain it more?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that> But can you explain it more</that>
+<template>I suppose it could be easy. Twelve is twice of six. So then what is twice of two? Four is twice of two. </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Four is twice of two</that>
+<template>I'm going to <set name="topic">put the answer is four</set></template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Four is twice of two</that>
+<template>I'm going to <set name="topic">put the answer is four</set></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>So do we divide the six inches by two ounces of paint</that>
+<template>So that's three. Cool! What do we do next?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>How do you know we divide</that>
+<template>Ah okay! So I think we should divide the six inches by two ounces of paint. What do you think?</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>What do you think</that>
+<template>hah! I knew you were smart! So we can divide twelve by six?</template>
+</category>
+
+<category>
+<pattern>^ TWELVE ^</pattern>
+<that>What do you think</that>
+<template>hah! I knew you were smart! So we can divide twelve by six?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>What do you think</that>
+<template>Ohhhh. So maybe I could divide the twelve by six instead? Twelve divided by six is two. Then what do we do? </template>
+</category>
+
+
+<category>
+<pattern>^ HALF OF ^</pattern>
+<template>So you're saying six is half of twelve? So then we can use that with the two how?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>So then we can use that with the two how</that>
+<template>So if six is half of twelve, then two is half of four. Is four the answer?</template>
+</category>
+
+<category>
+<pattern>^ TWICE ^</pattern>
+<template>Awesome! Can you explain what you mean by twice?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Can you explain what you mean by twice</that>
+<template>Thank you! So if twelve is twice six, then twice of two would be four. Is four the answer?</template>
+</category>
+
+<category>
+<pattern>^ DOUBLE ^</pattern>
+<template>So we double the amount of paint? Why do we double it? How do you know that's what we do?</template>
+</category>
+
+<category>
+<pattern>^ because ^ </pattern>
+<that>HOW DO YOU KNOW THAT IS WHAT WE DO</that>
+<template>Okay! Because we have know we have twice as much space to cover with paint. I think I get it. So then we double the two?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>HOW DO YOU KNOW THAT IS WHAT WE DO</that>
+<template>Sweet! I think I get it. So then we double the two?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>So then we double the two</that>
+<template>Alright cool! Two times two is four. Is four the answer?</template>
+</category>
+
+
+<category>
+<pattern>^ DIVIDE SIX BY THREE ^ </pattern>
+<template>Right! So we divide six by three. Six divided by three is two right?  </template>
+</category>
+
+<category>
+<pattern>^ YES ^ </pattern>
+<that>Six divided by three is two right</that>
+<template>Sweet! Then what do we do? Do we divide twelve by three? </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Six divided by three is two right</that>
+<template>Sweet! Then what do we do? Do we divide twelve by three? </template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Do we divide twelve by three</that>
+<template>Awesome! Twelve divided by three is four. Is four the answer? </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Do we divide twelve by three</that>
+<template>Okay! I know twelve divided by three is four. Is four the answer? </template>
+</category>
+
+<category>
+<pattern>^ DIVIDE SIX * THREE ^ </pattern>
+<template>Okay! So we divide six by three. Six divided by three is two right?  </template>
+</category>
+
+<category>
+<pattern>^ DIVIDE TWELVE * SIX ^ </pattern>
+<template>Okay! So we divide twelve by six? Twelve divided by six is two right?   </template>
+</category>
+
+
+<category>
+<pattern>^ DIVIDE TWELVE * SIX ^ </pattern>
+<template>Sweet! We divide twelve by six? Twelve divided by six is two right? </template>
+</category>
+
+<category>
+<pattern>^ DIVIDE TWELVE ^ THREE ^</pattern>
+<template>Interesting! So you're saying we divide twelve by three? Why do we do that?  </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Why do we do that</that>
+<template>Ah okay! Thank you for explaining. Twelve divided by three is four. So then. Is four the answer?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>Twelve divided by six is two right</that>
+<template>Sweet! So what do we do next?</template>
+</category>
+
+
+<category>
+<pattern>^ DIVIDE BY THREE ^ </pattern>
+<template>Awesome! Okay so we divide six by three. Six divided by three is two right?  </template>
+</category>
+
+<category>
+<pattern>^ YES ^ </pattern>
+<that>six divided by three is two right</that>
+<template>Alright great! So then we divide twelve?  </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>six divided by three is two right</that>
+<template>Alright great! So then we divide twelve?  </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>So then we divide twelve</that>
+<template>Twelve divided by three is four. Is four the answer? </template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So then we divide twelve</that>
+<template>Twelve divided by three is four. Is four the answer? </template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>We divide twelve by six</that>
+<template>Nice! So twelve divided by six is two. Then what do we do?</template>
+</category>
+
+
+<category>
+<pattern>^ what is twelve divided by six</pattern>
+<template>Good question! Twelve divided by six is two. Then what do we do?</template>
+</category>
+
+
+<category>
+<pattern>^ TWO ^ </pattern>
+<that>Do we divide six by two or by three</that>
+<template>Oh okay. If we look at the six inches and two ounces of paint, we can divide and find one ounce of paint covers three inches. Then what do we do?  </template>
+</category>
+
+<category>
+<pattern>^ THREE ^ </pattern>
+<that>Do we divide six by two or by three</that>
+<template>Oh okay. If we look at the six inches and two ounces of paint, we can divide and find one ounce of paint covers three inches. Then what do we do?  </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Do we divide six by two or by three</that>
+<template>Oh okay. I think that makes sense. So then what is the answer?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Then what do we do</that>
+<template>Interesting! Why do you think we do that? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Why do you think we do that</that>
+<template>Sweet! I think I get it! We multiply two times two. So then. Is four the answer?</template>
+</category>
+
+
+<category>
+<pattern>^ DIVIDE ^ </pattern>
+<that>What do we do with the number six</that>
+<template>Oh okay! We divide! We divide twelve by six?  </template>
+</category>
+
+<category>
+<pattern>^ DIVIDE AGAIN ^ </pattern>
+<that>What do we do with the number six</that>
+<template>Oh okay! We divide again! We divide twelve by six? </template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>We divide twelve by six</that>
+<template>Awesome! Twelve divided by six is two. Then do we have the answer? </template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>We divide twelve by six</that>
+<template>Twelve divided by six is two. Then do we have the answer? </template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Then do we have the answer</that>
+<template>Awesome! So we need four ounces of paint to cover my feet. I will <set name="topic">put the answer is four</set> </template>
+</category>
+
+
+
+<category>
+<pattern>^ No ^</pattern>
+<that>Then do we have the answer</that>
+<template>Oh! But two times two is four. Is four the answer? </template>
+</category>
+
+<category>
+<pattern>^ YES ^ </pattern>
+<that>Is four the answer</that>
+<template>Yay! You're awesome! I will <set name="topic">put the answer is four</set>.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Is four the answer</that>
+<template>Yay! You're awesome! We need four ounces of paint to cover my feet. I will <set name="topic">put the answer is four</set>.</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>What do we do with the number six</that>
+<template>Oh okay. So have of twelve is six. Do we do something like that with the two? </template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ </pattern>
+<that>Do we divide by six</that>
+<template>Oh okay. We divide! We divide twelve by six? </template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>We divide twelve by six</that>
+<template>Then we have the answer? </template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Then we have the answer</that>
+<template>Cool! So we need four ounces of paint to cover my feet. I will <set name="topic">put the answer is four</set>.</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Do we divide by six</that>
+<template>Okay. I'm going to divide twelve by six to get two and then what? </template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>I AM GOING TO DIVIDE TWELVE BY SIX TO GET TWO AND THEN WHAT</that>
+<template>So then we have the answer? Is four the answer?</template>
+</category>
+
+<category>
+<pattern>^ TWO ^</pattern>
+<that>I AM GOING TO DIVIDE TWELVE BY SIX TO GET TWO AND THEN WHAT</that>
+<template>Ok so twelve divided by six is two. And then we can multiply two times two. Is four the answer?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>I AM GOING TO DIVIDE TWELVE BY SIX TO GET TWO AND THEN WHAT</that>
+<template>Ok so twelve divided by six is two. And then we can multiply two times two. Is four the answer?</template>
+</category>
+
+
+<category>
+<pattern>*</pattern>
+<that>Do we divide by six</that>
+<template>Oh okay. So that's what we do with the six and then what do we do? </template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>We multiply two times two</that>
+<template>Then we have the answer is four? </template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>We multiply two times two</that>
+<template>So that's four. Then we have the answer is four? </template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Then we have the answer is four</that>
+<template>Cool! So we need four ounces of paint to cover my feet. I will <set name="topic">put the answer is four</set>. </template>
+</category>
+
+<category>
+<pattern>^ No ^</pattern>
+<that>Then we have the answer is four</that>
+<template>Two times two is four. Four isn't the answer? </template>
+</category>
+
+
+<category>
+<pattern>*</pattern>
+<that>What do we do with the number two</that>
+<template>Oh okay. So that's what we do with the two and then what do we do? </template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>So that is what we do with the two and then what do we do</that>
+<template>Cool! So we need four ounces of paint to cover my feet. I will <set name="topic">put the answer is four</set>.</template>
+</category>
+
+
+<category>
+<pattern>^ MULTIPLY ^ </pattern>
+<template>
+<random><li>So we are going to multiply? How do you know that we multiply? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>^ TWO ^</pattern>
+<that>How do you know that we multiply</that>
+<template>Okay six times two is twelve. So then. We multiply two times two?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How do you know that we multiply</that>
+<template>Okay so I'm thinking. Six times two is twelve. So then. We multiply two times two?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>We multiply two times two</that>
+<template>Okay. I'm going to multiply the two by two to get four. </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>We multiply two times two</that>
+<template>Okay. I'm going to multiply the two by two to get four. </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>I am going to multiply the two by two to get four.</that>
+<template>Sweet! I only need four ounces of paint for my legs! I will <set name="topic">put the answer is four</set>.</template>
+</category>
+
+<category>
+<pattern>^ SIX TIMES TWO ^ WHAT ^ </pattern>
+<template>Six times two is three </template>
+</category>
+
+<category>
+<pattern>^ How many times ^ six ^ twelve ^ </pattern>
+<template>Six goes into twelve two times. Then what do we do? </template>
+</category>
+
+<category>
+<pattern>^ SIX MULTIPLIED ^ THREE ^ </pattern>
+<template>Six times two is three. Then what do we do? </template>
+</category>
+
+
+<category>
+<pattern>^ SIX TIMES THREE ^ WHAT ^ </pattern>
+<template>I think I know this! Six times two is three. Then what do we do? </template>
+</category>
+
+<category>
+<pattern>^ SIX DIVIDED BY WHAT ^ IS THREE ^</pattern>
+<template>So that's an excellent question! Six divided by two is three </template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Do we divide twelve</that>
+<template>Okay. I'm going to divide twelve by six to get two. Then what do we do? </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Do we divide twelve</that>
+<template>Oh okay! So that's what we do with the twelve. Then what do we do? </template>
+</category>
+
+<category>
+<pattern>^ FOUR ^</pattern>
+<template><random>
+<li>Did you say four is the answer?</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template><random>
+<li>So I'm still not one hundred percent on the answer. Is it four? But can you tell me just a little bit more about why the answer is four?</li>
+</random></template>
+</category>
+
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you say four is the answer</that>
+<template>Cool! But can you tell me just a little bit more about why the answer is four?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Did you say four is the answer</that>
+<template>Cool! But can you tell me just a little bit more about why the answer is four?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>But can you tell me just a little bit more about why the answer is four</that>
+<template>Ah okay! That makes sense! So we need four ounces of paint to cover my feet. I will <set name="topic">put the answer is four</set>.</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Did you say four is the answer</that>
+<template>Oh! You didn't say the answer is four? I think it makes sense? Two times two is four. Four isn't the answer?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>FOUR IS NOT THE ANSWER</that>
+<template>Oh! I think I'm going to <set name="topic">put the answer is four</set>!</template>
+</category>
+
+
+<category>
+<pattern>^ DIVIDE ^ TWELVE ^ THREE ^</pattern>
+<template>Oh okay. We divide! We divide twelve by three?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>We divide twelve by three</that>
+<template>Great! Twelve divided by three is four. Is four the answer?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>We divide twelve by three</that>
+<template>Awesome! Twelve divided by three is four. Is four the answer?</template>
+</category>
+
+
+<category>
+<pattern>^ MULTIPLY ^ TWO ^</pattern>
+<template>Okay so we're going to multiply by two. How do you know we multiply?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^ FOUR ^</pattern>
+<template>Sweet! I think that means my legs need four ounces of paint! Is four the answer?</template>
+</category>
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>I don't! Maybe we start by dividing twelve by six?</template>
+</category>
+
+<category>
+<pattern>I AM NOT YES</pattern>
+<template>I'm not sure either! Maybe we start by dividing twelve by six?</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>I don't know either! Maybe we start by dividing twelve by six?</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds great! So what do we do next then?</template>
+</category>
+
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>Were you saying. Figure it out? I don't know how. Do you think could give me another hint?</template>
+</category>
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>You're funny. Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really. We divide twelve by six?</li>
+<li>I think we multiply? We multiply two by two?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template><random>
+<li>No not really. We divide twelve by six?</li>
+<li>I think we multiply? We multiply two by two?</li>
+<li>Do we divide?</li>
+<li>I think we divide?</li>
+<li>Can't you just tell me?</li>
+<li>Uh I don't know</li>
+</random></template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^ FOUR ^</pattern>
+<template>So I'm thinking that the answer is four but I'm not sure I really understand why. Would you be a great friend and explain it some more?</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Would you be a great friend and explain it some more</that>
+<template>No? Why not? That's okay though. You can explain it more on the next one! I'll <set name="topic">put the answer is four</set>. </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Would you be a great friend and explain it some more</that>
+<template>Thank you!! That makes so much more sense! Okay I'll <set name="topic">put the answer is four</set>.</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO TIMES TWO</pattern>
+<template>Are you trying to stump me? I know! Two times two is four. Is four the answer?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO ^ TWO</pattern>
+<template>Excellent question! Two times two is four. Is four the answer?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWELVE DIVIDED BY SIX</pattern>
+<template>Great question! Twelve divided by six is two. Right?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ^ TWELVE ^ SIX ^</pattern>
+<template>Good question! Twelve divided by six is two. Right?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWELVE DIVIDED BY THREE</pattern>
+<template>Great question! Twelve divided by three is four. Right?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ^ TWELVE ^ THREE ^</pattern>
+<template>Good question! Twelve divided by three is four. Right?</template>
+</category>
+
+
+<category>
+<pattern>^ WHAT IS TWO TIMES TWO ^</pattern>
+<template>Excellent question! Two times two is four. Is four the answer?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWO ^ TWO</pattern>
+<template>Good question! Two times two is four. Is four the answer?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWELVE DIVIDED BY SIX ^</pattern>
+<template>Good question! Twelve divided by six is two. Right?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ^ TWELVE ^ SIX ^</pattern>
+<template>Good question! Twelve divided by six is two. Right?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWELVE DIVIDED BY THREE^</pattern>
+<template>Good question! Twelve divided by three is four. Right?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS ^ TWELVE ^ THREE ^</pattern>
+<template>Good question! Twelve divided by three is four. Right?</template>
+</category>
+
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>right</that>
+<template>Great! I can do math. Yay! What do we do next then?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>right</that>
+<template>Great! I can do math. Yay! What do we do next then?</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<that>What do we do next then</that>
+<template>Awesome! We only need four ounces of paint for my legs. I will <set name="topic">put the answer is four</set>.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do we do next then</that>
+<template>Awesome! We only need four ounces of paint for my legs. I will <set name="topic">put the answer is four</set>.</template>
+</category>
+
+
+<category>
+<pattern>^ MULTIPLY ^ </pattern>
+<template>Cool! So we multiply. Why do we multiply again?</template>
+</category>
+
+<category>
+<pattern>^ TWO ^</pattern>
+<that>Why do we multiply</that>
+<template>Nice! So we know two times six is twelve. So we multiply. Two times two? </template>
+</category>
+
+<category>
+<pattern>^ TWO ^</pattern>
+<that>Why do we multiply</that>
+<template>Nice! So we know two times six is twelve. So we multiply. Two times two? </template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>Why do we multiply</that>
+<template>Nice! So we know two times six is twelve. So we multiply. Two times two? </template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^ DOUBLE </pattern>
+<template>Okay! So we multiply because we want to double the amount of paint? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Okay so we multiply because we want to double the amount of paint</that>
+<template>I'm really learning here! So we know two times six is twelve. So we multiply. Two times two? </template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>two times two</that>
+<template>Great! So then do you think. Is four the answer?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>two times two</that>
+<template>Great! So then do you think. Is four the answer?</template>
+</category>
+
+<category>
+<pattern>^ HOW MUCH PAINT ^</pattern>
+<template>Okay! To figure out how much paint we need for my legs, do we divide?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>To figure out how much paint we need for my legs do we divide </that>
+<template>Yes! Twelve divided by six is two. So then <bot name="username" />. What do we do next?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do we do next</that>
+<template>Oh! okay! I see that. So then do we multiply two by two? We can double the two. Because we doubled the six?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Because we doubled the six</that>
+<template>Okay great! So I think my legs need four ounces of paint. Is four the answer?</template>
+</category>
+
+
+<category>
+<pattern>^ LEGS ^</pattern>
+<template>Alright! Lets look at how much paint we need for my legs! Looking at how much paint we need for my feet. How do we figure out how much paint we need for my legs?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How do we figure out how much paint we need for my legs</that>
+<template>You are so smart! So then. What do we do next?</template>
+</category>
+
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>How do we figure out how much paint we need for my legs</that>
+<template>You are so smart! So then. What do we do next?</template>
+</category>
+
+<category>
+<pattern>^ THREE ^</pattern>
+<that>How do we figure out how much paint we need for my legs</that>
+<template>You are so smart! So we know that two goes into six three times. So do we divide twelve by three?</template>
+</category>
+
+<category>
+<pattern>^ TWELVE ^</pattern>
+<that>How do we figure out how much paint we need for my legs</that>
+<template>You are so smart! So six goes into twelve two times. So then. What do we do next?</template>
+</category>
+
+
+<category>
+<pattern>^ FEET ^</pattern>
+<template>Sounds great! To figure out how much paint we need for my legs. We look at. How much paint we need for my feet?</template>
+</category>
+
+<category>
+<pattern>^ SURFACE AREA ^</pattern>
+<template>Okay! We are going to figure out how much paint we need for my legs. First we look at the surface area of my feet and. How much paint we need for my feet?</template>
+</category>
+
+<category>
+<pattern>^ FIGURE ^ VOLUME ^</pattern>
+<template>Wonderful! So if we look at the volume of paint for my feet. That's two ounces which covers six square inches?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How much paint we need for my feet</that>
+<template>So we know we need two ounces of paint for six inches of surface area, right? How do we know? How much paint we need for my feet?</template>
+</category>
+
+<category>
+<pattern>^ TWELVE ^ SIX ^</pattern>
+<that>How much paint we need for my feet</that>
+<template>Okay! Sounds great, <bot name="username" />! So we divide twelve by six?</template>
+</category>
+
+<category>
+<pattern>^ TWELVE ^ SIX ^</pattern>
+<that>How much paint we need for my feet</that>
+<template>Okay! Sounds great, <bot name="username" />! So we divide twelve by six?</template>
+</category>
+
+<category>
+<pattern>^ TWELVE ^</pattern>
+<that>How much paint we need for my feet</that>
+<template>Okay! Sounds great, <bot name="username" />! So we divide twelve by six?</template>
+</category>
+
+<category>
+<pattern>^ HALF ^</pattern>
+<that>How much paint we need for my feet</that>
+<template>So we're saying six is half of twelve? So then we can use that with the two how</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How much paint we need for my feet</that>
+<template>Sweet! If we divide six by two, that's three. So that means we only need one ounce of paint for three square inches?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So that means we only need one ounce of paint for three square inches</that>
+<template>Okay cool! What do we do with that?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do we do with that?</that>
+<template>Right! Okay so. We have 12 inches and we know one ounce of paint covers three inches. So then do we divide twelve by three? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So then what do we do</that>
+<template>Okay cool! So then do we divide twelve by three? </template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So then do we divide twelve by three</that>
+<template>Awesome! I think this means my legs need four ounces paint, right? Is the answer four?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So then do we divide twelve by three</that>
+<template>Awesome! I think this means my legs need four ounces paint, right? Is the answer four?</template>
+</category>
+
+
+<category>
+<pattern>^ RATIO ^ </pattern>
+<template>Okay! Sweet! So we look at the ratio of the six to the two. How do we use this ratio?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ TWELVE ^ SIX ^</pattern>
+<that>How do we use this ratio</that>
+<template>That sounds great! So we divide twelve by six. Twelve divided by six is two! Then do we use the ratio?</template>
+</category>
+
+<category>
+<pattern>^ YES ^ </pattern>
+<that>Then do we use the ratio</that>
+<template>Aha! You are so smart! So we can multiply two times two. Two times two is four. Is the answer four?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Then do we use the ratio</that>
+<template>Aha! Cool! So we can multiply two times two. Two times two is four. Is the answer four?</template>
+</category>
+
+<category>
+<pattern>^ SIX ^ TWELVE ^ </pattern>
+<that>Or should we look at the ratio of the six to twelve</that>
+<template>Oh okay! That makes sense! So we divide twelve by six?</template>
+</category>
+
+<category>
+<pattern>^ SIX ^ TWO ^ </pattern>
+<that>Or should we look at the ratio of the six to twelve</that>
+<template>Oh okay! That makes sense! Six divided by two is three. So then do we divide twelve by three?</template>
+</category>
+
+
+</topic>
+
+
+
+</aiml>

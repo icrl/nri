@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<topic name = "STEP TWO OF THIS THIRD PROBLEM">
+
+<category>
+<pattern>^ HOW MANY MILES CAN YOU GO IN ONE HOUR ^</pattern>
+<template>So I know I can bike ten miles in one hour. How long will I have been biking after thirty miles? I am not sure what to do.</template>
+</category>
+
+
+<category>
+<pattern>^ ten MILES ^ ONE HOUR ^</pattern>
+<template>So I know I can bike ten miles in one hour from step one. How long will I have been biking after thirty miles? I am not sure what to do.</template>
+</category>
+
+<category>
+<pattern>^ ten ^ ONE ^</pattern>
+<template>So I know I can bike ten miles in one hour from step one. How long will I have been biking after thirty miles? I am not sure what to do.</template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>I am not yes what to do</that>
+    <template>The numbers add up. But how do I use that to get the number of hours I'll have been riding?</template>
+  </category>
+
+
+
+  <category>
+<pattern>^ THREE ^</pattern>
+<template>Thirty is three times ten. But how do I use that to get the number of hours I'll have been riding?</template>
+</category>
+
+
+<category>
+<pattern>^ THIRTY ^</pattern>
+<template>Thirty is three times ten. But how do I use that to get the number of hours I'll have been riding?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^ </pattern>
+<that>But how do I use that to get the number of hours I will have been riding</that>
+<template>Are you thinking I multiply one times three? Why do I do that?</template>
+</category>
+
+<category>
+  <pattern>^ THREE ^ </pattern>
+  <that>But how do I use that to get the number of hours I will have been riding</that>
+  <template>Are you thinking I multiply one times three? But can you tell me. Why do I multiply here?</template>
+</category>
+
+  <category>
+    <pattern>^ ONE ^ </pattern>
+    <that>But how do I use that to get the number of hours I will have been riding</that>
+    <template>Are you thinking I multiply one times three? But can you tell me. Why do I multiply here?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>But how do I use that to get the number of hours I will have been riding</that>
+    <template>Are you thinking I multiply one times three? But can you tell me. Why do I multiply here?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>Why do I multiply here</that>
+    <template>I've been biking for three times longer than one hour. So then I will have been riding for three hours?</template>
+  </category>
+  
+  <category>
+<pattern>_</pattern>
+<that>Why do I do that</that>
+<template>So then I will have been riding for three hours?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>So then I will have been riding for three hours</that>
+<template>So I will have been biking for three hours after thirty miles. I will <set name="topic"> put the answer is three</set>.</template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>So then I will have been riding for three hours</that>
+    <template>
+      So I will have been biking for three hours after thirty miles. I will <set name="topic"> put the answer is three</set>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>^ NO ^</pattern>
+    <that>So then I will have been riding for three hours</that>
+    <template>
+      You don't think the answer is three? Why not? 
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>_</pattern>
+    <that>Lets talk about it</that>
+    <template>
+     I think I will <set name="topic"> put the answer is three</set>. 
+    </template>
+  </category>
+
+
+  <category>
+<pattern>^ three times ^</pattern>
+<template>So it seems like I've biked three times as long at thirty miles. Are you thinking I multiply one times three? Why do I do that?</template>
+</category>
+
+
+<category>
+<pattern>^ DIVIDE ^ THREE ^ ONE ^</pattern>
+<template>Three divided by one is three. Are you thinking the answer is three? How do I know that for sure?</template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>How do I know that for yes</that>
+    <template>
+      So I will have been biking for three hours after thirty miles. I will <set name="topic"> put the answer is three</set>.
+    </template>
+  </category>  
+  
+<category>
+<pattern>^ ONE ^ MULTIPLIED ^ THREE ^</pattern>
+<template>So one times three is three. Why do I do that?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^ ONE ^ ^</pattern>
+<template>So if I multiply one by three, I get three. But. Why do I do that?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^ THREE ^</pattern>
+<template>So if I multiply one by three, I get three. But. Why do I do that?</template>
+</category>
+
+<category>
+<pattern>^ What is ten times three</pattern>
+<template>Thirty is three times ten. But how do I use that to get the number of hours I'll have been riding?</template>
+</category>
+
+<category>
+<pattern>^ ten times three ^ </pattern>
+<template>Thirty is three times ten. But how do I use that to get the number of hours I'll have been riding?</template>
+</category>
+
+<category>
+<pattern>^ One times three ^ </pattern>
+<template> So one times three is three. Why do I do that?</template>
+</category>
+
+
+<category>
+<pattern>^ thirty ^ ten ^</pattern>
+<template>Thirty is three times ten. But how do I use that to get the number of hours I'll have been riding?</template>
+</category>
+
+
+  <category>
+    <pattern>^ ANSWER ^ THREE ^</pattern>
+    <template>Something about biking for three times longer? But can you explain just a little more? </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>But can you explain just a little more</that>
+    <template>I'm listening.</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>I am listening</that>
+    <template>
+      I'll have been biking for three hours. I will <set name="topic">put the answer is three</set>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>But can you explain just a little more</that>
+    <template>
+      I will <set name="topic">put the answer is three</set>.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU NOT KNOW</pattern>
+    <template>I  don't know. Maybe I start by multiplying? Three times ten?</template>
+  </category>
+
+  <category>
+    <pattern>I AM NOT SURE</pattern>
+    <template>Maybe I start by multiplying? Three times ten?</template>
+  </category>
+
+  <category>
+    <pattern>I DO NOT KNOW</pattern>
+    <template>Maybe I start by multiplying? Three times ten?</template>
+  </category>
+
+  <category>
+    <pattern>^ SO I CAN FIGURE IT OUT ^</pattern>
+    <template>So what do I do?</template>
+  </category>
+
+
+  <category>
+    <pattern>^ FIGURE IT OUT ^</pattern>
+    <template>Did you say figure it out? I'm not sure how. Help me.</template>
+  </category>
+
+  <category>
+    <pattern>^ I WILL ^</pattern>
+    <that>Help me</that>
+    <template>So what do I do?</template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>Help me</that>
+    <template>So what do I do?</template>
+  </category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>So what do I do</that>
+    <template>Are you thinking I multiply one times three? I think I like multiplying. It's easy. But can you tell me. Why do I multiply here?</template>
+  </category>
+
+
+  <category>
+    <pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+    <template>Did you ask do I know what to do next?</template>
+  </category>
+
+  <category>
+    <pattern>^ YES ^</pattern>
+    <that>Did you ask do I know what to do next</that>
+    <template>I'm not sure actually. Help me.</template>
+  </category>
+
+
+  <category>
+    <pattern>*</pattern>
+    <that>Did you ask do I know what to do next</that>
+    <template>I'm not sure actually. Help me.</template>
+  </category>
+
+  <category>
+    <pattern>^ ANSWER ^</pattern>
+    <template>I have been biking for thirty miles. And that's three times as many miles. So do I multiply one times three? Why do I do that?</template>
+  </category>
+
+
+</topic>
+
+
+</aiml>

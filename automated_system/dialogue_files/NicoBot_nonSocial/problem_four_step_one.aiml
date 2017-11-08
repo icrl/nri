@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+
+  <topic name = "how many bags">
+
+    <category>
+      <pattern>^ MULTIPLYING ^</pattern>
+      <template>Can you clarify though. What should I multiply?</template>
+    </category>
+
+    <category>
+      <pattern>^ MULTIPLY ^</pattern>
+      <template>Can you clarify though. What should I multiply?</template>
+    </category>
+
+    <category>
+      <pattern>^ TIMES ^</pattern>
+      <template>Can you clarify though. What should I multiply?</template>
+    </category>
+
+    <category>
+      <pattern>^ CROSS ^ MULTIPLY ^</pattern>
+      <template>Can you clarify though. What should I multiply?</template>
+    </category>
+
+    <category>
+      <pattern>^ ONE HUNDRED AND TEN ^</pattern>
+      <that>What should I multiply</that>
+      <template>I have two bags so two times more M and M's. What do I do next?</template>
+    </category>
+
+    <category>
+      <pattern>^ ONETEN ^</pattern>
+      <that>What should I multiply</that>
+      <template>I have two bags so two times more M and M's. What do I do next?</template>
+    </category>
+
+    <category>
+      <pattern>^ TWO ^</pattern>
+      <that>What should I multiply</that>
+      <template>I have two bags so two times more M and M's. What do I do next?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>What should I multiply</that>
+      <template>I have two bags so two times more M and M's. What do I do next?</template>
+    </category>
+
+    <category>
+      <pattern>^ OVER ^</pattern>
+      <template>So I have one over one hundred and ten equals two over something?</template>
+    </category>
+
+    <category>
+      <pattern>^ MULTIPLY ^</pattern>
+      <that>So I have one over one hundred and ten equals two over something</that>
+      <template>I think I get it. But. Why do I multiply? </template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>Why do I multiply</that>
+      <template>If I multiply two times one hundred and ten. That's two hundred and twenty. What do I do next?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>So I have one over one hundred and ten equals two over something</that>
+      <template>I think I get it. Do I multiply? </template>
+    </category>
+
+    <category>
+      <pattern>^ YES ^</pattern>
+      <that>That I multiply</that>
+      <template>I multiply two times one hundred and ten. What do I do next?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>Are you thinking like I am that I multiply</that>
+      <template>I multiply two times one hundred and ten. What do I do next?</template>
+    </category>
+
+    <category>
+      <pattern>^ DIVIDE ^ </pattern>
+      <that>What do I do next</that>
+      <template>Do you know. Why do I divide? </template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>Why do I divide</that>
+      <template>Okay. So I cross multiplied and now I divide by one. So then for two bags of candy. I have two hundred and twenty M and M's?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>What do I do next</that>
+      <template>Oh okay. Why do I do that though?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>Why do I do that though</that>
+      <template>Okay. So then for two bags of candy. I have two hundred and twenty M and M's?</template>
+    </category>
+
+    <category>
+      <pattern>^ YES ^</pattern>
+      <that>I have two hundred and twenty M and M s</that>
+      <template>So I will have two hundred and twenty candies with two bags. I will <set name ="topic">put the answer is two hundred and twenty</set> .</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>I have two hundred and twenty M and M s</that>
+      <template>
+        So I will have two hundred and twenty candies with two bags. I will <set name ="topic">put the answer is two hundred and twenty</set>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ ratio ^</pattern>
+      <template>Do I look at the ratio between the one and one hundred and ten? Can you tell me how that works?</template>
+    </category>
+
+    <category>
+      <pattern>^ OVER ^</pattern>
+      <that>Can you tell me how that works</that>
+      <template>Okay. So I have one over one hundred and ten equals two over something?</template>
+    </category>
+    
+    <category>
+      <pattern>_</pattern>
+      <that>Can you tell me how that works</that>
+      <template>I am thinking it makes sense to multiply. But can you tell me. Why do I multiply?</template>
+    </category>
+
+    
+    <category>
+      <pattern>^ TWICE ^</pattern>
+      <template>Are you saying that two is twice of one? So what is twice of one hundred and ten? How do I do that?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>How do I do that</that>
+      <template>One hundred and ten times two is two hundred and twenty. So then for two bags of candy. I have two hundred and twenty M and M's?</template>
+    </category>
+
+     <category>
+      <pattern>^ WHAT IS TWO TIMES ONE HUNDRED AND TEN ^</pattern>
+      <template>One hundred and ten times two bags of candy is two hundred and twenty. Why do I multiply?</template>
+    </category>
+
+    <category>
+      <pattern>^ WHAT IS ONE HUNDRED AND TEN TIMES TWO ^</pattern>
+      <template>One hundred and ten times two bags of candy is two hundred and twenty. Why do I multiply?</template>
+    </category>
+
+    <category>
+      <pattern>^ ONE HUNDRED AND TEN ^ TIMES ^ TWO</pattern>
+      <template>One hundred and ten times two bags of candy is two hundred and twenty. But. Why do I multiply?</template>
+    </category>
+
+    <category>
+      <pattern>^ ONE HUNDRED AND TEN ^ MULTIPLIED ^ TWO</pattern>
+      <template>One hundred and ten times two bags of candy is two hundred and twenty. But. Why do I multiply?</template>
+    </category>
+
+    <category>
+      <pattern>^ DIVIDE ^ ONE HUNDRED AND TEN </pattern>
+      <template>I think I understand. So I have one over one hundred and ten equals two over something?</template>
+    </category>
+
+    <category>
+      <pattern>^ WHAT IS TWO TIMES ONETEN ^</pattern>
+      <template>One hundred and ten times two bags of candy is two hundred and twenty. Why do I multiply?</template>
+    </category>
+
+    <category>
+      <pattern>^ WHAT IS ONETEN TIMES TWO ^</pattern>
+      <template>One hundred and ten times two bags of candy is two hundred and twenty. Why do I multiply?</template>
+    </category>
+
+    <category>
+      <pattern>^ ONETEN ^ TIMES ^ TWO</pattern>
+      <template>One hundred and ten times two bags of candy is two hundred and twenty. But. Why do I multiply?</template>
+    </category>
+
+    <category>
+      <pattern>^ ONETEN ^ MULTIPLIED ^ TWO</pattern>
+      <template>One hundred and ten times two bags of candy is two hundred and twenty. But. Why do I multiply?</template>
+    </category>
+
+    <category>
+      <pattern>^ DIVIDE ^ ONETEN </pattern>
+      <template>I think I understand. So I have one over one hundred and ten equals two over something?</template>
+    </category>
+
+    <category>
+      <pattern>^ DIVIDE TWO HUNDRED AND TWENTY BY ONE ^</pattern>
+      <template>Did you say I am dividing by one? Can you explain that some more?</template>
+    </category>
+
+    <category>
+      <pattern>^ WHAT IS TWO HUNDRED AND TWENTY DIVIDED BY ONE ^</pattern>
+      <template>Two hundred and twenty divided by one is two hundred and twenty. So is the answer two hundred and twenty candies?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>Can you explain that some more</that>
+      <template>So then for two bags of candy. I have two hundred and twenty M and M's?</template>
+    </category>
+
+  
+    <category>
+      <pattern>^ ONE ^ TO ^ ONETEN ^ </pattern>
+      <template>I think I understand. So I have one over one hundred and ten equals two over something?</template>
+    </category>
+
+    <category>
+      <pattern>^ ANSWER ^ TWO HUNDRED AND TWENTY ^</pattern>
+      <template>So something about twice as many M and M's as in step one? But can you explain just a little more? </template>
+    </category>
+
+    <category>
+      <pattern>YES</pattern>
+      <that>But can you explain just a little more</that>
+      <template>I'm listening.</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>I am listening</that>
+      <template>
+        Okay. Two hundred and twenty candies in two bags. I will <set name="topic">put the answer is two hundred and twenty</set>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>But can you explain just a little more</that>
+      <template>
+         I get it. I will <set name="topic">put the answer is two hundred and twenty</set>.
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>DO YOU NOT KNOW</pattern>
+      <template>I don't know. Maybe I start by multiplying something?</template>
+    </category>
+
+    <category>
+      <pattern>I AM NOT SURE</pattern>
+      <template>Maybe I start by multiplying something?</template>
+    </category>
+
+    <category>
+      <pattern>I DO NOT KNOW</pattern>
+      <template>Maybe I start by multiplying something?</template>
+    </category>
+
+    <category>
+      <pattern>^ SO I CAN FIGURE IT OUT ^</pattern>
+      <template>So what do I do?</template>
+    </category>
+
+
+    <category>
+      <pattern>^ FIGURE IT OUT ^</pattern>
+      <template>Did you say figure it out? I'm not sure how. Help me.</template>
+    </category>
+
+    <category>
+      <pattern>^ I WILL ^</pattern>
+      <that>Help me</that>
+      <template>Okay. What do I do?</template>
+    </category>
+
+    <category>
+      <pattern>*</pattern>
+      <that>Help me</that>
+      <template>Okay. What do I do?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>So what do I do</that>
+      <template>Can you tell me. Why do I multiply?</template>
+    </category>
+
+
+    <category>
+      <pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+      <template>Did you ask do I know what to do next?</template>
+    </category>
+
+    <category>
+      <pattern>^ YES ^</pattern>
+      <that>Did you ask do I know what to do next</that>
+      <template>I'm not sure. Help me.</template>
+    </category>
+
+
+    <category>
+      <pattern>*</pattern>
+      <that>Did you ask do I know what to do next</that>
+      <template>I'm not sure. Help me.</template>
+    </category>
+
+    <category>
+      <pattern>^ ANSWER ^</pattern>
+      <template>So the answer for this one is not too hard. I am thinking that I will have twice as many M and M's? What do you think?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>What do you think</that>
+      <template>
+        Okay. I will <set name="topic">put the answer is two hundred and twenty</set>
+      </template>
+    </category>
+
+
+
+  </topic>
+  
+  </aiml>

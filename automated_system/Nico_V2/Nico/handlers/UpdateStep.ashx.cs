@@ -14,9 +14,9 @@ namespace Nico.handlers
 
         public void ProcessRequest(HttpContext context)
         {
+            string userid = HttpContext.Current.User.Identity.Name;
             try
             {
-                string userid = "nlubold";
                 int sessionid = 1;
                 int maxprobs = 7;
                 string page = "ProblemPage";
@@ -33,7 +33,7 @@ namespace Nico.handlers
                 int numautoresponses = problemStep[5];
                 int numturns = problemStep[6];
 
-                string useraudio = "";
+
 
                 if (step == 0)
                 {
@@ -44,6 +44,7 @@ namespace Nico.handlers
                 // Variables important to Nico's state
                 Tuple<string, int, string> nicoResponse;                                                                      // string => Nico's response, int is the movement code, string is whether nico is answering
                 string path = HttpRuntime.AppDomainAppPath;
+                string useraudio = path + "data\\userAudio\\blob.wav";
                 DateTime now = DateTime.Now;
                 string clickstep = "";
 
@@ -118,7 +119,7 @@ namespace Nico.handlers
             }
             catch (Exception error)
             {
-                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "UpdateStep.ashx.cs", 0, "nlubold");
+                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "UpdateStep.ashx.cs", 0, userid);
             }
         }
 

@@ -13,7 +13,7 @@ namespace Nico.csharp.functions
 
         public int AnswerKey { get; set; }
         public int AnswerPattern { get; set; }
-        public static List<string> GetAnswerPattern(int answerKey)
+        public static List<string> GetAnswerPattern(int answerKey, string userid)
         {
             List<string> answerInfo = new List<string>();
 
@@ -40,12 +40,12 @@ namespace Nico.csharp.functions
             }
             catch (Exception error)
             {
-                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLAnswerPattern GetAnswerPattern", 0, "nlubold");
+                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLAnswerPattern GetAnswerPattern", 0, userid);
             }
             return answerInfo;
         }
 
-        public static int GetAnswerKey(string answerpattern)
+        public static int GetAnswerKey(string answerpattern, string userid)
         {
             int answerkey = 0;
 
@@ -64,7 +64,7 @@ namespace Nico.csharp.functions
             }
             catch (Exception error)
             {
-                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLAnswerPattern GetAnswerKey", 0, "nlubold");
+                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLAnswerPattern GetAnswerKey", 0, userid);
             }
             return answerkey;
         }

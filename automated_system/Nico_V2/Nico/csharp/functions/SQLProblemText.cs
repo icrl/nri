@@ -13,7 +13,7 @@ namespace Nico.csharp.functions
         public int ProblemID { get; set; }
 
         // Returns the problem text and headers for a table
-        public static List<string> ReadProbText(int problemid)
+        public static List<string> ReadProbText(int problemid, string userid)
         {
             List<string> problemText = new List<string>();
 
@@ -41,7 +41,7 @@ namespace Nico.csharp.functions
             }
             catch (Exception error)
             {
-                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLProblemText ReadProbText", 0, "nlubold");
+                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "SQLProblemText ReadProbText", 0, userid);
             }
 
             return problemText;

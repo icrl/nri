@@ -262,6 +262,7 @@
 
             if (resultevent) {
                 responseCallNico(final_transcript);
+                stoprecord = false;
             }
             
             writeLog("called stop recording");
@@ -335,22 +336,13 @@
             });
         }
         
-        // This function is triggered whenever there has been a 20 second lapse with no response from the user
+        
         function responseCallNico(text) {
             clearTimeout(timer);
             var data = new FormData();
             data.append('transcript', text);
             data.append('page_loc', 'ProblemPage');
-/*
-            $(document).ajaxStart(function () {
-                $("#thinking").css("display", "block");
-            });
 
-            $(document).ajaxStop(function () {
-                $("#thinking").css("display", "none");
-            });
-
-*/
             $("#thinking").css("display", "block");
             $.ajax({
                 url: "../handlers/DialogueEngine.ashx",

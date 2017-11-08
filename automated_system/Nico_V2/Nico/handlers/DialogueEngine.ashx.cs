@@ -70,7 +70,7 @@ namespace Nico.handlers
             // General variables
             DateTime timeStart = DateTime.Now;
             string path = context.Request.PhysicalApplicationPath;
-            string userid = "nlubold";
+            string userid = HttpContext.Current.User.Identity.Name;
             Tuple<string, int> imageInfo = new Tuple<string, int>("",2);
             string page = "";
 
@@ -106,74 +106,66 @@ namespace Nico.handlers
                 transcript = context.Request.Params["transcript"];    // Get transcript (if there is one)
                 page = context.Request.Params["page_loc"];
 
-                if (numAutoResponses > 4)
+                if (context.Request.Files.Count > 0)                                                                       // Write out audio file (if it's there)
                 {
-                    // Call shutdown program
+                    HttpFileCollection files = context.Request.Files;
+                    //audioFile = writeFile(files, path, userid, timeStart);
+                }
+                if (transcript == "problem start")
+                {
+                    speakerSpoke = 0;
+                    clickstep = "problem start";
+                    step = 1;
+                }
+                else if (transcript == "no response")
+                {
+                    speakerSpoke = 0;
+                    clickstep = "null";
+                    numAutoResponses += 1;
+                    transcript = "Triggered Speech " + numAutoResponses.ToString();
+
+                }
+                else if (transcript == "HELLO FIRST TIME")
+                {
+                    speakerSpoke = 0;
+                    clickstep = "hello nico start";
+                }
+                else if ((transcript != "") && (transcript != null))                                                             // Is there a transcript? If there is get the speaker's dialogue act
+                {
+                    dialogueAct = estimateDialogueAct(transcript);
+                    speakerSpoke = 1;                                                                                           // Set that the speaker actually spoke this turn
                 }
                 else
-                {             
+                {
+                    speakerSpoke = 2;
+                    transcript = "transcript empty or null";
+                }
 
-                    if (context.Request.Files.Count > 0)                                                                       // Write out audio file (if it's there)
-                    {
-                        HttpFileCollection files = context.Request.Files;
-                        //audioFile = writeFile(files, path, userid, timeStart);
-                    }
-                    if (transcript == "problem start")
-                    {
-                        speakerSpoke = 0;
-                        clickstep = "problem start";
-                        step = 1;
-                    }
-                    else if (transcript == "no response")
-                    {
-                        speakerSpoke = 0;
-                        clickstep = "null";
-                        numAutoResponses += 1;
-                        transcript = "Triggered Speech " + numAutoResponses.ToString();
-
-                    }
-                    else if (transcript == "HELLO FIRST TIME")
-                    {
-                        speakerSpoke = 0;
-                        clickstep = "hello nico start";
-                    }
-                    else if ((transcript != "") && (transcript != null))                                                             // Is there a transcript? If there is get the speaker's dialogue act
-                    {
-                        dialogueAct = estimateDialogueAct(transcript);
-                        speakerSpoke = 1;                                                                                           // Set that the speaker actually spoke this turn
-                    }
-                    else
-                    {
-                        speakerSpoke = 2;
-                        transcript = "transcript empty or null";
-                    }
-
-                    nicoResponse = ResponseGeneration.NicoResponse(path, problemStep, speakerSpoke, transcript, timeStart, page, userid, audioFile);                 // Generate and initiate Nico's response
-                    SQLUserState.UpdateSpeakerState(userid, dialogueAct, transcript, speakerSpoke, problemStep, timeStart, clickstep, numAutoResponses);    // Write out speaker state info
-                    SQLNicoState.UpdateNicoState(userid, nicoResponse, problemStep, timeStart);                                           // Write out Nico's state info & update problem/step
+                nicoResponse = ResponseGeneration.NicoResponse(path, problemStep, speakerSpoke, transcript, timeStart, page, userid, audioFile);                 // Generate and initiate Nico's response
+                SQLUserState.UpdateSpeakerState(userid, dialogueAct, transcript, speakerSpoke, problemStep, timeStart, clickstep, numAutoResponses);    // Write out speaker state info
+                SQLNicoState.UpdateNicoState(userid, nicoResponse, problemStep, timeStart);                                           // Write out Nico's state info & update problem/step
 
 
-                    // Nico response: string => Nico's response, int is the movement code, the boolean indicates whether Nico answered the step
-                    // To update the step, we check if Nico answered the question. 
+                // Nico response: string => Nico's response, int is the movement code, the boolean indicates whether Nico answered the step
+                // To update the step, we check if Nico answered the question. 
 
-                    numturns += 1;
-                    if (nicoResponse.Item3 == "answering")
-                    {
-                        nextstepanswerkey = SQLProblemStepTracker.CalculateNewAnswerKey(1, answerKey, step);                // Passing 1 as first argument because Nico DID answer this step
-                        newanswer = step;
-                        SQLProblemStepTracker.UpdateProbStep(userid, sessionid, problem, step, probImg, nextstepanswerkey, newanswer, numAutoResponses, numturns);
-                    }
-                    else
-                    {
-                        nextstepanswerkey = answerKey;                                                                                 // current answer key
-                        SQLProblemStepTracker.UpdateProbStep(userid, sessionid, problem, step, probImg, nextstepanswerkey, newanswer, numAutoResponses, numturns);
-                    }
+                numturns += 1;
+                if (nicoResponse.Item3 == "answering")
+                {
+                    nextstepanswerkey = SQLProblemStepTracker.CalculateNewAnswerKey(1, answerKey, step, userid);                // Passing 1 as first argument because Nico DID answer this step
+                    newanswer = step;
+                    SQLProblemStepTracker.UpdateProbStep(userid, sessionid, problem, step, probImg, nextstepanswerkey, newanswer, numAutoResponses, numturns);
+                }
+                else
+                {
+                    nextstepanswerkey = answerKey;                                                                                 // current answer key
+                    SQLProblemStepTracker.UpdateProbStep(userid, sessionid, problem, step, probImg, nextstepanswerkey, newanswer, numAutoResponses, numturns);
                 }
 
             }
             catch (Exception error)
             {
-                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "DialogueEngine.ashx.cs", 0, "nlubold");
+                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "DialogueEngine.ashx.cs", 0, userid);
             }
 
             string transResponse = "Saved User Wav File!";

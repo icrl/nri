@@ -14,15 +14,16 @@ namespace Nico.handlers
 
         public void ProcessRequest(HttpContext context)
         {
+            string userid = HttpContext.Current.User.Identity.Name;
             try
             {
                 string data = context.Request.Params["log"];    // Get transcript (if there is one)
-                SQLLog.InsertLog(DateTime.Now,"From ProblemPage", data, "ErrorLogger.ashx.cs", 0, "nlubold");
+                SQLLog.InsertLog(DateTime.Now,"From ProblemPage", data, "ErrorLogger.ashx.cs", 0, userid);
 
             }
             catch(Exception error)
             {
-                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "ErrorLogger.ashx.cs", 0, "nlubold");
+                SQLLog.InsertLog(DateTime.Now, error.Message, error.ToString(), "ErrorLogger.ashx.cs", 0, userid);
             }
         }
 

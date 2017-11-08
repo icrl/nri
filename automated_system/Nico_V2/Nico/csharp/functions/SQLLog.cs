@@ -20,7 +20,7 @@ namespace Nico.csharp.functions
         public string FormName { get; set; }
         public string StackTrace { get; set; }
 
-        public static void InsertLog(DateTime logtime, string message, string stacktrace, string formname, int errorcode, string userid = "nlubold", int problemid = 1, int stepid = 1, int sessionid = 1)
+        public static void InsertLog(DateTime logtime, string message, string stacktrace, string formname, int errorcode, string userid = "none", int problemid = 1, int stepid = 1, int sessionid = 1)
         {
             string connetionString = null;
             SqlConnection connection;

@@ -327,6 +327,7 @@
     <Compile Include="csharp\functions\SQLProblemDesign.cs" />
     <Compile Include="csharp\functions\SQLProblemImg.cs" />
     <Compile Include="csharp\functions\SQLProblemText.cs" />
+    <Compile Include="csharp\functions\SQLConditionGenderInfo.cs" />
     <Compile Include="csharp\functions\SQLUserState.cs" />
     <Compile Include="csharp\MyHub.cs" />
     <Compile Include="handlers\DialogueEngine.ashx.cs">

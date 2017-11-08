@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>PROBLEM START 1</pattern>
+<template>I really want to go swimming with my friends. I need to put some waterproof paint on first though. I need help figuring out how much paint to put on my legs and torso. Can you give me a hint for how to figure out the first part, <set name="topic">STEP ONE</set>?</template>
+</category>
+
+<category>
+<pattern>next step 1 2</pattern>
+<template>So on <set name="topic">STEP TWO</set>, here, I need to figure out what the surface area of my torso is. What should I do first?</template>
+</category>
+
+<category>
+<pattern>prior step 1 1</pattern>
+<template>Okay. Back to <set name="topic">STEP ONE</set>.</template>
+</category>
+
+<category>
+<pattern>prior step 1 1 a</pattern>
+<template>Didn't I already <set name="topic">do step one</set>?</template>
+</category>
+
+<category>
+<pattern>next step 1 2 a</pattern>
+<template>Didn't I already <set name="topic">do step two</set>?</template>
+</category>
+
+<category>
+<pattern>1 1</pattern>
+<template><set name="topic">STEP ONE</set></template>
+</category>
+
+<category>
+<pattern>1 2</pattern>
+<template><set name="topic">STEP TWO</set></template>
+</category>
+
+
+
+<topic name = "DO STEP ONE">
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>I don't really understand why I'm back on step one cause we figured this out. It takes four fluid ounces of paints to cover my legs.</li>
+<li>Why am I back on step one for this problem? I already figured out that it is four fluid ounces.</li>
+<li>I should go to the next step or problem because I already know how to do this one.</li>
+<li>I'm bored. I already did this one.</li>
+<li>The answer is four isn't it?</li>
+<li>Why are am I here?</li>
+</random></template>
+</category>
+
+</topic>
+
+<topic name = "DO STEP TWO">
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>I don't really understand why I'm back on step two cause we figured this out. Six ounces of paint will cover eighteen square inches.</li>
+<li>Why am I back on step two for this problem? I already figured out that it is eighteen square inches.</li>
+<li>I should go to the next step or problem because I already know how to do this one.</li>
+<li>I already did this.</li>
+<li>The answer is eighteen isn't it?</li>
+ <li>Why are am I here?</li>
+</random></template>
+</category>
+
+</topic>
+
+
+<topic name = "PUT THE ANSWER IS EIGHTEEN">
+
+<category>
+<pattern>*</pattern>
+<template>Okay. To the next problem?</template>
+
+<category>
+<pattern>^ GREAT ^</pattern>
+<template>What's next?</template>
+</category>
+
+
+<category>
+<pattern>^ Good ^</pattern>
+<template>What's next?</template>
+</category>
+
+<category>
+<pattern>^ NEXT ^</pattern>
+<template>What's next?</template>
+</category>
+
+</category>
+
+</topic>
+
+<topic name = "put the answer is four">
+
+<category>
+<pattern>*</pattern>
+<template>Okay. Don't forget to touch the arrows to move us to the next step.</template>
+</category>
+
+<category>
+<pattern>^ GREAT ^</pattern>
+<template>What's next?</template>
+</category>
+
+
+<category>
+<pattern>^ Good ^</pattern>
+<template>What's next?</template>
+</category>
+
+<category>
+<pattern>^ NEXT ^</pattern>
+<template>What's next?</template>
+</category>
+
+
+</topic>
+
+
+</aiml>

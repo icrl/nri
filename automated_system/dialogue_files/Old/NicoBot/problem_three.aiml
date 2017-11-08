@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>PROBLEM START 3</pattern>
+<template>Thank you so much for helping me figure out how to make myself waterproof! But now I need help figuring out how to get to the pool! Can you help me figure out where and when I can stop to rest on <set name="topic">MY WAY THERE</set>?</template>
+</category>
+
+<category>
+<pattern>next step 3 2</pattern>
+<template>Can you give me a hint for <set name="topic">STEP TWO OF THIS THIRD PROBLEM</set>?</template>
+</category>
+
+<category>
+<pattern>next step 3 3</pattern>
+<template>Wow we're on <set name="topic">STEP THREE OF THIS THIRD PROBLEM</set>. How do we do this one?</template>
+</category>
+
+<category>
+<pattern>prior step 3 1</pattern>
+<template>So are you going to help me figure out how far my first stop is on <set name="topic">MY WAY THERE</set> to the pool?</template>
+</category>
+
+<category>
+<pattern>prior step 3 2</pattern>
+<template>Oh we're back on <set name="topic">STEP TWO OF THIS THIRD PROBLEM</set></template>
+</category>
+
+<category>
+<pattern>prior step 3 1 a</pattern>
+<template>Didn't we already <set name="topic">do step one for problem THREE</set>?</template>
+</category>
+
+<category>
+<pattern>prior step 3 2 a</pattern>
+<template>Didn't we already <set name="topic">do step two for problem THREE</set>?</template>
+</category>
+
+
+<category>
+<pattern>next step 3 2 a</pattern>
+<template>Didn't we already <set name="topic">do step two for problem THREE</set>?</template>
+</category>
+
+<category>
+<pattern>next step 3 3 a</pattern>
+<template>Didn't we already <set name="topic">do step three for problem THREE</set>?</template>
+</category>
+
+
+<category>
+<pattern>3 1</pattern>
+<template><set name="topic">STEP ONE OF THIS THIRD PROBLEM</set></template>
+</category>
+
+<category>
+<pattern>3 2</pattern>
+<template><set name="topic">STEP TWO OF THIS THIRD PROBLEM</set></template>
+</category>
+
+<category>
+<pattern>3 3</pattern>
+<template><set name="topic">STEP THREE OF THIS THIRD PROBLEM</set></template>
+</category>
+
+
+
+<topic name = "DO STEP ONE for PROBLEM THREE">
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>I don't really understand why we're back on step one cause we figured this out.</li>
+<li>Why are we back on step two for this problem? We already figured out that it is twenty five miles</li>
+<li>We should go to the next step or problem because I already know how to do this one.</li>
+<li>I'm bored. We already did this step.</li>
+<li>The answer is twenty five isn't it?</li>
+<li>Why are we here?</li>
+</random></template>
+</category>
+
+</topic>
+
+<topic name = "DO STEP TWO for PROBLEM THREE">
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>I don't really understand why we're back on step two cause we figured this out. After thirty miles, I will have been traveling for five hours.</li>
+<li>Why are we back on step two for this problem? We already figured out that after thirty miles I will have been traveling for five hours.</li>
+<li>We should go to the next step or problem because I already know how to do this one.</li>
+<li>I'm bored. We already did this step.</li>
+<li>The answer is five hours isn't it?</li>
+<li>Why are we here?</li>
+</random></template>
+</category>
+
+</topic>
+
+<topic name = "DO STEP THREE for PROBLEM THREE">
+
+<category>
+<pattern>*</pattern>
+<template><random>
+<li>I don't really understand why we're back on step three cause we figured this out. After six hours I will have traveled six hundred and fifty miles.</li>
+<li>Why are we back on step three for this problem? We already figured out that it is six hundred and fifty miles.</li>
+<li>We should go to the next step or problem because I already know how to do this one.</li>
+<li>I'm bored. We already did this step.</li>
+<li>The answer is six hundred and fifty miles isn't it?</li>
+<li>Why are we here?</li>
+</random></template>
+</category>
+
+</topic>
+
+
+
+</aiml>

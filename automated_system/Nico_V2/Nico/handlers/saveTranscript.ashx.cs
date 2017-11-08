@@ -27,6 +27,7 @@ namespace Nico.handlers
         public void ProcessRequest(HttpContext context)
         {
             string path1 = context.Request.PhysicalApplicationPath;
+            string userid = HttpContext.Current.User.Identity.Name;
             string line = "";
             string image = "";
             string imagePath = "";
@@ -40,9 +41,8 @@ namespace Nico.handlers
                         line = new StreamReader(context.Request.InputStream).ReadToEnd();
                     }
 
-                    string username = "nlubold";
                     string formatFileName = string.Format("{0}-{1:yyyy-MM-dd_hh-mm-ss-tt}", "transcript", DateTime.Now);
-                    string fullPath = path1 + "data\\transcripts\\" + username + "_" + formatFileName + ".txt";
+                    string fullPath = path1 + "data\\transcripts\\" + userid + "_" + formatFileName + ".txt";
                     StreamWriter transcriptFile = new StreamWriter(fullPath);
                     transcriptFile.Write(line);
                     transcriptFile.Close();

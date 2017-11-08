@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<topic name = "I swim this fast">
+
+<category>
+<pattern>^ look at ^</pattern>
+<template>So the pool is eighty feet. Can I figure out how long it took me to go eighty feet? How do I do that? </template>
+</category>
+
+<category>
+<pattern>^ Step Zero ^</pattern>
+<template>So if I use step zero again, I can figure out how long it took me to go eighty feet? How do I do that?</template>
+</category>
+
+<category>
+<pattern>^ last time ^</pattern>
+<template>So I do the same thing again and use the one over four? </template>
+</category>
+
+<category>
+<pattern>^ using ^ time ^</pattern>
+<template>Based on the time it took me to go 10 feet, I can figure out how long it took me to go 80 feet. But how do I do that?</template>
+</category>
+
+<category>
+<pattern>^ ratio ^</pattern>
+<template>So I can use the ratio of the time it takes me to swim 10 feet, similar to the last problem. How do I do that?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How do I do that</that>
+<template>Okay if I multiply one times eighty, that gives eighty. And then I can divide eighty by four.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So I do the same thing again and use the one over four</that>
+<template>Okay if I multiply one times eighty, that gives eighty. And then I can divide eighty by four.</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>And then I can divide eighty by four</that>
+<template>Okay! I'll put the answer is twenty. </template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^ </pattern>
+<template>I think the answer is twenty? How did I get twenty again? </template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>How did I get twenty again</that>
+<template>I'll put the answer is twenty.</template>
+</category>
+
+<category>
+<pattern>^ TWENTY ^</pattern>
+<template>I think the answer is twenty? How did I get twenty again?</template>
+</category>
+
+<category>
+<pattern>^ SAME ^ </pattern>
+<template>So I do the same thing again and use the one over four? </template>
+</category>
+
+
+</topic>
+
+
+
+</aiml>

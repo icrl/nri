@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+  <topic name = "seven bags of candy">
+
+    <category>
+      <pattern>^ MULTIPLY ^</pattern>
+      <template>Cool beans! I think I'm getting this! Let me guess. We multiply one times seven hundred and seventy?</template>
+    </category>
+
+    <category>
+      <pattern>^ CROSS ^ MULTIPLY ^</pattern>
+      <template>Cool beans! I think I'm getting this! Let me guess. We multiply one times seven hundred and seventy?</template>
+    </category>
+
+    <category>
+      <pattern>^ YES ^</pattern>
+      <that>We multiply one times seven hundred and seventy</that>
+      <template>Ha! I knew I was beginning to get this! It's because you are a great tutor. So seven hundred and seventy times one is seven hundred and seventy. Then what do we do?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>We multiply one times seven hundred and seventy</that>
+      <template>Sweet! Then what do we do, <bot name="username" />? </template>
+    </category>
+
+    <category>
+      <pattern>^ OVER ^</pattern>
+      <template>So like the last two steps, we have one over one hundred and ten. And this equals seven over something right?</template>
+    </category>
+
+    <category>
+      <pattern>^ MULTIPLY ^</pattern>
+      <that>And this equals seven over something right</that>
+      <template>Cool beans! I think I'm getting this! Let me guess. We multiply one times seven hundred and seventy?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>And this equals seven over something right</that>
+      <template>Cool beans! I think I'm getting this! Then what do we do?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>We multiply one times seven hundred and seventy</that>
+      <template>So cool! Then what do we do? </template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>Then what do we do</that>
+      <template>So cool! Okay! I think I get it. So we should probably divide seven hundred and seventy by one hundred and ten? But. Can you tell me why we divide?</template>
+    </category>
+    
+    
+    <category>
+      <pattern>^ DIVIDE ^ </pattern>
+      <that>And this equals seven over something right</that>
+      <template>So cool! I think I get it. But. Can you tell me why we divide? </template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>Can you tell me why we divide</that>
+      <template>
+        Awesome! So for seven hundred and seventy candies I should buy seven bags! That should be enough for my friends! I will get some for you too! I will <set name="topic">put the answer is seven</set>.
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>^ ratio ^</pattern>
+      <template>Okay so just like the last two steps. We're going to set a ratio?</template>
+    </category>
+
+    <category>
+      <pattern>^ YES ^</pattern>
+      <that>We are going to set a ratio</that>
+      <template>Okay great! So what do we do first then?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>So what do we do first then</that>
+      <template>Sweet! Sounds great! Then what do we do?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>We are going to set a ratio</that>
+      <template>Sounds great! So I am thinking. What do you think about dividing?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>What do you think about dividing</that>
+      <template>I like your way of thinking! Then what do we do?</template>
+    </category>
+
+    
+    <category>
+      <pattern>^ WHAT IS SEVEN TIMES ONE HUNDRED AND TEN ^</pattern>
+      <template>You do ask really good questions! So I think one hundred and ten times seven bags of candy is seven hundred and seventy! What does this tell us though?</template>
+    </category>
+
+    <category>
+      <pattern>^ WHAT IS SEVEN TIMES ONETEN ^</pattern>
+      <template>You do ask really good questions! So I think one hundred and ten times seven bags of candy is seven hundred and seventy! What does this tell us though?</template>
+    </category>
+    
+    <category>
+      <pattern>_</pattern>
+      <that>What does this tell us though</that>
+      <template>
+        Great! Okay! So then for seven hundred and seventy candies I should buy seven bags! That should be enough for my friends! I will get some for you too! I will <set name="topic">put the answer is seven</set>.
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>^ WHAT IS ONE HUNDRED AND TEN TIMES SEVEN ^</pattern>
+      <template>You do ask really good questions! So I think one hundred and ten times seven bags of candy is seven hundred and seventy! What does this tell us though?</template>
+    </category>
+
+    <category>
+      <pattern>^ ONE HUNDRED AND TEN ^ TIMES ^ SEVEN</pattern>
+      <template> You do ask really good questions! So I think one hundred and ten times seven bags of candy is seven hundred and seventy! What does this tell us though?</template>
+    </category>
+
+    <category>
+      <pattern>^ ONE HUNDRED AND TEN ^ MULTIPLIED ^ SEVEN</pattern>
+      <template>Good point! So I think one hundred and ten times seven bags of candy is seven hundred and seventy! What does this tell us though?</template>
+    </category>
+
+    <category>
+      <pattern>^ WHAT IS ONETEN TIMES SEVEN ^</pattern>
+      <template>You do ask really good questions! So I think one hundred and ten times seven bags of candy is seven hundred and seventy! What does this tell us though?</template>
+    </category>
+
+    <category>
+      <pattern>^ ONETEN ^ TIMES ^ SEVEN</pattern>
+      <template> You do ask really good questions! So I think one hundred and ten times seven bags of candy is seven hundred and seventy! What does this tell us though?</template>
+    </category>
+
+    <category>
+      <pattern>^ ONETEN ^ MULTIPLIED ^ SEVEN</pattern>
+      <template>Good point! So I think one hundred and ten times seven bags of candy is seven hundred and seventy! What does this tell us though?</template>
+    </category>
+
+
+    <category>
+      <pattern>^ DIVIDE ^ SEVEN HUNDRED AND SEVENTY </pattern>
+      <template>Good point! So I think seven hundred and seventy divided by one hundred and ten is seven. What does this tell us though?</template>
+    </category>
+
+    <category>
+      <pattern>^ DIVIDE SEVEN HUNDRED AND SEVENTY ^</pattern>
+      <template>Good point! So I think seven hundred and seventy divided by one hundred and ten is seven. What does this tell us though?</template>
+    </category>
+
+    <category>
+      <pattern>^ WHAT IS SEVEN HUNDRED AND SEVENTY DIVIDED BY ONE HUNDRED AND TEN^</pattern>
+      <template>You do ask really good questions! So I think seven hundred and seventy divided by one hundred and ten is seven. What does this tell us though?</template>
+    </category>
+
+  
+    <category>
+      <pattern>^ seven ^</pattern>
+      <template>
+        Okay <bot name="username" />. I almost have this! The answer is seven? Can you explain more?
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>^ ONE ^ TO ^ ONETEN ^ </pattern>
+      <template>Okay so just like the last two steps. We're going to set a ratio?</template>
+    </category>
+
+    <category>
+      <pattern>^ ANSWER ^ Seven  ^</pattern>
+      <template>
+        Okay <bot name="username" />. I almost have this! The answer is seven? Can you explain more?
+      </template>
+    </category>
+
+    <category>
+      <pattern>YES</pattern>
+      <that>Can you explain more</that>
+      <template>Awesome! I'm listening.</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>I am listening</that>
+      <template>
+        Awesome! So for seven hundred and seventy candies I should buy seven bags! That should be enough for my friends! I will get some for you too! I will <set name="topic">put the answer is seven</set>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>Can you explain more</that>
+      <template>
+        Awesome! So for seven hundred and seventy candies I should buy seven bags! That should be enough for my friends! I will get some for you too! I will <set name="topic">put the answer is seven</set>.
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>DO YOU NOT KNOW</pattern>
+      <template>I really don't know! Maybe we start by multiplying something?</template>
+    </category>
+
+    <category>
+      <pattern>I AM NOT SURE</pattern>
+      <template>Me either! Maybe we start by multiplying something?</template>
+    </category>
+
+    <category>
+      <pattern>I DO NOT KNOW</pattern>
+      <template>Me either! Maybe we start by multiplying something?</template>
+    </category>
+
+    <category>
+      <pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+      <template>Okay that sounds good. So what do we do?</template>
+    </category>
+
+
+    <category>
+      <pattern>^ FIGURE IT OUT ^</pattern>
+      <template>That's funny. Did you say figure it out? I'm not sure how! Help me!</template>
+    </category>
+
+    <category>
+      <pattern>^ I WILL ^</pattern>
+      <that>Help me</that>
+      <template>Thank you, you're the best. So what do we do?</template>
+    </category>
+
+    <category>
+      <pattern>*</pattern>
+      <that>Help me</that>
+      <template>You're the best. So what do we do?</template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>So what do we do</that>
+      <template>Sweet! Are you thinking we divide seven hundred and seventy by one hundred and ten? I like multiplying better than dividing. Can you tell me why we divide?</template>
+    </category>
+
+
+    <category>
+      <pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+      <template>Did you ask do I know what to do next?</template>
+    </category>
+
+    <category>
+      <pattern>^ YES ^</pattern>
+      <that>Did you ask do I know what to do next</that>
+      <template>I'm really not sure actually! I know I should. I'm sorry. Help me!</template>
+    </category>
+
+
+    <category>
+      <pattern>*</pattern>
+      <that>Did you ask do I know what to do next</that>
+      <template>I'm really not sure actually! I know I should. I'm sorry. Help me!</template>
+    </category>
+
+    <category>
+      <pattern>^ ANSWER ^</pattern>
+      <template>
+        Okay <bot name="username" />. I almost have this! I think the answer is seven? I'm not sure how I know that though.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_</pattern>
+      <that>I am not yes how I know that though</that>
+      <template>
+        Maybe! Either way seven hundred and seventy candies should be enough for my friends! I will get some for  you too! I will <set name="topic">put the answer is seven</set>.
+      </template>
+    </category>
+
+
+  </topic>
+
+
+</aiml>

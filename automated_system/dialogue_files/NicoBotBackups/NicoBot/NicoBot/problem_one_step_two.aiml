@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+<topic name = "STEP TWO">
+
+<category>
+<pattern>What is six divided by two</pattern>
+<template>Great question! So. Six divided by two is three. Why would we do that?</template>
+</category>
+
+<category>
+<pattern>^ HOW MUCH PAINT ^</pattern>
+<template>Sweet! So we are looking at how much paint I need for my torso. So what do we do?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLICATION ^</pattern>
+<template>Sweet! So this is a multiplication problem. So we can look at what times two equals six. So what do we do?</template>
+</category>
+
+<category>
+<pattern>^ DIVISION ^</pattern>
+<template>Okay cool! We can look at the six and two. So what do we do?</template>
+</category>
+
+
+<category>
+<pattern>^ DIVIDE ^ SIX ^ TWO ^</pattern>
+<that>SO WHAT DO WE DO</that>
+<template>Awesome! Do we divide six by two? Why do we do that?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+<that>SO what do we do</that>
+<template>Oh yes! We should multiply! Thank you <bot name="username" />. Two times three is six. Then what do we do?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>SO WHAT DO WE DO</that>
+<template>Awesome! So I'm thinking we should divide six by two but I'm not sure. Why would we do that?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>WHY DO WE DO THAT</that>
+<template>Aha that makes sense! So. Six divided by two is three. Then what do we do?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Why would we do that</that>
+<template>Aha that makes sense! So. Six divided by two is three. Then what do we do?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>Eighteen is three times more than six</that>
+<template>Hurray! That means my torso is eighteen inches! I am going to put the answer is eighteen. </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Then what do we do</that>
+<template>Okay! I'm thinking. So what if we multiply six times three?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>So what if we multiply six times three</that>
+<template>Wonderful! So does that mean my torso has a surface area of eighteen inches? Am I right?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>AM I RIGHT</that>
+<template>Sweet!  I will put the answer is eighteen</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>AM I RIGHT</that>
+<template>Really? Are you sure? I think I will put the answer is eighteen anyway.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>AM I RIGHT</that>
+<template>Yay! I think I will put the answer is eighteen.</template>
+</category>
+
+
+<category>
+<pattern>^ TORSO ^</pattern>
+<template>Great! So if we look at how much paint we need for my feet and how much paint we need for my torso. We can figure out how much surface area that is? How do we do that?</template>
+</category>
+
+<category>
+<pattern>^ TWO ^</pattern>
+<template>So two times three is six, right? So we can use that to figure out the answer. How do we do that?</template>
+</category>
+
+<category>
+<pattern>^ TWELVE ^</pattern>
+<template>So I'm not sure how the twelve helps us. But it makes sense to do something similar but in reverse to what we did in the first step. How do we do that?</template>
+</category>
+
+<category>
+<pattern>^ SIX ^</pattern>
+<that>How do we do that</that>
+<template>Oh okay! This is starting to make sense! So we know, I guess, that two goes into six three times. Does that mean. We have three times as much paint?</template>
+</category>
+
+<category>
+<pattern>^ TWO ^</pattern>
+<that>How do we do that</that>
+<template>Oh okay! This is starting to make sense! So we know, I guess, that two goes into six three times. Does that mean. We have three times as much paint?</template>
+</category>
+
+<category>
+<pattern>^ THREE ^</pattern>
+<that>How do we do that</that>
+<template>Oh okay! This is starting to make sense! So we know, I guess, that two goes into six three times. Does that mean. We have three times as much paint?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>How do we do that</that>
+<template>Oh okay! This is starting to make sense! So we know, I guess, that two goes into six three times. Does that mean. We have three times as much paint?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>We have three times as much paint</that>
+<template>Sweet! So we need three times as much surface area. Should we multiply the surface area of six inches times three?</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>We have three times as much paint</that>
+<template>Oh? You don't think we have three times as much paint? And so three times as much surface area? Isn't that what you were telling me?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Is not that what you were telling me</that>
+<template>Should we multiply the surface are of six inches times three?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>We have three times as much paint</that>
+<template>Sweet! So we need three times as much surface area. Should we multiply the surface area of six inches times three?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Should we multiply the surface area of six inches times three</that>
+<template>Awesome! Six times three is eighteen. So is the answer eighteen?</template>
+</category>
+
+<category>
+<pattern>^ NO ^</pattern>
+<that>Should we multiply the surface area of six inches times three</that>
+<template>Oh? You don't think we have three times as much paint? And so three times as much surface area? Isn't that what you were telling me?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Should we multiply the surface area of six inches times three</that>
+<template>Awesome! Six times three is eighteen. So is the answer eighteen?</template>
+</category>
+
+<category>
+<pattern>^ VOLUME ^</pattern>
+<template>Sweet! So we know the volume of paint for my torso but we need the surface area. What do we do?</template>
+</category>
+
+<category>
+<pattern>^ FEET ^</pattern>
+<template>Okay! Lets start with my feet! To figure out how big my torso is. We can look at how much paint we need for my feet. What do we do?</template>
+</category>
+
+
+<category>
+<pattern>^ SIX ^</pattern>
+<that>What do we do</that>
+<template>Oh okay! This is starting to make sense! So we know, I guess, that two goes into six three times. Does that mean. We have three times as much paint?</template>
+</category>
+
+<category>
+<pattern>^ TWO ^</pattern>
+<that>What do we do</that>
+<template>Oh okay! This is starting to make sense! So we know, I guess, that two goes into six three times. Does that mean. We have three times as much paint?</template>
+</category>
+
+<category>
+<pattern>^ THREE ^</pattern>
+<that>What do we do</that>
+<template>Oh okay! This is starting to make sense! So we know, I guess, that two goes into six three times. Does that mean. We have three times as much paint?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>What do we do</that>
+<template>Oh okay! This is starting to make sense! So we know, I guess, that two goes into six three times. Does that mean. We have three times as much paint?</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ SIX ^ FOUR ^</pattern>
+<template>Are you saying divide the six by four? That seems complicated.</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^ TWO ^</pattern>
+<template>Good point! But what do we multiply two by? </template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>But what do we multiply two by</that>
+<template>Oh okay! I was thinking that if we multiply two by three, that gives us six. Six ounces of paint. So. We have three times as much paint?</template>
+</category>
+
+<category>
+<pattern>^ MEASURE ^</pattern>
+<template>Measure my torso? We should use math!</template>
+</category>
+
+<category>
+<pattern>^ DIVIDE ^ SIX ^ TWO ^</pattern>
+<template>Right on! So we divide six by two? Why do we do that?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^ SIX ^ THREE </pattern>
+<template>Aha! If we multiply six times three, that's eighteen. Why do we multiply six times three?</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Why do we multiply six times three</that>
+<template>Oh brilliant! I get it. So we have three times as much paint so then we need three times as much surface area. Which is eighteen! I will put the answer is eighteen.</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^ EIGHTEEN ^</pattern>
+<template>Sweet! The surface area of my torso is eighteen square inches. Can you explain a little bit more about why though?</template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>Can you explain a little bit more about why though</that>
+<template>Awesome! I'm listening.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>I am listening</that>
+<template>Great! I think I get it. I will put the answer is eighteen.</template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>Can you explain a little bit more about why though</that>
+<template>Great! I think I get it. I will put the answer is eighteen.</template>
+</category>
+
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>I really don't know! Maybe we start by dividing six by three?</template>
+</category>
+
+<category>
+<pattern>I AM NOT SURE</pattern>
+<template>Me either! Maybe we look at the six and the two?</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>Me either! Maybe we should look at the six and the two?</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds good. So what do we do?</template>
+</category>
+
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>That's funny. Did you say figure it out? I'm not sure how! Help me!</template>
+</category>
+
+<category>
+<pattern>^ I WILL ^</pattern>
+<that>Help me</that>
+<template>Thank you, you're the best. So what do we do?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Help me</that>
+<template>You're the best. So what do we do?</template>
+</category>
+
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you ask do I know what to do next</that>
+<template>I'm really not sure actually! I know I should. I'm sorry. Help me!</template>
+</category>
+
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template>I'm really not sure actually! I know I should. I'm sorry. Help me!</template>
+</category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>Based on what I know from the last step, I have a strong hunch that the surface area of my torso is eighteen square inches. I'm not sure if I'm right though. What do you think?</template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>What do you think</that>
+<template>Yay! I think I will put the answer is eighteen.</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THREE TIMES TWO</pattern>
+<template>Good question! Three times two is six. So six divided by two is three. Then what do we do?</template>
+</category>
+
+<category>
+<pattern>WHAT IS TWO TIMES THREE</pattern>
+<template>Great question! I know this! Three times two is six. So six divided by two is three. Then what do we do? </template>
+</category>
+
+<category>
+<pattern>^ THREE ^ DIVIDED ^ TWO</pattern>
+<template>Excellent! I know this! Six divided by two is three. Then what do we do?</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THREE TIMES SIX</pattern>
+<template>What a great question! I think three times six is eighteen. So I guess the surface area of my torso is eighteen inches? But. How do we really know that? </template>
+</category>
+
+<category>
+<pattern>^ THREE ^ TIMES ^ SIX</pattern>
+<template>Three times six is eighteen. So I guess the surface area of my torso is eighteen inches? But. How do we really know that? </template>
+</category>
+
+<category>
+<pattern>WHAT IS ^ THREE ^ SIX ^</pattern>
+<template>Three times six is eighteen. So I guess the surface area of my torso is eighteen inches? But. How do we really know that? </template>
+</category>
+
+<category>
+<pattern>^ SIX ^ TIMES ^ THREE</pattern>
+<template>Three times six is eighteen. So I guess the surface area of my torso is eighteen inches? But. How do we really know that? </template>
+</category>
+
+<category>
+<pattern>WHAT IS ^ SIX ^ THREE ^</pattern>
+<template>Three times six is eighteen. So I guess the surface area of my torso is eighteen inches? But. How do we really know that? </template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>How do we really know that</that>
+<template>Okay! I think I get it. So is the answer eighteen?</template>
+</category>
+
+</topic>
+
+
+
+</aiml>
