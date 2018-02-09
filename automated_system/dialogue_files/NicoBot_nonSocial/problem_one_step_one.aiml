@@ -559,7 +559,35 @@
 </template>
 </category>
 
-<category>
+  <category>
+    <pattern>^ TIMES ^ </pattern>
+    <template>
+      <random>
+        <li>So I am going to multiply? How do you know that I multiply? </li>
+      </random>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>^ What is six times two</pattern>
+    <template>
+      <random>
+        <li>So I am going to multiply? How do you know that I multiply? </li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>^ What is six ^ two ^</pattern>
+    <template>
+      <random>
+        <li>So I am going to multiply? How do you know that I multiply? </li>
+      </random>
+    </template>
+  </category>
+
+  <category>
 <pattern>^ TWO ^</pattern>
 <that>How do you know that I multiply</that>
 <template>Okay six times two is twelve. So then. I multiply two times two?</template>
@@ -591,7 +619,7 @@
 
 <category>
 <pattern>^ SIX TIMES TWO ^ WHAT ^ </pattern>
-<template>Six times two is three </template>
+<template>Six times two is twelve </template>
 </category>
 
 <category>
@@ -601,13 +629,13 @@
 
 <category>
 <pattern>^ SIX MULTIPLIED ^ THREE ^ </pattern>
-<template>Six times two is three. Then what do I do? </template>
+<template>Six times two is twelve. Then what do I do? </template>
 </category>
 
 
 <category>
 <pattern>^ SIX TIMES THREE ^ WHAT ^ </pattern>
-<template>Six times two is three. Then what do I do? </template>
+<template>Six times two is twelve. Then what do I do? </template>
 </category>
 
 <category>
@@ -678,6 +706,11 @@
 <template>Okay. I divide. I divide twelve by three?</template>
 </category>
 
+  <category>
+    <pattern>^ DIVIDE ^ TWELVE ^ SIX ^</pattern>
+    <template>So I divide twelve by six?</template>
+  </category>
+  
 <category>
 <pattern>^ YES ^</pattern>
 <that>I divide twelve by three</that>
@@ -693,7 +726,7 @@
 
 <category>
 <pattern>^ MULTIPLY ^ TWO ^</pattern>
-<template>Okay so we're going to multiply by two. How do you know I multiply?</template>
+<template>Okay so we're going to multiply by two. How do you know that I multiply?</template>
 </category>
 
 <category>

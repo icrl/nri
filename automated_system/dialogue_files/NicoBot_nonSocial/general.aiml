@@ -571,7 +571,14 @@
 
   <category>
     <pattern>^ WHAT IS ^</pattern>
-    <template>I might know but I need to think about it. Ask me again but differently?</template>
+    <template>
+      <random>
+        <li>I might know but I need to think about it. Ask me again but differently?</li>
+        <li>I am not sure actually. Can you explain why I would do that?</li>
+        <li>I don't remember right now. Maybe I can skip that step?</li>
+        <li>I don't know. Can you tell me what it is?</li>
+        <li>I'm really not sure. Is there something we can do instead?</li>
+      </random></template>
   </category>
 
   <category>
