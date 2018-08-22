@@ -6,11 +6,10 @@ Setting up the Nao robot and chatbot APIs.
 
 (Assumption that this is being run on a Windows machine)
 
-Step 1. Download Python 2.7
-Step 2. Install Nao robot Python SDK (http://doc.aldebaran.com/1-14/dev/python/index.html)
-Step 3. Install Pandora bot API (https://github.com/pandorabots/pb-python)
+Step 1. Download Python 2.7; keep the default installation so that it is installed to the top level of the C directory (i.e. C:\Python27)
+Step 2. If using the robot version, install Nao robot Python SDK (http://doc.aldebaran.com/1-14/dev/python/index.html)
+Step 3. Install the Pandora bot API (https://github.com/pandorabots/pb-python)
 Step 4. Download the folder labeled NaoNRIPrograms and put this in C:\Python27\
-Step 5. Open nico_move_speak.py and change the IP address to that of your Nao robot
 
 -------------------------------------------------
 
@@ -30,4 +29,14 @@ Trouble-shooting for SQL user access:
 
 -------------------------------------------------
 
-Once the above steps have been completed, open the project in Visual Studio Express and run it.
+Once the above steps have been completed, open the project in Visual Studio Express, build it, and run it in Chrome.
+
+Once the application is running:
+* In Chrome, you should receive a login page. Login with nlubold, pwd. 
+* Go to 'About' and select the appropriate settings
+* If you are using the Agent version, open in a separate browser window a page pointing to /aspx/Agent.aspx. 
+* In the main window, go to 'Teach Emma'
+
+Current open items / issues:
+* when moving from step to step or problem to problem, the new audio isn't always written before the audio play is called so it's playing the previous utterance a second time instead of the new
+* agent interface needs to be updated
